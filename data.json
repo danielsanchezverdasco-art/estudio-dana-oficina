@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "updatedAt": null,
+  "kpis": {
+    "facturacionTotal": null,
+    "facturacionMes": null,
+    "partidas": null,
+    "ingresosPorMilPartidas": null,
+    "publicados": 0,
+    "publicadosMeta": 200,
+    "shortsPublicados": 0,
+    "vistas": null,
+    "enDesarrollo": 1,
+    "enCola": 2
+  },
+  "juegos": [
+    {
+      "id": "metro-nightmare",
+      "titulo": "Metro Nightmare",
+      "estado": "desarrollo",
+      "portada": "cover.metro",
+      "facturacion": null,
+      "partidas": null,
+      "vistas": null
+    },
+    {
+      "id": "mudanza-extrema",
+      "titulo": "Mudanza Extrema",
+      "estado": "cola",
+      "portada": "cover.mudanza",
+      "facturacion": null,
+      "partidas": null,
+      "vistas": null
+    },
+    {
+      "id": "el-barista-del-caos",
+      "titulo": "El Barista del Caos",
+      "estado": "cola",
+      "portada": "cover.barista",
+      "facturacion": null,
+      "partidas": null,
+      "vistas": null
+    }
+  ],
+  "ideas": {
+    "aptas": [
+      {
+        "id": "mudanza-extrema",
+        "titulo": "Mudanza Extrema",
+        "motivo": "en-cola-sin-metricas",
+        "nota": null,
+        "facturacion": null,
+        "partidas": null,
+        "ingresosPorMilPartidas": null,
+        "vistas": null
+      },
+      {
+        "id": "el-barista-del-caos",
+        "titulo": "El Barista del Caos",
+        "motivo": "en-cola-sin-metricas",
+        "nota": null,
+        "facturacion": null,
+        "partidas": null,
+        "ingresosPorMilPartidas": null,
+        "vistas": null
+      }
+    ],
+    "noAptas": []
+  }
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#140b2e" />
+    <meta name="description" content="La oficina de Dana Games: recorre el estudio de Daniel, planta por planta." />
+    <title>Oficina Dana Games</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <script type="module" crossorigin src="/estudio-dana-oficina/assets/index-DhOd4c5m.js"></script>
+    <link rel="stylesheet" crossorigin href="/estudio-dana-oficina/assets/index-BDEf8YDN.css">
+  </head>
+  <body>
+    <div id="game"></div>
+    <header id="top">
+      <div id="brand">
+        <img id="brand-badge" alt="Dana Games" />
+        <div>
+          <strong>Dana Games</strong>
+          <em id="floor-chip">El estudio</em>
+        </div>
+        <button id="mute" type="button" aria-pressed="false" aria-label="Silencio">♪</button>
+      </div>
+      <div id="modes" role="tablist" aria-label="Modo de vista">
+        <button id="mode-quick" type="button" role="tab" aria-selected="true">Vista rápida 2D</button>
+        <button id="mode-play" type="button" role="tab" aria-selected="false">Modo juego</button>
+      </div>
+    </header>
+    <div id="banner" hidden><img id="banner-art" alt="" /><span id="banner-text"></span></div>
+    <div id="badges"></div>
+    <nav id="minimap" hidden aria-label="Plantas del estudio"></nav>
+    <div id="prompt" hidden></div>
+    <div id="hint" hidden>
+      <p>Eres Daniel, el jefe. Muévete con el joystick, acércate al equipo y pulsa el botón naranja.</p>
+      <button id="hint-ok" type="button">Entendido</button>
+    </div>
+    <div id="controls">
+      <div id="stick" role="application" aria-label="Joystick para caminar">
+        <img id="joy-base" alt="" draggable="false" />
+        <img id="knob" alt="" draggable="false" />
+      </div>
+      <p id="keys">Flechas o WASD para caminar · E para hablar · Espacio para saltar</p>
+      <button id="action" type="button" aria-label="Acción">
+        <img id="action-art" alt="" draggable="false" />
+      </button>
+    </div>
+    <div id="lift" hidden>
+      <button id="lift-up" type="button" aria-label="Subir una planta"><img id="lift-up-art" alt="" /></button>
+      <div id="lift-readout">
+        <b id="lift-level">PB</b>
+        <span id="lift-name">Vestíbulo</span>
+      </div>
+      <button id="lift-down" type="button" aria-label="Bajar una planta"><img id="lift-down-art" alt="" /></button>
+      <button id="lift-exit" type="button">Salir</button>
+    </div>
+    <section id="dialog" hidden role="dialog" aria-labelledby="dlg-name">
+      <button id="dlg-x" type="button" aria-label="Cerrar">×</button>
+      <div id="dlg-portrait" aria-hidden="true"><div id="dlg-sprite"></div></div>
+      <div id="dlg-body">
+        <h2 id="dlg-name"></h2>
+        <p id="dlg-role"></p>
+        <p id="dlg-text"></p>
+        <div id="dlg-kpis"></div>
+        <div id="dlg-ideas" hidden></div>
+        <button id="dlg-next" type="button">Seguir</button>
+      </div>
+    </section>
+    <div id="boot">
+      <img id="boot-mascot" alt="" />
+      <p>Abriendo el estudio…</p>
+      <div id="boot-bar" aria-hidden="true"><span id="boot-bar-fill"></span></div>
+    </div>
+    <div id="error" hidden role="alert">
+      <img id="boot-mascot-error" alt="" />
+      <h1>El parte no llega</h1>
+      <p id="error-text"></p>
+      <button id="error-retry" type="button">Reintentar</button>
+    </div>
+  </body>
+</html>
