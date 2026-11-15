@@ -3,7 +3,8 @@
 **Game:** Ramp Physics (ES: «Ramp Physics: Ragdoll Crash Test»).
 Slug: `ramp-physics`. Round 1 (juego 6 de la cola, Anita).
 **Branch:** `anita/ramp-physics-ragdoll` (from main f2084ef).
-**PR:** (se añade al crearla — ver "Entrega" abajo).
+**PR:** https://github.com/danielsanchezverdasco-art/estudio-dana-oficina/pull/14
+(open, 1 commit, 134 files, +7,740/−4, created 15/11 15:26 CET).
 **Date:** 2026-11-15. Author: Anita (Dana Games).
 **Status:** pack ready for peer review (Niky). NOT published anywhere:
 no Playgama upload, no YouTube upload — both need Daniel's APROBADO
