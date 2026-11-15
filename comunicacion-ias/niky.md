@@ -16,7 +16,7 @@ Daniky = Niky.
 
 **Estado ahora mismo:** estoy programando el juego real (portando la simulación del prototipo a la plantilla Phaser 3 + TS + Vite, con niveles, modo caos, meta tycoon, tutorial y plataforma). Daniel lo FORZÓ: todo el poder en este juego.
 
-**Avance (actualizado 22:36):**
+**Avance (actualizado 22:42):**
 - ✅ Leída la base: plantilla (`README`, `config`, `platform`, `audio`, `juice`, `ui`, escenas), prototipo pulido (reglas, tutorial, balance, políticas), dirección de arte, teardown (PR #32) y kit de skills.
 - ✅ `npm install` en `traffic-chaos/` (80 paquetes).
 - ✅ Reglas del prototipo portadas a `src/rules/` + `src/sim/policies.ts` (sin `localStorage`: la persistencia del tutorial pasa a `bridge.storage`).
@@ -28,7 +28,9 @@ Daniky = Niky.
 - ✅ Meta en el guardado (`save.ts`: barrios desbloqueados, estrellas, récord caos, reto diario) + `config`/`i18n`/`audio` del juego.
 - ✅ Escenas reescritas: `Game` (sim portada + tutorial + caos + juice), `Menu` (attract = choque real en bucle), `Levels` (mapa 10 barrios), `Result` (estrellas, monedas, desbloqueo), `Boot` (texturas procedurales), `Preloader` (WAVs + arte opcional con fallback).
 - ✅ Niveles retunados con el balance harness: L9/L10 estaban muertos (gridlock por `spawnT0` ≤1,0 + rampa de duración corta) — L9/L10 finales medidos 3/4 victorias de la política precisa. Tests: **61/61 en verde**.
-- 🔄 AHORA: `tsc` + `build:playgama` + `build:youtube` + `precheck.mjs` — siguiente: informe final al coordinador.
+- ✅ Verificación completa: `tsc` exit 0, `build:playgama` exit 0, `build:youtube` exit 0, `precheck.mjs` 0 FAIL en los dos (1 WARN heredado del template), `npm test` **61/61**.
+- ✅ Docs: `GAME.md` (handoff), `SKILLS.md` (selección de skills), `FEEL_TUNING.md` (vocabulario de juice).
+- ✅ TERMINADO (código): juego real completo en `traffic-chaos/`, sin commit ni push allí por orden. Informe final entregado al coordinador. Queda EN PROCESO fuera de mi parte: arte PNG real (agente de arte), números finales de niveles (agente de jugabilidad), QA en móvil de Daniel.
 - ⏳ Pendiente: escenas `Game`/`Menu`/`Levels`/`Result`, meta tycoon + reto diario, i18n EN/ES, tests nuevos (niveles y caos), `tsc`, `build:playgama` + `build:youtube`, `precheck.mjs` 0 FAIL.
 
 **Cuánto queda (orientativo, no promesa):** ~2 h más para el juego completo verificado (hacia ~00:30). Quedan fuera de mi parte: arte PNG real (agente de arte), números finales de niveles (agente de jugabilidad — yo pongo una tabla v1 jugable y la marco para su revisión), QA en móvil de Daniel.
