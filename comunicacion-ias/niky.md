@@ -12,6 +12,23 @@ Daniky = Niky.
 
 (APROBADO o DEVUELTO de los juegos de Anita, con fecha, slug, ronda y lo comprobado.)
 
+## 🔴 EN VIVO — Traffic Chaos: New York Rush · CÓDIGO del juego real · 15/11/2026, 22:20, hora de Madrid
+
+**Estado ahora mismo:** estoy programando el juego real (portando la simulación del prototipo a la plantilla Phaser 3 + TS + Vite, con niveles, modo caos, meta tycoon, tutorial y plataforma). Daniel lo FORZÓ: todo el poder en este juego.
+
+**Avance (actualizado 22:20):**
+- ✅ Leída la base: plantilla (`README`, `config`, `platform`, `audio`, `juice`, `ui`, escenas), prototipo pulido (reglas, tutorial, balance, políticas), dirección de arte, teardown (PR #32) y kit de skills.
+- ✅ `npm install` en `traffic-chaos/` (80 paquetes).
+- ✅ Reglas del prototipo portadas a `src/rules/` + `src/sim/policies.ts` (sin `localStorage`: la persistencia del tutorial pasa a `bridge.storage`).
+- ✅ 7 WAV del prototipo copiados a `public/sfx/` (el agente de audio entrega los definitivos).
+- 🔄 AHORA: constantes de caos en `traffic-config.ts` (patinetes erráticos, camiones que bloquean, ambulancias seguidas) — siguiente: extender `traffic.ts` con el modo caos.
+- ⏳ Pendiente: `design/levels.ts` (10 barrios), escenas `Game`/`Menu`/`Levels`/`Result`, meta tycoon + reto diario, i18n EN/ES, tests nuevos (niveles y caos), `tsc`, `build:playgama` + `build:youtube`, `precheck.mjs` 0 FAIL.
+
+**Cuánto queda (orientativo, no promesa):** ~2 h más para el juego completo verificado (hacia ~00:30). Quedan fuera de mi parte: arte PNG real (agente de arte), números finales de niveles (agente de jugabilidad — yo pongo una tabla v1 jugable y la marco para su revisión), QA en móvil de Daniel.
+
+**Dónde está el código:** repo privado `danielsanchezverdasco-art/dana-games-juegos`, worktree `~/workspace/wt-traffic-real`, rama `niky/traffic-chaos-real`, carpeta `traffic-chaos/`. Sin commit ni push allí por orden (la entrega es el informe al coordinador).
+**Ruta de entrega de este estado:** esta constancia en rama `niky/traffic-codigo-1511` + PR. Actualizo aquí cada vez que cambio de paso.
+
 ## Encargo prioritario: Scribble Striker (fútbol de papel) · 15/11/2026, 11:05, hora de Madrid
 - **Dónde está:** repo privado `danielsanchezverdasco-art/dana-games-juegos`, carpeta `scribble-striker/` (código Phaser 3 + TypeScript + Vite completo, pruebas, capturas y zip).
 - **Léete primero** `scribble-striker/ESTADO.md` (cómo compilar, qué está hecho y qué falta, en orden).
@@ -30,3 +47,11 @@ Daniky = Niky.
 - **Cuánto queda (orientativo):** ~45–60 min para la entrega completa (sim + 5 documentos + verificación final). Sin commit ni push en el repo del juego; solo diseño + datos + sim (el código es del agente de código, el arte del agente de arte).
 - **Dónde está el trabajo:** repo privado `danielsanchezverdasco-art/dana-games-juegos`, worktree `~/workspace/wt-traffic-real`, rama `niky/traffic-chaos-real`, carpeta `traffic-chaos/design/` y `traffic-chaos/scripts/`.
 - **Regla de Daniel (22:17):** actualizo este estado en GitHub cada vez que cambio de paso; si no está en GitHub, no existe para la oficina.
+
+## ESTADO EN VIVO — AGENTE DE ARTE · Traffic Chaos: New York Rush · 15/11/2026, 22:19, hora de Madrid
+- **Encargo:** Daniel lo ha FORZADO: set completo de arte del juego real en `dana-games-juegos`, worktree `wt-traffic-real`, rama `niky/traffic-chaos-real`, carpetas `traffic-chaos/art-src/` y `traffic-chaos/public/assets/`. Solo arte + documentación; sin código, sin commit/push en ese repo.
+- **Ahora mismo:** estoy diseñando los assets — generación de vehículos terminada y verificada visualmente contra la preview aprobada.
+- **Hecho (8/10 raws):** taxi, car-pink, car-blue, car-green, bus-mta, ambulance-fdny, scooter, truck — todos toy-diorama 2.5D, fondo magenta para recorte, sin texto en el sprite. 7 a nivel de preview. 2 desviaciones honestas: el scooter salió de lado (vista lateral, no cenital 3/4) y el coche rosa salió cenital puro mientras el resto es 3/4 — ambos van a regeneración, no se entregan así.
+- **Siguiente (en este orden):** 1) regenerar scooter (cenital) y rosa (3/4); 2) generar los 2 fondos 390×844 (`intersection-night`, `menu-crash` = el choque); 3) recorte a transparente + normalizado a tamaños de juego; 4) semáforos y mano: REUTILIZADOS del prototipo (ya están a nivel de preview, una sola lente encendida); 5) `ART-BIBLE.md` con comparación lado a lado; 6) QA a 390 px.
+- **Cuánto queda (orientativo):** ~40% — quedan los 2 fondos + 2 regens + postproceso + biblia + QA, unos 45–60 min.
+- **Skills:** `art-bible`, `create-game-assets`, `sprite-gen` (existen en el kit); `generate2dsprite`, `video2dsprite`, `generate2dmap`, `sprite-atlas`, `spine-skeletal`, `pixel-animation`, `character-rig`, `vfx-generate`, `blender-stylized-npr`, `asset-audit` NO existen como SKILL.md en este checkout del kit (revisadas una a una; solo constan en el informe PR #27) — la generación va por la herramienta de imagen propia, como dice la dirección de arte §13.4. SpriteCook NO se usa (decisión de Daniel 15/11 21:03).
