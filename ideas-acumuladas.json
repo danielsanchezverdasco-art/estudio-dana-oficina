@@ -639,70 +639,6 @@
       "motivo": "APTA y URGENTE: el tema arrasa ahora y aguanta hasta el 5/12. Mecánica de un toque, muy visual, sin clon directo en Playgama. Hay que fabricarla hoy, con tema pirata propio y sin marcas de Fortnite."
     },
     {
-      "id": "ko-relampago",
-      "titulo": "KO Relámpago",
-      "tituloEN": "Lightning KO: Dodge & Punch",
-      "genero": "Acción / lucha de reflejos",
-      "gancho": "El rival amaga un puñetazo (su guante brilla): desliza al otro lado para esquivar y toca para contraatacar. KO a cámara lenta.",
-      "porQueFunciona": "Lleva el pico de UFC 334 a un duelo de reflejos de 1 contra 1 muy expresivo. Los juegos de golpear en el momento justo lanzan con fuerza esta semana.",
-      "viralUrgente": false,
-      "temaViral": "UFC 334 (14/11, Madison Square Garden): tendencia n.º 2 en España y en el mundo en X",
-      "datos": [
-        {
-          "dato": "#UFC334: 98.702 publicaciones en X en 7 días, 63.443 solo en las primeras ~7 h del 15/11 (UTC); tendencia en España y en el mundo",
-          "fuente": "https://x.com/search?q=%23UFC334"
-        },
-        {
-          "dato": "Kung Fu Simulator: Hit Tension (acción de golpes) salió el 10/11/2026 y ya tiene 213.000 instalaciones",
-          "fuente": "https://playstoreradar.com/signals"
-        },
-        {
-          "dato": "Casual Blade: Robot PvP Duel salió el 13/11/2026 y tiene 1,3 M de instalaciones",
-          "fuente": "https://playstoreradar.com/signals"
-        },
-        {
-          "dato": "Playgama \"boxing\": KO Pals Boxing, Boxing Stars, PunchBox 3D, Stickman Kombat 2D, Thousand Strikes y Obby: Ragdoll Boxing",
-          "fuente": "https://playgama.com/search?q=boxing"
-        }
-      ],
-      "analisis": {
-        "tendencias": "X: #UFC334, 63.443 publicaciones el 15/11 (hasta las 07:55 h de Madrid). Google Trends: Sin datos concretos. TikTok: Sin datos. Shorts: Sin datos. El pico de un combate dura poco (1-3 días), así que no es urgente; la lucha de reflejos funciona todo el año.",
-        "hypercasualQueFunciona": "Duelos rápidos de acción en las listas de lanzamientos (Casual Blade 1,3 M en 2 días; Kung Fu Simulator 213.000).",
-        "fuentesHypercasual": [
-          "https://playstoreradar.com/signals"
-        ],
-        "competencia": "Media: hay unos 6 juegos de boxeo en Playgama, pero son de ragdoll o de pulsar botones. Lo que nos diferencia: esquivar con un gesto, avisos visuales de colores, cámara lenta y personajes caricaturescos propios (sin marcas UFC).",
-        "viabilidad": "Alta: dos sprites con 4-5 poses (guardia, amago, golpe, esquiva, KO), deslizar y tocar, patrones de ataque por niveles, sacudida de cámara y cámara lenta. Riesgo: que la animación se vea pobre si no hay buen arte. Hay que preparar las poses con Arte y Calidad.",
-        "potencialViral": "Medio-alto: los KO a cámara lenta y los \"esquivé por un pelo\" quedan muy bien en un Short.",
-        "se_entiende_3s_sin_texto": "Sí: el guante brilla en rojo por un lado, la flecha indica esquivar al otro y se toca para golpear.",
-        "adictivo": "Rivales cada vez más rápidos, combos de esquiva perfecta y una barra de KO que se llena.",
-        "monetizacion": "Anuncio entre combates. Anuncio con recompensa: recuperar la salud una vez o un guante dorado durante un combate."
-      },
-      "puntuacion": {
-        "tendencia": 4,
-        "competencia": 3,
-        "viabilidad1Dia": 4,
-        "potencialViral": 4,
-        "seEntiendeEn3s": 5,
-        "adiccion": 4,
-        "monetizacion": 4,
-        "total": 28,
-        "escala": "cada criterio 1-5; total sobre 35"
-      },
-      "competenciaNivel": "media",
-      "potencialViral": 4,
-      "hacibleEnUnDia": true,
-      "duracionSesion": "Combates de 30-60 s encadenados. Tiempo real: Sin datos.",
-      "conclusion": "APTA: género nuevo para el estudio (acción y lucha), se entiende al primer toque y aprovecha el interés por las MMA sin usar marcas.",
-      "nombre": "KO Relámpago",
-      "fecha": "2026-11-15",
-      "nueva": true,
-      "estado": "apta",
-      "elegida": false,
-      "origen": "Investigación diaria 15/11/2026 08:00",
-      "motivo": "APTA: género nuevo para el estudio (acción y lucha), se entiende al primer toque y aprovecha el interés por las MMA sin usar marcas."
-    },
-    {
       "id": "paraguas-vs-borrasca",
       "titulo": "Paraguas contra la Borrasca",
       "tituloEN": "Umbrella vs Storm",
@@ -1257,7 +1193,72 @@
       "elegida": false,
       "origen": "Investigación diaria 15/11/2026 08:00",
       "motivo": "Mecánica de casino (riesgo con las normas), poco espectáculo visual y poco viral."
+    },
+    {
+      "id": "ko-relampago",
+      "titulo": "KO Relámpago",
+      "tituloEN": "Lightning KO: Dodge & Punch",
+      "genero": "Acción / lucha de reflejos",
+      "gancho": "El rival amaga un puñetazo (su guante brilla): desliza al otro lado para esquivar y toca para contraatacar. KO a cámara lenta.",
+      "porQueFunciona": "Lleva el pico de UFC 334 a un duelo de reflejos de 1 contra 1 muy expresivo. Los juegos de golpear en el momento justo lanzan con fuerza esta semana.",
+      "viralUrgente": false,
+      "temaViral": "UFC 334 (14/11, Madison Square Garden): tendencia n.º 2 en España y en el mundo en X",
+      "datos": [
+        {
+          "dato": "#UFC334: 98.702 publicaciones en X en 7 días, 63.443 solo en las primeras ~7 h del 15/11 (UTC); tendencia en España y en el mundo",
+          "fuente": "https://x.com/search?q=%23UFC334"
+        },
+        {
+          "dato": "Kung Fu Simulator: Hit Tension (acción de golpes) salió el 10/11/2026 y ya tiene 213.000 instalaciones",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Casual Blade: Robot PvP Duel salió el 13/11/2026 y tiene 1,3 M de instalaciones",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Playgama \"boxing\": KO Pals Boxing, Boxing Stars, PunchBox 3D, Stickman Kombat 2D, Thousand Strikes y Obby: Ragdoll Boxing",
+          "fuente": "https://playgama.com/search?q=boxing"
+        }
+      ],
+      "analisis": {
+        "tendencias": "X: #UFC334, 63.443 publicaciones el 15/11 (hasta las 07:55 h de Madrid). Google Trends: Sin datos concretos. TikTok: Sin datos. Shorts: Sin datos. El pico de un combate dura poco (1-3 días), así que no es urgente; la lucha de reflejos funciona todo el año.",
+        "hypercasualQueFunciona": "Duelos rápidos de acción en las listas de lanzamientos (Casual Blade 1,3 M en 2 días; Kung Fu Simulator 213.000).",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals"
+        ],
+        "competencia": "Media: hay unos 6 juegos de boxeo en Playgama, pero son de ragdoll o de pulsar botones. Lo que nos diferencia: esquivar con un gesto, avisos visuales de colores, cámara lenta y personajes caricaturescos propios (sin marcas UFC).",
+        "viabilidad": "Alta: dos sprites con 4-5 poses (guardia, amago, golpe, esquiva, KO), deslizar y tocar, patrones de ataque por niveles, sacudida de cámara y cámara lenta. Riesgo: que la animación se vea pobre si no hay buen arte. Hay que preparar las poses con Arte y Calidad.",
+        "potencialViral": "Medio-alto: los KO a cámara lenta y los \"esquivé por un pelo\" quedan muy bien en un Short.",
+        "se_entiende_3s_sin_texto": "Sí: el guante brilla en rojo por un lado, la flecha indica esquivar al otro y se toca para golpear.",
+        "adictivo": "Rivales cada vez más rápidos, combos de esquiva perfecta y una barra de KO que se llena.",
+        "monetizacion": "Anuncio entre combates. Anuncio con recompensa: recuperar la salud una vez o un guante dorado durante un combate."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 3,
+        "viabilidad1Dia": 4,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 5,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 28,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "media",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Combates de 30-60 s encadenados. Tiempo real: Sin datos.",
+      "conclusion": "APTA: género nuevo para el estudio (acción y lucha), se entiende al primer toque y aprovecha el interés por las MMA sin usar marcas.",
+      "nombre": "KO Relámpago",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "no apta",
+      "elegida": false,
+      "origen": "Investigación diaria 15/11/2026 08:00",
+      "motivo": "APTA: género nuevo para el estudio (acción y lucha), se entiende al primer toque y aprovecha el interés por las MMA sin usar marcas.",
+      "motivoRechazo": "Rechazado por Daniel 15/11/2026: no adictivo, no entretenido, no dinámico, 'para salir del paso'. Listón nuevo: juegos que parezcan de más de 20.000 € (buena producción, mecánicas, diseño). Nunca nada similar."
     }
   ],
-  "actualizadoEn": "2026-11-15T08:10:00+01:00"
+  "actualizadoEn": "2026-11-15T11:52:00+01:00"
 }
