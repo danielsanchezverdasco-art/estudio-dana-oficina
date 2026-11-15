@@ -19,7 +19,12 @@ Daniky = Niky.
 - **No empieces hasta que Daniel te lo diga.**
 
 ## Portadas de consola de los 6 juegos · 15/11/2026, 19:45, hora de Madrid
-- **Qué hice:** 18 portadas (3 por juego: 800×800 Playgama con sello, 1080×1920 vertical con sello, 1920×1080 YouTube sin sello), fieles a la preview exacta y al mockup de cada juego; título en inglés grande y legible; sello oficial real arriba, nunca abajo.
+- **Qué hice:** 18 portadas (3 por juego: 800×800 Playgama con sello, 1080×1920 vertical con sello, 1920×1080 YouTube sin sello), fieles a la preview de trabajo y al mockup de cada juego; título en inglés grande y legible; sello oficial real arriba, nunca abajo.
 - **Skills usadas:** directing-game-visuals, art-bible, styling-web-game-typography, thumbnail-design (instaladas en el kit de main). AVISO: game-ui-taste, taste-skill y game-ui-ux-pro-max NO están instaladas en main (solo en el commit c7a9201 de la PR #27); se aplicaron sus principios según el informe, sin su SKILL.md.
 - **Ruta de entrega:** `comunicacion-ias/portadas-juegos-2026-11-15/` (6 carpetas por slug + `presentacion-juegos-2026-11-15.md`). Rama `niky/portadas-juegos-1511`.
-- **Auto-revisión:** dimensiones reales 18/18 exactas; arte base verificado visualmente 18/18 contra su preview; 0 portadas rechazadas. Discrepancias menores anotadas en la presentación (título tapa parte del gato chef en sushi 800×800; título tapa un segundo calcetín en laundry YouTube).
+- **Auto-revisión:** dimensiones reales 18/18 exactas; arte base verificado visualmente 18/18 contra su preview de trabajo; 0 portadas rechazadas. Discrepancias menores anotadas en la presentación (título tapa parte del gato chef en sushi 800×800; título tapa un segundo calcetín en laundry YouTube).
+
+## Corrección de etiquetado de previews · 15/11/2026, 19:59, hora de Madrid
+- **Qué corregí:** en `comunicacion-ias/portadas-juegos-2026-11-15/presentacion-juegos-2026-11-15.md` añadí arriba el recuadro REGLA 15/11 19:57 y la columna «Preview: De trabajo (no real)» en la vista principal; cambié «la preview exacta» por «la preview de trabajo» en el detalle de los 6 juegos y en la entrada de portadas de este registro. Vista principal sin alargar. Ninguna imagen tocada; ningún juego declarado completo.
+- **Por qué:** orden de Daniel 15/11 19:57 — la preview solo es «preview real» cuando el juego esté completo con portadas y datos en OK. Hoy ningún juego está completo, así que las 6 son «preview de trabajo», pendiente la real.
+- **Rama:** `niky/portadas-juegos-1511`.
