@@ -1,0 +1,127 @@
+# Seagull Attack: Save the Sandwich — listing
+# Playgama form fields first (EN, as they must be pasted), then the ES
+# translations for the team, then the YouTube Short metadata.
+# Rules applied: EN first, ES second; PEGI 3; YouTube is NOT made for kids
+# (madeForKids=false, COPPA truthful flag); nothing is published on
+# Playgama or YouTube without Daniel's APROBADO and without Daniel
+# testing the final version first (order 15/11 11:32).
+# Category is a candidate: confirm with get_game_categories when Playgama
+# access is granted (no access yet).
+
+================================================================
+PLAYGAMA — EN (paste these into the form)
+================================================================
+
+Title: Seagull Attack: Save the Sandwich
+
+Description (100+ chars):
+Seagull Attack is a draw-to-protect puzzle on a sunny beach. Hungry gulls
+dive at your sandwich — draw a line in the sand to shield it and survive
+10 seconds. Ink is limited, the wind pushes your line, and a pelican boss
+shows up every 10 levels. 30 hand-made levels, a daily challenge, a
+streak, a treasure chest every 3 levels, and sandwich skins to unlock.
+What makes it different: no square that solves everything — limited ink,
+wind and multi-direction waves force a new line every level, and there
+are no ads as punishment: interstitials only at natural pauses, never on
+level 1 or on your first retry.
+
+How to play (100+ chars):
+Goal: keep the sandwich safe for 10 seconds. Touch and drag to draw a
+protective line — gulls bounce off it. You have 3 crumbs: every gull
+that reaches the sandwich steals one. Lose all 3 and the level is over.
+On desktop, draw with the mouse; on touch, draw with your finger. Draw
+anywhere, but watch your ink bar — when it runs out, you cannot draw
+more. Collect coins for skins and extra ink. The pelican boss needs 3
+hits to scare away.
+
+Story (developer's note):
+I made this game because I kept losing my lunch to seagulls on the
+beach — so I built a beach where you can finally win. The hardest part
+was the line itself: it had to feel like drawing in sand, not like
+placing a wall, so I tuned the bounce until a bad line still felt fair
+and a good line felt clever. My favourite moment is level 10, when the
+pelican arrives and the whole beach goes quiet for a second. What is the
+weirdest thing a gull has ever stolen from you?
+
+Category (candidate — confirm with get_game_categories): Puzzle
+  (core mechanic: draw a line to protect; runner-up: Arcade)
+Supported devices: Mobile, Desktop
+Supported languages: English, Spanish
+Orientation: vertical + horizontal (isVertical=true, isHorizontal=true)
+Leaderboards: no. Multiplayer: no. Social: no.
+Age rating: PEGI 3.
+
+================================================================
+PLAYGAMA — ES (translation for the team; the form stays in EN)
+================================================================
+
+Título: Seagull Attack: Save the Sandwich
+
+Descripción:
+Seagull Attack es un puzle de dibujar para proteger en una playa
+soleada. Las gaviotas hambrientas se lanzan a por tu bocata: dibuja una
+línea en la arena para protegerlo y sobrevive 10 segundos. La tinta es
+limitada, el viento empuja tu línea y un pelícano jefe aparece cada 10
+niveles. 30 niveles hechos a mano, reto diario, racha, un cofre del
+tesoro cada 3 niveles y aspectos de bocata por desbloquear. Lo que lo
+hace distinto: no hay un cuadrado que lo resuelva todo — la tinta
+limitada, el viento y las oleadas desde varias direcciones obligan a
+dibujar una línea nueva en cada nivel, y no hay anuncios como castigo:
+los intersticiales solo aparecen en pausas naturales, nunca en el nivel 1
+ni en tu primer reintento.
+
+Cómo se juega:
+Objetivo: mantener el bocata a salvo 10 segundos. Toca y arrastra para
+dibujar una línea protectora: las gaviotas rebotan en ella. Tienes 3
+migas: cada gaviota que llega al bocata roba una. Si pierdes las 3, el
+nivel termina. En escritorio, dibuja con el ratón; en táctil, con el
+dedo. Dibuja donde quieras, pero vigila la barra de tinta: cuando se
+acaba, no puedes dibujar más. Recoge monedas para aspectos y tinta
+extra. El pelícano jefe necesita 3 golpes para asustarse.
+
+Historia (nota de la desarrolladora):
+Hice este juego porque siempre perdía mi comida a manos de las gaviotas
+en la playa, así que construí una playa donde por fin puedes ganar. Lo
+más difícil fue la línea en sí: tenía que sentirse como dibujar en la
+arena, no como colocar un muro, así que ajusté el rebote hasta que una
+línea mala pareciera justa y una buena pareciera inteligente. Mi momento
+favorito es el nivel 10, cuando llega el pelícano y toda la playa se
+queda en silencio un segundo. ¿Qué es lo más raro que te ha robado
+nunca una gaviota?
+
+================================================================
+YOUTUBE SHORT — metadata (INDEX framework)
+DO NOT PUBLISH without Daniel's APROBADO and without Daniel testing
+the final version first. madeForKids=FALSE (not kids' content).
+================================================================
+
+Title (51 chars, keyword first):
+Seagull Attack: Save the Sandwich | Draw to Protect
+
+Description (above the fold first):
+The gulls want your sandwich. Draw a line and save it. 🥪
+Seagull Attack: Save the Sandwich — a draw-to-protect puzzle where
+hungry gulls dive at your lunch and your only weapon is a line in the
+sand. 30 levels, limited ink, wind, and a pelican boss every 10 levels.
+
+Chapters:
+0:00 The gulls attack
+0:05 Draw your first line
+0:12 The line that saves the sandwich
+0:20 Wind, waves and the pelican boss
+0:28 Play it free
+
+Play free on Playgama: [link when published — NOT live yet]
+Dana Games — new games every week.
+PEGI 3. Not made for kids.
+
+Tags (first = exact primary keyword):
+seagull attack, save the sandwich, draw to protect, draw puzzle,
+beach game, mobile game, puzzle game, playgama, dana games, indie game
+
+Category: Gaming
+Privacy: Public (only after Daniel's approval)
+madeForKids: false
+Language: English (Spanish subtitles when the ES version is cut)
+Thumbnail: native YouTube Studio upload (cover -youtube, no seal)
+A/B title test: native YouTube Studio
