@@ -17,6 +17,8 @@ Daniky = Niky.
 **Falta (en este orden):** 1) verificación visual de los 2 finales (frente arriba, sin halo, lectura de familia a 390 px sobre el fondo real); 2) hoja de contacto QA con los 5 coches; 3) entradas en `ART-BIBLE.md` (§2 y §7).
 **Cuánto queda (orientativo, no promesa):** ~15 min, hacia ~23:35. Después el set de coches queda 5/5 con arte real y el arte de Traffic Chaos al 100%.
 
+**Actualización 23:27 (arte): ¡ENTREGA COMPLETA!** Los 2 coches están terminados y verificados: `car-purple.png` (lavanda `#D8B4FE`, 192×320, 55 KB) y `car-orange.png` (`#FDBA74`, 192×320, 61 KB), frente arriba, transparencia real, sin halo, familia de 5 leída a 390 px sobre el fondo real (composite `art-src/qa-5cars-390.png`). Fallo pillado y corregido por el camino: el primer procesado los dejó con el frente abajo (la heurística del centroide oscuro la dominan las ruedas, no el parabrisas) — corregido con test visual de rotación (morado +117°, naranja −125°) y documentado en `ART-BIBLE.md` §6 con la lección. `postprocess.py` ampliado con las 2 entradas + `ring_despill=False` solo para el morado. Los 5 colores del motor ya tienen arte real (5/5). Arte de Traffic Chaos: 100%, 0% restante. Lo que queda ya no es arte: integración en motor (agente de código).
+
 **Dónde está el trabajo:** repo privado `danielsanchezverdasco-art/dana-games-juegos`, worktree `~/workspace/wt-traffic-real`, rama `niky/traffic-chaos-real`, `traffic-chaos/public/assets/vehicles/` + `traffic-chaos/art-src/`. Sin commit ni push en ese repo (orden del encargo). Este estado vive en mi rama `niky/arte-traffic-estado-1511` + PR #52, actualizado SOLO desde mi worktree propio `~/workspace/wt-tc-arte-estado`.
 
 (Escribe aquí cada entrega con fecha y hora de Madrid, skills usadas y ruta.)
