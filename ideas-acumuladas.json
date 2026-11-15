@@ -78,7 +78,20 @@
       "nueva": false,
       "estado": "apta",
       "viralUrgente": false,
-      "origen": "lista inicial 30 ideas (15/11 01:30)"
+      "origen": "lista inicial 30 ideas (15/11 01:30)",
+      "puntuacion": {
+        "tendencia": 5,
+        "competencia": 3,
+        "viabilidad1Dia": 3,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 3,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 25,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "veredicto": "DUDOSA",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
     },
     {
       "id": "brazo-largo-abuela",
@@ -107,7 +120,20 @@
       "nueva": false,
       "estado": "apta",
       "viralUrgente": false,
-      "origen": "lista inicial 30 ideas (15/11 01:30)"
+      "origen": "lista inicial 30 ideas (15/11 01:30)",
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 2,
+        "viabilidad1Dia": 4,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 4,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 24,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "veredicto": "DUDOSA",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
     },
     {
       "id": "quien-es-el-robot",
@@ -136,7 +162,20 @@
       "nueva": false,
       "estado": "apta",
       "viralUrgente": false,
-      "origen": "lista inicial 30 ideas (15/11 01:30)"
+      "origen": "lista inicial 30 ideas (15/11 01:30)",
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 4,
+        "viabilidad1Dia": 4,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 4,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 28,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "veredicto": "FUERTE",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
     },
     {
       "id": "agujero-tragon-cocina",
@@ -169,7 +208,20 @@
       "nueva": false,
       "estado": "apta",
       "viralUrgente": false,
-      "origen": "lista inicial 30 ideas (15/11 01:30)"
+      "origen": "lista inicial 30 ideas (15/11 01:30)",
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 3,
+        "viabilidad1Dia": 4,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 5,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 28,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "veredicto": "FUERTE",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
     },
     {
       "id": "colada-caotica",
@@ -202,7 +254,20 @@
       "nueva": false,
       "estado": "apta",
       "viralUrgente": false,
-      "origen": "lista inicial 30 ideas (15/11 01:30)"
+      "origen": "lista inicial 30 ideas (15/11 01:30)",
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 2,
+        "viabilidad1Dia": 5,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 4,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 26,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "veredicto": "DUDOSA",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
     },
     {
       "id": "cuchillo-saltarin",
@@ -235,7 +300,20 @@
       "nueva": false,
       "estado": "apta",
       "viralUrgente": false,
-      "origen": "lista inicial 30 ideas (15/11 01:30)"
+      "origen": "lista inicial 30 ideas (15/11 01:30)",
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 3,
+        "viabilidad1Dia": 5,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 5,
+        "adiccion": 3,
+        "monetizacion": 4,
+        "total": 28,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "veredicto": "FUERTE",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
     },
     {
       "id": "puente-del-repartidor",
@@ -264,7 +342,20 @@
       "nueva": false,
       "estado": "apta",
       "viralUrgente": false,
-      "origen": "lista inicial 30 ideas (15/11 01:30)"
+      "origen": "lista inicial 30 ideas (15/11 01:30)",
+      "puntuacion": {
+        "tendencia": 5,
+        "competencia": 3,
+        "viabilidad1Dia": 4,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 4,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 28,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "veredicto": "FUERTE",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
     },
     {
       "id": "borra-la-mentira",
@@ -289,7 +380,20 @@
       "nueva": false,
       "estado": "apta",
       "viralUrgente": false,
-      "origen": "lista inicial 30 ideas (15/11 01:30)"
+      "origen": "lista inicial 30 ideas (15/11 01:30)",
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 2,
+        "viabilidad1Dia": 3,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 4,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 23,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "veredicto": "DUDOSA",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
     },
     {
       "id": "churreria-idle",
@@ -322,7 +426,20 @@
       "nueva": false,
       "estado": "apta",
       "viralUrgente": false,
-      "origen": "lista inicial 30 ideas (15/11 01:30)"
+      "origen": "lista inicial 30 ideas (15/11 01:30)",
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 2,
+        "viabilidad1Dia": 3,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 3,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 22,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "veredicto": "DÉBIL",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
     },
     {
       "id": "desfile-expres",
@@ -355,7 +472,20 @@
       "nueva": false,
       "estado": "apta",
       "viralUrgente": false,
-      "origen": "lista inicial 30 ideas (15/11 01:30)"
+      "origen": "lista inicial 30 ideas (15/11 01:30)",
+      "puntuacion": {
+        "tendencia": 3,
+        "competencia": 2,
+        "viabilidad1Dia": 3,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 3,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 20,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "veredicto": "DÉBIL",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
     },
     {
       "id": "trastero-secreto",
@@ -384,7 +514,20 @@
       "nueva": false,
       "estado": "apta",
       "viralUrgente": false,
-      "origen": "lista inicial 30 ideas (15/11 01:30)"
+      "origen": "lista inicial 30 ideas (15/11 01:30)",
+      "puntuacion": {
+        "tendencia": 3,
+        "competencia": 3,
+        "viabilidad1Dia": 3,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 3,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 20,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "veredicto": "DÉBIL",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
     },
     {
       "id": "emoji-parejas-locas",
@@ -413,7 +556,20 @@
       "nueva": false,
       "estado": "apta",
       "viralUrgente": false,
-      "origen": "lista inicial 30 ideas (15/11 01:30)"
+      "origen": "lista inicial 30 ideas (15/11 01:30)",
+      "puntuacion": {
+        "tendencia": 3,
+        "competencia": 3,
+        "viabilidad1Dia": 5,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 4,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 23,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "veredicto": "DÉBIL",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
     },
     {
       "id": "funda-movil-diy",
@@ -442,7 +598,20 @@
       "nueva": false,
       "estado": "apta",
       "viralUrgente": false,
-      "origen": "lista inicial 30 ideas (15/11 01:30)"
+      "origen": "lista inicial 30 ideas (15/11 01:30)",
+      "puntuacion": {
+        "tendencia": 5,
+        "competencia": 1,
+        "viabilidad1Dia": 4,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 4,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 24,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "veredicto": "DUDOSA",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
     },
     {
       "id": "muneco-antiestres",
@@ -475,71 +644,20 @@
       "nueva": false,
       "estado": "apta",
       "viralUrgente": false,
-      "origen": "lista inicial 30 ideas (15/11 01:30)"
-    },
-    {
-      "id": "ko-relampago",
-      "titulo": "KO Relámpago",
-      "tituloEN": "Lightning KO: Dodge & Punch",
-      "genero": "Acción / lucha de reflejos",
-      "gancho": "El rival amaga un puñetazo (su guante brilla): desliza al otro lado para esquivar y toca para contraatacar. KO a cámara lenta.",
-      "porQueFunciona": "Lleva el pico de UFC 334 a un duelo de reflejos de 1 contra 1 muy expresivo. Los juegos de golpear en el momento justo lanzan con fuerza esta semana.",
-      "viralUrgente": false,
-      "temaViral": "UFC 334 (14/11, Madison Square Garden): tendencia n.º 2 en España y en el mundo en X",
-      "datos": [
-        {
-          "dato": "#UFC334: 98.702 publicaciones en X en 7 días, 63.443 solo en las primeras ~7 h del 15/11 (UTC); tendencia en España y en el mundo",
-          "fuente": "https://x.com/search?q=%23UFC334"
-        },
-        {
-          "dato": "Kung Fu Simulator: Hit Tension (acción de golpes) salió el 10/11/2026 y ya tiene 213.000 instalaciones",
-          "fuente": "https://playstoreradar.com/signals"
-        },
-        {
-          "dato": "Casual Blade: Robot PvP Duel salió el 13/11/2026 y tiene 1,3 M de instalaciones",
-          "fuente": "https://playstoreradar.com/signals"
-        },
-        {
-          "dato": "Playgama \"boxing\": KO Pals Boxing, Boxing Stars, PunchBox 3D, Stickman Kombat 2D, Thousand Strikes y Obby: Ragdoll Boxing",
-          "fuente": "https://playgama.com/search?q=boxing"
-        }
-      ],
-      "analisis": {
-        "tendencias": "X: #UFC334, 63.443 publicaciones el 15/11 (hasta las 07:55 h de Madrid). Google Trends: Sin datos concretos. TikTok: Sin datos. Shorts: Sin datos. El pico de un combate dura poco (1-3 días), así que no es urgente; la lucha de reflejos funciona todo el año.",
-        "hypercasualQueFunciona": "Duelos rápidos de acción en las listas de lanzamientos (Casual Blade 1,3 M en 2 días; Kung Fu Simulator 213.000).",
-        "fuentesHypercasual": [
-          "https://playstoreradar.com/signals"
-        ],
-        "competencia": "Media: hay unos 6 juegos de boxeo en Playgama, pero son de ragdoll o de pulsar botones. Lo que nos diferencia: esquivar con un gesto, avisos visuales de colores, cámara lenta y personajes caricaturescos propios (sin marcas UFC).",
-        "viabilidad": "Alta: dos sprites con 4-5 poses (guardia, amago, golpe, esquiva, KO), deslizar y tocar, patrones de ataque por niveles, sacudida de cámara y cámara lenta. Riesgo: que la animación se vea pobre si no hay buen arte. Hay que preparar las poses con Arte y Calidad.",
-        "potencialViral": "Medio-alto: los KO a cámara lenta y los \"esquivé por un pelo\" quedan muy bien en un Short.",
-        "se_entiende_3s_sin_texto": "Sí: el guante brilla en rojo por un lado, la flecha indica esquivar al otro y se toca para golpear.",
-        "adictivo": "Rivales cada vez más rápidos, combos de esquiva perfecta y una barra de KO que se llena.",
-        "monetizacion": "Anuncio entre combates. Anuncio con recompensa: recuperar la salud una vez o un guante dorado durante un combate."
-      },
+      "origen": "lista inicial 30 ideas (15/11 01:30)",
       "puntuacion": {
         "tendencia": 4,
         "competencia": 3,
         "viabilidad1Dia": 4,
         "potencialViral": 4,
         "seEntiendeEn3s": 5,
-        "adiccion": 4,
-        "monetizacion": 4,
-        "total": 28,
+        "adiccion": 2,
+        "monetizacion": 3,
+        "total": 25,
         "escala": "cada criterio 1-5; total sobre 35"
       },
-      "competenciaNivel": "media",
-      "potencialViral": 4,
-      "hacibleEnUnDia": true,
-      "duracionSesion": "Combates de 30-60 s encadenados. Tiempo real: Sin datos.",
-      "conclusion": "APTA: género nuevo para el estudio (acción y lucha), se entiende al primer toque y aprovecha el interés por las MMA sin usar marcas.",
-      "nombre": "KO Relámpago",
-      "fecha": "2026-11-15",
-      "nueva": true,
-      "estado": "apta",
-      "elegida": false,
-      "origen": "Investigación diaria 15/11/2026 08:00",
-      "motivo": "APTA: género nuevo para el estudio (acción y lucha), se entiende al primer toque y aprovecha el interés por las MMA sin usar marcas."
+      "veredicto": "DUDOSA",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
     },
     {
       "id": "paraguas-vs-borrasca",
@@ -600,7 +718,9 @@
       "estado": "apta",
       "elegida": false,
       "origen": "Investigación diaria 15/11/2026 08:00",
-      "motivo": "APTA pero no prioritaria: género de física distinto y divertido, aunque el tema ya baja y la física es más arriesgada para hacerla en un día."
+      "motivo": "APTA pero no prioritaria: género de física distinto y divertido, aunque el tema ya baja y la física es más arriesgada para hacerla en un día.",
+      "veredicto": "DUDOSA",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
     },
     {
       "id": "mudanza-extrema",
@@ -612,7 +732,340 @@
       "ingresosPorMilPartidas": null,
       "vistas": null,
       "enCola": true,
-      "genero": "Puzle de colocar"
+      "genero": "Puzle de colocar",
+      "notaPuntuacion": "No puntuada: en producción / lista por orden de Daniel (11:31, «olvídate de Moving Mayhem»), fuera de alcance."
+    },
+    {
+      "id": "traffic-chaos-new-york-rush",
+      "titulo": "Traffic Chaos: New York Rush",
+      "tituloEN": "Traffic Chaos: New York Rush",
+      "genero": "Arcade de tráfico",
+      "gancho": "Tocas los semáforos para ponerlos en verde o en rojo; cada coche tiene paciencia de 8 s y si se agota, choque en cadena a cámara lenta.",
+      "porQueFunciona": "Simulation es el género nº 1 por plays en Playables y la física de coches es de lo que más escala; aquí la diferencia son las decisiones (¿a quién dejo pasar?).",
+      "datos": [
+        {
+          "dato": "Simulation: 333 juegos / 1,4B plays (~24 % del catálogo de Playables)",
+          "fuente": "https://playables.games/best/"
+        },
+        {
+          "dato": "Car Physics & Crash Sandbox: Crazy Flying Car, 365K plays/día",
+          "fuente": "https://mediacube.io/en/blog/youtube-playables-game-mechanics"
+        }
+      ],
+      "competencia": "media: hay juegos de tráfico, pero ninguno con decisiones de semáforo + choques en cadena en el top de Playables.",
+      "potencialViral": 5,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Rushes cortos encadenados con hora punta creciente. Tiempo real: sin dato.",
+      "elegida": false,
+      "nombre": "Traffic Chaos: New York Rush",
+      "fecha": "2026-11-15",
+      "nueva": true,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "GDD del propio Daniel (idea en cola, PR #8); escenario Nueva York desde las 11:52 del 15/11",
+      "puntuacion": {
+        "tendencia": 5,
+        "competencia": 4,
+        "viabilidad1Dia": 4,
+        "potencialViral": 5,
+        "seEntiendeEn3s": 5,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 31,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "veredicto": "FUERTE",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00",
+      "conclusion": "FUERTE: nº 1 del ranking (31/35). Idea de Daniel, mockup ya hecho y verificado en el análisis de competencia."
+    },
+    {
+      "id": "apila-la-pizza",
+      "titulo": "Apila la Pizza",
+      "tituloEN": "Pizza Stack Panic",
+      "genero": "Física / apilar",
+      "gancho": "Suelta el ingrediente sobre la torre: se tambalea, el queso se estira y si cae mal, derrumbe a cámara lenta.",
+      "porQueFunciona": "Un dedo, un verbo, un momento de juice por acción; la torre ES tu estado, como la pila de Bridge Race.",
+      "datos": [
+        {
+          "dato": "Los puzles y arcades de física lideran Casual en EE. UU. (Royal Smash! nº 1)",
+          "fuente": "https://42answer.com/en/insights/2026-11-01-us-casual-puzzle-weekly/"
+        },
+        {
+          "dato": "Bridge Race (correr + recoger + construir): ~71M plays, nº 13 de Playables",
+          "fuente": "https://playables.games/best/"
+        }
+      ],
+      "competencia": "media-baja: hay stackers, pero ningún líder de apilar-pizza en el top de Playables.",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Pedidos encadenados, cada vez más altos. Tiempo real: sin dato.",
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 4,
+        "viabilidad1Dia": 4,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 5,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 29,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "veredicto": "FUERTE",
+      "conclusion": "FUERTE: 29/35, nº 2 del ranking. La más «juguete» de la lista.",
+      "elegida": false,
+      "nombre": "Apila la Pizza",
+      "fecha": "2026-11-15",
+      "nueva": true,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "Fábrica de ideas Niky 15/11/2026 (lista puntuada)",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
+    },
+    {
+      "id": "limonada-expres",
+      "titulo": "Limonada Exprés",
+      "tituloEN": "Lemonade Rush",
+      "genero": "Servir rápido",
+      "gancho": "Sirve el pedido tocando los ingredientes en orden antes de que se agote la paciencia; 3 seguidos y el cliente baila.",
+      "porQueFunciona": "El tycoon que funciona en Playables es el rápido, no el idle; servir es un verbo de un toque con combo visible.",
+      "datos": [
+        {
+          "dato": "Store & Tycoon Simulation: Hypermarket 3D, 286K plays/día",
+          "fuente": "https://mediacube.io/en/blog/youtube-playables-game-mechanics"
+        },
+        {
+          "dato": "My Mini Mart: 63M plays en Playables",
+          "fuente": "https://playables.games/best/"
+        }
+      ],
+      "competencia": "baja: ningún líder de servir-limonada en el top de Playables; distinta de la Churrería Idle (rápido, no idle).",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Oleadas de hora punta encadenadas. Tiempo real: sin dato.",
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 4,
+        "viabilidad1Dia": 5,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 5,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 29,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "veredicto": "FUERTE",
+      "conclusion": "FUERTE: 29/35, nº 3 del ranking. La más fácil de hacer bien de las 10 primeras.",
+      "elegida": false,
+      "nombre": "Limonada Exprés",
+      "fecha": "2026-11-15",
+      "nueva": true,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "Fábrica de ideas Niky 15/11/2026 (lista puntuada)",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
+    },
+    {
+      "id": "carrito-loco-super",
+      "titulo": "Carrito Loco del Súper",
+      "tituloEN": "Supermarket Cart Dash",
+      "genero": "Runner arcade + tycoon",
+      "gancho": "Conduces el carrito con un dedo, recoges la lista y esquivas derrames; el botín financia tu propio minimercado.",
+      "porQueFunciona": "Patrón Coin Run (runner corto + meta de tycoon, 22M plays): la run financia la siguiente.",
+      "datos": [
+        {
+          "dato": "Arcade Racing & Obstacle Course: Racing Limits, 282K plays/día",
+          "fuente": "https://mediacube.io/en/blog/youtube-playables-game-mechanics"
+        },
+        {
+          "dato": "Coin Run: 22M plays en Playables",
+          "fuente": "https://playables.games/best/"
+        }
+      ],
+      "competencia": "media: muchos runners; el tema súper + el meta de tienda lo diferencian.",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Runs cortas + meta de tienda. Tiempo real: sin dato.",
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 3,
+        "viabilidad1Dia": 4,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 5,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 28,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "veredicto": "FUERTE",
+      "conclusion": "FUERTE: 28/35. El momento estrella es la pirámide de latas cayendo a cámara lenta.",
+      "elegida": false,
+      "nombre": "Carrito Loco del Súper",
+      "fecha": "2026-11-15",
+      "nueva": true,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "Fábrica de ideas Niky 15/11/2026 (lista puntuada)",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
+    },
+    {
+      "id": "peluqueria-loca",
+      "titulo": "Peluquería Loca",
+      "tituloEN": "Hair Salon Chaos",
+      "genero": "Belleza / moda",
+      "gancho": "Corta, tiñe y seca según la foto del cliente; el espejo revela el resultado y su reacción a lo grande.",
+      "porQueFunciona": "Belleza/moda es de lo que más escala en Playables en 2026; el pelo ES el juego y la revelación es el Short.",
+      "datos": [
+        {
+          "dato": "Beauty & Fashion Casual: Hair Salon, 266K plays/día",
+          "fuente": "https://mediacube.io/en/blog/youtube-playables-game-mechanics"
+        }
+      ],
+      "competencia": "media: belleza caliente sin un líder único dominante en el top de Playables.",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Clientes encadenados contra el reloj. Tiempo real: sin dato.",
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 4,
+        "viabilidad1Dia": 3,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 4,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 27,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "veredicto": "FUERTE",
+      "conclusion": "FUERTE: 27/35. La más distinta de la lista en público y tono; el prototipo debe demostrar que el tijeretazo se siente bien.",
+      "elegida": false,
+      "nombre": "Peluquería Loca",
+      "fecha": "2026-11-15",
+      "nueva": true,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "Fábrica de ideas Niky 15/11/2026 (lista puntuada)",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
+    },
+    {
+      "id": "gran-escape-museo",
+      "titulo": "El Gran Escape del Museo",
+      "tituloEN": "Museum Escape: Draw & Run",
+      "genero": "Dibujar para escapar",
+      "gancho": "El ladrón corre solo y tú dibujas su ruta en tiempo real — rampas, cuerdas, desvíos — con los guardias detrás.",
+      "porQueFunciona": "Draw & Escape es la mecánica nº 1 que escala en 2026; aquí dibujas el MUNDO por el que corre otro, no un brazo (distinto de El Brazo Largo de la Abuela).",
+      "datos": [
+        {
+          "dato": "Draw & Escape Puzzle: Tricky Twist, 394K plays/día (la mecánica que más escala)",
+          "fuente": "https://playgama.com/blog/main/5-5m-plays-in-7-days-five-playgama-games-that-took-off-on-youtube-playables/"
+        }
+      ],
+      "competencia": "media: Tricky Twist es el líder; la persecución en tiempo real + dibujo lo diferencian.",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Atracos encadenados por museo. Tiempo real: sin dato.",
+      "puntuacion": {
+        "tendencia": 5,
+        "competencia": 3,
+        "viabilidad1Dia": 3,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 4,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 27,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "veredicto": "FUERTE",
+      "conclusion": "FUERTE: 27/35. Prototipo desechable obligatorio antes del mockup: dibujar a velocidad debe sentirse justo.",
+      "elegida": false,
+      "nombre": "El Gran Escape del Museo",
+      "fecha": "2026-11-15",
+      "nueva": true,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "Fábrica de ideas Niky 15/11/2026 (lista puntuada)",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
+    },
+    {
+      "id": "pesca-el-tesoro",
+      "titulo": "Pesca el Tesoro",
+      "tituloEN": "Treasure Hook",
+      "genero": "Arcade de pesca",
+      "gancho": "Mantén para hundir el anzuelo, suelta para subirlo; el primer cofre pescado con la línea en tensión.",
+      "porQueFunciona": "Verbo de un dedo con tensión física (el peso cambia con la captura); colección del acuario como meta.",
+      "datos": [
+        {
+          "dato": "Sin líder de pesca en el top de Playables (TubeGames, 15/11/2026)",
+          "fuente": "https://playables.games/best/"
+        }
+      ],
+      "competencia": "baja: hueco sin líder, pero sin viento de género caliente.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Inmersiones encadenadas, zonas cada vez más profundas. Tiempo real: sin dato.",
+      "puntuacion": {
+        "tendencia": 3,
+        "competencia": 4,
+        "viabilidad1Dia": 4,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 5,
+        "adiccion": 3,
+        "monetizacion": 4,
+        "total": 26,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "veredicto": "DUDOSA",
+      "conclusion": "DUDOSA: 26/35. Vive o muere por el tacto del anzuelo; prototipar primero.",
+      "elegida": false,
+      "nombre": "Pesca el Tesoro",
+      "fecha": "2026-11-15",
+      "nueva": true,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "Fábrica de ideas Niky 15/11/2026 (lista puntuada)",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
+    },
+    {
+      "id": "defiende-la-cocina",
+      "titulo": "Defiende la Cocina",
+      "tituloEN": "Kitchen Defense",
+      "genero": "Estrategia ligera",
+      "gancho": "Colocas cocineros-defensores con un toque y el primer mapache sale volando por una sartén (ragdoll).",
+      "porQueFunciona": "La estrategia LIGERA funciona en Playables (Cup Heroes); la colocación con un toque es el verbo y el lanzamiento es el juice.",
+      "datos": [
+        {
+          "dato": "Cup Heroes (estrategia ligera de escuadrón): ~6,7M plays",
+          "fuente": "https://playables.games/games/cup-heroes/"
+        },
+        {
+          "dato": "RPG & Strategy entero: 61 juegos, 57M plays (~1 % del catálogo)",
+          "fuente": "https://playables.games/best/"
+        }
+      ],
+      "competencia": "baja: pocos tower defense en el top de Playables.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Oleadas encadenadas de 2-3 min. Tiempo real: sin dato.",
+      "puntuacion": {
+        "tendencia": 3,
+        "competencia": 4,
+        "viabilidad1Dia": 3,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 4,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 25,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "veredicto": "DUDOSA",
+      "conclusion": "DUDOSA: 25/35. El género es el más flojo por volumen; solo vale si la primera oleada prototipada es divertida en 2 minutos. Nunca un RTS.",
+      "elegida": false,
+      "nombre": "Defiende la Cocina",
+      "fecha": "2026-11-15",
+      "nueva": true,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "Fábrica de ideas Niky 15/11/2026 (lista puntuada)",
+      "puntuadoEn": "2026-11-15T19:00:00+01:00"
     }
   ],
   "noAptas": [
@@ -1263,7 +1716,61 @@
       "origen": "Investigación diaria 15/11/2026 08:00",
       "motivo": "APTA y URGENTE: el tema arrasa ahora y aguanta hasta el 5/12. Mecánica de un toque, muy visual, sin clon directo en Playgama. Hay que fabricarla hoy, con tema pirata propio y sin marcas de Fortnite.",
       "motivoRechazo": "Rechazado por Daniel 15/11/2026 ~18:40: «De hartos, todos no me gusta nada», «me parece patético el nivel que me estáis dando»."
+    },
+    {
+      "id": "ko-relampago",
+      "titulo": "KO Relámpago",
+      "tituloEN": "Lightning KO: Dodge & Punch",
+      "genero": "Acción / lucha de reflejos",
+      "gancho": "El rival amaga un puñetazo (su guante brilla): desliza al otro lado para esquivar y toca para contraatacar. KO a cámara lenta.",
+      "porQueFunciona": "Lleva el pico de UFC 334 a un duelo de reflejos de 1 contra 1 muy expresivo. Los juegos de golpear en el momento justo lanzan con fuerza esta semana.",
+      "viralUrgente": false,
+      "temaViral": "UFC 334 (14/11, Madison Square Garden): tendencia n.º 2 en España y en el mundo en X",
+      "datos": [
+        {
+          "dato": "#UFC334: 98.702 publicaciones en X en 7 días, 63.443 solo en las primeras ~7 h del 15/11 (UTC); tendencia en España y en el mundo",
+          "fuente": "https://x.com/search?q=%23UFC334"
+        },
+        {
+          "dato": "Kung Fu Simulator: Hit Tension (acción de golpes) salió el 10/11/2026 y ya tiene 213.000 instalaciones",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Casual Blade: Robot PvP Duel salió el 13/11/2026 y tiene 1,3 M de instalaciones",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Playgama \"boxing\": KO Pals Boxing, Boxing Stars, PunchBox 3D, Stickman Kombat 2D, Thousand Strikes y Obby: Ragdoll Boxing",
+          "fuente": "https://playgama.com/search?q=boxing"
+        }
+      ],
+      "analisis": {
+        "tendencias": "X: #UFC334, 63.443 publicaciones el 15/11 (hasta las 07:55 h de Madrid). Google Trends: Sin datos concretos. TikTok: Sin datos. Shorts: Sin datos. El pico de un combate dura poco (1-3 días), así que no es urgente; la lucha de reflejos funciona todo el año.",
+        "hypercasualQueFunciona": "Duelos rápidos de acción en las listas de lanzamientos (Casual Blade 1,3 M en 2 días; Kung Fu Simulator 213.000).",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals"
+        ],
+        "competencia": "Media: hay unos 6 juegos de boxeo en Playgama, pero son de ragdoll o de pulsar botones. Lo que nos diferencia: esquivar con un gesto, avisos visuales de colores, cámara lenta y personajes caricaturescos propios (sin marcas UFC).",
+        "viabilidad": "Alta: dos sprites con 4-5 poses (guardia, amago, golpe, esquiva, KO), deslizar y tocar, patrones de ataque por niveles, sacudida de cámara y cámara lenta. Riesgo: que la animación se vea pobre si no hay buen arte. Hay que preparar las poses con Arte y Calidad.",
+        "potencialViral": "Medio-alto: los KO a cámara lenta y los \"esquivé por un pelo\" quedan muy bien en un Short.",
+        "se_entiende_3s_sin_texto": "Sí: el guante brilla en rojo por un lado, la flecha indica esquivar al otro y se toca para golpear.",
+        "adictivo": "Rivales cada vez más rápidos, combos de esquiva perfecta y una barra de KO que se llena.",
+        "monetizacion": "Anuncio entre combates. Anuncio con recompensa: recuperar la salud una vez o un guante dorado durante un combate."
+      },
+      "competenciaNivel": "media",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Combates de 30-60 s encadenados. Tiempo real: Sin datos.",
+      "conclusion": "APTA: género nuevo para el estudio (acción y lucha), se entiende al primer toque y aprovecha el interés por las MMA sin usar marcas.",
+      "nombre": "KO Relámpago",
+      "fecha": "2026-11-15",
+      "nueva": true,
+      "estado": "no apta",
+      "elegida": false,
+      "origen": "Investigación diaria 15/11/2026 08:00",
+      "motivo": "APTA: género nuevo para el estudio (acción y lucha), se entiende al primer toque y aprovecha el interés por las MMA sin usar marcas.",
+      "motivoRechazo": "Cancelado por Daniel 15/11/2026 11:49 y borrado por completo; no se puntúa. (Estaba en aptas por error tras la cancelación.)"
     }
   ],
-  "actualizadoEn": "2026-11-15T18:41:00+01:00"
+  "actualizadoEn": "2026-11-15T19:05:00+01:00"
 }
