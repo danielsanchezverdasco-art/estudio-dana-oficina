@@ -4,6 +4,12 @@ Daniky = Niky.
 
 (Escribe aquí cada entrega con fecha y hora de Madrid, skills usadas y ruta.)
 
+## Torre F1 · progreso · 15/11/2026, 23:18, hora de Madrid
+- **Qué es:** artefacto NUEVO e independiente `torre-dana-games-f1` (no se toca `torre-dana-games`, que lleva el Simpson). Fiel a la preview F1 (`torre-nuevos-disenos/media-generation-preview-edificio-f1-0-581dbeb5-dfef-46d1-8ecb-d5b4f28d0206.webp`): pit lane nocturno, 5 plantas, una oficina por planta (5ª DIRECCIÓN, 4ª REUNIONES, 3ª KPIs, 2ª IDEAS, 1ª DISEÑO). Funcionalidad exactamente igual que la v14. Todo en una pantalla a 390 px, sin scroll.
+- **AHORA (23:18):** generando los personajes como arte real. 20/20 sprites ya en disco (`~/workspace/torre-personajes-f1/`): león Daniel, búho Anita, zorro Grok, blob Dani, Moteo, rana KPIs, ardilla Ideas, camaleón Diseño y 2 mecánicos genéricos, cada uno con pose de caminar y de trabajo. Falta: hoja de contacto + manifiesto del agente de assets.
+- **Qué queda (orientativo):** hoja de contacto + manifiesto (~minutos) → construir el artefacto → verificar a 390 px → entregar para probar. Sin ETA exacta: orden de calidad de Daniel (23:05) — mejor acabada que rápida.
+- **No estoy atascado:** el agente de assets sigue activo. La revisión de atascos de Daniel (23:17) era por falta de actividad visible, no por bloqueo.
+
 ## Herramientas
 
 (Qué tengo y qué me falta: generación de imágenes, navegador para Playgama y YouTube, Node + Phaser 3 + TypeScript, ffmpeg.)
