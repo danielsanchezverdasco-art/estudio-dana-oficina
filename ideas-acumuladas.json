@@ -48,43 +48,6 @@
   ],
   "aptas": [
     {
-      "id": "estampida-en-las-rebajas",
-      "titulo": "Estampida en las Rebajas",
-      "tituloEN": "Sale Stampede: Shopper Escape",
-      "genero": "Puzle de flechas (escape)",
-      "gancho": "Toca a cada comprador para que salga corriendo hacia su flecha; si choca, vuelan las bolsas.",
-      "porQueFunciona": "Las flechas son el puzle viral de 2026: n.º 4 en descargas mundiales y en tendencia en Playgama. Vive de anuncios, como nosotros.",
-      "datos": [
-        {
-          "dato": "Arrows – Puzzle Escape: 4.º juego móvil más descargado del 1.er semestre de 2026 (AppMagic)",
-          "fuente": "https://mobilegamer.biz/2026s-top-10-mobile-game-downloads-so-far-free-fire-max-block-blast-roblox-arrows-more/"
-        },
-        {
-          "dato": "Arrows: más de 4 M de usuarios diarios y unos 250.000 $/día en anuncios",
-          "fuente": "https://www.gamigion.com/arrows-puzzle-escape-by-lessmore-is-rocking/"
-        },
-        {
-          "dato": "Arrow Puzzle: n.º 2 en tendencias de Playgama (noviembre de 2026)",
-          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
-        },
-        {
-          "dato": "Sin temporizador ni límite de movimientos: 3 vidas por nivel",
-          "fuente": "https://www.gamigion.com/arrows-puzzle-escape-by-lessmore-is-rocking/"
-        }
-      ],
-      "competencia": "alta: hay 30 apps de flechas y 49 juegos de flechas en Playgama. Lo diferencia el tema de rebajas y el choque cómico.",
-      "potencialViral": 5,
-      "hacibleEnUnDia": true,
-      "duracionSesion": "Niveles infinitos generados por código; partidas de 30-90 s encadenadas. Tiempo real: sin dato. Sin temporizador, así se juega más tiempo.",
-      "elegida": true,
-      "nombre": "Estampida en las Rebajas",
-      "fecha": "2026-11-15",
-      "nueva": false,
-      "estado": "apta",
-      "viralUrgente": false,
-      "origen": "lista inicial 30 ideas (15/11 01:30)"
-    },
-    {
       "id": "cinta-sushi-glotona",
       "titulo": "Cinta de Sushi Glotona",
       "tituloEN": "Sushi Belt Frenzy",
@@ -111,35 +74,6 @@
       "duracionSesion": "Niveles infinitos generados por código; partidas de 30-90 s encadenadas. Tiempo real: sin dato.",
       "elegida": false,
       "nombre": "Cinta de Sushi Glotona",
-      "fecha": "2026-11-15",
-      "nueva": false,
-      "estado": "apta",
-      "viralUrgente": false,
-      "origen": "lista inicial 30 ideas (15/11 01:30)"
-    },
-    {
-      "id": "salva-el-bocata",
-      "titulo": "¡Que no me roben el bocata!",
-      "tituloEN": "Seagull Attack: Save the Sandwich",
-      "genero": "Dibujar para proteger",
-      "gancho": "Dibuja una línea para proteger tu bocata de una bandada de gaviotas durante 10 segundos.",
-      "porQueFunciona": "Es la mecánica de Save The Pets, muy jugada en Playables, con un tema playero y gracioso.",
-      "datos": [
-        {
-          "dato": "Save The Pets: 40 M de partidas en YouTube Playables",
-          "fuente": "https://playables.games/best/"
-        },
-        {
-          "dato": "DOP 4 (dibujar una parte): 41 M de partidas",
-          "fuente": "https://playables.games/best/"
-        }
-      ],
-      "competencia": "media: el clon de mascotas abunda; el tema de gaviotas y bocata es nuevo.",
-      "potencialViral": 5,
-      "hacibleEnUnDia": true,
-      "duracionSesion": "Niveles de 10 s con estrellas y reintento. Tiempo real: sin dato.",
-      "elegida": false,
-      "nombre": "¡Que no me roben el bocata!",
       "fecha": "2026-11-15",
       "nueva": false,
       "estado": "apta",
@@ -511,31 +445,6 @@
       "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
-      "id": "gusano-gloton",
-      "titulo": "Gusano Glotón",
-      "tituloEN": "Worm Clash",
-      "genero": "Serpiente contra bots",
-      "gancho": "Tu gusano engorda comiendo gominolas y aplasta a gusanos más pequeños (bots).",
-      "porQueFunciona": "Snake Clash está en el top 3 de Playables.",
-      "datos": [
-        {
-          "dato": "Snake Clash!: 107 M de partidas en Playables (top 3)",
-          "fuente": "https://playables.games/best/"
-        }
-      ],
-      "competencia": "alta.",
-      "potencialViral": 3,
-      "hacibleEnUnDia": true,
-      "duracionSesion": "Partidas de 2-3 min con mejoras. Bots, sin servidores. Tiempo real: sin dato.",
-      "elegida": false,
-      "nombre": "Gusano Glotón",
-      "fecha": "2026-11-15",
-      "nueva": false,
-      "estado": "apta",
-      "viralUrgente": false,
-      "origen": "lista inicial 30 ideas (15/11 01:30)"
-    },
-    {
       "id": "muneco-antiestres",
       "titulo": "Muñeco Antiestrés",
       "tituloEN": "Stress Dummy Smash",
@@ -567,76 +476,6 @@
       "estado": "apta",
       "viralUrgente": false,
       "origen": "lista inicial 30 ideas (15/11 01:30)"
-    },
-    {
-      "id": "cofre-del-doblon",
-      "titulo": "Cofre del Doblón",
-      "tituloEN": "Gold Doubloon Chest Rush",
-      "genero": "Arcade de reflejos y suerte (toca cofres)",
-      "gancho": "Los cofres asoman de la arena: tócalos antes de que se hundan. Evita las bombas. Y en uno entre muchos… el DOBLÓN DORADO.",
-      "porQueFunciona": "Copia la emoción del momento (abrir cofres buscando un premio rarísimo, la moda #piratetoken) con un tema pirata genérico, sin marcas.",
-      "viralUrgente": true,
-      "temaViral": "#piratetoken / Pirate Shop Token de Fortnite (evento Treasure Hunters hasta el 5/12/2026)",
-      "datos": [
-        {
-          "dato": "#piratetoken: 428,3 M de visualizaciones y 59.086 publicaciones en TikTok EE. UU. (7 días, a 14/11/2026), +31,7 % en visualizaciones frente al 11/11; n.º 3 de hashtags (llegó al n.º 1 el 10/11)",
-          "fuente": "https://hiviolet.ai/signals/tiktok/hashtags/piratetoken"
-        },
-        {
-          "dato": "#pirateshoptoken: unos 12.400 vídeos y 279 M de reproducciones en TikTok; el vídeo top tiene 13,3 M de reproducciones",
-          "fuente": "https://memeclone.ai/meme/fortnite-pirate-shop-token"
-        },
-        {
-          "dato": "El evento Treasure Hunters dura hasta el 5/12/2026: unas 3 semanas de tirón",
-          "fuente": "https://memeclone.ai/meme/fortnite-pirate-shop-token"
-        },
-        {
-          "dato": "Shorts de YouTube sobre el tema: 702.909 visualizaciones (\"I Tested Pirate Shop Token Clickbait Fortnite Shorts!\") y 48.000 (\"He's Opened Over 100,000 Chests…\")",
-          "fuente": "https://www.youtube.com/watch?v=bHDSVowwu5w"
-        },
-        {
-          "dato": "Playgama: con \"pirate\" o \"treasure chest\" salen objetos ocultos, defensa de torres y cañones; no hay ningún arcade de tocar cofres. Con \"whack\" solo salen \"Whack a Mole - Pixel Version\" y \"Whack Strike\"",
-          "fuente": "https://playgama.com/search?q=pirate"
-        }
-      ],
-      "analisis": {
-        "tendencias": "TikTok: #piratetoken con 428,3 M de visualizaciones en 7 días y subiendo (Hi Violet, 14/11). X: Sin datos de recuento propio. Google Trends: Sin datos para este tema. YouTube Shorts: hay vídeos de 41.000 a 702.909 visualizaciones.",
-        "hypercasualQueFunciona": "Lo que más sube en Casual EE. UU. son los juegos de premio y probabilidad, como Coin Bounce (puesto 28 → 9 en 12 días, unas 292.536 instalaciones) y Fast Cash Farkle (top 5).",
-        "fuentesHypercasual": [
-          "https://42answer.com/en/insights/2026-11-11-us-casual-puzzle/",
-          "https://42answer.com/en/insights/2026-11-01-us-casual-puzzle-weekly/"
-        ],
-        "competencia": "Baja en Playgama (no hay ningún \"whack\" de cofres con premio raro). Para no ser un clon de \"Whack a Mole\": cofres con físicas, tres tipos (madera, plata y oro), bombas, cangrejos que roban monedas y un doblón rarísimo con un contador de probabilidad visible.",
-        "viabilidad": "Muy alta en un día: spawner en rejilla de 3×4, tweens de salida y hundimiento, partículas de monedas y confeti, y una curva de velocidad. Riesgos: que la probabilidad del doblón parezca un sorteo de dinero. Mitigación: sin dinero real, sin apuestas y sin compras; el doblón da puntos y una skin del barco. Hay que revisar las normas de seguridad de Playables.",
-        "fuenteNormas": "https://developers.google.com/youtube/gaming/playables/certification/requirements_trustsafety",
-        "potencialViral": "Alto: el momento \"¡ME HA SALIDO!\" del doblón se puede grabar y conecta con la moda actual.",
-        "se_entiende_3s_sin_texto": "Sí: un cofre brilla y sube, lo tocas y salen monedas. Una bomba roja con mecha no se toca.",
-        "adictivo": "Recompensa variable (el doblón raro), velocidad que sube, combo por tocar seguido y récord de monedas.",
-        "monetizacion": "Anuncio entre partidas. Anuncio con recompensa: \"Suerte x2 durante 30 s\" o seguir tras tocar una bomba."
-      },
-      "puntuacion": {
-        "tendencia": 5,
-        "competencia": 4,
-        "viabilidad1Dia": 5,
-        "potencialViral": 5,
-        "seEntiendeEn3s": 5,
-        "adiccion": 4,
-        "monetizacion": 4,
-        "total": 32,
-        "escala": "cada criterio 1-5; total sobre 35"
-      },
-      "competenciaNivel": "baja",
-      "potencialViral": 5,
-      "hacibleEnUnDia": true,
-      "duracionSesion": "Partidas de 45-60 s con velocidad creciente. Tiempo real: Sin datos.",
-      "conclusion": "APTA y URGENTE: el tema arrasa ahora y aguanta hasta el 5/12. Mecánica de un toque, muy visual, sin clon directo en Playgama. Hay que fabricarla hoy, con tema pirata propio y sin marcas de Fortnite.",
-      "nombre": "Cofre del Doblón",
-      "fecha": "2026-11-15",
-      "nueva": true,
-      "estado": "apta",
-      "elegida": false,
-      "origen": "Investigación diaria 15/11/2026 08:00",
-      "motivo": "APTA y URGENTE: el tema arrasa ahora y aguanta hasta el 5/12. Mecánica de un toque, muy visual, sin clon directo en Playgama. Hay que fabricarla hoy, con tema pirata propio y sin marcas de Fortnite."
     },
     {
       "id": "ko-relampago",
@@ -774,18 +613,6 @@
       "vistas": null,
       "enCola": true,
       "genero": "Puzle de colocar"
-    },
-    {
-      "id": "el-barista-del-caos",
-      "titulo": "El Barista del Caos",
-      "motivo": "en-cola-sin-metricas",
-      "nota": null,
-      "facturacion": null,
-      "partidas": null,
-      "ingresosPorMilPartidas": null,
-      "vistas": null,
-      "enCola": true,
-      "genero": "Gestión / tiempo"
     }
   ],
   "noAptas": [
@@ -1257,7 +1084,186 @@
       "elegida": false,
       "origen": "Investigación diaria 15/11/2026 08:00",
       "motivo": "Mecánica de casino (riesgo con las normas), poco espectáculo visual y poco viral."
+    },
+    {
+      "id": "salva-el-bocata",
+      "titulo": "¡Que no me roben el bocata!",
+      "tituloEN": "Seagull Attack: Save the Sandwich",
+      "genero": "Dibujar para proteger",
+      "gancho": "Dibuja una línea para proteger tu bocata de una bandada de gaviotas durante 10 segundos.",
+      "porQueFunciona": "Es la mecánica de Save The Pets, muy jugada en Playables, con un tema playero y gracioso.",
+      "datos": [
+        {
+          "dato": "Save The Pets: 40 M de partidas en YouTube Playables",
+          "fuente": "https://playables.games/best/"
+        },
+        {
+          "dato": "DOP 4 (dibujar una parte): 41 M de partidas",
+          "fuente": "https://playables.games/best/"
+        }
+      ],
+      "competencia": "media: el clon de mascotas abunda; el tema de gaviotas y bocata es nuevo.",
+      "potencialViral": 5,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles de 10 s con estrellas y reintento. Tiempo real: sin dato.",
+      "elegida": false,
+      "nombre": "¡Que no me roben el bocata!",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)",
+      "motivoRechazo": "Rechazado por Daniel 15/11/2026 18:36: «No me gusta nada, no es un juego que enganche. Es muy simple, con mecánica fea, descartado»."
+    },
+    {
+      "id": "gusano-gloton",
+      "titulo": "Gusano Glotón",
+      "tituloEN": "Worm Clash",
+      "genero": "Serpiente contra bots",
+      "gancho": "Tu gusano engorda comiendo gominolas y aplasta a gusanos más pequeños (bots).",
+      "porQueFunciona": "Snake Clash está en el top 3 de Playables.",
+      "datos": [
+        {
+          "dato": "Snake Clash!: 107 M de partidas en Playables (top 3)",
+          "fuente": "https://playables.games/best/"
+        }
+      ],
+      "competencia": "alta.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Partidas de 2-3 min con mejoras. Bots, sin servidores. Tiempo real: sin dato.",
+      "elegida": false,
+      "nombre": "Gusano Glotón",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)",
+      "motivoRechazo": "Rechazado por Daniel 15/11/2026 18:37: «No me gusta, descartado»."
+    },
+    {
+      "id": "estampida-en-las-rebajas",
+      "titulo": "Estampida en las Rebajas",
+      "tituloEN": "Sale Stampede: Shopper Escape",
+      "genero": "Puzle de flechas (escape)",
+      "gancho": "Toca a cada comprador para que salga corriendo hacia su flecha; si choca, vuelan las bolsas.",
+      "porQueFunciona": "Las flechas son el puzle viral de 2026: n.º 4 en descargas mundiales y en tendencia en Playgama. Vive de anuncios, como nosotros.",
+      "datos": [
+        {
+          "dato": "Arrows – Puzzle Escape: 4.º juego móvil más descargado del 1.er semestre de 2026 (AppMagic)",
+          "fuente": "https://mobilegamer.biz/2026s-top-10-mobile-game-downloads-so-far-free-fire-max-block-blast-roblox-arrows-more/"
+        },
+        {
+          "dato": "Arrows: más de 4 M de usuarios diarios y unos 250.000 $/día en anuncios",
+          "fuente": "https://www.gamigion.com/arrows-puzzle-escape-by-lessmore-is-rocking/"
+        },
+        {
+          "dato": "Arrow Puzzle: n.º 2 en tendencias de Playgama (noviembre de 2026)",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        },
+        {
+          "dato": "Sin temporizador ni límite de movimientos: 3 vidas por nivel",
+          "fuente": "https://www.gamigion.com/arrows-puzzle-escape-by-lessmore-is-rocking/"
+        }
+      ],
+      "competencia": "alta: hay 30 apps de flechas y 49 juegos de flechas en Playgama. Lo diferencia el tema de rebajas y el choque cómico.",
+      "potencialViral": 5,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles infinitos generados por código; partidas de 30-90 s encadenadas. Tiempo real: sin dato. Sin temporizador, así se juega más tiempo.",
+      "elegida": true,
+      "nombre": "Estampida en las Rebajas",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)",
+      "motivoRechazo": "Rechazado por Daniel 15/11/2026 18:38: «Muy simple y feo»."
+    },
+    {
+      "id": "el-barista-del-caos",
+      "titulo": "El Barista del Caos",
+      "motivo": "en-cola-sin-metricas",
+      "nota": null,
+      "facturacion": null,
+      "partidas": null,
+      "ingresosPorMilPartidas": null,
+      "vistas": null,
+      "enCola": true,
+      "genero": "Gestión / tiempo",
+      "estado": "no apta",
+      "motivoRechazo": "Rechazado por Daniel 15/11/2026 ~18:40: «De hartos, todos no me gusta nada», «me parece patético el nivel que me estáis dando»."
+    },
+    {
+      "id": "cofre-del-doblon",
+      "titulo": "Cofre del Doblón",
+      "tituloEN": "Gold Doubloon Chest Rush",
+      "genero": "Arcade de reflejos y suerte (toca cofres)",
+      "gancho": "Los cofres asoman de la arena: tócalos antes de que se hundan. Evita las bombas. Y en uno entre muchos… el DOBLÓN DORADO.",
+      "porQueFunciona": "Copia la emoción del momento (abrir cofres buscando un premio rarísimo, la moda #piratetoken) con un tema pirata genérico, sin marcas.",
+      "viralUrgente": true,
+      "temaViral": "#piratetoken / Pirate Shop Token de Fortnite (evento Treasure Hunters hasta el 5/12/2026)",
+      "datos": [
+        {
+          "dato": "#piratetoken: 428,3 M de visualizaciones y 59.086 publicaciones en TikTok EE. UU. (7 días, a 14/11/2026), +31,7 % en visualizaciones frente al 11/11; n.º 3 de hashtags (llegó al n.º 1 el 10/11)",
+          "fuente": "https://hiviolet.ai/signals/tiktok/hashtags/piratetoken"
+        },
+        {
+          "dato": "#pirateshoptoken: unos 12.400 vídeos y 279 M de reproducciones en TikTok; el vídeo top tiene 13,3 M de reproducciones",
+          "fuente": "https://memeclone.ai/meme/fortnite-pirate-shop-token"
+        },
+        {
+          "dato": "El evento Treasure Hunters dura hasta el 5/12/2026: unas 3 semanas de tirón",
+          "fuente": "https://memeclone.ai/meme/fortnite-pirate-shop-token"
+        },
+        {
+          "dato": "Shorts de YouTube sobre el tema: 702.909 visualizaciones (\"I Tested Pirate Shop Token Clickbait Fortnite Shorts!\") y 48.000 (\"He's Opened Over 100,000 Chests…\")",
+          "fuente": "https://www.youtube.com/watch?v=bHDSVowwu5w"
+        },
+        {
+          "dato": "Playgama: con \"pirate\" o \"treasure chest\" salen objetos ocultos, defensa de torres y cañones; no hay ningún arcade de tocar cofres. Con \"whack\" solo salen \"Whack a Mole - Pixel Version\" y \"Whack Strike\"",
+          "fuente": "https://playgama.com/search?q=pirate"
+        }
+      ],
+      "analisis": {
+        "tendencias": "TikTok: #piratetoken con 428,3 M de visualizaciones en 7 días y subiendo (Hi Violet, 14/11). X: Sin datos de recuento propio. Google Trends: Sin datos para este tema. YouTube Shorts: hay vídeos de 41.000 a 702.909 visualizaciones.",
+        "hypercasualQueFunciona": "Lo que más sube en Casual EE. UU. son los juegos de premio y probabilidad, como Coin Bounce (puesto 28 → 9 en 12 días, unas 292.536 instalaciones) y Fast Cash Farkle (top 5).",
+        "fuentesHypercasual": [
+          "https://42answer.com/en/insights/2026-11-11-us-casual-puzzle/",
+          "https://42answer.com/en/insights/2026-11-01-us-casual-puzzle-weekly/"
+        ],
+        "competencia": "Baja en Playgama (no hay ningún \"whack\" de cofres con premio raro). Para no ser un clon de \"Whack a Mole\": cofres con físicas, tres tipos (madera, plata y oro), bombas, cangrejos que roban monedas y un doblón rarísimo con un contador de probabilidad visible.",
+        "viabilidad": "Muy alta en un día: spawner en rejilla de 3×4, tweens de salida y hundimiento, partículas de monedas y confeti, y una curva de velocidad. Riesgos: que la probabilidad del doblón parezca un sorteo de dinero. Mitigación: sin dinero real, sin apuestas y sin compras; el doblón da puntos y una skin del barco. Hay que revisar las normas de seguridad de Playables.",
+        "fuenteNormas": "https://developers.google.com/youtube/gaming/playables/certification/requirements_trustsafety",
+        "potencialViral": "Alto: el momento \"¡ME HA SALIDO!\" del doblón se puede grabar y conecta con la moda actual.",
+        "se_entiende_3s_sin_texto": "Sí: un cofre brilla y sube, lo tocas y salen monedas. Una bomba roja con mecha no se toca.",
+        "adictivo": "Recompensa variable (el doblón raro), velocidad que sube, combo por tocar seguido y récord de monedas.",
+        "monetizacion": "Anuncio entre partidas. Anuncio con recompensa: \"Suerte x2 durante 30 s\" o seguir tras tocar una bomba."
+      },
+      "puntuacion": {
+        "tendencia": 5,
+        "competencia": 4,
+        "viabilidad1Dia": 5,
+        "potencialViral": 5,
+        "seEntiendeEn3s": 5,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 32,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "baja",
+      "potencialViral": 5,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Partidas de 45-60 s con velocidad creciente. Tiempo real: Sin datos.",
+      "conclusion": "APTA y URGENTE: el tema arrasa ahora y aguanta hasta el 5/12. Mecánica de un toque, muy visual, sin clon directo en Playgama. Hay que fabricarla hoy, con tema pirata propio y sin marcas de Fortnite.",
+      "nombre": "Cofre del Doblón",
+      "fecha": "2026-11-15",
+      "nueva": true,
+      "estado": "no apta",
+      "elegida": false,
+      "origen": "Investigación diaria 15/11/2026 08:00",
+      "motivo": "APTA y URGENTE: el tema arrasa ahora y aguanta hasta el 5/12. Mecánica de un toque, muy visual, sin clon directo en Playgama. Hay que fabricarla hoy, con tema pirata propio y sin marcas de Fortnite.",
+      "motivoRechazo": "Rechazado por Daniel 15/11/2026 ~18:40: «De hartos, todos no me gusta nada», «me parece patético el nivel que me estáis dando»."
     }
   ],
-  "actualizadoEn": "2026-11-15T08:10:00+01:00"
+  "actualizadoEn": "2026-11-15T18:41:00+01:00"
 }
