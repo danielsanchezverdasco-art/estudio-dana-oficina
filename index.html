@@ -9,8 +9,8 @@
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-    <script type="module" crossorigin src="/estudio-dana-oficina/assets/index-DI0Rmyap.js"></script>
-    <link rel="stylesheet" crossorigin href="/estudio-dana-oficina/assets/index-1KOr2sPJ.css">
+    <script type="module" crossorigin src="/estudio-dana-oficina/assets/index-CPxGVKoI.js"></script>
+    <link rel="stylesheet" crossorigin href="/estudio-dana-oficina/assets/index-BS2lT_y-.css">
   </head>
   <body>
     <div id="game"></div>
@@ -21,31 +21,19 @@
           <strong>Dana Games</strong>
           <em id="floor-chip">El estudio</em>
         </div>
+        <button id="datos-btn" type="button" aria-expanded="false" aria-controls="refresh-bar">Datos</button>
         <button id="mute" type="button" aria-pressed="false" aria-label="Silencio">♪</button>
       </div>
-      <div id="modes" role="tablist" aria-label="Modo de vista">
-        <button id="mode-quick" type="button" role="tab" aria-selected="true">Vista rápida 2D</button>
-        <button id="mode-play" type="button" role="tab" aria-selected="false">Modo juego</button>
-      </div>
-      <div id="goal-bar" aria-label="Meta del mes">
-        <p id="goal-text">Meta: — · sin datos todavía</p>
-        <div id="goal-track"><span id="goal-fill"></span></div>
-        <p id="goal-sources">Playgama — · YouTube —</p>
+      <p id="refresh-when">Última recogida: —</p>
+      <div id="refresh-bar" hidden>
+        <button id="refresh-data" type="button">Actualizar datos</button>
+        <a class="mail-btn" href="mailto:danielsanchezverdasco-tctv6b+datos@mail.grokbot.com?subject=Actualizar%20datos&amp;body=Recoger%20datos%20ahora">Pedir recogida nueva</a>
+        <p class="mail-note">Se abre tu correo: dale a enviar</p>
       </div>
     </header>
     <div id="banner" hidden><img id="banner-art" alt="" /><span id="banner-text"></span></div>
     <div id="badges"></div>
     <div id="floor-signs"></div>
-    <div id="refresh-bar">
-      <div class="refresh-actions">
-        <button id="refresh-data" type="button">Actualizar datos</button>
-        <div class="mail-ask">
-          <a class="mail-btn" href="mailto:danielsanchezverdasco-tctv6b+datos@mail.grokbot.com?subject=Actualizar%20datos&amp;body=Recoger%20datos%20ahora">Pedir recogida nueva</a>
-          <p class="mail-note">Se abre tu correo: dale a enviar</p>
-        </div>
-      </div>
-      <p id="refresh-when">Última recogida: —</p>
-    </div>
     <nav id="command-bar" aria-label="Centro de mando"></nav>
     <section id="sheet" hidden aria-labelledby="sheet-title">
       <header>

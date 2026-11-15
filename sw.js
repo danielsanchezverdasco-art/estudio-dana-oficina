@@ -1,4 +1,4 @@
-const CACHE = 'dana-oficina-v8';
+const CACHE = 'dana-oficina-v13';
 
 self.addEventListener('install', () => {
   self.skipWaiting();

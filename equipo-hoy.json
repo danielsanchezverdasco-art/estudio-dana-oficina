@@ -1,0 +1,130 @@
+{
+  "fecha": "2026-11-15",
+  "actualizado": "2026-11-15T04:12:00+01:00",
+  "areas": {
+    "oficina": {
+      "nombre": "Oficina",
+      "rol": "Oficina",
+      "estado": "Publicada",
+      "hoy": ["Nueva versión de la oficina publicada en GitHub Pages."],
+      "resumen": "La oficina está publicada en GitHub Pages.",
+      "fuente": "Informe del Director 15/11/2026"
+    },
+    "youtube": {
+      "nombre": "YouTube y Shorts",
+      "rol": "YouTube y Shorts",
+      "estado": null,
+      "hoy": ["215 vídeos antiguos puestos en privado."],
+      "resumen": "215 vídeos antiguos del canal quedaron en privado.",
+      "fuente": "Informe del Director 15/11/2026"
+    },
+    "calidad": {
+      "nombre": "Arte y Calidad",
+      "rol": "Arte y Calidad",
+      "estado": "En arreglos",
+      "hoy": [
+        "Estampida r10 rechazada.",
+        "Mudanza y Metro r7 en arreglos."
+      ],
+      "resumen": "Estampida r10 no pasó. Mudanza y Metro siguen en arreglos, en la r7.",
+      "fuente": "Informe del Director 15/11/2026"
+    },
+    "playgama": {
+      "nombre": "Publicación Playgama",
+      "rol": "Publicación Playgama",
+      "estado": "Nada subido",
+      "hoy": [
+        "Checklist de Playgama lista.",
+        "Nada subido todavía."
+      ],
+      "resumen": "La checklist de Playgama está lista y todavía no hay nada subido.",
+      "fuente": "Informe del Director 15/11/2026"
+    },
+    "direccion": {
+      "nombre": "Dirección",
+      "rol": "Dirección",
+      "estado": "En curso",
+      "hoy": [
+        "Meta del estudio: ganar 2.500 € al mes con los juegos (Playgama y YouTube Playables).",
+        "Mantener el ritmo de dos juegos nuevos al día."
+      ],
+      "resumen": "Esos dos planes de hoy siguen en curso.",
+      "fuente": "planes.json · 15/11/2026"
+    },
+    "diseno": {
+      "nombre": "Diseño",
+      "rol": "Diseño de juego",
+      "estado": "En revisión de calidad",
+      "hoy": ["Terminar El Barista del Caos y sacarlo del filtro de calidad."],
+      "resumen": "El plan de hoy de El Barista del Caos está en revisión de calidad.",
+      "fuente": "planes.json · 15/11/2026"
+    },
+    "skills": {
+      "nombre": "Skills",
+      "rol": "Skills",
+      "estado": null,
+      "hoy": [
+        "Nueva planta y sección de Skills, con el listado que usa el estudio.",
+        "Revisión semanal de skills los lunes a las 8:00."
+      ],
+      "resumen": "La planta Skills lista el catálogo. La revisión queda los lunes a las 8:00.",
+      "fuente": "cambios.json · 15/11/2026"
+    },
+    "caza": {
+      "nombre": "Caza de talento",
+      "rol": "Caza de talento",
+      "estado": null,
+      "hoy": ["Nueva planta «Caza de talento» y barra de la meta de 2.500 €/mes."],
+      "resumen": "La planta de caza de talento queda publicada hoy.",
+      "fuente": "cambios.json · 15/11/2026"
+    },
+    "reuniones": {
+      "nombre": "Sala de reuniones",
+      "rol": "Sala de reuniones",
+      "estado": null,
+      "hoy": [],
+      "resumen": null,
+      "fuente": null
+    },
+    "ideas": {
+      "nombre": "Ideas",
+      "rol": "Ideas de juegos",
+      "estado": null,
+      "hoy": [],
+      "resumen": null,
+      "fuente": null
+    },
+    "kpis": {
+      "nombre": "KPIs y actividad",
+      "rol": "KPIs y actividad",
+      "estado": null,
+      "hoy": [],
+      "resumen": null,
+      "fuente": null
+    },
+    "programacion": {
+      "nombre": "Programación",
+      "rol": "Programación",
+      "estado": null,
+      "hoy": [],
+      "resumen": null,
+      "fuente": null
+    },
+    "estadisticas": {
+      "nombre": "Estadísticas",
+      "rol": "Estadísticas",
+      "estado": null,
+      "hoy": [],
+      "resumen": null,
+      "fuente": null
+    },
+    "analitica": {
+      "nombre": "Analítica",
+      "rol": "Analítica",
+      "estado": null,
+      "hoy": [],
+      "resumen": null,
+      "fuente": null
+    }
+  }
+}
