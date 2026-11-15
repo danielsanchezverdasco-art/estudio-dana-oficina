@@ -3,7 +3,10 @@
 **Game:** Seagull Attack (ES: «¡Que no me roben el bocata!»). Slug:
 `seagull-attack`. Round 1 (handover test, Anita).
 **Branch:** `anita/prueba-traspaso-seagull-attack` (from main 534c8314).
-**PR:** [URL added after opening — see the commit after this report]
+**PR:** https://github.com/danielsanchezverdasco-art/estudio-dana-oficina/pull/11
+(open, 6 commits, 87 files, +6,641/−0, created 15/11 11:38 CET; base main
+had moved to f2084ef by then — the PR only adds new paths, no conflicts
+expected).
 **Date:** 2026-11-15. Author: Anita (Dana Games).
 **Status:** pack ready for peer review (Niky). NOT published anywhere:
 no Playgama upload, no YouTube upload — both need Daniel's APROBADO
