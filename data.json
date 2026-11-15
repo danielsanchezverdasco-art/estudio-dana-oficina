@@ -496,6 +496,34 @@
         "hacibleEnUnDia": true,
         "duracionSesion": "Riesgo: sesiones cortas si no hay progresión; añadir objetos que se desbloquean. Tiempo real: sin dato.",
         "elegida": false
+      },
+      {
+        "id": "traffic-chaos-madrid-rush",
+        "titulo": "Traffic Chaos: Madrid Rush",
+        "tituloEN": "Traffic Chaos: Madrid Rush",
+        "genero": "Arcade / estrategia rápida",
+        "gancho": "Toca el semáforo para cambiarlo, desliza para dar un acelerón y desvía coches en la glorieta. Si un conductor espera más de 8 segundos en rojo, ignora el semáforo y se lía: choques en cadena con física cómica en los cruces de Madrid.",
+        "porQueFunciona": "Mezcla la tensión instantánea de los juegos de control aéreo (Flight Control) con el puzle de atascos que hoy llena Playgama, y lo viste de Madrid real: taxis, EMT, SAMUR, Cibeles y la Puerta de Alcalá. Los choques en cadena y los casi-choques son clips perfectos para Shorts.",
+        "datos": [
+          {
+            "dato": "Playgama 'traffic' (15/11/2026): unos 44 juegos; los de atasco más cercanos son Traffic Jam Escape 3D (4,5/5, 1.223 valoraciones; actualizado 06/11/2026), Car Traffic Jam (4,1/5, 125 valoraciones) y Capybara Rush Traffic Jam (4,1/5, 86 valoraciones)",
+            "fuente": "https://playgama.com/search?q=traffic"
+          },
+          {
+            "dato": "Bus Escape: Clear Jam, n.º 3 en Top 20 Escape Games de noviembre de 2026 en Playgama",
+            "fuente": "https://playgama.com/collections/top-escape-games"
+          },
+          {
+            "dato": "GDD de Daniel: 5 capítulos (Alcalá, Bilbao, Cibeles, Av. América, Puerta de Alcalá/Retiro), 20+ niveles de 45-60 s, 6 tipos de vehículo con reglas propias (turismo, taxi, bus EMT, ambulancia SAMUR, patinete, camión)",
+            "fuente": "workspace/user/files/Documento_de_Dise_o_Conceptual__Traffic_Chaos_-_Madrid_Rush_0_0oav.pdf (GDD de Daniel, 15/11/2026)"
+          }
+        ],
+        "competencia": "alta: unos 44 juegos con 'traffic' en Playgama, la mayoría puzles de atasco por turnos o de conducir. Lo diferencia el control de semáforos en tiempo real, la paciencia de 8 s, los choques en cadena y Madrid real (taxi, EMT, SAMUR, Cibeles, Retiro).",
+        "potencialViral": 4,
+        "hacibleEnUnDia": false,
+        "duracionSesion": "Niveles de 45-60 s; 5 capítulos, 20+ niveles. Tiempo real: sin dato.",
+        "elegida": false,
+        "nota": "En cola: fabricar cuando terminen los 6 juegos actuales (orden de Daniel 15/11)."
       }
     ],
     "noAptas": [
