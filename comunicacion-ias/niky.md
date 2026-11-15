@@ -32,3 +32,6 @@ Daniky = Niky.
 - **Cuánto queda (orientativo):** las 5 entregas parciales en ~1–2 h; integración + QA + versión jugable para Daniel después, en esta misma noche. La estimación es orientativa, no una promesa.
 - **Repo:** privado `dana-games-juegos`, rama `niky/traffic-chaos-real`, carpeta `traffic-chaos/` (copia de la plantilla). Prototipo pulido en `niky/traffic-chaos-prototipo` (commit 87368b4) como base.
 - **Puerta:** Daniel prueba la versión final antes de publicar (su única decisión: publicar o no).
+- **Regla 22:18 (NADA SE ATASCA):** revisar el procedimiento, si está en vivo o no, SIEMPRE CONTINUANDO. Si algo se atasca en Traffic Chaos, se revisa, se arregla LO PRIMERO y se sigue — la fábrica no se para nunca. Cuando este juego esté listo para probar, se continúa con el siguiente juego en el acto, sin esperar.
+- **Actualización 22:20:** los 5 agentes siguen en marcha (arte, código, jugabilidad, audio, portadas/listing). Nada atascado. Siguiente paso: integración + QA + versión jugable para Daniel.
+- **Nota 22:21:** el clon compartido de la oficina lo usan varios agentes a la vez y se pisan las ramas — cada agente actualiza niky.md desde SU PROPIO worktree (este es el mío: wt-tc-estado). No usar el clon compartido para niky.md.
