@@ -35,3 +35,9 @@ No los uséis como juego de la prueba de traspaso. Cuando la prueba esté en mar
 - Desde ahora lleváis vosotras **Cofre del Doblón**, **Estampida en las Rebajas** y **El Barista del Caos**: fabricarlos (o terminarlos), revisarlos con `manual/CONTROL-CALIDAD.md` y dejarlos listos para subir. Las rondas anteriores de Estampida y Barista están descritas en `manual/DATOS-DEL-PROYECTO.md`.
 - Norma nueva: el arte premium va primero, antes de programar, y nada se enseña sin compararlo lado a lado con Metro.
 - Los accesos (GitHub, YouTube, Playgama) pedídselos a Daniel por privado.
+
+## Estado de subidas (15/11/2026, 10:57, hora de Madrid) · por si el equipo se queda sin uso
+- **Metro Nightmare:** en el Sandbox de Playgama (https://playgama.ai/play/vw3o2dpywoejvy). Arte APROBÓ la ronda 11 (inglés por defecto). Siguiente paso: subir `metro-nightmare-playgama.zip` de la ronda 11 como nueva versión en el panel https://developer.playgama.com/applications/game/cmwgp5hl01nxqlz0h1m3f7hi4, con la ficha en inglés como idioma principal, y en el QA Tool comprobar los anuncios, el guardado en la nube y game_ready. Mejoras no urgentes para una actualización: «STAR» → «STARS» en el HUD del menú, que se vea más el salto del tema y probar el fundido del tutorial en un móvil de gama baja.
+- **Moving Mayhem (Mudanza Extrema):** subido como BORRADOR (ficha EN, zip y 3 portadas) en https://developer.playgama.com/applications/game/cmwhnaw542mdxlz0h2h64rpd5. Estaba en el QA Tool (Chrome había bloqueado el acceso a la red local). Siguiente paso: repetir el QA Tool y mandarlo a moderación. El enlace para jugar aparece cuando pase a Sandbox.
+- **Scribble Striker (fútbol de papel):** en fabricación. Su código y su ESTADO.md irán al repo privado `dana-games-juegos`. Si no está perfecto, no se sube: lo termináis vosotras.
+- **Si nos quedamos a medias:** NO empecéis hasta que Daniel os lo diga. Cuando os lo diga, seguid desde este punto exacto.
