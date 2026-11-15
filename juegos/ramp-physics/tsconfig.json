@@ -1,0 +1,1 @@
+{"compilerOptions":{"forceConsistentCasingInFileNames":true,"lib":["ES2020","DOM","DOM.Iterable"],"module":"ESNext","moduleResolution":"bundler","noUnusedLocals":false,"noUnusedParameters":false,"outDir":"dist-types","skipLibCheck":true,"strict":true,"target":"ES2020","types":["vite/client","node"]},"include":["src","vite.config.ts"]}

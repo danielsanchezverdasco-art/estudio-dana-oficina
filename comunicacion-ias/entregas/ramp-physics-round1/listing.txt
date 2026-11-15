@@ -1,0 +1,85 @@
+# Ramp Physics: Ragdoll Crash Test — listing
+# Playgama form fields first (EN, as they must be pasted), then the ES
+# translations for the team, then the YouTube Short metadata.
+# Rules applied: EN first, ES second; PEGI 3; YouTube is NOT made for kids
+# (madeForKids=false, COPPA truthful flag); nothing is published on
+# Playgama or YouTube without Daniel's APROBADO and without Daniel
+# testing the final version first (order 15/11 11:32).
+# Category is a candidate: confirm with get_game_categories when Playgama
+# access is granted (no access yet). Title note: Playgama already lists
+# "Ragdoll Crash-Test: Throw and Break!" (Ivan Popenya, Dec 2024) — a
+# different game (throw a stickman at traps), but the title is close.
+# Proposed main title: "Ramp Physics" (no known game by that name);
+# full title "Ramp Physics: Ragdoll Crash Test" from the GDD. Daniel decides.
+
+================================================================
+PLAYGAMA — EN (paste these into the form)
+================================================================
+
+Title: Ramp Physics
+
+Description (100+ chars):
+Ramp Physics is a draw-to-build physics sandbox. Draw ramps with limited
+ink — steel, bouncy or boost — and launch a crash-test dummy across pits,
+giant fans, dynamite and gravity portals. Every level is a puzzle: use
+less ink for 3 stars. 30 hand-made levels, a level map, a daily challenge,
+a streak, a treasure chest every 3 levels, and dummy skins to unlock.
+What makes it different: three ink types with real physics (a bouncy ramp
+is a trampoline, a boost ramp is an accelerator), a 10-body ragdoll that
+tumbles, bounces and crashes for real, and fair ads — interstitials only
+at natural pauses, never on level 1 or on your first retry.
+
+How to play (100+ chars):
+Goal: get the dummy to the checkered flag. Touch and drag to draw a ramp
+— your ink is limited, so draw smart. Tap LAUNCH to release the dummy.
+Steel ramps are solid, blue ramps bounce, orange ramps boost. Fans lift
+the dummy, dynamite blasts it, portals flip gravity. Use less ink than
+par for 3 stars. Stuck? UNDO refunds your ink.
+
+Category: Puzzle (candidate — confirm with Playgama access)
+Age rating: PEGI 3
+Language: English (Spanish included)
+
+Tags: physics, ragdoll, draw, puzzle, crash test, sandbox, construction,
+one touch, casual
+
+================================================================
+PLAYGAMA — ES (for the team; the form takes EN first)
+================================================================
+
+Título: Ramp Physics: Ragdoll Crash Test
+
+Descripción:
+Ramp Physics es un sandbox de física para dibujar y construir. Dibuja
+rampas con tinta limitada — acero, elástica o aceleradora — y lanza un
+muñeco de crash-test por fosos, ventiladores gigantes, dinamita y
+portales de gravedad. Cada nivel es un puzle: usa menos tinta para
+conseguir 3 estrellas. 30 niveles hechos a mano, mapa de niveles, reto
+diario, racha, un cofre cada 3 niveles y skins del muñeco para desbloquear.
+Lo que lo hace distinto: tres tintas con física real (una rampa elástica
+es un trampolín, una aceleradora es un turbo), un ragdoll de 10 cuerpos
+que rueda, rebota y choca de verdad, y anuncios justos — solo en pausas
+naturales, nunca en el nivel 1 ni en tu primer reintento.
+
+Cómo se juega:
+Objetivo: lleva al muñeco hasta la bandera de cuadros. Toca y arrastra
+para dibujar una rampa — tu tinta es limitada, dibuja con cabeza. Toca
+LAUNCH para soltar al muñeco. Las rampas de acero son sólidas, las azules
+rebotan, las naranjas aceleran. Los ventiladores levantan al muñeco, la
+dinamita lo dispara, los portales invierten la gravedad. Usa menos tinta
+que el par para 3 estrellas. ¿Atascado? UNDO te devuelve la tinta.
+
+================================================================
+YOUTUBE SHORT — EN (metadata for the Short, do NOT publish yet)
+================================================================
+
+Title: I drew ONE ramp and the dummy did THIS 😂 | Ramp Physics
+Description:
+Draw a ramp. Launch the dummy. Chain the crash. 🛠️💥
+Ramp Physics is a draw-to-build physics puzzle — 30 levels, 3 ink types,
+giant fans, dynamite and gravity portals. Play it soon on Playgama.
+#RampPhysics #Ragdoll #PhysicsGame #DrawToPlay #DanaGames
+madeForKids=false (YouTube is NOT kids' content — order 15/11 11:32)
+Audience: 13+ (PEGI 3 game, Playables 13+ audience)
+
+Title (ES, for the team): Dibujé UNA rampa y el muñeco hizo ESTO 😂
