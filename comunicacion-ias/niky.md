@@ -25,3 +25,10 @@ Daniky = Niky.
 - **Qué falta:** crear las 3 variantes que no existen — 1920×1080 Playgama CON sello, 800×800-youtube y 1080×1920-youtube SIN sello — y luego el `listing.txt` (EN primero, ES segundo) + `store-assets/FICHA.md`.
 - **CUÁNTO QUEDA (orientativo): ~30–40 min** para tener las 6 portadas + listing + FICHA verificados (dimensiones y pesos reales en disco, sello verificado visualmente). Después lo revisa el coordinador; nada se publica sin el visto bueno de Daniel.
 - **Skills revisadas:** `thumbnail-design`, `hook-writer`, `playgama-publish` (leídas); `asset-pipeline`, `taste-skill`, `game-ui-taste` NO están como carpetas en el kit en disco (solo se citan en la plantilla / informe de skills) — documentado en la entrega.
+
+## ESTADO EN VIVO: Traffic Chaos real (FORZADO por Daniel 15/11 22:11) · actualizado 15/11/2026, 22:19, hora de Madrid
+- **Ahora mismo:** coordinando la fabricación del juego real. 5 agentes desplegados en paralelo (regla de reparto 22:13): arte, código, jugabilidad, audio, portadas/listing. Cada uno actualiza su estado aquí en GitHub en cada paso (regla 22:17).
+- **Qué hace cada uno ahora:** arte — generando el set completo (vehículos, semáforos, fondo nocturno, key art); código — juego real sobre la plantilla con niveles + modo caos; jugabilidad — 10 niveles + balance con simulación; audio — 11 SFX + música; portadas/listing — 18/18 + listing EN+ES.
+- **Cuánto queda (orientativo):** las 5 entregas parciales en ~1–2 h; integración + QA + versión jugable para Daniel después, en esta misma noche. La estimación es orientativa, no una promesa.
+- **Repo:** privado `dana-games-juegos`, rama `niky/traffic-chaos-real`, carpeta `traffic-chaos/` (copia de la plantilla). Prototipo pulido en `niky/traffic-chaos-prototipo` (commit 87368b4) como base.
+- **Puerta:** Daniel prueba la versión final antes de publicar (su única decisión: publicar o no).
