@@ -1,6 +1,6 @@
 {
   "fecha": "2026-11-15",
-  "actualizado": "2026-11-15T08:08:00+01:00",
+  "actualizado": "2026-11-15T10:55:00+01:00",
   "areas": {
     "oficina": {
       "nombre": "Oficina",
@@ -12,15 +12,19 @@
           "fecha": "2026-11-15"
         },
         {
-          "texto": "Datos 15/11 publicados: 37 ideas (5 nuevas) y 56 skills.",
+          "texto": "Datos 15/11 publicados: ideas nuevas y 56 skills.",
           "fecha": "2026-11-15"
         },
         {
           "texto": "v14: marcas de ideas nuevas, letrero de estadísticas y caché de GitHub.",
           "fecha": "2026-11-15"
+        },
+        {
+          "texto": "Estados de juegos actualizados: Metro en Sandbox, Mudanza en borrador en Playgama.",
+          "fecha": "2026-11-15"
         }
       ],
-      "resumen": "La oficina está publicada en GitHub Pages con los datos del 15/11: 37 ideas y 56 skills.",
+      "resumen": "La oficina está publicada en GitHub Pages con los datos del 15/11 (56 skills) y los estados de Playgama de las 10:54.",
       "fuente": "Informe del Director 15/11/2026 · Oficina y Datos"
     },
     "youtube": {
@@ -39,36 +43,32 @@
     "calidad": {
       "nombre": "Arte y Calidad",
       "rol": "Arte y Calidad",
-      "estado": "En arreglos",
+      "estado": "Revisando Metro r11",
       "hoy": [
         {
-          "texto": "Estampida r10 rechazada.",
-          "fecha": "2026-11-15"
-        },
-        {
-          "texto": "Mudanza y Metro r7 en arreglos.",
+          "texto": "Metro Nightmare r11 en revisión de Arte para sustituir la versión del Sandbox.",
           "fecha": "2026-11-15"
         }
       ],
-      "resumen": "Estampida r10 no pasó. Mudanza y Metro siguen en arreglos, en la r7.",
-      "fuente": "Informe del Director 15/11/2026"
+      "resumen": "Arte revisa la ronda 11 de Metro Nightmare, que sustituirá la versión del Sandbox.",
+      "fuente": "Informe del Director 15/11/2026 10:54"
     },
     "playgama": {
       "nombre": "Publicación Playgama",
       "rol": "Publicación Playgama",
-      "estado": "Nada subido",
+      "estado": "Metro en Sandbox · Mudanza en borrador",
       "hoy": [
         {
-          "texto": "Checklist de Playgama lista.",
+          "texto": "Metro Nightmare publicado en el Sandbox de Playgama.",
           "fecha": "2026-11-15"
         },
         {
-          "texto": "Nada subido todavía.",
+          "texto": "Moving Mayhem (Mudanza Extrema) subido como borrador con ficha en inglés, zip y 3 portadas; en la prueba de calidad de Playgama antes de moderación.",
           "fecha": "2026-11-15"
         }
       ],
-      "resumen": "La checklist de Playgama está lista y todavía no hay nada subido.",
-      "fuente": "Informe del Director 15/11/2026"
+      "resumen": "Metro Nightmare está en el Sandbox de Playgama. Moving Mayhem está subido como borrador y pasa la prueba de calidad antes de moderación.",
+      "fuente": "Informe del Director 15/11/2026 10:54"
     },
     "direccion": {
       "nombre": "Dirección",

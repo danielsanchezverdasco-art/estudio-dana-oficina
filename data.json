@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "updatedAt": null,
+  "updatedAt": "2026-11-15T10:55:00+01:00",
   "kpis": {
     "facturacionTotal": null,
     "facturacionMes": null,
     "partidas": null,
     "ingresosPorMilPartidas": null,
-    "publicados": 0,
+    "publicados": 1,
     "publicadosMeta": 200,
     "shortsPublicados": 0,
     "vistas": null,
-    "enDesarrollo": 4,
-    "enCola": 0
+    "enDesarrollo": 2,
+    "enCola": 3
   },
   "juegos": [
     {
       "id": "metro-nightmare",
       "titulo": "Metro Nightmare",
-      "estado": "desarrollo",
+      "estado": "publicado",
       "portada": "cover.metro",
       "facturacion": null,
       "partidas": null,
@@ -35,7 +35,7 @@
     {
       "id": "el-barista-del-caos",
       "titulo": "El Barista del Caos",
-      "estado": "desarrollo",
+      "estado": "cola",
       "portada": "cover.barista",
       "facturacion": null,
       "partidas": null,
@@ -44,7 +44,7 @@
     {
       "id": "estampida-en-las-rebajas",
       "titulo": "Estampida en las Rebajas",
-      "estado": "desarrollo",
+      "estado": "cola",
       "portada": "cover.estampida",
       "facturacion": null,
       "partidas": null,
@@ -58,7 +58,7 @@
         "titulo": "Mudanza Extrema",
         "genero": "Puzle de colocar",
         "motivo": "en-cola-sin-metricas",
-        "nota": null,
+        "nota": "Subido como borrador en Playgama (ficha en inglés, zip y 3 portadas). Ahora en la prueba de calidad de Playgama, antes de moderación.",
         "facturacion": null,
         "partidas": null,
         "ingresosPorMilPartidas": null,
@@ -70,7 +70,7 @@
         "titulo": "El Barista del Caos",
         "genero": "Gestión / tiempo",
         "motivo": "en-cola-sin-metricas",
-        "nota": null,
+        "nota": "En cola: aún no empezado.",
         "facturacion": null,
         "partidas": null,
         "ingresosPorMilPartidas": null,
@@ -106,7 +106,8 @@
         "potencialViral": 5,
         "hacibleEnUnDia": true,
         "duracionSesion": "Niveles infinitos generados por código; partidas de 30-90 s encadenadas. Tiempo real: sin dato. Sin temporizador, así se juega más tiempo.",
-        "elegida": true
+        "elegida": true,
+        "nota": "En cola: aún no empezado."
       },
       {
         "id": "cinta-sushi-glotona",
@@ -795,26 +796,38 @@
   "actividad": [
     {
       "equipo": "Metro Nightmare",
-      "tarea": "En Sandbox de Playgama (v2); rehaciendo la jugabilidad desde cero, estilo Bus Jam",
+      "tarea": "Publicado en el Sandbox de Playgama (https://playgama.ai/play/vw3o2dpywoejvy). La ronda 11 está en revisión de Arte para sustituir esa versión.",
       "estado": "en curso",
       "desde": null
     },
     {
       "equipo": "Mudanza Extrema",
-      "tarea": "En desarrollo",
+      "tarea": "Subido como borrador en Playgama (ficha en inglés, zip y 3 portadas). En la prueba de calidad de Playgama antes de moderación.",
+      "estado": "esperando",
+      "desde": null
+    },
+    {
+      "equipo": "Fútbol de papel",
+      "tarea": "En desarrollo, ronda 1.",
       "estado": "en curso",
       "desde": null
     },
     {
-      "equipo": "El Barista del Caos",
-      "tarea": "En desarrollo",
-      "estado": "en curso",
+      "equipo": "Cofre del Doblón",
+      "tarea": "En cola: aún no empezado.",
+      "estado": "esperando",
       "desde": null
     },
     {
       "equipo": "Estampida en las Rebajas",
-      "tarea": "En desarrollo",
-      "estado": "en curso",
+      "tarea": "En cola: aún no empezado.",
+      "estado": "esperando",
+      "desde": null
+    },
+    {
+      "equipo": "El Barista del Caos",
+      "tarea": "En cola: aún no empezado.",
+      "estado": "esperando",
       "desde": null
     },
     {
