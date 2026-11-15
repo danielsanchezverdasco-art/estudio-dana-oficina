@@ -412,8 +412,14 @@ export const LEVELS: LevelDef[] = [
     n: 30, name: 'Final Bounce', archetype: 'bounce', ink: 320, par: 200,
     start: { x: 88, y: 420 }, goal: { x: 350, y: 500 },
     // Finale: bounce over the wall, with a crosswind fighting the drift.
-    ground: [plat(0, 420, 100), plat(300, 500, 90), wall(300, 470, 12, 30)],
-    fans: [{ x: 180, y: 380, w: 120, h: 120, angle: 180, force: 0.6 }],
+    // r2 fix (15/11 ~23:20 UTC, sin verificar en navegador — ver informe):
+    // la corrida 2 del harness mostró que la solución (179 de tinta, la
+    // óptima exacta) PERDÍA: el muñeco rebotaba pero el viento cruzado
+    // (force 0.6, sin componente vertical) mataba la deriva a la derecha
+    // y el rebote no superaba el muro (cima y 470). Viento a la mitad y
+    // muro 10 px más bajo; la solución y el par (200) no cambian.
+    ground: [plat(0, 420, 100), plat(300, 500, 90), wall(300, 480, 12, 20)],
+    fans: [{ x: 180, y: 380, w: 120, h: 120, angle: 180, force: 0.3 }],
     dynamite: [], portals: [],
     coins: [{ x: 250, y: 430 }],
     solution: [
