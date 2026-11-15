@@ -36,7 +36,8 @@ paso 1.
 ## 3. Niveles y dificultad (plan vinculante)
 
 - Par = solución óptima × 1,10, redondeado a múltiplos de 5. La óptima usa
-  85–100 % del par en los 30 niveles (verificado por cómputo y por test).
+  85–100 % del par en los 30 niveles (verificado por cómputo; la verificación
+  por test está pendiente de la re-corrida, ver §4).
 - 3★ = tinta ≤ par; 2★ = ≤ par × 1,25; 1★ = llegar a la bandera.
 - 9 niveles nuevos (10, 13, 14, 19, 20, 22, 25, 29, 30): 5 de boost
   (pendientes suaves 2,2–3,2°), 4 de elástico (muros que solo se superan
@@ -70,8 +71,8 @@ paso 1.
 | Prueba | Herramienta | Resultado |
 |---|---|---|
 | Type-check | `tsc --noEmit` | **PASA** (0 errores; la emisión `tsc -b` no es necesaria para la build de Vite) |
-| Build producción | `vite build` | **PASA** (15/11 ~21:00 UTC, `dist/` 1,9 MB; aviso esperado de chunk Phaser > 600 kB) |
-| Build de pruebas | `VITE_TEST_BUILD=1 vite build --outDir dist-test` | **PASA** (15/11 ~21:00 UTC, `dist-test/` 1,9 MB). La re-build con las correcciones está pendiente (ola EPERM) |
+| Build producción | `vite build` | **PASA** (15/11 ~21:00 UTC, `dist/` 1,9 MB; aviso esperado de chunk Phaser > 600 kB). **Verificado de nuevo en memoria 15/11 ~22:35 UTC** (`diagnose-prod.mjs`, build con `write:false`, sin tocar disco): bundle de producción 1.647.053 bytes (1,57 MB; JS 1.263.257 + Bridge 382.956 + index.html 840) — muy por debajo del límite de 5 MB; Bridge es el PRIMER script en `<head>`; SIN `window.__` en JS ni en HTML; SIN restos de `__TEST_BUILD__` ni del test handle. El zip final (bundle + `public/`) queda en ~2 MB, como la r1 |
+| Build de pruebas | `VITE_TEST_BUILD=1 vite build --outDir dist-test` | **PASA** (15/11 ~21:00 UTC, `dist-test/` 1,9 MB). La re-build con las correcciones está en marcha: la build en memoria funciona (`✓ 22 modules transformed`), solo la escritura a disco la bloquea la ola EPERM (ventanas buenas de segundos entre minutos malos); un proceso en segundo plano reintenta la escritura con deadline de 10 min para cazar la siguiente ventana buena |
 | Smoke 390×844, ES/EN | `tools-local/test-game.mjs` | **21/26.** Menú, consola, peticiones, esquinas de PLAY, arrastre, tinta, deshacer y presupuesto: todos PASAN. Niveles ganados a 3★: L1 (119/135), L2 (146/165), L3 (164/185), L4 (199/220), L8 (173/195), L11 (102/115), L12 (58/65) — ratios 0,881–0,905, en banda. Fallan: L5/L7/L9 por timeout de 20 s (física lenta), L6/L10 a 0★ en ~3 s. L13–30 sin probar: el renderer se estrelló en la captura del L12. 0 peticiones fallidas. La pantalla 844×390 (horizontal) está pendiente de la re-corrida |
 | Anti-trivial (solución 30/30, rampa perezosa, par 85–100 %, dominancia, 0 px) | `tools-local/anti-trivial.mjs` | **PENDIENTE** (sin correr — Chromium con SIGTRAP en la ventana de endurecimiento del sandbox) |
 | Sondas niveles nuevos + enseñanza | `tools-local/probe-level.mjs` (10, 13, 14, 19, 20, 22, 25, 29, 30, 6, 12, 18) | **PENDIENTE** (mismo bloqueo) |
@@ -83,6 +84,14 @@ paso 1.
 Pendiente de que Chromium vuelva a arrancar. Cambios respecto a la corrida 1:
 timeout 60 s, 5 rampas BOOST extendidas, harness a DSF 1 (el rasterizado a
 DSF 2 estrelló el renderer) y escritura del JSON en `try/catch` (EPERM).
+
+**Estado 15/11 ~22:35 UTC:** la re-build del test build está en marcha en
+segundo plano (escritura con reintentos hasta cazar una ventana buena de la
+ola EPERM). Chromium sigue con SIGTRAP (133) en todas las variantes
+probadas; el próximo reinicio de la VM (~22:58 UTC) debería levantar la
+ventana de endurecimiento, como hizo el de las 20:58. En cuanto el test
+build esté en disco y Chromium arranque: re-corrida completa del harness,
+sondas, anti-trivial, film (GIF + Short), covers y zip — en ese orden.
 
 ## 5. Playtest propio (skill `playtest-report`)
 
