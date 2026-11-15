@@ -1,0 +1,183 @@
+{
+ "frames": {
+  "chest_wood_closed": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 570,
+    "h": 486
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 570,
+    "h": 486
+   },
+   "sourceSize": {
+    "w": 570,
+    "h": 486
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 1.0
+   }
+  },
+  "chest_silver_closed": {
+   "frame": {
+    "x": 574,
+    "y": 0,
+    "w": 568,
+    "h": 488
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 568,
+    "h": 488
+   },
+   "sourceSize": {
+    "w": 568,
+    "h": 488
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 1.0
+   }
+  },
+  "chest_gold_closed": {
+   "frame": {
+    "x": 1146,
+    "y": 0,
+    "w": 568,
+    "h": 490
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 568,
+    "h": 490
+   },
+   "sourceSize": {
+    "w": 568,
+    "h": 490
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 1.0
+   }
+  },
+  "chest_wood_open": {
+   "frame": {
+    "x": 0,
+    "y": 494,
+    "w": 516,
+    "h": 530
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 516,
+    "h": 530
+   },
+   "sourceSize": {
+    "w": 516,
+    "h": 530
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 1.0
+   }
+  },
+  "chest_silver_open": {
+   "frame": {
+    "x": 520,
+    "y": 494,
+    "w": 506,
+    "h": 525
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 506,
+    "h": 525
+   },
+   "sourceSize": {
+    "w": 506,
+    "h": 525
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 1.0
+   }
+  },
+  "chest_gold_open": {
+   "frame": {
+    "x": 1030,
+    "y": 494,
+    "w": 510,
+    "h": 530
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 510,
+    "h": 530
+   },
+   "sourceSize": {
+    "w": 510,
+    "h": 530
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 1.0
+   }
+  },
+  "mound": {
+   "frame": {
+    "x": 1544,
+    "y": 494,
+    "w": 364,
+    "h": 181
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 364,
+    "h": 181
+   },
+   "sourceSize": {
+    "w": 364,
+    "h": 181
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 1.0
+   }
+  }
+ },
+ "meta": {
+  "app": "cofre-del-doblon process-art.py",
+  "version": "1.0",
+  "image": "atlas-chests.webp",
+  "format": "RGBA8888",
+  "size": {
+   "w": 2048,
+   "h": 1024
+  },
+  "scale": "1"
+ }
+}

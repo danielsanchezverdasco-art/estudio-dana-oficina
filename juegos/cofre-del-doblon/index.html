@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#1a5c8a" />
+    <title>Doubloon Rush — Cofre del Doblón</title>
+    <!-- Playgama Bridge 2.4.2: FIRST script in <head>, no async. -->
+    <script src="./playgama-bridge.js"></script>
+    <style>
+      @font-face {
+        font-family: 'Lilita One';
+        src: url('./assets/LilitaOne-Regular.ttf') format('truetype');
+        font-display: swap;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #1a5c8a;
+        touch-action: none;
+        overscroll-behavior: none;
+        -webkit-user-select: none;
+        user-select: none;
+      }
+      #game { width: 100%; height: 100%; }
+      #game canvas { display: block; margin: 0 auto; }
+    </style>
+  </head>
+  <body>
+    <div id="game"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

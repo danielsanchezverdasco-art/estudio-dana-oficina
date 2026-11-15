@@ -1,0 +1,26 @@
+Title: Doubloon Rush
+Title ES: Cofre del Doblón
+Genre: Arcade / Reflex / Tap game
+Language: English first, Spanish second
+Age rating: PEGI 3 (YouTube Playables audience 13+)
+Players: 1
+
+Short description (EN):
+Tap the chests that pop out of the sand before they sink! Dodge the bombs, scare the crab thief, and chase the rare Golden Doubloon — 1 in 500. 30 levels, daily challenge, combos and stars. Fast, free and furious.
+
+Long description (EN):
+Ahoy, treasure hunter! On a sunny pirate beach, chests burst out of the sand — tap them before they sink back down. Wood is worth 10, silver 25, gold 50... but gold sinks fast. Watch out: bombs cost a life, and a cheeky crab will steal your chests if you let it reach them. And somewhere among hundreds of chests hides the legendary GOLDEN DOUBLOON — the odds are right there on screen: 1 in 500. Can YOU find it?
+
+- One-touch arcade: tap, tap, tap — nothing else to learn
+- 45-60 second rounds, perfect for a quick break
+- Combos up to x3, stars on every level, 30 levels on a treasure map
+- Daily challenge with better doubloon odds and a streak to keep
+- No ads during play, no real money, no purchases — just points and glory
+
+Short description (ES):
+¡Toca los cofres que salen de la arena antes de que se hundan! Esquiva las bombas, asusta al cangrejo ladrón y persigue el raro Doblón Dorado: 1 entre 500. 30 niveles, reto diario, combos y estrellas. Rápido, gratis y frenético.
+
+Keywords (EN): whack a mole, tap game, reflex game, reaction game, treasure chest game, pirate chest, pirate treasure, treasure hunt, coin game, quick reflex game, 45 second game, doubloon, pirate shop token, fortnite treasure drop rates
+Keywords (ES): juego del topo, toca el topo, cofre del tesoro pirata, juego de reflejos, juego de tocar cofres, doblón de oro, doblón pirata
+
+Monetization: interstitial ads between rounds (every 2nd completed level only, never during play); optional rewarded ads (Luck x2 for 30 s, continue after a bomb). No in-app purchases. No real money.

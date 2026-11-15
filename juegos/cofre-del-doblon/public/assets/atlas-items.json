@@ -1,0 +1,135 @@
+{
+ "frames": {
+  "bomb": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 506,
+    "h": 684
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 506,
+    "h": 684
+   },
+   "sourceSize": {
+    "w": 506,
+    "h": 684
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 1.0
+   }
+  },
+  "crab": {
+   "frame": {
+    "x": 510,
+    "y": 0,
+    "w": 450,
+    "h": 425
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 450,
+    "h": 425
+   },
+   "sourceSize": {
+    "w": 450,
+    "h": 425
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 1.0
+   }
+  },
+  "doubloon": {
+   "frame": {
+    "x": 0,
+    "y": 688,
+    "w": 494,
+    "h": 512
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 494,
+    "h": 512
+   },
+   "sourceSize": {
+    "w": 494,
+    "h": 512
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 1.0
+   }
+  },
+  "coins": {
+   "frame": {
+    "x": 498,
+    "y": 688,
+    "w": 499,
+    "h": 308
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 499,
+    "h": 308
+   },
+   "sourceSize": {
+    "w": 499,
+    "h": 308
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 1.0
+   }
+  },
+  "sparkle": {
+   "frame": {
+    "x": 0,
+    "y": 1204,
+    "w": 425,
+    "h": 514
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 425,
+    "h": 514
+   },
+   "sourceSize": {
+    "w": 425,
+    "h": 514
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 1.0
+   }
+  }
+ },
+ "meta": {
+  "app": "cofre-del-doblon process-art.py",
+  "version": "1.0",
+  "image": "atlas-items.webp",
+  "format": "RGBA8888",
+  "size": {
+   "w": 1024,
+   "h": 1718
+  },
+  "scale": "1"
+ }
+}
