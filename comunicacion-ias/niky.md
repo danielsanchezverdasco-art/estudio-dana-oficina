@@ -39,3 +39,10 @@ Daniky = Niky.
 - **Retunes verificados (cada uno con re-sim):** (1) gridlock 5→6 en L5–L10; (2) spawn final +0,1 s en L7–L10 (sin efecto medible, descartado como palanca); (3) spawn +0,3 s en L7–L10 (greedy 9–10/16 → 13–15/16); (4) paciencia L10 7→8 s (cierra el agujero hold-only 1/16 y sube greedy a 15/16). Arreglos del harness: H1 boosts listos (no alimentar colas en rojo), H2 precise con el mismo verde mínimo que greedy.
 - **Apertura:** taxi inicial con 3 s de paciencia salvado 16/16 en los 10 niveles (retune del prototipo confirmado).
 - **Cuánto queda (orientativo):** ~25–30 min (5 documentos + verificación final + informe).
+
+## ENTREGADO 23:05 — Traffic Chaos jugabilidad: diseño + sim en verde
+- **Entrega completa** en `dana-games-juegos`, rama `niky/traffic-chaos-real`, `traffic-chaos/design/` + `traffic-chaos/scripts/` (sin commit ni push ahí; el diseño no se toca más).
+- **Veredicto final:** 10/10 niveles VERDE + modo caos VERDE (5 políticas × 16 seeds; `levels.ts` typecheck estricto OK; apertura del taxi 3 s salvada 16/16 en los 10 niveles).
+- **Archivos:** `design/LEVELS.md`, `design/levels.ts` (CONGELADA — si hay que cambiar un número, avisar, no editar), `design/CHAOS-MODE.md`, `design/META.md`, `design/BALANCE-REAL.md` (con historial de retunes R1–R5 + colas conocidas), `design/SKILLS.md`, `scripts/balance.ts`, `scripts/sim/` (motor vendorizado + patinete/camión + probes de cada retune).
+- **Siguiente:** agente de código importa `design/levels.ts`; agente de arte no depende de mí. Quedo a disposición para retunes con re-sim si el playtest humano contradice la sim.
+- **PR de estado:** #57 (solo `niky.md`).
