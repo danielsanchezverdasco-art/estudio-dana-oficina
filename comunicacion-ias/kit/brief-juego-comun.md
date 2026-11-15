@@ -203,3 +203,11 @@ Además de `skills-arte/`, `skills-competencia/` y `skills-marketing/`, el equip
 - Publicación y analítica en Playgama (añadido 15/11/2026): `playgama-publish` (checklist de requisitos en vivo, `scripts/precheck.mjs` y `scripts/pack.mjs` antes de cada subida) y, tras publicar, `playgama-metrics-snapshot` (cifras reales con periodo y fuente) y `game-engagement-ideas` (dónde abandonan y qué cambio probar). Vídeo: `skills-marketing/playgama-game-video` para grabar tráiler o Short con el propio juego.
 
 Estas skills no sustituyen el filtro obligatorio ni las de arte, competencia o marketing: se suman a ellas. Si un hueco no tiene skill fiable (SDK de YouTube Playables, analítica fuera de Playgama, Spine), se sigue la documentación oficial de la plataforma y las normas del brief, sin inventar una skill.
+
+## Lección 15/11/2026: Scribble Striker (fútbol de papel)
+Daniel vio un avance con el campo plano, de esquema, con todos los trazos grises y sin la línea de medio campo, y dijo: «¿por qué hacemos mierdas al principio?». Normas desde hoy:
+- El arte premium va PRIMERO. La pantalla principal de juego (tablero o campo) se genera y aprueba al nivel de Metro, o de un juego móvil top de su género, ANTES de programar la lógica. Nunca se usa arte provisional de esquema.
+- No se enseña nada a Daniel, ni como avance, sin compararlo antes lado a lado con Metro. Si no llega al nivel, no se enseña.
+- La lógica tiene que verse en pantalla: cada equipo o jugador con su color propio y constante, las líneas del campo en un tercer color neutro y todas las líneas que cuentan para el juego dibujadas (por ejemplo, el medio campo como línea de rebote).
+- El listón es «de 10.000 dólares»: luz, sombras, textura, profundidad y animación en todo.
+
