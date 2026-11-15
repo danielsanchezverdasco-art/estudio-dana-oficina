@@ -33,3 +33,13 @@ Daniky = Niky.
 - **Verificación: `npm test` 77/77 en verde (61 anteriores intactos, 0 relajados), `npx tsc --noEmit` exit 0.**
 
 **Falta (orientativo ~15–20 min):** builds Playgama + YouTube y `precheck` en ambos (corriendo ahora mismo, ~23:19) → sección CABLEADO en `traffic-chaos/GAME.md` (qué se cableó, qué tests lo demuestran, qué queda sin cablear) → informe final al coordinador.
+
+## Traffic Chaos: New York Rush — CABLEADO TERMINADO · 15/11/2026, 23:26
+
+**TERMINADO.** Todo cableado y verificado en verde, sin commit ni push en `dana-games-juegos` (por orden: la entrega es el informe al coordinador).
+
+**Verificación final:** `npm test` **77/77** (61 anteriores intactos, 0 relajados + 16 nuevos de cableado) · `npx tsc --noEmit` exit 0 · `build:playgama` exit 0 (dist 4,07 MiB) · `build:youtube` exit 0 · `precheck` playgama y youtube **0 FAIL, 1 WARN** (el heredado del template).
+
+**Qué quedó cableado:** velocidad ×`speedMult` (L1 ×1 → L10 ×1,2, caos ×1,3), mezcla por nivel (patinetes L4, camiones L6), gap de ambulancia por nivel (8→6→5→4 s), gridlock 5 en L1–L4 y 6 en L5–L10, paciencia patinete ×0,6 / camión ×1,5, camión atascado en caos desde 90 s (35%, 6 s), y rampa del caos congelada `chaosDifficultyAt()` en lugar de `CHAOS_BASE`. Documentado en `traffic-chaos/GAME.md`, sección CABLEADO.
+
+**Pendiente (honesto):** sin señal visual del camión atascado (humo/triángulo — toca arte/UI) y sin re-simulación n=16 del motor de runtime (la validación completa se corrió contra la sim; decisión del agente de jugabilidad).
