@@ -1,0 +1,62 @@
+/* coach-marks.reference.css — styles for the tutorial runtime (coach-marks.reference.js).
+   Re-skins via the game-ui-ux design tokens: --ink (outline), --pow (highlight), --cream (text).
+   Everything is positioned inside your relative ROOT (#app). */
+
+:root{
+  /* fall back to the flat-comic palette if the game-ui-ux tokens aren't present */
+  --ink:#16060b; --pow:#ffcb1f; --cream:#fff3e2;
+}
+
+/* ---------- SPOTLIGHT: glow on the target + a bubble pointing at it ---------- */
+.coach-glow{position:relative;z-index:25;border-radius:13px;animation:coachGlow 1.1s ease-in-out infinite}
+@keyframes coachGlow{
+  0%,100%{box-shadow:0 0 0 0 rgba(255,203,31,0),0 4px 0 var(--ink)}
+  50%    {box-shadow:0 0 0 4px rgba(255,203,31,.85),0 0 18px 3px rgba(255,203,31,.6),0 4px 0 var(--ink)}}
+
+.coach-bubble{position:absolute;z-index:60;max-width:230px;pointer-events:none;
+  background:var(--ink);border:3px solid var(--pow);border-radius:13px;padding:9px 12px;
+  box-shadow:0 5px 0 rgba(0,0,0,.5);animation:coachPop .3s ease}
+.cb-body{font-family:'Space Mono',monospace;font-size:.72rem;line-height:1.35;color:var(--cream);text-align:center}
+.cb-body b{color:var(--pow)}
+/* tail — points down at the target by default; --tail-x is set by JS to track the target center */
+.cb-tail{position:absolute;left:var(--tail-x,50%);bottom:-9px;width:14px;height:14px;margin-left:-7px;
+  background:var(--ink);border-right:3px solid var(--pow);border-bottom:3px solid var(--pow);transform:rotate(45deg)}
+.coach-bubble.below .cb-tail{bottom:auto;top:-9px;border-right:none;border-bottom:none;
+  border-left:3px solid var(--pow);border-top:3px solid var(--pow)}
+
+/* ---------- FORCE-GATE: dim everything, one bright tappable hole, a pointing hand ---------- */
+/* transparent full-screen mask → BLOCKS every tap outside the hole. The dimming is the hole's huge box-shadow. */
+#force-mask{position:absolute;inset:0;z-index:88;background:transparent;pointer-events:auto;animation:coachFade .2s ease}
+/* the hole sits on the target's rect; a 9999px box-shadow spread darkens everything except the hole;
+   a pulsing gold ring marks it as the one thing to tap. */
+.force-hole{position:absolute;z-index:90;pointer-events:auto;border-radius:14px;cursor:pointer;background:transparent;
+  animation:forceHolePulse 1.15s ease-in-out infinite}
+@keyframes forceHolePulse{
+  0%,100%{box-shadow:0 0 0 9999px rgba(8,2,5,.82),0 0 0 3px rgba(255,203,31,.7),0 0 18px 4px rgba(255,203,31,.45)}
+  50%    {box-shadow:0 0 0 9999px rgba(8,2,5,.82),0 0 0 6px rgba(255,203,31,1),  0 0 32px 9px rgba(255,203,31,.72)}}
+/* the pointing hand — bounces toward the hole */
+.force-hand{position:absolute;z-index:92;font-size:2.5rem;pointer-events:none;line-height:1;
+  filter:drop-shadow(0 3px 2px rgba(0,0,0,.65));animation:forceHandDown .85s ease-in-out infinite}
+@keyframes forceHandDown{0%,100%{transform:translateY(0)}50%{transform:translateY(11px)}}
+.force-hand.up{animation:forceHandUp .85s ease-in-out infinite}
+@keyframes forceHandUp{0%,100%{transform:translateY(0)}50%{transform:translateY(-11px)}}
+/* the bubble must float ABOVE the mask (override the spotlight's default z-index) */
+.force-bubble{z-index:92}
+
+/* ---------- in-loop tip banner ---------- */
+.coach-tip{position:relative;margin:0 auto 8px;max-width:340px;background:var(--ink);border:3px solid var(--pow);
+  border-radius:13px;padding:9px 12px;box-shadow:0 4px 0 rgba(0,0,0,.5);animation:coachPop .3s ease}
+.coach-body{font-family:'Space Mono',monospace;font-size:.8rem;line-height:1.4;color:var(--cream);text-align:center}
+.coach-body b{color:var(--pow)}
+.coach-arrow{position:absolute;left:50%;bottom:-12px;transform:translateX(-50%);color:var(--pow);font-size:.9rem;line-height:1}
+
+/* ---------- self-contained keyframes (drop these if your design system already defines them) ---------- */
+@keyframes coachFade{from{opacity:0}to{opacity:1}}
+@keyframes coachPop{0%{transform:scale(.85);opacity:0}100%{transform:scale(1);opacity:1}}
+
+/* reduced motion: keep the cues, kill the looping motion */
+@media (prefers-reduced-motion: reduce){
+  .coach-glow,.force-hole,.force-hand,.force-hand.up{animation:none}
+  .force-hole{box-shadow:0 0 0 9999px rgba(8,2,5,.82),0 0 0 5px rgba(255,203,31,.95)}
+  .coach-glow{box-shadow:0 0 0 4px rgba(255,203,31,.85),0 4px 0 var(--ink)}
+}
