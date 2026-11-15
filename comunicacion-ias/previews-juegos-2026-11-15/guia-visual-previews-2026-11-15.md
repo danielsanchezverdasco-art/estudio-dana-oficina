@@ -1,11 +1,24 @@
-# Guía visual: previews exactas de gameplay — 6 juegos aprobados (15/11/2026)
+# Guía visual: previews de trabajo (guía visual para fabricar) — 6 juegos aprobados (15/11/2026)
 
 **Para:** Daniel, Anita, Niky y quien fabrique cada juego.
 **Fecha:** 15/11/2026. **Orden de Daniel:** 15/11 19:13 («Enséñame cómo verías tú cada juego de interno jugando») y 19:14 (previews EXACTAS, como las vería un player normal) y 19:15 (entregar las previews de todos los juegos pensados, por lotes).
 
+> **REGLA 15/11 19:57 (orden de Daniel):** las previews de los juegos en la oficina tienen que ser LAS REALES solo cuando el juego esté COMPLETO, ya con sus portadas y todos sus datos en OK. Mientras tanto, estas 6 imágenes son **«preview de trabajo — guía visual para fabricar»**, no la preview del juego terminado. Ningún juego está completo hoy (Traffic Chaos en teardown + arte + prototipo en marcha; los otros 5 esperan su turno), así que **ninguna preview es aún «preview real»**.
+
+## Estado por juego (15/11/2026)
+
+| Juego | Preview | Portada | Juego completo | Preview real |
+|---|---|---|---|---|
+| Traffic Chaos: New York Rush | De trabajo | Lista | NO | Pendiente |
+| Who Is the Robot? | De trabajo | Lista | NO | Pendiente |
+| Kitchen Hole Muncher | De trabajo | Lista | NO | Pendiente |
+| Draw Bridge Delivery | De trabajo | Lista | NO | Pendiente |
+| Sushi Belt Frenzy | De trabajo | Lista | NO | Pendiente |
+| Laundry Chaos Sort | De trabajo | Lista | NO | Pendiente |
+
 ## Regla de la guía
 
-Cada preview es LA GUÍA VISUAL de su juego: la vista real de la partida en marcha tal como la ve un jugador normal (HUD real, puntuación, controles, estado a mitad de juego, el dedo donde toca). **Durante todo el desarrollo, cada pantalla se compara con su preview y no se sale de ella.** Las previews se pueden cambiar solo cuando el juego lo demande y Daniel diga cuál cambiar. Cada preview tiene que poder ponerse al lado del juego terminado y compararse: misma composición, mismos elementos, mismo HUD. Si una preview no se parece a una captura real del juego, no vale.
+Cada preview de trabajo es LA GUÍA VISUAL de su juego: la vista real de la partida en marcha tal como la ve un jugador normal (HUD real, puntuación, controles, estado a mitad de juego, el dedo donde toca). **Durante todo el desarrollo, cada pantalla se compara con su preview de trabajo y no se sale de ella.** Las previews de trabajo se pueden cambiar solo cuando el juego lo demande y Daniel diga cuál cambiar. Cada preview de trabajo tiene que poder ponerse al lado del juego terminado y compararse: misma composición, mismos elementos, mismo HUD. Si una preview de trabajo no se parece a una captura real del juego, no vale.
 
 ## Revisión de skills (norma obligatoria de Daniel, 15/11 19:16)
 
@@ -35,7 +48,7 @@ Antes de hacer estas previews se revisaron las **147 skills del kit una por una*
 | `playables-sdk-integration` / `certification-checklist` | Son de plataforma y publicación, no de la imagen |
 | `game-playtest-squad-skill` | BLOQUEADA por falta de licencia (§6 del informe); el playtest es de juego, no de preview |
 
-## Las 6 previews (lote 1 — juegos aprobados con mockup)
+## Las 6 previews de trabajo (lote 1 — juegos aprobados con mockup)
 
 ### 1. Traffic Chaos: New York Rush — `preview-traffic-chaos-ny.webp`
 - **Género:** arcade cenital de gestión de tráfico. **Ranking:** nº 1, 31/35, FUERTE. Idea del propio Daniel.
@@ -79,4 +92,4 @@ Antes de hacer estas previews se revisaron las **147 skills del kit una por una*
 
 ## Lote 2 (pendiente)
 
-Las otras 6 ideas FUERTES (Apila la Pizza, Limonada Exprés, Cuchillo Saltarín, Carrito Loco del Súper, Peluquería Loca, El Gran Escape del Museo) aún no tienen mockup aprobado: sus previews se hacen cuando tengan su mockup, con la misma norma (revisión de skills por juego + preview exacta de partida). No se fabrica ningún juego sin su preview como guía.
+Las otras 6 ideas FUERTES (Apila la Pizza, Limonada Exprés, Cuchillo Saltarín, Carrito Loco del Súper, Peluquería Loca, El Gran Escape del Museo) aún no tienen mockup aprobado: sus previews de trabajo se hacen cuando tengan su mockup, con la misma norma (revisión de skills por juego + preview de trabajo de partida). No se fabrica ningún juego sin su preview de trabajo como guía.

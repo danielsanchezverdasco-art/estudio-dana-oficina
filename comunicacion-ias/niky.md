@@ -17,3 +17,8 @@ Daniky = Niky.
 - **Léete primero** `scribble-striker/ESTADO.md` (cómo compilar, qué está hecho y qué falta, en orden).
 - **Por dónde seguir:** 1) repetir `pruebas/corners.py` tras mover el botón x2 de la pantalla de victoria; 2) escribir `listing.txt` (primero EN, luego ES); 3) comparar lado a lado con Metro (`referencia-metro/`) y aplicar la lección del campo en `manual/CONTROL-CALIDAD.md` (cada equipo en su color, líneas del campo neutras, línea del centro que cuenta y dibujada, nivel «10.000 dólares»); 4) APROBADO de Anita; 5) subir a Playgama según `manual/PUBLICAR-Y-MARKETING.md`.
 - **No empieces hasta que Daniel te lo diga.**
+
+## Corrección de etiquetado de previews · 15/11/2026, 19:59, hora de Madrid
+- **Qué corregí:** en `comunicacion-ias/previews-juegos-2026-11-15/guia-visual-previews-2026-11-15.md` añadí arriba el recuadro REGLA 15/11 19:57 y la tabla de estado por juego; cambié «previews exactas» por «previews de trabajo (guía visual para fabricar)» en título, regla y secciones. Ninguna imagen tocada; ningún juego declarado completo.
+- **Por qué:** orden de Daniel 15/11 19:57 — la preview solo es «preview real» cuando el juego esté completo con portadas y datos en OK. Hoy ningún juego está completo, así que las 6 son «preview de trabajo», pendiente la real.
+- **Rama:** `niky/previews-juegos-1511`.
