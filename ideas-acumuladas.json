@@ -789,12 +789,12 @@
       "genero": "Gestión / tiempo"
     },
     {
-      "id": "traffic-chaos-madrid-rush",
-      "titulo": "Traffic Chaos: Madrid Rush",
-      "tituloEN": "Traffic Chaos: Madrid Rush",
+      "id": "traffic-chaos-new-york-rush",
+      "titulo": "Traffic Chaos: New York Rush",
+      "tituloEN": "Traffic Chaos: New York Rush",
       "genero": "Arcade / estrategia rápida",
-      "gancho": "Toca el semáforo para cambiarlo, desliza para dar un acelerón y desvía coches en la glorieta. Si un conductor espera más de 8 segundos en rojo, ignora el semáforo y se lía: choques en cadena con física cómica en los cruces de Madrid.",
-      "porQueFunciona": "Mezcla la tensión instantánea de los juegos de control aéreo (Flight Control) con el puzle de atascos que hoy llena Playgama, y lo viste de Madrid real: taxis, EMT, SAMUR, Cibeles y la Puerta de Alcalá. Los choques en cadena y los casi-choques son clips perfectos para Shorts.",
+      "gancho": "Toca el semáforo para cambiarlo, desliza para dar un acelerón y desvía coches en la glorieta. Si un conductor espera más de 8 segundos en rojo, ignora el semáforo y se lía: choques en cadena con física cómica en los cruces de Nueva York.",
+      "porQueFunciona": "Mezcla la tensión instantánea de los juegos de control aéreo (Flight Control) con el puzle de atascos que hoy llena Playgama, y lo viste de Nueva York real: taxis amarillos, autobuses MTA, ambulancias FDNY, Times Square y el puente de Brooklyn. Los choques en cadena y los casi-choques son clips perfectos para Shorts.",
       "viralUrgente": false,
       "datos": [
         {
@@ -806,7 +806,7 @@
           "fuente": "https://playgama.com/collections/top-escape-games"
         },
         {
-          "dato": "GDD de Daniel: 5 capítulos (Alcalá, Bilbao, Cibeles, Av. América, Puerta de Alcalá/Retiro), 20+ niveles de 45-60 s, 6 tipos de vehículo con reglas propias (turismo, taxi, bus EMT, ambulancia SAMUR, patinete, camión)",
+          "dato": "GDD de Daniel: 5 capítulos (Times Square, Fifth Avenue / Central Park, Brooklyn Bridge, Wall Street, Broadway), 20+ niveles de 45-60 s, 6 tipos de vehículo con reglas propias (turismo, taxi amarillo, autobús MTA, ambulancia FDNY, patinete, camión)",
           "fuente": "workspace/user/files/Documento_de_Dise_o_Conceptual__Traffic_Chaos_-_Madrid_Rush_0_0oav.pdf (GDD de Daniel, 15/11/2026)"
         }
       ],
@@ -817,9 +817,9 @@
           "https://playgama.com/search?q=traffic",
           "https://playgama.com/collections/top-escape-games"
         ],
-        "competencia": "Alta: unos 44 juegos con 'traffic' en Playgama, la mayoría puzles de atasco por turnos (deslizar coches para liberar uno) o juegos de conducir. Ninguno combina control de semáforos en tiempo real + paciencia de 8 s + choques en cadena + escenarios reales de Madrid con vehículos locales (taxi, EMT, SAMUR). El más cercano, Traffic Light, es solo cambiar semáforos, sin capítulos, sin vehículos con comportamientos propios y sin tema local. En nuestras propias ideas, Zigzag de Tráfico (no apta) es de carreras esquivando tráfico, otro género.",
+        "competencia": "Alta: unos 44 juegos con 'traffic' en Playgama, la mayoría puzles de atasco por turnos (deslizar coches para liberar uno) o juegos de conducir. Ninguno combina control de semáforos en tiempo real + paciencia de 8 s + choques en cadena + escenarios reales de Nueva York con vehículos locales (taxi amarillo, MTA, FDNY). El más cercano, Traffic Light, es solo cambiar semáforos, sin capítulos, sin vehículos con comportamientos propios y sin tema local. En nuestras propias ideas, Zigzag de Tráfico (no apta) es de carreras esquivando tráfico, otro género.",
         "viabilidad": "Baja para un día: 5 capítulos y 20+ niveles, 6 tipos de vehículo con física y reglas propias, túnel, lluvia y obras, arte 2.5D toy-diorama. Es un proyecto de varias rondas, no de un día. Riesgo: que el tráfico se sienta injusto si la paciencia y los tiempos no se afinan con pruebas.",
-        "potencialViral": "Alto: los choques en cadena cómicos y los casi-choques en Cibeles quedan muy bien en un Short; el gancho '8 segundos de paciencia' se entiende sin texto.",
+        "potencialViral": "Alto: los choques en cadena cómicos y los casi-choques en Times Square quedan muy bien en un Short; el gancho '8 segundos de paciencia' se entiende sin texto.",
         "se_entiende_3s_sin_texto": "Sí: el semáforo cambia de color al tocarlo y los coches avanzan o se detienen; el haz de luz sobre el asfalto lo deja claro. La ambulancia y el autobús necesitan un tutorial corto.",
         "adictivo": "Niveles de 45-60 s, un capítulo tras otro, cada cruce con una mecánica nueva (glorieta, túnel, lluvia, obras).",
         "monetizacion": "Anuncio entre niveles. Anuncio con recompensa: continuar tras un gridlock o una vida extra."
@@ -839,14 +839,15 @@
       "potencialViral": 4,
       "hacibleEnUnDia": false,
       "duracionSesion": "Niveles de 45-60 s; 5 capítulos, 20+ niveles. Tiempo real: sin dato.",
-      "conclusion": "APTA: género nuevo para el estudio (gestión de tráfico en tiempo real), se entiende al primer toque y se diferencia con Madrid real y los choques en cadena. En cola: fabricar cuando terminen los 6 juegos actuales (orden de Daniel 15/11).",
-      "nombre": "Traffic Chaos: Madrid Rush",
+      "conclusion": "APTA: género nuevo para el estudio (gestión de tráfico en tiempo real), se entiende al primer toque y se diferencia con Nueva York real y los choques en cadena. En cola: fabricar cuando terminen los 6 juegos actuales (orden de Daniel 15/11).",
+      "nombre": "Traffic Chaos: New York Rush",
       "fecha": "2026-11-15",
       "nueva": true,
       "estado": "apta",
       "elegida": false,
       "origen": "Daniel (GDD 15/11/2026)",
-      "motivo": "APTA: género nuevo para el estudio (gestión de tráfico en tiempo real), se entiende al primer toque y se diferencia con Madrid real y los choques en cadena. En cola: fabricar cuando terminen los 6 juegos actuales (orden de Daniel 15/11)."
+      "motivo": "APTA: género nuevo para el estudio (gestión de tráfico en tiempo real), se entiende al primer toque y se diferencia con Nueva York real y los choques en cadena. En cola: fabricar cuando terminen los 6 juegos actuales (orden de Daniel 15/11).",
+      "nota": "GDD original de Daniel para Madrid; escenario cambiado a Nueva York por Daniel el 15/11/2026 por la audiencia inglesa."
     }
   ],
   "noAptas": [
