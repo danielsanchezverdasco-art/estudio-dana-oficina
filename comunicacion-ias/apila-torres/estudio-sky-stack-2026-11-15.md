@@ -203,7 +203,7 @@ Velocidad de deslizamiento (px/s, pantalla 390 px, pieza inicial 120 px de ancho
 | Rewarded opt-in (anuncio visto entero) | +50 |
 | Segunda oportunidad tras caer (rewarded, 1 por partida) | — (no son monedas) |
 
-**Cuentas honestas:** un jugador nuevo hace ~18 pisos y ~4 PERFECT por partida → 18 + 8 = **~26 monedas/partida**. Un jugador bueno (40 pisos, ~12 PERFECT) → 40 + 24 + 40 (tramos) = **~104 monedas/partida**. Un tema común (150) son ~6 partidas (~15 min); un épico (500) son ~19 partidas + misiones. **Desbloquear los 36 temas cuesta 9.800 monedas en total** (100 + 150 + 150 + 12×150 + 12×300 + 8×500) — la colección completa es el gancho de meses, no de un día. La tienda enseña TODOS los temas desde el día 1 (con su preview, su precio y su estado: comprado / comprable / bloqueado), y el jugador elige el estilo con el que juega en un toque.
+**Cuentas honestas:** un jugador nuevo hace ~18 pisos y ~4 PERFECT por partida → 18 + 8 + 10 (un tramo de 10) = **~36 monedas/partida**. Un jugador bueno (40 pisos, ~12 PERFECT) → 40 + 24 + 40 (tramos) = **~104 monedas/partida**. Un tema común (150) son ~4 partidas (~10 min); un épico (500) son ~14 partidas + misiones. **Desbloquear los 36 temas cuesta 9.800 monedas en total** (100 + 150 + 150 + 12×150 + 12×300 + 8×500) — la colección completa es el gancho de meses, no de un día. La tienda enseña TODOS los temas desde el día 1 (con su preview, su precio y su estado: comprado / comprable / bloqueado), y el jugador elige el estilo con el que juega en un toque.
 
 **Monetización (ads, sin dinero real):** intersticial al perder (pausa natural, nunca a mitad de partida, nunca en la primera partida de la sesión); rewarded opt-in para +50 monedas o segunda oportunidad. Guardado SOLO con `bridge.storage` (monedas, temas comprados, BEST, misiones). Sin IAP en el lanzamiento; si Daniel quiere compras con dinero real más adelante, es una decisión suya, no de este estudio.
 
@@ -218,6 +218,8 @@ Velocidad de deslizamiento (px/s, pantalla 390 px, pieza inicial 120 px de ancho
 **Formato de pack compartido con la torre (orden 23:19):** cada tema es un pack con el mismo formato que los packs de la torre (`tema.json` + assets + README). El trabajo de los 4 edificios alimenta directamente el juego: mismo `tema.json`, mismos sprites base, distinta composición. Un tema = un pack; 36 packs.
 
 ### 7.1 Qué lleva cada pack de tema (9 visuales + 4 sonidos)
+
+**REGLA DURA (Daniel 23:41): cada tema usa SUS PROPIOS personajes — NUNCA se reutilizan los mismos personajes en dos temas.** La mascota de cada tema es distinta por diseño (león mecánico en Turbo Racing, sirena en Deep Sea, constructor en Brick Builders...). **Si un tema no tiene sus personajes listos, NO se enseña: aparece como «PRONTO», nunca con arte de otro tema ni con placeholders.** Calidad ante todo.
 
 | Asset | Qué es | Ejemplo (Turbo Racing) |
 |---|---|---|
@@ -257,7 +259,7 @@ Velocidad de deslizamiento (px/s, pantalla 390 px, pieza inicial 120 px de ancho
 | 3 (raros) | Los 12 raros | En paralelo, 1 agente por tema |
 | 4 (épicos) | Los 8 épicos | En paralelo, 1 agente por tema |
 
-Cada pack pasa el gate de arte antes de entrar (fiel a su preview, verificado a 390 px, sin placeholders). **Nada entra a medias:** un tema sin su pack completo no aparece como comprable, aparece como «próximamente» con su preview — pero el objetivo de mañana es que los 36 estén listos para probar.
+Cada pack pasa el gate de arte antes de entrar (fiel a su preview, verificado a 390 px, sin placeholders). **Nada entra a medias:** un tema sin su pack completo no aparece como comprable, aparece como «próximamente» con su preview — pero el objetivo de mañana es que los 36 estén listos para probar. **Y nunca con personajes de otro tema (regla dura 23:41): cada tema con SUS personajes; si no están listos, «PRONTO».**
 
 ---
 
