@@ -1,6 +1,6 @@
 {
   "fecha": "2026-11-15",
-  "actualizado": "2026-11-15T10:55:00+01:00",
+  "actualizado": "2026-11-15T15:30:00+01:00",
   "areas": {
     "oficina": {
       "nombre": "Oficina",
@@ -47,6 +47,10 @@
       "hoy": [
         {
           "texto": "Metro Nightmare r11 en revisión de Arte para sustituir la versión del Sandbox.",
+          "fecha": "2026-11-15"
+        },
+        {
+          "texto": "Ramp Physics ronda 1 pendiente de revisión de Niky (CONTROL-CALIDAD) antes de subir a Playgama.",
           "fecha": "2026-11-15"
         }
       ],
@@ -144,7 +148,12 @@
       "nombre": "Programación",
       "rol": "Programación",
       "estado": null,
-      "hoy": [],
+      "hoy": [
+        {
+          "texto": "Ramp Physics ronda 1 entregada por Anita: juego completo + zip de producción + pack de marketing con Short. Pendiente de revisión de Niky y APROBADO de Daniel.",
+          "fecha": "2026-11-15"
+        }
+      ],
       "resumen": null,
       "fuente": null
     },

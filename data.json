@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-15T10:55:00+01:00",
+  "updatedAt": "2026-11-15T15:30:00+01:00",
   "kpis": {
     "facturacionTotal": null,
     "facturacionMes": null,
@@ -10,7 +10,7 @@
     "publicadosMeta": 200,
     "shortsPublicados": 0,
     "vistas": null,
-    "enDesarrollo": 2,
+    "enDesarrollo": 3,
     "enCola": 3
   },
   "juegos": [
@@ -46,6 +46,16 @@
       "titulo": "Estampida en las Rebajas",
       "estado": "cola",
       "portada": "cover.estampida",
+      "facturacion": null,
+      "partidas": null,
+      "vistas": null
+    },
+    {
+      "id": "ramp-physics",
+      "titulo": "Ramp Physics",
+      "tituloEN": "Ramp Physics: Ragdoll Crash Test",
+      "estado": "desarrollo",
+      "portada": "cover.ramp-physics",
       "facturacion": null,
       "partidas": null,
       "vistas": null
@@ -828,6 +838,12 @@
       "equipo": "El Barista del Caos",
       "tarea": "En cola: aún no empezado.",
       "estado": "esperando",
+      "desde": null
+    },
+    {
+      "equipo": "Ramp Physics",
+      "tarea": "Ronda 1 entregada por Anita (juego 6 de la cola): 30 niveles, zip de producción + pack de marketing con Short. Pendiente de revisión de Niky y APROBADO de Daniel.",
+      "estado": "en curso",
       "desde": null
     },
     {
