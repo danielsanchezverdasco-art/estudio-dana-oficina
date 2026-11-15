@@ -16,6 +16,16 @@ Cada parte del documento dice qué skill la hizo. Si una skill no se pudo aplica
 | `review-game` (`skills-competencia/`) | §7: veredicto de madurez | **No aplicable aún: no existe código.** No se inventa puntuación. Sus 5 dimensiones se dejan como gates que el futuro build debe pasar |
 | `probing-web-game-mechanics` (`skills-pro/`) | §8: plan de probes | **No aplicable aún: no hay build ni debug handle.** Se deja la lista exacta de probes (con valores esperados del GDD) para correr en el prototipo, no se simula su resultado |
 | `playgama-metrics-snapshot` (`skills-pro/`) | §0–§2: todas las cifras | **Sin MCP de Playgama conectado en este entorno y sin juego publicado: no hay snapshot de telemetría.** Se aplica su método a las cifras públicas: cada número con unidad, periodo y fuente. Nada de cifras sin fuente |
+| `stress-testing-game-concepts` (`skills-pro/`) | §11.1: auditoría adversarial del concepto | Modelo causal + 6 afirmaciones falsables (C1–C6: 2 `survives`, 2 `weak`, 2 `unknown`) + taxonomía de fallos (idle/mash/hold-only) — sin `hard_reject`, con el discriminador más barato nombrado |
+| `maximizing-game-feel` (`skills-pro/`) | §11.2: vocabulario de feedback por evento | 5 vocabularios (peligro/recompensa/estado/near-miss/causa de derrota) sin tocar la simulación |
+| `attack-tell` (`skills-pro/`) | §11.3: contrato de aviso | Ambulancia (2 s) y paciencia (<2 s) con canales redundantes; el color nunca es el único canal |
+| `balance-design` + `evaluating-gameplay-balance` + `difficulty-and-balancing` + `implementing-gameplay-invariants` (`skills-pro/` + `skills-arte/`) | §11.4: contrato de balance e invariantes | `traffic-chaos-v1` con métrica primaria y guardrails; 5 invariantes con readout; ratio exploratorio y protocolo de bandas n≥3/n≥5; sin run human-limited no hay veredicto de dificultad |
+| `arcadifying-mini-games` (`skills-pro/`) | §11.5: capas arcade que faltan | Inventario (READY/clear/death/game-over/extends/iniciales/attract) + máquina de fases única |
+| `gating-intent-legibility` (`skills-pro/`) | §11.6: gate de legibilidad de intención | Clave congelada (objetivo/opciones/riesgo); protocolo C1–C3, N≥8, control degradado; lo hecho con el mockup se marca como self-audit, no veredicto |
+| `game-engagement-ideas` + `analytics-funnel` (`skills-pro/`) | §11.7: funnel e hipótesis | Funnel v1 versionado (launch → D1) + 4 hipótesis propuestas con su validación; sin telemetría aún |
+| `art-direction-and-readability` + `directing-game-visuals` (`skills-pro/`) | §11.8: dirección de arte | Legibilidad primero; colores señal reservados (anillo blanco→naranja→rojo, nunca amarillo: el amarillo es el taxi) |
+| Demanda (PR #30) | §0.3, §1.2, §4.2, §5 (hallazgos 11–12), §10 | El choque como primer fotograma/miniatura, tycoon por barrios, reto diario + login, sesión 3–8 min, listones D1/D7/D30 y thumb-stop ≥35 % |
+| Selección 147 skills (norma Daniel 19:16) | §12: las 147 revisadas una a una | **108 USAR, 39 NO** (arte 41/25, competencia 12/1, pro 47/10, marketing 8/3) + 2 bloqueadas por licencia fuera del kit (`game-playtest-squad-skill`, `game-audio` ingenium). Cierre §12.5: con qué skills se gana al mejor |
 
 **Registro en `niky.md`:** la tabla de skills por parte está también en `comunicacion-ias/niky.md` (entrega 15/11 19:1x).
 
@@ -51,6 +61,9 @@ De los 11 juegos del informe PR #22 y de los 6 de tráfico de este teardown, el 
 
 - **Sesión corta, victoria pronto.** Niveles de 45–60 s (GDD) encajan; pero el primer nivel tiene que ganarse en <60 s y el primer choque tiene que verse en <10 s, o el usuario no llega al segundo nivel.
 - **Onboarding ≤10 segundos, un dedo, cero lectura.** Mediacube 2026: «one-finger mechanic, ten-second onboarding». Lo que falla (tutorial >30 s, RPG/estrategia) es justo lo que Traffic Chaos NO debe copiar: nada de explicar los 6 vehículos con texto antes de jugar.
+- **Sesión objetivo 3–8 minutos (hybrid-casual), no 45 segundos.** Demanda (PR #30 §3.1, GameAnalytics 2026, 16.262 juegos): sesión mediana 3,1–3,5 min, cuartil superior ~5,2 min; 3,8–3,9 sesiones/día; D1 mediana ~22 %, D7 algo menos del 4 %, D30 0,68–0,79 % (con meta, objetivo 5–10 %). Traducción: una sesión son 4–8 niveles de 45–60 s con reintento en un toque, no un nivel suelto. Una sesión de 10+ min es oro para los anuncios (Mediacube: «la profundidad de sesión vence al número de sesiones»).
+- **El gancho 0–3 s decide el 80 % del presupuesto (PixelPlot 2026, vía demanda §2.2):** si el gancho no logra un 35 %+ de thumb-stop, el algoritmo suprime el anuncio. El gancho tiene que ser una interrupción de patrón: alto riesgo, acción visceral o reacción emocional intensa. Sin logos, sin intros, sin texto.
+- **El ancla psicológica que más convierte es el estado de fallo (demanda §2.3):** enseñar a alguien cometiendo un error obvio crea la necesidad de corregirlo. Para Traffic Chaos, el fallo gracioso y visible — el choque en cadena — es un gancho, no un castigo. La portada y el primer fotograma tienen que ser el choque, no la ciudad vacía (demanda §6, ajuste (a)).
 - **El género tiene demanda demostrada, en dos sabores.** (a) Física y choque de coches: 365K plays/día el mejor (Crazy Flying Car, Mediacube 01/07–04/09/2026); 3 títulos sumaron 13,6M plays en sus primeras semanas. (b) Puzle de tráfico por secuencias: Traffic Escape! ~44M instalaciones estimadas en Google Play (AndroidRank, 31/10/2026). Simulation es el 24 % de las plays de Playables (1,4B, TubeGames 15/11/2026). Traffic Chaos vive entre los dos sabores: gestión en tiempo real + choque espectacular. Esa es su apuesta — y su riesgo: si el choque no es espectacular, pierde contra el sabor (a); si la gestión no exige decidir, pierde contra el sabor (b).
 - **Vertical 390×844, táctil y ratón, inglés primero.** Requisitos oficiales de certificación (informe PR #22 §1): todos los aspect ratios, <5 s a interactivo, bundle inicial <15 MiB (SHOULD) / <30 MiB (MUST).
 
@@ -76,7 +89,7 @@ De los 11 juegos del informe PR #22 y de los 6 de tráfico de este teardown, el 
 
 ### 1.2 Lo que el mockup aprobado muestra (verificado, `[SEEN]`)
 
-Imagen `mockup-traffic-chaos-ny.webp`, vista cenital 2.5D toy-diorama de Times Square: 4 semáforos en las esquinas (2 en verde, 2 en rojo), taxis amarillos en los 4 sentidos, autobús MTA rojo cruzando, ambulancia FDNY blanca, anillos de paciencia con 60 % / 45 % / 60 % sobre coches, peatones y tiendas (TKTS, TIMES SQUARE, COFFEE, GIFTS, FOOD, HOTEL), HUD superior con SCORE 1250 y LEVEL RUSH HOUR 3, banda «TAP THE LIGHT!», botones BOOST 2x y PAUSE. **Lo que el mockup hace bien:** la ciudad se reconoce al instante; los vehículos se distinguen por color y forma sin leer; los anillos de paciencia son el estado del jugador sin mirar el HUD. **Lo que el mockup no resuelve:** «TAP THE LIGHT!» es texto (el verbo debería entenderse sin él); no se ve el choque en cadena (el momento clave no está en la imagen); el BOOST 2x no se entiende qué hace (¿doble puntos? ¿doble velocidad?) sin leer; SCORE 1250 no dice qué se ha hecho para ganarlo.
+Imagen `mockup-traffic-chaos-ny.webp`, vista cenital 2.5D toy-diorama de Times Square: 4 semáforos en las esquinas (2 en verde, 2 en rojo), taxis amarillos en los 4 sentidos, autobús MTA rojo cruzando, ambulancia FDNY blanca, anillos de paciencia con 60 % / 45 % / 60 % sobre coches, peatones y tiendas (TKTS, TIMES SQUARE, COFFEE, GIFTS, FOOD, HOTEL), HUD superior con SCORE 1250 y LEVEL RUSH HOUR 3, banda «TAP THE LIGHT!», botones BOOST 2x y PAUSE. **Lo que el mockup hace bien:** la ciudad se reconoce al instante; los vehículos se distinguen por color y forma sin leer; los anillos de paciencia son el estado del jugador sin mirar el HUD. **Lo que el mockup no resuelve:** «TAP THE LIGHT!» es texto (el verbo debería entenderse sin él); no se ve el choque en cadena (el momento clave no está en la imagen); el BOOST 2x no se entiende qué hace (¿doble puntos? ¿doble velocidad?) sin leer; SCORE 1250 no dice qué se ha hecho para ganarlo. **Veredicto de demanda (PR #30 §6): el mockup enseña la ciudad vacía, no el verbo en acción — la portada y el primer fotograma tienen que ser el choque en cadena a cámara lenta con el anillo de paciencia a cero.** El mockup es la referencia de la ciudad; la portada es otra imagen: el choque.
 
 ### 1.3 Niveles (GDD §4, escenario Madrid → Nueva York por orden de Daniel 11:52)
 
@@ -217,11 +230,11 @@ Regla de este teardown (orden de Daniel 19:11): **si nuestro concepto no gana al
 | Dimensión | Mejor del género (referencia) | Nuestro concepto (GDD + mockup) | Veredicto |
 |---|---|---|---|
 | **Arte / calidad visual** | Draw Crash Race: tu dibujo es el coche; Crime: la deformación es la recompensa; Traffic Escape!: 3D limpio y legible | Diorama 2.5D Times Square con vehículos por color/forma reconocibles sin leer; peatones y tiendas con historia. El arte es la ciudad | **EMPATA en papel, NO GANA todavía.** El mockup es bonito pero es una imagen generada, no arte dirigido con art bible. Draw Crash Race gana porque el jugador crea el arte. Para ganar: arte dirigido (personajes con historia, cada vehículo con volumen y personalidad) antes de programar. Sin eso, pierde |
-| **Primer fotograma / gancho visual** | Arrow Puzzle: la portada enseña la regla; Coin Run: un objeto, una elección, dos colores | Mockup: ciudad reconocible + «TAP THE LIGHT!» + anillos de paciencia. El verbo se intuye, pero depende de leer el texto | **PIERDE hoy.** El mejor no necesita texto; nosotros sí. Para ganar: primer fotograma sin palabras — el semáforo que cambia solo en la demo, un coche que arranca al tocarlo, el anillo que se vacía delante de tus ojos. El texto «TAP THE LIGHT!» debe sobrar |
+| **Primer fotograma / gancho visual** | Arrow Puzzle: la portada enseña la regla; Coin Run: un objeto, una elección, dos colores | Mockup: ciudad reconocible + «TAP THE LIGHT!» + anillos de paciencia. El verbo se intuye, pero depende de leer el texto. Demanda (PR #30 §6): la portada y el primer fotograma tienen que ser el choque en cadena a cámara lenta con el anillo a cero (ancla de fallo: el espectador ve el choque que él habría evitado) | **PIERDE hoy.** El mejor no necesita texto; nosotros sí, y además enseñamos la ciudad vacía en vez del choque. Para ganar: primer fotograma = choque en cadena a cámara lenta + anillo a cero + thumb-stop ≥35 % (PixelPlot). El texto «TAP THE LIGHT!» debe sobrar y el mockup de la ciudad no es la portada |
 | **Feel / juice** | Crime: cámara lenta + deformación; Epic Sword: ragdoll al golpear; Crazy Flying Car: física que se rompe | Choque en cadena a cámara lenta + hitstop + piezas volando (diseñado, no construido). Juice-audit §3: 3 de 5 momentos con audio «Missing» y animación «Weak» | **PIERDE hoy.** El mejor tiene el momento construido y probado; nosotros lo tenemos escrito. Para ganar: el choque en cadena tiene que ser el mejor momento de choque del género tráfico (hitstop, zoom, CHAIN xN, reintento <2 s). Si el choque es «coches que se paran», pierde contra Crime y contra Crazy Flying Car |
 | **Gancho en 10 s** | Traffic Escape!: el primer coche sale al tocarlo; Slope 3D: la bola ya rueda; Crazy Flying Car: el primer vuelo imposible | Primer semáforo en verde + primer coche que arranca + primer anillo que baja. En papel, el gancho existe | **EMPATA en papel.** El gancho está diseñado pero no probado: ¿el usuario toca el semáforo en los primeros 3 s sin leer? Solo el prototipo + playtest lo responde (`[PLAYTEST]`). Si el primer nivel empieza con 4 coches esperando y nada que tocar, pierde |
 | **Decisiones (profundidad)** | Traffic Escape!: orden de salida con flechas (puzle); Bridge Race: codicia contra velocidad (del informe PR #22) | Paciencia de 8 s + priorizar ambulancia/bus + gridlock + desvío en rotonda. Una decisión con coste cada 5–8 s, en tiempo real, no por turnos | **GANA en papel.** Es la única dimensión donde el concepto supera al mejor: ningún competidor de tráfico combina tiempo real + paciencia visible + priorización de emergencias. Traffic Escape! decide sin presión de tiempo; Crime no decide nada. Esta es la ventaja a proteger — pero es «en papel»: si la paciencia de 8 s no se siente (anillo pequeño, bocina inaudible), la ventaja se evapora |
-| **Rejugabilidad** | Draw Crash Race: cada carrera es un dibujo + 3 mejoras; Traffic Escape!: estrellas + modo Race; Coin Run: negocios que mejorar | 5 capítulos con mecánicas espaciales nuevas + cuota por nivel + BOOST. Sin meta visible (¿qué se construye con lo ganado?) y sin diario/leaderboard definidos | **PIERDE hoy.** El mejor tiene meta que se ve (mejoras, negocios, récord). Nosotros tenemos niveles, no meta. Para ganar: definir qué se gana con el score (desbloquear intersecciones con nombre real, mejoras legibles en 3 stats como Draw Crash Race, o reto diario). Sin meta, es un arcade que se agota como Traffic Escape! en el nivel 320 |
+| **Rejugabilidad** | Draw Crash Race: cada carrera es un dibujo + 3 mejoras; Traffic Escape!: estrellas + modo Race; Coin Run: negocios que mejorar | 5 capítulos con mecánicas espaciales nuevas + cuota por nivel + BOOST. Sin meta visible (¿qué se construye con lo ganado?) y sin diario/leaderboard definidos. Demanda (PR #30 §6): meta de tycoon por barrios (Times Square → Brooklyn Bridge → Central Park) + reto diario «hora punta» + recompensa de login | **PIERDE hoy, CON LA REMONTADA DEFINIDA.** El mejor tiene meta que se ve (mejoras, negocios, récord). Nosotros tenemos niveles, no meta. Para ganar: tycoon por barrios como meta visible desde el día 1 + reto diario + login (ajustes comunes §6.2 de demanda). Sin meta, es un arcade que se agota como Traffic Escape! en el nivel 320; con barrios + diario, la meta es la mecánica n.º 3 que más crece (tycoon, 286K/día) |
 | **Onboarding (10 s, un dedo, cero lectura)** | Todos los top: la primera pantalla ya es el juego | Un verbo (tap) + swipe + drag en rotonda + BOOST. El tap es inmediato; el drag de desvío es un segundo verbo que solo aparece en niveles intermedios (bien) | **EMPATA en papel.** El tap pasa el listón; el riesgo es el BOOST 2x (¿qué hace?) y el drag (¿se descubre solo?). Para ganar: el primer nivel enseña tap, swipe y BOOST jugando, sin una sola pantalla de texto |
 | **Monetización** | Traffic Escape!: anuncios + pistas + quitar anuncios; Playgama: interstitial en pausas, rewarded opcional (guía oficial) | No definida en el GDD. Playgama/YouTube: pre-roll automático, interstitial en resultados, rewarded opt-in | **NO VERIFICABLE / PIERDE por ausencia.** No hay diseño de monetización que comparar. Para no perder: interstitial solo en pantalla de resultados de nivel; rewarded en «revivir una vez por intento» o «doblar el botín»; nunca a mitad de acción. Sin esto, la meta de 2.500 €/mes no tiene camino |
 | **Rendimiento** | Epic Sword: afirma 60 FPS en teléfonos baratos (afirmación del portal, no medición propia) | Sin build. Requisitos oficiales: bundle inicial <15 MiB (SHOULD), <5 s a interactivo, heap <512 MB | **NO VERIFICABLE.** No hay nada que medir. Gate: 60 FPS en móvil real, carga <5 s, bundle inicial <15 MiB — o no se entrega |
@@ -231,6 +244,20 @@ Regla de este teardown (orden de Daniel 19:11): **si nuestro concepto no gana al
 ### 4.1 El veredicto en una línea
 
 **El concepto gana en 2 dimensiones (decisiones, identidad), empata en 3 (arte, gancho 10 s, onboarding, sonido — en papel), pierde en 3 (primer fotograma, feel/juice, rejugabilidad) y no es verificable en 2 (monetización, rendimiento).** No se entrega como «ganador»: se entrega como concepto con dos ventajas reales y tres derrotas que el prototipo tiene que remontar. Si el prototipo no remonta el primer fotograma, el juice del choque y la meta de rejugabilidad, el juego no se construye — esa es la consecuencia de la orden de Daniel 19:11.
+
+### 4.2 Los top medidos contra los ajustes de demanda (PR #30 §6.2)
+
+La demanda dice qué pide el usuario; esta tabla mide si cada top lo cumple. **Donde el top no lo cumple, ahí ganamos** — esa es la grieta por la que entra Traffic Chaos.
+
+| Ajuste de demanda (§6.2) | Traffic Escape! | Draw Crash Race | Crazy Flying Car / Car Crash Sandbox | Crime and Vice City Police | Dónde ganamos nosotros |
+|---|---|---|---|---|---|
+| **Portada = el verbo en acción** (nunca escenario vacío ni logo) | Parcial: la portada enseña coches en un cruce, pero el verbo (orden de salida) no se ve en acción | **Sí:** la portada es tu dibujo corriendo; el verbo es la imagen | **Sí:** el coche volando/chocando es la portada | **Sí:** el choque con deformación es la portada | **Grieta: ninguno enseña GESTIÓN en acción.** Nuestra portada (choque en cadena a cámara lenta + anillo a cero) enseña el verbo (tocar el semáforo) Y su consecuencia (el choque) en una sola imagen. Si la portada es solo la ciudad, perdemos esta grieta |
+| **Meta visible desde el día 1** | No: estrellas por nivel y modo Race; sin meta que se construya. Los niveles se repiten (reseña nivel 320) | **Sí:** 3 mejoras legibles (durabilidad, velocidad, tinta) desde el primer día | No observado: sandbox sin meta visible documentada | **Sí:** tuning, coches, multijugador como meta | **Grieta: Traffic Escape! y el sandbox no tienen meta.** Nuestro tycoon por barrios (Times Square → Brooklyn Bridge → Central Park) es meta visible desde el día 1 con el patrón de la mecánica n.º 3 (286K/día). Si no se construye, no hay grieta |
+| **Reto diario + login** | No observado en la ficha | No observado | No observado | No observado | **Grieta: ningún top de tráfico lo documenta.** Nuestro reto diario «hora punta» + recompensa de login es ventaja por defecto — pero solo si existe de verdad en el día 1, no como «próximamente» |
+| **Sesión 3–8 min, niveles 30–60 s, reintento en un toque** | Niveles cortos por turnos; reintento inmediato. Sesión: depende de niveles, no de tiempo | Runs de 2–4 min; reintento por carrera | Sandbox sin sesión definida; reintento inmediato | Sandbox; sesión libre | **Empate:** nuestro formato (45–60 s por nivel, 4–8 niveles por sesión) ya es el formato que pide la demanda. La diferencia no está aquí, está en que la sesión tenga meta (barrios) que la sostenga |
+| **Short del momento de fallo o satisfacción, no del menú** | El choque que devuelve los coches es grabable, pero no es el gancho de su marketing | El coche que se rompe en el aire es el Short natural | **Sí:** el choque es el contenido | **Sí:** la deformación en cámara lenta es el Short | **Grieta: el fallo como ancla.** Nuestro Short es la ambulancia x2 y el choque en cadena (demanda §6, ajuste (d)). Ningún top de tráfico tiene un momento de fallo con protagonista (la ambulancia) que valga doble |
+
+**Lectura:** los top cumplen la portada-en-acción y (a medias) la meta, pero **ninguno combina gestión en tiempo real + choque espectacular + meta de tycoon + reto diario**. Esa combinación es la apuesta completa de Traffic Chaos. Cada ajuste que no se construya cierra una grieta: sin portada de choque, perdemos el thumb-stop; sin barrios, perdemos el D30; sin diario, perdemos el D7.
 
 ## 5. Hallazgos de pulido, por tiers (skill `game-polish-audit`)
 
@@ -261,6 +288,18 @@ Pilares de referencia: §1.1. Cada hallazgo con evidencia y confianza. Tier 1 = 
 - **Qué falta:** el score no compra ni desbloquea nada visible. Draw Crash Race tiene 3 mejoras; Coin Run, negocios.
 - **Cómo:** 3 mejoras legibles (p. ej. paciencia +1 s, arranque más rápido, aviso de ambulancia +1 s) o desbloquear intersecciones con nombre real. Lo barato: las intersecciones con nombre.
 - **Verificar:** playtest: el jugador dice qué quiere desbloquear después del nivel 1.
+
+**11. La portada y el primer fotograma SON el choque (demanda PR #30 §6) (Tier 1 · Impacto alto · Esfuerzo M · `[SEEN]` en mockup: el choque no está).**
+- **Dónde:** mockup (ciudad vacía) y portada por diseñar.
+- **Qué falta:** el mockup enseña la ciudad, no el verbo en acción. La demanda exige: primer fotograma = coches chocando a cámara lenta con el anillo de paciencia a cero; miniatura = lo mismo. Es el ancla de fallo (el espectador ve el choque que él habría evitado) y el gancho 0–3 s que decide el 80 % del presupuesto (thumb-stop ≥35 %).
+- **Cómo:** nueva imagen de portada (el choque, no la ciudad) + primer fotograma del juego que arranca con un choque en cámara lenta de demostración (attract) antes del primer tap. El Short se graba de la ambulancia x2 y del choque, no del menú.
+- **Verificar:** test de thumb-stop: 3/3 personas paran el scroll en la portada y dicen qué pasa sin leer.
+
+**12. Meta de tycoon por barrios + reto diario + login (demanda PR #30 §6.2) (Tier 1 · Impacto alto · Esfuerzo M · `[INFERRED]` — no existe en el GDD).**
+- **Dónde:** estructura de progresión (GDD §4, capítulos).
+- **Qué falta:** sin meta no hay D30 (demanda §3.2: D30 mediana 0,68–0,79 %; con meta, objetivo 5–10 %); sin diario no hay D3→D7.
+- **Cómo:** barrios desbloqueables con nombre real (Times Square → Herald Square → Central Park → Brooklyn Bridge), cada uno con su intersección y su pieza de colección visible desde el día 1; reto diario «hora punta» con recompensa de login. Sesión 3–8 min = 4–8 niveles de 45–60 s.
+- **Verificar:** playtest: el jugador dice qué barrio quiere desbloquear; telemetría día 1: D1 ≥22 % (mediana GameAnalytics 2026) o el problema es la primera sesión, no el marketing.
 
 ### Tier 2 — Vale la pena
 
@@ -346,11 +385,13 @@ Cuando el juego se publique, el snapshot se hace con la skill (carpeta `analytic
 
 ## 10. Los 3 puntos clave que vamos a superar (y qué falta)
 
-1. **Decisiones con coste en tiempo real — la ventaja que ningún rival tiene.** Paciencia visible de 8 s + priorizar ambulancia/bus + gridlock: Traffic Escape! decide sin presión de tiempo y Crime no decide nada. Protegerla significa: anillo grande, bocina que se oye, y que a 0 s el coche arranque de verdad. Si la paciencia no se siente, no hay ventaja.
-2. **El choque como espectáculo, no como castigo.** El mejor momento del género es el choque (Crime: cámara lenta + deformación; Crazy Flying Car: 365K plays/día). Nuestro choque en cadena tiene que ser el mejor del género tráfico: hitstop, zoom, CHAIN xN grande, piezas con física, reintento <2 s. Hoy es solo un párrafo del GDD — es la remontada que el prototipo tiene que demostrar.
-3. **Nueva York como personaje, no como fondo.** Ningún rival de tráfico tiene ciudad real con identidad. Times Square → Herald Square → Central Park → Brooklyn Bridge: cada capítulo una intersección reconocible, cada vehículo con color y forma propios sin leer. El mockup ya lo apunta; el arte dirigido tiene que convertirlo en ventaja, no en decoración generada.
+1. **El choque en cadena a cámara lenta como primer fotograma, miniatura y Short — el ancla de fallo.** La demanda (PR #30 §6) lo exige: la portada es el choque con el anillo a cero, no la ciudad vacía; el espectador ve el choque que él habría evitado y quiere corregirlo (thumb-stop ≥35 %). Ningún top de tráfico combina gestión + choque como gancho: Crime y Crazy Flying Car tienen el choque pero no la gestión; Traffic Escape! tiene la gestión pero no el choque. Esta es la grieta nº 1 (§4.2).
+2. **Decisiones con coste en tiempo real — la ventaja que ningún rival tiene.** Paciencia visible de 8 s + priorizar ambulancia/bus + gridlock: Traffic Escape! decide sin presión de tiempo y Crime no decide nada. Protegerla significa: anillo grande, bocina que se oye, y que a 0 s el coche arranque de verdad. Si la paciencia no se siente, no hay ventaja.
+3. **Meta de tycoon por barrios + reto diario + login — la grieta que sostiene el D30.** Times Square → Brooklyn Bridge → Central Park como progreso visible desde el día 1 (patrón de la mecánica n.º 3, tycoon 286K/día) + reto diario «hora punta» + recompensa de login. Sin meta no hay D30; sin diario no hay D7. Los top de tráfico no documentan diario; Traffic Escape! no tiene meta que se construya. Esta es la grieta nº 2 (§4.2).
 
-**Próximos pasos (proceso de 10 pasos, informe PR #22 §7):** paso 2 (concepto + mockup) ya está aprobado por Daniel 19:08; paso 3 (aprobación) hecha; paso 4 es el **prototipo desechable** (`prototype-fast`): una pregunta («¿es divertido el verbo tap-semáforo + el primer choque?») con greybox, playtest humano y keep/kill/retune. El prototipo tiene que remontar las 3 derrotas del §4 (primer fotograma, juice del choque, meta de rejugabilidad) o el juego no se construye. **Pendiente:** afinar este teardown con los hallazgos de la investigación de demanda en paralelo cuando lleguen (gancho visual, bucle de enganche y ritmo que consumen los usuarios de Playables).
+**Próximos pasos (proceso de 10 pasos, informe PR #22 §7):** paso 2 (concepto + mockup) ya está aprobado por Daniel 19:08; paso 3 (aprobación) hecha; paso 4 es el **prototipo desechable** (`prototype-fast`): una pregunta («¿es divertido el verbo tap-semáforo + el primer choque?») con greybox, playtest humano y keep/kill/retune. El prototipo tiene que remontar las 3 derrotas del §4 (primer fotograma, juice del choque, meta de rejugabilidad) o el juego no se construye. **Con qué skills se gana (§12):** el prototipo se audita con `stress-testing-game-concepts` (el concepto sobrevive o se mata con evidencia), se mide con `gating-intent-legibility` (el jugador nuevo lee el objetivo sin tutorial), se siente con `maximizing-game-feel` + `action-feel` + `juice-vfx` (vocabulario de feedback por evento), se equilibra con `balance-design` + `evaluating-gameplay-balance` (la paciencia de 8 s como contrato con métrica y guardrails), se completa como arcade con `arcadifying-mini-games` (READY/clear/death, extends, attract), y se publica con el núcleo de la plantilla (§3 del informe de skills: `playables-sdk-integration` + `certification-checklist` + `asset-pipeline`). Sin esas skills, el prototipo es otro intento a ciegas; con ellas, cada derrota del §4 tiene su test nombrado.
+
+**Pendiente (ya no):** los hallazgos de la investigación de demanda en paralelo llegaron (PR #30) y están integrados en este documento (§0.3, §1.2, §4.2, §5 hallazgos 11–12, §10). Nada pendiente de demanda.
 
 ## Fuentes
 
@@ -363,3 +404,249 @@ Cuando el juego se publique, el snapshot se hace con la skill (carpeta `analytic
 - Playgama (columna 11/09/2026): https://playgama.com/blog/main/5-5m-plays-in-7-days-five-playgama-games-that-took-off-on-youtube-playables/
 - Traffic Escape!: https://androidrank.org/application/traffic_escape_/com.bonnie.trafficescape · https://geggames.com/game/traffic-escape/ · https://arrowgame.io/games/traffic-escape/
 - Skills aplicadas (kit): `comunicacion-ias/kit/skills/skills-competencia/{review-game,game-quality-gates,game-polish-audit,juice-audit}/SKILL.md`, `comunicacion-ias/kit/skills/skills-pro/{probing-web-game-mechanics,playgama-metrics-snapshot}/SKILL.md`.
+
+## 11. Aplicación de skills nuevas al teardown (147 revisadas; informe PR #27)
+
+Lo que sigue es uso real, no inventario: cada skill aplicada deja un artefacto verificable en este documento (una tabla, un contrato, un gate). Las skills que solo sirven en fases posteriores quedan en §12 con su fase.
+
+### 11.1 Stress-test adversarial del concepto (`stress-testing-game-concepts`)
+
+Modelo causal (GDD): acciones — tap en semáforo, swipe de despeje, drag de desvío (rotondas), BOOST 2x. Estado que lee el jugador — anillos de paciencia, longitud de colas, aviso de ambulancia (2 s), score/cuota, temporizador. Dinámica automática — spawns, paciencia que se agota, ambulancia que ignora el rojo, camión que esparce obstáculos al chocar. Progreso — evacuados vs cuota, bonus taxi sin parada, ambulancia x2, BOOST 2x. Derrota — paciencia a 0 (el coche arranca solo), colisión en cadena, gridlock.
+
+Afirmaciones falsables y su clasificación (missing evidence = `unknown`, no fallo):
+
+| # | Afirmación | Veredicto | Razón |
+|---|---|---|---|
+| C1 | «El momento importa, no solo qué semáforo» | `survives` (en razonamiento) | La paciencia de 8 s convierte cuándo cambiar en decisión con coste; sin ella, el juego sería por turnos como Traffic Escape! |
+| C2 | «Jugar seguro sacrifica el futuro» | `survives` (en razonamiento) | Tener todo en rojo es seguro ahora y mata por gridlock después: la cola llega al borde de spawn (GDD §2.2) |
+| C3 | «Un experto recupera estados que un novato no» | `unknown` | El bus atrapado a mitad de cruce + swipe + desvío es la recuperación diseñada; sin prototipo no hay evidencia |
+| C4 | «Arriesgar da más puntos» (taxi sin parar, ambulancia) | `weak` | El bonus existe en el GDD, pero su coste (el tráfico cruzado que se acumula) no está medido; un carril siempre en verde podría farmear taxis |
+| C5 | «BOOST 2x es una decisión» | `weak` | La regla no está especificada (¿doble puntos? ¿doble velocidad?): no se puede testear lo que no está definido |
+| C6 | «El choque en cadena es divertido» | `unknown` | Depende del feel audiovisual (taxonomía: `unsupported appeal`); marcar `unknown`, no `fails` |
+
+Ataques de la taxonomía de fallos: **idle** muere por gridlock (bien); **mash/tocar todo** alterna los semáforos sin sentido y no puntúa por input (el score viene de evacuaciones, §11.4); **siempre verde en un eje** (repeat-one-action) es el riesgo mayor en niveles 1–5 con poca densidad — si la densidad es baja, la mejor acción no cambia entre estados (**agency collapse**); **stall for score** (sobrevivir sin cumplir cuota) falla el nivel por cuota + temporizador (bien); **drag de desvío** es camuflaje si las rotondas se resuelven solo con semáforos (`rule irrelevance`, `unknown`). **No hay `hard_reject`:** ningún defecto demostrado hace el loop no funcional; el concepto es diagnosticable, no rechazable. Próximo discriminador más barato: prototipo + probes P1–P8 (§8) + ratio exploratorio (§11.4).
+
+### 11.2 Vocabulario de feedback por evento (`maximizing-game-feel`)
+
+Registro: juguete/lúdico (toy-diorama). Vocabularios separados, sin tocar la simulación (la presentación no cambia colisiones; el hazard se dibuja al menos tan grande como su hitbox; todo efecto vuelve a reposo; el input en buffer sobrevive al hitstop):
+
+| Evento | Vocabulario | Efecto concreto |
+|---|---|---|
+| Peligro (paciencia <2 s, ambulancia entrando) | silueta nítida, flash de alerta, impacto corto y duro | anillo rojo parpadeante + bocinazo acelerado + vibración del coche |
+| Recompensa (evacuación, taxi sin parar, ambulancia x2) | brillos, partículas radiales, pop suave, confirmación brillante | «+50» flotante, monedas volando, glint en el coche |
+| Cambio de estado (semáforo verde/rojo) | pulso localizado, motivo de transición, respuesta de cámara controlada | pulso del haz + luz que se enciende con easing (120 ms), no cambio instantáneo |
+| Near-miss (coche que casi choca y se salva) | satisfactorio pero visiblemente más débil que la recompensa | pequeño desvío + «PHEW» — solo cuando hubo amenaza real evitada, no al pasar de largo |
+| Causa de derrota | cada causa se ve distinta | choque = cámara lenta + piezas; gridlock = overlay gris de atasco + «GRIDLOCK»; nunca reutilizar el efecto de destrucción para una derrota por regla |
+
+Orden de aplicación (impacto/esfuerzo): 1) confirmación de evento, 2) peso del impacto (hitstop ~80 ms, camera kick contenido), 3) expresión de movimiento (squash del coche al arrancar, tilt al girar), 4) consistencia del mundo (peatones que esperan en rojo), 5) trails a alta velocidad, 6) expresión de personaje solo si el tamaño en pantalla lo permite. Validación: jugadores simulados con semilla dan el mismo resultado antes y después del pase de feel; si cambia, el pase tocó las reglas.
+
+### 11.3 Contrato de aviso (`attack-tell`)
+
+| Amenaza | `tell_start` | Activación | Canales (redundantes; el color nunca es el único) |
+|---|---|---|---|
+| Ambulancia entra en pantalla | spawn − 2 s | entra por el borde del carril | icono pulsante en el borde + carril iluminado (marca espacial) + sirena (audio) + tick háptico (móvil) |
+| Paciencia se agota | 2 s antes de 0 | el coche ignora el semáforo y avanza | anillo rojo parpadeante + bocinazo acelerado + vibración + «!» sobre el techo |
+| Gridlock inminente (cola cerca del borde) | cola al 75 % del carril | cola llega al borde de spawn | borde de pantalla que se tiñe + rumor de ciudad que sube + contador de cola |
+
+Política off-screen: indicador en el borde exacto del carril + cue de audio; nunca una amenaza silenciosa fuera de pantalla. Aceptación: log de tell/activación, test en los límites (justo antes/en la activación), con sonido desactivado y con reduced-flash, y en off-screen. Un flash que empieza en el tick de activación es acento, no aviso.
+
+### 11.4 Contrato de balance e invariantes (`balance-design`, `evaluating-gameplay-balance`, `difficulty-and-balancing`, `implementing-gameplay-invariants`)
+
+**Contrato (`balance-design`):** `balance_policy_id: traffic-chaos-v1`, revisión 1. Alcance: capítulo 1, niveles 1–5. Métrica primaria: tasa de cumplimiento de cuota de jugadores human-limited (denominador: intentos). Guardrails: ningún nivel con >80 % de estados con una respuesta obvia (regla de Sid Meier, vía `difficulty-and-balancing`: una elección con respuesta obvia no es una decisión); D1 ≥22 % es métrica de producto, no de balance. Tradeoffs declarados: la paciencia de 8 s es fija en v1 (no DDA — decisión explícita: sin director oculto; si se añade DDA después, con métrica objetivo, rango y decisión de visibilidad documentados). Curva: capítulos como escalones de dificultad con detección de picos en las transiciones.
+
+**Invariantes (`implementing-gameplay-invariants` — cada promesa, una regla testeable con readout):**
+
+| Promesa del diseño | Invariante | Readout (parte de la regla; si no se dibuja, es juego injusto) | Precheck (política mala) |
+|---|---|---|---|
+| Idle es débil | Sin input, gridlock en ≤60 s; sobrevivir no puntúa | Contador de cola visible que crece hacia el borde | Idle muere |
+| Mash es débil | Un tap a <12 frames del anterior en el mismo semáforo no puntúa; el score viene de evacuaciones, nunca por input | El semáforo muestra su estado; el score solo sube con «+N» flotante en el coche | Mash no puntúa más que jugar |
+| Hold-only es débil (un eje siempre en verde) | El tráfico cruzado acumula paciencia y llega a gridlock | Anillos de paciencia del eje cruzado visibles | Hold-only muere por gridlock |
+| BOOST no se farmea | Cada evacuación puntúa una vez (`evacuationId` único); BOOST multiplica el evento, no el tap | «2x» flotante sobre cada coche que puntúa doble | Spam de BOOST = mismo score que uso medido |
+| Ambulancia x2 | Puntos = 2× turismo por `ambulanceId` único | «AMBULANCE +2x» flotante y grande | — |
+
+**Medición (`evaluating-gameplay-balance`):** políticas monótonas (idle, siempre-verde-un-eje, mash, intervalo fijo) vs exploratoria (precise) vs human-limited. `exploratory_ratio = exploratory.best.score / monotonous.max_score` (detector de calidad, no objetivo de optimización). Protocolo no determinista (sin semilla en navegador real): banda min–max con n≥3 runs por política, nunca estimación puntual; para afirmar que una banda se movió, n≥5 sin solape con la banda registrada. **Sin run human-limited no hay veredicto de dificultad: se reporta como no medido.** Guardrails de experiencia: no puntuar por input bruto; game-over ligado a hazard o colapso del mundo; nada de comportamiento oculto que solo ayude/perjudique a los bots.
+
+### 11.5 Capas arcade que faltan (`arcadifying-mini-games`)
+
+Inventario (el loop existe en el GDD; las capas no): READY (falta), clear de nivel (falta la ceremonia), death por gridlock/choque (falta), game over (falta), extends/1UP (falta), iniciales + top-5 persistente (falta), attract mode (falta — el primer fotograma con el choque en cámara lenta es el attract), HUD de progreso (parcial: score/cuota/timer existen, falta el barrio), jingles separados de SEs (falta). Máquina de fases única: `ready → play → clear → ready`, `death → play`, `entry → table → title`. Tabla de datos de ronda antes que código: capítulo × densidad × paciencia × cuota, con un respiro deliberado tras cada tramo duro. La cuota es un evento estable del mundo (vehículos evacuados), no score inflado por multiplicador.
+
+### 11.6 Gate de legibilidad de intención (`gating-intent-legibility`)
+
+**Clave congelada antes de cualquier captura:** objetivo — «evacuar la cuota de coches antes de que acabe el tiempo sin un choque en cadena»; opciones por estado — abrir un semáforo / cerrarlo / swipe a un coche atascado / BOOST; riesgo/recompensa — esperar llena la paciencia (el coche arranca solo) y abrir despeja la cola pero cruza tráfico. **Protocolo (prototipo):** C1 captura de frames, C2 replay determinista, C3 fingerprint de estado; N≥8 escenas en tripletes (t−Δ, t, t+Δ); un grader aislado por escena (sin diseño, sin título, sin t+Δ); control degradado en el primer uso; `collapse` = `dominant_share ≥0,75` o `distinct_classes ≤2` en track skilled con n≥3 runs. Veredictos: `legible` / `weak` / `illegible`; entrada `entry-legible` / `entry-opaque`. **Honestidad:** lo hecho hasta aquí con el mockup es un **self-audit, no un gate**: lo graduó su autora (yo), sin firewall y sin control — no es veredicto. El gate corre en el prototipo.
+
+### 11.7 Funnel de engagement e hipótesis (`game-engagement-ideas`, `analytics-funnel`)
+
+Funnel v1 (versionado, denominadores explícitos; sin telemetría aún — se mide al publicar con `playgama-metrics-snapshot`): launch → primer fotograma → primer tap (<10 s) → primera evacuación → primer choque en cadena visto → nivel 1 completado → nivel 2 iniciado → vuelta al día siguiente (D1). Cada tasa con numerador, denominador, unidad (eventos/sesiones/jugadores), periodo UTC y build. **Unique reach por evento no es un funnel:** las transiciones solo salen de hechos ordenados dentro de una sesión. Hipótesis (propuestas, no probadas): H1 — si D1 <22 % (mediana GameAnalytics 2026), el problema es la primera sesión (gancho u onboarding), no el marketing; H2 — el choque como primer fotograma sube el thumb-stop por encima del 35 %; H3 — los barrios como meta visible suben el D7 por encima del 4 %; H4 — el reto diario «hora punta» + login sostiene del D3 al D7. Una idea construida = un build, una versión en telemetría; una idea publicada no es una idea probada.
+
+### 11.8 Dirección de arte y legibilidad (`art-direction-and-readability`, `directing-game-visuals`, `auditing-game-screen-readability`)
+
+Prioridad: legibilidad primero, personalidad segundo, fidelidad nunca. Cada elemento nombra la pregunta de gameplay que responde; lo que no responde ninguna es decoración que compite con lo que sí. Colores señal reservados: verde = avanzar/seguro, rojo = parar/peligro; el anillo de paciencia va de blanco a naranja a rojo (no amarillo: el amarillo es el taxi, y un anillo amarillo sobre un taxi amarillo no se lee). Ambulancia blanca con luces rojo/azul. Siluetas: cada vehículo se reconoce por la forma sin leer (taxi con cartel, bus largo 2,5 casillas, ambulancia con cruz). `auditing-game-screen-readability` corre en el prototipo: captura de frames en los momentos que importan (primer tap, último segundo de paciencia, choque, clear) buscando texto solapado, indicadores demasiado pequeños/breves y HUD cuyo significado un lector aislado no puede nombrar.
+
+## 12. Selección de skills para Traffic Chaos (norma de Daniel 15/11 19:16)
+
+Norma: «usar las skills que más convengan a cada proyecto — REVISAR TODAS una a una antes para saber cuáles usar». Revisión hecha: las 147 `SKILL.md` del kit (rama `niky/skills-movil-1511`, PR #27; informe `informe-skills-calidad-2026-11-15.md`), una por una por nombre y descripción, con lectura completa de las aplicadas en este teardown. Resultado: **108 USAR, 39 NO**. «USAR» = la skill se aplica en el teardown, el prototipo, el build o la publicación; «USAR-APOYO» = apoyo puntual, no vía principal; «USAR-CONOCIMIENTO» = su conocimiento dirige, sus scripts no corren aquí. «NO» = no conviene a este proyecto, con el motivo — no es un juicio sobre la skill. Dos skills necesarias **no están en el kit (bloqueadas por licencia, informe §6):** `game-playtest-squad-skill` (playtest multi-perfil — el gate que habría evitado los 5 descartes) y `game-audio` (ingenium, audio completo); mientras, las cubren `playtest-report` + `smoke-testing-web-games` + `review-game` y Phaser `audio-and-sound` + `audio-feel` + `audio-buses`.
+
+### 12.1 skills-arte (66: 41 USAR, 25 NO)
+
+| Skill | Uso en Traffic Chaos | Por qué esa y no otra |
+|---|---|---|
+| action-feel | USAR (build: hitstop/buffers en el choque) | Es la de timing de acción; `game-feel` es teoría, esta es la regla de hitstop por evento |
+| animations | USAR (build: animaciones de sprites Phaser) | Oficial Phaser 4; la vía del motor, no genérica |
+| art-bible | USAR (arte: biblia visual antes de producir assets) | Sin biblia, el diorama se genera sin dirección (fallo nº 1 de los 5 descartados) |
+| audio-and-sound | USAR (build: audio Phaser, desbloqueo en móvil) | Oficial Phaser 4; cubre el hueco de `game-audio` bloqueada |
+| audio-buses | USAR (build: buses, ducking de la sirena) | Separa música/SFX/UI; sin buses, la sirena tapa los bocinazos |
+| audio-design | USAR-APOYO (diseño sonoro de la ciudad) | Base teórica; `audio-feel` es la ejecución por evento |
+| audio-feel | USAR (build: cues audibles por evento) | Mapea evento→audio con lifecycle; es la que hace que el anillo «se oiga» |
+| blender-core | NO (sin Blender 5.2+ en este entorno) | Workflow + scripts bpy para máquina con Blender; aquí no corren |
+| blender-export-pipelines | NO (sin Blender; arte 2D) | Exporta GLB/FBX a web/Unity/Unreal; nuestro arte es 2D, no hay nada que exportar |
+| blender-game-optimization | USAR-CONOCIMIENTO (presupuestos móvil) | Sus números (tris, draw calls, memoria) dirigen; los scripts no corren aquí |
+| blender-lighting-lookdev | NO (sin Blender; look-dev en 2D) | Iluminación 3 puntos/HDRI para renders 3D; el diorama se ilumina en 2D |
+| blender-pbr-materials | NO (sin Blender; PBR no aplica) | Materiales PBR para 3D; toy-diorama 2D no usa metal/roughness |
+| blender-rendering | NO (sin Blender) | Cycles/EEVEE; no hay renders 3D en este juego |
+| blender-stylized-npr | USAR-CONOCIMIENTO (dirección toon/cel del diorama) | Su conocimiento (cel shading, outlines) dirige el look; los scripts no corren aquí |
+| blender-texture-baking | NO (sin Blender) | Bake high→low para 3D; no aplica |
+| blender-texturing | NO (sin Blender) | Smart materials 3D; no aplica |
+| cameras | USAR (build: shake/fade/zoom de la cámara lenta) | Oficial Phaser 4; es la cámara del choque |
+| character-rig | NO (vehículos sin esqueleto) | Estandariza rigs de personajes; no hay personajes con rig |
+| choreograph | USAR-APOYO (ceremonias READY/clear en grupo) | Coreografía de entradas; `gsap-timeline` es la implementación |
+| create-game-assets | USAR (build: pipeline de producción de assets) | La vía de producción; `asset-audit` es el gate que la verifica |
+| design-taste-frontend | NO (frontend web, no HUD de juego) | Para páginas web; el HUD lo cubren `game-ui-taste` y `game-ui-ux-pro-max` |
+| emil-design-eng | USAR-APOYO (motion con criterio en el HUD) | Easing, duraciones, press states; es el «por qué se siente bien» del botón BOOST |
+| evaluating-gameplay-balance | USAR (teardown §11.4 + prototipo) | Es la medición (ratio exploratorio, perfiles); `difficulty-and-balancing` es la disciplina, esta es el protocolo |
+| filters-and-postfx | USAR (build: bloom del choque, glow) | Oficial Phaser 4; el flash del impacto vive aquí |
+| find-animation-opportunities | USAR-APOYO (revisión: dónde animar y dónde no) | Read-only, máx. 5–7 propuestas con motivo de rechazo; frena el sobre-juice |
+| game-feel | USAR (base teórica del feel) | La teoría; la ejecutan `maximizing-game-feel` y `game-juice` |
+| game-ui-taste | USAR (arte: dirección de UI anti-genérica) | Prohíbe el gris por defecto del motor; es la que hace que el HUD no parezca plantilla |
+| game-ui-ux | USAR-APOYO (base de UI de juegos) | Base; `game-ui-ux-pro-max` es la versión completa con investigación |
+| game-ui-ux-pro-max | USAR (HUD/FTUE: 7 pilares Hodent, FTUE <60 s, touch ≥48dp) | La más completa para HUD móvil; es la que fija el tamaño mínimo táctil del semáforo |
+| generate2dmap | USAR (build: mapas cenitales con colisión) | Top-down con colisión y parallax; es el mapa de Times Square |
+| generate2dmedia | USAR-APOYO (rutas de generación) | Capa de rutas; adaptada a herramientas propias, sin API de pago |
+| generate2dsprite | USAR (build: vehículos desde master still) | Un master aprobado por vehículo; es la vía principal de arte 2D |
+| impeccable | USAR-APOYO (check anti-slop en la portada) | Detector de 62 reglas; `npx impeccable install` en el repo del juego |
+| input-keyboard-mouse-touch | USAR (build: multitáctil, hit areas) | Oficial Phaser 4; es la que evita el bug táctil de Estampida/Barista |
+| loading-assets | USAR (build: loader, progress bar, caché) | Oficial Phaser 4; carga <5 s con progreso visible |
+| mobile-games | USAR (base móvil: touch, batería, rendimiento) | Principios; `mobile-native` es la ejecución CSS |
+| mobile-native | USAR (build: sensación nativa 390×844) | Tap sin delay, 100dvh, safe areas; es lo que separa «web en navegador» de «instalado» |
+| particles | USAR (build: partículas del choque) | Oficial Phaser 4; piezas volando y polvo del frenazo |
+| performance-optimization | USAR (diagnóstico de rendimiento) | La diagnosis; `performance-budget` pone los objetivos |
+| phaser-core | USAR (build: base Phaser) | El motor; sin ella no hay juego |
+| pixel-animation | NO (sin pixel art) | Mapeo de celdas pixel a timing; nuestros vehículos no son pixel art |
+| playtest-report | USAR (prototipo: informe estructurado de playtest) | La plantilla del informe; es lo que sustituye (en parte) al playtest-squad bloqueado |
+| review-animations | USAR (gate: 10 estándares, Block/Approve) | Veredicto con STANDARDS.md; es el gate de motion antes de enseñar a Daniel |
+| scale-and-responsive | USAR (build: 9:16, FIT/RESIZE, quirks iOS) | Oficial Phaser 4; todos los aspect ratios (requisito de certificación) |
+| spine-skeletal | NO (sin personajes con esqueleto) | Rigs Spine; los vehículos no se animan por huesos |
+| sprite-atlas | USAR (build: packing + metadatos Phaser) | Sin atlas, las animaciones tiemblan y sangran entre celdas |
+| sprite-gen | USAR-APOYO (generación de sprites) | Genera con GPT/Grok; `generate2dsprite` es la vía principal con master still |
+| sprites-and-images | USAR (build: sprites Phaser) | Oficial Phaser 4; fábrica de sprites |
+| threejs-animation / asset-pipeline / fundamentals / geometry / interaction / lighting / loaders / materials / performance / postprocessing / react-three-fiber / shaders / textures (13) | NO (motor Phaser, no Three.js) | Las 13 son Three.js/WebGL; este juego es Phaser 2.5D. Ninguna aplica |
+| tilemaps | USAR (build: tilemaps de intersecciones) | Oficial Phaser 4; Tiled + capa GPU para las calles |
+| tweens | USAR (build: tweens, easing, stagger) | Oficial Phaser 4; el anillo, el squash y la cámara lenta son tweens |
+| ui-ux-pro-max | USAR-APOYO (datos: paletas, fuentes, presets GSAP) | 192 paletas y 74 parejas de fuentes buscables; `game-ui-ux-pro-max` es la de juegos |
+| vfx-generate | USAR (build: placas VFX del choque) | Placas/flipbooks de impacto aisladas del arte del actor |
+| video2dsprite | NO (sin clips por acción) | Un clip por acción (walk/run/attack); los vehículos no tienen acciones de personaje |
+
+### 12.2 skills-competencia (13: 12 USAR, 1 NO)
+
+| Skill | Uso en Traffic Chaos | Por qué esa y no otra |
+|---|---|---|
+| camera-anti-clip | NO (cámara cenital fija 2.5D) | Evita clipping 3D; sin cámara 3D no hay nada que recortar |
+| game-feel-and-juice | USAR (base teórica del feel) | La teoría del momento a momento; `juice-audit` es el diagnóstico |
+| game-juice | USAR (implementación de juice) | Squash, shake, hitstop sin cambiar las reglas; la ordena `maximizing-game-feel` |
+| game-polish-audit | USAR (teardown §1/§5) | La estructura de este teardown; sin ella, los hallazgos serían una lista genérica |
+| game-quality-gates | USAR (teardown §6) | Las 12 reglas; es el checklist de construcción del prototipo |
+| gsap-core | USAR (build: animación HUD/DOM a 60fps) | Oficial GSAP; la librería es gratuita, las skills MIT |
+| gsap-performance | USAR (build: rendimiento GSAP) | Transforms/opacity, sin layout thrashing; es la que mantiene los 60 fps del HUD |
+| gsap-timeline | USAR (build: secuenciación de la cámara lenta) | Timelines anidadas; es la que coreografía hitstop → slow-mo → CHAIN xN |
+| haptic-rumble | USAR (build: háptica tap/choque) | Capability checks + fallback no háptico; es el «sentir» el tap en el móvil |
+| juice-audit | USAR (teardown §3) | Diagnóstico rápido de 4 pilares por momento; es la que encontró el audio «Missing» |
+| juice-vfx | USAR (build: VFX runtime con contrato) | Flashes/partículas con caps y limpieza; nunca crea daño ni hitboxes |
+| performance-budget | USAR (teardown §6 + build: objetivos p50/p95/p99) | Pone los números antes de optimizar; `performance-optimization` diagnostica después |
+| review-game | USAR (teardown §7: gate del build) | Revisión de arquitectura/rendimiento/código/monetización; no aplicable aún sin código, pero sus 5 dimensiones son los gates |
+
+### 12.3 skills-pro (57: 47 USAR, 10 NO)
+
+| Skill | Uso en Traffic Chaos | Por qué esa y no otra |
+|---|---|---|
+| a11y-controls | USAR (build: preferencias de accesibilidad in-game) | Reduced-motion, flashing, timing; es la que hace jugable el choque sin shake |
+| accessibility | USAR (build: Playables — daltonismo, ≥44px, texto ≥16px) | Requisitos de la plataforma; `a11y-controls` son las preferencias, esta es la norma |
+| ad-break | USAR (build: ciclo de vida de anuncios) | Placement, resume, recompensa idempotente; es la que impide el interstitial a mitad de acción |
+| analytics-funnel | USAR (teardown §11.7 + post-publicación) | Funnel versionado con denominador; sin ella, «el D1 cayó» no es auditable |
+| arcadifying-mini-games | USAR (teardown §11.5) | Convierte el loop en arcade completo; es la que lista las capas que faltan |
+| art-direction-and-readability | USAR (teardown §11.8) | Legibilidad como requisito ingenieril, no gusto; es la que reserva el rojo al peligro |
+| asset-audit | USAR (gate: NOT ASSESSED, nunca inventar) | Ataca la lección de las 55 fotos; es la que verifica que cada asset existe y es del modelo exacto |
+| asset-pipeline | USAR (publicación: miniatura 1:1, zona segura 12%, vídeo 16:9) | Material de publicación; es la que hace la portada publicable |
+| attack-tell | USAR (teardown §11.3) | Contrato de aviso antes de la activación; es la que hace que la ambulancia no sea una emboscada |
+| auditing-game-screen-readability | USAR (prototipo: frames en momentos clave) | Captura en eventos y coincidencias forzadas; es la que caza el texto solapado del «CHAIN x3» |
+| balance-design | USAR (teardown §11.4) | Contrato con policy_id y guardrails; es la que convierte «8 s» en una decisión versionada |
+| browser-input | USAR (build: pointercancel, visibilitychange) | Supervivencia del input; es la que evita acciones atascadas al cambiar de pestaña |
+| building-era-authentic-game-audio | NO (audio retro 8-bit) | Sistema procedural años 70–80; nuestro audio es ciudad/bocinas/sirenas, no chiptune |
+| camera-systems | USAR-APOYO (base de cámaras) | Teoría de sistemas de cámara; `cameras` (Phaser) es la implementación |
+| certification-checklist | USAR (publicación: gate final Test Suite Google) | Recorre todas las skills de plataforma; es la última puerta antes de enviar |
+| core-libraries | USAR (build: EventBus, AudioManager, SaveManager, ObjectPool, Juice) | Módulos reutilizables; es la que evita reinventar el EventBus (fallo de arquitectura) |
+| curating-game-concept-portfolio | NO (nivel portfolio, no un juego) | Selecciona entre ideas; las 6 ya están aprobadas por Daniel |
+| designing-mini-games | USAR (diseño: reglas compactas, core loop) | Diseña el loop de un botón; es la que define tap/swipe/BOOST como reglas |
+| designing-minimal-game-rules | NO (alcance: solo turnos/discretos) | Su propia ficha: NO acción en tiempo real. Traffic Chaos es tiempo real |
+| designing-retro-arcade-sound-kits | NO (kits retro) | Event-kits retro; no es nuestro sonido |
+| difficulty-and-balancing | USAR (teardown §11.4) | Dominant-strategy audits, curvas, DDA; es la que aplica la regla de Sid Meier (>80 %) |
+| directing-game-visuals | USAR (arte: jerarquía visual, paleta con roles) | Dirección legible y coherente; es la que asigna verde/rojo/blanco a go/peligro/ambulancia |
+| exploring-game-design-space | NO (generar hipótesis nuevas) | Genera conceptos variados; el concepto ya está aprobado por Daniel |
+| fixing-accessibility | USAR-APOYO (DOM: ARIA, foco, contraste) | Accesibilidad del HUD web; `accessibility` es la norma de plataforma |
+| game-ai | NO (tráfico = flujo con reglas) | FSM/BT/A* para oponentes; no hay oponentes con IA, hay flujo y spawns |
+| game-design-fundamentals | USAR (base: spine del diseño) | La disciplina base; la usó también el informe de demanda |
+| game-docs | USAR (GDD vivo con fuentes y fechas) | Documentación; es la que mantiene el GDD como contrato, no como borrador |
+| game-engagement-ideas | USAR (teardown §11.7) | Hipótesis desde datos con validación; es la que convierte el D1 en un cambio testeable |
+| gating-intent-legibility | USAR (teardown §11.6) | Gate ciego de intención; es la única que puede fallar el primer fotograma con evidencia |
+| implementing-gameplay-invariants | USAR (teardown §11.4) | Prosa → invariantes testeables; es la que impide que el mash gane |
+| input-systems | USAR-APOYO (arquitectura de input) | Diseño de sistemas de input; `input-keyboard-mouse-touch` es la implementación Phaser |
+| level-design | USAR (build: capítulos como niveles) | Layout, gating, soft-lock check; es la que exige que el desvío de rotonda sea necesario, no opcional |
+| localize | USAR (EN primero, ES segundo) | Pipeline de localización; inglés primero es orden de Daniel |
+| maximizing-game-feel | USAR (teardown §11.2) | Vocabulario de feedback por evento; es la que ordena el feel sin tocar la simulación |
+| onboarding-and-teaching | USAR (FTUE: introduce→test→combine→twist) | Patrón de 4 tiempos por mecánica; es la que enseña el swipe sin texto |
+| pacing-and-the-player-journey | USAR (arco: curva de interés, novelty cadence) | Macro-arco por sesión y por capítulo; es la que pone el respiro tras el tramo duro |
+| phaser-arcade-physics | USAR (build: física del choque en cadena) | Física arcade; es la que hace que las piezas reboten |
+| phaser-scene-scaffolding | USAR (build: Boot→Preloader→MainMenu→Game→GameOver) | Estructura de escenas; es la que ordena el flujo |
+| physics-tuning | USAR-APOYO (ajuste fino de física) | Tuning; `phaser-arcade-physics` es la base |
+| platformer | NO (sin plataformas ni saltos) | Coyote time y jump buffer; no hay salto en un juego cenital de tráfico |
+| playables-sdk-integration | USAR (build: SDK ytgame) | Boot, firstFrameReady/gameReady, saveData/sendScore; es la integración oficial |
+| playgama-bridge | USAR (publicación vía Playgama) | Bridge SDK; es la vía de publicación con reparto 75/25 |
+| playgama-metrics-snapshot | USAR (teardown §9 + post-publicación) | Telemetría con unidad/periodo/fuente; es la que medirá el D1/D7 real |
+| playgama-publish | USAR (publicación: checks, pack, 3 portadas) | Publicar en Playgama; es la que empaqueta el build |
+| probing-web-game-mechanics | USAR (teardown §8: probes del prototipo) | Inyección de estado + asserts; es la que verifica la paciencia de 8 s sin jugar 8 s |
+| procedural-gen | NO (intersecciones reales a mano) | RNG con semilla, WFC; los niveles son intersecciones reales diseñadas, no generadas |
+| prototype-fast | USAR (paso 4: prototipo desechable) | Una pregunta, keep/kill/retune; es el paso que viene después de este teardown |
+| puzzle | NO (puzzles discretos con solver) | Niveles verificados por solver para juegos discretos; Traffic Chaos es tiempo real |
+| refining-game-prototypes | USAR (prototipo: bucle por etapas) | Estructura → dificultad → presentación → limpieza, con revision log |
+| responsive-design | USAR (build: 9:16 a 21:9) | Sin coordenadas fijas; es la que cumple «todos los aspect ratios» |
+| save-systems | USAR (build: guardado versionado) | Barrios, diario, récord; es la que persiste la meta |
+| shader-programming | NO (sin shaders custom) | GLSL custom; `filters-and-postfx` cubre bloom/glow |
+| smoke-testing-web-games | USAR (prototipo: salud runtime) | Carga, idle, input sin errores; es la capa bajo `probing-web-game-mechanics` |
+| stress-testing-game-concepts | USAR (teardown §11.1) | Auditoría adversarial; es la que dice si el concepto sobrevive o se mata |
+| styling-web-game-typography | USAR-APOYO (HUD: tipografía con licencia) | Roles de texto y licencias; es la que hace legible el «CHAIN x3» a 390 px |
+| tutorial-for-game | USAR (FTUE ejecutable: force play-gate) | El único tap posible con la mano que señala; es la que enseña el primer tap sin texto |
+| web-game-performance | USAR (build: medir frame time/JS/draw calls) | Medir antes de arreglar, en orden JS→draw calls→GPU; es la que sostiene los 60 fps |
+
+### 12.4 skills-marketing (11: 8 USAR, 3 NO)
+
+| Skill | Uso en Traffic Chaos | Por qué esa y no otra |
+|---|---|---|
+| ab-testing | USAR (post-publicación: portada A/B) | Muestra, significación, cuándo parar; es la que decide entre dos portadas de choque |
+| hook-writer | USAR (marketing: gancho 0–3 s del Short) | Escritura del gancho; es la que convierte el choque en «para el scroll» |
+| instagram-seo | NO (canal: YouTube + Playgama) | SEO de Instagram; el juego vive en YouTube Jugables |
+| playgama-game-video | USAR (marketing: vídeo promo con gameplay real) | Gameplay frame a frame con el sting de Playgama; es el tráiler del juego |
+| social | NO (social orgánico general) | Posts para LinkedIn/X/Instagram/TikTok/Facebook; el canal es YouTube Shorts |
+| thumbnail-design | USAR (marketing: portada = verbo en acción) | La miniatura ES el choque; es la skill de la decisión más importante del §0.1 |
+| tiktok-growth | NO (canal: YouTube Jugables) | Crecimiento en TikTok; no es nuestro canal |
+| viral-reverse-engineering | USAR-APOYO (qué ganchos convierten) | Análisis inverso; `hook-writer` es la ejecución |
+| virality | USAR (marketing: guión del Short) | Shorts con gancho en 3 s; es la que estructura el Short de la ambulancia |
+| youtube-publishing-and-metadata | USAR (marketing: publicación YouTube) | Publicación y metadatos; es la que sube el Short con sus datos |
+| youtube-shorts | USAR (marketing: Short del choque/ambulancia) | El formato; es el canal por el que el juego se descubre |
+
+### 12.5 Cierre: con qué skills se gana al mejor del género
+
+Al mejor del género no se le gana con una skill, se le gana con una cadena: **`stress-testing-game-concepts`** dice si el concepto sobrevive; **`gating-intent-legibility`** dice si el jugador nuevo lo entiende sin leer; **`maximizing-game-feel` + `action-feel` + `juice-vfx` + `tweens` + `cameras` + `particles`** hacen que el choque se sienta mejor que el de Crime y Crazy Flying Car; **`balance-design` + `evaluating-gameplay-balance` + `implementing-gameplay-invariants`** hacen que la paciencia de 8 s sea una decisión real y no un número; **`arcadifying-mini-games` + `save-systems`** construyen la meta de tycoon por barrios que Traffic Escape! no tiene; **`art-direction-and-readability` + `directing-game-visuals` + `art-bible` + `generate2dsprite` + `generate2dmap`** hacen que Nueva York se lea sin texto; **`tutorial-for-game` + `onboarding-and-teaching` + `game-ui-ux-pro-max`** hacen que el primer tap llegue en <3 s; **`thumbnail-design` + `hook-writer` + `virality` + `playgama-game-video`** hacen que la portada y el Short paren el scroll (thumb-stop ≥35 %); **`playables-sdk-integration` + `certification-checklist` + `performance-budget` + `web-game-performance`** hacen que el juego pase la certificación y corra a 60 fps; **`playgama-metrics-snapshot` + `analytics-funnel` + `game-engagement-ideas`** miden si de verdad ganamos (D1 ≥22 %, D7 ≥4 %, sesión 3–8 min). Cada derrota del §4 tiene su skill y su test nombrado en §11. Sin esa cadena, el teardown sería una opinión; con ella, es el plan.
+
+## Fuentes (añadidas)
+
+- Demanda del usuario (PR #30, rama `origin/niky/demanda-usuario-1511`): `comunicacion-ias/demanda-usuario-2026-11-15.md` (TubeGames 15/11/2026; Mediacube; AppMagic H1 2026; GameAnalytics 2026; ASOWin; PixelPlot).
+- Informe de skills (PR #27, rama `niky/skills-movil-1511`): `comunicacion-ias/informe-skills-calidad-2026-11-15.md` (147 SKILL.md: arte 66, competencia 13, pro 57, marketing 11; núcleo de la plantilla en su §3).
+- Skills aplicadas en §11 (kit): `skills-pro/{stress-testing-game-concepts,gating-intent-legibility,maximizing-game-feel,evaluating-gameplay-balance,game-engagement-ideas,balance-design,attack-tell,arcadifying-mini-games,implementing-gameplay-invariants,difficulty-and-balancing,art-direction-and-readability}/SKILL.md` (+ referencias `failure-taxonomy.md` y `policy-library.md` de stress-testing).
