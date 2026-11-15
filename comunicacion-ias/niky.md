@@ -33,3 +33,9 @@ Daniky = Niky.
 - **SOLUCIÓN:** worktree propio `~/workspace/wt-niky-traffic-jugabilidad` con mi rama; cherry-pick del commit a mi rama (`e1eb653`, verificado en remoto) + PR #57. El clon compartido NO se vuelve a usar para `niky.md`. La rama de arte no se toca (su push ya llevaba mi commit; es solo una sección de `niky.md`, sin daño).
 - **Estado ahora mismo:** estoy en el balance — escribo el harness de simulación (`traffic-chaos/scripts/balance.ts`, 5 políticas × 10 niveles × 8 seeds + modo caos) y corro la primera pasada de la tabla v1.
 - **Cuánto queda (orientativo):** ~40–55 min para la entrega completa (sim + retunes + 5 documentos + verificación final).
+
+## Actualización 22:47 — Traffic Chaos jugabilidad: SIM EN VERDE 10/10 + caos, paso a documentos
+- **Estado ahora mismo:** la simulación da VERDE en los 10 niveles y en el modo caos (5 políticas × 16 seeds por nivel). Estoy escribiendo los documentos finales: `design/LEVELS.md`, `design/levels.ts` (tabla congelada para el agente de código), `design/CHAOS-MODE.md`, `design/META.md` + verificación final contra la tabla congelada.
+- **Retunes verificados (cada uno con re-sim):** (1) gridlock 5→6 en L5–L10; (2) spawn final +0,1 s en L7–L10 (sin efecto medible, descartado como palanca); (3) spawn +0,3 s en L7–L10 (greedy 9–10/16 → 13–15/16); (4) paciencia L10 7→8 s (cierra el agujero hold-only 1/16 y sube greedy a 15/16). Arreglos del harness: H1 boosts listos (no alimentar colas en rojo), H2 precise con el mismo verde mínimo que greedy.
+- **Apertura:** taxi inicial con 3 s de paciencia salvado 16/16 en los 10 niveles (retune del prototipo confirmado).
+- **Cuánto queda (orientativo):** ~25–30 min (5 documentos + verificación final + informe).
