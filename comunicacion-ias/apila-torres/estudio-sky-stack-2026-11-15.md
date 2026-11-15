@@ -12,7 +12,7 @@
 
 **Veredicto honesto: SÍ, y es el juego principal después de los edificios (orden de Daniel 23:21).** La mecánica está probadísima a escala masiva (Stack, 70 millones de instalaciones, todavía actualizado en 2026), y lo que la hace nuestra es lo que Daniel pidió: **LA VISUAL LO ES TODO — los 36 temas ya creados, con sus piezas y sus personajes como assets fieles a su preview, animaciones de colocación, caída y celebración, personajes que reaccionan y una presentación premium. Si la visual sale bien, todo sale perfecto.**
 
-**Condición escrita (sin ella, no es FUERTE):** el juego sale con **los 4 temas destacados completos (Turbo Racing, Brick Builders, Deep Sea, Toon Yellow) + la tienda con los 36 temas comprables con monedas del juego**; cada tema con su pack de assets fiel a su preview; **cero compras con dinero real en el lanzamiento** (solo monedas ganadas jugando + anuncios rewarded opt-in); y la curva de dificultad verificada por simulación antes de salir. Si sale con un solo tema, o con temas a medias, no es este juego.
+**Condición escrita (sin ella, no es FUERTE):** el juego sale con **los 4 temas destacados completos (Turbo Racing, Brick Builders, Deep Sea, Toon Yellow) + la tienda con los 36 temas comprables con monedas del juego**; cada tema con su pack de assets fiel a su preview; **cero compras con dinero real en el lanzamiento** (solo monedas ganadas jugando + anuncios rewarded opt-in); y la curva de dificultad verificada por simulación antes de salir. Si sale con un solo tema, o con temas a medias, no es este juego. **Y la regla de Daniel 23:43: el juego NO es con gráficos baratos ni genéricos — tiene que ser como las imágenes, FIEL al estilo y al arte de cada tema (la preview ES la promesa, 23:42). Nada de pixel genérico ni arte barato. Si un tema no tiene su arte fiel y de calidad, no se enseña (sale como «PRONTO»). El prototipo greybox es solo interno, para validar la mecánica: nunca se presenta como el juego.**
 
 **Título EN:** SKY STACK · **Título ES:** Apila Torres · **Slug:** `sky-stack` · **Género:** Arcade / apilar por precisión (estilo Stack, pero temático). **PEGI 3. No es contenido para niños.**
 
@@ -248,7 +248,7 @@ Velocidad de deslizamiento (px/s, pantalla 390 px, pieza inicial 120 px de ancho
 | Cambio de tema | Transición de 0,4 s: la torre se reconstruye con las piezas nuevas | Whoosh de cambio | Saluda con su animación |
 | Racha diaria | Tarjeta de misión que se marca, +25 monedas | Monedas cayendo | Pulgar arriba |
 
-**Interacciones continuas:** la mascota sigue la pieza deslizante con los ojos; parpadea y respira en idle; el fondo tiene vida propia por tema (banderas que ondean en F1, burbujas que suben en Deep Sea, copos en Winter). Todo el juego se entiende sin leer: el estado se lee en la imagen, no en el texto.
+**Interacciones continuas:** la mascota sigue la pieza deslizante con los ojos; parpadea y respira en idle; el fondo tiene vida propia por tema (banderas que ondean en F1, burbujas que suben en Deep Sea, copos en Winter). Todo el juego se entiende sin leer: el estado se lee en la imagen, no en el texto. **Y la orden de Daniel 23:46: los personajes tienen que estar EN MOVIMIENTO, con vida — corriendo, celebrando, reaccionando; nunca quietos.** La mascota no es un dibujo fijo: corre, salta, se mueve por la pantalla según lo que pasa en la partida.
 
 ### 7.3 Oleadas de fabricación (el arte no se hace de golpe)
 
@@ -259,7 +259,7 @@ Velocidad de deslizamiento (px/s, pantalla 390 px, pieza inicial 120 px de ancho
 | 3 (raros) | Los 12 raros | En paralelo, 1 agente por tema |
 | 4 (épicos) | Los 8 épicos | En paralelo, 1 agente por tema |
 
-Cada pack pasa el gate de arte antes de entrar (fiel a su preview, verificado a 390 px, sin placeholders). **Nada entra a medias:** un tema sin su pack completo no aparece como comprable, aparece como «próximamente» con su preview — pero el objetivo de mañana es que los 36 estén listos para probar. **Y nunca con personajes de otro tema (regla dura 23:41): cada tema con SUS personajes; si no están listos, «PRONTO».**
+Cada pack pasa el gate de arte antes de entrar (fiel a su preview, verificado a 390 px, sin placeholders). **Nada entra a medias:** un tema sin su pack completo no aparece como comprable, aparece como «próximamente» con su preview — pero el objetivo de mañana es que los 36 estén listos para probar. **Y nunca con personajes de otro tema (regla dura 23:41): cada tema con SUS personajes; si no están listos, «PRONTO».** **Y la regla de Daniel 23:42–23:43: LA PREVIEW ES LA PROMESA — lo construido tiene que SER la imagen de diseño, no parecerse ni estar inspirado en ella. Si el tema construido no es su preview, no se entrega. El gate compara lado a lado con la preview aprobada. El juego NO lleva gráficos baratos ni pixel genérico: cada tema con su arte fiel a su preview, de calidad; sin su arte, no se enseña.**
 
 ---
 
