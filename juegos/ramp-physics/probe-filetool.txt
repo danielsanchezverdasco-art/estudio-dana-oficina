@@ -1,0 +1,1 @@
+file-tool probe — if this lands, muse.write works during the EPERM wave.
