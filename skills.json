@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-15T03:03:52+01:00",
+  "actualizado": "2026-11-15T08:10:00+01:00",
   "skills": [
     {
       "nombre": "phaser-core",
@@ -624,6 +624,72 @@
       "repo": null,
       "area": "calidad",
       "paraQue": "Filtro visual y de jugabilidad del estudio, con la referencia de Metro Nightmare",
+      "instalada": "2026-11-15",
+      "usos": null,
+      "usadaEn": [],
+      "estado": "activa",
+      "sustituidaPor": null
+    },
+    {
+      "nombre": "playgama-bridge",
+      "repo": "https://github.com/Playgama/playgama-plugins",
+      "area": "publicación",
+      "paraQue": "Integrar Playgama Bridge v2: game_ready, guardado en Storage, pausa/audio y anuncios",
+      "instalada": "2026-11-15",
+      "usos": null,
+      "usadaEn": [],
+      "estado": "activa",
+      "sustituidaPor": null
+    },
+    {
+      "nombre": "playgama-publish",
+      "repo": "https://github.com/Playgama/playgama-plugins",
+      "area": "publicación",
+      "paraQue": "Revisar requisitos, empaquetar y subir el juego a Playgama",
+      "instalada": "2026-11-15",
+      "usos": null,
+      "usadaEn": [],
+      "estado": "activa",
+      "sustituidaPor": null
+    },
+    {
+      "nombre": "playgama-metrics-snapshot",
+      "repo": "https://github.com/Playgama/gamedev-skills",
+      "area": "analítica",
+      "paraQue": "Cifras reales del juego en Playgama (jugadores, sesiones, retención, FPS)",
+      "instalada": "2026-11-15",
+      "usos": null,
+      "usadaEn": [],
+      "estado": "activa",
+      "sustituidaPor": null
+    },
+    {
+      "nombre": "game-engagement-ideas",
+      "repo": "https://github.com/Playgama/gamedev-skills",
+      "area": "retención",
+      "paraQue": "Ver dónde abandonan los jugadores y proponer cambios comprobables",
+      "instalada": "2026-11-15",
+      "usos": null,
+      "usadaEn": [],
+      "estado": "activa",
+      "sustituidaPor": null
+    },
+    {
+      "nombre": "web-game-performance",
+      "repo": "https://github.com/Playgama/gamedev-skills",
+      "area": "rendimiento",
+      "paraQue": "Medir y corregir caídas de fps en móvil (frame time, draw calls)",
+      "instalada": "2026-11-15",
+      "usos": null,
+      "usadaEn": [],
+      "estado": "activa",
+      "sustituidaPor": null
+    },
+    {
+      "nombre": "playgama-game-video",
+      "repo": "https://github.com/Playgama/playgama-plugins",
+      "area": "marketing",
+      "paraQue": "Grabar tráiler o Short con el propio juego y su estilo",
       "instalada": "2026-11-15",
       "usos": null,
       "usadaEn": [],

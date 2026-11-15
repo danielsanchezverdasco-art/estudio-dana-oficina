@@ -1,29 +1,52 @@
 {
+  "generadoEn": "2026-11-15T01:30:00+01:00",
+  "fuentes": [
+    "https://appmagic.rocks/blog/q3hybrid2025/?hl=en",
+    "https://appmagic.rocks/files/view/upload/Reports/EN_MobileMarkeLandscape2026.pdf",
+    "https://appmagic.rocks/research/Hybridcasual-Puzzles-Q32026",
+    "https://appmagic.rocks/research/casual-report-H12026?hl=en",
+    "https://azurgames.com/blog/hypercasual-and-hybrid-casual-in-2026-full-report/",
+    "https://developers.google.com/youtube/gaming/playables/certification/requirements_trustsafety",
+    "https://friendlygamedev.com/blog/state-of-hybrid-casual-puzzles/",
+    "https://game-analytics.ru/crazy-games/top-30-days",
+    "https://mobilegamecharts.com/tag/youtube-playables",
+    "https://mobilegamer.biz/2026s-top-10-mobile-game-downloads-so-far-free-fire-max-block-blast-roblox-arrows-more/",
+    "https://multigamedev.blogspot.com/2025/11/top-10-poki-games-2025.html",
+    "https://playables.games/",
+    "https://playables.games/best/",
+    "https://playables.games/publishers/playgama/",
+    "https://playgama.com/EN/collections/top-trending-now-games",
+    "https://playgama.com/blog/main/5-5m-plays-in-7-days-five-playgama-games-that-took-off-on-youtube-playables/",
+    "https://playgama.com/category/popular",
+    "https://playgama.com/publish-your-game-on-youtube-playables/",
+    "https://poki.com/blog/2025-at-poki-a-year-in-review",
+    "https://poki.com/blog/i-quit-my-job-to-make-a-dress-up-web-game-and-it-blew-up",
+    "https://sensortower.com/blog/2025-q4-android-top-5-hypercasual-games-revenue-us-643acc7de1714cfff1e77c54",
+    "https://www.appaloma.com/research/puzzle-sorting-games",
+    "https://www.gamigion.com/arrows-puzzle-escape-by-lessmore-is-rocking/",
+    "https://www.guinnessworldrecords.com/world-records/503322-most-concurrent-players-for-a-videogame-made-in-roblox",
+    "https://www.scopely.com/en/news/scopely-to-acquire-majority-stake-in-breakout-mobile-game-pixel-flow-and-the-development-team-behind-it",
+    "https://www.statkraken.com/platform/crazygames",
+    "https://playgama.com/search?q=whack",
+    "https://playgama.com/search?q=pirate",
+    "https://playgama.com/search?q=treasure%20chest",
+    "https://playgama.com/search?q=boxing",
+    "https://playgama.com/search?q=traffic",
+    "https://playgama.com/search?q=cards",
+    "https://playgama.com/collections/top-trending-now-games",
+    "https://hiviolet.ai/signals/tiktok/hashtags/piratetoken",
+    "https://memeclone.ai/meme/fortnite-pirate-shop-token",
+    "https://oposto.app/en/blog/trend-breakdown-week-of-2026-11-09",
+    "https://playstoreradar.com/signals",
+    "https://42answer.com/en/insights/2026-11-11-us-casual-puzzle/",
+    "https://42answer.com/en/insights/2026-11-01-us-casual-puzzle-weekly/",
+    "https://x.com/search?q=%23UFC334",
+    "https://x.com/i/trending/2121280518641623237",
+    "https://www.48hrstrends.com/Spain/this-week",
+    "https://www.youtube.com/watch?v=bHDSVowwu5w",
+    "https://www.youtube.com/watch?v=w7kukBWIsCk"
+  ],
   "aptas": [
-    {
-      "id": "mudanza-extrema",
-      "titulo": "Mudanza Extrema",
-      "motivo": "en-cola-sin-metricas",
-      "nota": null,
-      "facturacion": null,
-      "partidas": null,
-      "ingresosPorMilPartidas": null,
-      "vistas": null,
-      "enCola": true,
-      "genero": "Puzle de colocar"
-    },
-    {
-      "id": "el-barista-del-caos",
-      "titulo": "El Barista del Caos",
-      "motivo": "en-cola-sin-metricas",
-      "nota": null,
-      "facturacion": null,
-      "partidas": null,
-      "ingresosPorMilPartidas": null,
-      "vistas": null,
-      "enCola": true,
-      "genero": "Gestión / tiempo"
-    },
     {
       "id": "estampida-en-las-rebajas",
       "titulo": "Estampida en las Rebajas",
@@ -53,7 +76,13 @@
       "potencialViral": 5,
       "hacibleEnUnDia": true,
       "duracionSesion": "Niveles infinitos generados por código; partidas de 30-90 s encadenadas. Tiempo real: sin dato. Sin temporizador, así se juega más tiempo.",
-      "elegida": true
+      "elegida": true,
+      "nombre": "Estampida en las Rebajas",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "cinta-sushi-glotona",
@@ -80,7 +109,13 @@
       "potencialViral": 4,
       "hacibleEnUnDia": true,
       "duracionSesion": "Niveles infinitos generados por código; partidas de 30-90 s encadenadas. Tiempo real: sin dato.",
-      "elegida": false
+      "elegida": false,
+      "nombre": "Cinta de Sushi Glotona",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "salva-el-bocata",
@@ -103,7 +138,13 @@
       "potencialViral": 5,
       "hacibleEnUnDia": true,
       "duracionSesion": "Niveles de 10 s con estrellas y reintento. Tiempo real: sin dato.",
-      "elegida": false
+      "elegida": false,
+      "nombre": "¡Que no me roben el bocata!",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "brazo-largo-abuela",
@@ -126,7 +167,13 @@
       "potencialViral": 4,
       "hacibleEnUnDia": true,
       "duracionSesion": "30 niveles hechos a mano más un reto diario. Tiempo real: sin dato.",
-      "elegida": false
+      "elegida": false,
+      "nombre": "El Brazo Largo de la Abuela",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "quien-es-el-robot",
@@ -149,7 +196,13 @@
       "potencialViral": 4,
       "hacibleEnUnDia": true,
       "duracionSesion": "Las multitudes se generan con pistas al azar; niveles infinitos. Tiempo real: sin dato.",
-      "elegida": false
+      "elegida": false,
+      "nombre": "¿Quién es el Robot?",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "agujero-tragon-cocina",
@@ -176,7 +229,13 @@
       "potencialViral": 4,
       "hacibleEnUnDia": true,
       "duracionSesion": "Niveles de 60 s con mejoras de tamaño. Tiempo real: sin dato.",
-      "elegida": false
+      "elegida": false,
+      "nombre": "Agujero Tragón en la Cocina",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "colada-caotica",
@@ -203,7 +262,13 @@
       "potencialViral": 3,
       "hacibleEnUnDia": true,
       "duracionSesion": "Niveles infinitos generados por código; partidas de 30-90 s encadenadas. Tiempo real: sin dato.",
-      "elegida": false
+      "elegida": false,
+      "nombre": "Colada Caótica",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "cuchillo-saltarin",
@@ -230,7 +295,13 @@
       "potencialViral": 4,
       "hacibleEnUnDia": true,
       "duracionSesion": "Niveles de 20-40 s con multiplicador final. Tiempo real: sin dato.",
-      "elegida": false
+      "elegida": false,
+      "nombre": "Cuchillo Saltarín",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "puente-del-repartidor",
@@ -253,7 +324,13 @@
       "potencialViral": 4,
       "hacibleEnUnDia": true,
       "duracionSesion": "Niveles cortos con estrellas por tinta usada. Tiempo real: sin dato.",
-      "elegida": false
+      "elegida": false,
+      "nombre": "Dibuja el Puente del Repartidor",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "borra-la-mentira",
@@ -272,7 +349,13 @@
       "potencialViral": 4,
       "hacibleEnUnDia": true,
       "duracionSesion": "Unos 30 niveles hechos a mano; mucho arte por nivel. Tiempo real: sin dato.",
-      "elegida": false
+      "elegida": false,
+      "nombre": "Borra la Mentira",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "churreria-idle",
@@ -299,7 +382,13 @@
       "potencialViral": 3,
       "hacibleEnUnDia": true,
       "duracionSesion": "Sesiones largas por naturaleza (progresión sin fin). Tiempo real: sin dato.",
-      "elegida": false
+      "elegida": false,
+      "nombre": "Churrería Idle",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "desfile-expres",
@@ -326,7 +415,13 @@
       "potencialViral": 3,
       "hacibleEnUnDia": true,
       "duracionSesion": "Rondas de 20 s; la referencia del género es 12:40 por sesión (Vortella).",
-      "elegida": false
+      "elegida": false,
+      "nombre": "Desfile Exprés",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "trastero-secreto",
@@ -349,7 +444,13 @@
       "potencialViral": 2,
       "hacibleEnUnDia": true,
       "duracionSesion": "Escenas largas de 2-4 min, apropiadas para llegar a 5:00. Tiempo real: sin dato.",
-      "elegida": false
+      "elegida": false,
+      "nombre": "El Trastero Secreto",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "emoji-parejas-locas",
@@ -372,7 +473,13 @@
       "potencialViral": 3,
       "hacibleEnUnDia": true,
       "duracionSesion": "Cientos de niveles con datos simples. Tiempo real: sin dato.",
-      "elegida": false
+      "elegida": false,
+      "nombre": "Emoji Parejas Locas",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "funda-movil-diy",
@@ -395,7 +502,13 @@
       "potencialViral": 4,
       "hacibleEnUnDia": true,
       "duracionSesion": "Pedidos encadenados con cliente. Tiempo real: sin dato.",
-      "elegida": false
+      "elegida": false,
+      "nombre": "Funda de Móvil DIY",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "gusano-gloton",
@@ -414,7 +527,13 @@
       "potencialViral": 3,
       "hacibleEnUnDia": true,
       "duracionSesion": "Partidas de 2-3 min con mejoras. Bots, sin servidores. Tiempo real: sin dato.",
-      "elegida": false
+      "elegida": false,
+      "nombre": "Gusano Glotón",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "muneco-antiestres",
@@ -441,7 +560,232 @@
       "potencialViral": 4,
       "hacibleEnUnDia": true,
       "duracionSesion": "Riesgo: sesiones cortas si no hay progresión; añadir objetos que se desbloquean. Tiempo real: sin dato.",
-      "elegida": false
+      "elegida": false,
+      "nombre": "Muñeco Antiestrés",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
+    },
+    {
+      "id": "cofre-del-doblon",
+      "titulo": "Cofre del Doblón",
+      "tituloEN": "Gold Doubloon Chest Rush",
+      "genero": "Arcade de reflejos y suerte (toca cofres)",
+      "gancho": "Los cofres asoman de la arena: tócalos antes de que se hundan. Evita las bombas. Y en uno entre muchos… el DOBLÓN DORADO.",
+      "porQueFunciona": "Copia la emoción del momento (abrir cofres buscando un premio rarísimo, la moda #piratetoken) con un tema pirata genérico, sin marcas.",
+      "viralUrgente": true,
+      "temaViral": "#piratetoken / Pirate Shop Token de Fortnite (evento Treasure Hunters hasta el 5/12/2026)",
+      "datos": [
+        {
+          "dato": "#piratetoken: 428,3 M de visualizaciones y 59.086 publicaciones en TikTok EE. UU. (7 días, a 14/11/2026), +31,7 % en visualizaciones frente al 11/11; n.º 3 de hashtags (llegó al n.º 1 el 10/11)",
+          "fuente": "https://hiviolet.ai/signals/tiktok/hashtags/piratetoken"
+        },
+        {
+          "dato": "#pirateshoptoken: unos 12.400 vídeos y 279 M de reproducciones en TikTok; el vídeo top tiene 13,3 M de reproducciones",
+          "fuente": "https://memeclone.ai/meme/fortnite-pirate-shop-token"
+        },
+        {
+          "dato": "El evento Treasure Hunters dura hasta el 5/12/2026: unas 3 semanas de tirón",
+          "fuente": "https://memeclone.ai/meme/fortnite-pirate-shop-token"
+        },
+        {
+          "dato": "Shorts de YouTube sobre el tema: 702.909 visualizaciones (\"I Tested Pirate Shop Token Clickbait Fortnite Shorts!\") y 48.000 (\"He's Opened Over 100,000 Chests…\")",
+          "fuente": "https://www.youtube.com/watch?v=bHDSVowwu5w"
+        },
+        {
+          "dato": "Playgama: con \"pirate\" o \"treasure chest\" salen objetos ocultos, defensa de torres y cañones; no hay ningún arcade de tocar cofres. Con \"whack\" solo salen \"Whack a Mole - Pixel Version\" y \"Whack Strike\"",
+          "fuente": "https://playgama.com/search?q=pirate"
+        }
+      ],
+      "analisis": {
+        "tendencias": "TikTok: #piratetoken con 428,3 M de visualizaciones en 7 días y subiendo (Hi Violet, 14/11). X: Sin datos de recuento propio. Google Trends: Sin datos para este tema. YouTube Shorts: hay vídeos de 41.000 a 702.909 visualizaciones.",
+        "hypercasualQueFunciona": "Lo que más sube en Casual EE. UU. son los juegos de premio y probabilidad, como Coin Bounce (puesto 28 → 9 en 12 días, unas 292.536 instalaciones) y Fast Cash Farkle (top 5).",
+        "fuentesHypercasual": [
+          "https://42answer.com/en/insights/2026-11-11-us-casual-puzzle/",
+          "https://42answer.com/en/insights/2026-11-01-us-casual-puzzle-weekly/"
+        ],
+        "competencia": "Baja en Playgama (no hay ningún \"whack\" de cofres con premio raro). Para no ser un clon de \"Whack a Mole\": cofres con físicas, tres tipos (madera, plata y oro), bombas, cangrejos que roban monedas y un doblón rarísimo con un contador de probabilidad visible.",
+        "viabilidad": "Muy alta en un día: spawner en rejilla de 3×4, tweens de salida y hundimiento, partículas de monedas y confeti, y una curva de velocidad. Riesgos: que la probabilidad del doblón parezca un sorteo de dinero. Mitigación: sin dinero real, sin apuestas y sin compras; el doblón da puntos y una skin del barco. Hay que revisar las normas de seguridad de Playables.",
+        "fuenteNormas": "https://developers.google.com/youtube/gaming/playables/certification/requirements_trustsafety",
+        "potencialViral": "Alto: el momento \"¡ME HA SALIDO!\" del doblón se puede grabar y conecta con la moda actual.",
+        "se_entiende_3s_sin_texto": "Sí: un cofre brilla y sube, lo tocas y salen monedas. Una bomba roja con mecha no se toca.",
+        "adictivo": "Recompensa variable (el doblón raro), velocidad que sube, combo por tocar seguido y récord de monedas.",
+        "monetizacion": "Anuncio entre partidas. Anuncio con recompensa: \"Suerte x2 durante 30 s\" o seguir tras tocar una bomba."
+      },
+      "puntuacion": {
+        "tendencia": 5,
+        "competencia": 4,
+        "viabilidad1Dia": 5,
+        "potencialViral": 5,
+        "seEntiendeEn3s": 5,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 32,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "baja",
+      "potencialViral": 5,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Partidas de 45-60 s con velocidad creciente. Tiempo real: Sin datos.",
+      "conclusion": "APTA y URGENTE: el tema arrasa ahora y aguanta hasta el 5/12. Mecánica de un toque, muy visual, sin clon directo en Playgama. Hay que fabricarla hoy, con tema pirata propio y sin marcas de Fortnite.",
+      "nombre": "Cofre del Doblón",
+      "fecha": "2026-11-15",
+      "nueva": true,
+      "estado": "apta",
+      "elegida": false,
+      "origen": "Investigación diaria 15/11/2026 08:00",
+      "motivo": "APTA y URGENTE: el tema arrasa ahora y aguanta hasta el 5/12. Mecánica de un toque, muy visual, sin clon directo en Playgama. Hay que fabricarla hoy, con tema pirata propio y sin marcas de Fortnite."
+    },
+    {
+      "id": "ko-relampago",
+      "titulo": "KO Relámpago",
+      "tituloEN": "Lightning KO: Dodge & Punch",
+      "genero": "Acción / lucha de reflejos",
+      "gancho": "El rival amaga un puñetazo (su guante brilla): desliza al otro lado para esquivar y toca para contraatacar. KO a cámara lenta.",
+      "porQueFunciona": "Lleva el pico de UFC 334 a un duelo de reflejos de 1 contra 1 muy expresivo. Los juegos de golpear en el momento justo lanzan con fuerza esta semana.",
+      "viralUrgente": false,
+      "temaViral": "UFC 334 (14/11, Madison Square Garden): tendencia n.º 2 en España y en el mundo en X",
+      "datos": [
+        {
+          "dato": "#UFC334: 98.702 publicaciones en X en 7 días, 63.443 solo en las primeras ~7 h del 15/11 (UTC); tendencia en España y en el mundo",
+          "fuente": "https://x.com/search?q=%23UFC334"
+        },
+        {
+          "dato": "Kung Fu Simulator: Hit Tension (acción de golpes) salió el 10/11/2026 y ya tiene 213.000 instalaciones",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Casual Blade: Robot PvP Duel salió el 13/11/2026 y tiene 1,3 M de instalaciones",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Playgama \"boxing\": KO Pals Boxing, Boxing Stars, PunchBox 3D, Stickman Kombat 2D, Thousand Strikes y Obby: Ragdoll Boxing",
+          "fuente": "https://playgama.com/search?q=boxing"
+        }
+      ],
+      "analisis": {
+        "tendencias": "X: #UFC334, 63.443 publicaciones el 15/11 (hasta las 07:55 h de Madrid). Google Trends: Sin datos concretos. TikTok: Sin datos. Shorts: Sin datos. El pico de un combate dura poco (1-3 días), así que no es urgente; la lucha de reflejos funciona todo el año.",
+        "hypercasualQueFunciona": "Duelos rápidos de acción en las listas de lanzamientos (Casual Blade 1,3 M en 2 días; Kung Fu Simulator 213.000).",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals"
+        ],
+        "competencia": "Media: hay unos 6 juegos de boxeo en Playgama, pero son de ragdoll o de pulsar botones. Lo que nos diferencia: esquivar con un gesto, avisos visuales de colores, cámara lenta y personajes caricaturescos propios (sin marcas UFC).",
+        "viabilidad": "Alta: dos sprites con 4-5 poses (guardia, amago, golpe, esquiva, KO), deslizar y tocar, patrones de ataque por niveles, sacudida de cámara y cámara lenta. Riesgo: que la animación se vea pobre si no hay buen arte. Hay que preparar las poses con Arte y Calidad.",
+        "potencialViral": "Medio-alto: los KO a cámara lenta y los \"esquivé por un pelo\" quedan muy bien en un Short.",
+        "se_entiende_3s_sin_texto": "Sí: el guante brilla en rojo por un lado, la flecha indica esquivar al otro y se toca para golpear.",
+        "adictivo": "Rivales cada vez más rápidos, combos de esquiva perfecta y una barra de KO que se llena.",
+        "monetizacion": "Anuncio entre combates. Anuncio con recompensa: recuperar la salud una vez o un guante dorado durante un combate."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 3,
+        "viabilidad1Dia": 4,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 5,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 28,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "media",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Combates de 30-60 s encadenados. Tiempo real: Sin datos.",
+      "conclusion": "APTA: género nuevo para el estudio (acción y lucha), se entiende al primer toque y aprovecha el interés por las MMA sin usar marcas.",
+      "nombre": "KO Relámpago",
+      "fecha": "2026-11-15",
+      "nueva": true,
+      "estado": "apta",
+      "elegida": false,
+      "origen": "Investigación diaria 15/11/2026 08:00",
+      "motivo": "APTA: género nuevo para el estudio (acción y lucha), se entiende al primer toque y aprovecha el interés por las MMA sin usar marcas."
+    },
+    {
+      "id": "paraguas-vs-borrasca",
+      "titulo": "Paraguas contra la Borrasca",
+      "tituloEN": "Umbrella vs Storm",
+      "genero": "Física / equilibrio",
+      "gancho": "Una abuela camina en plena borrasca: inclina el paraguas para que el viento no se lo lleve y bloquea macetas, gatos y sombreros voladores.",
+      "porQueFunciona": "La borrasca Charles fue de lo más buscado en España esta semana. El equilibrio con física da caídas cómicas que se pueden grabar.",
+      "viralUrgente": false,
+      "temaViral": "Borrasca Charles / viento (España, 9-13/11)",
+      "datos": [
+        {
+          "dato": "\"Borrasca Charles\": más de 1.000.000 de búsquedas en Google España (pico el 11/11/2026); \"Viento\": más de 500.000 entre el 11 y el 13/11",
+          "fuente": "https://www.48hrstrends.com/Spain/this-week"
+        },
+        {
+          "dato": "Royal Smash! - Physics Puzzle: n.º 1 en Casual EE. UU. del 28/10 al 11/11; unos 13,9 M de instalaciones",
+          "fuente": "https://42answer.com/en/insights/2026-11-01-us-casual-puzzle-weekly/"
+        },
+        {
+          "dato": "Playgama: en tendencias no hay ningún juego de equilibrio con viento; dominan objetos ocultos, mahjong y obby",
+          "fuente": "https://playgama.com/collections/top-trending-now-games"
+        }
+      ],
+      "analisis": {
+        "tendencias": "Google Trends ES: Borrasca Charles, más de 1 M (ya bajando; el pico fue el 11/11). TikTok, X y Shorts: Sin datos. Un tema de tiempo local no sirve para urgencias; el tema de viento y caos funciona en todo el mundo.",
+        "hypercasualQueFunciona": "Los puzles y arcades de física lideran Casual EE. UU. (Royal Smash! n.º 1).",
+        "fuentesHypercasual": [
+          "https://42answer.com/en/insights/2026-11-11-us-casual-puzzle/",
+          "https://42answer.com/en/insights/2026-11-01-us-casual-puzzle-weekly/"
+        ],
+        "competencia": "Baja según lo visto en las tendencias de Playgama (búsqueda específica de \"umbrella\": Sin datos). Riesgo bajo de parecer un clon.",
+        "viabilidad": "Media-alta: Matter.js en Phaser 3 (paraguas con una articulación, ráfagas como fuerzas, objetos que vuelan). Riesgo: ajustar la física para que sea justa en un día. Hay que limitarlo a 1 eje de control (arrastrar en horizontal).",
+        "potencialViral": "Medio: las caídas cómicas y el paraguas dado la vuelta son graciosos, pero el tema ya pierde fuerza.",
+        "se_entiende_3s_sin_texto": "Sí: flechas de viento visibles y el paraguas se tambalea; arrastras para compensar.",
+        "adictivo": "Distancia recorrida como récord y ráfagas cada vez más fuertes.",
+        "monetizacion": "Anuncio entre partidas. Anuncio con recompensa: paraguas reforzado o seguir desde el mismo punto."
+      },
+      "puntuacion": {
+        "tendencia": 3,
+        "competencia": 4,
+        "viabilidad1Dia": 3,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 4,
+        "adiccion": 3,
+        "monetizacion": 4,
+        "total": 24,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "baja",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Partidas de 30-90 s. Tiempo real: Sin datos.",
+      "conclusion": "APTA pero no prioritaria: género de física distinto y divertido, aunque el tema ya baja y la física es más arriesgada para hacerla en un día.",
+      "nombre": "Paraguas contra la Borrasca",
+      "fecha": "2026-11-15",
+      "nueva": true,
+      "estado": "apta",
+      "elegida": false,
+      "origen": "Investigación diaria 15/11/2026 08:00",
+      "motivo": "APTA pero no prioritaria: género de física distinto y divertido, aunque el tema ya baja y la física es más arriesgada para hacerla en un día."
+    },
+    {
+      "id": "mudanza-extrema",
+      "titulo": "Mudanza Extrema",
+      "motivo": "en-cola-sin-metricas",
+      "nota": null,
+      "facturacion": null,
+      "partidas": null,
+      "ingresosPorMilPartidas": null,
+      "vistas": null,
+      "enCola": true,
+      "genero": "Puzle de colocar"
+    },
+    {
+      "id": "el-barista-del-caos",
+      "titulo": "El Barista del Caos",
+      "motivo": "en-cola-sin-metricas",
+      "nota": null,
+      "facturacion": null,
+      "partidas": null,
+      "ingresosPorMilPartidas": null,
+      "vistas": null,
+      "enCola": true,
+      "genero": "Gestión / tiempo"
     }
   ],
   "noAptas": [
@@ -467,7 +811,13 @@
       "hacibleEnUnDia": true,
       "duracionSesion": "Infinito.",
       "elegida": false,
-      "motivoRechazo": "Saturado: miles de clones y un líder imbatible; sin gancho nuevo."
+      "motivoRechazo": "Saturado: miles de clones y un líder imbatible; sin gancho nuevo.",
+      "nombre": "Bloques Infinitos",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "tornillos-del-taller",
@@ -487,7 +837,13 @@
       "hacibleEnUnDia": true,
       "duracionSesion": "Niveles.",
       "elegida": false,
-      "motivoRechazo": "Saturado y en declive."
+      "motivoRechazo": "Saturado y en declive.",
+      "nombre": "Tornillos del Taller",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "fusiona-frutas",
@@ -511,7 +867,13 @@
       "hacibleEnUnDia": true,
       "duracionSesion": "Infinito.",
       "elegida": false,
-      "motivoRechazo": "Saturado y con riesgo de rechazo por ser casi idéntico a otro."
+      "motivoRechazo": "Saturado y con riesgo de rechazo por ser casi idéntico a otro.",
+      "nombre": "Fusiona Frutas",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "carrera-de-puertas",
@@ -535,7 +897,13 @@
       "hacibleEnUnDia": false,
       "duracionSesion": "Niveles cortos.",
       "elegida": false,
-      "motivoRechazo": "Necesita 3D para competir y el género está saturado por los grandes."
+      "motivoRechazo": "Necesita 3D para competir y el género está saturado por los grandes.",
+      "nombre": "Carrera de Puertas Gigante",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "roba-un-brainrot",
@@ -559,7 +927,13 @@
       "hacibleEnUnDia": false,
       "duracionSesion": "Larga.",
       "elegida": false,
-      "motivoRechazo": "Personajes de terceros (riesgo de IP), necesita 3D y multijugador."
+      "motivoRechazo": "Personajes de terceros (riesgo de IP), necesita 3D y multijugador.",
+      "nombre": "Roba un Brainrot",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "sprunki-ragdoll",
@@ -583,7 +957,13 @@
       "hacibleEnUnDia": true,
       "duracionSesion": "Media.",
       "elegida": false,
-      "motivoRechazo": "IP ajena: incumple la norma de propiedad intelectual de Playables."
+      "motivoRechazo": "IP ajena: incumple la norma de propiedad intelectual de Playables.",
+      "nombre": "Sprunki Ragdoll",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "karts-online",
@@ -603,7 +983,13 @@
       "hacibleEnUnDia": false,
       "duracionSesion": "Larga.",
       "elegida": false,
-      "motivoRechazo": "Multijugador: necesita servidores y 3D; inviable en un día."
+      "motivoRechazo": "Multijugador: necesita servidores y 3D; inviable en un día.",
+      "nombre": "Karts Locos Online",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "moto-acrobacias",
@@ -627,7 +1013,13 @@
       "hacibleEnUnDia": false,
       "duracionSesion": "Niveles.",
       "elegida": false,
-      "motivoRechazo": "Física de vehículos compleja y muchos clones establecidos."
+      "motivoRechazo": "Física de vehículos compleja y muchos clones establecidos.",
+      "nombre": "Moto Acrobacias",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "choque-destructivo",
@@ -647,7 +1039,13 @@
       "hacibleEnUnDia": false,
       "duracionSesion": "Media.",
       "elegida": false,
-      "motivoRechazo": "Necesita 3D con deformación de carrocería; no se hace en un día."
+      "motivoRechazo": "Necesita 3D con deformación de carrocería; no se hace en un día.",
+      "nombre": "Choque Destructivo",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "solitario-con-premios",
@@ -671,7 +1069,13 @@
       "hacibleEnUnDia": true,
       "duracionSesion": "Media.",
       "elegida": false,
-      "motivoRechazo": "Riesgo de política: apuestas o premios con valor real."
+      "motivoRechazo": "Riesgo de política: apuestas o premios con valor real.",
+      "nombre": "Solitario con Premios",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "piano-de-hits",
@@ -695,7 +1099,13 @@
       "hacibleEnUnDia": true,
       "duracionSesion": "Larga.",
       "elegida": false,
-      "motivoRechazo": "Derechos musicales: las canciones de moda tienen licencia."
+      "motivoRechazo": "Derechos musicales: las canciones de moda tienen licencia.",
+      "nombre": "Piano de Hits Virales",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "nivel-del-diablo",
@@ -715,7 +1125,13 @@
       "hacibleEnUnDia": true,
       "duracionSesion": "Media.",
       "elegida": false,
-      "motivoRechazo": "Los controles de precisión no van bien en vertical táctil."
+      "motivoRechazo": "Los controles de precisión no van bien en vertical táctil.",
+      "nombre": "Nivel del Diablo",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
     },
     {
       "id": "explota-burbujas",
@@ -735,7 +1151,113 @@
       "hacibleEnUnDia": true,
       "duracionSesion": "Corta.",
       "elegida": false,
-      "motivoRechazo": "Sin progresión ni niveles: no llega a 5:00 por sesión y apenas hay sitio para anuncios."
+      "motivoRechazo": "Sin progresión ni niveles: no llega a 5:00 por sesión y apenas hay sitio para anuncios.",
+      "nombre": "Explota Burbujas ASMR",
+      "fecha": "2026-11-15",
+      "nueva": false,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "lista inicial 30 ideas (15/11 01:30)"
+    },
+    {
+      "id": "zigzag-de-trafico",
+      "titulo": "Zigzag de Tráfico",
+      "tituloEN": "Traffic Zigzag",
+      "genero": "Carreras (esquivar tráfico)",
+      "gancho": "Cambia de carril con un toque para adelantar coches a toda velocidad.",
+      "porQueFunciona": "Traffic Racer Open World se ha disparado esta semana.",
+      "viralUrgente": false,
+      "datos": [
+        {
+          "dato": "Traffic Racer Open World: +528.000 instalaciones por semana frente a +49.000 la anterior (más de 10x); 21 M en total",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Playgama \"traffic\": TRAFFIC Rush Online, Highway Traffic Riders, Traffic Overdrive, Highway Traffic Race, Traffic Racer 3D, Traffic Dash, Neo Traffic Rider Championship y más (más de 10 corredores de tráfico)",
+          "fuente": "https://playgama.com/search?q=traffic"
+        }
+      ],
+      "analisis": {
+        "tendencias": "Tiendas: más de 10x en Traffic Racer (PlayStore Radar). TikTok, X y Shorts: Sin datos.",
+        "competencia": "Muy alta: más de 10 juegos casi iguales en Playgama; YouTube rechaza los clones y las plantillas.",
+        "viabilidad": "Alta técnicamente, pero no aporta nada nuevo.",
+        "monetizacion": "Anuncio entre partidas y para seguir."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 1,
+        "viabilidad1Dia": 4,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 5,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 22,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "muy alta",
+      "potencialViral": 2,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Partidas de 30-90 s.",
+      "motivoRechazo": "Saturado en Playgama: sería un clon de los corredores de tráfico que ya existen.",
+      "conclusion": "NO APTA por saturación y riesgo de clon.",
+      "nombre": "Zigzag de Tráfico",
+      "fecha": "2026-11-15",
+      "nueva": true,
+      "estado": "no apta",
+      "elegida": false,
+      "origen": "Investigación diaria 15/11/2026 08:00",
+      "motivo": "Saturado en Playgama: sería un clon de los corredores de tráfico que ya existen."
+    },
+    {
+      "id": "mas-o-menos-cartas",
+      "titulo": "¿Más o Menos?",
+      "tituloEN": "Higher or Lower Cards",
+      "genero": "Cartas",
+      "gancho": "Sale una carta: adivina con una flecha si la siguiente será mayor o menor y encadena una racha.",
+      "porQueFunciona": "Las cartas clásicas están subiendo esta semana.",
+      "viralUrgente": false,
+      "datos": [
+        {
+          "dato": "Solitaire - Classic Card Games (Guru): +452.000 instalaciones por semana frente a +95.000 (4,8x)",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Playgama \"cards\": casi todo es solitario, Gin Rummy, Texas Hold'em 2026 y Cards in Fool",
+          "fuente": "https://playgama.com/search?q=cards"
+        }
+      ],
+      "analisis": {
+        "tendencias": "Tiendas: subida del solitario. TikTok, X y Shorts: Sin datos.",
+        "competencia": "Media-alta en cartas; el mayor o menor es una mecánica de casino.",
+        "viabilidad": "Muy alta (es trivial).",
+        "riesgos": "Parece una apuesta y puede chocar con las normas de seguridad de Playables; da poco espectáculo visual y depende del azar, no de la habilidad.",
+        "fuenteNormas": "https://developers.google.com/youtube/gaming/playables/certification/requirements_trustsafety"
+      },
+      "puntuacion": {
+        "tendencia": 3,
+        "competencia": 3,
+        "viabilidad1Dia": 5,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 5,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 24,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "media-alta",
+      "potencialViral": 2,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Rachas de 20-60 s.",
+      "motivoRechazo": "Mecánica de casino (riesgo con las normas), poco espectáculo visual y poco viral.",
+      "conclusion": "NO APTA: si hacemos cartas, mejor una mecánica de habilidad.",
+      "nombre": "¿Más o Menos?",
+      "fecha": "2026-11-15",
+      "nueva": true,
+      "estado": "no apta",
+      "elegida": false,
+      "origen": "Investigación diaria 15/11/2026 08:00",
+      "motivo": "Mecánica de casino (riesgo con las normas), poco espectáculo visual y poco viral."
     }
-  ]
+  ],
+  "actualizadoEn": "2026-11-15T08:10:00+01:00"
 }

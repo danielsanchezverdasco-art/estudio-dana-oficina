@@ -1,6 +1,12 @@
 {
-  "actualizado": "2026-11-15T03:45:00+01:00",
+  "actualizado": "2026-11-15T08:10:00+01:00",
   "cambios": [
+    {
+      "fecha": "2026-11-15T08:10:00+01:00",
+      "que": "Seis skills nuevas oficiales de Playgama",
+      "porQue": "Faltaban skills para el SDK, la publicación y la analítica de Playgama. Las oficiales de la plataforma son las más fiables.",
+      "resultado": "Instaladas playgama-bridge, playgama-publish, playgama-metrics-snapshot, game-engagement-ideas, web-game-performance y playgama-game-video. El brief de juegos las usa en programación, publicación, analítica y vídeo. Ninguna skill sustituida."
+    },
     {
       "fecha": "2026-11-15T03:45:00+01:00",
       "que": "Nueva planta «Caza de talento» y barra de la meta de 2.500 €/mes",
