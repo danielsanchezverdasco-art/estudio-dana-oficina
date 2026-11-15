@@ -198,7 +198,10 @@ export const LEVELS: LevelDef[] = [
     ground: [plat(0, 340, 100), plat(280, 360, 110)],
     fans: [], dynamite: [], portals: [],
     coins: [{ x: 180, y: 290 }],
-    solution: [S([[92, 344], [272, 354]], 'boost')],
+    // The ramp must land ON the goal platform (r2 fix: the first version
+    // ended at x=272, 8 px short of the platform, and the dummy wedged
+    // against its left lip and lost by still-detection in ~3 s).
+    solution: [S([[92, 344], [288, 358]], 'boost')],
   },
   // ---- BLOCK 3 (11-15): fans central + dynamite arrives (L12 teaching). ----
   {
@@ -227,7 +230,8 @@ export const LEVELS: LevelDef[] = [
     ground: [plat(0, 380, 100), plat(280, 395, 110)],
     fans: [], dynamite: [], portals: [],
     coins: [{ x: 180, y: 320 }],
-    solution: [S([[92, 384], [272, 393]], 'boost')],
+    // The ramp must land ON the goal platform (same lip-trap fix as L10).
+    solution: [S([[92, 384], [288, 397]], 'boost')],
   },
   {
     n: 14, name: 'Bounce Over the Wall', archetype: 'bounce', ink: 315, par: 195,
@@ -294,7 +298,8 @@ export const LEVELS: LevelDef[] = [
     ground: [plat(0, 300, 100), plat(290, 315, 100)],
     fans: [], dynamite: [], portals: [],
     coins: [{ x: 190, y: 250 }],
-    solution: [S([[92, 304], [282, 313]], 'boost')],
+    // The ramp must land ON the goal platform (same lip-trap fix as L10).
+    solution: [S([[92, 304], [298, 317]], 'boost')],
   },
   {
     n: 20, name: 'High Bounce', archetype: 'bounce', ink: 345, par: 215,
@@ -361,7 +366,8 @@ export const LEVELS: LevelDef[] = [
     ground: [plat(0, 420, 100), plat(290, 435, 100)],
     fans: [], dynamite: [], portals: [],
     coins: [{ x: 190, y: 360 }],
-    solution: [S([[92, 424], [282, 433]], 'boost')],
+    // The ramp must land ON the goal platform (same lip-trap fix as L10).
+    solution: [S([[92, 424], [298, 437]], 'boost')],
   },
   // ---- BLOCK 6 (26-30): everything combined. Precision ceiling. ----
   {
@@ -399,7 +405,8 @@ export const LEVELS: LevelDef[] = [
     ground: [plat(0, 340, 100), plat(280, 352, 110)],
     fans: [], dynamite: [], portals: [],
     coins: [{ x: 180, y: 285 }],
-    solution: [S([[92, 344], [272, 351]], 'boost')],
+    // The ramp must land ON the goal platform (same lip-trap fix as L10).
+    solution: [S([[92, 344], [288, 355]], 'boost')],
   },
   {
     n: 30, name: 'Final Bounce', archetype: 'bounce', ink: 320, par: 200,

@@ -45,7 +45,12 @@ async function touchDrag(page, pts, stepMs = 16) {
 const browser = await chromium.launch({ executablePath: CHROME, args: ['--no-sandbox', '--disable-dev-shm-usage'] });
 const ctx = await browser.newContext({
   viewport: { width: 390, height: 844 },
-  deviceScaleFactor: 2,
+  // DSF 1 for the logic run (r2 fix): DSF 2 quadrupled the SwiftShader
+  // raster cost, starved the fixed-step physics (Runner defers updates
+  // when frames are slow) and crashed the renderer on screenshots.
+  // The physics is DSF-independent, so level verification is unaffected;
+  // the film script keeps DSF 2 for the beauty shots.
+  deviceScaleFactor: 1,
   hasTouch: true,
   isMobile: true,
   locale: 'en-US',
@@ -239,5 +244,11 @@ console.log('\n=== SUMMARY ===');
 console.log(`checks: ${Object.keys(results.checks).length}, failed: ${failed.length}`);
 console.log(`console errors: ${results.errors.length}, failed requests: ${results.failed_requests.length}`);
 console.log(JSON.stringify(results, null, 2));
-fs.writeFileSync('/tmp/ramp-test-results.json', JSON.stringify(results, null, 2));
+try {
+  fs.writeFileSync('/tmp/ramp-test-results.json', JSON.stringify(results, null, 2));
+} catch (e) {
+  // The results are already on stdout; a failed log write (EPERM wave)
+  // must not crash the harness or mask the test verdict.
+  console.log(`(no se pudo escribir /tmp/ramp-test-results.json: ${e.code ?? e})`);
+}
 process.exit(failed.length > 0 || results.errors.length > 0 ? 1 : 0);

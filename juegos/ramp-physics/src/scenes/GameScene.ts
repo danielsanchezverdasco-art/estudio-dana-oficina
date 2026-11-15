@@ -22,7 +22,12 @@ const DESIGN_W = 390;
 const DESIGN_H = 844;
 const GOAL_R = 40;
 const RAMP_THICK = 10;
-const LAUNCH_TIMEOUT = 20; // seconds
+const LAUNCH_TIMEOUT = 60; // seconds — generous on purpose: Phaser's
+// Matter Runner defers fixed 16.66 ms physics steps when frames are slow
+// (SwiftShader / loaded device), so the physics can run several times
+// slower than wall time; a 20 s wall-clock cap fired mid-level in the
+// r2 harness run (L5/L7/L9). On a real 60 fps phone attempts still end
+// quickly via win / lose / still-detection (1.2 s).
 const STILL_SECONDS = 1.2;
 const FAN_ACCEL = 0.003; // px/ms^2 per force unit (3x gravity at force 1)
 const MAX_RISE_SPEED = 8; // px/step cap for fan lift
