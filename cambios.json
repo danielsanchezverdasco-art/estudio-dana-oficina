@@ -1,0 +1,59 @@
+{
+  "actualizado": "2026-11-15T03:45:00+01:00",
+  "cambios": [
+    {
+      "fecha": "2026-11-15T03:45:00+01:00",
+      "que": "Nueva planta «Caza de talento» y barra de la meta de 2.500 €/mes",
+      "porQue": "Daniel quiere un departamento diario que busque e instale las mejores skills y ver el progreso hacia la meta.",
+      "resultado": "La planta muestra candidatas, huecos y mejoras; la barra de la meta se llenará con ingresos reales cuando haya datos."
+    },
+    {
+      "fecha": "2026-11-15T02:56:00+01:00",
+      "que": "La oficina queda conectada a los datos reales del canal de YouTube",
+      "porQue": "Los indicadores tienen que salir de YouTube Studio, sin inventar cifras.",
+      "resultado": "El panel del canal muestra 2.734 suscriptores, 216 visualizaciones y 0,6 h vistas en 28 días, según la recogida del 15/11/2026 (Europe/Madrid)."
+    },
+    {
+      "fecha": "2026-11-15T03:00:00+01:00",
+      "que": "Botones «Actualizar datos», «Pedir recogida nueva» y «Juego nuevo urgente» por correo",
+      "porQue": "Para avisar al agente cuando haga falta, sin dejarlo en vigilancia continua.",
+      "resultado": "Los botones ya están en la oficina: abren un correo de disparo y hay que pulsar enviar."
+    },
+    {
+      "fecha": "2026-11-15T03:00:00+01:00",
+      "que": "Tabla semanal de nuevos suscriptores, de lunes a viernes, con mejora o empeora",
+      "porQue": "Ver de un vistazo si el canal sube o baja, como se pidió para la oficina.",
+      "resultado": "La tabla está en Vestíbulo y en Marketing. Hoy solo hay el dato de partida del 15/11/2026; los días sin recogida se muestran como —."
+    },
+    {
+      "fecha": "2026-11-15T03:03:00+01:00",
+      "que": "Nueva planta y sección de Skills, con el listado que usa el estudio",
+      "porQue": "Para ver en datos todas las skills instaladas, su área, para qué sirven y en qué juegos se usan.",
+      "resultado": "La planta Skills lista las skills agrupadas por área (Arte, Programación, Competencia, Marketing, Pro y Calidad)."
+    },
+    {
+      "fecha": "2026-11-15T03:03:00+01:00",
+      "que": "Revisión semanal de skills los lunes a las 8:00",
+      "porQue": "Mantener las skills al día y sustituir las que dejen de ser las mejores para este proyecto de videojuegos móviles.",
+      "resultado": "Queda como rutina semanal: lunes a las 8:00 (Europe/Madrid)."
+    },
+    {
+      "fecha": "2026-11-15T03:00:00+01:00",
+      "que": "Los pedidos de la oficina se revisan tres veces al día",
+      "porQue": "Atender encargos sin estar en vigilancia continua.",
+      "resultado": "Las pasadas quedan a las 10:00, 15:00 y 21:00 (Europe/Madrid)."
+    },
+    {
+      "fecha": "2026-11-15T03:04:00+01:00",
+      "que": "Mudanza Extrema (Moving Mayhem) y Metro Nightmare pasan el filtro de calidad",
+      "porQue": "El arte cumple el listón de estilo de referencia; en Metro, las tarjetas de victoria y derrota ya tienen marco de acero.",
+      "resultado": "Los dos juegos quedan aprobados. Siguiente paso: publicarlos en Playgama y lanzar su fase de marketing."
+    },
+    {
+      "fecha": "2026-11-15T03:05:00+01:00",
+      "que": "Rebranding del canal de YouTube de Customs GT a Dana Games",
+      "porQue": "El canal pasa a ser el de la empresa de videojuegos, no el de Customs GT / Garden cars.",
+      "resultado": "El cambio de nombre, identificador, foto, banner y descripción está en curso. Los vídeos antiguos se ocultarán (privado); no se borran. Google ha pedido verificar la cuenta para guardar esos cambios."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "actualizado": "2026-11-15T02:56:00+01:00",
+  "analisis": "Punto de partida (15/11/2026, YouTube Studio): 2.734 suscriptores heredados de Customs GT, 216 visualizaciones y 0,6 h vistas en 28 días. Aún sin Shorts de Dana Games.",
+  "canal": {
+    "nombre": "Canal Dana Games (antes Customs GT)",
+    "suscriptores": 2734,
+    "cambioSuscriptores24h": null,
+    "cambioSuscriptores7d": null,
+    "cambioSuscriptores28d": null,
+    "visualizaciones28d": 216,
+    "horasVisualizacion28d": 0.6,
+    "videosPublicados": null,
+    "shortsPublicados": null,
+    "ctrMedio": null,
+    "historial": [
+      {
+        "fecha": "2026-11-15",
+        "suscriptores": 2734,
+        "vistas": 216
+      }
+    ]
+  },
+  "instagram": {
+    "nombre": "Dana Games",
+    "handle": "@kiko.y.pita",
+    "nota": "Se está renombrando a Dana Games",
+    "seguidores": null,
+    "alcance28d": null,
+    "reels": null
+  },
+  "playgama": {
+    "partidas": null,
+    "jugadores": null,
+    "ingresos": null
+  },
+  "canales": [
+    {
+      "id": "youtube",
+      "plataforma": "youtube",
+      "nombre": "Canal Dana Games (antes Customs GT)",
+      "handle": null,
+      "seguidores": 2734,
+      "vistasTotales": null,
+      "vistas7": null,
+      "vistas28": 216,
+      "alcance7": null,
+      "alcance28": null,
+      "tendencia7": null,
+      "tendencia28": null,
+      "serie": [
+        {
+          "fecha": "2026-11-15",
+          "seguidores": 2734,
+          "vistas": 216
+        }
+      ]
+    },
+    {
+      "id": "instagram",
+      "plataforma": "instagram",
+      "nombre": "Dana Games",
+      "handle": "@kiko.y.pita",
+      "nota": "Se está renombrando a Dana Games",
+      "seguidores": null,
+      "vistasTotales": null,
+      "vistas7": null,
+      "vistas28": null,
+      "alcance7": null,
+      "alcance28": null,
+      "tendencia7": null,
+      "tendencia28": null,
+      "serie": []
+    }
+  ],
+  "piezas": [],
+  "juegos": [],
+  "portadas": [],
+  "hashtags": []
+}

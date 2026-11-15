@@ -1,0 +1,89 @@
+{
+  "actualizado": null,
+  "candidatas": [
+    {
+      "nombre": "playables-skills",
+      "repo": "https://github.com/hungify/playables-skills",
+      "area": "publicación",
+      "paraQue": "SDK y certificación Playgama / YouTube Playables",
+      "estado": "descartada",
+      "motivo": "1 estrella y sin LICENSE",
+      "fecha": null
+    },
+    {
+      "nombre": "phaser4-gamedev",
+      "repo": "https://github.com/Yakoub-ai/phaser4-gamedev",
+      "area": "programación",
+      "paraQue": "Patrones TypeScript avanzados",
+      "estado": "descartada",
+      "motivo": "Sin LICENSE",
+      "fecha": null
+    },
+    {
+      "nombre": "phaser-skills",
+      "repo": "https://github.com/weberwang/phaser-skills",
+      "area": "programación",
+      "paraQue": "Skills de Phaser",
+      "estado": "descartada",
+      "motivo": "Enfocada a AppLovin/Capacitor",
+      "fecha": null
+    },
+    {
+      "nombre": "maximizing-game-feel",
+      "repo": "https://github.com/abagames/agentic-gamedev-skills",
+      "area": "arte",
+      "paraQue": "Sensación de juego",
+      "estado": "descartada",
+      "motivo": "Peor que game-feel",
+      "fecha": null
+    }
+  ],
+  "huecos": [
+    {
+      "area": "publicación",
+      "necesidad": "SDK y certificación Playgama / YouTube Playables",
+      "estado": "abierto",
+      "nota": "hungify/playables-skills descartada: 1 estrella y sin LICENSE"
+    },
+    {
+      "area": "analítica",
+      "necesidad": "Analítica D1/D7 y telemetría",
+      "estado": "abierto",
+      "nota": null
+    },
+    {
+      "area": "accesibilidad",
+      "necesidad": "Accesibilidad (WCAG, daltonismo)",
+      "estado": "abierto",
+      "nota": null
+    },
+    {
+      "area": "arte",
+      "necesidad": "Animación esquelética Spine / sprites 3D a 2D",
+      "estado": "abierto",
+      "nota": null
+    },
+    {
+      "area": "programación",
+      "necesidad": "Patrones TypeScript avanzados",
+      "estado": "abierto",
+      "nota": "Yakoub-ai/phaser4-gamedev descartada: sin LICENSE"
+    }
+  ],
+  "mejoras": [
+    {
+      "titulo": "Etiquetar las skills de Phaser como programación",
+      "detalle": "Las skills de Phaser del catálogo deben quedar en el área de programación.",
+      "impacto": null,
+      "estado": "propuesta",
+      "fecha": null
+    },
+    {
+      "titulo": "Generar arte propio cuando Fal/Krea no tengan saldo",
+      "detalle": "Si Fal o Krea no tienen saldo, el estudio genera el arte por su cuenta.",
+      "impacto": null,
+      "estado": "propuesta",
+      "fecha": null
+    }
+  ]
+}
