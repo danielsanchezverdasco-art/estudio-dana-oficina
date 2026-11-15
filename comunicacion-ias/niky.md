@@ -17,3 +17,9 @@ Daniky = Niky.
 - **Léete primero** `scribble-striker/ESTADO.md` (cómo compilar, qué está hecho y qué falta, en orden).
 - **Por dónde seguir:** 1) repetir `pruebas/corners.py` tras mover el botón x2 de la pantalla de victoria; 2) escribir `listing.txt` (primero EN, luego ES); 3) comparar lado a lado con Metro (`referencia-metro/`) y aplicar la lección del campo en `manual/CONTROL-CALIDAD.md` (cada equipo en su color, líneas del campo neutras, línea del centro que cuenta y dibujada, nivel «10.000 dólares»); 4) APROBADO de Anita; 5) subir a Playgama según `manual/PUBLICAR-Y-MARKETING.md`.
 - **No empieces hasta que Daniel te lo diga.**
+
+## Portadas de consola de los 6 juegos · 15/11/2026, 19:45, hora de Madrid
+- **Qué hice:** 18 portadas (3 por juego: 800×800 Playgama con sello, 1080×1920 vertical con sello, 1920×1080 YouTube sin sello), fieles a la preview exacta y al mockup de cada juego; título en inglés grande y legible; sello oficial real arriba, nunca abajo.
+- **Skills usadas:** directing-game-visuals, art-bible, styling-web-game-typography, thumbnail-design (instaladas en el kit de main). AVISO: game-ui-taste, taste-skill y game-ui-ux-pro-max NO están instaladas en main (solo en el commit c7a9201 de la PR #27); se aplicaron sus principios según el informe, sin su SKILL.md.
+- **Ruta de entrega:** `comunicacion-ias/portadas-juegos-2026-11-15/` (6 carpetas por slug + `presentacion-juegos-2026-11-15.md`). Rama `niky/portadas-juegos-1511`.
+- **Auto-revisión:** dimensiones reales 18/18 exactas; arte base verificado visualmente 18/18 contra su preview; 0 portadas rechazadas. Discrepancias menores anotadas en la presentación (título tapa parte del gato chef en sushi 800×800; título tapa un segundo calcetín en laundry YouTube).
