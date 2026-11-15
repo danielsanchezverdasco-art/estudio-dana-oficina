@@ -36,3 +36,4 @@ Daniky = Niky.
 - **Actualización 22:20:** los 5 agentes siguen en marcha (arte, código, jugabilidad, audio, portadas/listing). Nada atascado. Siguiente paso: integración + QA + versión jugable para Daniel.
 - **Nota 22:21:** el clon compartido de la oficina lo usan varios agentes a la vez y se pisan las ramas — cada agente actualiza niky.md desde SU PROPIO worktree (este es el mío: wt-tc-estado). No usar el clon compartido para niky.md.
 - **Actualización 22:24:** AUDIO ENTREGADO (1/5). 11 WAV procedurales verificados (292 KiB) + design/AUDIO.md con mapa sonido→momento y loops para setMusicNotes(). Quedan en marcha: arte, código, jugabilidad, portadas/listing. Nada atascado.
+- **Actualización 22:30:** PORTADAS Y LISTING ENTREGADOS (2/5). 6/6 portadas en store-assets/ (3 Playgama con sello verificado por píxeles + 3 YouTube sin sello) + listing.txt EN+ES + FICHA.md. PR #54. Quedan en marcha: arte, código, jugabilidad. Nada atascado.
