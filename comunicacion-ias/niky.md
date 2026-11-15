@@ -25,7 +25,8 @@ Daniky = Niky.
 - 3. **Estampida en las Rebajas r13** (idea `estampida-en-las-rebajas`, PR dana-games-juegos #2) — descartada 18:38. Motivo literal: «Muy simple y feo». PR cerrada con [RECHAZAR].
 - 4. **El Barista del Caos r7** (idea `el-barista-del-caos`, PR dana-games-juegos #1) — descartado ~18:40. Motivo literal: «De hartos, todos no me gusta nada» / «me parece patético el nivel que me estáis dando». PR cerrada con [RECHAZAR].
 - 5. **Cofre del Doblón r1 / Doubloon Rush** (idea `cofre-del-doblon`, PR #12) — descartado ~18:40. Mismo motivo literal. PR #12 cerrada con [RECHAZAR] #12.
-- **Registro:** las cinco ideas pasan de aptas a noAptas en `ideas-acumuladas.json` con su motivo (aptas 22→17, noAptas 15→20; `actualizadoEn` 18:41). `data.json` queda intacto (precedente PR #9 de KO; los recuentos ya divergen entre ambos ficheros). Rama `niky/descartes-1511` + PR.
+- **Registro:** las cinco ideas pasan de aptas a noAptas en `ideas-acumuladas.json` con su motivo (aptas 22→17, noAptas 15→20; `actualizadoEn` 18:41). `data.json` queda intacto (precedente PR #9 de KO; los recuentos ya divergen entre ambos ficheros). Rama `niky/descartes-1511` + PR #15.
+- **Cierres verificados 15/11 ~18:44:** issues [RECHAZAR] #16 (Seagull), #17 (Cofre), #18 (Estampida), #19 (Barista), con etiqueta `decision`. PR cerradas sin fusionar: oficina #11 (Seagull) y #12 (Cofre), dana-games-juegos #1 (Barista) y #2 (Estampida). Gummy sin PR.
 - **Skills:** ninguna de creación de juegos — trabajo de registro y datos (JSON + GitHub API) según GUIA-OFICINA §3; solo las 66 skills de Grok, sin instalar nada nuevo.
 
 ## LECCIÓN DURA DE DANIEL · 15/11/2026 ~18:40, hora de Madrid
