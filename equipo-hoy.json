@@ -1,20 +1,38 @@
 {
   "fecha": "2026-11-15",
-  "actualizado": "2026-11-15T04:12:00+01:00",
+  "actualizado": "2026-11-15T08:08:00+01:00",
   "areas": {
     "oficina": {
       "nombre": "Oficina",
       "rol": "Oficina",
       "estado": "Publicada",
-      "hoy": ["Nueva versión de la oficina publicada en GitHub Pages."],
-      "resumen": "La oficina está publicada en GitHub Pages.",
-      "fuente": "Informe del Director 15/11/2026"
+      "hoy": [
+        {
+          "texto": "Nueva versión de la oficina publicada en GitHub Pages.",
+          "fecha": "2026-11-15"
+        },
+        {
+          "texto": "Datos 15/11 publicados: 37 ideas (5 nuevas) y 56 skills.",
+          "fecha": "2026-11-15"
+        },
+        {
+          "texto": "v14: marcas de ideas nuevas, letrero de estadísticas y caché de GitHub.",
+          "fecha": "2026-11-15"
+        }
+      ],
+      "resumen": "La oficina está publicada en GitHub Pages con los datos del 15/11: 37 ideas y 56 skills.",
+      "fuente": "Informe del Director 15/11/2026 · Oficina y Datos"
     },
     "youtube": {
       "nombre": "YouTube y Shorts",
       "rol": "YouTube y Shorts",
       "estado": null,
-      "hoy": ["215 vídeos antiguos puestos en privado."],
+      "hoy": [
+        {
+          "texto": "215 vídeos antiguos puestos en privado.",
+          "fecha": "2026-11-15"
+        }
+      ],
       "resumen": "215 vídeos antiguos del canal quedaron en privado.",
       "fuente": "Informe del Director 15/11/2026"
     },
@@ -23,8 +41,14 @@
       "rol": "Arte y Calidad",
       "estado": "En arreglos",
       "hoy": [
-        "Estampida r10 rechazada.",
-        "Mudanza y Metro r7 en arreglos."
+        {
+          "texto": "Estampida r10 rechazada.",
+          "fecha": "2026-11-15"
+        },
+        {
+          "texto": "Mudanza y Metro r7 en arreglos.",
+          "fecha": "2026-11-15"
+        }
       ],
       "resumen": "Estampida r10 no pasó. Mudanza y Metro siguen en arreglos, en la r7.",
       "fuente": "Informe del Director 15/11/2026"
@@ -34,8 +58,14 @@
       "rol": "Publicación Playgama",
       "estado": "Nada subido",
       "hoy": [
-        "Checklist de Playgama lista.",
-        "Nada subido todavía."
+        {
+          "texto": "Checklist de Playgama lista.",
+          "fecha": "2026-11-15"
+        },
+        {
+          "texto": "Nada subido todavía.",
+          "fecha": "2026-11-15"
+        }
       ],
       "resumen": "La checklist de Playgama está lista y todavía no hay nada subido.",
       "fuente": "Informe del Director 15/11/2026"
@@ -43,29 +73,32 @@
     "direccion": {
       "nombre": "Dirección",
       "rol": "Dirección",
-      "estado": "En curso",
-      "hoy": [
-        "Meta del estudio: ganar 2.500 € al mes con los juegos (Playgama y YouTube Playables).",
-        "Mantener el ritmo de dos juegos nuevos al día."
-      ],
-      "resumen": "Esos dos planes de hoy siguen en curso.",
-      "fuente": "planes.json · 15/11/2026"
+      "estado": null,
+      "hoy": [],
+      "resumen": null,
+      "fuente": null
     },
     "diseno": {
       "nombre": "Diseño",
       "rol": "Diseño de juego",
-      "estado": "En revisión de calidad",
-      "hoy": ["Terminar El Barista del Caos y sacarlo del filtro de calidad."],
-      "resumen": "El plan de hoy de El Barista del Caos está en revisión de calidad.",
-      "fuente": "planes.json · 15/11/2026"
+      "estado": null,
+      "hoy": [],
+      "resumen": null,
+      "fuente": null
     },
     "skills": {
       "nombre": "Skills",
       "rol": "Skills",
       "estado": null,
       "hoy": [
-        "Nueva planta y sección de Skills, con el listado que usa el estudio.",
-        "Revisión semanal de skills los lunes a las 8:00."
+        {
+          "texto": "Nueva planta y sección de Skills, con el listado que usa el estudio.",
+          "fecha": "2026-11-15"
+        },
+        {
+          "texto": "Revisión semanal de skills los lunes a las 8:00.",
+          "fecha": "2026-11-15"
+        }
       ],
       "resumen": "La planta Skills lista el catálogo. La revisión queda los lunes a las 8:00.",
       "fuente": "cambios.json · 15/11/2026"
@@ -74,7 +107,12 @@
       "nombre": "Caza de talento",
       "rol": "Caza de talento",
       "estado": null,
-      "hoy": ["Nueva planta «Caza de talento» y barra de la meta de 2.500 €/mes."],
+      "hoy": [
+        {
+          "texto": "Nueva planta «Caza de talento» y barra de la meta de 2.500 €/mes.",
+          "fecha": "2026-11-15"
+        }
+      ],
       "resumen": "La planta de caza de talento queda publicada hoy.",
       "fuente": "cambios.json · 15/11/2026"
     },
