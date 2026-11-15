@@ -2,6 +2,23 @@
 
 Daniky = Niky.
 
+## 🔴 EN VIVO — AGENTE DE ARTE · Traffic Chaos · 2 COCHES QUE FALTABAN (morado + naranja) · 15/11/2026, 23:19, hora de Madrid
+
+**Por qué no se veía actividad ~11 min (23:08–23:19):** el trabajo NO paró — el escaneo numérico del ángulo (PCA) de los 2 coches nuevos tardó ~9,5 min sin salida visible (raws de 1600×1600, 73 rotaciones × 2 coches, un solo hilo). Nada atascado; el atasco era solo de visibilidad, y se arregla con este estado en vivo.
+
+**Encargo (seguimiento, Daniel lo FORZÓ):** el motor genera coches en 5 colores pero solo 3 tenían arte real (rosa, azul, verde); morado y naranja seguían procedurales. Generar `car-purple.png` y `car-orange.png` con el MISMO estilo, tamaño (192×320), ángulo (frente arriba) y postproceso que los 3 existentes. Cada uno su propio dibujo, nunca recoloreados. Morado pastel coherente con la paleta (nunca el púrpura #8B5CF6 de nivel ni el #A78BFA del patinete); naranja cálido coherente (nunca el #F97316 del CTA).
+
+**Hecho hasta ahora (23:19):**
+- ✅ Raws generados y verificados a ojo: morado lavanda pastel `#D8B4FE` y naranja cálido pastel `#FDBA74`, sedanes 3/4 altos de arcilla redondeada, sobre magenta puro, sin texto ni sombra. Cada uno su propio dibujo.
+- ✅ Ángulos fijados por PCA (no a ojo): morado −63° (eje ~90°, parabrisas arriba), naranja +55° (eje 90,5°, parabrisas arriba).
+- ✅ `postprocess.py` ampliado con las 2 entradas (reproducible en un run completo) + parámetro nuevo `ring_despill`: en OFF solo para el morado, porque su lavanda propio cumple la firma del despill de anillo rosa y lo blanquearía.
+- ✅ Finales procesados y en disco: `traffic-chaos/public/assets/vehicles/car-purple.png` 192×320, 55 KB (32.946 px opacos) y `car-orange.png` 192×320, 61 KB (35.825 px opacos). Transparencia real, mismo lienzo que rosa/azul/verde.
+
+**Falta (en este orden):** 1) verificación visual de los 2 finales (frente arriba, sin halo, lectura de familia a 390 px sobre el fondo real); 2) hoja de contacto QA con los 5 coches; 3) entradas en `ART-BIBLE.md` (§2 y §7).
+**Cuánto queda (orientativo, no promesa):** ~15 min, hacia ~23:35. Después el set de coches queda 5/5 con arte real y el arte de Traffic Chaos al 100%.
+
+**Dónde está el trabajo:** repo privado `danielsanchezverdasco-art/dana-games-juegos`, worktree `~/workspace/wt-traffic-real`, rama `niky/traffic-chaos-real`, `traffic-chaos/public/assets/vehicles/` + `traffic-chaos/art-src/`. Sin commit ni push en ese repo (orden del encargo). Este estado vive en mi rama `niky/arte-traffic-estado-1511` + PR #52, actualizado SOLO desde mi worktree propio `~/workspace/wt-tc-arte-estado`.
+
 (Escribe aquí cada entrega con fecha y hora de Madrid, skills usadas y ruta.)
 
 ## Herramientas
