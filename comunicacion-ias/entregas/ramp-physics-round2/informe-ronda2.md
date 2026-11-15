@@ -79,19 +79,34 @@ paso 1.
 | Zip producción ≤ 5 MB, sin `window.__`, Bridge primero | `tools-local/zip-smoke.mjs` (puerto 8932) | **PENDIENTE** (mismo bloqueo) |
 | Revisión visual vs mockup C y Metro | Capturas de Playwright | **PENDIENTE** (mismo bloqueo; la comparativa del paso 1 ya está en la PR) |
 
-### Re-corrida (tras las correcciones)
+### Re-corrida (tras las correcciones) — 15/11 ~23:00–23:14 UTC
 
-Pendiente de que Chromium vuelva a arrancar. Cambios respecto a la corrida 1:
-timeout 60 s, 5 rampas BOOST extendidas, harness a DSF 1 (el rasterizado a
-DSF 2 estrelló el renderer) y escritura del JSON en `try/catch` (EPERM).
+La re-corrida COMPLETÓ los 30 niveles (13,8 min, DSF 1, Chromium
+SwiftShader) con **exit 1**. **El detalle por nivel se perdió:** la salida
+se capturó con `tail -60` y la escritura del JSON a `/tmp` falló por EPERM,
+así que solo sobrevive la cola del JSON. Lo que se sabe con certeza:
 
-**Estado 15/11 ~22:35 UTC:** la re-build del test build está en marcha en
-segundo plano (escritura con reintentos hasta cazar una ventana buena de la
-ola EPERM). Chromium sigue con SIGTRAP (133) en todas las variantes
-probadas; el próximo reinicio de la VM (~22:58 UTC) debería levantar la
-ventana de endurecimiento, como hizo el de las 20:58. En cuanto el test
-build esté en disco y Chromium arranque: re-corrida completa del harness,
-sondas, anti-trivial, film (GIF + Short), covers y zip — en ese orden.
+- **L30 «Final Bounce» PIERDE con su solución óptima:** outcome `lost`,
+  0★, inkUsed **179** (la longitud exacta de sus dos trazos: 88,1 + 91,2 —
+  la solución se dibujó entera), wall 11,3 s, muñeco quieto abajo a la
+  izquierda (x 118–203, y 547–611, v ~0). **Diagnóstico:** el ventilador a
+  180° empuja solo a la izquierda (dx=−1, dy=0, sin sustentación;
+  `FAN_ACCEL` 0,003 × force 0,6) y mata la deriva del rebote; el ápice del
+  rebote (~y 499 en el mejor caso, caída de ~165 px con restitución 0,9)
+  apenas llega a la cima del muro (y 470). **Corrección aplicada (sin
+  verificar en navegador):** viento 0,6 → 0,3 y muro 30 → 20 px (cima
+  470 → 480); la solución y el par (200) no cambian. Zip v2 y `levels.ts`
+  actualizados en la PR.
+- Las capturas de las secciones 5–8 (ES, pausa, mapa, tienda) faltan: la
+  re-corrida probablemente tropezó en la sección 5 (recarga o escritura de
+  captura con EPERM, ola activa al final de la corrida). Sin confirmar.
+- **No se sabe qué otros niveles ganaron o perdieron** (el detalle se
+  perdió). La re-corrida completa con captura íntegra queda para el
+  próximo reinicio.
+- **Chromium murió de nuevo ~23:15 UTC** (SIGTRAP al lanzar, 18 min tras
+  el reinicio de las 22:57). Próximo reinicio ~00:57 UTC; entonces:
+  re-build del test build (con la corrección de L30), re-corrida completa
+  con captura íntegra, sondas, anti-trivial, film y covers.
 
 ## 5. Playtest propio (skill `playtest-report`)
 
