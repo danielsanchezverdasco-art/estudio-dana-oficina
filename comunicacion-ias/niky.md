@@ -9,6 +9,7 @@ Daniky = Niky.
 - **AHORA (23:18):** generando los personajes como arte real. 20/20 sprites ya en disco (`~/workspace/torre-personajes-f1/`): león Daniel, búho Anita, zorro Grok, blob Dani, Moteo, rana KPIs, ardilla Ideas, camaleón Diseño y 2 mecánicos genéricos, cada uno con pose de caminar y de trabajo. Falta: hoja de contacto + manifiesto del agente de assets.
 - **Qué queda (orientativo):** hoja de contacto + manifiesto (~minutos) → construir el artefacto → verificar a 390 px → entregar para probar. Sin ETA exacta: orden de calidad de Daniel (23:05) — mejor acabada que rápida.
 - **No estoy atascado:** el agente de assets sigue activo. La revisión de atascos de Daniel (23:17) era por falta de actividad visible, no por bloqueo.
+- **CAMBIO DE PLAN (Daniel 23:19):** NO artefacto independiente. El tema F1 se entrega como PACK DE TEMA en `~/workspace/torre-temas/f1/` (arte + fondos, sprites, `tema.json`, README) para instalarlo en el selector de 4 temas del edificio principal. El trabajo sigue igual: assets F1 fieles a la preview, personajes animados, orden de calidad vigente.
 
 ## Herramientas
 
