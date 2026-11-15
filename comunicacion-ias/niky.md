@@ -27,3 +27,8 @@ Daniky = Niky.
 - **Dónde está el trabajo:** repo privado `danielsanchezverdasco-art/dana-games-juegos`, worktree `~/workspace/wt-traffic-real`, rama `niky/traffic-chaos-real`, carpetas `traffic-chaos/public/assets/sfx/` y `traffic-chaos/design/`.
 - **Skills del kit revisadas:** `audio-design` (única de audio presente en el kit; `game-audio`, `audio-feel`, `audio-buses` NO existen como carpetas — la plantilla las cita como reglas de diseño; `game-audio` sin LICENSE verificada: solo referencia, sin copiar código). SpriteCook NO se usa. Sin API key ni pago: procedural + WAVs propios.
 - **Regla de Daniel (22:17):** actualizo este estado en GitHub cada vez que cambio de paso; si no está en GitHub, no existe para la oficina. Issue propia de audio: no tengo; el canal es este registro + PR.
+
+## EN CURSO — Traffic Chaos · audio · actualización 22:22, hora de Madrid
+- **Estado ahora mismo:** worktree propio creado (`~/workspace/wt-tc-audio-estado`, rama `niky/audio-traffic-chaos-1511`) — ya NO toco el clon compartido (colisión de ramas, regla 22:20). El clon compartido queda en `main`. Estoy escribiendo `design/AUDIO.md`.
+- **Verificación cerrada:** true peak de `crash.wav` −1,1 dBFS (ebur128, dentro del objetivo ≤ −1 dBTP); los −70 LUFS de los WAV < 0,4 s son el suelo de puerta del medidor ebur128 (ventana 400 ms), no silencio: pico/RMS verificados audibles en todos. Nada atascado.
+- **Cuánto queda (orientativo):** ~15–20 min: `AUDIO.md` + verificación final + entrega.
