@@ -7,8 +7,8 @@
     <meta name="description" content="La oficina de Dana Games: recorre el estudio de Daniel, planta por planta." />
     <title>Oficina Dana Games</title>
     <link rel="icon" type="image/png" href="favicon.png" />
-    <script type="module" crossorigin src="/estudio-dana-oficina/assets/index-DhOd4c5m.js"></script>
-    <link rel="stylesheet" crossorigin href="/estudio-dana-oficina/assets/index-BDEf8YDN.css">
+    <script type="module" crossorigin src="/estudio-dana-oficina/assets/index-Ca4YWXDi.js"></script>
+    <link rel="stylesheet" crossorigin href="/estudio-dana-oficina/assets/index-BAV2h6IG.css">
   </head>
   <body>
     <div id="game"></div>
@@ -28,6 +28,15 @@
     </header>
     <div id="banner" hidden><img id="banner-art" alt="" /><span id="banner-text"></span></div>
     <div id="badges"></div>
+    <div id="floor-signs"></div>
+    <nav id="command-bar" aria-label="Centro de mando"></nav>
+    <section id="sheet" hidden aria-labelledby="sheet-title">
+      <header>
+        <h2 id="sheet-title">Planta</h2>
+        <button id="sheet-x" type="button" aria-label="Cerrar">×</button>
+      </header>
+      <div id="sheet-body"></div>
+    </section>
     <nav id="minimap" hidden aria-label="Plantas del estudio"></nav>
     <div id="prompt" hidden></div>
     <div id="hint" hidden>
@@ -69,6 +78,10 @@
       <img id="boot-mascot" alt="" />
       <p>Abriendo el estudio…</p>
       <div id="boot-bar" aria-hidden="true"><span id="boot-bar-fill"></span></div>
+    </div>
+    <div id="lightbox" hidden>
+      <button id="lightbox-x" type="button" aria-label="Cerrar">×</button>
+      <div id="lightbox-strip"></div>
     </div>
     <div id="error" hidden role="alert">
       <img id="boot-mascot-error" alt="" />

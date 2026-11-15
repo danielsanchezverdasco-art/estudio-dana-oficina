@@ -1,0 +1,741 @@
+{
+  "aptas": [
+    {
+      "id": "mudanza-extrema",
+      "titulo": "Mudanza Extrema",
+      "motivo": "en-cola-sin-metricas",
+      "nota": null,
+      "facturacion": null,
+      "partidas": null,
+      "ingresosPorMilPartidas": null,
+      "vistas": null,
+      "enCola": true,
+      "genero": "Puzle de colocar"
+    },
+    {
+      "id": "el-barista-del-caos",
+      "titulo": "El Barista del Caos",
+      "motivo": "en-cola-sin-metricas",
+      "nota": null,
+      "facturacion": null,
+      "partidas": null,
+      "ingresosPorMilPartidas": null,
+      "vistas": null,
+      "enCola": true,
+      "genero": "Gestión / tiempo"
+    },
+    {
+      "id": "estampida-en-las-rebajas",
+      "titulo": "Estampida en las Rebajas",
+      "tituloEN": "Sale Stampede: Shopper Escape",
+      "genero": "Puzle de flechas (escape)",
+      "gancho": "Toca a cada comprador para que salga corriendo hacia su flecha; si choca, vuelan las bolsas.",
+      "porQueFunciona": "Las flechas son el puzle viral de 2026: n.º 4 en descargas mundiales y en tendencia en Playgama. Vive de anuncios, como nosotros.",
+      "datos": [
+        {
+          "dato": "Arrows – Puzzle Escape: 4.º juego móvil más descargado del 1.er semestre de 2026 (AppMagic)",
+          "fuente": "https://mobilegamer.biz/2026s-top-10-mobile-game-downloads-so-far-free-fire-max-block-blast-roblox-arrows-more/"
+        },
+        {
+          "dato": "Arrows: más de 4 M de usuarios diarios y unos 250.000 $/día en anuncios",
+          "fuente": "https://www.gamigion.com/arrows-puzzle-escape-by-lessmore-is-rocking/"
+        },
+        {
+          "dato": "Arrow Puzzle: n.º 2 en tendencias de Playgama (noviembre de 2026)",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        },
+        {
+          "dato": "Sin temporizador ni límite de movimientos: 3 vidas por nivel",
+          "fuente": "https://www.gamigion.com/arrows-puzzle-escape-by-lessmore-is-rocking/"
+        }
+      ],
+      "competencia": "alta: hay 30 apps de flechas y 49 juegos de flechas en Playgama. Lo diferencia el tema de rebajas y el choque cómico.",
+      "potencialViral": 5,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles infinitos generados por código; partidas de 30-90 s encadenadas. Tiempo real: sin dato. Sin temporizador, así se juega más tiempo.",
+      "elegida": true
+    },
+    {
+      "id": "cinta-sushi-glotona",
+      "titulo": "Cinta de Sushi Glotona",
+      "tituloEN": "Sushi Belt Frenzy",
+      "genero": "Puzle de cinta (flow)",
+      "gancho": "Pon en cola gatos glotones que se comen por colores un mosaico de sushi que pasa por la cinta.",
+      "porQueFunciona": "Las mecánicas «flow» de cinta son lo que más factura en hybridcasual (Pixel Flow!).",
+      "datos": [
+        {
+          "dato": "Pixel Flow!: n.º 1 de los puzles hybridcasual con 31,3 M$; 6 de los 10 primeros son de tipo flow o cinta",
+          "fuente": "https://appmagic.rocks/research/Hybridcasual-Puzzles-Q32026"
+        },
+        {
+          "dato": "Scopely compró la mayoría de Loom Games (Pixel Flow!)",
+          "fuente": "https://www.scopely.com/en/news/scopely-to-acquire-majority-stake-in-breakout-mobile-game-pixel-flow-and-the-development-team-behind-it"
+        },
+        {
+          "dato": "Las cintas transportadoras siguen ganando fuerza en 2026",
+          "fuente": "https://friendlygamedev.com/blog/state-of-hybrid-casual-puzzles/"
+        }
+      ],
+      "competencia": "media: lleno en móvil, todavía poco en web. Ningún «flow» en el top 50 de Playables.",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles infinitos generados por código; partidas de 30-90 s encadenadas. Tiempo real: sin dato.",
+      "elegida": false
+    },
+    {
+      "id": "salva-el-bocata",
+      "titulo": "¡Que no me roben el bocata!",
+      "tituloEN": "Seagull Attack: Save the Sandwich",
+      "genero": "Dibujar para proteger",
+      "gancho": "Dibuja una línea para proteger tu bocata de una bandada de gaviotas durante 10 segundos.",
+      "porQueFunciona": "Es la mecánica de Save The Pets, muy jugada en Playables, con un tema playero y gracioso.",
+      "datos": [
+        {
+          "dato": "Save The Pets: 40 M de partidas en YouTube Playables",
+          "fuente": "https://playables.games/best/"
+        },
+        {
+          "dato": "DOP 4 (dibujar una parte): 41 M de partidas",
+          "fuente": "https://playables.games/best/"
+        }
+      ],
+      "competencia": "media: el clon de mascotas abunda; el tema de gaviotas y bocata es nuevo.",
+      "potencialViral": 5,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles de 10 s con estrellas y reintento. Tiempo real: sin dato.",
+      "elegida": false
+    },
+    {
+      "id": "brazo-largo-abuela",
+      "titulo": "El Brazo Largo de la Abuela",
+      "tituloEN": "Grandma's Long Arm",
+      "genero": "Puzle de dibujar ruta",
+      "gancho": "Traza el camino del brazo de la abuela para robar galletas sin tocar perros ni láseres.",
+      "porQueFunciona": "Thief Puzzle está entre los más jugados de Playables y de CrazyGames.",
+      "datos": [
+        {
+          "dato": "Thief Puzzle: 95 M de partidas en Playables (top 7)",
+          "fuente": "https://playables.games/best/"
+        },
+        {
+          "dato": "Thief Puzzle: 1,07 M de votos en CrazyGames",
+          "fuente": "https://www.statkraken.com/platform/crazygames"
+        }
+      ],
+      "competencia": "media-alta: el líder es muy fuerte; la abuela da otro tono.",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "30 niveles hechos a mano más un reto diario. Tiempo real: sin dato.",
+      "elegida": false
+    },
+    {
+      "id": "quien-es-el-robot",
+      "titulo": "¿Quién es el Robot?",
+      "tituloEN": "Spot the Robot",
+      "genero": "Encontrar al impostor",
+      "gancho": "Revisa a la gente del andén con el escáner y pilla al robot infiltrado antes de que escape.",
+      "porQueFunciona": "«Encuentra al alien o vampiro» funciona muy bien en Playables y en Playgama.",
+      "datos": [
+        {
+          "dato": "Find the Alien: 54 M de partidas en Playables",
+          "fuente": "https://playables.games/best/"
+        },
+        {
+          "dato": "Find the Vampire (Playgama): 17 M de partidas",
+          "fuente": "https://playables.games/publishers/playgama/"
+        }
+      ],
+      "competencia": "media: el formato está probado, pero hay pocos clones.",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Las multitudes se generan con pistas al azar; niveles infinitos. Tiempo real: sin dato.",
+      "elegida": false
+    },
+    {
+      "id": "agujero-tragon-cocina",
+      "titulo": "Agujero Tragón en la Cocina",
+      "tituloEN": "Kitchen Hole Muncher",
+      "genero": "Comer y crecer",
+      "gancho": "Un agujero que se traga la cocina entera, de las migas a la nevera, antes de que vuelva mamá.",
+      "porQueFunciona": "Hole.io y Attack Hole demuestran que la mecánica tiene tirón; «Eat & Grow» va al alza.",
+      "datos": [
+        {
+          "dato": "Hole.io: 76 M de partidas en Playables",
+          "fuente": "https://playables.games/best/"
+        },
+        {
+          "dato": "Attack Hole (HOMA) está en el top de puzles de ordenar y bloques",
+          "fuente": "https://www.appaloma.com/research/puzzle-sorting-games"
+        },
+        {
+          "dato": "Azur Games: subida de «Eat & Grow» en 2026",
+          "fuente": "https://azurgames.com/blog/hypercasual-and-hybrid-casual-in-2026-full-report/"
+        }
+      ],
+      "competencia": "alta en 3D; media en 2D vista cenital.",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles de 60 s con mejoras de tamaño. Tiempo real: sin dato.",
+      "elegida": false
+    },
+    {
+      "id": "colada-caotica",
+      "titulo": "Colada Caótica",
+      "tituloEN": "Laundry Chaos Sort",
+      "genero": "Puzle de ordenar",
+      "gancho": "Ordena calcetines desparejados en cestos por color; cuando completas un cesto, sale volando de la lavadora.",
+      "porQueFunciona": "Ordenar es el subgénero que más crece: los ingresos se multiplicaron por más de 3 en un año.",
+      "datos": [
+        {
+          "dato": "Los «sort puzzle» triplicaron ingresos frente a 2025",
+          "fuente": "https://appmagic.rocks/research/casual-report-H12026?hl=en"
+        },
+        {
+          "dato": "Goods Puzzle: Sort Challenge: 25 M de partidas en Playables",
+          "fuente": "https://playables.games/best/"
+        },
+        {
+          "dato": "Nuts Puzzle: Sort By Color, en tendencias de Playgama",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        }
+      ],
+      "competencia": "alta: muchos clones; la colada es un tema poco visto.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles infinitos generados por código; partidas de 30-90 s encadenadas. Tiempo real: sin dato.",
+      "elegida": false
+    },
+    {
+      "id": "cuchillo-saltarin",
+      "titulo": "Cuchillo Saltarín",
+      "tituloEN": "Flip Knife Chef",
+      "genero": "Arcade de cortar",
+      "gancho": "Un toque y el cuchillo da una voltereta, cortando verduras en rodajas con un sonido satisfactorio.",
+      "porQueFunciona": "Slice It All y Slice Master tienen millones de partidas y votos.",
+      "datos": [
+        {
+          "dato": "Slice It All!: 26 M de partidas en Playables",
+          "fuente": "https://playables.games/best/"
+        },
+        {
+          "dato": "Slice Master: 1,31 M de votos en CrazyGames",
+          "fuente": "https://www.statkraken.com/platform/crazygames"
+        },
+        {
+          "dato": "Fork N Sausage: 42 M de partidas en Playables",
+          "fuente": "https://playables.games/best/"
+        }
+      ],
+      "competencia": "media-alta.",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles de 20-40 s con multiplicador final. Tiempo real: sin dato.",
+      "elegida": false
+    },
+    {
+      "id": "puente-del-repartidor",
+      "titulo": "Dibuja el Puente del Repartidor",
+      "tituloEN": "Draw Bridge Delivery",
+      "genero": "Dibujar con física",
+      "gancho": "Dibuja un puente para que la moto del repartidor llegue con la pizza entera.",
+      "porQueFunciona": "Draw Bridge es uno de los juegos de Playgama más jugados en YouTube.",
+      "datos": [
+        {
+          "dato": "Draw Bridge — Brain Game: 27 M de partidas (top 3 de Playgama)",
+          "fuente": "https://playables.games/publishers/playgama/"
+        },
+        {
+          "dato": "Draw Crash Race: 968 K de partidas en 7 días",
+          "fuente": "https://playgama.com/blog/main/5-5m-plays-in-7-days-five-playgama-games-that-took-off-on-youtube-playables/"
+        }
+      ],
+      "competencia": "media.",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles cortos con estrellas por tinta usada. Tiempo real: sin dato.",
+      "elegida": false
+    },
+    {
+      "id": "borra-la-mentira",
+      "titulo": "Borra la Mentira",
+      "tituloEN": "Erase the Lie",
+      "genero": "Borrar una parte",
+      "gancho": "Frota con el dedo para borrar una parte del dibujo y destapar la verdad graciosa.",
+      "porQueFunciona": "La saga DOP está entre las más jugadas de Playables.",
+      "datos": [
+        {
+          "dato": "DOP 4: 41 M y DOP 2: 36 M de partidas en Playables",
+          "fuente": "https://playables.games/best/"
+        }
+      ],
+      "competencia": "media-alta: DOP domina.",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Unos 30 niveles hechos a mano; mucho arte por nivel. Tiempo real: sin dato.",
+      "elegida": false
+    },
+    {
+      "id": "churreria-idle",
+      "titulo": "Churrería Idle",
+      "tituloEN": "Churro Tycoon",
+      "genero": "Gestión idle",
+      "gancho": "Monta una churrería de feria, contrata churreros y mira cómo se llena la cola sola.",
+      "porQueFunciona": "Las tiendas idle tienen decenas de millones de partidas en Playables y en Poki.",
+      "datos": [
+        {
+          "dato": "My Mini Mart: 63 M de partidas en Playables",
+          "fuente": "https://playables.games/best/"
+        },
+        {
+          "dato": "My Perfect Hotel: top 8 de Poki con 1,29 M de votos",
+          "fuente": "https://multigamedev.blogspot.com/2025/11/top-10-poki-games-2025.html"
+        },
+        {
+          "dato": "Prison Life: Idle Game: 32 M de partidas",
+          "fuente": "https://playables.games/best/"
+        }
+      ],
+      "competencia": "alta: el idle está maduro (Azur).",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Sesiones largas por naturaleza (progresión sin fin). Tiempo real: sin dato.",
+      "elegida": false
+    },
+    {
+      "id": "desfile-expres",
+      "titulo": "Desfile Exprés",
+      "tituloEN": "Runway Rush Battle",
+      "genero": "Vestir y votar",
+      "gancho": "Tienes 20 s para vestir a tu modelo según el tema y el público vota contra un rival.",
+      "porQueFunciona": "Los juegos de vestir tienen las sesiones más largas de la web.",
+      "datos": [
+        {
+          "dato": "Vortella's Dress Up: sesión media de 12 min 40 s y 16 M de partidas al mes",
+          "fuente": "https://poki.com/blog/i-quit-my-job-to-make-a-dress-up-web-game-and-it-blew-up"
+        },
+        {
+          "dato": "SnapStyle Dress Up, entre los juegos con mejores resultados de Poki en 2025",
+          "fuente": "https://poki.com/blog/2025-at-poki-a-year-in-review"
+        },
+        {
+          "dato": "Fashion Battle: 33 M de partidas en Playables",
+          "fuente": "https://playables.games/best/"
+        }
+      ],
+      "competencia": "alta.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Rondas de 20 s; la referencia del género es 12:40 por sesión (Vortella).",
+      "elegida": false
+    },
+    {
+      "id": "trastero-secreto",
+      "titulo": "El Trastero Secreto",
+      "tituloEN": "Messy Attic Secrets",
+      "genero": "Objetos ocultos",
+      "gancho": "Busca 10 objetos en un trastero absurdo antes de que se acabe la linterna.",
+      "porQueFunciona": "Los objetos ocultos copan las tendencias de Playgama.",
+      "datos": [
+        {
+          "dato": "4 de los 20 juegos en tendencia en Playgama (noviembre de 2026) son de objetos ocultos",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        },
+        {
+          "dato": "Hidden Object: My Hotel, en la categoría Popular de Playgama",
+          "fuente": "https://playgama.com/category/popular"
+        }
+      ],
+      "competencia": "media.",
+      "potencialViral": 2,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Escenas largas de 2-4 min, apropiadas para llegar a 5:00. Tiempo real: sin dato.",
+      "elegida": false
+    },
+    {
+      "id": "emoji-parejas-locas",
+      "titulo": "Emoji Parejas Locas",
+      "tituloEN": "Emoji Match Mayhem",
+      "genero": "Unir parejas",
+      "gancho": "Une con líneas cada emoji con su pareja lógica (🐝 con 🍯) en un tablero creciente.",
+      "porQueFunciona": "Emoji Puzzle es uno de los más jugados de Playables y tiene millones de jugadores al mes.",
+      "datos": [
+        {
+          "dato": "Emoji Puzzle: 43 M de partidas en Playables",
+          "fuente": "https://playables.games/best/"
+        },
+        {
+          "dato": "Emoji Puzzle: unos 6,1 M de jugadores al mes (estimación de confianza baja)",
+          "fuente": "https://mobilegamecharts.com/tag/youtube-playables"
+        }
+      ],
+      "competencia": "media.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Cientos de niveles con datos simples. Tiempo real: sin dato.",
+      "elegida": false
+    },
+    {
+      "id": "funda-movil-diy",
+      "titulo": "Funda de Móvil DIY",
+      "tituloEN": "Phone Case DIY Studio",
+      "genero": "Simulación ASMR de crear",
+      "gancho": "Pinta, pega pegatinas y brillantina en una funda y enséñala al cliente exigente.",
+      "porQueFunciona": "Las simulaciones DIY y ASMR son de lo más jugado en Playables.",
+      "datos": [
+        {
+          "dato": "Phone Case DIY: 85 M y Dessert DIY: 97 M de partidas en Playables",
+          "fuente": "https://playables.games/best/"
+        },
+        {
+          "dato": "Skincare Time ASMR: 69 M de partidas",
+          "fuente": "https://playables.games/best/"
+        }
+      ],
+      "competencia": "alta: hay un líder casi idéntico, así que hay que cambiar el producto o el tono.",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Pedidos encadenados con cliente. Tiempo real: sin dato.",
+      "elegida": false
+    },
+    {
+      "id": "gusano-gloton",
+      "titulo": "Gusano Glotón",
+      "tituloEN": "Worm Clash",
+      "genero": "Serpiente contra bots",
+      "gancho": "Tu gusano engorda comiendo gominolas y aplasta a gusanos más pequeños (bots).",
+      "porQueFunciona": "Snake Clash está en el top 3 de Playables.",
+      "datos": [
+        {
+          "dato": "Snake Clash!: 107 M de partidas en Playables (top 3)",
+          "fuente": "https://playables.games/best/"
+        }
+      ],
+      "competencia": "alta.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Partidas de 2-3 min con mejoras. Bots, sin servidores. Tiempo real: sin dato.",
+      "elegida": false
+    },
+    {
+      "id": "muneco-antiestres",
+      "titulo": "Muñeco Antiestrés",
+      "tituloEN": "Stress Dummy Smash",
+      "genero": "Ragdoll de desahogo",
+      "gancho": "Desahógate con un muñeco de trapo usando chanclas, tartas y globos de agua.",
+      "porQueFunciona": "Los ragdolls son lo más jugado de Playgama en YouTube y siguen en tendencia.",
+      "datos": [
+        {
+          "dato": "Epic Sword Battle (ragdoll): 28 M de partidas, n.º 1 de Playgama",
+          "fuente": "https://playables.games/publishers/playgama/"
+        },
+        {
+          "dato": "Annoying Uncle Punch Game: 25 M de partidas",
+          "fuente": "https://playables.games/"
+        },
+        {
+          "dato": "Break The Noob Completely!, en tendencias de Playgama",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        }
+      ],
+      "competencia": "media-alta.",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Riesgo: sesiones cortas si no hay progresión; añadir objetos que se desbloquean. Tiempo real: sin dato.",
+      "elegida": false
+    }
+  ],
+  "noAptas": [
+    {
+      "id": "bloques-infinitos",
+      "titulo": "Bloques Infinitos",
+      "tituloEN": "Endless Blocks",
+      "genero": "Puzle de bloques",
+      "gancho": "Encaja piezas para limpiar líneas.",
+      "porQueFunciona": "Es el subgénero estrella, pero hay demasiados clones.",
+      "datos": [
+        {
+          "dato": "Más de 2.000 juegos de bloques lanzados en el 1.er semestre de 2026 (+89 %)",
+          "fuente": "https://appmagic.rocks/research/casual-report-H12026?hl=en"
+        },
+        {
+          "dato": "Block Blast: 2,65 M de valoraciones; líder desde 2022",
+          "fuente": "https://www.appaloma.com/research/puzzle-sorting-games"
+        }
+      ],
+      "competencia": "alta: saturado.",
+      "potencialViral": 2,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Infinito.",
+      "elegida": false,
+      "motivoRechazo": "Saturado: miles de clones y un líder imbatible; sin gancho nuevo."
+    },
+    {
+      "id": "tornillos-del-taller",
+      "titulo": "Tornillos del Taller",
+      "tituloEN": "Screw Workshop",
+      "genero": "Puzle de tornillos",
+      "gancho": "Desenrosca tornillos por colores.",
+      "porQueFunciona": "Tuvo su auge, pero se está enfriando.",
+      "datos": [
+        {
+          "dato": "El impulso de Sort y Screw se está enfriando (AppMagic)",
+          "fuente": "https://appmagic.rocks/research/casual-report-H12026?hl=en"
+        }
+      ],
+      "competencia": "alta: saturado.",
+      "potencialViral": 2,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles.",
+      "elegida": false,
+      "motivoRechazo": "Saturado y en declive."
+    },
+    {
+      "id": "fusiona-frutas",
+      "titulo": "Fusiona Frutas",
+      "tituloEN": "Fruit Merge Drop",
+      "genero": "Fusión con caída",
+      "gancho": "Suelta frutas iguales para fusionarlas.",
+      "porQueFunciona": "Popular en CrazyGames, pero lleno de clones casi idénticos.",
+      "datos": [
+        {
+          "dato": "Fruit Merge: Juicy Drop, entre los favoritos de CrazyGames",
+          "fuente": "https://www.statkraken.com/platform/crazygames"
+        },
+        {
+          "dato": "Playables no admite juegos «sustancialmente idénticos» a otros",
+          "fuente": "https://developers.google.com/youtube/gaming/playables/certification/requirements_trustsafety"
+        }
+      ],
+      "competencia": "alta.",
+      "potencialViral": 2,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Infinito.",
+      "elegida": false,
+      "motivoRechazo": "Saturado y con riesgo de rechazo por ser casi idéntico a otro."
+    },
+    {
+      "id": "carrera-de-puertas",
+      "titulo": "Carrera de Puertas Gigante",
+      "tituloEN": "Giant Gate Run",
+      "genero": "Runner de puertas",
+      "gancho": "Elige las puertas que te hacen crecer y vence al jefe.",
+      "porQueFunciona": "Es el n.º 1 de Playables.",
+      "datos": [
+        {
+          "dato": "Tall Man Run: 113 M de partidas (n.º 1 de Playables)",
+          "fuente": "https://playables.games/best/"
+        },
+        {
+          "dato": "Count Masters: 1,28 M de votos en CrazyGames",
+          "fuente": "https://www.statkraken.com/platform/crazygames"
+        }
+      ],
+      "competencia": "alta.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": false,
+      "duracionSesion": "Niveles cortos.",
+      "elegida": false,
+      "motivoRechazo": "Necesita 3D para competir y el género está saturado por los grandes."
+    },
+    {
+      "id": "roba-un-brainrot",
+      "titulo": "Roba un Brainrot",
+      "tituloEN": "Steal a Brainrot",
+      "genero": "Obby / robar",
+      "gancho": "Roba personajes meme de las bases rivales.",
+      "porQueFunciona": "Es una tendencia enorme en Roblox y Playgama.",
+      "datos": [
+        {
+          "dato": "Steal a Brainrot: récord de 25,8 M de jugadores simultáneos en Roblox",
+          "fuente": "https://www.guinnessworldrecords.com/world-records/503322-most-concurrent-players-for-a-videogame-made-in-roblox"
+        },
+        {
+          "dato": "Steal an Egg! y Hide n Seek Brainrot, en Playgama",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        }
+      ],
+      "competencia": "alta.",
+      "potencialViral": 5,
+      "hacibleEnUnDia": false,
+      "duracionSesion": "Larga.",
+      "elegida": false,
+      "motivoRechazo": "Personajes de terceros (riesgo de IP), necesita 3D y multijugador."
+    },
+    {
+      "id": "sprunki-ragdoll",
+      "titulo": "Sprunki Ragdoll",
+      "tituloEN": "Sprunki Ragdoll",
+      "genero": "Ragdoll sandbox",
+      "gancho": "Juega con los muñecos Sprunki.",
+      "porQueFunciona": "Está en tendencia en Playgama.",
+      "datos": [
+        {
+          "dato": "Sprunki Sandbox, en tendencias de Playgama",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        },
+        {
+          "dato": "Playables exige derechos de propiedad intelectual totalmente cedidos",
+          "fuente": "https://developers.google.com/youtube/gaming/playables/certification/requirements_trustsafety"
+        }
+      ],
+      "competencia": "alta.",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Media.",
+      "elegida": false,
+      "motivoRechazo": "IP ajena: incumple la norma de propiedad intelectual de Playables."
+    },
+    {
+      "id": "karts-online",
+      "titulo": "Karts Locos Online",
+      "tituloEN": "Crazy Karts Online",
+      "genero": "Carreras multijugador .io",
+      "gancho": "Batallas de karts en tiempo real.",
+      "porQueFunciona": "Smash Karts está en el top de CrazyGames.",
+      "datos": [
+        {
+          "dato": "Smash Karts: 1,95 M de votos en CrazyGames",
+          "fuente": "https://www.statkraken.com/platform/crazygames"
+        }
+      ],
+      "competencia": "alta.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": false,
+      "duracionSesion": "Larga.",
+      "elegida": false,
+      "motivoRechazo": "Multijugador: necesita servidores y 3D; inviable en un día."
+    },
+    {
+      "id": "moto-acrobacias",
+      "titulo": "Moto Acrobacias",
+      "tituloEN": "Stunt Bike Flip",
+      "genero": "Carreras con física",
+      "gancho": "Haz volteretas en moto por circuitos.",
+      "porQueFunciona": "Moto X3M es un clásico popular en Playgama y en Playables.",
+      "datos": [
+        {
+          "dato": "Moto X3M: 6,7 M de partidas en Playables",
+          "fuente": "https://playgama.com/publish-your-game-on-youtube-playables/"
+        },
+        {
+          "dato": "MR RACER Stunt Mania: 19 M de partidas",
+          "fuente": "https://playables.games/publishers/playgama/"
+        }
+      ],
+      "competencia": "alta.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": false,
+      "duracionSesion": "Niveles.",
+      "elegida": false,
+      "motivoRechazo": "Física de vehículos compleja y muchos clones establecidos."
+    },
+    {
+      "id": "choque-destructivo",
+      "titulo": "Choque Destructivo",
+      "tituloEN": "Car Crash Smash",
+      "genero": "Simulador de destrucción",
+      "gancho": "Estrella coches y mira cómo se deforman.",
+      "porQueFunciona": "Arrancó fuerte en Playables.",
+      "datos": [
+        {
+          "dato": "Destructive Car Crash Simulator: 887 K de partidas en 7 días",
+          "fuente": "https://playgama.com/blog/main/5-5m-plays-in-7-days-five-playgama-games-that-took-off-on-youtube-playables/"
+        }
+      ],
+      "competencia": "media.",
+      "potencialViral": 4,
+      "hacibleEnUnDia": false,
+      "duracionSesion": "Media.",
+      "elegida": false,
+      "motivoRechazo": "Necesita 3D con deformación de carrocería; no se hace en un día."
+    },
+    {
+      "id": "solitario-con-premios",
+      "titulo": "Solitario con Premios",
+      "tituloEN": "Prize Solitaire",
+      "genero": "Cartas / torneos",
+      "gancho": "Torneos de solitario con premios.",
+      "porQueFunciona": "Es un nicho rentable en móvil.",
+      "datos": [
+        {
+          "dato": "56 apps de torneos de solitario con depósito",
+          "fuente": "https://www.appaloma.com/research/puzzle-sorting-games"
+        },
+        {
+          "dato": "Playables prohíbe el juego con valor real; los premios solo pueden ser del juego",
+          "fuente": "https://developers.google.com/youtube/gaming/playables/certification/requirements_trustsafety"
+        }
+      ],
+      "competencia": "alta.",
+      "potencialViral": 1,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Media.",
+      "elegida": false,
+      "motivoRechazo": "Riesgo de política: apuestas o premios con valor real."
+    },
+    {
+      "id": "piano-de-hits",
+      "titulo": "Piano de Hits Virales",
+      "tituloEN": "Viral Hits Piano",
+      "genero": "Ritmo",
+      "gancho": "Toca las teclas al ritmo de canciones de moda.",
+      "porQueFunciona": "Magic Tiles 3 está entre los más jugados.",
+      "datos": [
+        {
+          "dato": "Magic Tiles 3: 72 M de partidas en Playables",
+          "fuente": "https://playables.games/best/"
+        },
+        {
+          "dato": "Playables exige derechos musicales",
+          "fuente": "https://developers.google.com/youtube/gaming/playables/certification/requirements_trustsafety"
+        }
+      ],
+      "competencia": "alta.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Larga.",
+      "elegida": false,
+      "motivoRechazo": "Derechos musicales: las canciones de moda tienen licencia."
+    },
+    {
+      "id": "nivel-del-diablo",
+      "titulo": "Nivel del Diablo",
+      "tituloEN": "Devil Level",
+      "genero": "Plataformas de rabia",
+      "gancho": "Plataformas trampa que te trolean.",
+      "porQueFunciona": "Level Devil está en el top de Poki.",
+      "datos": [
+        {
+          "dato": "Level Devil, en el top 10 de Poki (noviembre de 2025)",
+          "fuente": "https://multigamedev.blogspot.com/2025/11/top-10-poki-games-2025.html"
+        }
+      ],
+      "competencia": "media.",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Media.",
+      "elegida": false,
+      "motivoRechazo": "Los controles de precisión no van bien en vertical táctil."
+    },
+    {
+      "id": "explota-burbujas",
+      "titulo": "Explota Burbujas ASMR",
+      "tituloEN": "Bubble Pop ASMR",
+      "genero": "Antiestrés",
+      "gancho": "Explota burbujas de un pop-it sin fin.",
+      "porQueFunciona": "Pop it es muy jugado en Playables.",
+      "datos": [
+        {
+          "dato": "Mini Relaxing Game - pop it: 45 M de partidas",
+          "fuente": "https://playables.games/best/"
+        }
+      ],
+      "competencia": "alta.",
+      "potencialViral": 2,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Corta.",
+      "elegida": false,
+      "motivoRechazo": "Sin progresión ni niveles: no llega a 5:00 por sesión y apenas hay sitio para anuncios."
+    }
+  ]
+}
