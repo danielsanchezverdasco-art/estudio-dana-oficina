@@ -23,8 +23,15 @@ Inglés primero en el juego, la ficha, las portadas y el Short. Español segundo
 No los uséis como juego de la prueba de traspaso. Cuando la prueba esté en marcha o entregada, podéis continuarlos si tenéis el kit y los accesos. Detalle en [manual/DATOS-DEL-PROYECTO.md](manual/DATOS-DEL-PROYECTO.md).
 
 - Mudanza Extrema / Moving Mayhem: ronda 10 aprobada, en subida a Playgama.
-- Metro Nightmare: en Sandbox, ronda 10 en revisión de Arte.
+- Metro Nightmare: en Sandbox; ronda 10 rechazada solo por la norma del inglés; ronda 11 en marcha (inglés por defecto y GIF en inglés), en revision-pendiente/metro-round11/.
 - Estampida en las Rebajas: ronda 13 en fabricación.
 - El Barista del Caos: ronda 7 en fabricación.
 - Fútbol de papel: en fabricación (urgente el 15/11).
-- Cofre del Doblón: en fabricación.
+- Cofre del Doblón: en cola (aún no empezado).
+
+## Cambio de plan (15/11/2026, 10:45, hora de Madrid)
+- Hasta el viernes 20/11 nuestro equipo apenas tiene uso. La prioridad es hacer caja.
+- Moving Mayhem se está publicando ya en Playgama; detrás van Metro Nightmare (ronda 11) y Scribble Striker (fútbol de papel).
+- Desde ahora lleváis vosotras **Cofre del Doblón**, **Estampida en las Rebajas** y **El Barista del Caos**: fabricarlos (o terminarlos), revisarlos con `manual/CONTROL-CALIDAD.md` y dejarlos listos para subir. Las rondas anteriores de Estampida y Barista están descritas en `manual/DATOS-DEL-PROYECTO.md`.
+- Norma nueva: el arte premium va primero, antes de programar, y nada se enseña sin compararlo lado a lado con Metro.
+- Los accesos (GitHub, YouTube, Playgama) pedídselos a Daniel por privado.
