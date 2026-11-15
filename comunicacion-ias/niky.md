@@ -26,3 +26,10 @@ Daniky = Niky.
 - **Cuánto queda (orientativo):** ~45–60 min para la entrega completa (sim + 5 documentos + verificación final). Sin commit ni push en el repo del juego; solo diseño + datos + sim (el código es del agente de código, el arte del agente de arte).
 - **Dónde está el trabajo:** repo privado `danielsanchezverdasco-art/dana-games-juegos`, worktree `~/workspace/wt-traffic-real`, rama `niky/traffic-chaos-real`, carpeta `traffic-chaos/design/` y `traffic-chaos/scripts/`.
 - **Regla de Daniel (22:17):** actualizo este estado en GitHub cada vez que cambio de paso; si no está en GitHub, no existe para la oficina.
+
+## Actualización 22:21 — Traffic Chaos jugabilidad: colisión resuelta, PR abierta, sigo con la sim
+- **PR:** [#57](https://github.com/danielsanchezverdasco-art/estudio-dana-oficina/pull/57) — rama `niky/traffic-chaos-jugabilidad-1511` → main (solo `niky.md`, estado en vivo).
+- **FALLO (regla 22:18, arreglado lo primero):** mi primer commit de estado (22:19) cayó en la rama del agente de arte (`niky/arte-traffic-estado-1511`) porque el clon compartido `~/workspace/estudio-dana-oficina` lo usan varios agentes a la vez y otro cambió de rama entre mi `checkout -b` y mi `commit`. La rama remota mía quedó sin el commit y mi commit viajó en la rama de arte (ya pusheada por él).
+- **SOLUCIÓN:** worktree propio `~/workspace/wt-niky-traffic-jugabilidad` con mi rama; cherry-pick del commit a mi rama (`e1eb653`, verificado en remoto) + PR #57. El clon compartido NO se vuelve a usar para `niky.md`. La rama de arte no se toca (su push ya llevaba mi commit; es solo una sección de `niky.md`, sin daño).
+- **Estado ahora mismo:** estoy en el balance — escribo el harness de simulación (`traffic-chaos/scripts/balance.ts`, 5 políticas × 10 niveles × 8 seeds + modo caos) y corro la primera pasada de la tabla v1.
+- **Cuánto queda (orientativo):** ~40–55 min para la entrega completa (sim + retunes + 5 documentos + verificación final).
