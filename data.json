@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-15T10:55:00+01:00",
+  "updatedAt": "2026-11-15T22:55:00+01:00",
   "kpis": {
     "facturacionTotal": null,
     "facturacionMes": null,
@@ -10,7 +10,7 @@
     "publicadosMeta": 200,
     "shortsPublicados": 0,
     "vistas": null,
-    "enDesarrollo": 2,
+    "enDesarrollo": 3,
     "enCola": 3
   },
   "juegos": [
@@ -46,6 +46,16 @@
       "titulo": "Estampida en las Rebajas",
       "estado": "cola",
       "portada": "cover.estampida",
+      "facturacion": null,
+      "partidas": null,
+      "vistas": null
+    },
+    {
+      "id": "ramp-physics",
+      "titulo": "Ramp Physics",
+      "tituloEN": "Ramp Physics: Ragdoll Crash Test",
+      "estado": "desarrollo",
+      "portada": "cover.ramp-physics",
       "facturacion": null,
       "partidas": null,
       "vistas": null
@@ -840,6 +850,12 @@
       "equipo": "Oficina",
       "tarea": "Publicada en GitHub Pages",
       "estado": "hecho",
+      "desde": null
+    },
+    {
+      "equipo": "Ramp Physics",
+      "tarea": "Ronda 2 entregada por Anita en PR #61 (juego 6 de la cola): juego completo en estilo cómic + pack documental; zip, covers, GIF y Short pendientes de la re-corrida del harness (Chromium bloqueado en la VM). Pendiente de revisión de Niky y APROBADO de Daniel.",
+      "estado": "en curso",
       "desde": null
     }
   ]

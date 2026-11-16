@@ -1,0 +1,93 @@
+RAMP PHYSICS: RAGDOLL CRASH TEST
+================================
+
+TITLE (EN): Ramp Physics: Ragdoll Crash Test
+TITLE (ES): Ramp Physics: Ragdoll Crash Test
+
+SHORT DESCRIPTION (EN):
+Draw the ramp. Launch the dummy. Beat the level with the ink you have.
+A comic-book physics puzzle: sketch steel, bouncy and boost ramps with your
+finger, then watch the ragdoll tumble, bounce and crash into the flag. 30
+hand-built levels, fans, dynamite, portals, coins, chests and a shop — all
+drawn in bold comic style. Easy to learn, hard to master: 3 stars demand the
+perfect line.
+
+SHORT DESCRIPTION (ES):
+Dibuja la rampa. Lanza el muñeco. Supera el nivel con la tinta que tienes.
+Un puzzle de física estilo cómic: dibuja rampas de acero, elásticas e impulso
+con el dedo y mira cómo el muñeco rueda, rebota y se estrella contra la
+bandera. 30 niveles hechos a mano, ventiladores, dinamita, portales, monedas,
+cofres y tienda — todo dibujado en estilo cómic. Fácil de aprender, difícil
+de dominar: las 3 estrellas exigen la línea perfecta.
+
+LONG DESCRIPTION (EN):
+You have ink. You have a dummy. You have a flag on the other side of the gap.
+
+Draw ramps with your finger — steel for speed, bouncy for height, boost for
+the slopes steel cannot climb — and launch the ragdoll. Physics does the
+rest: it tumbles, it bounces, it crashes. If your line is right, it lands on
+the flag. If it is wrong, you draw again.
+
+- 30 hand-built levels, from a gentle first slope to fans, dynamite, portals
+  and the Grand Finale
+- 3 inks, each the right answer somewhere: steel, bouncy, boost
+- Stars that mean something: 3 stars only for the optimal line (par = optimal
+  x 1.10); 2 stars up to par x 1.25; 1 star for reaching the flag
+- Coins off the perfect line: grabbing them costs ink or risk
+- A chest every 3 levels, a shop with 6 skins and Extra Ink
+- Daily level, streaks, level map, English and Spanish
+- Bold comic-book art: thick outlines, halftone dots, speed lines, cream
+  paper — nothing pixelated, everything drawn at real resolution
+- No ads in test builds; ads are placed in the game but never served in tests
+
+LONG DESCRIPTION (ES):
+Tienes tinta. Tienes un muñeco. Tienes una bandera al otro lado del hueco.
+
+Dibuja rampas con el dedo — acero para la velocidad, elástica para la altura,
+impulso para las pendientes que el acero no sube — y lanza el muñeco. La
+física hace el resto: rueda, rebota, se estrella. Si tu línea es buena, cae
+en la bandera. Si no, dibujas otra vez.
+
+- 30 niveles hechos a mano, desde la primera pendiente suave hasta
+  ventiladores, dinamita, portales y la Gran Final
+- 3 tintas, cada una la respuesta correcta en algún sitio: acero, elástica,
+  impulso
+- Estrellas que significan algo: 3 estrellas solo para la línea óptima
+  (par = óptima x 1,10); 2 estrellas hasta par x 1,25; 1 estrella por llegar
+- Monedas fuera de la línea perfecta: cogerlas cuesta tinta o riesgo
+- Un cofre cada 3 niveles, tienda con 6 aspectos y Tinta Extra
+- Nivel diario, rachas, mapa de niveles, inglés y español
+- Arte cómic: contornos gruesos, semitono, líneas de velocidad, papel crema
+- Sin anuncios en las builds de prueba; los anuncios están colocados en el
+  juego pero nunca se sirven en pruebas
+
+TAGS (EN): physics puzzle, draw, ragdoll, crash test, ramp, comic, casual,
+brain game, drawing game, skill
+TAGS (ES): puzzle de física, dibujar, muñeco, rampas, cómic, casual, ingenio
+
+CATEGORY: Puzzle / Casual
+PLAYERS: 1
+AGE: PEGI 3 (no violence, no language, no purchases required to finish)
+LANGUAGES: English (first), Español
+ORIENTATION: Portrait (landscape supported in menu)
+TECH: Phaser 3.90 + TypeScript + Vite, Matter physics, Playgama Bridge 2.4.2
+SAVE: Playgama Bridge storage (persistent across sessions)
+SIZE: <= 5 MB (zip)
+
+HOW TO PLAY (EN):
+1. Draw a ramp with your finger (you have limited ink — the INK bar).
+2. Switch ink: STEEL (fast), BOUNCY (bounces), BOOST (slides on gentle slopes).
+3. Tap LAUNCH! and watch the dummy.
+4. Reach the flag to win. Use less ink than par for 3 stars.
+5. Fans blow the dummy up (from level 6), dynamite blasts it (from level 12),
+   portals teleport it (from level 18). Use them, do not fear them.
+
+HOW TO PLAY (ES):
+1. Dibuja una rampa con el dedo (tienes tinta limitada — la barra INK).
+2. Cambia de tinta: ACERO (rápida), ELÁSTICA (rebota), IMPULSO (desliza en
+   pendientes suaves).
+3. Toca ¡LANZAR! y mira al muñeco.
+4. Llega a la bandera para ganar. Usa menos tinta que el par para 3 estrellas.
+5. Los ventiladores empujan al muñeco (desde el nivel 6), la dinamita lo
+   lanza (desde el 12), los portales lo teletransportan (desde el 18).
+   Úsalos, no les tengas miedo.

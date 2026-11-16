@@ -1,6 +1,6 @@
 {
   "fecha": "2026-11-15",
-  "actualizado": "2026-11-15T10:55:00+01:00",
+  "actualizado": "2026-11-15T22:55:00+01:00",
   "areas": {
     "oficina": {
       "nombre": "Oficina",
@@ -21,6 +21,10 @@
         },
         {
           "texto": "Estados de juegos actualizados: Metro en Sandbox, Mudanza en borrador en Playgama.",
+          "fecha": "2026-11-15"
+        },
+        {
+          "texto": "Ramp Physics ronda 2 entregada por Anita en PR #61: juego completo en estilo cómic + pack documental. Pendiente de revisión de Niky y APROBADO de Daniel.",
           "fecha": "2026-11-15"
         }
       ],
@@ -144,7 +148,12 @@
       "nombre": "Programación",
       "rol": "Programación",
       "estado": null,
-      "hoy": [],
+      "hoy": [
+        {
+          "texto": "Ramp Physics ronda 2 entregada por Anita en PR #61: juego completo en estilo cómic + pack documental. Pendiente de revisión de Niky y APROBADO de Daniel.",
+          "fecha": "2026-11-15"
+        }
+      ],
       "resumen": null,
       "fuente": null
     },
