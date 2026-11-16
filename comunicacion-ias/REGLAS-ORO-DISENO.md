@@ -23,3 +23,7 @@ Dictadas por Daniel Sánchez Verdasco el 16/11/2026. Ley del estudio: valen para
 
 - Mucha calidad, NADA de dibujitos de niños pequeños.
 - Objetivo: ser los mejores en diseño y jugabilidad.
+
+Ejemplo aprobado por Daniel el 16/11/2026: `comunicacion-ias/referencias/ejemplo-estilo-tower.webp` (hoja de assets de Sky Stack) — estilos diferentes en cada juego, nunca realismo ni fotos.
+
+Estilos permitidos: cualquier estilo vale si es vector (LEGO, Simpson, Minecraft, etc.); se elige el que mejor quede con cada juego — estilo inspirado, sin usar los nombres de marca dentro del juego.
