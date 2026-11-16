@@ -20,13 +20,13 @@
   ],
   "in_progress": [
     {
-      "commit": "44ab6d7",
+      "commit": "06b08c2",
       "covers": "icono v3 y banner v4 aprobados por Daniel (sin líneas amarillas)",
       "slug": "scribble-striker",
-      "status": "EN MARCHA — MENÚ exacto desde la foto YA GUARDADO (commit 44ab6d7, 22:17: el menú ES la foto variant-b-menu.png); el agente del menú sigue en marcha (cierre/verificación). CORRECCIÓN DE DANIEL 22:12: en la captura del commit 50ffd31 («sin gradas», 22:09) SIGUEN VIÉNDOSE gradas en los laterales — el veredicto de «sin gradas» era ERRÓNEO; agente nuevo en marcha desde 22:12 corrigiendo los laterales (muro en todo el contorno, sin gradas ni público). Porterías normales hechas (df08986, 21:10); laterales con muro + fondo superior (62ee7b7, 21:50). Queda: laterales sin gradas + verificación imagen contra imagen POR DANI + OK de Daniel + subida a Playgama (ZIP nuevo 4,1 MB guardado; el borrador cmwjolg5v00s0jy0izncjeyol sigue con el ZIP viejo). Suelo como la foto: decisión pendiente de Daniel. Bloqueado: no. | Online EN VIVO desde las 20:01: https://online.recurretumulta.online/health responde ok (verificado 21:47); el cliente ya apunta a él (commit c641eb9) pero ONLINE_ENABLED sigue en false hasta que Daniel pruebe la Street. | Paso: Menú exacto guardado (44ab6d7); corrección de laterales en marcha | Queda: Laterales sin gradas + verificación + OK de Daniel + subida a Playgama",
+      "status": "EN MARCHA — Campo REVERTIDO a como antes (commit 785c214, 22:19; los 4 ficheros idénticos a 62ee7b7: arriba/detrás de las porterías y abajo como estaban, sin paredes duplicadas). MENÚ = LA FOTO (commit 44ab6d7, 22:17; Dani lo verificó foto contra foto: título, pizarra con celo, niños con gorra, JUGAR, botones y chips idénticos; solo cambian bandera y monedas, datos vivos). ZIP nuevo para publicar 4.129.199 B (commit 06b08c2; tsc 0, build:qa 0, vitest 73/73). PUBLICANDO en Playgama SIN PREGUNTAR (orden Daniel 22:18): sustituyendo la build en el borrador cmwjolg5v00s0jy0izncjeyol y publicando en Sandbox. Bloqueado: no. | Online EN VIVO desde las 20:01: https://online.recurretumulta.online/health responde ok; el cliente ya apunta a él (commit c641eb9) pero ONLINE_ENABLED sigue en false hasta que Daniel pruebe la Street. | Paso: Campo revertido (785c214) + menú = la foto (44ab6d7) + ZIP nuevo; publicando en Sandbox | Queda: enlace para jugar + relojes v2 (publica al terminar sin preguntar)",
       "title": "Scribble Striker",
-      "paso": "Menú exacto guardado (commit 44ab6d7, 22:17); corrección de laterales en marcha (agente desde 22:12 — Daniel vio gradas aún en la captura de 50ffd31)",
-      "queda": "Laterales sin gradas + verificación imagen contra imagen por Dani + OK de Daniel + subida a Playgama (ZIP nuevo 4,1 MB ya guardado)"
+      "paso": "Campo revertido a 62ee7b7 (785c214); menú = la foto (44ab6d7); ZIP nuevo 4,13 MB (06b08c2); publicando en Sandbox sin preguntar",
+      "queda": "Publicación en Sandbox + enlace para jugar; relojes v2 en marcha (publica al terminar sin preguntar)"
     },
     {
       "covers": "icono v2 y banner v2 aprobados por Daniel",
@@ -360,9 +360,9 @@
       "title": "Glow Grab!"
     }
   ],
-  "updated_at": "2026-11-16T22:20:00+01:00",
-  "updated_by": "dani",
-  "resumen": "Actualización 22:20 — Scribble Striker: MENÚ exacto YA guardado (commit 44ab6d7, 22:17); PERO Daniel 22:12 avisó que en la captura de 50ffd31 siguen viéndose gradas en los laterales — el «sin gradas» era erróneo y hay un agente corrigiendo los laterales ahora mismo. Relojes v2: agente activo ~5 h, sin commit aún (la rama aún no existe en GitHub). Anita: Cyber Runner movida al repo correcto VERIFICADA 22:20 (rama anita/cyber-runner-b @ 08abde42 en dana-games-juegos; borrada del repo público).",
+  "updated_at": "2026-11-16T22:24:50+01:00",
+  "updated_by": "niky",
+  "resumen": "Actualización 22:24 — Scribble Striker: MENÚ exacto YA guardado (commit 44ab6d7, 22:17); PERO Daniel 22:12 avisó que en la captura de 50ffd31 siguen viéndose gradas en los laterales — el «sin gradas» era erróneo y hay un agente corrigiendo los laterales ahora mismo. Relojes v2: agente activo ~5 h, sin commit aún (la rama aún no existe en GitHub). Anita: Cyber Runner movida al repo correcto VERIFICADA 22:20 (rama anita/cyber-runner-b @ 08abde42 en dana-games-juegos; borrada del repo público).",
   "stats": {
     "updated_at": "2026-11-16T22:08:00+01:00",
     "source": "Panel Playgama verificado 22:08 por Dani: solo Scribble Striker (Draft) y Luxury Watch Dealer (Sandbox, 0 partidas)",
