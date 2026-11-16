@@ -3,7 +3,7 @@
   "anita": {
     "names": [],
     "names_pending": true,
-    "status": "3 juegos nuevos en marcha"
+    "status": "3 juegos nuevos en marcha; regla Daniel 18:47 (permanente): Anita informa cada 30 min — lo hecho, lo que tiene y lo que NO tiene"
   },
   "factory": [
     "Scribble Striker (rediseño Street Variante B en marcha + récord de combos y liga por copas (orden Daniel 18:10, agente en marcha, sin commit aún); subida a Playgama en espera del rediseño, por decisión de Daniel 17:53; online: Render descartado por Daniel 18:15 — no quiere meter tarjeta — buscando host gratuito sin tarjeta, también en GitHub, agente lanzado 18:15/18:17; la liga queda en «próximamente» hasta tener servidor)",
@@ -15,13 +15,13 @@
       "commit": "15409a1",
       "covers": "icono v3 y banner v4 aprobados por Daniel (sin líneas amarillas)",
       "slug": "scribble-striker",
-      "status": "Arreglo 15409a1 en la oficina (su prueba quedó sustituida por la decisión de Daniel 17:53: la subida a Playgama espera al rediseño Street, que ya lleva los arreglos de la 15409a1; Daniel prueba la Street directamente cuando esté y se sube esa; motor ya decidido: Plain JS); fusión de skins 502c7fe verificada (tsc 0, vitest 60/60, sondas en verde, zip 3,93 MB); rediseño Street (Variante B elegida por Daniel) EN MARCHA desde 17:26, exacto a los mockups, skins intactas; récord de combos + liga por copas (orden Daniel 18:10) EN MARCHA en el mismo agente, sin commit aún; online: buscando host gratuito SIN tarjeta (Render descartado por Daniel 18:15; búsqueda ampliada a GitHub 18:17), la liga queda en «próximamente» hasta tener servidor; avisar a Daniel cuando esté listo",
+      "status": "Arreglo 15409a1 en la oficina (su prueba quedó sustituida por la decisión de Daniel 17:53: la subida a Playgama espera al rediseño Street, que ya lleva los arreglos de la 15409a1; Daniel prueba la Street directamente cuando esté y se sube esa; motor ya decidido: Plain JS); fusión de skins 502c7fe verificada (tsc 0, vitest 60/60, sondas en verde, zip 3,93 MB); rediseño Street (Variante B elegida por Daniel) EN MARCHA desde 17:26, exacto a los mockups, skins intactas — agente activo, con cambios en curso sin commitear (Game.ts, board.ts, levels.ts), sin commit aún a las 18:47; récord de combos + liga por copas (orden Daniel 18:10) en el mismo agente; reglas de monetización 18:25/18:32 y 20 skins mínimo por sección 18:39 pasadas al agente, pendientes de su entrega; online: buscando host gratuito SIN tarjeta (Render descartado por Daniel 18:15; búsqueda ampliada a GitHub 18:17, agente activo ~30 min, sin resultado aún), la liga queda en «próximamente» hasta tener servidor; avisar a Daniel cuando esté listo",
       "title": "Scribble Striker"
     },
     {
       "covers": "icono v2 y banner v2 aprobados por Daniel",
       "slug": "luxury-watch-dealer-redesign-v2",
-      "status": "Daniel eligió la OPCIÓN A «Tycoon Pop» (17:19) — rediseño total v2 en marcha en rama niky/relojes-redesign-a-1611 (estilo A en todas las pantallas + zona de cajas + zona de reparación); lista deduplicada TERMINADA 17:51 (verificada): 151 relojes únicos nuevos + 30 actuales = 181 en total (Rolex 34, AP 24, Patek 20, RM 23, Cartier 38, Jacob 16, Vacheron 26 — marca nueva), valor ≈ $41.633.935, estados full_set 72 / naked 63 / papers_only 46; 55 duplicados descartados, 19 sin identificar; fusión de los 181 en el rediseño v2 EN MARCHA (agente activo ~1 h, convirtiendo el arte a WebP y sustituyendo el arte tycoon viejo, sin commit aún); Daniel cerró la recogida de fotos en 130 archivos",
+      "status": "Daniel eligió la OPCIÓN A «Tycoon Pop» (17:19) — rediseño total v2 en marcha en rama niky/relojes-redesign-a-1611 (estilo A en todas las pantallas + zona de cajas + zona de reparación); lista deduplicada TERMINADA 17:51 (verificada): 151 relojes únicos nuevos + 30 actuales = 181 en total (Rolex 34, AP 24, Patek 20, RM 23, Cartier 38, Jacob 16, Vacheron 26 — marca nueva), valor ≈$41.633.935, estados full_set 72 / naked 63 / papers_only 46; 55 duplicados descartados, 19 sin identificar; fusión de los 181 en el rediseño v2 EN MARCHA (agente activo ~1 h 27 min, convirtiendo el arte a WebP y sustituyendo el arte tycoon viejo, sin commit aún a las 18:47); reglas de monetización 18:25/18:32 y 20 skins mínimo por sección 18:39 pasadas al agente, pendientes de su entrega; Daniel cerró la recogida de fotos en 130 archivos",
       "title": "Luxury Watch Dealer — rediseño total v2"
     }
   ],
@@ -127,6 +127,6 @@
       "title": "Pet Vet!"
     }
   ],
-  "updated_at": "2026-11-16T18:23:00+01:00",
+  "updated_at": "2026-11-16T18:47:00+01:00",
   "updated_by": "Niky (Dani)"
 }
