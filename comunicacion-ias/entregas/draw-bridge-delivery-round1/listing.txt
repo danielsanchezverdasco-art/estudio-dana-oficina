@@ -1,0 +1,27 @@
+Draw Bridge Delivery — Draw the bridge, deliver the pizza!
+Draw bridges with your finger and watch the delivery scooter cross the river! One finger, one verb, zero reading: draw a wooden bridge, tap PLAY, and deliver the pizza to the flag. 30 levels across a sunny city — wind, trampolines, turbo ink, moving bridges and double deliveries. Earn 3 stars by using as little ink as you can, collect coins, unlock new scooters and take the daily challenge. Perfect for a quick break — and hard to put down when the pizza is on the line.
+
+HOW TO PLAY
+1. Draw a bridge with your finger — you have limited ink!
+2. Tap PLAY and the scooter drives over your bridge.
+3. Deliver the pizza to the flag using as little ink as you can for 3 stars.
+
+FEATURES
+- 30 handcrafted levels: wind, trampolines, turbo climbs, moving bridges, two pizzas at once
+- Stars, coins, scooter shop, daily challenge and level map
+- English and Spanish, PEGI 3, no reading needed to play
+- Made with Phaser 3 + Matter physics
+
+Draw Bridge Delivery — ¡Dibuja el puente, entrega la pizza!
+¡Dibuja puentes con el dedo y mira cómo la moto de reparto cruza el río! Un dedo, un verbo, cero lectura: dibuja un puente de madera, toca JUGAR y entrega la pizza hasta la bandera. 30 niveles por una ciudad soleada: viento, trampolines, tinta turbo, puentes móviles y entregas dobles. Gana 3 estrellas gastando la menor tinta posible, recoge monedas, desbloquea motos nuevas y supera el reto diario. Perfecto para un rato libre — y difícil de soltar cuando la pizza está en juego.
+
+CÓMO SE JUEGA
+1. Dibuja un puente con el dedo — ¡tienes tinta limitada!
+2. Toca JUGAR y la moto cruza por tu puente.
+3. Entrega la pizza hasta la bandera usando la menor tinta posible para conseguir 3 estrellas.
+
+CARACTERÍSTICAS
+- 30 niveles hechos a mano: viento, trampolines, subidas turbo, puentes móviles, dos pizzas a la vez
+- Estrellas, monedas, tienda de motos, reto diario y mapa de niveles
+- Inglés y español, PEGI 3, no hace falta leer para jugar
+- Hecho con Phaser 3 + física Matter
