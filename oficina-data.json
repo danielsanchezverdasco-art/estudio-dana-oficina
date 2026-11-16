@@ -20,12 +20,12 @@
   ],
   "in_progress": [
     {
-      "commit": "62ee7b7",
+      "commit": "50ffd31",
       "covers": "icono v3 y banner v4 aprobados por Daniel (sin líneas amarillas)",
       "slug": "scribble-striker",
-      "status": "EN MARCHA — porterías normales YA arregladas (commit df08986, 21:10, verificado por Dani: marco blanco + red, muros y grada desde la foto); LATERALES TERMINADOS y guardados (commit 62ee7b7, 21:50): muros de ladrillo + fondo superior cielo/valla/skyline desde la foto — Dani lo verificó foto contra foto y es parecido, no exacto: los laterales se ven como una tira fina y arriba apenas se ve una rendija de atardecer. Falta: el MENÚ exacto desde la foto (agente en marcha desde 21:15). Queda: menú + verificación imagen contra imagen POR DANI + que Daniel dé el OK para subir el ZIP nuevo a Playgama (el borrador cmwjolg5v00s0jy0izncjeyol sigue con el ZIP viejo; ZIP nuevo 4.126.136 bytes guardado en 62ee7b7). Suelo como la foto: decisión pendiente de Daniel. Bloqueado: no. | Online EN VIVO desde las 20:01: https://online.recurretumulta.online/health responde ok (verificado 21:47); el cliente ya apunta a él (commit c641eb9) pero ONLINE_ENABLED sigue en false hasta que Daniel pruebe la Street. | Paso: Laterales terminados y guardados (62ee7b7); menú exacto en marcha | Queda: Menú + verificación + OK de Daniel + subida a Playgama",
+      "status": "EN MARCHA — porterías normales YA arregladas (commit df08986, 21:10); GRADAS QUITADAS y guardadas (commit 50ffd31, 22:09, verificado: tsc 0, build:qa 0, vitest 73/73, sonda 390px 0 errores, ZIP nuevo 4.099.953 bytes): sin gradas ni público en ningún sitio, todo muro de ladrillo con grafitis desde la foto — Dani lo verificó foto contra foto y es parecido, no exacto: los muros son tiras finas, no los muros grandes de la foto; arriba ya no hay atardecer (aceptado por Daniel: mejor muro que gradas). Falta: el MENÚ exacto desde la foto (agente en marcha desde 21:15). Queda: menú + verificación imagen contra imagen POR DANI + que Daniel dé el OK para subir el ZIP nuevo a Playgama (el borrador cmwjolg5v00s0jy0izncjeyol sigue con el ZIP viejo; ZIP nuevo 4,10 MB guardado en 50ffd31). Suelo como la foto: decisión pendiente de Daniel. Bloqueado: no. | Online EN VIVO desde las 20:01: https://online.recurretumulta.online/health responde ok (verificado 21:47); el cliente ya apunta a él (commit c641eb9) pero ONLINE_ENABLED sigue en false hasta que Daniel pruebe la Street. | Paso: Gradas quitadas y guardadas (50ffd31); menú exacto en marcha | Queda: Menú + verificación + OK de Daniel + subida a Playgama",
       "title": "Scribble Striker",
-      "paso": "Laterales terminados y guardados (commit 62ee7b7, 21:50); MENÚ exacto desde la foto en marcha (agente desde 21:15)",
+      "paso": "Gradas quitadas y guardadas (commit 50ffd31, 22:09); MENÚ exacto desde la foto en marcha (agente desde 21:15)",
       "queda": "Menú + verificación imagen contra imagen por Dani + OK de Daniel + subida a Playgama (ZIP nuevo 4,1 MB ya guardado)"
     },
     {
@@ -360,9 +360,9 @@
       "title": "Glow Grab!"
     }
   ],
-  "updated_at": "2026-11-16T22:09:09+01:00",
-  "updated_by": "anita",
-  "resumen": "Actualización 22:08 — Grid Defender (Anita): BUILD COMPLETO 21:59 (index.html + bundle 1,28 MB; antes 0 bytes); informe ronda 1: juego completo, tsc 0 errores, replay Node 30/30 oleadas, 88/90 estrellas; pendientes smoke, lado a lado y ZIP; sin rama aún. Slice & Serve: Daniel ELIGIÓ la variante B 22:03 y ordenó VERSIÓN EXACTA (clon exacto); peros resueltos (barra azul = franja WORLD TOP 3; guías según las fotos); construcción ordenada, rama aún no existe en GitHub. Cyber Runner (Anita): VERIFICACIÓN EN MARCHA (probe 22:05: jugable, game over 81 m, franja WORLD TOP 3 visible, pero 18 peticiones 404 en el dist-test); ZIP 3,0 MB OK; ronda 1 sigue en el repo equivocado, pendiente de mover. Fútbol Street: laterales terminados (62ee7b7, 21:50), falta el MENÚ exacto. Relojes v2: clon exacto opción A con 181 relojes, sin commit aún. 3 conceptos nuevos RECHAZADOS por Daniel 22:00. Online EN VIVO (verificado 21:47).",
+  "updated_at": "2026-11-16T22:10:26+01:00",
+  "updated_by": "niky",
+  "resumen": "Actualización 22:10 — Grid Defender (Anita): BUILD COMPLETO 21:59 (index.html + bundle 1,28 MB; antes 0 bytes); informe ronda 1: juego completo, tsc 0 errores, replay Node 30/30 oleadas, 88/90 estrellas; pendientes smoke, lado a lado y ZIP; sin rama aún. Slice & Serve: Daniel ELIGIÓ la variante B 22:03 y ordenó VERSIÓN EXACTA (clon exacto); peros resueltos (barra azul = franja WORLD TOP 3; guías según las fotos); construcción ordenada, rama aún no existe en GitHub. Cyber Runner (Anita): VERIFICACIÓN EN MARCHA (probe 22:05: jugable, game over 81 m, franja WORLD TOP 3 visible, pero 18 peticiones 404 en el dist-test); ZIP 3,0 MB OK; ronda 1 sigue en el repo equivocado, pendiente de mover. Fútbol Street: GRADAS QUITADAS (50ffd31, 22:09) — todo muro, sin gradas ni público; captura nueva enseñada a Daniel: parecido, no exacto. Falta el MENÚ exacto. Relojes v2: clon exacto opción A con 181 relojes, sin commit aún. 3 conceptos nuevos RECHAZADOS por Daniel 22:00. Online EN VIVO (verificado 21:47).",
   "stats": {
     "updated_at": "2026-11-16T22:08:00+01:00",
     "source": "Panel Playgama verificado 22:08 por Dani: solo Scribble Striker (Draft) y Luxury Watch Dealer (Sandbox, 0 partidas)",
