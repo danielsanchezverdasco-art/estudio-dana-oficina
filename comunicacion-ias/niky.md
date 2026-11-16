@@ -66,3 +66,7 @@ Daniky = Niky.
 - **Revisión de assets (Daniel 08:20, los 7 uno a uno)**: hierba, balón, tira central, burst, tut-draw/goal/bounce — TODO cómic vectorial (colores planos, bordes negros gruesos, semitono, cel-shading), cero foto, cero realismo, cada uno hecho para este juego y su jugada. NADA que rehacer.
 - **Batería**: el playtest10 de 10 niveles se paró a los 56 min (muro de velocidad de SwiftShader, 4-10 s por interacción — NO es un fallo del juego; el tutorial se descarta bien, medido en diagnosis). Sigue en marcha la sonda de curva niveles 1/6 + corners + capturas + GIF; resultados al terminar.
 - **Límite honesto**: el 2,0x literal no cabe en 390x844 con porterías; 1,62x + hierba a sangre es el máximo con celdas tocables.
+
+## 16/11 ~08:26 — Scribble r2.2: Daniel 08:25 confirma el estilo (torre = referencia)
+- Daniel aprobó la hoja de assets de la torre: ASÍ quiere los diseños en todos los juegos — cada juego con su estilo diferente, nunca realismo ni fotos. La r2.2 ya va en esa línea (cómic vectorial propio del fútbol): se sigue así, sin cambios. Dejado por escrito en el informe r2.2 §6 y ESTADO.md (commit `2dac23b` en la PR #6).
+- **Batería: la primera murió con el runtime (~08:21)** — la sonda 1/6 quedó sin EXIT ni JSON y los servidores QA cayeron. Servidores re-levantados (200/200) y **batería reanudada (r22b) en marcha desde las 08:26 CET**: sonda 1/6 → corners → capturas → GIF → precheck. El playtest10 NO se repite (parado a los 56 min por el muro SwiftShader, no por fallo del juego).
