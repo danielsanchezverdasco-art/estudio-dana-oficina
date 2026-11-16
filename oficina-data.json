@@ -7,7 +7,7 @@
       "Cyber Runner"
     ],
     "names_pending": false,
-    "status": "Cyber Runner: verificación de Anita TERMINADA 22:29 → VEREDICTO NO APTO (FAIL): la ronda 1 en dana-games-juegos (rama anita/cyber-runner-b @ 08abde42) es solo fuente + 6 docs; NO hay en el repo assets, build, zip, covers ni GIF (solo en local); 1 bug funcional confirmado (franja TOP 3 visible en juego tras visitar SKINS/RANKING), 4 desviaciones de HUD, GIF inválido y cover 800×800 defectuosa; lista de 9 arreglos para la ronda 2 en verificacion-ronda1/informe-verificacion-ronda1.md; resto de checks bloqueado por Chromium muerto. ALERTA 22:35: la rama anita/cyber-runner-b HA REAPARECIDO en estudio-dana-oficina (repo público) @ 243f36b8, commit 22:24 CET «5 fixes» — DESPUÉS de que Niky verificara su borrado a las 22:20; el traslado ya no es completo, hay que volver a borrarla y averiguar quién la repuso. Grid Defender: rebuild en marcha 22:38 (build-retry vació dist/; bundle index--2Ko5-NT.js a 0 bytes, sin index.html aún); informe-ronda1.md 22:30: adaptador online RecurretumultaOnlineAdapter ESCRITO y verificado contra el servidor real (wss://online.recurretumulta.online, /health ok); ZIP pendiente; smoke en navegador bloqueado por Chromium (SIGTRAP). Slice & Serve: construcción ACTIVA en local a las 22:33-22:34 (src/scenes, online, skins, ads, leaderboard, main... escribiéndose ahora), sin dist ni rama anita/slice-and-serve-b aún. Normas 20:27-20:34 (clasificación mundial POR METROS; top 3 con nombre y skins visibles en el menú principal) valen para TODOS los juegos; informa cada 30 min — lo hecho, lo que tiene y lo que NO tiene.",
+    "status": "Cyber Runner ronda 1 NO APTA (verificación de Anita 22:29, FAIL): en el repo privado solo hay fuente + docs; faltan assets, build, zip, covers y GIF; 1 bug (franja TOP 3 en el juego) + 4 desviaciones de HUD + GIF y cover defectuosos; ronda 2 en marcha con los 9 arreglos. La rama reapareció en el repo de la oficina (push del builder 22:24) y fue BORRADA DE NUEVO 22:45; el builder ya está avisado y trabaja en dana-games-juegos. Slice & Serve variante B (elegida 22:03) en construcción en dana-games-juegos. Grid Defender: rebuild en marcha 22:38, adaptador online verificado contra wss://online.recurretumulta.online; ZIP pendiente.",
     "paso": "Cyber Runner verificado NO APTO (ronda 2 con 9 arreglos); la rama ha reaparecido en el repo público — hay que borrarla otra vez. Grid en rebuild (bundle 0 bytes 22:38), adaptador online ya escrito y verificado. Slice en construcción activa en local.",
     "queda": "Ronda 2 de Cyber Runner (assets+build+zip+covers+GIF al repo privado, bug franja TOP 3, HUD, GIF, cover, smoke); borrar de nuevo anita/cyber-runner-b del repo público; Grid: terminar rebuild + smoke + ZIP + rama; Slice: terminar clon exacto variante B."
   },
@@ -49,10 +49,10 @@
       "commit": "08abde42",
       "covers": "assets generados (pack 16/16), covers pendientes",
       "slug": "cyber-runner",
-      "status": "EN MARCHA — mockup aprobado 16/11 16:01; assets 16/16; Daniel ELIGIÓ la variante B 16/11 20:16 y ordenó CLON EXACTO; ronda 1 en dana-games-juegos, rama anita/cyber-runner-b @ 08abde42 (36 ficheros en cyber-runner/ + cyber-runner/entrega/). VERIFICACIÓN DE ANITA TERMINADA 22:29 → VEREDICTO NO APTO (FAIL): en el repo solo hay fuente + 6 docs; NO hay assets, build, zip, covers ni GIF; 1 bug funcional (franja TOP 3 visible en juego tras SKINS/RANKING), 4 desviaciones de HUD, GIF inválido, cover 800×800 defectuosa; 9 arreglos listados para la ronda 2; resto bloqueado por Chromium muerto. ALERTA 22:35: la rama anita/cyber-runner-b HA REAPARECIDO en estudio-dana-oficina (repo público) @ 243f36b8, commit 22:24 CET «5 fixes» — después del borrado verificado por Niky 22:20; hay que borrarla de nuevo. Requisito 20:27: zona de CLASIFICACIÓN MUNDIAL POR METROS; norma 20:34: en el menú principal salen los 3 PRIMEROS con su nombre y skins, bien visibles, y al desplegar el resto — vale para TODOS los juegos",
+      "status": "EN MARCHA — mockup aprobado 16/11 16:01; assets 16/16; Daniel ELIGIÓ la variante B 16/11 20:16 y ordenó CLON EXACTO; ronda 1 en dana-games-juegos, rama anita/cyber-runner-b @ 08abde42 (36 ficheros: solo fuente + docs). VERIFICACIÓN DE ANITA 22:29: NO APTO (FAIL) — faltan en el repo assets, build, zip, covers y GIF; 1 bug funcional (franja TOP 3 visible en el juego tras visitar SKINS/RANKING), 4 desviaciones de HUD, GIF inválido, cover 800×800 defectuosa; 9 arreglos para la ronda 2 (informe en verificacion-ronda1/). La rama reapareció en el repo de la oficina @ 243f36b8 (push del builder 22:24, no avisado del traslado) y fue BORRADA DE NUEVO 22:45 (verificado 404); el builder ya tiene la corrección y trabaja la ronda 2 en dana-games-juegos. El juego en sí (mecánica, arte, menú) está muy cerca del contrato.",
       "title": "Cyber Runner",
-      "paso": "Ronda 1 verificada NO APTO (9 arreglos para ronda 2); la rama ha reaparecido en el repo público — borrarla de nuevo",
-      "queda": "Ronda 2 de Cyber Runner (assets+build+zip+covers+GIF al repo privado, bug franja, HUD, GIF, cover, smoke) y pasarla a probar"
+      "paso": "Ronda 1 NO APTA (verificación 22:29); ronda 2 en marcha en dana-games-juegos con los 9 arreglos",
+      "queda": "Ronda 2: subir artefactos al repo privado + bug franja TOP 3 + HUD + cover + GIF, y re-verificar"
     }
   ],
   "published": [
@@ -370,9 +370,9 @@
       "title": "Glow Grab!"
     }
   ],
-  "updated_at": "2026-11-16T22:42:10+01:00",
-  "updated_by": "niky",
-  "resumen": "Actualización 22:41 (Anita) — Cyber Runner: verificación TERMINADA, VEREDICTO NO APTO (ronda 1 solo fuente+docs en el repo privado; 9 arreglos para ronda 2); ALERTA: la rama anita/cyber-runner-b ha REAPARECIDO en el repo público @ 243f36b8 (commit 22:24 «5 fixes»), hay que borrarla de nuevo. Grid Defender: rebuild en marcha (bundle 0 bytes 22:38), adaptador online ya escrito y verificado contra wss://online.recurretumulta.online. Slice & Serve: código escribiéndose en local ahora mismo (22:33-22:34), sin dist ni rama aún.",
+  "updated_at": "2026-11-16T22:45:29+01:00",
+  "updated_by": "anita",
+  "resumen": "Actualización 22:45 — Cyber Runner ronda 1 NO APTA (verificación 22:29, FAIL); ronda 2 en marcha con 9 arreglos. Rama de la oficina borrada DE NUEVO (reapareció 22:24 por push del builder; ya avisado). Grid: rebuild en marcha, online verificado. Slice: construcción en marcha.",
   "stats": {
     "updated_at": "2026-11-16T22:08:00+01:00",
     "source": "Panel Playgama verificado 22:08 por Dani: solo Scribble Striker (Draft) y Luxury Watch Dealer (Sandbox, 0 partidas)",
