@@ -73,3 +73,14 @@ Daniky = Niky.
 
 ## 16/11 ~08:27 — Scribble r2.2: aclaración de estilo de Daniel (08:26)
 - Valen muchos estilos (LEGO, Simpson, Minecraft…) siempre que sean vector; hay que elegir el que mejor quede con cada juego. Para Scribble el elegido es el cómic vectorial: se sigue así, sin cambios. Registrado en el informe r2.2 §6 y ESTADO.md (PR #6).
+
+## 16/11 ~09:15 — Sky Stack rework v2: habitaciones y mascotas rehechas (NO APTO -> corregido)
+- **Motivo:** revision de diseno 08:31 (orden Daniel 08:27): habitaciones planas con 4 ventanas, mismo molde en los 4 temas; mascotas genericas (turbo: cara de nino con gorra; deep-sea: blob azul). Lejos del ejemplo aprobado.
+- **Rehecho desde cero en vector cartoon** (cero fotos, cero realismo), en `~/workspace/wt-sky-stack-visual`, rama `niky/sky-stack-visual-1611` (base `52246ad`, integracion del otro chat intacta):
+  - **12 habitaciones** (base/mid/top x 4 temas) con muebles y detalles propios: Turbo = garaje (neumaticos, tablero de herramientas, banco, puerta enrollable a cuadros, trofeo); Brick = obra (andamio, tablones, sacos, gancho+viga, plano, casco); Deep Sea = templo (columnas, coral, algas, porthole con pez, linterna, conchas); Toon = salon (sofa, estanterias, lampara, planta, robot, banderines, reloj). Cada tema se lee a primera vista.
+  - **12 mascotas** (idle/cheer/panic x 4 temas): piloto con casco integral y visera, constructor con casco amarillo y martillo, pulpo teal con ventosas, personaje amarillo de dibujos. Transparentes 512 px.
+  - Generador: `sky-stack/scripts/vector-art-v2.py` (PIL, vector plano + contorno grueso); capturas por tema: `sky-stack/scripts/shots-v2-themes.py`.
+- **Sin tocar:** logica (`stack.ts`, `crop.ts`, `sky.ts`, `themeAssets.ts`); mismas dimensiones (piezas 1024x256, mascotas 512); suelos y cielo/Luna intactos.
+- **Verificado:** tsc 0, vitest 59/59, precheck 0 FAIL (1 WARN conocida del JS), capturas 390x844 de los 4 temas con 8 pisos apilados y 0 errores de consola (`sky-stack/shots-v2/`, en la PR). Build Playgama fresco 2,46 MiB, zip 1,1 MB.
+- **PR #7 (dana-games-juegos):** https://github.com/danielsanchezverdasco-art/dana-games-juegos/pull/7 — commit `1b40dd6`. **Listo para que Daniel lo pruebe hoy** (publicar en la oficina en «Juegos para probar» tras fusionar; el revisor puede volver a pasar sobre la rama).
+- **Queda:** fusion de la PR #7 + publicacion en la oficina (del agente principal); revision de diseno de confirmacion (revisor `af877429`).
