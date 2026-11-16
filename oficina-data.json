@@ -275,9 +275,79 @@
       "slug": "wobbly-crew",
       "status": "Aceptado por Daniel 19:36 — en cola, tras Obby Dash",
       "title": "Wobbly Crew!"
+    },
+    {
+      "design": "A (azotea al atardecer), B (calle neón) y C (faro embrujado) son capítulos (mapas). Multijugador en vivo 4J todos contra todos + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-37-variant-a.png",
+      "slug": "shadow-stomp",
+      "status": "Aceptado por Daniel 19:52 — en cola, tras Wobbly Crew",
+      "title": "Shadow Stomp!"
+    },
+    {
+      "design": "A (playa), B (montañas nevadas) y C (azoteas al atardecer) son capítulos (mapas). Multijugador en vivo 4J PvP + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-38-variant-a.png",
+      "slug": "kite-clash",
+      "status": "Aceptado por Daniel 19:52 — en cola, tras Shadow Stomp",
+      "title": "Kite Clash!"
+    },
+    {
+      "design": "A (patio escolar), B (playa) y C (estación espacial sin gravedad) son capítulos (arenas). Multijugador en vivo 1v1 con torneo + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-39-variant-a.png",
+      "slug": "tether-clash",
+      "status": "Aceptado por Daniel 19:52 — en cola, tras Kite Clash",
+      "title": "Tether Clash!"
+    },
+    {
+      "design": "A (patio), B (arcade neón) y C (selva) son capítulos (canchas). Multijugador en vivo 4J por eliminación + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-40-variant-a.png",
+      "slug": "four-square-frenzy",
+      "status": "Aceptado por Daniel 19:52 — en cola, tras Tether Clash",
+      "title": "Four Square Frenzy!"
+    },
+    {
+      "design": "A (cuarto de juguetes), B (escalera de caramelo) y C (espacio) son capítulos (pistas). Multijugador en vivo, carrera 4J + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-41-variant-a.png",
+      "slug": "slinky-sprint",
+      "status": "Aceptado por Daniel 19:52 — en cola, tras Four Square Frenzy",
+      "title": "Slinky Sprint!"
+    },
+    {
+      "design": "A (circo), B (calle) y C (discoteca neón) son capítulos (escenarios). Multijugador en vivo 4J supervivencia + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-42-variant-a.png",
+      "slug": "juggle-clash",
+      "status": "Aceptado por Daniel 19:52 — en cola, tras Slinky Sprint",
+      "title": "Juggle Clash!"
+    },
+    {
+      "design": "A (circo), B (cañón al atardecer) y C (rascacielos) son capítulos (cuerdas). Multijugador en vivo 1v1 con torneo + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-43-variant-a.png",
+      "slug": "tightrope-duel",
+      "status": "Aceptado por Daniel 19:52 — en cola, tras Juggle Clash",
+      "title": "Tightrope Duel!"
+    },
+    {
+      "design": "A (calle lluviosa), B (monzón en la selva) y C (lluvia de caramelo) son capítulos (mapas). Multijugador en vivo 4J 60 s + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-44-variant-a.png",
+      "slug": "puddle-splash",
+      "status": "Aceptado por Daniel 19:52 — en cola, tras Tightrope Duel",
+      "title": "Puddle Splash!"
+    },
+    {
+      "design": "A (islas flotantes), B (nubes de tormenta) y C (dunas) son capítulos (arenas). Multijugador en vivo 4J, último en la isla gana + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-45-variant-a.png",
+      "slug": "wind-wizard-duel",
+      "status": "Aceptado por Daniel 19:52 — en cola, tras Puddle Splash",
+      "title": "Wind Wizard Duel!"
+    },
+    {
+      "design": "A (bosque nocturno), B (mar profundo) y C (jardín neón) son capítulos (mapas). Multijugador en vivo 4J 60 s + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-46-variant-a.png",
+      "slug": "glow-grab",
+      "status": "Aceptado por Daniel 19:52 — en cola, tras Wind Wizard Duel",
+      "title": "Glow Grab!"
     }
   ],
-  "updated_at": "2026-11-16T19:52:07+01:00",
+  "updated_at": "2026-11-16T19:52:30+01:00",
   "updated_by": "anita",
-  "resumen": "Actualización 19:47 — Tanda 6 multijugador ENTREGADA 19:48 (10 ideas 37–46, 30/30 previews, pendiente tu elección); tanda 5: 9 de 10 en cola (sin Santa Sprint). Fútbol Street y relojes v2 siguen en marcha sin commit aún (~2,5 h). Online: BLOQUEADO — Turnstile no deja entrar al panel de Cloudflare; falta que completes el inicio de sesión en el navegador. Botones de la oficina en rediseño."
+  "resumen": "Actualización 19:52 — Tanda 6: Daniel acepta las 10 (37–46) con sus 3 variantes como capítulos (mapas). Cola total: 37 juegos. Fútbol Street y relojes v2 siguen en marcha, sin commit aún. Online: servidor desplegado en Cloudflare (v1 al 100 %); la URL pública sigue bloqueada (Turnstile no deja entrar al panel; reintento en marcha, si falla Daniel entra él)."
 }
