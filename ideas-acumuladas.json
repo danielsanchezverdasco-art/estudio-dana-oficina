@@ -44,7 +44,17 @@
     "https://x.com/i/trending/2121280518641623237",
     "https://www.48hrstrends.com/Spain/this-week",
     "https://www.youtube.com/watch?v=bHDSVowwu5w",
-    "https://www.youtube.com/watch?v=w7kukBWIsCk"
+    "https://www.youtube.com/watch?v=w7kukBWIsCk",
+    "https://www.watchpro.com/used-watch-sales-hit-17bn-5-7bn-from-rolex/",
+    "https://everywatch.com/magazine/market/the-16-7b-market-reshaping-luxury-watches",
+    "https://www.grandviewresearch.com/industry-analysis/pre-owned-luxury-watches-market-report",
+    "https://deusmarketing.io/blog/luxury-resale-secondary-market-strategy",
+    "https://www.watchpro.com/bezel-tops-1-billion-in-listings-as-secondary-watch-market-surges/",
+    "https://play.google.com/store/apps/details?id=com.AbyteEntertainment.DealersLife2",
+    "https://www.appbrain.com/app/watchbox-watch-collector-game/com.yonigold.watchtycoon",
+    "https://playgama.com/search?q=watch",
+    "https://www.luksbroker.com/en/",
+    "https://simulatorheaven.itch.io/second-hand"
   ],
   "aptas": [
     {
@@ -786,6 +796,83 @@
       "vistas": null,
       "enCola": true,
       "genero": "Gestión / tiempo"
+    },
+    {
+      "analisis": {
+        "adictivo": "Colección que se completa por marcas y modelos, 'una oferta más' con chollos y falsos, taller que sube el valor, préstamos arriesgados y clientes nuevos cada día.",
+        "competencia": "Media-alta en móvil: Dealer's Life (4,7-4,8★, franquicia de regateo), Lux Broker (iOS, regateo + falsificaciones, 30+ piezas), WatchBox (37.000 installs, 4,8★, coleccionar por cajas), Second Hand (sim de marchante de relojes, itch, v0.2 sin terminar). En Playgama: hueco total — buscar 'watch' no devuelve ningún juego de relojes. Para no ser un clon: solo relojes de lujo reales, el trío caja/papeles/estado como puzle de valoración y la colección completa como misión.",
+        "fuenteNormas": "https://developers.google.com/youtube/gaming/playables/certification/requirements_trustsafety",
+        "fuentesHypercasual": [
+          "https://play.google.com/store/apps/details?id=com.AbyteEntertainment.DealersLife2"
+        ],
+        "hypercasualQueFunciona": "Los juegos de regateo y tycoon de tienda funcionan en móvil (Dealer's Life 4,7★, Pawn Empire actualizado nov 2026); el bucle 'comprar barato, vender caro' es decisión real en un toque, sin física.",
+        "monetizacion": "Anuncio entre clientes. Anuncio con recompensa: 'revelar el valor real' antes de decidir, '+5 energía' o 'segunda oportunidad tras un rechazo'. Cosméticos de boutique con oro del juego.",
+        "potencialViral": "Alto: el formato '¿vale lo que pide?' ya es tele (Pawn Stars) y TikTok; los momentos '¡era FALSO!' y '¡chollo de 7.000 $!' se graban solos.",
+        "se_entiende_3s_sin_texto": "Sí: un reloj en una tarjeta, su valor de mercado y dos botones enormes, BUY y HAGGLE.",
+        "tendencias": "Mercado secundario de relojes: 16.730 M$ en 2025 (+36,4 %); Rolex CPO +204 %; Bezel con 1.000 M$ listados; Chrono24 con 9 M de usuarios mensuales. El tema está en plena subida.",
+        "viabilidad": "Alta en un día: una pantalla de oferta (tarjeta + 3 botones), lógica de valoración por marca/modelo/estado/caja/papeles, fluctuación de precios por días, colección por marcas y taller/préstamos como sistemas simples. Riesgos: que la valoración se sienta aleatoria (mitigación: la lupa revela pistas) y el catálogo de relojes (mitigación: Daniel pasa su PDF con los relojes ya hechos)."
+      },
+      "competenciaNivel": "media",
+      "conclusion": "APTA: el mercado de segunda mano de relojes está en plena subida (16.730 M$ en 2025, +36,4 %), el formato '¿vale lo que pide?' ya lo conoce todo el mundo y en Playgama no hay ningún juego de relojes. Mecánica de un toque con decisión real y la colección completa como misión.",
+      "datos": [
+        {
+          "dato": "Mercado secundario de relojes de lujo: 16.730 M$ en 2025, +36,4 % interanual; ventas de marchantes 15.650 M$; Rolex 5.700 M$; Rolex Certified Pre-Owned 590 M$ (+204 %)",
+          "fuente": "https://www.watchpro.com/used-watch-sales-hit-17bn-5-7bn-from-rolex/"
+        },
+        {
+          "dato": "Previsión: relojes de lujo de segunda mano, 32.300 M$ en 2025 y 85.400 M$ en 2033 (CAGR 13,3 %)",
+          "fuente": "https://www.grandviewresearch.com/industry-analysis/pre-owned-luxury-watches-market-report"
+        },
+        {
+          "dato": "Chrono24: 9 M de usuarios mensuales consultando precios de relojes",
+          "fuente": "https://deusmarketing.io/blog/luxury-resale-secondary-market-strategy"
+        },
+        {
+          "dato": "Bezel: más de 1.000 M$ en relojes listados; vendedores +140 % en 2025; precio medio de venta superior a 10.000 $",
+          "fuente": "https://www.watchpro.com/bezel-tops-1-billion-in-listings-as-secondary-watch-market-surges/"
+        },
+        {
+          "dato": "Dealer's Life 2: 4,7★; Dealer's Life Pawn Shop Tycoon: 4,6-4,8★ (Google Play)",
+          "fuente": "https://play.google.com/store/apps/details?id=com.AbyteEntertainment.DealersLife2"
+        },
+        {
+          "dato": "WatchBox: Watch Collector Game: 37.000 instalaciones, 4,8★ (Google Play)",
+          "fuente": "https://www.appbrain.com/app/watchbox-watch-collector-game/com.yonigold.watchtycoon"
+        },
+        {
+          "dato": "Playgama: buscar 'watch' no devuelve ningún juego de relojes ni de marchante",
+          "fuente": "https://playgama.com/search?q=watch"
+        }
+      ],
+      "duracionSesion": "Ofertas de 30-60 s encadenadas; colección que se completa. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "apta",
+      "fecha": "2026-11-16",
+      "gancho": "Llega un cliente con un reloj de lujo y una oferta. ¿Compras, pasas o contraofertas? Caja, papeles y estado deciden si es un chollo o una ruina.",
+      "genero": "Negociación / colección (compraventa)",
+      "hacibleEnUnDia": true,
+      "id": "relojes-de-lujo-marchante",
+      "motivo": "APTA: mercado en plena subida, formato que ya conoce todo el mundo y hueco total en Playgama. Mecánica de un toque con decisión real.",
+      "nombre": "El Marchante de Relojes",
+      "nueva": true,
+      "origen": "Pedido de Daniel 16/11/2026 09:13 (ampliado 09:14)",
+      "porQueFunciona": "El mercado de segunda mano de relojes movió 16.700 M$ en 2025 (+36,4 %); el formato '¿vale lo que pide?' es el de Pawn Stars y ya funciona en juegos de regateo. En Playgama no hay ningún juego de relojes.",
+      "potencialViral": 4,
+      "puntuacion": {
+        "adiccion": 4,
+        "competencia": 3,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 4,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 5,
+        "tendencia": 5,
+        "total": 29,
+        "viabilidad1Dia": 4
+      },
+      "temaViral": "relojes de lujo segunda mano / ¿vale lo que pide? (mercado +36,4 % en 2025)",
+      "titulo": "El Marchante de Relojes",
+      "tituloEN": "Luxury Watch Dealer",
+      "viralUrgente": false
     }
   ],
   "noAptas": [
@@ -1259,5 +1346,5 @@
       "motivo": "Mecánica de casino (riesgo con las normas), poco espectáculo visual y poco viral."
     }
   ],
-  "actualizadoEn": "2026-11-15T08:10:00+01:00"
+  "actualizadoEn": "2026-11-16T09:15:00+01:00"
 }
