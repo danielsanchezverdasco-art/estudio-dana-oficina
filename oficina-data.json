@@ -20,15 +20,6 @@
   ],
   "in_progress": [
     {
-      "commit": "06b08c2",
-      "covers": "icono v3 y banner v4 aprobados por Daniel (sin líneas amarillas)",
-      "slug": "scribble-striker",
-      "status": "EN MARCHA — Campo REVERTIDO a como antes (commit 785c214, 22:19; los 4 ficheros idénticos a 62ee7b7: arriba/detrás de las porterías y abajo como estaban, sin paredes duplicadas). MENÚ = LA FOTO (commit 44ab6d7, 22:17; Dani lo verificó foto contra foto: título, pizarra con celo, niños con gorra, JUGAR, botones y chips idénticos; solo cambian bandera y monedas, datos vivos). ZIP nuevo para publicar 4.129.199 B (commit 06b08c2; tsc 0, build:qa 0, vitest 73/73). PUBLICANDO en Playgama SIN PREGUNTAR (orden Daniel 22:18): sustituyendo la build en el borrador cmwjolg5v00s0jy0izncjeyol y publicando en Sandbox. Bloqueado: no. | Online EN VIVO desde las 20:01: https://online.recurretumulta.online/health responde ok; el cliente ya apunta a él (commit c641eb9) pero ONLINE_ENABLED sigue en false hasta que Daniel pruebe la Street. | Paso: Campo revertido (785c214) + menú = la foto (44ab6d7) + ZIP nuevo; publicando en Sandbox | Queda: enlace para jugar + relojes v2 (publica al terminar sin preguntar)",
-      "title": "Scribble Striker",
-      "paso": "Campo revertido a 62ee7b7 (785c214); menú = la foto (44ab6d7); ZIP nuevo 4,13 MB (06b08c2); publicando en Sandbox sin preguntar",
-      "queda": "Publicación en Sandbox + enlace para jugar; relojes v2 en marcha (publica al terminar sin preguntar)"
-    },
-    {
       "covers": "icono v2 y banner v2 aprobados por Daniel",
       "slug": "luxury-watch-dealer-redesign-v2",
       "status": "EN MARCHA - rediseño total v2 (Tycoon Pop). Ahora mismo: el agente rehace el v2 para clonarlo EXACTO de la opción A elegida (orden de Daniel 20:14, mockups en luxury-watch-dealer/mockups-v2/), fusiónando los 181 relojes + ordenes tuyas de las 19:10 (online + clasificaciónes, inventario con duplicados, vender vs coleccionar); agente ACTIVO (última actividad hace segundos, ~5 h en marcha), sin commitear aún (último commit fa5c635, 17:04; la rama niky/relojes-redesign-a-1611 aún NO existe en GitHub, verificado 22:20 por ls-remote — trabaja en local; en el worktree se ven cambios sin commitear: index.html modificado y arte antiguo de cajas borrado - está sustituyendo el arte). Queda: terminar la fusión y el rediseño exacto, y que lo pruebes. Bloqueado: no. | Daniel eligió la OPCION A \"Tycoon Pop\" (17:19) - rediseño total v2 en marcha en rama niky/relojes-redesign-a-1611 (estilo A en todas las pantallas + zona de cajas + zona de reparación); lista deduplicada TERMINADA 17:51 (verificada): 151 relojes unicos nuevos + 30 actuales = 181 en total (Rolex 34, AP 24, Patek 20, RM 23, Cartier 38, Jacob 16, Vacheron 26 - marca nueva), valor ~$41.633.935, estádos full_set 72 / naked 63 / papers_only 46; 55 duplicados descartados, 19 sin identificar; reglas de monetización 18:25/18:32 y 20 skins mínimo por sección 18:39 pasadas al agente, pendientes de su entrega; Daniel cerro la recogida de fotos en 130 archivos | Paso: Rehaciendo el rediseño v2 para clon exacto de la opción A \"Tycoon Pop\", fusiónando los 181 relojes, sin commit aun | Queda: ~1-2 h (orientativo)",
@@ -79,6 +70,22 @@
       "status": "Sandbox — En vivo",
       "title": "Luxury Watch Dealer",
       "title_es": "El Marchante de Relojes"
+    },
+    {
+      "commit": "06b08c2",
+      "covers": "icono v2 y banner v2 aprobados por Daniel",
+      "objectives": {
+        "ads_per_play": "0/0,30",
+        "avg_time": "0:00/6:00",
+        "plays": "0/100"
+      },
+      "playgama_url": "https://playgama.ai/play/rswbvm34ovfkfo",
+      "published_date": "2026-11-16",
+      "slug": "scribble-striker",
+      "status": "Sandbox — Live (0 de 30 días); campo como antes + menú = la foto; 3 objetivos pendientes",
+      "title": "Scribble Striker",
+      "title_es": "El Marchante de Relojes",
+      "link": "https://playgama.ai/play/d7nbp5h2yci4vs"
     }
   ],
   "rejected": [
@@ -360,9 +367,9 @@
       "title": "Glow Grab!"
     }
   ],
-  "updated_at": "2026-11-16T22:41:40+01:00",
-  "updated_by": "anita",
-  "resumen": "Actualización 22:35 (Anita) — Cyber Runner: verificación TERMINADA, VEREDICTO NO APTO (ronda 1 solo fuente+docs en el repo privado; 9 arreglos para ronda 2); ALERTA: la rama anita/cyber-runner-b ha REAPARECIDO en el repo público @ 243f36b8 (commit 22:24 «5 fixes»), hay que borrarla de nuevo. Grid Defender: rebuild en marcha (bundle 0 bytes 22:38), adaptador online ya escrito y verificado contra wss://online.recurretumulta.online. Slice & Serve: código escribiéndose en local ahora mismo (22:33-22:34), sin dist ni rama aún.",
+  "updated_at": "2026-11-16T22:41:56+01:00",
+  "updated_by": "niky",
+  "resumen": "Actualización 22:41 (Anita) — Cyber Runner: verificación TERMINADA, VEREDICTO NO APTO (ronda 1 solo fuente+docs en el repo privado; 9 arreglos para ronda 2); ALERTA: la rama anita/cyber-runner-b ha REAPARECIDO en el repo público @ 243f36b8 (commit 22:24 «5 fixes»), hay que borrarla de nuevo. Grid Defender: rebuild en marcha (bundle 0 bytes 22:38), adaptador online ya escrito y verificado contra wss://online.recurretumulta.online. Slice & Serve: código escribiéndose en local ahora mismo (22:33-22:34), sin dist ni rama aún.",
   "stats": {
     "updated_at": "2026-11-16T22:08:00+01:00",
     "source": "Panel Playgama verificado 22:08 por Dani: solo Scribble Striker (Draft) y Luxury Watch Dealer (Sandbox, 0 partidas)",
