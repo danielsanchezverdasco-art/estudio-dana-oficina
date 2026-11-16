@@ -90,3 +90,8 @@ Revisor (solo revisa, no modifica). Normas: `comunicacion-ias/REGLAS-ORO-DISENO.
 - **Jugabilidad TODO EN VERDE**: tsc -b 0, vitest 20/20 (con `curve.test.ts` nuevo), sonda central 0 fallos, precheck 0 FAIL, zip 3,52 MB — todo re-verificado hoy.
 - **Curva**: la sonda de navegador perdió el nivel 1 por «stuck» (rival gana) en UNA partida — la simulación headless de 40 juegos/nivel demuestra que es la cola del 10% (L1 humano 36/40, L6 rival 40/40). La curva se mantiene; no se toca nada.
 - **Batería r22b**: 4/5 en rojo por infraestructura (Chromium muerto, servidor caído), no por el juego. **r22c en marcha** para re-confirmar por navegador. PR #6 sigue abierta, a la espera del playtest de Daniel.
+
+## 16/11 ~09:2x — Scribble r2.2: SONDA 1/6 EN VERDE por navegador
+- La r22c completó la sonda antes de morir por SIGTERM del runtime: **nivel 1 humano gana por GOL, nivel 6 rival gana por GOL, 0 errores de consola** (`pruebas/probe_lvl1_lvl6_r22.json`). La curva queda confirmada en el juego real, igual que en la simulación (36/40 y 40/40).
+- El runtime mata las sesiones largas (~70-116 min): servidores, r22c y el vigilante cayeron a la vez con SIGTERM. Los servidores están re-levantados y la **r22d (solo pasos rápidos: corners, capturas, GIF, precheck) está en marcha**. El vigilante anterior tenía además un fallo mío (buscaba === FIN en el log de datos; va en el run log) — corregido.
+- PR #6 actualizada. Nada pendiente del juego: solo la r22d y el playtest de Daniel.
