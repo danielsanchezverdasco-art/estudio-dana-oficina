@@ -72,3 +72,13 @@ Daniky = Niky.
 - **Tests:** `tsc` 0, `vitest` 44/44 (37 base + 3 sim + 3 ads + 1 canAfford).
 - **Cuánto queda (orientativo):** poses I1 (~30 min) → `verify.py` final (~15 min) → zips + entrega (~15 min) → presentar mañana en «Juegos para probar». Playtest humano 3 de 3 = Daniel mañana.
 - **Skills usadas:** phaser-core, ad-break, playtest-report, smoke-testing-web-games, thumbnail-design, localize, game-docs.
+
+## SKY STACK — ronda 2 COMPLETA, APTO PARA PRESENTAR · 16/11/2026, 02:35, hora de Madrid
+- **Revisión cruzada DEVUELTO → TODO CORREGIDO y re-verificado en vivo.** HEAD final `c2fd9ec` en `niky/sky-stack-real-1511` (PR #5, dana-games-juegos).
+- **B1:** gate real de primera partida (`platform.beginRun()` + `logic/ads.ts` testeado): partida 1 = 0 llamadas a `interstitial()`, partida 2 = 1. **ROUND2: PASS** (`scripts/round2-checks.py`: A, B y C en verde).
+- **B2:** portada apaisada rehecha (eslogan íntegro «4 worlds to stack.», sello sin taparlo). **I2:** listing honesto «4 worlds ready now, 32 more coming soon» (EN 102 / ES 91 car.). **I3:** `result.png` fresco desde HEAD + `menu.png` limpio sin dim.
+- **I1 (poses reales):** sirena cheer (brazos en alto) y panic (manos en las mejillas) + minifigura en pánico, integradas y verificadas EN JUEGO (`scripts/deepsea-smoke.py`: `cheer_seen` y `panic_seen` true, 0 errores). Corrección del integrador: los ~578 px magenta de `mascot-idle` son vetas dibujadas en el pelo, no restos de fondo — no se tocan; `tema.json` corregido a «Blue-haired mermaid».
+- **Verificación final:** `tsc` 0, `vitest` 44/44, `verify.py` **PASS (0 fallos)** sobre el HEAD final con las poses nuevas (esquinas 6/6, bucle completo, ratios, 0 errores, 0 peticiones fallidas). Zips Playgama 1.877.132 B / YouTube 1.769.796 B, precheck 0 FAIL (1 WARN conocida). GIF 8,1 s reales (no 9,0).
+- **Entrega:** `entregas/sky-stack-round1/` (25 ficheros: zips, 6 portadas, listing, preview exacta, GIF, capturas frescas, `verify.json`, `informe-round2.md` con todos los hallazgos y los límites honestos).
+- **Pendiente:** playtest humano 3 de 3 = Daniel mañana por la mañana en «Juegos para probar». Sin su OK no se publica nada. FPS y audio reales, pendientes de su móvil.
+- **Skills usadas:** phaser-core, ad-break, playtest-report, smoke-testing-web-games, thumbnail-design, localize, game-docs, asset-audit.
