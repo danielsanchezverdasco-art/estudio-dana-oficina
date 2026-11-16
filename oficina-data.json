@@ -181,9 +181,72 @@
       "slug": "treasure-dive",
       "status": "Aceptado por Daniel 19:05 — en cola, tras Dance Dash",
       "title": "Treasure Dive!"
+    },
+    {
+      "design": "A (calle italiana), B (selva) y C (espacio) son capítulos del juego. Multijugador en vivo (batallas) + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-27-variant-a.png",
+      "slug": "brainrot-battle",
+      "status": "Aceptado por Daniel 19:36 — en cola, tras Treasure Dive",
+      "title": "Brainrot Battle!"
+    },
+    {
+      "design": "A (ciudad neón), B (desierto) y C (nieve) son capítulos. Multijugador en vivo (carreras) + clasificación diaria. Mínimo 20 skins por sección.",
+      "mockup": "idea-28-variant-a.png",
+      "slug": "blocky-race",
+      "status": "Aceptado por Daniel 19:36 — en cola, tras Brainrot Battle",
+      "title": "Blocky Race!"
+    },
+    {
+      "design": "A (huevos dino), B (dragón) y C (alien) son capítulos. Clasificación + batallas de mascotas. Mínimo 20 skins por sección.",
+      "mockup": "idea-30-variant-a.png",
+      "slug": "pet-hatch",
+      "status": "Aceptado por Daniel 19:36 — en cola, tras Blocky Race",
+      "title": "Pet Hatch!"
+    },
+    {
+      "design": "A (mazmorra), B (estación espacial) y C (dulces) son capítulos. Multijugador (carrera por resolver antes) + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-31-variant-a.png",
+      "slug": "arrow-maze",
+      "status": "Aceptado por Daniel 19:36 — en cola, tras Pet Hatch",
+      "title": "Arrow Maze!"
+    },
+    {
+      "design": "A (ciudad superhéroes), B (dulces) y C (fábrica de robots) son capítulos. Multijugador en vivo (carreras) + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-32-variant-a.png",
+      "slug": "gate-dash",
+      "status": "Aceptado por Daniel 19:36 — en cola, tras Arrow Maze",
+      "title": "Gate Dash!"
+    },
+    {
+      "design": "A (gimnasio), B (correr en nieve) y C (baño de hielo) son capítulos. Retos contra amigos + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-33-variant-a.png",
+      "slug": "winter-arc",
+      "status": "Aceptado por Daniel 19:36 — en cola, tras Gate Dash",
+      "title": "Winter Arc!"
+    },
+    {
+      "design": "A (pop star), B (real) y C (ciber) son capítulos. Multijugador (duelo de peinados) + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-34-variant-a.png",
+      "slug": "salon-star",
+      "status": "Aceptado por Daniel 19:36 — en cola, tras Winter Arc",
+      "title": "Salon Star!"
+    },
+    {
+      "design": "A (torre de dulces), B (lava) y C (nubes) son capítulos. Multijugador en vivo (carrera de obstáculos) + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-35-variant-a.png",
+      "slug": "obby-dash",
+      "status": "Aceptado por Daniel 19:36 — en cola, tras Salon Star",
+      "title": "Obby Dash!"
+    },
+    {
+      "design": "A (mudanza), B (estación espacial) y C (barco pirata) son capítulos. Multijugador cooperativo en vivo + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-36-variant-a.png",
+      "slug": "wobbly-crew",
+      "status": "Aceptado por Daniel 19:36 — en cola, tras Obby Dash",
+      "title": "Wobbly Crew!"
     }
   ],
-  "updated_at": "2026-11-16T19:27:30+01:00",
+  "updated_at": "2026-11-16T19:37:30+01:00",
   "updated_by": "Dani (cron 30 min)",
-  "resumen": "Actualización 19:27 — Tanda 5 de ideas: 30/30 previews listas y entregadas a Daniel para elegir. Fútbol Street y relojes v2 siguen en marcha, sin commit aún (~2 h de trabajo). Online: token guardado y servidor desplegado en Cloudflare (v1 al 100 %); falta activar la URL pública (panel de Cloudflare, en marcha)."
+  "resumen": "Actualización 19:37 — Tanda 5: Daniel acepta 9 de 10 (fuera Santa Sprint). Los 9 entran en cola con sus 3 capítulos, 20 skins mínimo, clasificación donde se pueda y multijugador donde encaje. Fútbol Street y relojes v2 siguen en marcha, sin commit aún. Online: token guardado y servidor desplegado en Cloudflare (v1 al 100 %); falta activar la URL pública (panel de Cloudflare, en marcha)."
 }
