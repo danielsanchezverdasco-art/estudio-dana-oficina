@@ -6,22 +6,22 @@
     "status": "3 juegos nuevos en marcha"
   },
   "factory": [
-    "Scribble Striker (fusión de skins verificada, a la espera de la prueba de Daniel; rediseño Street Variante B en marcha)",
-    "Luxury Watch Dealer (rediseño total v2 — opción A «Tycoon Pop» en marcha; lista de precios en marcha)",
-    "Ideas nuevas tanda 2: 3 juegos con 3 variantes de diseño cada uno (9 previews verificadas) terminados, pendientes de que Daniel elija idea + diseño; tanda 1 (Draw Rescue!, Crowd Clash!, Grow Dash!) también pendiente de elección — Daniel preguntó por Crowd Clash! en modo dinosaurio"
+    "Scribble Striker (rediseño Street Variante B en marcha; subida a Playgama en espera del rediseño, por decisión de Daniel 17:53)",
+    "Luxury Watch Dealer (rediseño total v2 — opción A «Tycoon Pop» en marcha; lista deduplicada TERMINADA: 181 relojes, fusión en marcha)",
+    "Sand Jam! ELEGIDO por Daniel (versión A arena como base; B caramelos y C puerto pirata como skins comprables) — en cola tras relojes y fútbol; Crowd Clash! versión menos infantil en marcha (3 variantes maduras del modo dinosaurio); Ideas nuevas tanda 2 terminadas y verificadas, pendientes de elección (Sneak Out!, Teacher Chaos!); tanda 1 (Draw Rescue!, Grow Dash!) también pendiente"
   ],
   "in_progress": [
     {
       "commit": "15409a1",
       "covers": "icono v3 y banner v4 aprobados por Daniel (sin líneas amarillas)",
       "slug": "scribble-striker",
-      "status": "Arreglo 15409a1 en la oficina para probar — Daniel lo prueba antes de publicar; fusión de skins 502c7fe verificada (tsc 0, vitest 60/60, sondas en verde, zip 3,93 MB) y lista, entra en la oficina después de su prueba; rediseño Street (Variante B elegida por Daniel) EN MARCHA desde 17:39, exacto a los mockups; subida a Playgama INTERRUMPIDA 17:23: el formulario no lista Phaser y pide elegir motor (Unity, Construct 3, Cocos, Defold, Godot, GDevelop, Game Maker, Scratch, Plain JS) — pendiente decidir (lo más cercano: Plain JS) para reanudar; 3 variantes estéticas del fútbol entregadas, Daniel elige",
+      "status": "Arreglo 15409a1 en la oficina (su prueba quedó sustituida por la decisión de Daniel 17:53: la subida a Playgama espera al rediseño Street, que ya lleva los arreglos de la 15409a1; Daniel prueba la Street directamente cuando esté y se sube esa; motor ya decidido: Plain JS); fusión de skins 502c7fe verificada (tsc 0, vitest 60/60, sondas en verde, zip 3,93 MB); rediseño Street (Variante B elegida por Daniel) EN MARCHA desde 17:26, exacto a los mockups, skins intactas; avisar a Daniel cuando esté listo",
       "title": "Scribble Striker"
     },
     {
       "covers": "icono v2 y banner v2 aprobados por Daniel",
       "slug": "luxury-watch-dealer-redesign-v2",
-      "status": "Daniel eligió la OPCIÓN A «Tycoon Pop» (17:19) — rediseño total v2 en marcha en rama niky/relojes-redesign-a-1611 (estilo A en todas las pantallas + zona de cajas + zona de reparación); lista deduplicada con precios EN MARCHA desde 17:36 (camino crítico para fusionar el juego grande); Daniel cerró la recogida de fotos en 130 archivos; catálogo a 60 relojes: 30 nuevos en marcha con fidelidad exacta al modelo real y estado full set / naked / papers only",
+      "status": "Daniel eligió la OPCIÓN A «Tycoon Pop» (17:19) — rediseño total v2 en marcha en rama niky/relojes-redesign-a-1611 (estilo A en todas las pantallas + zona de cajas + zona de reparación); lista deduplicada TERMINADA 17:51 (verificada): 151 relojes únicos nuevos + 30 actuales = 181 en total (Rolex 34, AP 24, Patek 20, RM 23, Cartier 38, Jacob 16, Vacheron 26 — marca nueva), valor ≈ $41.633.935, estados full_set 72 / naked 63 / papers_only 46; 55 duplicados descartados, 19 sin identificar; fusión de los 181 en el rediseño v2 EN MARCHA (pasada al agente de rediseño); Daniel cerró la recogida de fotos en 130 archivos",
       "title": "Luxury Watch Dealer — rediseño total v2"
     }
   ],
@@ -55,6 +55,6 @@
     }
   ],
   "to_test": [],
-  "updated_at": "2026-11-16T17:48:00+01:00",
+  "updated_at": "2026-11-16T17:55:00+01:00",
   "updated_by": "Niky (Dani)"
 }
