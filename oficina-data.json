@@ -14,7 +14,7 @@
   "factory": [
     "Anita: Cyber Runner ronda 1 VERIFICADA 22:29 → VEREDICTO NO APTO (FAIL): en dana-games-juegos (rama anita/cyber-runner-b @ 08abde42) solo hay fuente + 6 docs; NO hay assets, build, zip, covers ni GIF en el repo; 1 bug funcional (franja TOP 3 en juego tras SKINS/RANKING), 4 desviaciones de HUD, GIF inválido, cover 800×800 defectuosa; 9 arreglos para la ronda 2 (informe-verificacion-ronda1.md); resto bloqueado por Chromium muerto. ALERTA 22:35: la rama anita/cyber-runner-b HA REAPARECIDO en estudio-dana-oficina (repo público) @ 243f36b8, commit 22:24 CET «5 fixes», después del borrado verificado por Niky 22:20 — BORRADA DE NUEVO 22:45 (commit 8eb13e9; verificado 22:48 por ls-remote: ya no existe en el repo público). Grid Defender: rebuild en marcha 22:38 (dist/ vacío, bundle a 0 bytes, sin index.html); informe-ronda1.md 22:30: adaptador online RecurretumultaOnlineAdapter escrito y verificado contra wss://online.recurretumulta.online; ZIP pendiente; smoke bloqueado por Chromium. Slice & Serve: Daniel ELIGIÓ la variante B (arcade bold) 22:03 y ordenó VERSIÓN EXACTA tal cual está en las fotos (clon exacto); construcción ACTIVA en local 22:33-22:34 (src/scenes, online, skins, ads, leaderboard...), sin dist ni rama aún; la barra azul del menú B aloja la franja WORLD TOP 3 (imagen a tamaño completo) y las guías de corte siguen las fotos (pepino rejilla, limón anillo); normas nuevas 20:27-20:34 para TODOS los juegos: clasificación mundial POR METROS y top 3 con nombre y skins visibles en el menú principal.",
     "Scribble Striker (rediseño Street Variante B) PUBLICADO en Sandbox 22:41 — https://playgama.ai/play/d7nbp5h2yci4vs (build 06b08c2, 4.129.199 B; Sandbox Live 0 de 30 días; categoría Puzzle). Verificado cargando: menú Street (GARABATO GOLEADOR, pizarra con celo) + campo con porterías normales de marco y red; online en «próximamente» hasta que Daniel pruebe la Street. Campo revertido a 62ee7b7 por orden de Daniel 22:18 (sin paredes duplicadas); menú ES la foto (44ab6d7). Portada vertical 1080×1920 creada 22:36 desde el arte del menú — Daniel aún no la ha visto, enseñársela por la mañana.",
-    "Luxury Watch Dealer (rediseño total v2 — opción A «Tycoon Pop») ENTREGADO y VERIFICADO 22:47: commits 6bb266b + b45e886 en niky/relojes-redesign-a-1611 (rama en GitHub, ls-remote OK); 180 relojes únicos fusionados (la lista decía 181; duplicado RM 052 Skull foto 41), valor ~$40.511.055; 8 sistemas, skins 60, clasificaciones inventario + patrimonio; tsc 0, vitest 111/111, build:qa 0, sonda 50/50; ZIP 3.609.229 B. PUBLICANDO en Sandbox sin preguntar (orden Daniel 22:18), sustituyendo la build 7cd2073. HONESTO: menú y tienda son la opción A en composición, pero fondos y marchante solo parecidos y el título es fuente, no recorte de la foto — avisar a Daniel por la mañana.",
+    "Luxury Watch Dealer (rediseño total v2 — opción A «Tycoon Pop») ENTREGADO y VERIFICADO 22:47: commits 6bb266b + b45e886 en niky/relojes-redesign-a-1611 (rama en GitHub, ls-remote OK); 180 relojes únicos fusionados (la lista decía 181; duplicado RM 052 Skull foto 41), valor ~$40.511.055; 8 sistemas, skins 60, clasificaciones inventario + patrimonio; tsc 0, vitest 111/111, build:qa 0, sonda 50/50; ZIP 3.609.229 B. PUBLICADO en Sandbox ~22:52 — https://playgama.ai/play/rswbvm34ovfkfo (build 3.609.229 B sustituyendo la 7cd2073, verificada cargando en Sandbox; orden Daniel 22:18, sin preguntar). HONESTO: menú y tienda son la opción A en composición, pero fondos y marchante solo parecidos y el título es fuente, no recorte de la foto — avisar a Daniel por la mañana.",
     "Sand Jam! ELEGIDO por Daniel (versión A arena como base; B caramelos y C puerto pirata como skins comprables) — en cola tras relojes y fútbol; Laser Maze! ELEGIDO por Daniel 18:12 (variante B templo antiguo como base; A laboratorio y C estáción espacial como capítulos) — en cola tras Crowd Clash; Car Wash Chaos! ELEGIDO por Daniel 18:18 (variante B baño de máscotas + modo C limpiar casas, dos modos en el mismo juego) — en cola tras Laser Maze; Crowd Clash! variante B elegida, en cola tras Sneak Out; tanda 3 ELEGIDA ENTERA por Daniel 18:21 («quiero todos para la lista, cada variante A, B y C son capítulos»): Diggy Dash!, Garden Dash!, Marble Rush!, Slingshot Smásh! y Pet Vet! — en cola tras Car Wash Chaos, en ese orden; tanda 2 restánte (Fish Frenzy!, Hoop Flick!, Find It!) y tanda 1 (Draw Rescue!, Grow Dash!) pendientes de elección; tanda 4: 8 de 10 aceptadas por Daniel 19:05 (22 Ghost Hunt y 25 Potion Pop descartadas por Daniel): Rocket Rescue!, Monster Merge!, Coin Castle!, Burger Boss!, Snowball Fight!, Train Rush!, Dance Dash! y Treasure Dive! — cada una con sus 3 variantes como capítulos — en cola tras Pet Vet, en ese orden Tanda 5 COMPLETADA 19:24 (30/30 previews) y ACEPTADA 9/10 por Daniel 19:36 (fuera Santa Sprint, idea 29): Brainrot Battle!, Blocky Race!, Pet Hatch!, Arrow Maze!, Gate Dash!, Winter Arc!, Salon Star!, Obby Dash! y Wobbly Crew! — en cola tras Treasure Dive, cada una con sus 3 variantes como capítulos. Tanda 6 ENTREGADA 19:48 (ideas 37–46, multijugador novedoso, 30/30 previews verificadas en ideas-nuevas-1611g/) — pendiente elección de Daniel. Botones de la oficina en rediseño (orden Daniel 19:41–19:42, agente en marcha).",
     "3 conceptos NUEVOS de juego con historia (pedido Daniel 21:37, entregados en ideas-nuevas-1611h/MANIFIESTO.md): Globe Tales!, The Lost Lighthouse! y Spark Makers! (solitario + cooperativo, PEGI 3, vector animado) — RECHAZADOS por Daniel 22:00 («No quiero esas ideas»). No se vuelven a proponer."
   ],
@@ -362,17 +362,17 @@
       "title": "Glow Grab!"
     }
   ],
-  "updated_at": "2026-11-16T22:52:42+01:00",
+  "updated_at": "2026-11-16T23:23:07+01:00",
   "updated_by": "niky",
-  "resumen": "Actualización 22:52 — ¡FÚTBOL PUBLICADO en Sandbox! https://playgama.ai/play/d7nbp5h2yci4vs (menú Street + campo con porterías normales, verificado). RELOJES v2 ENTREGADO y verificado 22:47 (180 relojes, 8 sistemas, checks 0 errores, ZIP 3,6 MB) y PUBLICÁNDOSE en Sandbox ahora mismo, sin preguntar; el enlace llega en ~minutos. Cyber Runner ronda 1 NO APTA (FAIL 22:29, 9 arreglos para la ronda 2); su rama reaparecida en el repo público ya se borró de nuevo 22:45. Grid: rebuild en marcha, online verificado. Slice: construcción en marcha (variante B, clon exacto).",
+  "resumen": "Actualización 23:23 — LOS DOS JUEGOS PUBLICADOS en Sandbox y listos para probar mañana: Scribble Striker https://playgama.ai/play/d7nbp5h2yci4vs (publicado 22:41, verificado) y Luxury Watch Dealer v2 https://playgama.ai/play/rswbvm34ovfkfo (publicado ~22:52, verificado). Sin cambios desde las 22:52: ningún agente de Dana Games en marcha; Anita igual — Cyber Runner ronda 2 con los 9 arreglos, Grid en rebuild, Slice construyéndose (variante B, clon exacto). Daniel se fue a dormir ~22:18; la actualización del chat queda para la mañana.",
   "stats": {
-    "updated_at": "2026-11-16T22:08:00+01:00",
-    "source": "Panel Playgama verificado 22:08 por Dani: solo Scribble Striker (Draft) y Luxury Watch Dealer (Sandbox, 0 partidas)",
+    "updated_at": "2026-11-16T23:23:07+01:00",
+    "source": "Sandbox verificado 22:41 (fútbol) y ~22:52 (relojes v2) por las tareas de publicación: ambos Live, 0 partidas",
     "general": {
       "dinero_ganado_total_usd": 0,
       "partidas_totales": 0,
       "anuncios_vistos_totales": 0,
-      "juegos_publicados": 1,
+      "juegos_publicados": 2,
       "suscriptores_youtube": 2734
     },
     "por_juego": [
@@ -380,6 +380,15 @@
         "slug": "luxury-watch-dealer",
         "title": "Luxury Watch Dealer",
         "estado": "Sandbox (publicado hoy ~16:16)",
+        "partidas": 0,
+        "tiempo_medio": "—",
+        "anuncios_por_partida": 0,
+        "dinero_usd": 0
+      },
+      {
+        "slug": "scribble-striker",
+        "title": "Scribble Striker",
+        "estado": "Sandbox (publicado hoy 22:41)",
         "partidas": 0,
         "tiempo_medio": "—",
         "anuncios_por_partida": 0,
