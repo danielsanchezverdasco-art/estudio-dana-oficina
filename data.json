@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16T09:10:08+01:00",
+  "updatedAt": "2026-11-16T09:58:18+01:00",
   "kpis": {
     "facturacionTotal": null,
     "facturacionMes": null,
@@ -10,7 +10,7 @@
     "publicadosMeta": 200,
     "shortsPublicados": 0,
     "vistas": null,
-    "enDesarrollo": 4,
+    "enDesarrollo": 6,
     "enCola": 3
   },
   "juegos": [
@@ -64,6 +64,24 @@
       "titulo": "Agujero Tragón en la Cocina",
       "estado": "desarrollo",
       "portada": "cover.agujero-tragon-cocina",
+      "facturacion": null,
+      "partidas": null,
+      "vistas": null
+    },
+    {
+      "id": "puente-del-repartidor",
+      "titulo": "Dibuja el Puente del Repartidor",
+      "estado": "desarrollo",
+      "portada": "cover.puente-del-repartidor",
+      "facturacion": null,
+      "partidas": null,
+      "vistas": null
+    },
+    {
+      "id": "cinta-sushi-glotona",
+      "titulo": "Cinta de Sushi Glotona",
+      "estado": "desarrollo",
+      "portada": "cover.cinta-sushi-glotona",
       "facturacion": null,
       "partidas": null,
       "vistas": null
@@ -833,6 +851,18 @@
     {
       "equipo": "Agujero Tragón en la Cocina",
       "tarea": "Ronda 1 lista para probar: 30 niveles, PR #76, zip jugable (issue #78).",
+      "estado": "en curso",
+      "desde": null
+    },
+    {
+      "equipo": "Dibuja el Puente del Repartidor",
+      "tarea": "Ronda 1 lista para probar: 30 niveles, PR #72, zip jugable.",
+      "estado": "en curso",
+      "desde": null
+    },
+    {
+      "equipo": "Cinta de Sushi Glotona",
+      "tarea": "Ronda 1 lista para probar: 30 niveles, PR #77, zip jugable.",
       "estado": "en curso",
       "desde": null
     },
