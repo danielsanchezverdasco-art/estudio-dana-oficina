@@ -360,42 +360,24 @@
       "title": "Glow Grab!"
     }
   ],
-  "updated_at": "2026-11-16T22:03:49+01:00",
+  "updated_at": "2026-11-16T22:08:52+01:00",
   "updated_by": "niky",
   "resumen": "Actualización 21:51 (corregida por Niky: la de 21:47 llevaba datos viejos) — Fútbol Street: laterales TERMINADOS y guardados (commit 62ee7b7, 21:50); Dani los vio: parecido, no exacto (laterales como tira fina, cielo apenas una rendija). Falta el MENÚ exacto (agente en marcha). ZIP nuevo 4,1 MB guardado; Playgama sigue con el ZIP viejo, pendiente del OK de Daniel. Relojes v2: EN MARCHA — clon exacto de la opción A «Tycoon Pop» con los 181 relojes, sin commit aún (último fa5c635, 17:04); queda ~1-2 h (orientativo). 3 conceptos nuevos (Globe Tales!, The Lost Lighthouse!, Spark Makers!) RECHAZADOS por Daniel 22:00 — no se proponen más. Cyber Runner (Anita): ronda 1 en GitHub (c187ad85) PERO en el repo equivocado (estudio-dana-oficina, público, en vez de dana-games-juegos) — pendiente de verificar y mover. Grid Defender (Anita): código avanzando (sim.ts 21:29, data.ts 21:36, bundle de 0 bytes, build en curso); URL del servidor ya pasada (20:57), pendiente de que Anita la use. Online EN VIVO (verificado 21:47).",
   "stats": {
-    "updated_at": "2026-11-16T11:00:00+01:00",
-    "source": "Panel Playgama, métricas 11:00 del 16/11/2026 (verificado por Dani)",
+    "updated_at": "2026-11-16T22:08:00+01:00",
+    "source": "Panel Playgama verificado 22:08 por Dani: solo Scribble Striker (Draft) y Luxury Watch Dealer (Sandbox, 0 partidas)",
     "general": {
       "dinero_ganado_total_usd": 0,
-      "partidas_totales": 2,
-      "anuncios_vistos_totales": 2,
+      "partidas_totales": 0,
+      "anuncios_vistos_totales": 0,
       "juegos_publicados": 1,
       "suscriptores_youtube": 2734
     },
     "por_juego": [
       {
-        "slug": "moving-mayhem",
-        "title": "Moving Mayhem",
-        "estado": "Sandbox",
-        "partidas": 2,
-        "tiempo_medio": "5:11",
-        "anuncios_por_partida": 1.0,
-        "dinero_usd": 0
-      },
-      {
         "slug": "luxury-watch-dealer",
         "title": "Luxury Watch Dealer",
         "estado": "Sandbox (publicado hoy ~16:16)",
-        "partidas": 0,
-        "tiempo_medio": "—",
-        "anuncios_por_partida": 0,
-        "dinero_usd": 0
-      },
-      {
-        "slug": "metro-nightmare",
-        "title": "Metro Nightmare",
-        "estado": "Sandbox",
         "partidas": 0,
         "tiempo_medio": "—",
         "anuncios_por_partida": 0,
@@ -421,6 +403,6 @@
         "tier3": "$0,50–2"
       }
     },
-    "nota": "Solo juegos con datos reales de Playgama, ordenados por visitas (más visitas primero; en empate, el más nuevo primero). Los juegos aún no publicados no aparecen aquí."
+    "nota": "Solo juegos con datos reales de Playgama, ordenados por visitas (más visitas primero; en empate, el más nuevo primero). Los juegos aún no publicados no aparecen aquí. Moving Mayhem y Metro Nightmare ya no están en la cuenta de Playgama (verificado 22:08): solo quedan Scribble Striker y Luxury Watch Dealer."
   }
 }
