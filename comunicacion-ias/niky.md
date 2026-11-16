@@ -64,3 +64,17 @@ Daniky = Niky.
 - **Pedido de Daniel (08:17):** «Apunta esas reglas de oro: mucha calidad, nada de dibujitos de niños pequeños. Quiero que seamos los mejores en diseño y jugabilidad» + «Déjale a Anita escritas las nuevas normas para crear los diseños y todo de los juegos próximos».
 - **Documento:** `comunicacion-ias/REGLAS-ORO-DISENO.md` — las 3 normas como ley del estudio, para TODOS los juegos presentes y próximos, sin excepción: (1) Directiva principal de estilo, 100% «Videojuego Animado», cero fotorealismo, 100% arte vectorial, calidad AAA; (2) adaptado a la jugabilidad, perspectivas bien hechas, nada de chapuzas, assets creados para ese juego y cómo se mueve; (3) mucha calidad, nada de dibujitos de niños pequeños, objetivo ser los mejores en diseño y jugabilidad.
 - **Rama:** `niky/reglas-oro-diseno-1611`, worktree `~/workspace/wt-reglas-oro-diseno`. Push + PR en marcha.
+
+## 16/11 ~08:23 — Scribble r2.2: PR #6 ABIERTA + assets revisados (todo vector)
+- **PR #6**: https://github.com/danielsanchezverdasco-art/dana-games-juegos/pull/6 — rama `niky/scribble-striker-r2.2-1611`, commit `6d389a8`. Zip jugable 3,52 MB dentro de la rama. Daniel prueba la versión final (puerta de producción).
+- **Verificado para la PR**: tsc -b 0, vitest 18/18, sonda central v2 0 fallos (7 direcciones), campo medido 364x728 CSS (1,62x la r2.1), tutorial con mano + salto, sin diagonales amarillas, precheck 0 FAIL, zip 3,52 MB, 0 `window.__` en el bundle.
+- **Revisión de assets (Daniel 08:20, los 7 uno a uno)**: hierba, balón, tira central, burst, tut-draw/goal/bounce — TODO cómic vectorial (colores planos, bordes negros gruesos, semitono, cel-shading), cero foto, cero realismo, cada uno hecho para este juego y su jugada. NADA que rehacer.
+- **Batería**: el playtest10 de 10 niveles se paró a los 56 min (muro de velocidad de SwiftShader, 4-10 s por interacción — NO es un fallo del juego; el tutorial se descarta bien, medido en diagnosis). Sigue en marcha la sonda de curva niveles 1/6 + corners + capturas + GIF; resultados al terminar.
+- **Límite honesto**: el 2,0x literal no cabe en 390x844 con porterías; 1,62x + hierba a sangre es el máximo con celdas tocables.
+
+## 16/11 ~08:26 — Scribble r2.2: Daniel 08:25 confirma el estilo (torre = referencia)
+- Daniel aprobó la hoja de assets de la torre: ASÍ quiere los diseños en todos los juegos — cada juego con su estilo diferente, nunca realismo ni fotos. La r2.2 ya va en esa línea (cómic vectorial propio del fútbol): se sigue así, sin cambios. Dejado por escrito en el informe r2.2 §6 y ESTADO.md (commit `2dac23b` en la PR #6).
+- **Batería: la primera murió con el runtime (~08:21)** — la sonda 1/6 quedó sin EXIT ni JSON y los servidores QA cayeron. Servidores re-levantados (200/200) y **batería reanudada (r22b) en marcha desde las 08:26 CET**: sonda 1/6 → corners → capturas → GIF → precheck. El playtest10 NO se repite (parado a los 56 min por el muro SwiftShader, no por fallo del juego).
+
+## 16/11 ~08:27 — Scribble r2.2: aclaración de estilo de Daniel (08:26)
+- Valen muchos estilos (LEGO, Simpson, Minecraft…) siempre que sean vector; hay que elegir el que mejor quede con cada juego. Para Scribble el elegido es el cómic vectorial: se sigue así, sin cambios. Registrado en el informe r2.2 §6 y ESTADO.md (PR #6).
