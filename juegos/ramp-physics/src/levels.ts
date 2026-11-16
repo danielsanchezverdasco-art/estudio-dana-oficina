@@ -247,12 +247,21 @@ export const LEVELS: LevelDef[] = [
     // A wall blocks the direct steel ramp; only an elastic bounce clears
     // it. Steel ramp down, elastic wedge at the bottom, bounce up to the
     // goal platform (same bounce budget as r1 L8).
+    // r2 fix 3 (run 7, UNVERIFIED — Chromium died before the harness):
+    // the recorded solution lost: bounce apex ~y428 vs wall top y430
+    // (ground body is top-left, so wall(250,430,12,30) tops at 430, not
+    // 415 as run 6 assumed) and the old wedge tilted down-right, so its
+    // normal pushed the dummy up-LEFT, away from the goal. Fix: steeper
+    // steel ramp (92,344)->(152,420), 51.7 deg, for more impact speed,
+    // and the wedge REVERSED to tilt up-right (145,535)->(235,520) so
+    // the bounce normal points up-RIGHT, over the wall onto the platform.
+    // Ink 97+91=188 <= par 195 (3 stars preserved, 96% of par).
     ground: [plat(0, 340, 100), plat(250, 460, 140), wall(250, 430, 12, 30)],
     fans: [], dynamite: [], portals: [],
     coins: [{ x: 300, y: 400 }],
     solution: [
-      S([[92, 344], [150, 402]], 'standard'),
-      S([[145, 520], [235, 535]], 'elastic'),
+      S([[92, 344], [152, 420]], 'standard'),
+      S([[145, 535], [235, 520]], 'elastic'),
     ],
   },
   {
