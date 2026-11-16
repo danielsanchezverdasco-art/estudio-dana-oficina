@@ -8,7 +8,7 @@
   "factory": [
     "Scribble Striker (rediseño Street Variante B en marcha + récord de combos y liga por copas (orden Daniel 18:10, agente en marcha, sin commit aún); subida a Playgama en espera del rediseño, por decisión de Daniel 17:53; online: Render descartado por Daniel 18:15 — no quiere meter tarjeta — buscando host gratuito sin tarjeta, también en GitHub, agente lanzado 18:15/18:17; la liga queda en «próximamente» hasta tener servidor)",
     "Luxury Watch Dealer (rediseño total v2 — opción A «Tycoon Pop» en marcha; lista deduplicada TERMINADA: 181 relojes, fusión en marcha)",
-    "Sand Jam! ELEGIDO por Daniel (versión A arena como base; B caramelos y C puerto pirata como skins comprables) — en cola tras relojes y fútbol; Laser Maze! ELEGIDO por Daniel 18:12 (variante B templo antiguo como base; A laboratorio y C estación espacial como capítulos) — en cola tras Crowd Clash; Car Wash Chaos! ELEGIDO por Daniel 18:18 (variante B baño de mascotas + modo C limpiar casas, dos modos en el mismo juego) — en cola tras Laser Maze; Crowd Clash! variante B elegida, en cola tras Sneak Out; tanda 3 ELEGIDA ENTERA por Daniel 18:21 («quiero todos para la lista, cada variante A, B y C son capítulos»): Diggy Dash!, Garden Dash!, Marble Rush!, Slingshot Smash! y Pet Vet! — en cola tras Car Wash Chaos, en ese orden; tanda 2 restante (Fish Frenzy!, Hoop Flick!, Find It!) y tanda 1 (Draw Rescue!, Grow Dash!) pendientes de elección; tanda 4 ELEGIDA ENTERA por Daniel 19:05 («me encantan todas»): Rocket Rescue!, Monster Merge!, Coin Castle!, Burger Boss!, Snowball Fight!, Ghost Hunt!, Train Rush!, Dance Dash!, Potion Pop! y Treasure Dive! — cada una con sus 3 variantes como capítulos — en cola tras Pet Vet, en ese orden"
+    "Sand Jam! ELEGIDO por Daniel (versión A arena como base; B caramelos y C puerto pirata como skins comprables) — en cola tras relojes y fútbol; Laser Maze! ELEGIDO por Daniel 18:12 (variante B templo antiguo como base; A laboratorio y C estación espacial como capítulos) — en cola tras Crowd Clash; Car Wash Chaos! ELEGIDO por Daniel 18:18 (variante B baño de mascotas + modo C limpiar casas, dos modos en el mismo juego) — en cola tras Laser Maze; Crowd Clash! variante B elegida, en cola tras Sneak Out; tanda 3 ELEGIDA ENTERA por Daniel 18:21 («quiero todos para la lista, cada variante A, B y C son capítulos»): Diggy Dash!, Garden Dash!, Marble Rush!, Slingshot Smash! y Pet Vet! — en cola tras Car Wash Chaos, en ese orden; tanda 2 restante (Fish Frenzy!, Hoop Flick!, Find It!) y tanda 1 (Draw Rescue!, Grow Dash!) pendientes de elección; tanda 4: 8 de 10 aceptadas por Daniel 19:05 (22 Ghost Hunt y 25 Potion Pop descartadas por Daniel): Rocket Rescue!, Monster Merge!, Coin Castle!, Burger Boss!, Snowball Fight!, Train Rush!, Dance Dash! y Treasure Dive! — cada una con sus 3 variantes como capítulos — en cola tras Pet Vet, en ese orden"
   ],
   "in_progress": [
     {
@@ -162,17 +162,10 @@
       "title": "Snowball Fight!"
     },
     {
-      "design": "A (Mansión), B (Caramelos) y C (Medusas) son capítulos del juego",
-      "mockup": "idea-22-variant-a.png",
-      "slug": "ghost-hunt",
-      "status": "Aceptado por Daniel 19:05 — en cola, tras Snowball Fight",
-      "title": "Ghost Hunt!"
-    },
-    {
       "design": "A (Oeste), B (Metro futurista) y C (Juguete de madera) son capítulos del juego",
       "mockup": "idea-23-variant-a.png",
       "slug": "train-rush",
-      "status": "Aceptado por Daniel 19:05 — en cola, tras Ghost Hunt",
+      "status": "Aceptado por Daniel 19:05 — en cola, tras Snowball Fight",
       "title": "Train Rush!"
     },
     {
@@ -183,21 +176,14 @@
       "title": "Dance Dash!"
     },
     {
-      "design": "A (Mago), B (Dulces) y C (Slime) son capítulos del juego",
-      "mockup": "idea-25-variant-a.png",
-      "slug": "potion-pop",
-      "status": "Aceptado por Daniel 19:05 — en cola, tras Dance Dash",
-      "title": "Potion Pop!"
-    },
-    {
       "design": "A (Arrecife), B (Barco pirata) y C (Cueva de hielo) son capítulos del juego",
       "mockup": "idea-26-variant-a.png",
       "slug": "treasure-dive",
-      "status": "Aceptado por Daniel 19:05 — en cola, tras Potion Pop",
+      "status": "Aceptado por Daniel 19:05 — en cola, tras Dance Dash",
       "title": "Treasure Dive!"
     }
   ],
-  "updated_at": "2026-11-16T19:06:31+01:00",
+  "updated_at": "2026-11-16T19:07:11+01:00",
   "updated_by": "Niky (Dani)",
-  "resumen": "Actualización 19:06 — Tanda 4 aceptada ENTERA por Daniel: 10 juegos nuevos (Rocket Rescue!, Monster Merge!, Coin Castle!, Burger Boss!, Snowball Fight!, Ghost Hunt!, Train Rush!, Dance Dash!, Potion Pop!, Treasure Dive!), cada uno con sus 3 variantes como capítulos, en cola tras Pet Vet. Fútbol Street y relojes v2 siguen en marcha; online: Cloudflare Workers elegido (gratis, sin tarjeta), falta el token para desplegar."
+  "resumen": "Actualización 19:07 — Tanda 4: 8 de 10 en la lista (Rocket Rescue!, Monster Merge!, Coin Castle!, Burger Boss!, Snowball Fight!, Train Rush!, Dance Dash!, Treasure Dive!); 22 Ghost Hunt y 25 Potion Pop descartadas por Daniel. Fútbol Street y relojes v2 siguen en marcha; online: Cloudflare Workers elegido (gratis, sin tarjeta), falta el token para desplegar."
 }
