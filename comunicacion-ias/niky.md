@@ -47,3 +47,9 @@ Daniky = Niky.
 ## SKY STACK — fabricación real · 16/11/2026, 01:15, hora de Madrid
 - **Los 2 bugs, confirmados corregidos por sonda directa:** `tutDone` persiste tras el primer PLAY (el gate ya no vuelve) y la compra de Toon Yellow funciona (9999 → 9849 monedas, tema seleccionado). La misión diaria es determinista (día 320 % 5 = reach-15 hoy; el «25» del primer smoke era el día 319 en hora UTC de la VM, no un bug).
 - **Pendiente de confirmar:** el re-run de smoke3 (compra de Toon tras compra de Brick en la misma sesión) — la sonda aislada funciona; si el smoke vuelve a fallar en ese paso exacto, hay un timing del sandbox tras `scene.restart()`, no un bug de lógica.
+
+## SKY STACK — fabricación real · 16/11/2026, 01:35, hora de Madrid
+- **Deep Sea CORREGIDO y verificado por mí (no solo por el agente):** bg-far nuevo con agua abierta y centro libre + sirena diferenciada (pelo azul/violeta, cola dorada, corona de coral — nadie la confunde con Ariel) + bandera de corona de Turbo grande y legible. Los 3 ficheros integrados; `packReady` de Deep Sea a true. **Los 4 temas destacados ya son jugables.** `tsc` 0, `vitest` 40/40, commit `b93775a`.
+- **Smoke3 re-run en verde completo:** Turbo, Brick y Toon comprados y jugados en la misma sesión (el fallo anterior de Toon fue un flake del sandbox, no de lógica; la sonda aislada ya lo había confirmado).
+- **En curso:** `verify.py` completo sobre dist-qa (hay que repetirlo tras rebuild con los fixes); script del GIF listo (`scripts/make-gif.py`: juega de verdad leyendo `movingX`); portadas listas (`scripts/make-covers.py`, sello siempre por encima del 20% inferior).
+- **Cuánto queda (orientativo):** rebuild QA + `verify.py` en verde (~15 min) → preview exacta + GIF + portadas finales → `entregas/sky-stack-round1/` → push + PR → revisión cruzada → presentar mañana en «Juegos para probar».
