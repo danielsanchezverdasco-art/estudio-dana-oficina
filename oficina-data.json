@@ -8,7 +8,7 @@
   "factory": [
     "Scribble Striker (rediseño Street Variante B en marcha + récord de combos y liga por copas (orden Daniel 18:10, agente en marcha, sin commit aún); subida a Playgama en espera del rediseño, por decisión de Daniel 17:53; online: Render descartado por Daniel 18:15 — no quiere meter tarjeta — buscando host gratuito sin tarjeta, también en GitHub, agente lanzado 18:15/18:17; la liga queda en «próximamente» hasta tener servidor)",
     "Luxury Watch Dealer (rediseño total v2 — opción A «Tycoon Pop» en marcha; lista deduplicada TERMINADA: 181 relojes, fusión en marcha)",
-    "Sand Jam! ELEGIDO por Daniel (versión A arena como base; B caramelos y C puerto pirata como skins comprables) — en cola tras relojes y fútbol; Laser Maze! ELEGIDO por Daniel 18:12 (variante B templo antiguo como base; A laboratorio y C estación espacial como capítulos) — en cola tras Crowd Clash; Car Wash Chaos! ELEGIDO por Daniel 18:18 (variante B baño de mascotas + modo C limpiar casas, dos modos en el mismo juego) — en cola tras Laser Maze; Crowd Clash! variante B elegida, en cola tras Sneak Out; ideas nuevas tanda 3 presentadas 18:18 (Diggy Dash!, Garden Dash!, Marble Rush!, Slingshot Smash!, Pet Vet!), pendientes de elección; tanda 2 restante (Fish Frenzy!, Hoop Flick!, Find It!) y tanda 1 (Draw Rescue!, Grow Dash!) también pendientes"
+    "Sand Jam! ELEGIDO por Daniel (versión A arena como base; B caramelos y C puerto pirata como skins comprables) — en cola tras relojes y fútbol; Laser Maze! ELEGIDO por Daniel 18:12 (variante B templo antiguo como base; A laboratorio y C estación espacial como capítulos) — en cola tras Crowd Clash; Car Wash Chaos! ELEGIDO por Daniel 18:18 (variante B baño de mascotas + modo C limpiar casas, dos modos en el mismo juego) — en cola tras Laser Maze; Crowd Clash! variante B elegida, en cola tras Sneak Out; tanda 3 ELEGIDA ENTERA por Daniel 18:21 («quiero todos para la lista, cada variante A, B y C son capítulos»): Diggy Dash!, Garden Dash!, Marble Rush!, Slingshot Smash! y Pet Vet! — en cola tras Car Wash Chaos, en ese orden; tanda 2 restante (Fish Frenzy!, Hoop Flick!, Find It!) y tanda 1 (Draw Rescue!, Grow Dash!) pendientes de elección"
   ],
   "in_progress": [
     {
@@ -90,8 +90,43 @@
       "slug": "car-wash-chaos",
       "status": "Aceptado por Daniel 18:18 — en cola, tras Laser Maze",
       "title": "Car Wash Chaos!"
+    },
+    {
+      "design": "A (mina de oro), B (dinosaurios) y C (Luna) son capítulos del juego",
+      "mockup": "idea-12-variant-a.png",
+      "slug": "diggy-dash",
+      "status": "Aceptado por Daniel 18:21 — en cola, tras Car Wash Chaos",
+      "title": "Diggy Dash!"
+    },
+    {
+      "design": "A (flores), B (huerto) y C (cactus) son capítulos del juego",
+      "mockup": "idea-13-variant-a.png",
+      "slug": "garden-dash",
+      "status": "Aceptado por Daniel 18:21 — en cola, tras Diggy Dash",
+      "title": "Garden Dash!"
+    },
+    {
+      "design": "A (pista de madera), B (bola de nieve) y C (lava) son capítulos del juego",
+      "mockup": "idea-14-variant-a.png",
+      "slug": "marble-rush",
+      "status": "Aceptado por Daniel 18:21 — en cola, tras Garden Dash",
+      "title": "Marble Rush!"
+    },
+    {
+      "design": "A (castillo), B (bolas de nieve) y C (espacio) son capítulos del juego",
+      "mockup": "idea-15-variant-a.png",
+      "slug": "slingshot-smash",
+      "status": "Aceptado por Daniel 18:21 — en cola, tras Marble Rush",
+      "title": "Slingshot Smash!"
+    },
+    {
+      "design": "A (clínica), B (refugio) y C (zoo) son capítulos del juego",
+      "mockup": "idea-16-variant-a.png",
+      "slug": "pet-vet",
+      "status": "Aceptado por Daniel 18:21 — en cola, tras Slingshot Smash",
+      "title": "Pet Vet!"
     }
   ],
-  "updated_at": "2026-11-16T18:21:00+01:00",
+  "updated_at": "2026-11-16T18:23:00+01:00",
   "updated_by": "Niky (Dani)"
 }
