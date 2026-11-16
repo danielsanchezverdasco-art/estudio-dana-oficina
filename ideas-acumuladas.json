@@ -44,7 +44,20 @@
     "https://x.com/i/trending/2121280518641623237",
     "https://www.48hrstrends.com/Spain/this-week",
     "https://www.youtube.com/watch?v=bHDSVowwu5w",
-    "https://www.youtube.com/watch?v=w7kukBWIsCk"
+    "https://www.youtube.com/watch?v=w7kukBWIsCk",
+    "https://www.statkraken.com/platform/youtube",
+    "https://mediacube.io/en/blog/four-mediacube-games-in-top-10",
+    "https://www.appbrain.com/stats/google-play-rankings/top_new_free/casual/us",
+    "http://appbrain.com/stats/google-play-rankings/top_new_free/casual/es",
+    "https://playgama.com/game/squishy-resale",
+    "https://playgama.com/search?q=trade",
+    "https://playgama.com/search?q=fidget",
+    "https://playgama.com/search?q=clicker",
+    "https://playgama.com/search?q=charm",
+    "https://playgama.com/search?q=merge",
+    "https://playgama.com/search?q=pin",
+    "https://socialbee.com/blog/tiktok-trends-you-cant-miss/",
+    "https://www.textilespressreleases.com/article/954481486-fidget-trading-tiktok-sensation-mrs-bench-selects-world-tech-toys-as-master-toy-partner-to-bring-viral-brand-to-life-with-new-mojis-squish-toy-line"
   ],
   "aptas": [
     {
@@ -632,7 +645,7 @@
       "conclusion": "APTA y URGENTE: el tema arrasa ahora y aguanta hasta el 5/12. Mecánica de un toque, muy visual, sin clon directo en Playgama. Hay que fabricarla hoy, con tema pirata propio y sin marcas de Fortnite.",
       "nombre": "Cofre del Doblón",
       "fecha": "2026-11-15",
-      "nueva": true,
+      "nueva": false,
       "estado": "apta",
       "elegida": false,
       "origen": "Investigación diaria 15/11/2026 08:00",
@@ -696,7 +709,7 @@
       "conclusion": "APTA: género nuevo para el estudio (acción y lucha), se entiende al primer toque y aprovecha el interés por las MMA sin usar marcas.",
       "nombre": "KO Relámpago",
       "fecha": "2026-11-15",
-      "nueva": true,
+      "nueva": false,
       "estado": "apta",
       "elegida": false,
       "origen": "Investigación diaria 15/11/2026 08:00",
@@ -757,7 +770,7 @@
       "conclusion": "APTA pero no prioritaria: género de física distinto y divertido, aunque el tema ya baja y la física es más arriesgada para hacerla en un día.",
       "nombre": "Paraguas contra la Borrasca",
       "fecha": "2026-11-15",
-      "nueva": true,
+      "nueva": false,
       "estado": "apta",
       "elegida": false,
       "origen": "Investigación diaria 15/11/2026 08:00",
@@ -786,6 +799,79 @@
       "vistas": null,
       "enCola": true,
       "genero": "Gestión / tiempo"
+    },
+    {
+      "analisis": {
+        "adictivo": "Escalera de rareza (común → mítico), colección que se completa, bots con manías y un trato del día.",
+        "competencia": "Baja en Playgama: Squishy Resale (13/10/2026, 4,6/5) fabrica blanditos por encargo y regatea por chat; no hay escalera de trueque (ofrezco esto por aquello, con niveles de rareza). Para no ser un clon: nada de fabricar; solo trueque con bots con personalidad, la hoja ✓/✕/+ del ritual real y mutaciones raras.",
+        "fuenteNormas": "https://developers.google.com/youtube/gaming/playables/certification/requirements_trustsafety",
+        "fuentesHypercasual": [
+          "https://42answer.com/en/insights/2026-11-11-us-casual-puzzle/"
+        ],
+        "hypercasualQueFunciona": "Los juegos de premio y probabilidad siguen subiendo (Coin Bounce del puesto 28 al 9 en 12 días, unas 292.536 instalaciones); el trueque añade colección y negociación, sin azar con dinero.",
+        "monetizacion": "Anuncio entre trueques. Anuncio con recompensa: «ver el valor real del bot» o «segunda oportunidad tras un rechazo».",
+        "potencialViral": "Alto: el ritual ✓/✕/+ ya es un formato de TikTok; el momento «¡ME HA DADO EL MÍTICO!» se graba solo.",
+        "se_entiende_3s_sin_texto": "Sí: tu blandito a un lado, el suyo al otro; tocas los dos y sale ✓ o ✕.",
+        "tendencias": "TikTok: #tradingfidgets con 72,2 M de visualizaciones; acuerdo Mrs. Bench × World Tech Toys el 4/11. X: sin datos de recuento propio. Google Trends: sin datos para este tema. Shorts: sin datos.",
+        "viabilidad": "Muy alta en un día: dos esterillas con rejilla, pantalla de oferta, lógica de aceptación por rareza y personalidad del bot, colección con rarezas y un «trato del día». Riesgos: que el regateo se sienta aleatorio. Mitigación: el bot muestra pistas de valor y cada «+» sube la oferta de forma visible. Hay que revisar las normas de seguridad de Playables."
+      },
+      "competenciaNivel": "baja",
+      "conclusion": "APTA y URGENTE: la ola del momento en TikTok y en las tiendas, con hueco real en Playgama (Squishy Resale fabrica por encargo; nadie hace la escalera de trueque). Mecánica de un toque, sin física, con el ritual ✓/✕/+ que ya es viral.",
+      "datos": [
+        {
+          "dato": "#tradingfidgets: 72,2 M de visualizaciones en TikTok; la creadora Mrs. Bench firmó con World Tech Toys (4/11/2026) una línea oficial de trueque de fidgets",
+          "fuente": "https://www.textilespressreleases.com/article/954481486-fidget-trading-tiktok-sensation-mrs-bench-selects-world-tech-toys-as-master-toy-partner-to-bring-viral-brand-to-life-with-new-mojis-squish-toy-line"
+        },
+        {
+          "dato": "Fidget Trading: Dumpling Party: 4,1 M de instalaciones; n.º 2 en nuevos gratuitos casuales en EE. UU., España, Canadá, Australia y Portugal (15/11/2026)",
+          "fuente": "https://www.appbrain.com/stats/google-play-rankings/top_new_free/casual/us"
+        },
+        {
+          "dato": "Squishy Trade: Dumpling Master: 190.000 instalaciones, también en el top de nuevos gratuitos casuales; Trading Toy ASMR: Pop Fidget: 10.000 instalaciones",
+          "fuente": "https://www.appbrain.com/stats/google-play-rankings/top_new_free/casual/us"
+        },
+        {
+          "dato": "El mercado mundial de juguetes fidget: 9.010 M$ el año pasado; previsión de 17.650 M$ en 2034",
+          "fuente": "https://www.textilespressreleases.com/article/954481486-fidget-trading-tiktok-sensation-mrs-bench-selects-world-tech-toys-as-master-toy-partner-to-bring-viral-brand-to-life-with-new-mojis-squish-toy-line"
+        },
+        {
+          "dato": "La tendencia «adult fidget trading» está entre las tendencias de TikTok de noviembre de 2026: dos personas ofrecen objetos por turnos con una hoja ✓/✕/+",
+          "fuente": "https://socialbee.com/blog/tiktok-trends-you-cant-miss/"
+        },
+        {
+          "dato": "Playgama: con «trade» sale Squishy Resale (fabricar por encargo y regatear por chat, 13/10/2026); con «fidget» solo sale Fidget Spinner. No hay ningún juego de escalera de trueque",
+          "fuente": "https://playgama.com/search?q=trade"
+        }
+      ],
+      "duracionSesion": "Trueques de 20-40 s encadenados; colección que se completa. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "apta",
+      "fecha": "2026-11-16",
+      "gancho": "Dos esterillas, dos colecciones: ofrece tu blandito por el suyo. Él dice sí, no, o «pon algo más». ¿Aceptas el trato?",
+      "genero": "Negociación / colección (trueque)",
+      "hacibleEnUnDia": true,
+      "id": "trueque-de-blanditos",
+      "motivo": "APTA y URGENTE: la ola del momento en TikTok y en las tiendas, con hueco real en Playgama. Mecánica de un toque, sin física, con el ritual ✓/✕/+ que ya es viral.",
+      "nombre": "¡Trato Hecho! Trueque de Blanditos",
+      "nueva": true,
+      "origen": "Investigación diaria 16/11/2026 08:00",
+      "porQueFunciona": "El trueque de fidgets es la moda de TikTok de noviembre: el ritual de ofrecer y regatear ya lo conocen millones de personas, y el momento «¡TRATO!» es puro Short.",
+      "potencialViral": 5,
+      "puntuacion": {
+        "adiccion": 4,
+        "competencia": 4,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 4,
+        "potencialViral": 5,
+        "seEntiendeEn3s": 5,
+        "tendencia": 5,
+        "total": 32,
+        "viabilidad1Dia": 5
+      },
+      "temaViral": "#tradingfidgets / trueque de fidgets (Mrs. Bench, noviembre 2026)",
+      "titulo": "¡Trato Hecho! Trueque de Blanditos",
+      "tituloEN": "Squishy Swap: Trade Up!",
+      "viralUrgente": true
     }
   ],
   "noAptas": [
@@ -1202,7 +1288,7 @@
       "conclusion": "NO APTA por saturación y riesgo de clon.",
       "nombre": "Zigzag de Tráfico",
       "fecha": "2026-11-15",
-      "nueva": true,
+      "nueva": false,
       "estado": "no apta",
       "elegida": false,
       "origen": "Investigación diaria 15/11/2026 08:00",
@@ -1252,12 +1338,464 @@
       "conclusion": "NO APTA: si hacemos cartas, mejor una mecánica de habilidad.",
       "nombre": "¿Más o Menos?",
       "fecha": "2026-11-15",
-      "nueva": true,
+      "nueva": false,
       "estado": "no apta",
       "elegida": false,
       "origen": "Investigación diaria 15/11/2026 08:00",
       "motivo": "Mecánica de casino (riesgo con las normas), poco espectáculo visual y poco viral."
+    },
+    {
+      "analisis": {
+        "adictivo": "Mejoras y colección de charms.",
+        "competencia": "Alta en Playgama (decenas de clickers) y duplica Funda de Móvil DIY, ya en cola: mismo tema (decorar un accesorio del móvil) con otra envoltura.",
+        "fuentesHypercasual": [
+          "https://www.appbrain.com/stats/google-play-rankings/top_new_free/casual/us"
+        ],
+        "hypercasualQueFunciona": "El clicker con progresión y el DIY ASMR tiran en móvil; en Playgama el clicker ya está cubierto.",
+        "monetizacion": "Anuncio entre pedidos. Anuncio con recompensa: materiales raros.",
+        "potencialViral": "Medio: el ASMR de crear funciona, pero sin un giro no se diferencia.",
+        "se_entiende_3s_sin_texto": "Sí: tocas y sale un charm.",
+        "tendencias": "El clicker DIY con charms es el n.º 1 en nuevos gratuitos casuales en 6 países. TikTok, X y Shorts: sin datos de recuento propio.",
+        "viabilidad": "Alta: tocar para fabricar, mejoras y pedidos. Riesgo: indistinguible de la idea que ya tenemos en cola."
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: demasiado cerca de Funda de Móvil DIY, ya en cola; los clickers saturan Playgama.",
+      "datos": [
+        {
+          "dato": "Clicker DIY: ASMR Charm Master: 740.000 instalaciones; n.º 1 en nuevos gratuitos casuales en EE. UU., España, Canadá, Suecia, Australia y Portugal (15/11/2026)",
+          "fuente": "https://www.appbrain.com/stats/google-play-rankings/top_new_free/casual/us"
+        },
+        {
+          "dato": "Playgama «clicker»: decenas de clickers, entre ellos Squishy Clicker, Dumpling Clicker y Egg Clicker - Idle Tycoon",
+          "fuente": "https://playgama.com/search?q=clicker"
+        }
+      ],
+      "duracionSesion": "Sesiones de fabricación encadenadas. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-16",
+      "gancho": "Toca para fabricar charms, decora una correa para el móvil y véndela al cliente.",
+      "genero": "Clicker DIY / ASMR de crear",
+      "hacibleEnUnDia": true,
+      "id": "taller-charms-asmr",
+      "motivo": "NO APTA: demasiado cerca de Funda de Móvil DIY, ya en cola; los clickers saturan Playgama.",
+      "motivoRechazo": "Demasiado cerca de Funda de Móvil DIY, ya en cola; los clickers saturan Playgama (Squishy Clicker, Dumpling Clicker, Egg Clicker…).",
+      "nombre": "Taller de Charms ASMR",
+      "nueva": true,
+      "origen": "Investigación diaria 16/11/2026 08:00",
+      "porQueFunciona": "Clicker DIY: ASMR Charm Master es el n.º 1 en nuevos gratuitos casuales en 6 países.",
+      "potencialViral": 4,
+      "puntuacion": {
+        "adiccion": 3,
+        "competencia": 1,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 4,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 5,
+        "tendencia": 5,
+        "total": 27,
+        "viabilidad1Dia": 5
+      },
+      "titulo": "Taller de Charms ASMR",
+      "tituloEN": "Charm Maker ASMR",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "Desbloqueo de recetas y restauración del local.",
+        "competencia": "Alta: más de 40 juegos de merge en Playgama; el hueco está copado por Piece of Cake y compañía.",
+        "fuentesHypercasual": [
+          "https://appmagic.rocks/research/Hybridcasual-Puzzles-Q32026"
+        ],
+        "hypercasualQueFunciona": "El merge con meta de restauración es el formato que más factura en hybridcasual.",
+        "monetizacion": "Anuncio entre niveles. Anuncio con recompensa: energía o un ingrediente raro.",
+        "potencialViral": "Medio: el merge no tiene un momento espectacular fácil de grabar.",
+        "se_entiende_3s_sin_texto": "Sí: arrastras dos iguales y se fusionan.",
+        "tendencias": "El merge lidera las tendencias de Playgama en noviembre de 2026. TikTok, X y Shorts: sin datos de recuento propio.",
+        "viabilidad": "Media: un merge-2 básico se hace en un día, pero con poco contenido se queda corto frente a los líderes."
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: saturado, más de 40 juegos de merge en Playgama.",
+      "datos": [
+        {
+          "dato": "Piece of Cake: Merge & Bake: n.º 1 en tendencias de Playgama (noviembre de 2026)",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        },
+        {
+          "dato": "Playgama «merge»: más de 40 juegos de merge, con colección propia Top 20 Merge Games",
+          "fuente": "https://playgama.com/search?q=merge"
+        }
+      ],
+      "duracionSesion": "Niveles de merge encadenados. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-16",
+      "gancho": "Fusiona ingredientes en la mesa para servir platos y restaurar la cafetería.",
+      "genero": "Merge / restauración",
+      "hacibleEnUnDia": true,
+      "id": "fusiona-y-hornea",
+      "motivo": "NO APTA: saturado, más de 40 juegos de merge en Playgama.",
+      "motivoRechazo": "Saturado: más de 40 juegos de merge en Playgama, con colección propia Top 20 Merge; el género está copado.",
+      "nombre": "Fusiona y Hornea",
+      "nueva": true,
+      "origen": "Investigación diaria 16/11/2026 08:00",
+      "porQueFunciona": "Piece of Cake: Merge & Bake es el n.º 1 en tendencias de Playgama en noviembre de 2026.",
+      "potencialViral": 3,
+      "puntuacion": {
+        "adiccion": 4,
+        "competencia": 1,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 4,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 4,
+        "tendencia": 4,
+        "total": 23,
+        "viabilidad1Dia": 3
+      },
+      "titulo": "Fusiona y Hornea",
+      "tituloEN": "Merge & Bake Café",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "Huevos cada vez más raros y mascotas que dan monedas.",
+        "competencia": "Alta en Playgama: tres juegos cubren el mismo tema; además roza el «Roba un Brainrot» ya rechazado por IP.",
+        "fuentesHypercasual": [
+          "https://42answer.com/en/insights/2026-11-11-us-casual-puzzle/"
+        ],
+        "hypercasualQueFunciona": "Robar + criar mascotas + monedas es un bucle probado en móvil y en web.",
+        "monetizacion": "Anuncio entre robos. Anuncio con recompensa: un huevo raro.",
+        "potencialViral": "Medio-alto: el robo por los pelos se graba bien, pero el tema ya lo explotan otros.",
+        "se_entiende_3s_sin_texto": "Sí: el guardián duerme, coges el huevo y corres.",
+        "tendencias": "El robo de huevos sube en móvil y en Playables. TikTok, X y Shorts: sin datos de recuento propio.",
+        "viabilidad": "Alta: sigilo por tiempos, un huevo por nivel y mascotas que dan monedas."
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: hueco cerrado en Playgama, tres juegos cubren el robo de huevos.",
+      "datos": [
+        {
+          "dato": "Steal Eggs: Monster Escape: +1.334.584 instalaciones en 7 días; del puesto 35 al 24 en casual EE. UU.",
+          "fuente": "https://42answer.com/en/insights/2026-11-11-us-casual-puzzle/"
+        },
+        {
+          "dato": "The Egg Stealing Master: 15 M de sesiones; entre los 10 juegos con más ingresos de YouTube Playables (4/11/2026)",
+          "fuente": "https://mediacube.io/en/blog/four-mediacube-games-in-top-10"
+        },
+        {
+          "dato": "Playgama: Steal an Egg! (n.º 16 en tendencias), Break & Steal: Egg Rush y Steal a Dragon Egg ya cubren el robo de huevos",
+          "fuente": "https://playgama.com/search?q=trade"
+        }
+      ],
+      "duracionSesion": "Robos de 30-60 s encadenados. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-16",
+      "gancho": "Escapa del guardián dormido, roba el huevo y cría una mascota que te da monedas.",
+      "genero": "Sigilo / colección",
+      "hacibleEnUnDia": true,
+      "id": "roba-el-huevo",
+      "motivo": "NO APTA: hueco cerrado en Playgama, tres juegos cubren el robo de huevos.",
+      "motivoRechazo": "Hueco cerrado en Playgama: Steal an Egg!, Break & Steal: Egg Rush y Steal a Dragon Egg ya cubren el robo de huevos.",
+      "nombre": "Roba el Huevo",
+      "nueva": true,
+      "origen": "Investigación diaria 16/11/2026 08:00",
+      "porQueFunciona": "Steal Eggs: Monster Escape subió 11 puestos en una semana en casual EE. UU.; The Egg Stealing Master tiene 15 M de sesiones en Playables.",
+      "potencialViral": 4,
+      "puntuacion": {
+        "adiccion": 3,
+        "competencia": 1,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 3,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 4,
+        "tendencia": 5,
+        "total": 24,
+        "viabilidad1Dia": 4
+      },
+      "titulo": "Roba el Huevo",
+      "tituloEN": "Steal the Egg",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "Velocidad récord y desbloqueo de mundos.",
+        "competencia": "Alta: Playgama está lleno de obbies «+1» (velocidad, espada, pico, excavación).",
+        "fuentesHypercasual": [
+          "https://mediacube.io/en/blog/four-mediacube-games-in-top-10"
+        ],
+        "hypercasualQueFunciona": "La progresión «+1» visible es el gancho que convierte un runner en una colección.",
+        "monetizacion": "Anuncio entre carreras. Anuncio con recompensa: seguir desde el mismo punto.",
+        "potencialViral": "Medio: el récord de velocidad se comparte, pero hay decenas de clones iguales.",
+        "se_entiende_3s_sin_texto": "Sí: corres, saltas, cada vez más rápido.",
+        "tendencias": "El subgénero obby «+1 por paso» tira en Playgama y en Playables. TikTok, X y Shorts: sin datos de recuento propio.",
+        "viabilidad": "Alta: runner automático con salto por toque y velocidad creciente."
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: saturado en Playgama, el subgénero obby «+1» ya está copado.",
+      "datos": [
+        {
+          "dato": "Obby: +1 Speed Keyboard Escape: n.º 7 en tendencias de Playgama (noviembre de 2026)",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        },
+        {
+          "dato": "Obby: +1 Laser to Break Walls: 1,5 M de sesiones; entre los 10 juegos con más ingresos de YouTube Playables (4/11/2026)",
+          "fuente": "https://mediacube.io/en/blog/four-mediacube-games-in-top-10"
+        }
+      ],
+      "duracionSesion": "Carreras de 30-60 s. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-16",
+      "gancho": "Corre solo: cada paso te hace más rápido; salta en el momento justo o caes.",
+      "genero": "Runner / obby",
+      "hacibleEnUnDia": true,
+      "id": "obby-mas-1-velocidad",
+      "motivo": "NO APTA: saturado en Playgama, el subgénero obby «+1» ya está copado.",
+      "motivoRechazo": "Saturado en Playgama: Obby: +1 Speed, Obby: +1 Sword Power per Click, Obby: +1 Digging Power per Click, Keyboard Escape: +1 Speed… el subgénero +1 ya está copado.",
+      "nombre": "Obby +1 Velocidad",
+      "nueva": true,
+      "origen": "Investigación diaria 16/11/2026 08:00",
+      "porQueFunciona": "Obby: +1 Speed es el n.º 7 en tendencias de Playgama; Obby: +1 Laser tiene 1,5 M de sesiones en Playables.",
+      "potencialViral": 3,
+      "puntuacion": {
+        "adiccion": 3,
+        "competencia": 1,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 3,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 5,
+        "tendencia": 4,
+        "total": 23,
+        "viabilidad1Dia": 4
+      },
+      "titulo": "Obby +1 Velocidad",
+      "tituloEN": "+1 Speed Obby Run",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "Tableros cada vez más grandes y racha diaria.",
+        "competencia": "Alta: mahjong clásico, por líneas y 3D ya cubren el género en Playgama.",
+        "fuentesHypercasual": [
+          "https://www.appbrain.com/stats/google-play-rankings/top_new_free/casual/us"
+        ],
+        "hypercasualQueFunciona": "El mahjong clásico con un giro numérico es un formato estable, no una ola nueva.",
+        "monetizacion": "Anuncio entre tableros. Anuncio con recompensa: pista o deshacer.",
+        "potencialViral": "Bajo: el mahjong no tiene un momento espectacular para Short.",
+        "se_entiende_3s_sin_texto": "Sí: dos fichas, suma diez, desaparecen.",
+        "tendencias": "El mahjong ocupa dos puestos del top 20 de tendencias de Playgama. TikTok, X y Shorts: sin datos de recuento propio.",
+        "viabilidad": "Muy alta: tablero de fichas con números y suma a diez."
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: saturado; el giro «suma diez» es demasiado pequeño para destacar.",
+      "datos": [
+        {
+          "dato": "Mahjong Classic: n.º 4 y Mahjong Lines: n.º 12 en tendencias de Playgama (noviembre de 2026)",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        },
+        {
+          "dato": "SoEasy Mahjong 2: Make Ten entre los nuevos gratuitos casuales (15/11/2026)",
+          "fuente": "https://www.appbrain.com/stats/google-play-rankings/top_new_free/casual/us"
+        }
+      ],
+      "duracionSesion": "Tableros de 1-3 min. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-16",
+      "gancho": "Toca dos fichas que sumen diez para limpiar el tablero.",
+      "genero": "Puzle de fichas",
+      "hacibleEnUnDia": true,
+      "id": "mahjong-suma-diez",
+      "motivo": "NO APTA: saturado; el giro «suma diez» es demasiado pequeño para destacar.",
+      "motivoRechazo": "Saturado: Mahjong Classic n.º 4 y Mahjong Lines n.º 12 en tendencias de Playgama; el giro «suma diez» es demasiado pequeño para destacar.",
+      "nombre": "Mahjong Suma Diez",
+      "nueva": true,
+      "origen": "Investigación diaria 16/11/2026 08:00",
+      "porQueFunciona": "Mahjong Classic es el n.º 4 y Mahjong Lines el n.º 12 en tendencias de Playgama; SoEasy Mahjong 2: Make Ten sube en Google Play.",
+      "potencialViral": 2,
+      "puntuacion": {
+        "adiccion": 3,
+        "competencia": 1,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 3,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 4,
+        "tendencia": 3,
+        "total": 21,
+        "viabilidad1Dia": 5
+      },
+      "titulo": "Mahjong Suma Diez",
+      "tituloEN": "Mahjong Make Ten",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "Seguidores, regalos y retos de tema.",
+        "competencia": "Media-alta: Desfile Exprés, ya en cola, es vestir + voto del público; el directo solo cambia el envoltorio.",
+        "fuentesHypercasual": [
+          "https://poki.com/blog/i-quit-my-job-to-make-a-dress-up-web-game-and-it-blew-up"
+        ],
+        "hypercasualQueFunciona": "La moda con votación del público alarga las sesiones (la referencia del género es 12:40 por sesión).",
+        "monetizacion": "Anuncio entre directos. Anuncio con recompensa: un conjunto exclusivo.",
+        "potencialViral": "Medio: el directo da momentos graciosos, pero el género ya lo tenemos cubierto.",
+        "se_entiende_3s_sin_texto": "Sí: vistes a la muñeca y el chat reacciona.",
+        "tendencias": "Vestir + directo tira en Playgama y en móvil. TikTok, X y Shorts: sin datos de recuento propio.",
+        "viabilidad": "Alta: vestidor por temas con chat simulado y regalos."
+      },
+      "competenciaNivel": "media",
+      "conclusion": "NO APTA: demasiado cerca de Desfile Exprés, ya en cola.",
+      "datos": [
+        {
+          "dato": "Idol Livestream: Doll Dress Up: n.º 14 en tendencias de Playgama (noviembre de 2026)",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        },
+        {
+          "dato": "Fashion Arena: Dress Up Game: nueva entrada en el top 50 casual de EE. UU. con 3.359.379 instalaciones",
+          "fuente": "https://42answer.com/en/insights/2026-11-11-us-casual-puzzle/"
+        }
+      ],
+      "duracionSesion": "Directos de 1-2 min. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-16",
+      "gancho": "Viste a tu idol mientras el chat del directo vota, regala y pide cambios.",
+      "genero": "Vestir + directo",
+      "hacibleEnUnDia": true,
+      "id": "idol-en-directo",
+      "motivo": "NO APTA: demasiado cerca de Desfile Exprés, ya en cola.",
+      "motivoRechazo": "Demasiado cerca de Desfile Exprés, ya en cola (vestir + voto del público); el directo solo cambia el envoltorio.",
+      "nombre": "Idol en Directo",
+      "nueva": true,
+      "origen": "Investigación diaria 16/11/2026 08:00",
+      "porQueFunciona": "Idol Livestream: Doll Dress Up es el n.º 14 en tendencias de Playgama; Fashion Arena entró en el top 50 casual de EE. UU.",
+      "potencialViral": 3,
+      "puntuacion": {
+        "adiccion": 3,
+        "competencia": 2,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 3,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 4,
+        "tendencia": 4,
+        "total": 23,
+        "viabilidad1Dia": 4
+      },
+      "titulo": "Idol en Directo",
+      "tituloEN": "Idol Livestream Dress Up",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "Niveles con trampas nuevas cada pocos niveles.",
+        "competencia": "Alta en Playgama: Home Pin ya está en la plataforma.",
+        "fuentesHypercasual": [
+          "https://42answer.com/en/insights/2026-11-11-us-casual-puzzle/"
+        ],
+        "hypercasualQueFunciona": "El pin con física y trampas es un formato clásico que vuelve por oleadas.",
+        "monetizacion": "Anuncio entre niveles. Anuncio con recompensa: pista.",
+        "potencialViral": "Medio: el fallo gracioso (tesoro a la lava) se graba, pero sin novedad.",
+        "se_entiende_3s_sin_texto": "Sí: tiras el pin y cae lo que haya detrás.",
+        "tendencias": "El pull-the-pin repunta en móvil, pero es una mecánica de hace una década. TikTok, X y Shorts: sin datos de recuento propio.",
+        "viabilidad": "Muy alta: niveles hechos a mano con pines y física simple."
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: Home Pin ya está en Playgama; mecánica de hace una década sin giro nuevo.",
+      "datos": [
+        {
+          "dato": "Home Pin 4: Pull the Pin: del puesto 33 al 19 en casual EE. UU. (7 días)",
+          "fuente": "https://42answer.com/en/insights/2026-11-11-us-casual-puzzle/"
+        },
+        {
+          "dato": "Playgama «pin»: Home Pin y Screw & Pin: Puzzle Levels ya cubren el género",
+          "fuente": "https://playgama.com/search?q=pin"
+        }
+      ],
+      "duracionSesion": "Niveles de 10-30 s. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-16",
+      "gancho": "Tira los pines en el orden correcto para que el tesoro caiga en manos del héroe y no en la lava.",
+      "genero": "Puzle de pines",
+      "hacibleEnUnDia": true,
+      "id": "tira-del-pin",
+      "motivo": "NO APTA: Home Pin ya está en Playgama; mecánica de hace una década sin giro nuevo.",
+      "motivoRechazo": "Home Pin ya está en Playgama; mecánica de hace una década sin giro nuevo.",
+      "nombre": "Tira del Pin",
+      "nueva": true,
+      "origen": "Investigación diaria 16/11/2026 08:00",
+      "porQueFunciona": "Home Pin 4 subió del puesto 33 al 19 en casual EE. UU. en una semana.",
+      "potencialViral": 3,
+      "puntuacion": {
+        "adiccion": 2,
+        "competencia": 1,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 3,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 5,
+        "tendencia": 3,
+        "total": 22,
+        "viabilidad1Dia": 5
+      },
+      "titulo": "Tira del Pin",
+      "tituloEN": "Pull the Pin Rescue",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "Crecer hasta tragarse la ciudad.",
+        "competencia": "Media en 2D, pero duplica Agujero Tragón en la Cocina, ya en cola: misma mecánica de agujero que crece.",
+        "fuentesHypercasual": [
+          "https://azurgames.com/blog/hypercasual-and-hybrid-casual-in-2026-full-report/"
+        ],
+        "hypercasualQueFunciona": "«Eat & Grow» va al alza en 2026 según Azur Games.",
+        "monetizacion": "Anuncio entre niveles. Anuncio con recompensa: más tiempo.",
+        "potencialViral": "Medio: tragarse una ciudad entera se graba bien, pero es el mismo juego que ya tenemos.",
+        "se_entiende_3s_sin_texto": "Sí: mueves el agujero y se traga lo que cabe.",
+        "tendencias": "El agujero que crece repunta en móvil. TikTok, X y Shorts: sin datos de recuento propio.",
+        "viabilidad": "Alta: agujero que crece tragando objetos por tamaño, niveles de 60 s."
+      },
+      "competenciaNivel": "media",
+      "conclusion": "NO APTA: duplica Agujero Tragón en la Cocina, ya en cola.",
+      "datos": [
+        {
+          "dato": "Suck it Up™ - Hole Them All: nueva entrada n.º 48 en casual EE. UU., 1.176.616 instalaciones",
+          "fuente": "https://42answer.com/en/insights/2026-11-11-us-casual-puzzle/"
+        },
+        {
+          "dato": "Hole.io: 76 M de partidas en Playables",
+          "fuente": "https://playables.games/best/"
+        }
+      ],
+      "duracionSesion": "Niveles de 60 s. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-16",
+      "gancho": "Un agujero que lo chupa todo: muebles, coches y edificios, antes de que se acabe el tiempo.",
+      "genero": "Comer y crecer",
+      "hacibleEnUnDia": true,
+      "id": "agujero-chupatodo",
+      "motivo": "NO APTA: duplica Agujero Tragón en la Cocina, ya en cola.",
+      "motivoRechazo": "Duplica Agujero Tragón en la Cocina, ya en cola; misma mecánica de agujero que crece.",
+      "nombre": "Agujero Chupatodo",
+      "nueva": true,
+      "origen": "Investigación diaria 16/11/2026 08:00",
+      "porQueFunciona": "Suck it Up™ - Hole Them All es nueva entrada en el top 50 casual de EE. UU.; Hole.io tiene 76 M de partidas en Playables.",
+      "potencialViral": 3,
+      "puntuacion": {
+        "adiccion": 3,
+        "competencia": 2,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 3,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 5,
+        "tendencia": 4,
+        "total": 24,
+        "viabilidad1Dia": 4
+      },
+      "titulo": "Agujero Chupatodo",
+      "tituloEN": "Suck It Up Hole",
+      "viralUrgente": false
     }
   ],
-  "actualizadoEn": "2026-11-15T08:10:00+01:00"
+  "actualizadoEn": "2026-11-16T08:00:00+01:00"
 }
