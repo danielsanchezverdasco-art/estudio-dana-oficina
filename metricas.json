@@ -1,14 +1,77 @@
 {
-  "actualizado": null,
+  "actualizado": "2026-11-16T11:33:00+01:00",
   "meta": {
     "objetivoMensualEUR": 2500,
     "mesActual": "2026-11",
     "ingresosMesEUR": null,
     "fuentes": {
-      "playgama": null,
+      "playgama": 0,
       "youtube": null
-    }
+    },
+    "nota": "Playgama: 0,00 $ ganados (panel developer, 16/11 11:09-11:32). YouTube: sin datos, Studio no accesible hoy; total del mes sin cerrar."
   },
-  "juegos": [],
-  "videos": []
+  "juegos": [
+    {
+      "id": "metro-nightmare",
+      "titulo": "Metro Nightmare: Rush Hour Rescue",
+      "estado": "sandbox",
+      "panel": "https://developer.playgama.com/applications/game/cmwgp5hl01nxqlz0h1m3f7hi4",
+      "sandboxDias": "0 of 30",
+      "objetivosSandbox": {
+        "partidasCualificadas": "0/100",
+        "tiempoMedio": null,
+        "tiempoMedioObjetivo": "5:00",
+        "anunciosPorPartida": null,
+        "anunciosPorPartidaObjetivo": 0.3,
+        "objetivosPendientes": 3
+      },
+      "lanzamientos": 8,
+      "partidas": 0,
+      "tiempoMedioJuegoSeg": null,
+      "retencionDia1": null,
+      "retencionDia7": null,
+      "anunciosPorPartida": null,
+      "anunciosMostrados": null,
+      "tasaRebote": 100,
+      "tiempoCargaMedioSeg": 2.6,
+      "tasaGameReady": 100,
+      "likes": 1,
+      "dislikes": 0,
+      "ingresosUSD": 0
+    },
+    {
+      "id": "mudanza-extrema",
+      "titulo": "Moving Mayhem: One-Tap Moving Puzzle (Mudanza Extrema)",
+      "estado": "sandbox",
+      "panel": "https://developer.playgama.com/applications/game/cmwhnaw542mdxlz0h2h64rpd5",
+      "sandboxDias": "1 of 30",
+      "objetivosSandbox": {
+        "partidasCualificadas": "2/100",
+        "tiempoMedio": "5:11",
+        "tiempoMedioObjetivo": "5:00",
+        "anunciosPorPartida": 1.0,
+        "anunciosPorPartidaObjetivo": 0.3,
+        "objetivosPendientes": 1
+      },
+      "lanzamientos": 5,
+      "partidas": 2,
+      "tiempoMedioJuegoSeg": 312,
+      "notaTiempoMedio": "El panel muestra 5m12s en Metricas y 5:11 en Sandbox; se registra 312 s (5m12s).",
+      "retencionDia1": null,
+      "retencionDia7": null,
+      "anunciosPorPartida": 1.0,
+      "anunciosMostrados": 2,
+      "tiempoPrimerAnuncioSeg": 11,
+      "tiempoMedioEntreAnunciosSeg": 150,
+      "cierreTrasAnuncio": 26.7,
+      "tasaRebote": 60,
+      "tiempoCargaMedioSeg": 2.2,
+      "tasaGameReady": 100,
+      "likes": 0,
+      "dislikes": 0,
+      "ingresosUSD": 0
+    }
+  ],
+  "videos": [],
+  "notaYoutube": "YouTube Studio no accesible el 16/11: la cuenta danielsanchezverdasco@gmail.com solo tiene los canales CaughtOnCameraTV y 'el rey del flow'; no aparece el canal Dana Games. Sin cifras de Studio hoy."
 }

@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16T09:58:18+01:00",
+  "updatedAt": "2026-11-16T11:33:00+01:00",
   "kpis": {
     "facturacionTotal": null,
     "facturacionMes": null,
-    "partidas": null,
+    "partidas": 2,
     "ingresosPorMilPartidas": null,
-    "publicados": 1,
+    "publicados": 0,
     "publicadosMeta": 200,
     "shortsPublicados": 0,
     "vistas": null,
@@ -17,10 +17,10 @@
     {
       "id": "metro-nightmare",
       "titulo": "Metro Nightmare",
-      "estado": "publicado",
+      "estado": "desarrollo",
       "portada": "cover.metro",
-      "facturacion": null,
-      "partidas": null,
+      "facturacion": 0,
+      "partidas": 0,
       "vistas": null
     },
     {
@@ -28,8 +28,8 @@
       "titulo": "Mudanza Extrema",
       "estado": "desarrollo",
       "portada": "cover.mudanza",
-      "facturacion": null,
-      "partidas": null,
+      "facturacion": 0,
+      "partidas": 2,
       "vistas": null
     },
     {
@@ -832,13 +832,13 @@
   "actividad": [
     {
       "equipo": "Metro Nightmare",
-      "tarea": "Publicado en el Sandbox de Playgama (https://playgama.ai/play/vw3o2dpywoejvy). La ronda 11 está en revisión de Arte para sustituir esa versión.",
+      "tarea": "En Sandbox de Playgama (https://playgama.ai/play/vw3o2dpywoejvy), estado Draft, 0 of 30 días. 16/11: 8 lanzamientos, 0 partidas, 0/100 partidas cualificadas; ningún objetivo de Sandbox cumplido. Ingresos 0,00 $. La ronda 11 está en revisión de Arte para sustituir esa versión.",
       "estado": "en curso",
       "desde": null
     },
     {
       "equipo": "Mudanza Extrema",
-      "tarea": "Subido como borrador en Playgama (ficha en inglés, zip y 3 portadas). En la prueba de calidad de Playgama antes de moderación.",
+      "tarea": "Borrador en Playgama (ficha en inglés, zip y 3 portadas), Sandbox Live 1 of 30 días, estado Draft. 16/11: 5 lanzamientos, 2 partidas, 5:11 de media y 1,00 anuncios por partida; 2 de 3 objetivos de Sandbox cumplidos, solo faltan las 100 partidas cualificadas (2/100). Ingresos 0,00 $.",
       "estado": "esperando",
       "desde": null
     },
