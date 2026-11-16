@@ -28,3 +28,10 @@ Daniky = Niky.
 - **Lecciones del vídeo (7 tomas):** el modo practice bloquea el choque; el tap en PLAY a 16:9 va al centro de pantalla (mundo lógico 2311×1300); el forcing "reckless" no choca en el sandbox (colas detrás de líderes); el choque se fuerza teletransportando 2 coches solapados en la caja de conflicto con `baseSpeed = 0`; el tutorial solo se apaga con `s.tutorial.onSkip()` (tocar `tutorialStep` lo recrea `tick()`); el banner de intro tarda ~2 min de pared en irse (esperar a que no queden objetos a profundidad 9000). Detalle en `informe-ronda1.md` §6.
 - **Skills usadas:** `localize`, `game-ui-ux`, `smoke-testing-web-games`, `certification-checklist`.
 - **Por dónde seguir:** Daniel prueba el juego (dist-playgama o zip de Playgama); si pide cambios, van a la rama `niky/traffic-chaos-real` y se re-verifican con el driver `qa/qa-final-driver.py`.
+
+## Scribble Striker r2.2 · 16/11/2026, 06:30, hora de Madrid (EN MARCHA)
+- **Pedido de Daniel (06:09, tras probar la r2.1):** «el de fútbol está bien, lo único necesitamos que la línea central cuente como rebote y sea mucho más grande el campo de fútbol, está muy pequeño».
+- **Qué estoy haciendo ahora mismo:** (1) la línea central rebota SIEMPRE y SE VE (trayectoria reflejada, flash dorado de toda la línea, etiqueta «¡REBOTE! LÍNEA CENTRAL», sonido nuevo, movimientos a la central en dorado antes de tocar); (2) campo 8×14 que domina la pantalla (~71% de alto, ~88% de ancho) con cromo fino arriba/abajo.
+- **Assets nuevos desde cero (regla de Daniel 06:14, nada reutilizado ni estirado):** hierba 1024×1792 para el campo 8×14, balón cómic nuevo, tira de chevrones dorados para la central, burst de impacto. Porterías/stands/menú/personajes se conservan (escala uniforme, no están en el pedido).
+- **Estado 06:30:** lógica + tests (vitest 18/18, tsc 0) + assets procesados (0,61 MB) + builds prod/QA OK. Queda: sonda en vivo del rebote en los 8 ángulos, playtest10 + sonda nivel 1/6 (curva), corners, capturas 390×844, GIF con gol, zip ≤5 MB, push + PR.
+- **Rama:** `niky/scribble-striker-r2.2-1611` (repo privado dana-games-juegos). Queda orientativo: ~1,5-2 h hasta la versión jugable para Daniel.
