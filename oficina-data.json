@@ -1,5 +1,5 @@
 {
-    "_readme": "Fichero en vivo de la oficina Dana Games. Lo actualizan Dani y Anita (sus agentes) con CADA cambio: publicar, rechazar, empezar, terminar. La oficina lo lee y las listas se refrescan solas, sin reconstruir la página. No inventar nombres ni datos: solo lo verificado. Cuando Daniel diga los nombres de los 3 juegos nuevos de Anita, se ponen en anita.names y names_pending pasa a false.",
+    "_readme": "Fichero en vivo de la oficina Dana Games. Lo actualizan Dani y Anita (sus agentes) con CADA cambio: publicar, rechazar, empezar, terminar. La oficina lo lee y las listas se refrescan solas, sin reconstruir la p\u00e1gina. No inventar nombres ni datos: solo lo verificado. Cuando Daniel diga los nombres de los 3 juegos nuevos de Anita, se ponen en anita.names y names_pending pasa a false.",
     "anita": {
         "names": [
             "Grid Defender",
@@ -7,60 +7,60 @@
             "Cyber Runner"
         ],
         "names_pending": false,
-        "status": "Construyendo Grid Defender variante B (arcade bold, elegida por Daniel 19:20) y Cyber Runner variante B (arcade bold, elegida por Daniel 20:16, CLON EXACTO ordenado): Grid sigue en local con código avanzando (GameScene 21:04, testhandle 21:04, bundle JS compilado en dist/assets 21:05, build en curso), sin commit ni rama en GitHub aún; Cyber Runner con RONDA 1 ENTREGADA en local 21:02 (juego completo: escenas Boot/Game/Menu, HUD, online-ready, ads con recompensa, clasificación POR METROS; informe + filtros + teardown en work/entregas/cyber-runner-round1/), pendiente de verificación (smoke, táctil, lado a lado vs variante B, zip ≤5 MB), sin commit ni rama anita/cyber-runner-b aún; pendiente de que Niky pase URL/endpoints del backend de Grid; normas nuevas 20:27-20:34 (clasificación mundial POR METROS; top 3 con nombre y skins visibles en el menú principal) valen para TODOS los juegos; Daniel 20:48: cada juego terminado se sube a la oficina con enlace jugable para probarlo desde allí, tras verificación lado a lado; informa cada 30 min — lo hecho, lo que tiene y lo que NO tiene",
-        "paso": "Grid Defender: bundle JS compilado 21:05, sigue esperando URL/endpoints del backend; Cyber Runner: ronda 1 entregada en local 21:02, pendiente de verificación",
-        "queda": "Pendiente de Niky (URL backend Grid); Cyber Runner: verificar ronda 1 (smoke, táctil, lado a lado, zip) y subir a la oficina cuando esté lista"
+        "status": "Construyendo Grid Defender variante B (arcade bold, elegida por Daniel 19:20) y Cyber Runner variante B (arcade bold, elegida por Daniel 20:16, CLON EXACTO ordenado): Grid sigue en local con codigo avanzando (GameScene 21:04, testhandle 21:04, bundle JS compilado en dist/assets 21:05, build en curso), sin commit ni rama en GitHub aun; URL del servidor YA PASADA por Niky (comentario issue #40 id 6927564530, 20:57, verificado): wss://online.recurretumulta.online - pendiente de que Anita la use; Cyber Runner con RONDA 1 ENTREGADA en local 21:02 (juego completo: escenas Boot/Game/Men\u00fa, HUD, online-ready, ads con recompensa, clasificaci\u00f3n POR METROS; informe + filtros + teardown en work/entregas/cyber-runner-round1/), pendiente de verificaci\u00f3n (smoke, t\u00e1ctil, lado a lado vs variante B, zip <=5 MB), sin commit ni rama anita/cyber-runner-b aun; pendiente de que Niky pase URL/endpoints del backend de Grid - RESUELTO (URL ya pasada 20:57); norm\u00e1s nuevas 20:27-20:34 (clasificaci\u00f3n mundial POR METROS; top 3 con nombre y skins visibles en el menu principal) valen para TODOS los juegos; Daniel 20:48: cada juego terminado se sube a la oficina con enlace jugable para probarlo desde alli, tras verificaci\u00f3n lado a lado; informa cada 30 min - lo hecho, lo que tiene y lo que NO tiene",
+        "paso": "Grid Defender: bundle JS compilado 21:05, URL del servidor ya pasada por Niky (20:57) pendiente de que Anita la use; Cyber Runner: ronda 1 entregada en local 21:02, pendiente de verificaci\u00f3n",
+        "queda": "Grid: que Anita use la URL y termine el juego; Cyber Runner: verificar ronda 1 (smoke, t\u00e1ctil, lado a lado, zip) y subir a la oficina cuando este lista"
     },
     "factory": [
-        "Anita: construyendo Grid Defender (variante B, arcade bold elegida por Daniel 19:20) — código avanzando en local (GameScene 21:04, testhandle 21:04, bundle JS compilado en dist/assets 21:05), sin commit ni rama aún, pendiente de respuestas de Niky sobre el backend; Cyber Runner variante B ELEGIDA por Daniel 20:16 (arcade bold) con orden de CLON EXACTO — RONDA 1 ENTREGADA en local 21:02 (juego completo + informe/filtros/teardown), pendiente de verificación (smoke, táctil, lado a lado vs variante B, zip ≤5 MB), sin commit ni rama aún; Daniel 20:48: cada juego terminado se sube a la oficina con enlace jugable para probarlo desde allí; normas nuevas 20:27-20:34 para TODOS los juegos: clasificación mundial POR METROS y top 3 con nombre y skins visibles en el menú principal",
-        "Scribble Striker (rediseño Street Variante B en marcha + récord de combos y liga por copas; ORDEN Daniel 20:13: el rediseño tiene que ser IDÉNTICO a la Variante B, incluido el menú — agente en marcha desde las 20:13; AVANCE 20:48: menú + campo del clon exacto commiteados y pusheados (6dea073), sigue con liga por copas y récord de combos; subida a Playgama en espera del rediseño, por decisión de Daniel 17:53; la liga queda en «próximamente» hasta tener servidor) Online ¡EN VIVO desde las 20:01!: https://online.recurretumulta.online/health responde ok (verificado 20:47); el cliente ya apunta a él (commit c641eb9) pero ONLINE_ENABLED sigue en false hasta que Daniel pruebe la Street.",
-        "Luxury Watch Dealer (rediseño total v2 — opción A «Tycoon Pop» en marcha; ORDEN Daniel 20:14: CLON EXACTO de la opción A elegida; lista deduplicada TERMINADA: 181 relojes, fusión en marcha, agente activo ~3,5 h sin commit aún) Órdenes Daniel 19:10 pasadas al agente: online + clasificaciones, inventario con duplicados, vender vs coleccionar.",
-        "Sand Jam! ELEGIDO por Daniel (versión A arena como base; B caramelos y C puerto pirata como skins comprables) — en cola tras relojes y fútbol; Laser Maze! ELEGIDO por Daniel 18:12 (variante B templo antiguo como base; A laboratorio y C estación espacial como capítulos) — en cola tras Crowd Clash; Car Wash Chaos! ELEGIDO por Daniel 18:18 (variante B baño de mascotas + modo C limpiar casas, dos modos en el mismo juego) — en cola tras Laser Maze; Crowd Clash! variante B elegida, en cola tras Sneak Out; tanda 3 ELEGIDA ENTERA por Daniel 18:21 («quiero todos para la lista, cada variante A, B y C son capítulos»): Diggy Dash!, Garden Dash!, Marble Rush!, Slingshot Smash! y Pet Vet! — en cola tras Car Wash Chaos, en ese orden; tanda 2 restante (Fish Frenzy!, Hoop Flick!, Find It!) y tanda 1 (Draw Rescue!, Grow Dash!) pendientes de elección; tanda 4: 8 de 10 aceptadas por Daniel 19:05 (22 Ghost Hunt y 25 Potion Pop descartadas por Daniel): Rocket Rescue!, Monster Merge!, Coin Castle!, Burger Boss!, Snowball Fight!, Train Rush!, Dance Dash! y Treasure Dive! — cada una con sus 3 variantes como capítulos — en cola tras Pet Vet, en ese orden Tanda 5 COMPLETADA 19:24 (30/30 previews) y ACEPTADA 9/10 por Daniel 19:36 (fuera Santa Sprint, idea 29): Brainrot Battle!, Blocky Race!, Pet Hatch!, Arrow Maze!, Gate Dash!, Winter Arc!, Salon Star!, Obby Dash! y Wobbly Crew! — en cola tras Treasure Dive, cada una con sus 3 variantes como capítulos. Tanda 6 ENTREGADA 19:48 (ideas 37–46, multijugador novedoso, 30/30 previews verificadas en ideas-nuevas-1611g/) — pendiente elección de Daniel. Botones de la oficina en rediseño (orden Daniel 19:41–19:42, agente en marcha)."
+        "Anita: construyendo Grid Defender (variante B, arcade bold elegida por Daniel 19:20) - codigo avanzando en local (GameScene 21:04, testhandle 21:04, bundle JS compilado en dist/assets 21:05), sin commit ni rama aun, URL del servidor YA PASADA por Niky (comentario issue #40, 20:57, verificado: wss://online.recurretumulta.online) - pendiente de que Anita la use; Cyber Runner variante B ELEGIDA por Daniel 20:16 (arcade bold) con orden de CLON EXACTO - RONDA 1 ENTREGADA en local 21:02 (juego completo + informe/filtros/teardown), pendiente de verificaci\u00f3n (smoke, t\u00e1ctil, lado a lado vs variante B, zip <=5 MB), sin commit ni rama aun; Daniel 20:48: cada juego terminado se sube a la oficina con enlace jugable para probarlo desde alli; norm\u00e1s nuevas 20:27-20:34 para TODOS los juegos: clasificaci\u00f3n mundial POR METROS y top 3 con nombre y skins visibles en el menu principal",
+        "Scribble Striker (redise\u00f1o Street Variante B: porter\u00edas normales YA hechas, commit df08986 21:10 verificado; ahora el MEN\u00da exacto desde la foto + laterales del campo como muro de ladrillo en marcha \u2014 agente desde 21:15 por \u00f3rdenes Daniel 21:15-21:16 y 21:18; r\u00e9cord de combos y liga por copas; ORDEN Daniel 20:13: el redise\u00f1o tiene que ser ID\u00c9NTICO a la Variante B, incluido el men\u00fa \u2014 agente en marcha; subida a Playgama en espera del redise\u00f1o, por decisi\u00f3n de Daniel 17:53; la liga queda en \u00abpr\u00f3ximamente\u00bb hasta tener servidor) Online \u00a1EN VIVO desde las 20:01!: https://online.recurretumulta.online/health responde ok (verificado 21:18); el cliente ya apunta a \u00e9l (commit c641eb9) pero ONLINE_ENABLED sigue en false hasta que Daniel pruebe la Street.",
+        "Luxury Watch Dealer (redise\u00f1o total v2 \u2014 opci\u00f3n A \u00abTycoon Pop\u00bb en marcha; ORDEN Daniel 20:14: CLON EXACTO de la opci\u00f3n A elegida; lista deduplicada TERMINADA: 181 relojes, fusi\u00f3n en marcha, agente activo ~3,5 h sin commit a\u00fan) \u00d3rdenes Daniel 19:10 pasadas al agente: online + clasificaci\u00f3nes, inventario con duplicados, vender vs coleccionar.",
+        "Sand Jam! ELEGIDO por Daniel (versi\u00f3n A arena como base; B caramelos y C puerto pirata como skins comprables) \u2014 en cola tras relojes y f\u00fatbol; Laser Maze! ELEGIDO por Daniel 18:12 (variante B templo antiguo como base; A laboratorio y C est\u00e1ci\u00f3n espacial como cap\u00edtulos) \u2014 en cola tras Crowd Clash; Car Wash Chaos! ELEGIDO por Daniel 18:18 (variante B ba\u00f1o de m\u00e1scotas + modo C limpiar casas, dos modos en el mismo juego) \u2014 en cola tras Laser Maze; Crowd Clash! variante B elegida, en cola tras Sneak Out; tanda 3 ELEGIDA ENTERA por Daniel 18:21 (\u00abquiero todos para la lista, cada variante A, B y C son cap\u00edtulos\u00bb): Diggy Dash!, Garden Dash!, Marble Rush!, Slingshot Sm\u00e1sh! y Pet Vet! \u2014 en cola tras Car Wash Chaos, en ese orden; tanda 2 rest\u00e1nte (Fish Frenzy!, Hoop Flick!, Find It!) y tanda 1 (Draw Rescue!, Grow Dash!) pendientes de elecci\u00f3n; tanda 4: 8 de 10 aceptadas por Daniel 19:05 (22 Ghost Hunt y 25 Potion Pop descartadas por Daniel): Rocket Rescue!, Monster Merge!, Coin Castle!, Burger Boss!, Snowball Fight!, Train Rush!, Dance Dash! y Treasure Dive! \u2014 cada una con sus 3 variantes como cap\u00edtulos \u2014 en cola tras Pet Vet, en ese orden Tanda 5 COMPLETADA 19:24 (30/30 previews) y ACEPTADA 9/10 por Daniel 19:36 (fuera Santa Sprint, idea 29): Brainrot Battle!, Blocky Race!, Pet Hatch!, Arrow Maze!, Gate Dash!, Winter Arc!, Salon Star!, Obby Dash! y Wobbly Crew! \u2014 en cola tras Treasure Dive, cada una con sus 3 variantes como cap\u00edtulos. Tanda 6 ENTREGADA 19:48 (ideas 37\u201346, multijugador novedoso, 30/30 previews verificadas en ideas-nuevas-1611g/) \u2014 pendiente elecci\u00f3n de Daniel. Botones de la oficina en redise\u00f1o (orden Daniel 19:41\u201319:42, agente en marcha)."
     ],
     "in_progress": [
         {
-            "commit": "6dea073",
-            "covers": "icono v3 y banner v4 aprobados por Daniel (sin líneas amarillas)",
+            "commit": "df08986",
+            "covers": "icono v3 y banner v4 aprobados por Daniel (sin l\u00edneas amarillas)",
             "slug": "scribble-striker",
-            "status": "LISTO PARA PROBAR — rediseño Street clon exacto de la Variante B terminado y verificado; pendiente de que Daniel lo pruebe y dé el OK para subirlo a Playgama. Commit 6dea073 en niky/scribble-street-1611 (pusheado). Online: ¡EN VIVO desde las 20:01! https://online.recurretumulta.online/health responde ok; el cliente ya apunta a él (commit c641eb9) pero ONLINE_ENABLED sigue en false hasta que pruebes la Street. | Fusión de skins 502c7fe verificada (tsc 0, vitest 60/60, sondas en verde, zip 3,93 MB); rediseño Street (Variante B elegida por Daniel) terminado como clon exacto de los mockups, skins intactas; récord de combos + liga por copas (orden Daniel 18:10) incluidos; reglas de monetización 18:25/18:32 y 20 skins mínimo por sección 18:39 aplicadas; subida a Playgama en espera de tu OK, por decisión de Daniel 17:53; la liga queda en «próximamente» hasta tener servidor. | Paso: Entregado para prueba (commit 6dea073, verificado contra el mockup B) | Queda: Prueba de Daniel + subida a Playgama",
+            "status": "EN MARCHA \u2014 porter\u00edas normales YA arregladas (commit df08986, 21:10, verificado por Dani: marco blanco + red, muros y grada desde la foto); ahora mismo: el agente rehace el MEN\u00da exacto desde la foto variant-b-menu.png (orden Daniel 21:15-21:16, \u00abQuiero este men\u00fa exacto con las tiras de celo y todo\u00bb), fondo, letras, ni\u00f1os y pizarra sacados de la foto misma; Y los LATERALES del campo (orden Daniel 21:18: \u00abse ven como las gradas en lugar de una pared\u00bb) \u2014 laterales = MURO DE LADRILLO con grafitis desde la foto, arriba valla + skyline + atardecer, la grada NO sube arriba, el p\u00fablico solo abajo. El campo NO se toca. Queda: terminar el men\u00fa + laterales + verificaci\u00f3n imagen contra imagen + ZIP nuevo + que Daniel lo pruebe y d\u00e9 el OK para subirlo a Playgama (el borrador cmwjolg5v00s0jy0izncjeyol sigue con el ZIP viejo). Bloqueado: no. | Online EN VIVO desde las 20:01: https://online.recurretumulta.online/health responde ok (verificado 21:18); el cliente ya apunta a \u00e9l (commit c641eb9) pero ONLINE_ENABLED sigue en false hasta que Daniel pruebe la Street. | Paso: Rehaciendo el MEN\u00da exacto desde la foto + laterales como muro (agente en marcha desde 21:15) | Queda: Men\u00fa + laterales + verificaci\u00f3n + ZIP nuevo; sin estimar a\u00fan (el agente acaba de empezar)",
             "title": "Scribble Striker",
-            "paso": "Entregado para prueba (commit 6dea073, verificado contra el mockup B)",
-            "queda": "Prueba de Daniel + subida a Playgama"
+            "paso": "Rehaciendo el MEN\u00da exacto desde la foto + laterales del campo como muro (agente en marcha desde 21:15); porter\u00edas normales ya hechas y verificadas (df08986)",
+            "queda": "Men\u00fa + laterales + verificaci\u00f3n imagen contra imagen + ZIP nuevo; sin estimar a\u00fan (el agente acaba de empezar) \u2014 luego prueba de Daniel + subida a Playgama"
         },
         {
             "covers": "icono v2 y banner v2 aprobados por Daniel",
             "slug": "luxury-watch-dealer-redesign-v2",
-            "status": "EN MARCHA — rediseño total v2 (Tycoon Pop). Ahora mismo: el agente rehace el v2 para clonarlo EXACTO de la opción A elegida (orden de Daniel 20:14, mockups en luxury-watch-dealer/mockups-v2/), fusionando los 181 relojes + órdenes tuyas de las 19:10 (online + clasificaciones, inventario con duplicados, vender vs coleccionar), sin commitear aún (agente activo ~3,5 h; último commit fa5c635, 17:04; en el worktree se ven cambios sin commitear: index.html modificado y arte antiguo de cajas borrado — está sustituyendo el arte). Queda: terminar la fusión y el rediseño exacto, y que lo pruebes. Bloqueado: no. | Daniel eligió la OPCIÓN A «Tycoon Pop» (17:19) — rediseño total v2 en marcha en rama niky/relojes-redesign-a-1611 (estilo A en todas las pantallas + zona de cajas + zona de reparación); lista deduplicada TERMINADA 17:51 (verificada): 151 relojes únicos nuevos + 30 actuales = 181 en total (Rolex 34, AP 24, Patek 20, RM 23, Cartier 38, Jacob 16, Vacheron 26 — marca nueva), valor ≈$41.633.935, estados full_set 72 / naked 63 / papers_only 46; 55 duplicados descartados, 19 sin identificar; reglas de monetización 18:25/18:32 y 20 skins mínimo por sección 18:39 pasadas al agente, pendientes de su entrega; Daniel cerró la recogida de fotos en 130 archivos | Paso: Rehaciendo el rediseño v2 para clon exacto de la opción A «Tycoon Pop», fusionando los 181 relojes, sin commit aún | Queda: ~1–2 h (orientativo)",
-            "title": "Luxury Watch Dealer — rediseño total v2",
-            "paso": "Rehaciendo el rediseño v2 para clon exacto de la opción A «Tycoon Pop», fusionando los 181 relojes, sin commit aún",
-            "queda": "~1–2 h (orientativo)"
+            "status": "EN MARCHA - redise\u00f1o total v2 (Tycoon Pop). Ahora mismo: el agente rehace el v2 para clonarlo EXACTO de la opci\u00f3n A elegida (orden de Daniel 20:14, mockups en luxury-watch-dealer/mockups-v2/), fusi\u00f3nando los 181 relojes + ordenes tuyas de las 19:10 (online + clasificaci\u00f3nes, inventario con duplicados, vender vs coleccionar); agente ACTIVO (\u00faltima actividad hace seg\u00fandos, ~4 h en marcha), sin commitear aun (\u00faltimo commit fa5c635, 17:04; en el worktree se ven cambios sin commitear: index.html modificado y arte antiguo de cajas borrado - est\u00e1 sustituyendo el arte). Queda: terminar la fusi\u00f3n y el redise\u00f1o exacto, y que lo pruebes. Bloqueado: no. | Daniel eligi\u00f3 la OPCION A \"Tycoon Pop\" (17:19) - redise\u00f1o total v2 en marcha en rama niky/relojes-redesign-a-1611 (estilo A en todas las pantallas + zona de cajas + zona de reparaci\u00f3n); lista deduplicada TERMINADA 17:51 (verificada): 151 relojes unicos nuevos + 30 actuales = 181 en total (Rolex 34, AP 24, Patek 20, RM 23, Cartier 38, Jacob 16, Vacheron 26 - marca nueva), valor ~$41.633.935, est\u00e1dos full_set 72 / naked 63 / papers_only 46; 55 duplicados descartados, 19 sin identificar; reglas de monetizaci\u00f3n 18:25/18:32 y 20 skins m\u00ednimo por secci\u00f3n 18:39 pasadas al agente, pendientes de su entrega; Daniel cerro la recogida de fotos en 130 archivos | Paso: Rehaciendo el redise\u00f1o v2 para clon exacto de la opci\u00f3n A \"Tycoon Pop\", fusi\u00f3nando los 181 relojes, sin commit aun | Queda: ~1-2 h (orientativo)",
+            "title": "Luxury Watch Dealer \u2014 redise\u00f1o total v2",
+            "paso": "Rehaciendo el redise\u00f1o v2 para clon exacto de la opci\u00f3n A \"Tycoon Pop\", fusi\u00f3nando los 181 relojes, sin commit aun (agente activo, \u00faltima actividad hace seg\u00fandos)",
+            "queda": "~1-2 h (orientativo)"
         },
         {
             "commit": null,
             "covers": "assets generados (pack 32/32), covers pendientes",
             "slug": "grid-defender",
-            "status": "EN MARCHA — mockup aprobado 16/11 16:01; assets 32/32; Daniel eligió la variante B (arcade bold) 16/11 19:20; construcción en marcha en local (work/) desde las 19:20, sin commit ni rama en GitHub aún (verificado 21:08: anita/grid-defender-b no existe); código online-ready escrito (adaptadores + clasificaciones + anuncios con recompensa para monedas, 20:04) y escenas avanzando (GameScene 21:04, testhandle 21:04, bundle JS compilado en dist/assets 21:05, build en curso sin index.html aún); pendiente de que Niky pase URL, endpoints y autenticación del backend (PREGUNTA-NIKY.md)",
+            "status": "EN MARCHA - mockup aprobado 16/11 16:01; assets 32/32; Daniel eligi\u00f3 la variante B (arcade bold) 16/11 19:20; construcci\u00f3n en marcha en local (work/) desde las 19:20, sin commit ni rama en GitHub aun (verificado 21:08: anita/grid-defender-b no existe); codigo online-ready escrito (adaptadores + clasificaci\u00f3nes + anuncios con recompensa para monedas, 20:04) y escenas avanzando (GameScene 21:04, testhandle 21:04, bundle JS compilado en dist/assets 21:05, build en curso sin index.html aun); URL del servidor YA PASADA por Niky (comentario issue #40 id 6927564530, 20:57, verificado): wss://online.recurretumulta.online - pendiente de que Anita la use | Paso: C\u00f3digo avanzando (GameScene 21:04, bundle JS compilado 21:05); URL del servidor ya pasada | Queda: Pendiente de Anita - usar la URL y terminar el juego",
             "title": "Grid Defender",
-            "paso": "Código avanzando (GameScene 21:04, bundle JS compilado 21:05); pendiente de que Niky pase la URL/endpoints del backend (servidor ya en vivo)",
-            "queda": "Pendiente de Niky — pasar URL/endpoints"
+            "paso": "C\u00f3digo avanzando (GameScene 21:04, bundle JS compilado 21:05); URL del servidor YA pasada por Niky (comentario issue #40, 20:57) - pendiente de que Anita la use",
+            "queda": "Pendiente de Anita - usar la URL del servidor ya pasada y terminar el juego"
         },
         {
             "commit": null,
             "covers": "assets generados (pack 23/23), covers pendientes",
             "slug": "slice-and-serve",
-            "status": "EN MARCHA — mockup aprobado 16/11 16:01 (v3, chef Pixar); assets 23/23 completados; variantes de diseño pendientes | Paso: Assets 23/23 completados; variantes de diseño pendientes | Queda: Sin estimar — pendientes las variantes",
+            "status": "EN MARCHA \u2014 mockup aprobado 16/11 16:01 (v3, chef Pixar); assets 23/23 completados; variantes de dise\u00f1o pendientes | Paso: Assets 23/23 completados; variantes de dise\u00f1o pendientes | Queda: Sin estimar \u2014 pendientes las variantes",
             "title": "Slice & Serve",
-            "paso": "Assets 23/23 completados; variantes de diseño pendientes",
-            "queda": "Sin estimar — pendientes las variantes"
+            "paso": "Assets 23/23 completados; variantes de dise\u00f1o pendientes",
+            "queda": "Sin estimar \u2014 pendientes las variantes"
         },
         {
             "commit": null,
             "covers": "assets generados (pack 16/16), covers pendientes",
             "slug": "cyber-runner",
-            "status": "EN MARCHA — mockup aprobado 16/11 16:01; assets 16/16; 3 variantes de diseño COMPLETADAS y verificadas píxel a píxel 16/11 ~20:11 y PRESENTADAS a Daniel (A neón synthwave, B arcade bold, C futurista minimal); Daniel ELIGIÓ la variante B 16/11 20:16 y ordenó CLON EXACTO del juego («todo igual que en las imágenes nada diferente, un clon exacto»); RONDA 1 ENTREGADA en local 21:02 (juego completo Phaser 3 + TS + Vite: escenas Boot/Game/Menu, HUD variante B, clasificación mundial POR METROS, ads con recompensa; informe + filtros + teardown en work/entregas/cyber-runner-round1/), pendiente de verificación (smoke Playwright, test táctil, comparación lado a lado vs variante B, zip ≤5 MB); sin commit ni rama anita/cyber-runner-b en GitHub aún (verificado 21:08); requisito nuevo 20:27: zona de CLASIFICACIÓN MUNDIAL POR METROS; norma 20:34: en el menú principal salen los 3 PRIMEROS con su nombre y skins, bien visibles, y al desplegar el resto — vale para TODOS los juegos",
+            "status": "EN MARCHA \u2014 mockup aprobado 16/11 16:01; assets 16/16; 3 variantes de dise\u00f1o COMPLETADAS y verificadas p\u00edxel a p\u00edxel 16/11 ~20:11 y PRESENTADAS a Daniel (A ne\u00f3n synthwave, B arcade bold, C futurista minimal); Daniel ELIGI\u00d3 la variante B 16/11 20:16 y orden\u00f3 CLON EXACTO del juego (\u00abtodo igual que en las im\u00e1genes nada diferente, un clon exacto\u00bb); RONDA 1 ENTREGADA en local 21:02 (juego completo Phaser 3 + TS + Vite: escenas Boot/Game/Men\u00fa, HUD variante B, clasificaci\u00f3n mundial POR METROS, ads con recompensa; informe + filtros + teardown en work/entregas/cyber-runner-round1/), pendiente de verificaci\u00f3n (smoke Playwright, test t\u00e1ctil, comparaci\u00f3n lado a lado vs variante B, zip \u22645 MB); sin commit ni rama anita/cyber-runner-b en GitHub a\u00fan (verificado 21:08); requisito nuevo 20:27: zona de CLASIFICACI\u00d3N MUNDIAL POR METROS; norma 20:34: en el men\u00fa principal salen los 3 PRIMEROS con su nombre y skins, bien visibles, y al desplegar el resto \u2014 vale para TODOS los juegos",
             "title": "Cyber Runner",
-            "paso": "Ronda 1 entregada en local 21:02 (juego completo); pendiente de verificación (smoke, táctil, lado a lado, zip)",
-            "queda": "Verificar ronda 1 y subir a la oficina con enlace jugable para que Daniel lo pruebe; sin commit ni rama aún"
+            "paso": "Ronda 1 entregada en local 21:02 (juego completo); pendiente de verificaci\u00f3n (smoke, t\u00e1ctil, lado a lado, zip)",
+            "queda": "Verificar ronda 1 y subir a la oficina con enlace jugable para que Daniel lo pruebe; sin commit ni rama a\u00fan"
         }
     ],
     "published": [
@@ -75,7 +75,7 @@
             "playgama_url": "https://playgama.ai/play/rswbvm34ovfkfo",
             "published_date": "2026-11-16",
             "slug": "luxury-watch-dealer",
-            "status": "Sandbox — En vivo",
+            "status": "Sandbox \u2014 En vivo",
             "title": "Luxury Watch Dealer",
             "title_es": "El Marchante de Relojes"
         }
@@ -87,12 +87,12 @@
             "title": "Traffic Chaos NY"
         },
         {
-            "reason": "Línea de rework visual cerrada el 16/11 — el juego se queda en su v1",
+            "reason": "L\u00ednea de rework visual cerrada el 16/11 \u2014 el juego se queda en su v1",
             "slug": "sky-stack",
             "title": "Sky Stack"
         },
         {
-            "reason": "Mockup aprobado 16/11 14:51 y assets 37/37 completados, pero CANCELADO por Daniel 16/11 16:01 — no se construye, no se presenta más",
+            "reason": "Mockup aprobado 16/11 14:51 y assets 37/37 completados, pero CANCELADO por Daniel 16/11 16:01 \u2014 no se construye, no se presenta m\u00e1s",
             "slug": "shadow-match",
             "title": "Shadow Match"
         }
@@ -100,271 +100,271 @@
     "to_test": [],
     "upcoming": [
         {
-            "design": "Versión A (arena) como base; B (caramelos) y C (puerto pirata) como skins comprables",
+            "design": "Versi\u00f3n A (arena) como base; B (caramelos) y C (puerto pirata) como skins comprables",
             "mockup": "idea-5-variant-a.png",
             "slug": "sand-jam",
-            "status": "Aceptado por Daniel — en cola, primero tras relojes y fútbol",
+            "status": "Aceptado por Daniel \u2014 en cola, primero tras relojes y f\u00fatbol",
             "title": "Sand Jam!"
         },
         {
-            "design": "Variante B (templo de la jungla) como base; A (museo de noche) y C (estación espacial) como capítulos que se desbloquean",
+            "design": "Variante B (templo de la jungla) como base; A (museo de noche) y C (est\u00e1ci\u00f3n espacial) como cap\u00edtulos que se desbloquean",
             "mockup": "idea-4-variant-b.png",
             "slug": "sneak-out",
-            "status": "Aceptado por Daniel — en cola, tras Sand Jam",
+            "status": "Aceptado por Daniel \u2014 en cola, tras Sand Jam",
             "title": "Sneak Out!"
         },
         {
-            "design": "Variante B cómic premium (dinosaurios maduros)",
+            "design": "Variante B c\u00f3mic premium (dinosaurios maduros)",
             "mockup": "idea-2-variant-dino-epic-b.png",
             "slug": "crowd-clash",
-            "status": "Aceptado por Daniel — diseño elegido, en cola tras Sneak Out",
+            "status": "Aceptado por Daniel \u2014 dise\u00f1o elegido, en cola tras Sneak Out",
             "title": "Crowd Clash!"
         },
         {
-            "design": "Variante B (templo antiguo) como base; A (laboratorio) y C (estación espacial) como capítulos que se desbloquean",
+            "design": "Variante B (templo antiguo) como base; A (laboratorio) y C (est\u00e1ci\u00f3n espacial) como cap\u00edtulos que se desbloquean",
             "mockup": "idea-11-variant-b.png",
             "slug": "laser-maze",
-            "status": "Aceptado por Daniel 18:12 — en cola, tras Crowd Clash",
+            "status": "Aceptado por Daniel 18:12 \u2014 en cola, tras Crowd Clash",
             "title": "Laser Maze!"
         },
         {
-            "design": "Variante B (baño de mascotas) como base + modo C (limpiar casas): dos modos en el mismo juego",
+            "design": "Variante B (ba\u00f1o de m\u00e1scotas) como base + modo C (limpiar casas): dos modos en el mismo juego",
             "mockup": "idea-7-variant-b.png",
             "slug": "car-wash-chaos",
-            "status": "Aceptado por Daniel 18:18 — en cola, tras Laser Maze",
+            "status": "Aceptado por Daniel 18:18 \u2014 en cola, tras Laser Maze",
             "title": "Car Wash Chaos!"
         },
         {
-            "design": "A (mina de oro), B (dinosaurios) y C (Luna) son capítulos del juego",
+            "design": "A (mina de oro), B (dinosaurios) y C (Luna) son cap\u00edtulos del juego",
             "mockup": "idea-12-variant-a.png",
             "slug": "diggy-dash",
-            "status": "Aceptado por Daniel 18:21 — en cola, tras Car Wash Chaos",
+            "status": "Aceptado por Daniel 18:21 \u2014 en cola, tras Car Wash Chaos",
             "title": "Diggy Dash!"
         },
         {
-            "design": "A (flores), B (huerto) y C (cactus) son capítulos del juego",
+            "design": "A (flores), B (huerto) y C (cactus) son cap\u00edtulos del juego",
             "mockup": "idea-13-variant-a.png",
             "slug": "garden-dash",
-            "status": "Aceptado por Daniel 18:21 — en cola, tras Diggy Dash",
+            "status": "Aceptado por Daniel 18:21 \u2014 en cola, tras Diggy Dash",
             "title": "Garden Dash!"
         },
         {
-            "design": "A (pista de madera), B (bola de nieve) y C (lava) son capítulos del juego",
+            "design": "A (pista de madera), B (bola de nieve) y C (lava) son cap\u00edtulos del juego",
             "mockup": "idea-14-variant-a.png",
             "slug": "marble-rush",
-            "status": "Aceptado por Daniel 18:21 — en cola, tras Garden Dash",
+            "status": "Aceptado por Daniel 18:21 \u2014 en cola, tras Garden Dash",
             "title": "Marble Rush!"
         },
         {
-            "design": "A (castillo), B (bolas de nieve) y C (espacio) son capítulos del juego",
+            "design": "A (castillo), B (bolas de nieve) y C (espacio) son cap\u00edtulos del juego",
             "mockup": "idea-15-variant-a.png",
-            "slug": "slingshot-smash",
-            "status": "Aceptado por Daniel 18:21 — en cola, tras Marble Rush",
-            "title": "Slingshot Smash!"
+            "slug": "slingshot-sm\u00e1sh",
+            "status": "Aceptado por Daniel 18:21 \u2014 en cola, tras Marble Rush",
+            "title": "Slingshot Sm\u00e1sh!"
         },
         {
-            "design": "A (clínica), B (refugio) y C (zoo) son capítulos del juego",
+            "design": "A (cl\u00ednica), B (refugio) y C (zoo) son cap\u00edtulos del juego",
             "mockup": "idea-16-variant-a.png",
             "slug": "pet-vet",
-            "status": "Aceptado por Daniel 18:21 — en cola, tras Slingshot Smash",
+            "status": "Aceptado por Daniel 18:21 \u2014 en cola, tras Slingshot Sm\u00e1sh",
             "title": "Pet Vet!"
         },
         {
-            "design": "A (Base lunar), B (Cañón de Marte) y C (Plataforma oceánica) son capítulos del juego",
+            "design": "A (Base lunar), B (Ca\u00f1\u00f3n de Marte) y C (Plataforma oce\u00e1nica) son cap\u00edtulos del juego",
             "mockup": "idea-17-variant-a.png",
             "slug": "rocket-rescue",
-            "status": "Aceptado por Daniel 19:05 — en cola, tras Pet Vet",
+            "status": "Aceptado por Daniel 19:05 \u2014 en cola, tras Pet Vet",
             "title": "Rocket Rescue!"
         },
         {
-            "design": "A (Caramelo), B (Robots) y C (Marinas) son capítulos del juego",
+            "design": "A (Caramelo), B (Robots) y C (Marinas) son cap\u00edtulos del juego",
             "mockup": "idea-18-variant-a.png",
             "slug": "monster-merge",
-            "status": "Aceptado por Daniel 19:05 — en cola, tras Rocket Rescue",
+            "status": "Aceptado por Daniel 19:05 \u2014 en cola, tras Rocket Rescue",
             "title": "Monster Merge!"
         },
         {
-            "design": "A (Pirata), B (Neón) y C (Dulces) son capítulos del juego",
+            "design": "A (Pirata), B (Ne\u00f3n) y C (Dulces) son cap\u00edtulos del juego",
             "mockup": "idea-19-variant-a.png",
             "slug": "coin-castle",
-            "status": "Aceptado por Daniel 19:05 — en cola, tras Monster Merge",
+            "status": "Aceptado por Daniel 19:05 \u2014 en cola, tras Monster Merge",
             "title": "Coin Castle!"
         },
         {
-            "design": "A (Food truck), B (Cocina real) y C (Espacial) son capítulos del juego",
+            "design": "A (Food truck), B (Cocina real) y C (Espacial) son cap\u00edtulos del juego",
             "mockup": "idea-20-variant-a.png",
             "slug": "burger-boss",
-            "status": "Aceptado por Daniel 19:05 — en cola, tras Coin Castle",
+            "status": "Aceptado por Daniel 19:05 \u2014 en cola, tras Coin Castle",
             "title": "Burger Boss!"
         },
         {
-            "design": "A (Pueblo nevado), B (Playa) y C (Espacio) son capítulos del juego",
+            "design": "A (Pueblo nevado), B (Playa) y C (Espacio) son cap\u00edtulos del juego",
             "mockup": "idea-21-variant-a.png",
             "slug": "snowball-fight",
-            "status": "Aceptado por Daniel 19:05 — en cola, tras Burger Boss",
+            "status": "Aceptado por Daniel 19:05 \u2014 en cola, tras Burger Boss",
             "title": "Snowball Fight!"
         },
         {
-            "design": "A (Oeste), B (Metro futurista) y C (Juguete de madera) son capítulos del juego",
+            "design": "A (Oeste), B (Metro futurista) y C (Juguete de madera) son cap\u00edtulos del juego",
             "mockup": "idea-23-variant-a.png",
             "slug": "train-rush",
-            "status": "Aceptado por Daniel 19:05 — en cola, tras Snowball Fight",
+            "status": "Aceptado por Daniel 19:05 \u2014 en cola, tras Snowball Fight",
             "title": "Train Rush!"
         },
         {
-            "design": "A (Discoteca), B (K-pop) y C (Rave robot) son capítulos del juego",
+            "design": "A (Discoteca), B (K-pop) y C (Rave robot) son cap\u00edtulos del juego",
             "mockup": "idea-24-variant-a.png",
             "slug": "dance-dash",
-            "status": "Aceptado por Daniel 19:05 — en cola, tras Train Rush",
+            "status": "Aceptado por Daniel 19:05 \u2014 en cola, tras Train Rush",
             "title": "Dance Dash!"
         },
         {
-            "design": "A (Arrecife), B (Barco pirata) y C (Cueva de hielo) son capítulos del juego",
+            "design": "A (Arrecife), B (Barco pirata) y C (Cueva de hielo) son cap\u00edtulos del juego",
             "mockup": "idea-26-variant-a.png",
             "slug": "treasure-dive",
-            "status": "Aceptado por Daniel 19:05 — en cola, tras Dance Dash",
+            "status": "Aceptado por Daniel 19:05 \u2014 en cola, tras Dance Dash",
             "title": "Treasure Dive!"
         },
         {
-            "design": "A (calle italiana), B (selva) y C (espacio) son capítulos del juego. Multijugador en vivo (batallas) + clasificación. Mínimo 20 skins por sección.",
+            "design": "A (calle italiana), B (selva) y C (espacio) son cap\u00edtulos del juego. Multijugador en vivo (batallas) + clasificaci\u00f3n. M\u00ednimo 20 skins por secci\u00f3n.",
             "mockup": "idea-27-variant-a.png",
             "slug": "brainrot-battle",
-            "status": "Aceptado por Daniel 19:36 — en cola, tras Treasure Dive",
+            "status": "Aceptado por Daniel 19:36 \u2014 en cola, tras Treasure Dive",
             "title": "Brainrot Battle!"
         },
         {
-            "design": "A (ciudad neón), B (desierto) y C (nieve) son capítulos. Multijugador en vivo (carreras) + clasificación diaria. Mínimo 20 skins por sección.",
+            "design": "A (ciudad ne\u00f3n), B (desierto) y C (nieve) son cap\u00edtulos. Multijugador en vivo (carreras) + clasificaci\u00f3n diaria. M\u00ednimo 20 skins por secci\u00f3n.",
             "mockup": "idea-28-variant-a.png",
             "slug": "blocky-race",
-            "status": "Aceptado por Daniel 19:36 — en cola, tras Brainrot Battle",
+            "status": "Aceptado por Daniel 19:36 \u2014 en cola, tras Brainrot Battle",
             "title": "Blocky Race!"
         },
         {
-            "design": "A (huevos dino), B (dragón) y C (alien) son capítulos. Clasificación + batallas de mascotas. Mínimo 20 skins por sección.",
+            "design": "A (huevos dino), B (drag\u00f3n) y C (alien) son cap\u00edtulos. Clasificaci\u00f3n + batallas de m\u00e1scotas. M\u00ednimo 20 skins por secci\u00f3n.",
             "mockup": "idea-30-variant-a.png",
             "slug": "pet-hatch",
-            "status": "Aceptado por Daniel 19:36 — en cola, tras Blocky Race",
+            "status": "Aceptado por Daniel 19:36 \u2014 en cola, tras Blocky Race",
             "title": "Pet Hatch!"
         },
         {
-            "design": "A (mazmorra), B (estación espacial) y C (dulces) son capítulos. Multijugador (carrera por resolver antes) + clasificación. Mínimo 20 skins por sección.",
+            "design": "A (mazmorra), B (est\u00e1ci\u00f3n espacial) y C (dulces) son cap\u00edtulos. Multijugador (carrera por resolver antes) + clasificaci\u00f3n. M\u00ednimo 20 skins por secci\u00f3n.",
             "mockup": "idea-31-variant-a.png",
             "slug": "arrow-maze",
-            "status": "Aceptado por Daniel 19:36 — en cola, tras Pet Hatch",
+            "status": "Aceptado por Daniel 19:36 \u2014 en cola, tras Pet Hatch",
             "title": "Arrow Maze!"
         },
         {
-            "design": "A (ciudad superhéroes), B (dulces) y C (fábrica de robots) son capítulos. Multijugador en vivo (carreras) + clasificación. Mínimo 20 skins por sección.",
+            "design": "A (ciudad superh\u00e9roes), B (dulces) y C (f\u00e1brica de robots) son cap\u00edtulos. Multijugador en vivo (carreras) + clasificaci\u00f3n. M\u00ednimo 20 skins por secci\u00f3n.",
             "mockup": "idea-32-variant-a.png",
             "slug": "gate-dash",
-            "status": "Aceptado por Daniel 19:36 — en cola, tras Arrow Maze",
+            "status": "Aceptado por Daniel 19:36 \u2014 en cola, tras Arrow Maze",
             "title": "Gate Dash!"
         },
         {
-            "design": "A (gimnasio), B (correr en nieve) y C (baño de hielo) son capítulos. Retos contra amigos + clasificación. Mínimo 20 skins por sección.",
+            "design": "A (gimnasio), B (correr en nieve) y C (ba\u00f1o de hielo) son cap\u00edtulos. Retos contra amigos + clasificaci\u00f3n. M\u00ednimo 20 skins por secci\u00f3n.",
             "mockup": "idea-33-variant-a.png",
             "slug": "winter-arc",
-            "status": "Aceptado por Daniel 19:36 — en cola, tras Gate Dash",
+            "status": "Aceptado por Daniel 19:36 \u2014 en cola, tras Gate Dash",
             "title": "Winter Arc!"
         },
         {
-            "design": "A (pop star), B (real) y C (ciber) son capítulos. Multijugador (duelo de peinados) + clasificación. Mínimo 20 skins por sección.",
+            "design": "A (pop star), B (real) y C (ciber) son cap\u00edtulos. Multijugador (duelo de peinados) + clasificaci\u00f3n. M\u00ednimo 20 skins por secci\u00f3n.",
             "mockup": "idea-34-variant-a.png",
             "slug": "salon-star",
-            "status": "Aceptado por Daniel 19:36 — en cola, tras Winter Arc",
+            "status": "Aceptado por Daniel 19:36 \u2014 en cola, tras Winter Arc",
             "title": "Salon Star!"
         },
         {
-            "design": "A (torre de dulces), B (lava) y C (nubes) son capítulos. Multijugador en vivo (carrera de obstáculos) + clasificación. Mínimo 20 skins por sección.",
+            "design": "A (torre de dulces), B (lava) y C (nubes) son cap\u00edtulos. Multijugador en vivo (carrera de obst\u00e1culos) + clasificaci\u00f3n. M\u00ednimo 20 skins por secci\u00f3n.",
             "mockup": "idea-35-variant-a.png",
             "slug": "obby-dash",
-            "status": "Aceptado por Daniel 19:36 — en cola, tras Salon Star",
+            "status": "Aceptado por Daniel 19:36 \u2014 en cola, tras Salon Star",
             "title": "Obby Dash!"
         },
         {
-            "design": "A (mudanza), B (estación espacial) y C (barco pirata) son capítulos. Multijugador cooperativo en vivo + clasificación. Mínimo 20 skins por sección.",
+            "design": "A (mudanza), B (est\u00e1ci\u00f3n espacial) y C (barco pirata) son cap\u00edtulos. Multijugador cooperativo en vivo + clasificaci\u00f3n. M\u00ednimo 20 skins por secci\u00f3n.",
             "mockup": "idea-36-variant-a.png",
             "slug": "wobbly-crew",
-            "status": "Aceptado por Daniel 19:36 — en cola, tras Obby Dash",
+            "status": "Aceptado por Daniel 19:36 \u2014 en cola, tras Obby Dash",
             "title": "Wobbly Crew!"
         },
         {
-            "design": "A (azotea al atardecer), B (calle neón) y C (faro embrujado) son capítulos (mapas). Multijugador en vivo 4J todos contra todos + clasificación. Mínimo 20 skins por sección.",
+            "design": "A (azotea al atardecer), B (calle ne\u00f3n) y C (faro embrujado) son cap\u00edtulos (mapas). Multijugador en vivo 4J todos contra todos + clasificaci\u00f3n. M\u00ednimo 20 skins por secci\u00f3n.",
             "mockup": "idea-37-variant-a.png",
             "slug": "shadow-stomp",
-            "status": "Aceptado por Daniel 19:52 — en cola, tras Wobbly Crew",
+            "status": "Aceptado por Daniel 19:52 \u2014 en cola, tras Wobbly Crew",
             "title": "Shadow Stomp!"
         },
         {
-            "design": "A (playa), B (montañas nevadas) y C (azoteas al atardecer) son capítulos (mapas). Multijugador en vivo 4J PvP + clasificación. Mínimo 20 skins por sección.",
+            "design": "A (playa), B (monta\u00f1as nevadas) y C (azoteas al atardecer) son cap\u00edtulos (mapas). Multijugador en vivo 4J PvP + clasificaci\u00f3n. M\u00ednimo 20 skins por secci\u00f3n.",
             "mockup": "idea-38-variant-a.png",
             "slug": "kite-clash",
-            "status": "Aceptado por Daniel 19:52 — en cola, tras Shadow Stomp",
+            "status": "Aceptado por Daniel 19:52 \u2014 en cola, tras Shadow Stomp",
             "title": "Kite Clash!"
         },
         {
-            "design": "A (patio escolar), B (playa) y C (estación espacial sin gravedad) son capítulos (arenas). Multijugador en vivo 1v1 con torneo + clasificación. Mínimo 20 skins por sección.",
+            "design": "A (patio escolar), B (playa) y C (est\u00e1ci\u00f3n espacial sin gravedad) son cap\u00edtulos (arenas). Multijugador en vivo 1v1 con torneo + clasificaci\u00f3n. M\u00ednimo 20 skins por secci\u00f3n.",
             "mockup": "idea-39-variant-a.png",
             "slug": "tether-clash",
-            "status": "Aceptado por Daniel 19:52 — en cola, tras Kite Clash",
+            "status": "Aceptado por Daniel 19:52 \u2014 en cola, tras Kite Clash",
             "title": "Tether Clash!"
         },
         {
-            "design": "A (patio), B (arcade neón) y C (selva) son capítulos (canchas). Multijugador en vivo 4J por eliminación + clasificación. Mínimo 20 skins por sección.",
+            "design": "A (patio), B (arcade ne\u00f3n) y C (selva) son cap\u00edtulos (canchas). Multijugador en vivo 4J por eliminaci\u00f3n + clasificaci\u00f3n. M\u00ednimo 20 skins por secci\u00f3n.",
             "mockup": "idea-40-variant-a.png",
             "slug": "four-square-frenzy",
-            "status": "Aceptado por Daniel 19:52 — en cola, tras Tether Clash",
+            "status": "Aceptado por Daniel 19:52 \u2014 en cola, tras Tether Clash",
             "title": "Four Square Frenzy!"
         },
         {
-            "design": "A (cuarto de juguetes), B (escalera de caramelo) y C (espacio) son capítulos (pistas). Multijugador en vivo, carrera 4J + clasificación. Mínimo 20 skins por sección.",
+            "design": "A (cuarto de juguetes), B (escalera de caramelo) y C (espacio) son cap\u00edtulos (pistas). Multijugador en vivo, carrera 4J + clasificaci\u00f3n. M\u00ednimo 20 skins por secci\u00f3n.",
             "mockup": "idea-41-variant-a.png",
             "slug": "slinky-sprint",
-            "status": "Aceptado por Daniel 19:52 — en cola, tras Four Square Frenzy",
+            "status": "Aceptado por Daniel 19:52 \u2014 en cola, tras Four Square Frenzy",
             "title": "Slinky Sprint!"
         },
         {
-            "design": "A (circo), B (calle) y C (discoteca neón) son capítulos (escenarios). Multijugador en vivo 4J supervivencia + clasificación. Mínimo 20 skins por sección.",
+            "design": "A (circo), B (calle) y C (discoteca ne\u00f3n) son cap\u00edtulos (escenarios). Multijugador en vivo 4J supervivencia + clasificaci\u00f3n. M\u00ednimo 20 skins por secci\u00f3n.",
             "mockup": "idea-42-variant-a.png",
             "slug": "juggle-clash",
-            "status": "Aceptado por Daniel 19:52 — en cola, tras Slinky Sprint",
+            "status": "Aceptado por Daniel 19:52 \u2014 en cola, tras Slinky Sprint",
             "title": "Juggle Clash!"
         },
         {
-            "design": "A (circo), B (cañón al atardecer) y C (rascacielos) son capítulos (cuerdas). Multijugador en vivo 1v1 con torneo + clasificación. Mínimo 20 skins por sección.",
+            "design": "A (circo), B (ca\u00f1\u00f3n al atardecer) y C (rascacielos) son cap\u00edtulos (cuerdas). Multijugador en vivo 1v1 con torneo + clasificaci\u00f3n. M\u00ednimo 20 skins por secci\u00f3n.",
             "mockup": "idea-43-variant-a.png",
             "slug": "tightrope-duel",
-            "status": "Aceptado por Daniel 19:52 — en cola, tras Juggle Clash",
+            "status": "Aceptado por Daniel 19:52 \u2014 en cola, tras Juggle Clash",
             "title": "Tightrope Duel!"
         },
         {
-            "design": "A (calle lluviosa), B (monzón en la selva) y C (lluvia de caramelo) son capítulos (mapas). Multijugador en vivo 4J 60 s + clasificación. Mínimo 20 skins por sección.",
+            "design": "A (calle lluviosa), B (monz\u00f3n en la selva) y C (lluvia de caramelo) son cap\u00edtulos (mapas). Multijugador en vivo 4J 60 s + clasificaci\u00f3n. M\u00ednimo 20 skins por secci\u00f3n.",
             "mockup": "idea-44-variant-a.png",
             "slug": "puddle-splash",
-            "status": "Aceptado por Daniel 19:52 — en cola, tras Tightrope Duel",
+            "status": "Aceptado por Daniel 19:52 \u2014 en cola, tras Tightrope Duel",
             "title": "Puddle Splash!"
         },
         {
-            "design": "A (islas flotantes), B (nubes de tormenta) y C (dunas) son capítulos (arenas). Multijugador en vivo 4J, último en la isla gana + clasificación. Mínimo 20 skins por sección.",
+            "design": "A (islas flotantes), B (nubes de tormenta) y C (dunas) son cap\u00edtulos (arenas). Multijugador en vivo 4J, \u00faltimo en la isla gana + clasificaci\u00f3n. M\u00ednimo 20 skins por secci\u00f3n.",
             "mockup": "idea-45-variant-a.png",
             "slug": "wind-wizard-duel",
-            "status": "Aceptado por Daniel 19:52 — en cola, tras Puddle Splash",
+            "status": "Aceptado por Daniel 19:52 \u2014 en cola, tras Puddle Splash",
             "title": "Wind Wizard Duel!"
         },
         {
-            "design": "A (bosque nocturno), B (mar profundo) y C (jardín neón) son capítulos (mapas). Multijugador en vivo 4J 60 s + clasificación. Mínimo 20 skins por sección.",
+            "design": "A (bosque nocturno), B (mar profundo) y C (jard\u00edn ne\u00f3n) son cap\u00edtulos (mapas). Multijugador en vivo 4J 60 s + clasificaci\u00f3n. M\u00ednimo 20 skins por secci\u00f3n.",
             "mockup": "idea-46-variant-a.png",
             "slug": "glow-grab",
-            "status": "Aceptado por Daniel 19:52 — en cola, tras Wind Wizard Duel",
+            "status": "Aceptado por Daniel 19:52 \u2014 en cola, tras Wind Wizard Duel",
             "title": "Glow Grab!"
         }
     ],
-    "updated_at": "2026-11-16T21:08:05+01:00",
-    "updated_by": "anita",
-    "resumen": "Actualización 21:08 — Cyber Runner: ¡RONDA 1 ENTREGADA en local! Juego completo (variante B, clon exacto) con informe, filtros y teardown; pendiente de verificación (smoke, táctil, lado a lado, zip) y de subirlo a la oficina para que Daniel lo pruebe. Grid Defender: código avanzando (GameScene 21:04, bundle JS compilado 21:05), pendiente de que Niky pase la URL del servidor. Fútbol Street: LISTO PARA PROBAR (commit 6dea073), pendiente de que Daniel lo pruebe y dé el OK para subirlo a Playgama. Relojes v2: rehaciendo el rediseño para clon exacto de la opción A «Tycoon Pop» (181 relojes), queda ~1–2 h. Online del fútbol: ¡SERVIDOR EN VIVO! https://online.recurretumulta.online/health responde ok; el cliente ya apunta a él (commit c641eb9) pero ONLINE_ENABLED sigue en false hasta que Daniel pruebe la Street.",
+    "updated_at": "2026-11-16T21:19:30+01:00",
+    "updated_by": "Dani",
+    "resumen": "Actualizaci\u00f3n 21:18 \u2014 F\u00fatbol Street: EN MARCHA \u2014 porter\u00edas normales ya arregladas (df08986, 21:10); ahora el agente rehace el MEN\u00da exacto desde la foto (orden Daniel 21:15-21:16) + los LATERALES del campo como muro de ladrillo (orden Daniel 21:18); queda men\u00fa + laterales + verificaci\u00f3n + ZIP nuevo (sin estimar a\u00fan, acaba de empezar). Relojes v2: EN MARCHA \u2014 el agente sigue rehaciendo el clon exacto de la opci\u00f3n A \u00abTycoon Pop\u00bb con los 181 relojes, sin commit a\u00fan (\u00faltimo fa5c635, 17:04); queda ~1-2 h (orientativo). Cyber Runner (Anita): RONDA 1 ENTREGADA en local 21:02, pendiente de verificaci\u00f3n y de subirla a la oficina para que Daniel la pruebe. Grid Defender (Anita): c\u00f3digo avanzando (bundle compilado 21:05); la URL del servidor YA se la pas\u00f3 Niky (20:57), pendiente de que Anita la use. Online EN VIVO (verificado 21:18). Playgama: el borrador sigue con el ZIP viejo, pendiente del men\u00fa nuevo y del OK de Daniel.",
     "stats": {
         "updated_at": "2026-11-16T11:00:00+01:00",
-        "source": "Panel Playgama, métricas 11:00 del 16/11/2026 (verificado por Dani)",
+        "source": "Panel Playgama, m\u00e9tricas 11:00 del 16/11/2026 (verificado por Dani)",
         "general": {
             "dinero_ganado_total_usd": 0,
             "partidas_totales": 2,
@@ -387,7 +387,7 @@
                 "title": "Metro Nightmare",
                 "estado": "Sandbox",
                 "partidas": 0,
-                "tiempo_medio": "—",
+                "tiempo_medio": "\u2014",
                 "anuncios_por_partida": 0,
                 "dinero_usd": 0
             },
@@ -396,27 +396,27 @@
                 "title": "Luxury Watch Dealer",
                 "estado": "Sandbox (publicado hoy ~16:16)",
                 "partidas": 0,
-                "tiempo_medio": "—",
+                "tiempo_medio": "\u2014",
                 "anuncios_por_partida": 0,
                 "dinero_usd": 0
             },
             {
                 "slug": "scribble-striker",
                 "title": "Scribble Striker",
-                "estado": "Aún no publicado — sin datos",
+                "estado": "A\u00fan no publicado \u2014 sin datos",
                 "partidas": null,
                 "tiempo_medio": null,
                 "anuncios_por_partida": null,
                 "dinero_usd": null
             }
         ],
-        "nota_cola": "Resto de la cola (37 juegos): aún no publicados — sin datos.",
+        "nota_cola": "Resto de la cola (37 juegos): a\u00fan no publicados \u2014 sin datos.",
         "tarifas_estimadas": {
-            "nota": "ESTIMADO — cifras oficiales publicadas de Playgama 2026, no medidas nuestras ni ganancias reales",
+            "nota": "ESTIMADO \u2014 cifras oficiales publicadas de Playgama 2026, no medidas nuestras ni ganancias reales",
             "rewarded_por_1000_bruto": {
-                "eeuu": "$15–28",
-                "europa": "$8–15",
-                "tier3": "$1–3"
+                "eeuu": "$15\u201328",
+                "europa": "$8\u201315",
+                "tier3": "$1\u20133"
             },
             "reparto_playgama": {
                 "youtube_playables": "75% para nosotros",
@@ -425,9 +425,9 @@
             },
             "umbral_cobro_usd": 100,
             "valor_1000_anuncios_tras_reparto": {
-                "eeuu": "$7–21",
-                "europa": "$4–11",
-                "tier3": "$0,50–2"
+                "eeuu": "$7\u201321",
+                "europa": "$4\u201311",
+                "tier3": "$0,50\u20132"
             }
         }
     }
