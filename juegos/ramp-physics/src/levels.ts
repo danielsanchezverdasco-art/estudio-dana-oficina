@@ -192,7 +192,7 @@ export const LEVELS: LevelDef[] = [
   {
     n: 10, name: 'Gentle Glide', archetype: 'boost', ink: 320, par: 200,
     start: { x: 88, y: 340 }, goal: { x: 320, y: 360 },
-    // BOOST teaching: a 3.2 deg slope. Steel stalls (tan 0.056 < 0.1
+    // BOOST teaching: a 3.5 deg slope. Steel stalls (tan 0.061 < 0.1
     // friction); boost slides (friction 0.02). The lazy straight steel
     // ramp stalls on this slope, so the level is not trivial.
     ground: [plat(0, 340, 100), plat(280, 360, 110)],
@@ -201,7 +201,13 @@ export const LEVELS: LevelDef[] = [
     // The ramp must land ON the goal platform (r2 fix: the first version
     // ended at x=272, 8 px short of the platform, and the dummy wedged
     // against its left lip and lost by still-detection in ~3 s).
-    solution: [S([[92, 344], [288, 358]], 'boost')],
+    // r2 fix 2 (run 3): first point lowered 2 px (344->346) so the ramp
+    // top starts 1 px BELOW the start platform (340) — the dummy steps
+    // down onto the ramp instead of climbing a 1 px lip at boarding.
+    // Run 3: it never boarded — it rocked on the platform until the
+    // 60 s timeout. Same fix applied to L13/L19/L25/L29.
+    // NOT YET VERIFIED in the browser — probe L10 + full harness next.
+    solution: [S([[92, 346], [288, 358]], 'boost')],
   },
   // ---- BLOCK 3 (11-15): fans central + dynamite arrives (L12 teaching). ----
   {
@@ -226,12 +232,14 @@ export const LEVELS: LevelDef[] = [
   {
     n: 13, name: 'Slow Ride', archetype: 'boost', ink: 320, par: 200,
     start: { x: 88, y: 380 }, goal: { x: 320, y: 395 },
-    // Gentle 2.9 deg boost slope over a long gap.
+    // Gentle 3.2 deg boost slope over a long gap.
     ground: [plat(0, 380, 100), plat(280, 395, 110)],
     fans: [], dynamite: [], portals: [],
     coins: [{ x: 180, y: 320 }],
     // The ramp must land ON the goal platform (same lip-trap fix as L10).
-    solution: [S([[92, 384], [288, 397]], 'boost')],
+    // r2 fix 2 (run 3): first point lowered 2 px (384->386) — ramp top
+    // starts 1 px below the start platform; no boarding lip. UNVERIFIED.
+    solution: [S([[92, 386], [288, 397]], 'boost')],
   },
   {
     n: 14, name: 'Bounce Over the Wall', archetype: 'bounce', ink: 315, par: 195,
@@ -294,12 +302,14 @@ export const LEVELS: LevelDef[] = [
   {
     n: 19, name: 'Feather Fall', archetype: 'boost', ink: 335, par: 210,
     start: { x: 88, y: 300 }, goal: { x: 330, y: 315 },
-    // Gentle 2.7 deg boost slope.
+    // Gentle 3.1 deg boost slope.
     ground: [plat(0, 300, 100), plat(290, 315, 100)],
     fans: [], dynamite: [], portals: [],
     coins: [{ x: 190, y: 250 }],
     // The ramp must land ON the goal platform (same lip-trap fix as L10).
-    solution: [S([[92, 304], [298, 317]], 'boost')],
+    // r2 fix 2 (run 3): first point lowered 2 px (304->306) — ramp top
+    // starts 1 px below the start platform; no boarding lip. UNVERIFIED.
+    solution: [S([[92, 306], [298, 317]], 'boost')],
   },
   {
     n: 20, name: 'High Bounce', archetype: 'bounce', ink: 345, par: 215,
@@ -362,12 +372,14 @@ export const LEVELS: LevelDef[] = [
   {
     n: 25, name: 'Long Glide', archetype: 'boost', ink: 335, par: 210,
     start: { x: 88, y: 420 }, goal: { x: 330, y: 435 },
-    // Gentle 2.7 deg boost slope.
+    // Gentle 3.1 deg boost slope.
     ground: [plat(0, 420, 100), plat(290, 435, 100)],
     fans: [], dynamite: [], portals: [],
     coins: [{ x: 190, y: 360 }],
     // The ramp must land ON the goal platform (same lip-trap fix as L10).
-    solution: [S([[92, 424], [298, 437]], 'boost')],
+    // r2 fix 2 (run 3): first point lowered 2 px (424->426) — ramp top
+    // starts 1 px below the start platform; no boarding lip. UNVERIFIED.
+    solution: [S([[92, 426], [298, 437]], 'boost')],
   },
   // ---- BLOCK 6 (26-30): everything combined. Precision ceiling. ----
   {
@@ -401,12 +413,14 @@ export const LEVELS: LevelDef[] = [
   {
     n: 29, name: 'Last Glide', archetype: 'boost', ink: 320, par: 200,
     start: { x: 88, y: 340 }, goal: { x: 320, y: 352 },
-    // Gentlest boost slope (2.2 deg) — the precision test of the block.
+    // Gentlest boost slope (2.6 deg) — the precision test of the block.
     ground: [plat(0, 340, 100), plat(280, 352, 110)],
     fans: [], dynamite: [], portals: [],
     coins: [{ x: 180, y: 285 }],
     // The ramp must land ON the goal platform (same lip-trap fix as L10).
-    solution: [S([[92, 344], [288, 355]], 'boost')],
+    // r2 fix 2 (run 3): first point lowered 2 px (344->346) — ramp top
+    // starts 1 px below the start platform; no boarding lip. UNVERIFIED.
+    solution: [S([[92, 346], [288, 355]], 'boost')],
   },
   {
     n: 30, name: 'Final Bounce', archetype: 'bounce', ink: 320, par: 200,
