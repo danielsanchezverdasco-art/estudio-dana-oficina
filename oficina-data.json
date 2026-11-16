@@ -360,9 +360,9 @@
       "title": "Glow Grab!"
     }
   ],
-  "updated_at": "2026-11-16T22:25:58+01:00",
+  "updated_at": "2026-11-16T22:26:24+01:00",
   "updated_by": "niky",
-  "resumen": "Actualización 22:25 — Scribble Striker: MENÚ exacto YA guardado (commit 44ab6d7, 22:17); PERO Daniel 22:12 avisó que en la captura de 50ffd31 siguen viéndose gradas en los laterales — el «sin gradas» era erróneo y hay un agente corrigiendo los laterales ahora mismo. Relojes v2: agente activo ~5 h, sin commit aún (la rama aún no existe en GitHub). Anita: Cyber Runner movida al repo correcto VERIFICADA 22:20 (rama anita/cyber-runner-b @ 08abde42 en dana-games-juegos; borrada del repo público). Fútbol Street: campo REVERTIDO a como antes (785c214) + MENÚ = la foto (44ab6d7, verificado por Dani); ZIP nuevo 4,13 MB; PUBLICANDO en Sandbox sin preguntar (orden Daniel 22:18).",
+  "resumen": "Actualización 22:25 — Scribble Striker: MENÚ exacto YA guardado (commit 44ab6d7, 22:17); Daniel 22:12–22:18 dijo que el cambio lo empeoró: campo REVERTIDO a como antes (785c214) y ya no se toca. Relojes v2: agente activo ~5 h, sin commit aún (la rama aún no existe en GitHub). Anita: Cyber Runner movida al repo correcto VERIFICADA 22:20 (rama anita/cyber-runner-b @ 08abde42 en dana-games-juegos; borrada del repo público). Fútbol Street: campo REVERTIDO a como antes (785c214) + MENÚ = la foto (44ab6d7, verificado por Dani); ZIP nuevo 4,13 MB; PUBLICANDO en Sandbox sin preguntar (orden Daniel 22:18).",
   "stats": {
     "updated_at": "2026-11-16T22:08:00+01:00",
     "source": "Panel Playgama verificado 22:08 por Dani: solo Scribble Striker (Draft) y Luxury Watch Dealer (Sandbox, 0 partidas)",
