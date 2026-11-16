@@ -362,11 +362,11 @@
       "title": "Glow Grab!"
     }
   ],
-  "updated_at": "2026-11-16T23:47:00+01:00",
+  "updated_at": "2026-11-17T00:19:00+01:00",
   "updated_by": "niky",
-  "resumen": "Actualización 23:47 — Sin cambios desde las 22:52: LOS DOS JUEGOS SIGUEN PUBLICADOS en Sandbox y listos para probar mañana: Scribble Striker https://playgama.ai/play/d7nbp5h2yci4vs (publicado 22:41, verificado) y Luxury Watch Dealer v2 https://playgama.ai/play/rswbvm34ovfkfo (publicado ~22:52, verificado). Ningún agente de Dana Games en marcha; ramas en remoto sin commits nuevos desde las 22:52 (Street 06b08c2, relojes b45e886, Cyber Runner 08abde42). Anita igual — Cyber Runner ronda 2 con los 9 arreglos, Grid en rebuild, Slice construyéndose (variante B, clon exacto). Fuera de la ventana de avisos (23:00): la actualización del chat queda para la mañana.",
+  "resumen": "Actualización 00:19 — Sin cambios desde las 22:52: LOS DOS JUEGOS SIGUEN PUBLICADOS en Sandbox y listos para probar por la mañana: Scribble Striker https://playgama.ai/play/d7nbp5h2yci4vs (publicado 22:41, verificado) y Luxury Watch Dealer v2 https://playgama.ai/play/rswbvm34ovfkfo (publicado ~22:52, verificado). Ningún agente de Dana Games en marcha; ramas en remoto sin commits nuevos desde las 22:52 (Street 06b08c2, relojes b45e886, Cyber Runner 08abde42; anita/grid-defender-b y anita/slice-and-serve-b siguen sin existir). Anita igual — Cyber Runner ronda 2 con los 9 arreglos, Grid en rebuild, Slice construyéndose (variante B, clon exacto). Fuera de la ventana de avisos (23:00–08:00): la actualización del chat queda para la mañana.",
   "stats": {
-    "updated_at": "2026-11-16T23:47:00+01:00",
+    "updated_at": "2026-11-17T00:19:00+01:00",
     "source": "Sandbox verificado 22:41 (fútbol) y ~22:52 (relojes v2) por las tareas de publicación: ambos Live, 0 partidas",
     "general": {
       "dinero_ganado_total_usd": 0,
