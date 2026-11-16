@@ -16,7 +16,12 @@ que sigue se presenta como verificado en navegador.
 - **Arte**: 100 % procedural (`city.ts`, 26 texturas a 2x) — ciudad soleada,
   río, casas, scooter con pizza. Cero bitmaps.
 - **Rama**: `anita/draw-bridge-delivery` (desde main `56de7692`).
-- **Zip**: (pendiente del build — tamaño y sha se rellenan al cerrar).
+- **Zip**: `draw-bridge-delivery-round1.zip` — **641.068 bytes**, sha256
+  `0a788851a79d9d68dbf70e53ba1d09d8480e5119b4d1fccd80a32685a17c8de5`
+  (blob `c39c9445aae0115bb8145e2b7e2c2acc3da98f5b`). Construido en memoria
+  (el build de vite tarda 1,23 s; la ola EPERM bloquea la escritura a disco
+  y deja el bundle en 0 bytes — la copia local no existe, el zip vive solo
+  en la rama). Límite 5 MB: OK.
 
 ## 2. Verificación (números reales, 16/11)
 
@@ -24,9 +29,9 @@ que sigue se presenta como verificado en navegador.
 |---|---|
 | `tsc --noEmit` | **0 errores** |
 | `validate-levels.mjs` | **658 checks, 0 fallos** (30/30 niveles geométricamente válidos) |
-| Build de test (`dist-test`) | En curso al redactar (VM lenta + ola EPERM) |
-| Build de producción + zip | Pendiente del build de test |
-| Zip-smoke | Pendiente |
+| Build de test (`dist-test`) | **BLOQUEADO por EPERM** — vite construye en 1,23 s pero la escritura a disco se trunca a 0 bytes (retry 10 min, EPERM). `dist-test` NO usable; el finisher debe reconstruirlo |
+| Build de producción + zip | **HECHO en memoria** — zip 641.068 B, sha256 `0a788851…c8de5`, 14 ficheros |
+| Zip-smoke | Pendiente (necesita Chromium vivo) |
 | Harness en navegador (UI, 30 replays, sondas) | **BLOQUEADO — Chromium muerto (exit 133)** |
 | GIF / Short filmado | **Pendiente del harness** |
 | Portadas (3 tamaños) | Generadas con la herramienta de medios (arte del juego) |
