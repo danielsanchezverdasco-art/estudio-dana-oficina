@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-15T10:55:00+01:00",
+  "updatedAt": "2026-11-16T09:10:08+01:00",
   "kpis": {
     "facturacionTotal": null,
     "facturacionMes": null,
@@ -10,7 +10,7 @@
     "publicadosMeta": 200,
     "shortsPublicados": 0,
     "vistas": null,
-    "enDesarrollo": 2,
+    "enDesarrollo": 4,
     "enCola": 3
   },
   "juegos": [
@@ -46,6 +46,24 @@
       "titulo": "Estampida en las Rebajas",
       "estado": "cola",
       "portada": "cover.estampida",
+      "facturacion": null,
+      "partidas": null,
+      "vistas": null
+    },
+    {
+      "id": "quien-es-el-robot",
+      "titulo": "¿Quién es el Robot?",
+      "estado": "desarrollo",
+      "portada": "cover.quien-es-el-robot",
+      "facturacion": null,
+      "partidas": null,
+      "vistas": null
+    },
+    {
+      "id": "agujero-tragon-cocina",
+      "titulo": "Agujero Tragón en la Cocina",
+      "estado": "desarrollo",
+      "portada": "cover.agujero-tragon-cocina",
       "facturacion": null,
       "partidas": null,
       "vistas": null
@@ -804,6 +822,18 @@
       "equipo": "Mudanza Extrema",
       "tarea": "Subido como borrador en Playgama (ficha en inglés, zip y 3 portadas). En la prueba de calidad de Playgama antes de moderación.",
       "estado": "esperando",
+      "desde": null
+    },
+    {
+      "equipo": "¿Quién es el Robot?",
+      "tarea": "Ronda 1 lista para probar: 30 niveles, PR #69, zip jugable (issue #71).",
+      "estado": "en curso",
+      "desde": null
+    },
+    {
+      "equipo": "Agujero Tragón en la Cocina",
+      "tarea": "Ronda 1 lista para probar: 30 niveles, PR #76, zip jugable (issue #78).",
+      "estado": "en curso",
       "desde": null
     },
     {
