@@ -1,0 +1,80 @@
+SUSHI BELT FRENZY — Dana Games
+=============================
+
+Tagline (EN): Feed the cats. Keep the belt moving.
+Tagline (ES): Alimenta a los gatos. Que no pare la cinta.
+
+What it is
+----------
+A conveyor-belt sushi flow puzzle. Plates glide along the belt; below wait
+three hungry cats — orange, grey, black-and-white. Tap a plate (or drag it)
+to serve it to the cat of its colour. The cat eats it with +30, sparks and a
+happy meow; the combo climbs. Serve the wrong cat, or let a plate ride off
+the end unserved, and you lose a heart. Three hearts. The belt gets faster
+every level. Wasabi plates sting. Golden plates are worth triple.
+
+One finger. One verb. Understood in under 10 seconds. No reading.
+
+Features
+--------
+- 30 levels, 6 blocks of 5 (teach → wasabi → speed → combined → fast → all)
+- 3 cats by colour (orange ● / grey ▲ / black-and-white ◆) + chef cat who
+  warns you what's coming
+- Wasabi trap plates (cat coughs, 1.5 s stun) and golden plates (x3 points)
+- Combo system with fire (every 5 combo = +50 bonus) and slow-mo BOOST
+- Stars per level (3 hearts = 3 stars), coins, shop (6 cat skins, 3
+  restaurants, extra heart), daily challenge (2x coins), save via Playgama
+  Bridge, pause, EN/ES, PEGI 3
+
+Controls
+--------
+Tap a plate to serve it to its matching cat. Drag a plate to a cat to choose
+who eats. BOOST button slows the belt to 50% for 4 seconds (2 per level).
+
+Age rating: PEGI 3. No ads during gameplay; interstitial at natural pauses
+(every 2nd win, never level 1); rewarded +1 heart retry (optional).
+
+Zip: sushi-belt-frenzy-round1.zip — 639,410 bytes — sha256 9681438914c21bf5e24fedf2251622af5f2bed313889019372d28d24423b2714
+Playable: https://raw.githubusercontent.com/danielsanchezverdasco-art/estudio-dana-oficina/anita/sushi-belt-frenzy/comunicacion-ias/entregas/sushi-belt-frenzy-round1/sushi-belt-frenzy-round1.zip
+
+---
+SUSHI BELT FRENZY — Dana Games
+=============================
+
+Eslogan (ES): Alimenta a los gatos. Que no pare la cinta.
+
+Qué es
+------
+Un puzle de cinta de sushi. Los platos deslizan por la cinta; abajo esperan
+tres gatos glotones — naranja, gris, blanco y negro. Toca un plato (o
+arrástralo) para servirlo al gato de su color. El gato se lo come con +30,
+chispas y un maullido feliz; el combo sube. Servir al gato equivocado, o
+dejar que un plato se escape sin servir, cuesta un corazón. Tres corazones.
+La cinta acelera en cada nivel. Los platos de wasabi pican. Los dorados
+valen el triple.
+
+Un dedo. Un verbo. Se entiende en menos de 10 segundos. Sin leer.
+
+Características
+---------------
+- 30 niveles, 6 bloques de 5 (enseñar → wasabi → velocidad → combinado →
+  rápido → todo)
+- 3 gatos por color (naranja ● / gris ▲ / blanco y negro ◆) + el gato chef
+  que avisa de lo que viene
+- Platos trampa de wasabi (el gato tose, 1,5 s aturdido) y platos dorados
+  (x3 puntos)
+- Sistema de combo con fuego (cada 5 de combo = +50 extra) y BOOST a
+  cámara lenta
+- Estrellas por nivel (3 corazones = 3 estrellas), monedas, tienda (6
+  aspectos de gato, 3 restaurantes, corazón extra), reto diario (2x
+  monedas), guardado con Playgama Bridge, pausa, EN/ES, PEGI 3
+
+Controles
+---------
+Toca un plato para servirlo a su gato. Arrastra un plato a un gato para
+elegir quién come. El botón BOOST ralentiza la cinta al 50 % durante 4
+segundos (2 por nivel).
+
+Edad: PEGI 3. Sin anuncios durante la partida; intersticial en pausas
+naturales (cada 2 victorias, nunca en el nivel 1); +1 corazón con anuncio
+recompensado (opcional).
