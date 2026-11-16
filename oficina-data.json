@@ -1,1 +1,60 @@
-{"_readme":"Fichero en vivo de la oficina Dana Games. Lo actualizan Dani y Anita (sus agentes) con CADA cambio: publicar, rechazar, empezar, terminar. La oficina lo lee y las listas se refrescan solas, sin reconstruir la página. No inventar nombres ni datos: solo lo verificado. Cuando Daniel diga los nombres de los 3 juegos nuevos de Anita, se ponen en anita.names y names_pending pasa a false.","anita":{"names":[],"names_pending":true,"status":"3 juegos nuevos en marcha"},"factory":["Scribble Striker (fusión de skins verificada, a la espera de la prueba de Daniel)","Luxury Watch Dealer (rediseño total v2 — opción A «Tycoon Pop» en marcha)"],"in_progress":[{"commit":"15409a1","covers":"icono v3 y banner v4 aprobados por Daniel (sin líneas amarillas)","slug":"scribble-striker","status":"Arreglo 15409a1 en la oficina para probar — Daniel lo prueba antes de publicar; fusión de skins 502c7fe verificada (tsc 0, vitest 60/60, sondas en verde, zip 3,93 MB) y lista, entra en la oficina después de su prueba; subida a Playgama en pausa hasta su OK; Daniel pidió además 3 variantes estéticas (menú + campo) para elegir, mismo proceso que relojes","title":"Scribble Striker"},{"covers":"icono v2 y banner v2 aprobados por Daniel","slug":"luxury-watch-dealer-redesign-v2","status":"Daniel eligió la OPCIÓN A «Tycoon Pop» (17:19) — rediseño total v2 en marcha en rama niky/relojes-redesign-a-1611 (estilo A en todas las pantallas + zona de cajas + zona de reparación); catálogo a 60 relojes: 30 nuevos en marcha con fidelidad exacta al modelo real y estado full set / naked / papers only","title":"Luxury Watch Dealer — rediseño total v2"}],"published":[{"commit":"7cd2073","covers":"icono v2 y banner v2 aprobados por Daniel","objectives":{"ads_per_play":"0/0,30","avg_time":"0:00/6:00","plays":"0/100"},"playgama_url":"https://playgama.ai/play/rswbvm34ovfkfo","published_date":"2026-11-16","slug":"luxury-watch-dealer","status":"Sandbox — En vivo","title":"Luxury Watch Dealer","title_es":"El Marchante de Relojes"}],"rejected":[{"reason":"Rechazado por Daniel el 16/11","slug":"traffic-chaos-ny","title":"Traffic Chaos NY"},{"reason":"Línea de rework visual cerrada el 16/11 — el juego se queda en su v1","slug":"sky-stack","title":"Sky Stack"}],"to_test":[],"updated_at":"2026-11-16T17:22:00+01:00","updated_by":"Niky (Dani)"}
+{
+  "_readme": "Fichero en vivo de la oficina Dana Games. Lo actualizan Dani y Anita (sus agentes) con CADA cambio: publicar, rechazar, empezar, terminar. La oficina lo lee y las listas se refrescan solas, sin reconstruir la página. No inventar nombres ni datos: solo lo verificado. Cuando Daniel diga los nombres de los 3 juegos nuevos de Anita, se ponen en anita.names y names_pending pasa a false.",
+  "anita": {
+    "names": [],
+    "names_pending": true,
+    "status": "3 juegos nuevos en marcha"
+  },
+  "factory": [
+    "Scribble Striker (fusión de skins verificada, a la espera de la prueba de Daniel; rediseño Street Variante B en marcha)",
+    "Luxury Watch Dealer (rediseño total v2 — opción A «Tycoon Pop» en marcha; lista de precios en marcha)",
+    "Ideas nuevas tanda 2: 3 juegos con 3 variantes de diseño cada uno (9 previews verificadas) terminados, pendientes de que Daniel elija idea + diseño; tanda 1 (Draw Rescue!, Crowd Clash!, Grow Dash!) también pendiente de elección — Daniel preguntó por Crowd Clash! en modo dinosaurio"
+  ],
+  "in_progress": [
+    {
+      "commit": "15409a1",
+      "covers": "icono v3 y banner v4 aprobados por Daniel (sin líneas amarillas)",
+      "slug": "scribble-striker",
+      "status": "Arreglo 15409a1 en la oficina para probar — Daniel lo prueba antes de publicar; fusión de skins 502c7fe verificada (tsc 0, vitest 60/60, sondas en verde, zip 3,93 MB) y lista, entra en la oficina después de su prueba; rediseño Street (Variante B elegida por Daniel) EN MARCHA desde 17:39, exacto a los mockups; subida a Playgama INTERRUMPIDA 17:23: el formulario no lista Phaser y pide elegir motor (Unity, Construct 3, Cocos, Defold, Godot, GDevelop, Game Maker, Scratch, Plain JS) — pendiente decidir (lo más cercano: Plain JS) para reanudar; 3 variantes estéticas del fútbol entregadas, Daniel elige",
+      "title": "Scribble Striker"
+    },
+    {
+      "covers": "icono v2 y banner v2 aprobados por Daniel",
+      "slug": "luxury-watch-dealer-redesign-v2",
+      "status": "Daniel eligió la OPCIÓN A «Tycoon Pop» (17:19) — rediseño total v2 en marcha en rama niky/relojes-redesign-a-1611 (estilo A en todas las pantallas + zona de cajas + zona de reparación); lista deduplicada con precios EN MARCHA desde 17:36 (camino crítico para fusionar el juego grande); Daniel cerró la recogida de fotos en 130 archivos; catálogo a 60 relojes: 30 nuevos en marcha con fidelidad exacta al modelo real y estado full set / naked / papers only",
+      "title": "Luxury Watch Dealer — rediseño total v2"
+    }
+  ],
+  "published": [
+    {
+      "commit": "7cd2073",
+      "covers": "icono v2 y banner v2 aprobados por Daniel",
+      "objectives": {
+        "ads_per_play": "0/0,30",
+        "avg_time": "0:00/6:00",
+        "plays": "0/100"
+      },
+      "playgama_url": "https://playgama.ai/play/rswbvm34ovfkfo",
+      "published_date": "2026-11-16",
+      "slug": "luxury-watch-dealer",
+      "status": "Sandbox — En vivo",
+      "title": "Luxury Watch Dealer",
+      "title_es": "El Marchante de Relojes"
+    }
+  ],
+  "rejected": [
+    {
+      "reason": "Rechazado por Daniel el 16/11",
+      "slug": "traffic-chaos-ny",
+      "title": "Traffic Chaos NY"
+    },
+    {
+      "reason": "Línea de rework visual cerrada el 16/11 — el juego se queda en su v1",
+      "slug": "sky-stack",
+      "title": "Sky Stack"
+    }
+  ],
+  "to_test": [],
+  "updated_at": "2026-11-16T17:48:00+01:00",
+  "updated_by": "Niky (Dani)"
+}
