@@ -40,3 +40,10 @@ Daniky = Niky.
 - **Sonda del rebote central EN VIVO: APROBADA.** 26 pasos en 2 jugadores, 0 fallos: el balón rebota en la línea central en 7 direcciones distintas, el turno NO cambia en el rebote y SÍ cambia en paso normal, los anillos a la central son dorados (goldRings == centreMoves siempre). La etiqueta «¡REBOTE! / ¡LÍNEA CENTRAL!» + «WOW!» + combo se ve en captura. (vitest 18/18 cubre los 8 ángulos en lógica.)
 - **Fallo encontrado y arreglado en la revisión visual (06:50):** la portería superior quedaba tapada por el burst blanco del marcador (el campo 8×14 la subió hasta ahí). Arreglo: burst aplastado verticalmente (scaleY 0.4) + etiqueta de rebote con clamp más ancho (no se cortaba en los bordes). Verificado en captura: portería superior visible, campo ~73% de alto, tira de chevrones dorada visible.
 - **Batería QA en marcha (07:00):** playtest10 → sonda niveles 1/6 → corners → capturas → GIF → precheck. Queda orientativo: ~1,5 h hasta la versión jugable para Daniel.
+
+## 16/11 ~07:15 — Scribble r2.2: CAMPO EL DOBLE HECHO Y VERIFICADO EN JUEGO
+- Rediseño v2 (Daniel 07:03): tablero 8x16, hierba A SANGRE en toda la pantalla, HUD flotante en esquinas (píldora de puntos arriba-izquierda, pausa/deshacer arriba-derecha, abandonar abajo-izquierda, aviso de turno breve que se desvanece). Sin personajes en la pantalla de juego.
+- Medido en vivo 390x844: hierba jugable 364x728 CSS (86% alto, 93% ancho), 1,62x el área de la r2.1; el verde llena el 100% de la pantalla. El 2,0x literal no cabe en un móvil con porterías: esto es el máximo con celdas tocables (45 CSS). Lo digo con los números, no prometo lo imposible.
+- Tutorial con la mano oficial señalando ¡A JUGAR! (3 pasos claros, se puede saltar) y SIN líneas amarillas en diagonal — verificado en capturas frescas.
+- Rebote central: turno NO cambia y combo x1 tras tocar la central (verificado en vivo); tsc 0, vitest 18/18.
+- Queda: batería completa (playtest10, niveles 1/6, corners, capturas, GIF, precheck) + sonda de rebote en los 8 ángulos + probes de tutorial, luego zip, push y PR. ETA ~1,5-2 h.
