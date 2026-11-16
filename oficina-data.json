@@ -6,22 +6,22 @@
     "status": "3 juegos nuevos en marcha"
   },
   "factory": [
-    "Scribble Striker (rediseño Street Variante B en marcha; subida a Playgama en espera del rediseño, por decisión de Daniel 17:53)",
+    "Scribble Striker (rediseño Street Variante B en marcha + récord de combos y liga por copas (orden Daniel 18:10, agente en marcha, sin commit aún); subida a Playgama en espera del rediseño, por decisión de Daniel 17:53; online: Render descartado por Daniel 18:15 — no quiere meter tarjeta — buscando host gratuito sin tarjeta, también en GitHub, agente lanzado 18:15/18:17; la liga queda en «próximamente» hasta tener servidor)",
     "Luxury Watch Dealer (rediseño total v2 — opción A «Tycoon Pop» en marcha; lista deduplicada TERMINADA: 181 relojes, fusión en marcha)",
-    "Sand Jam! ELEGIDO por Daniel (versión A arena como base; B caramelos y C puerto pirata como skins comprables) — en cola tras relojes y fútbol; Crowd Clash! versión menos infantil en marcha (3 variantes maduras del modo dinosaurio); Ideas nuevas tanda 2 terminadas y verificadas, pendientes de elección (Sneak Out!, Teacher Chaos!); tanda 1 (Draw Rescue!, Grow Dash!) también pendiente"
+    "Sand Jam! ELEGIDO por Daniel (versión A arena como base; B caramelos y C puerto pirata como skins comprables) — en cola tras relojes y fútbol; Laser Maze! ELEGIDO por Daniel 18:12 (variante B templo antiguo como base; A laboratorio y C estación espacial como capítulos) — en cola tras Crowd Clash; Car Wash Chaos! ELEGIDO por Daniel 18:18 (variante B baño de mascotas + modo C limpiar casas, dos modos en el mismo juego) — en cola tras Laser Maze; Crowd Clash! variante B elegida, en cola tras Sneak Out; ideas nuevas tanda 3 presentadas 18:18 (Diggy Dash!, Garden Dash!, Marble Rush!, Slingshot Smash!, Pet Vet!), pendientes de elección; tanda 2 restante (Fish Frenzy!, Hoop Flick!, Find It!) y tanda 1 (Draw Rescue!, Grow Dash!) también pendientes"
   ],
   "in_progress": [
     {
       "commit": "15409a1",
       "covers": "icono v3 y banner v4 aprobados por Daniel (sin líneas amarillas)",
       "slug": "scribble-striker",
-      "status": "Arreglo 15409a1 en la oficina (su prueba quedó sustituida por la decisión de Daniel 17:53: la subida a Playgama espera al rediseño Street, que ya lleva los arreglos de la 15409a1; Daniel prueba la Street directamente cuando esté y se sube esa; motor ya decidido: Plain JS); fusión de skins 502c7fe verificada (tsc 0, vitest 60/60, sondas en verde, zip 3,93 MB); rediseño Street (Variante B elegida por Daniel) EN MARCHA desde 17:26, exacto a los mockups, skins intactas; avisar a Daniel cuando esté listo",
+      "status": "Arreglo 15409a1 en la oficina (su prueba quedó sustituida por la decisión de Daniel 17:53: la subida a Playgama espera al rediseño Street, que ya lleva los arreglos de la 15409a1; Daniel prueba la Street directamente cuando esté y se sube esa; motor ya decidido: Plain JS); fusión de skins 502c7fe verificada (tsc 0, vitest 60/60, sondas en verde, zip 3,93 MB); rediseño Street (Variante B elegida por Daniel) EN MARCHA desde 17:26, exacto a los mockups, skins intactas; récord de combos + liga por copas (orden Daniel 18:10) EN MARCHA en el mismo agente, sin commit aún; online: buscando host gratuito SIN tarjeta (Render descartado por Daniel 18:15; búsqueda ampliada a GitHub 18:17), la liga queda en «próximamente» hasta tener servidor; avisar a Daniel cuando esté listo",
       "title": "Scribble Striker"
     },
     {
       "covers": "icono v2 y banner v2 aprobados por Daniel",
       "slug": "luxury-watch-dealer-redesign-v2",
-      "status": "Daniel eligió la OPCIÓN A «Tycoon Pop» (17:19) — rediseño total v2 en marcha en rama niky/relojes-redesign-a-1611 (estilo A en todas las pantallas + zona de cajas + zona de reparación); lista deduplicada TERMINADA 17:51 (verificada): 151 relojes únicos nuevos + 30 actuales = 181 en total (Rolex 34, AP 24, Patek 20, RM 23, Cartier 38, Jacob 16, Vacheron 26 — marca nueva), valor ≈ $41.633.935, estados full_set 72 / naked 63 / papers_only 46; 55 duplicados descartados, 19 sin identificar; fusión de los 181 en el rediseño v2 EN MARCHA (pasada al agente de rediseño); Daniel cerró la recogida de fotos en 130 archivos",
+      "status": "Daniel eligió la OPCIÓN A «Tycoon Pop» (17:19) — rediseño total v2 en marcha en rama niky/relojes-redesign-a-1611 (estilo A en todas las pantallas + zona de cajas + zona de reparación); lista deduplicada TERMINADA 17:51 (verificada): 151 relojes únicos nuevos + 30 actuales = 181 en total (Rolex 34, AP 24, Patek 20, RM 23, Cartier 38, Jacob 16, Vacheron 26 — marca nueva), valor ≈ $41.633.935, estados full_set 72 / naked 63 / papers_only 46; 55 duplicados descartados, 19 sin identificar; fusión de los 181 en el rediseño v2 EN MARCHA (agente activo ~1 h, convirtiendo el arte a WebP y sustituyendo el arte tycoon viejo, sin commit aún); Daniel cerró la recogida de fotos en 130 archivos",
       "title": "Luxury Watch Dealer — rediseño total v2"
     }
   ],
@@ -76,8 +76,22 @@
       "slug": "crowd-clash",
       "status": "Aceptado por Daniel — diseño elegido, en cola tras Sneak Out",
       "title": "Crowd Clash!"
+    },
+    {
+      "design": "Variante B (templo antiguo) como base; A (laboratorio) y C (estación espacial) como capítulos que se desbloquean",
+      "mockup": "idea-11-variant-b.png",
+      "slug": "laser-maze",
+      "status": "Aceptado por Daniel 18:12 — en cola, tras Crowd Clash",
+      "title": "Laser Maze!"
+    },
+    {
+      "design": "Variante B (baño de mascotas) como base + modo C (limpiar casas): dos modos en el mismo juego",
+      "mockup": "idea-7-variant-b.png",
+      "slug": "car-wash-chaos",
+      "status": "Aceptado por Daniel 18:18 — en cola, tras Laser Maze",
+      "title": "Car Wash Chaos!"
     }
   ],
-  "updated_at": "2026-11-16T17:55:00+01:00",
+  "updated_at": "2026-11-16T18:21:00+01:00",
   "updated_by": "Niky (Dani)"
 }
