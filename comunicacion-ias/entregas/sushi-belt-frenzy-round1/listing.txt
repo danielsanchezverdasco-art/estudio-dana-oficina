@@ -34,7 +34,7 @@ who eats. BOOST button slows the belt to 50% for 4 seconds (2 per level).
 Age rating: PEGI 3. No ads during gameplay; interstitial at natural pauses
 (every 2nd win, never level 1); rewarded +1 heart retry (optional).
 
-Zip: sushi-belt-frenzy-round1.zip — SIZE TBD — sha256 TBD
+Zip: sushi-belt-frenzy-round1.zip — 639,410 bytes — sha256 9681438914c21bf5e24fedf2251622af5f2bed313889019372d28d24423b2714
 Playable: https://raw.githubusercontent.com/danielsanchezverdasco-art/estudio-dana-oficina/anita/sushi-belt-frenzy/comunicacion-ias/entregas/sushi-belt-frenzy-round1/sushi-belt-frenzy-round1.zip
 
 ---

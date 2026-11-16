@@ -1,10 +1,16 @@
 #!/bin/bash
-# Build driver v2: retries EACH STEP independently in a tight loop (2 s).
+# Build driver v3: retries EACH STEP independently in a tight loop (2 s).
 # The EPERM gate opens for seconds at a time and closes for minutes; a
 # full-chain restart wastes every open moment, and a process whose writes
 # fail never recovers — so each step runs as a fresh process, fails fast,
-# and retries until it lands. The bundle step needs the gate open only
-# for its final ~0.5 s (the JSON print); the build itself only reads.
+# and retries until it lands.
+# LESSON (16/11 08:15): the bundle step must be a PIPE, not a file
+# redirect. Driver v2 wrote the bundle JSON to bundle-prod.json first and
+# NEVER got past that step in 30 min — the file write is the gated
+# operation. The pipe form (bundle.mjs | write-bundle.mjs) worked in the
+# 07:24 split-build test: pipe writes are not gated the way file writes
+# are, and the writer retries its file writes internally for 20 s per
+# attempt, catching any open moment in that window.
 # Usage: build-driver.sh [max_seconds] (default 1800)
 set -u
 cd /home/hatch/workspace/dana-games/sushi-belt-frenzy
@@ -18,25 +24,10 @@ step() { # step <name> <command...>: retry until success or timeout
     sleep 2
   done
 }
-# The bundle JSON must be valid (3 files) — a crashed bundler leaves a
-# partial file, so validate before moving on.
-bundle_ok() {
-  node -e "const f=require('node:fs');const j=JSON.parse(f.readFileSync('tools-local/bundle-$1.json','utf8'));if(!Array.isArray(j)||j.length!==3)process.exit(1)" "$1" 2>/dev/null
-}
 rm -rf dist dist-test
-while ! (node tools-local/bundle.mjs dist prod > tools-local/bundle-prod.json 2>/dev/null && bundle_ok prod); do
-  if [ $(( $(date +%s) - START )) -ge $MAX ]; then echo "DRIVER TIMEOUT bundle-prod"; exit 1; fi
-  sleep 2
-done
-echo "OK bundle-prod"
-step write-prod node tools-local/write-bundle.mjs dist 20000 < tools-local/bundle-prod.json || exit 1
+step bundle-write-prod sh -c 'node tools-local/bundle.mjs dist prod 2>/dev/null | node tools-local/write-bundle.mjs dist 20000' || exit 1
 step copy-prod timeout 25 node tools-local/copy-public-retry.mjs public dist || exit 1
-while ! (node tools-local/bundle.mjs dist-test test > tools-local/bundle-test.json 2>/dev/null && bundle_ok test); do
-  if [ $(( $(date +%s) - START )) -ge $MAX ]; then echo "DRIVER TIMEOUT bundle-test"; exit 1; fi
-  sleep 2
-done
-echo "OK bundle-test"
-step write-test node tools-local/write-bundle.mjs dist-test 20000 < tools-local/bundle-test.json || exit 1
+step bundle-write-test sh -c 'node tools-local/bundle.mjs dist-test test 2>/dev/null | node tools-local/write-bundle.mjs dist-test 20000' || exit 1
 step copy-test timeout 25 node tools-local/copy-public-retry.mjs public dist-test || exit 1
 step zip timeout 50 python3 tools-local/build-zip.py dist entregas/sushi-belt-frenzy-round1.zip || exit 1
 # Verify.

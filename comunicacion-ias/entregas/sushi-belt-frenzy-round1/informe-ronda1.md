@@ -11,10 +11,10 @@ Daniel 16/11 ~06:36 («Quiero todos para hoy», «Perfectamente diseñados»).
 | Código (Phaser 3 + TS + Vite, sin motor de físicas) | HECHO, `tsc --noEmit` 0 errores |
 | Harness de lógica (30 niveles, 5 puertas) | **PASS 30/30** (ver `tools-local/test-results-r1.md`) |
 | Biblia de arte (`biblia-arte-sushi.md`) | HECHA, fiel al mockup visto a la vista |
-| 3 portadas (800×800, 1080×1920, 1920×1080) | HECHAS — generadas a 2x (1600×1600, 1120×2240, 2240×1120); el redimensionado exacto está pendiente de que se abra la puerta EPERM (los originales 2x son el entregable mientras tanto) |
-| Build de producción (`dist/`) | ⏳ BLOQUEADA por EPERM — 5 intentos de build con reintentos fallaron (0 bytes escritos en 5–10 min cada uno); diagnóstico completo en `tools-local/` (`diag-write.mjs`, `diag-vite.mjs`): un proceso cuyas escrituras fallan NO se recupera nunca — hay que reintentar con procesos nuevos. Nuevo método: `bundle.mjs` (vite → JSON por stdout) + `write-bundle.mjs` (proceso plano que escribe) + `build-driver.sh` (sondea la puerta y reconstruye hasta que sale; CORRIENDO en segundo plano, PID 13102, desde 07:32 UTC). El zip anterior (635.052 B, sha 00fe58d7…) es de ANTES de los arreglos visuales — NO usar. |
-| Build de pruebas (`dist-test`, `__TEST_BUILD__`) | ⏳ Pendiente del build (misma puerta) |
-| Zip ≤ 5 MB | ⏳ Pendiente del build (tamaño + sha por rellenar en `listing.txt`) |
+| 3 portadas (800×800, 1080×1920, 1920×1080) | HECHAS — redimensionadas a tamaño exacto 16/11 06:55–06:56 (163.066 / 378.762 / 343.230 B), fieles al mockup |
+| Build de producción (`dist/`) | ✅ HECHO SIN DISCO — la puerta EPERM bloqueó TODAS las escrituras a disco (driver v2: 30 min, 0 bytes; cadena por pipe: 25 min, ~65 intentos, 0 bytes). Solución: `tools-local/build-zip-memory.mjs` (vite → zip en memoria → stdout por pipe) + `upload-zip-stdin.py` (Git Data API, sin disco). Zip subido y VERIFICADO descargándolo de GitHub (ver fila Zip). `dist/` local sigue sin existir; el driver v3 (`build-driver.sh`, forma por pipe) queda para la ventana finisher (dist-test + smoke). El zip anterior (635.052 B, sha 00fe58d7…) era de ANTES de los arreglos visuales — NO usar; el fichero local sigue siendo ese viejo, el canónico es el de GitHub. |
+| Build de pruebas (`dist-test`, `__TEST_BUILD__`) | ⏳ Pendiente — la ventana finisher lo construye con el driver v3 (forma por pipe) cuando se abra la puerta, o con una variante en memoria si hace falta |
+| Zip ≤ 5 MB | ✅ **639.410 bytes, sha256 `9681438914c21bf5e24fedf2251622af5f2bed313889019372d28d24423b2714`** — commit `eeefb86d`, blob `8591f8f3`. Verificado: descargado de GitHub, testzip limpio, 14 ficheros, `index.html` en raíz, `assets/index-CQVC1jsT.js`, `playgama-bridge.js`. Jugable: enlace raw en `listing.txt` y en la PR #77. Nota: el zip NO es reproducible byte a byte entre corridas (el bundle lleva algo dependiente de la corrida); los valores canónicos son los de ESTA subida. |
 | Teardown / filtro visual / filtro jugabilidad / plan de dificultad / guion del Short / skills-usadas | HECHOS |
 | GIF (8–10 s) + metraje real del Short | ⏳ PENDIENTE — necesitan Chromium vivo (muerto, exit 133) |
 | Verificación en navegador (smoke Playwright) | ⏳ PENDIENTE — Chromium muerto; ventana finisher |
@@ -48,6 +48,18 @@ mockup: si el flow no se siente perfecto, no se construye.» Daniel anuló
 la condición aprobando los 6. Esta r1 responde con números; el riesgo que
 queda es la sensación del flow (velocidad, tamaño de plato, arco), que
 solo se mide jugando. Ver `teardown.md`.
+
+## Reglas de oro de diseño (Daniel 16/11 08:15–08:17, PR #74) — cumplimiento
+
+Nueva ley del estudio: 100 % «Videojuego Animado», cero fotorealismo /
+texturas realistas / fotos, 100 % arte vectorial original interno, calidad
+AAA en vector. **Este juego cumple por construcción:** todo el arte del
+juego es procedural en canvas (`src/sushi.ts`) — formas vectoriales
+dibujadas por código (gatos, platos, cinta, chef), sin fotos, sin texturas
+realistas, sin nada fotorealista. Las 3 portadas siguen el estilo de
+ilustración del mockup aprobado por Daniel (no son fotos). Si Daniel quiere
+las portadas rehechas en vector puro, es un cambio menor (solo assets, no
+código).
 
 ## Preguntas para Daniel
 
