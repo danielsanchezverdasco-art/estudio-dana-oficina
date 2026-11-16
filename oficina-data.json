@@ -8,8 +8,8 @@
     ],
     "names_pending": false,
     "status": "Construyendo Grid Defender variante B (arcade bold, elegida por Daniel 19:20) y Cyber Runner variante B (arcade bold, elegida por Daniel 20:16, CLON EXACTO ordenado): Grid sigue en local con código avanzando (GameScene 20:34, escenas Shop/Result 20:29-20:30, main/testhandle 20:31), sin commit ni rama en GitHub aún; Cyber Runner con work/ creado 20:26 (scaffold: package.json, vite, tools-local), sin commit ni rama anita/cyber-runner-b aún; pendiente de que Niky pase URL/endpoints del backend de Grid; normas nuevas 20:27-20:34 (clasificación mundial POR METROS; top 3 con nombre y skins visibles en el menú principal) valen para TODOS los juegos; informa cada 30 min — lo hecho, lo que tiene y lo que NO tiene",
-    "paso": "Grid Defender esperando URL/endpoints del backend; Cyber Runner esperando elección de Daniel",
-    "queda": "Pendiente de Niky (URL) y de Daniel (elegir variante de Cyber Runner)"
+    "paso": "Grid Defender esperando URL/endpoints del backend; Cyber Runner en construcción (variante B elegida 20:16, clon exacto)",
+    "queda": "Pendiente de Niky (URL backend Grid); Cyber Runner en construcción en local, sin commit ni rama aún"
   },
   "factory": [
     "Anita: construyendo Grid Defender (variante B, arcade bold elegida por Daniel 19:20) — código avanzando en local (GameScene 20:34, escenas 20:29-20:30), sin commit ni rama aún, pendiente de respuestas de Niky sobre el backend; Cyber Runner variante B ELEGIDA por Daniel 20:16 (arcade bold) con orden de CLON EXACTO — construcción en marcha en local (work/ creado 20:26), sin commit ni rama aún; normas nuevas 20:27-20:34 para TODOS los juegos: clasificación mundial POR METROS y top 3 con nombre y skins visibles en el menú principal",
@@ -59,8 +59,8 @@
       "slug": "cyber-runner",
       "status": "EN MARCHA — mockup aprobado 16/11 16:01; assets 16/16; 3 variantes de diseño COMPLETADAS y verificadas píxel a píxel 16/11 ~20:11 y PRESENTADAS a Daniel (A neón synthwave, B arcade bold, C futurista minimal); Daniel ELIGIÓ la variante B 16/11 20:16 y ordenó CLON EXACTO del juego («todo igual que en las imágenes nada diferente, un clon exacto»); construcción en marcha en local (work/ creado 20:26: package.json, vite, tools-local, src/ y public/ aún vacíos), sin commit ni rama anita/cyber-runner-b en GitHub aún (verificado 20:33); requisito nuevo 20:27: zona de CLASIFICACIÓN MUNDIAL POR METROS; norma 20:34: en el menú principal salen los 3 PRIMEROS con su nombre y skins, bien visibles, y al desplegar el resto — vale para TODOS los juegos",
       "title": "Cyber Runner",
-      "paso": "3 variantes completadas y verificadas, pendientes de elección de Daniel",
-      "queda": "Pendiente de que Daniel elija variante"
+      "paso": "Variante B elegida por Daniel 20:16 (clon exacto); construcción en marcha en local (work/ creado 20:26), sin commit ni rama aún",
+      "queda": "Construir el clon exacto de la variante B + clasificación mundial POR METROS; sin commit ni rama aún"
     }
   ],
   "published": [
@@ -359,7 +359,7 @@
       "title": "Glow Grab!"
     }
   ],
-  "updated_at": "2026-11-16T20:39:49+01:00",
+  "updated_at": "2026-11-16T20:40:49+01:00",
   "updated_by": "anita",
   "resumen": "Actualización 20:39 — Cyber Runner: Daniel ELIGIÓ la variante B (arcade bold) 20:16 y ordenó CLON EXACTO; construcción en marcha en local (work/ creado 20:26), sin commit ni rama en GitHub aún. Grid Defender: construcción sigue en local, código avanzando (GameScene 20:34, escenas 20:29-20:30), sin commit ni rama aún; pendiente backend de Niky. Normas nuevas 20:27-20:34 para TODOS los juegos: clasificación mundial POR METROS + top 3 con nombre y skins visibles en el menú principal; clon exacto sí o sí (orden Daniky 20:33). Fútbol Street: redo orden 20:13 en marcha, sin commit. Relojes v2: orden 20:14 CLON EXACTO opción A, agente activo ~3 h sin commit. Online fútbol: SERVIDOR EN VIVO (health ok 20:18) pero ONLINE_ENABLED sigue en false hasta que Daniel pruebe la Street."
 }
