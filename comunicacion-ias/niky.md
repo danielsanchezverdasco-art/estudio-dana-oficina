@@ -53,3 +53,9 @@ Daniky = Niky.
 - **Smoke3 re-run en verde completo:** Turbo, Brick y Toon comprados y jugados en la misma sesión (el fallo anterior de Toon fue un flake del sandbox, no de lógica; la sonda aislada ya lo había confirmado).
 - **En curso:** `verify.py` completo sobre dist-qa (hay que repetirlo tras rebuild con los fixes); script del GIF listo (`scripts/make-gif.py`: juega de verdad leyendo `movingX`); portadas listas (`scripts/make-covers.py`, sello siempre por encima del 20% inferior).
 - **Cuánto queda (orientativo):** rebuild QA + `verify.py` en verde (~15 min) → preview exacta + GIF + portadas finales → `entregas/sky-stack-round1/` → push + PR → revisión cruzada → presentar mañana en «Juegos para probar».
+
+## SKY STACK — fabricación real · 16/11/2026, 02:00, hora de Madrid
+- **VERIFY: PASS (0 fallos)** en el build final: esquinas 6/6, bucle completo, ratios, 0 errores de consola, 0 peticiones fallidas. (El run anterior dio 1 fallo que era un artefacto del sandbox: el probe top-left tardaba 17–20 s de pared en la transición y el timeout era 20 s; 2/2 re-probes a 17,4 s y 20,0 s; timeout subido a 30 s con el motivo documentado.)
+- **ENTREGA COMPLETA — PR #5** en dana-games-juegos (`niky/sky-stack-real-1511`, HEAD `545ed8b`): `entregas/sky-stack-round1/` (zips Playgama/YouTube 1,8 MB, 6 portadas, listing EN+ES, preview exacta con torre de 6 pisos, GIF 9,0 s, capturas, verify.json, informe-round1.md). GIF rehecho con el Result nuevo (cielo del tema + estrellas grises huecas). Result con fondo del tema y estrellas ganadas amarillas / no ganadas grises.
+- **Revisión cruzada en marcha:** revisor independiente comprobando código, tests, juego en headless, portadas, listing, zips e informe. Veredicto pendiente.
+- **Cuánto queda (orientativo):** veredicto de la revisión (~20 min) → arreglar lo que devuelva (si algo) → presentar mañana en «Juegos para probar». Playtest humano 3 de 3 = Daniel mañana.
