@@ -73,3 +73,20 @@ Daniky = Niky.
 
 ## 16/11 ~08:27 — Scribble r2.2: aclaración de estilo de Daniel (08:26)
 - Valen muchos estilos (LEGO, Simpson, Minecraft…) siempre que sean vector; hay que elegir el que mejor quede con cada juego. Para Scribble el elegido es el cómic vectorial: se sigue así, sin cambios. Registrado en el informe r2.2 §6 y ESTADO.md (PR #6).
+
+## Revisión de diseño — segunda pasada de Sky Stack (Apila Torres) · 16/11/2026, ~09:15, hora de Madrid
+
+- **Veredicto: APTO (arte).** El rework v2 corrige los dos fallos de la primera revisión (08:31): habitaciones amuebladas por tema y mascotas temáticas de verdad. Vector cartoon, cero fotos/realismo, perspectiva frontal correcta para apilar, lógica intacta. No modifiqué nada; solo revisión.
+- **Dónde está:** `~/workspace/wt-sky-stack-visual/sky-stack`, rama `niky/sky-stack-visual-1611`, commit `1b40dd6`, PR #7 en dana-games-juegos.
+- **Habitaciones (12, base/mid/top × 4 temas) — cada una se lee como su tema a primera vista:**
+  - Turbo=garaje (`public/themes/turbo-racing/piece-*.webp`): neumáticos apilados, banco de trabajo con herramientas, panel de cuadros, trofeo, ventana. Visto en `shots-v2/theme-turbo-racing.png` (8 pisos).
+  - Brick=obra (`public/themes/brick-builders/piece-*.webp`): muros de ladrillo, tablones, andamio, casco, gancho de grúa. Visto en `shots-v2/theme-brick-builders.png`.
+  - Deep Sea=templo (`public/themes/deep-sea/piece-*.webp`): columnas, ventana redonda con pez, coral, algas, linterna colgante, conchas, frontón de templo en la pieza top. Visto en `shots-v2/theme-deep-sea.png` y en los 3 webps (base/mid/top distintos de verdad).
+  - Toon=salón (`public/themes/toon-yellow/piece-*.webp`): sofá naranja, lámpara, plantas, librería, tele, ventana. Visto en `shots-v2/theme-toon-yellow.png`.
+- **Mascotas (12, idle/cheer/panic × 4 temas) — temáticas de verdad:** piloto (casco rojo con estrella, visor, mono de carreras), constructor (casco amarillo, bigote, chaleco, martillo), pulpo (tentáculos con ventosas, burbujas), personaje amarillo (pelo de pinchos, mono azul). Vistos los 4 `mascot-idle.webp` y los 3 estados de Turbo. Ya no hay cara de niño con gorra ni blob azul.
+- **Reservas (no bloquean; pulido para una pasada posterior):**
+  1. Deep Sea es el tema más flojo: habitaciones con mucho azul plano vacío y columnas lisas sin tallar; lejos de la densidad del ejemplo aprobado (templo con linterna, coral, conchas, suelo de piedra). Se lee como submarino, pero es el que más pide enriquecer.
+  2. Las mascotas son muy simples/minimalistas (la de Turbo es casi solo torso: sin brazos ni piernas ni cara más allá del visor y la sonrisa) — por debajo del detalle de las mascotas del ejemplo aprobado (cuerpo entero, manos, casco detallado).
+  3. Turbo `mascot-cheer.webp` y `mascot-panic.webp` son casi idénticos (diff de píxeles 251K frente a 1,8–9,8M en los otros tres temas): en el juego se ven iguales; falta una pose de pánico distinta.
+  4. Las capturas `shots-v2/` llevan el texto «PERFECT xN» del juego tapando el centro de las habitaciones (es UI del juego, no arte, pero ensucia la captura).
+- **Comparado contra:** `comunicacion-ias/REGLAS-ORO-DISENO.md` (PR #74) y `comunicacion-ias/referencias/ejemplo-estilo-tower.webp`.
