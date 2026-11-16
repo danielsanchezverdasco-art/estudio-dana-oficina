@@ -1,0 +1,1243 @@
+{
+  "game": "sky-stack",
+  "version": "0.1.0-prep",
+  "date": "2026-11-15",
+  "format": "theme-pack v1 — mismo formato que los packs de la torre (tema.json + assets + README), orden Daniel 23:19",
+  "themes_count": 36,
+  "themes_valid_previews": 37,
+  "notes": "36 temas; Cyberpunk tiene 2 variantes de preview (Daniel elige una). Excluidos: acuarela, cine mudo, Western v1, Minions v1.",
+  "shared_assets": [
+    "coin.png",
+    "btn-play.png",
+    "btn-pause.png",
+    "hud-top.png",
+    "logo-sky-stack.png",
+    "particle-dust.png",
+    "particle-confetti.png",
+    "particle-glow.png",
+    "font-lilita-one.woff2",
+    "hand-tutorial.png"
+  ],
+  "economy": {
+    "coin_per_floor": 1,
+    "coin_per_perfect": 2,
+    "coin_per_10_section": 10,
+    "daily_mission": 25,
+    "rewarded_coins": 50,
+    "total_to_unlock_all": 9800
+  },
+  "difficulty": {
+    "piece_start_width_px": 120,
+    "perfect_window_px": 4,
+    "speed_px_s": {
+      "1-5": 140,
+      "6-10": 180,
+      "11-15": 220,
+      "16-20": 260,
+      "21-30": 300,
+      "31-40": 340,
+      "41+": 380
+    },
+    "direction": "alternates each floor"
+  },
+  "waves": {
+    "1": [
+      "turbo-racing",
+      "brick-builders",
+      "deep-sea",
+      "toon-yellow"
+    ],
+    "2": [
+      "stick-world",
+      "clay-world",
+      "origami",
+      "arcade-8bit",
+      "circus",
+      "pirates",
+      "vikings",
+      "samurai",
+      "wild-west",
+      "street-graffiti",
+      "winter-holidays",
+      "disco-70s"
+    ],
+    "3": [
+      "magic-school",
+      "pharaoh",
+      "funny-zombies",
+      "super-heroes",
+      "comic-book",
+      "anime-pop",
+      "blocky-world",
+      "voxel-world",
+      "space-beans",
+      "dino-world",
+      "fantasy-castle",
+      "jungle-treehouse"
+    ],
+    "4": [
+      "neon-city",
+      "space-station",
+      "steam-factory",
+      "round-world",
+      "yellow-buddies",
+      "pipe-world",
+      "dark-fairytale",
+      "noir-detective"
+    ]
+  },
+  "themes": [
+    {
+      "id": "turbo-racing",
+      "name_en": "Turbo Racing",
+      "name_es": "Carreras F1",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-f1-0-581dbeb5-dfef-46d1-8ecb-d5b4f28d0206.webp",
+      "tier": "featured",
+      "price_coins": 0,
+      "palette": [
+        "#E10600",
+        "#111111",
+        "#FFFFFF"
+      ],
+      "mascot": "Leon mecanico de boxes",
+      "assets": {
+        "piece_base": "turbo-racing/piece-base.png",
+        "piece_mid": "turbo-racing/piece-mid.png",
+        "piece_top": "turbo-racing/piece-top.png",
+        "piece_fall": "turbo-racing/piece-fall.png",
+        "background_far": "turbo-racing/bg-far.png",
+        "background_near": "turbo-racing/bg-near.png",
+        "mascot_idle": "turbo-racing/mascot-idle.png",
+        "mascot_cheer": "turbo-racing/mascot-cheer.png",
+        "mascot_panic": "turbo-racing/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "turbo-racing/sfx-place.mp3",
+        "perfect": "turbo-racing/sfx-perfect.mp3",
+        "fall": "turbo-racing/sfx-fall.mp3",
+        "fanfare": "turbo-racing/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "brick-builders",
+      "name_en": "Brick Builders",
+      "name_es": "Ladrillos",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-lego-0-5f946b51-1775-4f59-98d9-deb99037f816.webp",
+      "tier": "featured",
+      "price_coins": 100,
+      "palette": [
+        "#FFD500",
+        "#D01012",
+        "#0055BF"
+      ],
+      "mascot": "Constructor de bloques",
+      "assets": {
+        "piece_base": "brick-builders/piece-base.png",
+        "piece_mid": "brick-builders/piece-mid.png",
+        "piece_top": "brick-builders/piece-top.png",
+        "piece_fall": "brick-builders/piece-fall.png",
+        "background_far": "brick-builders/bg-far.png",
+        "background_near": "brick-builders/bg-near.png",
+        "mascot_idle": "brick-builders/mascot-idle.png",
+        "mascot_cheer": "brick-builders/mascot-cheer.png",
+        "mascot_panic": "brick-builders/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "brick-builders/sfx-place.mp3",
+        "perfect": "brick-builders/sfx-perfect.mp3",
+        "fall": "brick-builders/sfx-fall.mp3",
+        "fanfare": "brick-builders/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "deep-sea",
+      "name_en": "Deep Sea",
+      "name_es": "Atlantis",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-atlantis-0-a003a559-0f72-416c-bc81-91269c1859ac.webp",
+      "tier": "featured",
+      "price_coins": 150,
+      "palette": [
+        "#00B4D8",
+        "#03045E",
+        "#FFD166"
+      ],
+      "mascot": "Sirena de pelo rojo (Anita)",
+      "assets": {
+        "piece_base": "deep-sea/piece-base.png",
+        "piece_mid": "deep-sea/piece-mid.png",
+        "piece_top": "deep-sea/piece-top.png",
+        "piece_fall": "deep-sea/piece-fall.png",
+        "background_far": "deep-sea/bg-far.png",
+        "background_near": "deep-sea/bg-near.png",
+        "mascot_idle": "deep-sea/mascot-idle.png",
+        "mascot_cheer": "deep-sea/mascot-cheer.png",
+        "mascot_panic": "deep-sea/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "deep-sea/sfx-place.mp3",
+        "perfect": "deep-sea/sfx-perfect.mp3",
+        "fall": "deep-sea/sfx-fall.mp3",
+        "fanfare": "deep-sea/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "toon-yellow",
+      "name_en": "Toon Yellow",
+      "name_es": "Sitcom amarilla",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-simpson-0-299743fc-aa6e-4e9d-927e-b2bfb7dc5e62.webp",
+      "tier": "featured",
+      "price_coins": 150,
+      "palette": [
+        "#FFD90F",
+        "#2E86FF",
+        "#FF6B35"
+      ],
+      "mascot": "Familia amarilla original",
+      "assets": {
+        "piece_base": "toon-yellow/piece-base.png",
+        "piece_mid": "toon-yellow/piece-mid.png",
+        "piece_top": "toon-yellow/piece-top.png",
+        "piece_fall": "toon-yellow/piece-fall.png",
+        "background_far": "toon-yellow/bg-far.png",
+        "background_near": "toon-yellow/bg-near.png",
+        "mascot_idle": "toon-yellow/mascot-idle.png",
+        "mascot_cheer": "toon-yellow/mascot-cheer.png",
+        "mascot_panic": "toon-yellow/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "toon-yellow/sfx-place.mp3",
+        "perfect": "toon-yellow/sfx-perfect.mp3",
+        "fall": "toon-yellow/sfx-fall.mp3",
+        "fanfare": "toon-yellow/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "stick-world",
+      "name_en": "Stick World",
+      "name_es": "Hombres de palo",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-stickman-0-7dadca8c-ffb2-4332-89c9-b9eb35a03cea.webp",
+      "tier": "common",
+      "price_coins": 150,
+      "palette": [
+        "#111111",
+        "#FFFFFF",
+        "#FF5252"
+      ],
+      "mascot": "Stickman con casco",
+      "assets": {
+        "piece_base": "stick-world/piece-base.png",
+        "piece_mid": "stick-world/piece-mid.png",
+        "piece_top": "stick-world/piece-top.png",
+        "piece_fall": "stick-world/piece-fall.png",
+        "background_far": "stick-world/bg-far.png",
+        "background_near": "stick-world/bg-near.png",
+        "mascot_idle": "stick-world/mascot-idle.png",
+        "mascot_cheer": "stick-world/mascot-cheer.png",
+        "mascot_panic": "stick-world/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "stick-world/sfx-place.mp3",
+        "perfect": "stick-world/sfx-perfect.mp3",
+        "fall": "stick-world/sfx-fall.mp3",
+        "fanfare": "stick-world/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "clay-world",
+      "name_en": "Clay World",
+      "name_es": "Plastilina",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-plastilina-0-20933c02-9a33-4db2-9f5b-caa3e26f577f.webp",
+      "tier": "common",
+      "price_coins": 150,
+      "palette": [
+        "#FF8FA3",
+        "#A0C4FF",
+        "#FDFFB6"
+      ],
+      "mascot": "Monigote de plastilina",
+      "assets": {
+        "piece_base": "clay-world/piece-base.png",
+        "piece_mid": "clay-world/piece-mid.png",
+        "piece_top": "clay-world/piece-top.png",
+        "piece_fall": "clay-world/piece-fall.png",
+        "background_far": "clay-world/bg-far.png",
+        "background_near": "clay-world/bg-near.png",
+        "mascot_idle": "clay-world/mascot-idle.png",
+        "mascot_cheer": "clay-world/mascot-cheer.png",
+        "mascot_panic": "clay-world/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "clay-world/sfx-place.mp3",
+        "perfect": "clay-world/sfx-perfect.mp3",
+        "fall": "clay-world/sfx-fall.mp3",
+        "fanfare": "clay-world/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "origami",
+      "name_en": "Origami",
+      "name_es": "Origami",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-origami-0-8fc86e4b-cc48-4cf3-a9fb-99fe6b2b1427.webp",
+      "tier": "common",
+      "price_coins": 150,
+      "palette": [
+        "#FFFFFF",
+        "#FF6B6B",
+        "#4ECDC4"
+      ],
+      "mascot": "Grulla de papel",
+      "assets": {
+        "piece_base": "origami/piece-base.png",
+        "piece_mid": "origami/piece-mid.png",
+        "piece_top": "origami/piece-top.png",
+        "piece_fall": "origami/piece-fall.png",
+        "background_far": "origami/bg-far.png",
+        "background_near": "origami/bg-near.png",
+        "mascot_idle": "origami/mascot-idle.png",
+        "mascot_cheer": "origami/mascot-cheer.png",
+        "mascot_panic": "origami/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "origami/sfx-place.mp3",
+        "perfect": "origami/sfx-perfect.mp3",
+        "fall": "origami/sfx-fall.mp3",
+        "fanfare": "origami/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "arcade-8bit",
+      "name_en": "Arcade 8-bit",
+      "name_es": "8-bit",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-8bit-0-c301b7b6-fa71-4f7c-b074-5ad328e53977.webp",
+      "tier": "common",
+      "price_coins": 150,
+      "palette": [
+        "#00FF41",
+        "#000000",
+        "#FF00FF"
+      ],
+      "mascot": "Heroe pixelado",
+      "assets": {
+        "piece_base": "arcade-8bit/piece-base.png",
+        "piece_mid": "arcade-8bit/piece-mid.png",
+        "piece_top": "arcade-8bit/piece-top.png",
+        "piece_fall": "arcade-8bit/piece-fall.png",
+        "background_far": "arcade-8bit/bg-far.png",
+        "background_near": "arcade-8bit/bg-near.png",
+        "mascot_idle": "arcade-8bit/mascot-idle.png",
+        "mascot_cheer": "arcade-8bit/mascot-cheer.png",
+        "mascot_panic": "arcade-8bit/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "arcade-8bit/sfx-place.mp3",
+        "perfect": "arcade-8bit/sfx-perfect.mp3",
+        "fall": "arcade-8bit/sfx-fall.mp3",
+        "fanfare": "arcade-8bit/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "circus",
+      "name_en": "Circus",
+      "name_es": "Circo",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-circo-0-536a0405-8518-4d53-8db6-68a009a5803d.webp",
+      "tier": "common",
+      "price_coins": 150,
+      "palette": [
+        "#FF595E",
+        "#FFCA3A",
+        "#1982C4"
+      ],
+      "mascot": "Payaso malabarista",
+      "assets": {
+        "piece_base": "circus/piece-base.png",
+        "piece_mid": "circus/piece-mid.png",
+        "piece_top": "circus/piece-top.png",
+        "piece_fall": "circus/piece-fall.png",
+        "background_far": "circus/bg-far.png",
+        "background_near": "circus/bg-near.png",
+        "mascot_idle": "circus/mascot-idle.png",
+        "mascot_cheer": "circus/mascot-cheer.png",
+        "mascot_panic": "circus/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "circus/sfx-place.mp3",
+        "perfect": "circus/sfx-perfect.mp3",
+        "fall": "circus/sfx-fall.mp3",
+        "fanfare": "circus/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "pirates",
+      "name_en": "Pirates",
+      "name_es": "Piratas",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-piratas-0-65d0e667-9c3a-49d7-87bd-ed758abf92c1.webp",
+      "tier": "common",
+      "price_coins": 150,
+      "palette": [
+        "#8B5E3C",
+        "#FFD166",
+        "#073B4C"
+      ],
+      "mascot": "Capitan pirata",
+      "assets": {
+        "piece_base": "pirates/piece-base.png",
+        "piece_mid": "pirates/piece-mid.png",
+        "piece_top": "pirates/piece-top.png",
+        "piece_fall": "pirates/piece-fall.png",
+        "background_far": "pirates/bg-far.png",
+        "background_near": "pirates/bg-near.png",
+        "mascot_idle": "pirates/mascot-idle.png",
+        "mascot_cheer": "pirates/mascot-cheer.png",
+        "mascot_panic": "pirates/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "pirates/sfx-place.mp3",
+        "perfect": "pirates/sfx-perfect.mp3",
+        "fall": "pirates/sfx-fall.mp3",
+        "fanfare": "pirates/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "vikings",
+      "name_en": "Vikings",
+      "name_es": "Vikingos",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-vikingos-0-a4a85c30-2cb3-4e71-86ba-d703bc195b3e.webp",
+      "tier": "common",
+      "price_coins": 150,
+      "palette": [
+        "#4361EE",
+        "#B08968",
+        "#EDE0D4"
+      ],
+      "mascot": "Vikingo con casco",
+      "assets": {
+        "piece_base": "vikings/piece-base.png",
+        "piece_mid": "vikings/piece-mid.png",
+        "piece_top": "vikings/piece-top.png",
+        "piece_fall": "vikings/piece-fall.png",
+        "background_far": "vikings/bg-far.png",
+        "background_near": "vikings/bg-near.png",
+        "mascot_idle": "vikings/mascot-idle.png",
+        "mascot_cheer": "vikings/mascot-cheer.png",
+        "mascot_panic": "vikings/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "vikings/sfx-place.mp3",
+        "perfect": "vikings/sfx-perfect.mp3",
+        "fall": "vikings/sfx-fall.mp3",
+        "fanfare": "vikings/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "samurai",
+      "name_en": "Samurai",
+      "name_es": "Samurais",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-samurai-0-00d71ad8-c3e0-4616-95f0-9762708b00b2.webp",
+      "tier": "common",
+      "price_coins": 150,
+      "palette": [
+        "#D90429",
+        "#2B2D42",
+        "#FFD60A"
+      ],
+      "mascot": "Samurai",
+      "assets": {
+        "piece_base": "samurai/piece-base.png",
+        "piece_mid": "samurai/piece-mid.png",
+        "piece_top": "samurai/piece-top.png",
+        "piece_fall": "samurai/piece-fall.png",
+        "background_far": "samurai/bg-far.png",
+        "background_near": "samurai/bg-near.png",
+        "mascot_idle": "samurai/mascot-idle.png",
+        "mascot_cheer": "samurai/mascot-cheer.png",
+        "mascot_panic": "samurai/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "samurai/sfx-place.mp3",
+        "perfect": "samurai/sfx-perfect.mp3",
+        "fall": "samurai/sfx-fall.mp3",
+        "fanfare": "samurai/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "wild-west",
+      "name_en": "Wild West",
+      "name_es": "Western",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-western-v2-0-b0278e18-2bce-481d-8a28-7aaad06c14b5.webp",
+      "tier": "common",
+      "price_coins": 150,
+      "palette": [
+        "#C68B4E",
+        "#7B2D26",
+        "#F4D58D"
+      ],
+      "mascot": "Vaquero",
+      "assets": {
+        "piece_base": "wild-west/piece-base.png",
+        "piece_mid": "wild-west/piece-mid.png",
+        "piece_top": "wild-west/piece-top.png",
+        "piece_fall": "wild-west/piece-fall.png",
+        "background_far": "wild-west/bg-far.png",
+        "background_near": "wild-west/bg-near.png",
+        "mascot_idle": "wild-west/mascot-idle.png",
+        "mascot_cheer": "wild-west/mascot-cheer.png",
+        "mascot_panic": "wild-west/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "wild-west/sfx-place.mp3",
+        "perfect": "wild-west/sfx-perfect.mp3",
+        "fall": "wild-west/sfx-fall.mp3",
+        "fanfare": "wild-west/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "street-graffiti",
+      "name_en": "Street Graffiti",
+      "name_es": "Graffiti",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-graffiti-0-748f4ecf-461f-4786-b33b-a360064af042.webp",
+      "tier": "common",
+      "price_coins": 150,
+      "palette": [
+        "#FF00AA",
+        "#00F5D4",
+        "#FEE440"
+      ],
+      "mascot": "Artista de spray",
+      "assets": {
+        "piece_base": "street-graffiti/piece-base.png",
+        "piece_mid": "street-graffiti/piece-mid.png",
+        "piece_top": "street-graffiti/piece-top.png",
+        "piece_fall": "street-graffiti/piece-fall.png",
+        "background_far": "street-graffiti/bg-far.png",
+        "background_near": "street-graffiti/bg-near.png",
+        "mascot_idle": "street-graffiti/mascot-idle.png",
+        "mascot_cheer": "street-graffiti/mascot-cheer.png",
+        "mascot_panic": "street-graffiti/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "street-graffiti/sfx-place.mp3",
+        "perfect": "street-graffiti/sfx-perfect.mp3",
+        "fall": "street-graffiti/sfx-fall.mp3",
+        "fanfare": "street-graffiti/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "winter-holidays",
+      "name_en": "Winter Holidays",
+      "name_es": "Navidad",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-navidad-0-9787df13-c3d4-40fa-bafe-ab2608265f20.webp",
+      "tier": "common",
+      "price_coins": 150,
+      "palette": [
+        "#E63946",
+        "#2A9D8F",
+        "#FFFFFF"
+      ],
+      "mascot": "Pinguino con bufanda",
+      "assets": {
+        "piece_base": "winter-holidays/piece-base.png",
+        "piece_mid": "winter-holidays/piece-mid.png",
+        "piece_top": "winter-holidays/piece-top.png",
+        "piece_fall": "winter-holidays/piece-fall.png",
+        "background_far": "winter-holidays/bg-far.png",
+        "background_near": "winter-holidays/bg-near.png",
+        "mascot_idle": "winter-holidays/mascot-idle.png",
+        "mascot_cheer": "winter-holidays/mascot-cheer.png",
+        "mascot_panic": "winter-holidays/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "winter-holidays/sfx-place.mp3",
+        "perfect": "winter-holidays/sfx-perfect.mp3",
+        "fall": "winter-holidays/sfx-fall.mp3",
+        "fanfare": "winter-holidays/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "disco-70s",
+      "name_en": "Disco 70s",
+      "name_es": "Disco",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-disco-0-12425579-ea8c-4e7b-aadc-0ded9b7fe7a4.webp",
+      "tier": "common",
+      "price_coins": 150,
+      "palette": [
+        "#FF0A54",
+        "#FFD60A",
+        "#8338EC"
+      ],
+      "mascot": "Bailarin disco",
+      "assets": {
+        "piece_base": "disco-70s/piece-base.png",
+        "piece_mid": "disco-70s/piece-mid.png",
+        "piece_top": "disco-70s/piece-top.png",
+        "piece_fall": "disco-70s/piece-fall.png",
+        "background_far": "disco-70s/bg-far.png",
+        "background_near": "disco-70s/bg-near.png",
+        "mascot_idle": "disco-70s/mascot-idle.png",
+        "mascot_cheer": "disco-70s/mascot-cheer.png",
+        "mascot_panic": "disco-70s/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "disco-70s/sfx-place.mp3",
+        "perfect": "disco-70s/sfx-perfect.mp3",
+        "fall": "disco-70s/sfx-fall.mp3",
+        "fanfare": "disco-70s/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "magic-school",
+      "name_en": "Magic School",
+      "name_es": "Escuela de magia",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-magia-0-f55b0ade-acb9-4415-8b8b-d0f2c9bad7bd.webp",
+      "tier": "rare",
+      "price_coins": 300,
+      "palette": [
+        "#7B2CBF",
+        "#FFD60A",
+        "#10002B"
+      ],
+      "mascot": "Mago joven",
+      "assets": {
+        "piece_base": "magic-school/piece-base.png",
+        "piece_mid": "magic-school/piece-mid.png",
+        "piece_top": "magic-school/piece-top.png",
+        "piece_fall": "magic-school/piece-fall.png",
+        "background_far": "magic-school/bg-far.png",
+        "background_near": "magic-school/bg-near.png",
+        "mascot_idle": "magic-school/mascot-idle.png",
+        "mascot_cheer": "magic-school/mascot-cheer.png",
+        "mascot_panic": "magic-school/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "magic-school/sfx-place.mp3",
+        "perfect": "magic-school/sfx-perfect.mp3",
+        "fall": "magic-school/sfx-fall.mp3",
+        "fanfare": "magic-school/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "pharaoh",
+      "name_en": "Pharaoh",
+      "name_es": "Egipto",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-egipto-0-45533290-84ec-47d5-b022-33fe343ae173.webp",
+      "tier": "rare",
+      "price_coins": 300,
+      "palette": [
+        "#C9A227",
+        "#2B2118",
+        "#00B4D8"
+      ],
+      "mascot": "Faraon leon",
+      "assets": {
+        "piece_base": "pharaoh/piece-base.png",
+        "piece_mid": "pharaoh/piece-mid.png",
+        "piece_top": "pharaoh/piece-top.png",
+        "piece_fall": "pharaoh/piece-fall.png",
+        "background_far": "pharaoh/bg-far.png",
+        "background_near": "pharaoh/bg-near.png",
+        "mascot_idle": "pharaoh/mascot-idle.png",
+        "mascot_cheer": "pharaoh/mascot-cheer.png",
+        "mascot_panic": "pharaoh/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "pharaoh/sfx-place.mp3",
+        "perfect": "pharaoh/sfx-perfect.mp3",
+        "fall": "pharaoh/sfx-fall.mp3",
+        "fanfare": "pharaoh/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "funny-zombies",
+      "name_en": "Funny Zombies",
+      "name_es": "Zombies",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-zombies-0-44abc1d0-23c0-496e-8c61-8e25c6d0c83e.webp",
+      "tier": "rare",
+      "price_coins": 300,
+      "palette": [
+        "#80B918",
+        "#5A189A",
+        "#FFADAD"
+      ],
+      "mascot": "Zombie divertido",
+      "assets": {
+        "piece_base": "funny-zombies/piece-base.png",
+        "piece_mid": "funny-zombies/piece-mid.png",
+        "piece_top": "funny-zombies/piece-top.png",
+        "piece_fall": "funny-zombies/piece-fall.png",
+        "background_far": "funny-zombies/bg-far.png",
+        "background_near": "funny-zombies/bg-near.png",
+        "mascot_idle": "funny-zombies/mascot-idle.png",
+        "mascot_cheer": "funny-zombies/mascot-cheer.png",
+        "mascot_panic": "funny-zombies/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "funny-zombies/sfx-place.mp3",
+        "perfect": "funny-zombies/sfx-perfect.mp3",
+        "fall": "funny-zombies/sfx-fall.mp3",
+        "fanfare": "funny-zombies/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "super-heroes",
+      "name_en": "Super Heroes",
+      "name_es": "Superheroes",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-superheroes-0-d7612b7a-0287-43c2-908d-189d9a7faadc.webp",
+      "tier": "rare",
+      "price_coins": 300,
+      "palette": [
+        "#4361EE",
+        "#EF476F",
+        "#FFD166"
+      ],
+      "mascot": "Heroina original",
+      "assets": {
+        "piece_base": "super-heroes/piece-base.png",
+        "piece_mid": "super-heroes/piece-mid.png",
+        "piece_top": "super-heroes/piece-top.png",
+        "piece_fall": "super-heroes/piece-fall.png",
+        "background_far": "super-heroes/bg-far.png",
+        "background_near": "super-heroes/bg-near.png",
+        "mascot_idle": "super-heroes/mascot-idle.png",
+        "mascot_cheer": "super-heroes/mascot-cheer.png",
+        "mascot_panic": "super-heroes/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "super-heroes/sfx-place.mp3",
+        "perfect": "super-heroes/sfx-perfect.mp3",
+        "fall": "super-heroes/sfx-fall.mp3",
+        "fanfare": "super-heroes/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "comic-book",
+      "name_en": "Comic Book",
+      "name_es": "Comic",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-comic-0-8118e5e9-a9d8-42b5-bd1a-73315df97896.webp",
+      "tier": "rare",
+      "price_coins": 300,
+      "palette": [
+        "#FFD60A",
+        "#111111",
+        "#FFFFFF"
+      ],
+      "mascot": "Heroe de comic",
+      "assets": {
+        "piece_base": "comic-book/piece-base.png",
+        "piece_mid": "comic-book/piece-mid.png",
+        "piece_top": "comic-book/piece-top.png",
+        "piece_fall": "comic-book/piece-fall.png",
+        "background_far": "comic-book/bg-far.png",
+        "background_near": "comic-book/bg-near.png",
+        "mascot_idle": "comic-book/mascot-idle.png",
+        "mascot_cheer": "comic-book/mascot-cheer.png",
+        "mascot_panic": "comic-book/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "comic-book/sfx-place.mp3",
+        "perfect": "comic-book/sfx-perfect.mp3",
+        "fall": "comic-book/sfx-fall.mp3",
+        "fanfare": "comic-book/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "anime-pop",
+      "name_en": "Anime Pop",
+      "name_es": "Anime",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-anime-0-22eb8336-9e9c-41d0-b934-4d80dc374547.webp",
+      "tier": "rare",
+      "price_coins": 300,
+      "palette": [
+        "#FF70A6",
+        "#BDE0FE",
+        "#FFD6FF"
+      ],
+      "mascot": "Chica anime",
+      "assets": {
+        "piece_base": "anime-pop/piece-base.png",
+        "piece_mid": "anime-pop/piece-mid.png",
+        "piece_top": "anime-pop/piece-top.png",
+        "piece_fall": "anime-pop/piece-fall.png",
+        "background_far": "anime-pop/bg-far.png",
+        "background_near": "anime-pop/bg-near.png",
+        "mascot_idle": "anime-pop/mascot-idle.png",
+        "mascot_cheer": "anime-pop/mascot-cheer.png",
+        "mascot_panic": "anime-pop/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "anime-pop/sfx-place.mp3",
+        "perfect": "anime-pop/sfx-perfect.mp3",
+        "fall": "anime-pop/sfx-fall.mp3",
+        "fanfare": "anime-pop/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "blocky-world",
+      "name_en": "Blocky World",
+      "name_es": "Bloques",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-roblox-0-886a2c1c-f835-4d1d-9fb2-bed8f04dd5d8.webp",
+      "tier": "rare",
+      "price_coins": 300,
+      "palette": [
+        "#FFD500",
+        "#00A8E8",
+        "#EF476F"
+      ],
+      "mascot": "Avatar de bloques",
+      "assets": {
+        "piece_base": "blocky-world/piece-base.png",
+        "piece_mid": "blocky-world/piece-mid.png",
+        "piece_top": "blocky-world/piece-top.png",
+        "piece_fall": "blocky-world/piece-fall.png",
+        "background_far": "blocky-world/bg-far.png",
+        "background_near": "blocky-world/bg-near.png",
+        "mascot_idle": "blocky-world/mascot-idle.png",
+        "mascot_cheer": "blocky-world/mascot-cheer.png",
+        "mascot_panic": "blocky-world/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "blocky-world/sfx-place.mp3",
+        "perfect": "blocky-world/sfx-perfect.mp3",
+        "fall": "blocky-world/sfx-fall.mp3",
+        "fanfare": "blocky-world/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "voxel-world",
+      "name_en": "Voxel World",
+      "name_es": "Cubos",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-minecraft-0-4148146a-91ea-424d-ad7e-9f2644149b0e.webp",
+      "tier": "rare",
+      "price_coins": 300,
+      "palette": [
+        "#70A838",
+        "#8B5E3C",
+        "#7DD3FC"
+      ],
+      "mascot": "Constructor voxel",
+      "assets": {
+        "piece_base": "voxel-world/piece-base.png",
+        "piece_mid": "voxel-world/piece-mid.png",
+        "piece_top": "voxel-world/piece-top.png",
+        "piece_fall": "voxel-world/piece-fall.png",
+        "background_far": "voxel-world/bg-far.png",
+        "background_near": "voxel-world/bg-near.png",
+        "mascot_idle": "voxel-world/mascot-idle.png",
+        "mascot_cheer": "voxel-world/mascot-cheer.png",
+        "mascot_panic": "voxel-world/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "voxel-world/sfx-place.mp3",
+        "perfect": "voxel-world/sfx-perfect.mp3",
+        "fall": "voxel-world/sfx-fall.mp3",
+        "fanfare": "voxel-world/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "space-beans",
+      "name_en": "Space Beans",
+      "name_es": "Tripulacion",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-among-us-0-f11b306c-30dd-43bb-aa59-74fedce3c49b.webp",
+      "tier": "rare",
+      "price_coins": 300,
+      "palette": [
+        "#FF0000",
+        "#1B1B3A",
+        "#00F5D4"
+      ],
+      "mascot": "Astronauta frijol",
+      "assets": {
+        "piece_base": "space-beans/piece-base.png",
+        "piece_mid": "space-beans/piece-mid.png",
+        "piece_top": "space-beans/piece-top.png",
+        "piece_fall": "space-beans/piece-fall.png",
+        "background_far": "space-beans/bg-far.png",
+        "background_near": "space-beans/bg-near.png",
+        "mascot_idle": "space-beans/mascot-idle.png",
+        "mascot_cheer": "space-beans/mascot-cheer.png",
+        "mascot_panic": "space-beans/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "space-beans/sfx-place.mp3",
+        "perfect": "space-beans/sfx-perfect.mp3",
+        "fall": "space-beans/sfx-fall.mp3",
+        "fanfare": "space-beans/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "dino-world",
+      "name_en": "Dino World",
+      "name_es": "Dinosaurios",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-dinosaurios-0-86e2f74e-6a98-44a4-a29f-d74ec208588a.webp",
+      "tier": "rare",
+      "price_coins": 300,
+      "palette": [
+        "#606C38",
+        "#DDA15E",
+        "#BC6C25"
+      ],
+      "mascot": "Dino bebe",
+      "assets": {
+        "piece_base": "dino-world/piece-base.png",
+        "piece_mid": "dino-world/piece-mid.png",
+        "piece_top": "dino-world/piece-top.png",
+        "piece_fall": "dino-world/piece-fall.png",
+        "background_far": "dino-world/bg-far.png",
+        "background_near": "dino-world/bg-near.png",
+        "mascot_idle": "dino-world/mascot-idle.png",
+        "mascot_cheer": "dino-world/mascot-cheer.png",
+        "mascot_panic": "dino-world/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "dino-world/sfx-place.mp3",
+        "perfect": "dino-world/sfx-perfect.mp3",
+        "fall": "dino-world/sfx-fall.mp3",
+        "fanfare": "dino-world/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "fantasy-castle",
+      "name_en": "Fantasy Castle",
+      "name_es": "Castillo",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-castillo-0-78af5ce5-fd78-4649-b9ee-2a01335115fe.webp",
+      "tier": "rare",
+      "price_coins": 300,
+      "palette": [
+        "#9D4EDD",
+        "#FFD6FF",
+        "#5A189A"
+      ],
+      "mascot": "Caballero y dragon",
+      "assets": {
+        "piece_base": "fantasy-castle/piece-base.png",
+        "piece_mid": "fantasy-castle/piece-mid.png",
+        "piece_top": "fantasy-castle/piece-top.png",
+        "piece_fall": "fantasy-castle/piece-fall.png",
+        "background_far": "fantasy-castle/bg-far.png",
+        "background_near": "fantasy-castle/bg-near.png",
+        "mascot_idle": "fantasy-castle/mascot-idle.png",
+        "mascot_cheer": "fantasy-castle/mascot-cheer.png",
+        "mascot_panic": "fantasy-castle/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "fantasy-castle/sfx-place.mp3",
+        "perfect": "fantasy-castle/sfx-perfect.mp3",
+        "fall": "fantasy-castle/sfx-fall.mp3",
+        "fanfare": "fantasy-castle/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "jungle-treehouse",
+      "name_en": "Jungle Treehouse",
+      "name_es": "Selva",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-selva-0-ee6a4978-c616-4b44-b27e-353b0dbcd117.webp",
+      "tier": "rare",
+      "price_coins": 300,
+      "palette": [
+        "#2D6A4F",
+        "#B7E4C7",
+        "#FFD60A"
+      ],
+      "mascot": "Mono explorador",
+      "assets": {
+        "piece_base": "jungle-treehouse/piece-base.png",
+        "piece_mid": "jungle-treehouse/piece-mid.png",
+        "piece_top": "jungle-treehouse/piece-top.png",
+        "piece_fall": "jungle-treehouse/piece-fall.png",
+        "background_far": "jungle-treehouse/bg-far.png",
+        "background_near": "jungle-treehouse/bg-near.png",
+        "mascot_idle": "jungle-treehouse/mascot-idle.png",
+        "mascot_cheer": "jungle-treehouse/mascot-cheer.png",
+        "mascot_panic": "jungle-treehouse/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "jungle-treehouse/sfx-place.mp3",
+        "perfect": "jungle-treehouse/sfx-perfect.mp3",
+        "fall": "jungle-treehouse/sfx-fall.mp3",
+        "fanfare": "jungle-treehouse/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "neon-city",
+      "name_en": "Neon City",
+      "name_es": "Cyberpunk",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-cyberpunk-0-de2a1ba3-7f6e-4a7b-a988-81075b42ec2a.webp",
+      "tier": "epic",
+      "price_coins": 500,
+      "palette": [
+        "#FF2E97",
+        "#00F5D4",
+        "#0B0B1A"
+      ],
+      "mascot": "Hacker neon",
+      "assets": {
+        "piece_base": "neon-city/piece-base.png",
+        "piece_mid": "neon-city/piece-mid.png",
+        "piece_top": "neon-city/piece-top.png",
+        "piece_fall": "neon-city/piece-fall.png",
+        "background_far": "neon-city/bg-far.png",
+        "background_near": "neon-city/bg-near.png",
+        "mascot_idle": "neon-city/mascot-idle.png",
+        "mascot_cheer": "neon-city/mascot-cheer.png",
+        "mascot_panic": "neon-city/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "neon-city/sfx-place.mp3",
+        "perfect": "neon-city/sfx-perfect.mp3",
+        "fall": "neon-city/sfx-fall.mp3",
+        "fanfare": "neon-city/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "space-station",
+      "name_en": "Space Station",
+      "name_es": "Espacial",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-espacial-0-cce1a12d-b81c-4f80-b422-f299a48d6c45.webp",
+      "tier": "epic",
+      "price_coins": 500,
+      "palette": [
+        "#0B0B1A",
+        "#00B4D8",
+        "#FFFFFF"
+      ],
+      "mascot": "Astronauta",
+      "assets": {
+        "piece_base": "space-station/piece-base.png",
+        "piece_mid": "space-station/piece-mid.png",
+        "piece_top": "space-station/piece-top.png",
+        "piece_fall": "space-station/piece-fall.png",
+        "background_far": "space-station/bg-far.png",
+        "background_near": "space-station/bg-near.png",
+        "mascot_idle": "space-station/mascot-idle.png",
+        "mascot_cheer": "space-station/mascot-cheer.png",
+        "mascot_panic": "space-station/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "space-station/sfx-place.mp3",
+        "perfect": "space-station/sfx-perfect.mp3",
+        "fall": "space-station/sfx-fall.mp3",
+        "fanfare": "space-station/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "steam-factory",
+      "name_en": "Steam Factory",
+      "name_es": "Steampunk",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-steampunk-0-cf54bc9d-bf52-4753-9219-9b5ef0dd60ef.webp",
+      "tier": "epic",
+      "price_coins": 500,
+      "palette": [
+        "#B08968",
+        "#6C584C",
+        "#FFD60A"
+      ],
+      "mascot": "Inventor de cobre",
+      "assets": {
+        "piece_base": "steam-factory/piece-base.png",
+        "piece_mid": "steam-factory/piece-mid.png",
+        "piece_top": "steam-factory/piece-top.png",
+        "piece_fall": "steam-factory/piece-fall.png",
+        "background_far": "steam-factory/bg-far.png",
+        "background_near": "steam-factory/bg-near.png",
+        "mascot_idle": "steam-factory/mascot-idle.png",
+        "mascot_cheer": "steam-factory/mascot-cheer.png",
+        "mascot_panic": "steam-factory/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "steam-factory/sfx-place.mp3",
+        "perfect": "steam-factory/sfx-perfect.mp3",
+        "fall": "steam-factory/sfx-fall.mp3",
+        "fanfare": "steam-factory/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "round-world",
+      "name_en": "Round World",
+      "name_es": "3D suave",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-pixar-3d-0-e7332671-7dce-46cd-8b05-8c625cf34c98.webp",
+      "tier": "epic",
+      "price_coins": 500,
+      "palette": [
+        "#FFAFCC",
+        "#FFC8DD",
+        "#CDB4DB"
+      ],
+      "mascot": "Personaje redondo",
+      "assets": {
+        "piece_base": "round-world/piece-base.png",
+        "piece_mid": "round-world/piece-mid.png",
+        "piece_top": "round-world/piece-top.png",
+        "piece_fall": "round-world/piece-fall.png",
+        "background_far": "round-world/bg-far.png",
+        "background_near": "round-world/bg-near.png",
+        "mascot_idle": "round-world/mascot-idle.png",
+        "mascot_cheer": "round-world/mascot-cheer.png",
+        "mascot_panic": "round-world/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "round-world/sfx-place.mp3",
+        "perfect": "round-world/sfx-perfect.mp3",
+        "fall": "round-world/sfx-fall.mp3",
+        "fanfare": "round-world/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "yellow-buddies",
+      "name_en": "Yellow Buddies",
+      "name_es": "Pequenos amarillos",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-minions-v2-0-7aa3d862-3e85-4a2e-b0db-a7f86a637666.webp",
+      "tier": "epic",
+      "price_coins": 500,
+      "palette": [
+        "#FFD500",
+        "#4361EE",
+        "#FFFFFF"
+      ],
+      "mascot": "Trabajador amarillo",
+      "assets": {
+        "piece_base": "yellow-buddies/piece-base.png",
+        "piece_mid": "yellow-buddies/piece-mid.png",
+        "piece_top": "yellow-buddies/piece-top.png",
+        "piece_fall": "yellow-buddies/piece-fall.png",
+        "background_far": "yellow-buddies/bg-far.png",
+        "background_near": "yellow-buddies/bg-near.png",
+        "mascot_idle": "yellow-buddies/mascot-idle.png",
+        "mascot_cheer": "yellow-buddies/mascot-cheer.png",
+        "mascot_panic": "yellow-buddies/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "yellow-buddies/sfx-place.mp3",
+        "perfect": "yellow-buddies/sfx-perfect.mp3",
+        "fall": "yellow-buddies/sfx-fall.mp3",
+        "fanfare": "yellow-buddies/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "pipe-world",
+      "name_en": "Pipe World",
+      "name_es": "Plataformas",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-mario-0-2d3ba2e0-1f22-448c-85a8-643bad8e06d4.webp",
+      "tier": "epic",
+      "price_coins": 500,
+      "palette": [
+        "#E52521",
+        "#43B047",
+        "#FBD000"
+      ],
+      "mascot": "Fontanero original",
+      "assets": {
+        "piece_base": "pipe-world/piece-base.png",
+        "piece_mid": "pipe-world/piece-mid.png",
+        "piece_top": "pipe-world/piece-top.png",
+        "piece_fall": "pipe-world/piece-fall.png",
+        "background_far": "pipe-world/bg-far.png",
+        "background_near": "pipe-world/bg-near.png",
+        "mascot_idle": "pipe-world/mascot-idle.png",
+        "mascot_cheer": "pipe-world/mascot-cheer.png",
+        "mascot_panic": "pipe-world/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "pipe-world/sfx-place.mp3",
+        "perfect": "pipe-world/sfx-perfect.mp3",
+        "fall": "pipe-world/sfx-fall.mp3",
+        "fanfare": "pipe-world/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "dark-fairytale",
+      "name_en": "Dark Fairytale",
+      "name_es": "Gotico",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-tim-burton-0-260fe64f-60eb-42d0-b1fc-ddb29d590f9d.webp",
+      "tier": "epic",
+      "price_coins": 500,
+      "palette": [
+        "#1B1B1B",
+        "#E0AAFF",
+        "#FFFFFF"
+      ],
+      "mascot": "Nina gotica",
+      "assets": {
+        "piece_base": "dark-fairytale/piece-base.png",
+        "piece_mid": "dark-fairytale/piece-mid.png",
+        "piece_top": "dark-fairytale/piece-top.png",
+        "piece_fall": "dark-fairytale/piece-fall.png",
+        "background_far": "dark-fairytale/bg-far.png",
+        "background_near": "dark-fairytale/bg-near.png",
+        "mascot_idle": "dark-fairytale/mascot-idle.png",
+        "mascot_cheer": "dark-fairytale/mascot-cheer.png",
+        "mascot_panic": "dark-fairytale/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "dark-fairytale/sfx-place.mp3",
+        "perfect": "dark-fairytale/sfx-perfect.mp3",
+        "fall": "dark-fairytale/sfx-fall.mp3",
+        "fanfare": "dark-fairytale/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "noir-detective",
+      "name_en": "Noir Detective",
+      "name_es": "Detectives",
+      "preview_ref": "~/workspace/torre-nuevos-disenos/media-generation-preview-edificio-noir-0-413ba31c-acea-4283-8bb1-ca8760348ff5.webp",
+      "tier": "epic",
+      "price_coins": 500,
+      "palette": [
+        "#1B1B1B",
+        "#D6C9A8",
+        "#FFD60A"
+      ],
+      "mascot": "Detective con gabardina",
+      "assets": {
+        "piece_base": "noir-detective/piece-base.png",
+        "piece_mid": "noir-detective/piece-mid.png",
+        "piece_top": "noir-detective/piece-top.png",
+        "piece_fall": "noir-detective/piece-fall.png",
+        "background_far": "noir-detective/bg-far.png",
+        "background_near": "noir-detective/bg-near.png",
+        "mascot_idle": "noir-detective/mascot-idle.png",
+        "mascot_cheer": "noir-detective/mascot-cheer.png",
+        "mascot_panic": "noir-detective/mascot-panic.png"
+      },
+      "sfx": {
+        "place": "noir-detective/sfx-place.mp3",
+        "perfect": "noir-detective/sfx-perfect.mp3",
+        "fall": "noir-detective/sfx-fall.mp3",
+        "fanfare": "noir-detective/sfx-fanfare.mp3"
+      },
+      "status": "pending"
+    }
+  ]
+}
