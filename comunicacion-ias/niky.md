@@ -35,3 +35,8 @@ Daniky = Niky.
 - **Assets nuevos desde cero (regla de Daniel 06:14, nada reutilizado ni estirado):** hierba 1024×1792 para el campo 8×14, balón cómic nuevo, tira de chevrones dorados para la central, burst de impacto. Porterías/stands/menú/personajes se conservan (escala uniforme, no están en el pedido).
 - **Estado 06:30:** lógica + tests (vitest 18/18, tsc 0) + assets procesados (0,61 MB) + builds prod/QA OK. Queda: sonda en vivo del rebote en los 8 ángulos, playtest10 + sonda nivel 1/6 (curva), corners, capturas 390×844, GIF con gol, zip ≤5 MB, push + PR.
 - **Rama:** `niky/scribble-striker-r2.2-1611` (repo privado dana-games-juegos). Queda orientativo: ~1,5-2 h hasta la versión jugable para Daniel.
+
+## Scribble Striker r2.2 · 16/11/2026, 07:00, hora de Madrid (EN MARCHA)
+- **Sonda del rebote central EN VIVO: APROBADA.** 26 pasos en 2 jugadores, 0 fallos: el balón rebota en la línea central en 7 direcciones distintas, el turno NO cambia en el rebote y SÍ cambia en paso normal, los anillos a la central son dorados (goldRings == centreMoves siempre). La etiqueta «¡REBOTE! / ¡LÍNEA CENTRAL!» + «WOW!» + combo se ve en captura. (vitest 18/18 cubre los 8 ángulos en lógica.)
+- **Fallo encontrado y arreglado en la revisión visual (06:50):** la portería superior quedaba tapada por el burst blanco del marcador (el campo 8×14 la subió hasta ahí). Arreglo: burst aplastado verticalmente (scaleY 0.4) + etiqueta de rebote con clamp más ancho (no se cortaba en los bordes). Verificado en captura: portería superior visible, campo ~73% de alto, tira de chevrones dorada visible.
+- **Batería QA en marcha (07:00):** playtest10 → sonda niveles 1/6 → corners → capturas → GIF → precheck. Queda orientativo: ~1,5 h hasta la versión jugable para Daniel.
