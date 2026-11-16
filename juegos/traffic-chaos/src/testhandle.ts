@@ -1,0 +1,57 @@
+// Debug handle for the probing skill (probing-web-game-mechanics).
+// DELIBERATE DECISION (documented): the handle exists ONLY in the test
+// build (VITE_TEST_BUILD=1, outDir dist-test). The production build sets
+// __TEST_BUILD__ to false and this module is tree-shaken away, so the
+// production zip has no window.__* handle and no test parameters.
+// Probing without it would only check "loads and doesn't crash", which the
+// skill explicitly calls a smoke test in disguise — the mechanics (toggle
+// cooldown, patience, stars, crash, gridlock, tutorial steps, skin tints)
+// need the handle to be asserted.
+import Phaser from 'phaser';
+import { currentLang } from './i18n';
+import { Save, defaultSave } from './save';
+import { GameScene } from './scenes/GameScene';
+
+export function installTestHandle(game: Phaser.Game): void {
+  const gameScene = (): GameScene | null => {
+    const s = game.scene.getScene('Game') as GameScene | null;
+    return s && s.scene.isActive() ? s : null;
+  };
+
+  const handle = {
+    version: 'traffic-chaos-test-1',
+    game,
+    state(): Record<string, unknown> {
+      const active = game.scene.getScenes(true).map((s) => s.scene.key);
+      const out: Record<string, unknown> = { activeScenes: active, lang: currentLang(), save: JSON.parse(JSON.stringify(Save.data)) };
+      const gs = gameScene();
+      if (gs) out.game = gs.testGetState();
+      return out;
+    },
+    startLevel(level: number): void {
+      for (const key of ['Menu', 'Map', 'Result', 'Shop']) game.scene.stop(key);
+      game.scene.start('Game', { level });
+    },
+    toggle(): void {
+      gameScene()?.testToggle();
+    },
+    boostAll(): void {
+      gameScene()?.testBoostAll();
+    },
+    boostCar(id: number): void {
+      gameScene()?.testBoostCar(id);
+    },
+    /** Test only: game time scale (speed up headless playback). */
+    setTimeScale(scale: number): void {
+      gameScene()?.testSetTimeScale(scale);
+    },
+    save(): unknown {
+      return JSON.parse(JSON.stringify(Save.data));
+    },
+    resetSave(): void {
+      Save.data = defaultSave();
+      void Save.write();
+    },
+  };
+  (window as unknown as { __game: unknown }).__game = handle;
+}
