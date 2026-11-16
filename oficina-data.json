@@ -73,19 +73,22 @@
     },
     {
       "commit": "06b08c2",
-      "covers": "icono v2 y banner v2 aprobados por Daniel",
+      "covers": {
+        "icon": "cover_800x800.png",
+        "portrait": "cover_1080x1920.png",
+        "banner": "cover_1920x1080.png"
+      },
       "objectives": {
         "ads_per_play": "0/0,30",
         "avg_time": "0:00/6:00",
         "plays": "0/100"
       },
-      "playgama_url": "https://playgama.ai/play/rswbvm34ovfkfo",
+      "playgama_url": "https://playgama.ai/play/d7nbp5h2yci4vs",
       "published_date": "2026-11-16",
       "slug": "scribble-striker",
-      "status": "Sandbox — Live (0 de 30 días); campo como antes + menú = la foto; 3 objetivos pendientes",
+      "status": "Sandbox — Live (0 de 30 días)",
       "title": "Scribble Striker",
-      "title_es": "El Marchante de Relojes",
-      "link": "https://playgama.ai/play/d7nbp5h2yci4vs"
+      "title_es": "Scribble Striker"
     }
   ],
   "rejected": [
@@ -367,7 +370,7 @@
       "title": "Glow Grab!"
     }
   ],
-  "updated_at": "2026-11-16T22:41:56+01:00",
+  "updated_at": "2026-11-16T22:42:10+01:00",
   "updated_by": "niky",
   "resumen": "Actualización 22:41 (Anita) — Cyber Runner: verificación TERMINADA, VEREDICTO NO APTO (ronda 1 solo fuente+docs en el repo privado; 9 arreglos para ronda 2); ALERTA: la rama anita/cyber-runner-b ha REAPARECIDO en el repo público @ 243f36b8 (commit 22:24 «5 fixes»), hay que borrarla de nuevo. Grid Defender: rebuild en marcha (bundle 0 bytes 22:38), adaptador online ya escrito y verificado contra wss://online.recurretumulta.online. Slice & Serve: código escribiéndose en local ahora mismo (22:33-22:34), sin dist ni rama aún.",
   "stats": {
