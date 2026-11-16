@@ -359,9 +359,9 @@
             "title": "Glow Grab!"
         }
     ],
-    "updated_at": "2026-11-16T20:51:28+01:00",
+    "updated_at": "2026-11-16T20:52:57+01:00",
     "updated_by": "dani",
-    "resumen": "Actualización 20:50 — Fútbol Street: ¡LISTO PARA PROBAR! Rediseño Street clon exacto de la Variante B terminado y verificado (commit 6dea073); pendiente de que Daniel lo pruebe y dé el OK para subirlo a Playgama. Relojes v2: paso rehaciendo el rediseño para clon exacto de la opción A «Tycoon Pop» (181 relojes), queda ~1–2 h. Online del fútbol: ¡SERVIDOR EN VIVO! https://online.recurretumulta.online/health responde ok; el cliente ya apunta a él (commit c641eb9) pero ONLINE_ENABLED sigue en false hasta que Daniel pruebe la Street. Grid Defender: código online-ready, pendiente de que Niky pase la URL del servidor. Cyber Runner: 3 variantes completadas, pendientes de elección de Daniel.",
+    "resumen": "Actualización 20:52 — Fútbol Street: ¡LISTO PARA PROBAR! Rediseño Street clon exacto de la Variante B terminado y verificado (commit 6dea073); pendiente de que Daniel lo pruebe y dé el OK para subirlo a Playgama. Relojes v2: paso rehaciendo el rediseño para clon exacto de la opción A «Tycoon Pop» (181 relojes), queda ~1–2 h. Online del fútbol: ¡SERVIDOR EN VIVO! https://online.recurretumulta.online/health responde ok; el cliente ya apunta a él (commit c641eb9) pero ONLINE_ENABLED sigue en false hasta que Daniel pruebe la Street. Grid Defender: código online-ready, pendiente de que Niky pase la URL del servidor. Cyber Runner: variante B elegida por Daniel 20:16, clon exacto en construcción en local (sin rama aún).",
     "stats": {
         "updated_at": "2026-11-16T11:00:00+01:00",
         "source": "Panel Playgama, métricas 11:00 del 16/11/2026 (verificado por Dani)",
