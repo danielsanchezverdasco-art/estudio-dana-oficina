@@ -19,6 +19,11 @@ import { BEAMS } from '../scanners';
 const DESIGN_W = 390;
 const DESIGN_H = 844;
 
+declare global {
+  // eslint-disable-next-line no-var
+  var __TEST_BUILD__: boolean | undefined;
+}
+
 interface PersonView {
   spot: PersonSpot;
   img: Phaser.GameObjects.Image;
@@ -171,9 +176,12 @@ export class GameScene extends Phaser.Scene {
       this.time.delayedCall(3000, () => this.tutorialText?.destroy());
     }
 
-    // Test hooks (test builds only — the module no-ops in production).
-    const self = this as unknown as Record<string, unknown>;
-    self.__testState = () => ({
+    // Test hooks (test builds only — the whole block is eliminated from the
+    // production bundle by the __TEST_BUILD__ define; no __test* strings
+    // may survive into the shipped zip).
+    if (__TEST_BUILD__) {
+      const self = this as unknown as Record<string, unknown>;
+      self.__testState = () => ({
       level: this.def.level,
       hearts: this.hearts,
       timeLeft: Math.ceil(this.timeLeft),
@@ -201,6 +209,7 @@ export class GameScene extends Phaser.Scene {
     self.__testRobotPos = () => this.robotPos();
     self.__testRevealed = () => this.revealed;
     self.__testHint = () => this.useHint();
+    }
   }
 
   private robotPos(): { x: number; y: number } {
