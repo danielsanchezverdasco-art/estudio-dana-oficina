@@ -55,6 +55,29 @@
     }
   ],
   "to_test": [],
+  "upcoming": [
+    {
+      "design": "Versión A (arena) como base; B (caramelos) y C (puerto pirata) como skins comprables",
+      "mockup": "idea-5-variant-a.png",
+      "slug": "sand-jam",
+      "status": "Aceptado por Daniel — en cola, primero tras relojes y fútbol",
+      "title": "Sand Jam!"
+    },
+    {
+      "design": "Variante B (templo de la jungla) como base; A (museo de noche) y C (estación espacial) como capítulos que se desbloquean",
+      "mockup": "idea-4-variant-b.png",
+      "slug": "sneak-out",
+      "status": "Aceptado por Daniel — en cola, tras Sand Jam",
+      "title": "Sneak Out!"
+    },
+    {
+      "design": "Variante B cómic premium (dinosaurios maduros)",
+      "mockup": "idea-2-variant-dino-epic-b.png",
+      "slug": "crowd-clash",
+      "status": "Aceptado por Daniel — diseño elegido, en cola tras Sneak Out",
+      "title": "Crowd Clash!"
+    }
+  ],
   "updated_at": "2026-11-16T17:55:00+01:00",
   "updated_by": "Niky (Dani)"
 }
