@@ -14,6 +14,8 @@
 // and human-like play (0.5 s reaction, 5% fumbles) wins >= 2 stars.
 import type { LevelDef } from './logic';
 
+export type { LevelDef } from './logic';
+
 export const LEVEL_COUNT = 30;
 
 /** Deterministic seed per level (shared by game + harness). */
