@@ -60,6 +60,11 @@ Daniky = Niky.
 - **Verificado hasta ahora:** tsc 0, vitest 22/23 (el test de rendimiento de la IA dura falló una vez por carga de la VM, 433 ms frente a 400 ms; aislado pasa 2/2, no lo toco). Pendiente: builds playgama/youtube/qa, partida online real de punta a punta entre 2 clientes en el navegador (sonda en marcha), capturas 390x844, GIF, zip ≤5 MB, QA APTO, push + PR. ETA ~1-1,5 h hasta la versión jugable.
 - **OJO para la fusión:** mi rama sale de la r2.1 (tablero 8x10); la r2.2 cambió el tablero a 8x16 — al fusionar, el servidor (`BOARD_W/H` en `server/src/index.ts`) y el espejo tienen que pasar a 8x16. Lo dejo anotado en la PR.
 
+## Reglas de oro de diseño · 16/11/2026, 08:18, hora de Madrid (ENTREGADO)
+- **Pedido de Daniel (08:17):** «Apunta esas reglas de oro: mucha calidad, nada de dibujitos de niños pequeños. Quiero que seamos los mejores en diseño y jugabilidad» + «Déjale a Anita escritas las nuevas normas para crear los diseños y todo de los juegos próximos».
+- **Documento:** `comunicacion-ias/REGLAS-ORO-DISENO.md` — las 3 normas como ley del estudio, para TODOS los juegos presentes y próximos, sin excepción: (1) Directiva principal de estilo, 100% «Videojuego Animado», cero fotorealismo, 100% arte vectorial, calidad AAA; (2) adaptado a la jugabilidad, perspectivas bien hechas, nada de chapuzas, assets creados para ese juego y cómo se mueve; (3) mucha calidad, nada de dibujitos de niños pequeños, objetivo ser los mejores en diseño y jugabilidad.
+- **Rama:** `niky/reglas-oro-diseno-1611`, worktree `~/workspace/wt-reglas-oro-diseno`. Push + PR en marcha.
+
 ## 16/11 ~08:23 — Scribble r2.2: PR #6 ABIERTA + assets revisados (todo vector)
 - **PR #6**: https://github.com/danielsanchezverdasco-art/dana-games-juegos/pull/6 — rama `niky/scribble-striker-r2.2-1611`, commit `6d389a8`. Zip jugable 3,52 MB dentro de la rama. Daniel prueba la versión final (puerta de producción).
 - **Verificado para la PR**: tsc -b 0, vitest 18/18, sonda central v2 0 fallos (7 direcciones), campo medido 364x728 CSS (1,62x la r2.1), tutorial con mano + salto, sin diagonales amarillas, precheck 0 FAIL, zip 3,52 MB, 0 `window.__` en el bundle.
