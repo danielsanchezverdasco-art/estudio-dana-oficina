@@ -1,11 +1,16 @@
 {
   "_readme": "Fichero en vivo de la oficina Dana Games. Lo actualizan Dani y Anita (sus agentes) con CADA cambio: publicar, rechazar, empezar, terminar. La oficina lo lee y las listas se refrescan solas, sin reconstruir la página. No inventar nombres ni datos: solo lo verificado. Cuando Daniel diga los nombres de los 3 juegos nuevos de Anita, se ponen en anita.names y names_pending pasa a false.",
   "anita": {
-    "names": [],
-    "names_pending": true,
-    "status": "3 juegos nuevos en marcha; regla Daniel 18:47 (permanente): Anita informa cada 30 min — lo hecho, lo que tiene y lo que NO tiene"
+    "names": [
+      "Grid Defender",
+      "Slice & Serve",
+      "Cyber Runner"
+    ],
+    "names_pending": false,
+    "status": "Construyendo Grid Defender variante B (arcade bold, elegida por Daniel 19:20) + variantes de Cyber Runner en marcha; informa cada 30 min — lo hecho, lo que tiene y lo que NO tiene"
   },
   "factory": [
+    "Anita: construyendo Grid Defender (variante B, arcade bold elegida por Daniel 19:20) + variantes de Cyber Runner en marcha",
     "Scribble Striker (rediseño Street Variante B en marcha + récord de combos y liga por copas (orden Daniel 18:10, agente en marcha, sin commit aún); subida a Playgama en espera del rediseño, por decisión de Daniel 17:53; online: Render descartado por Daniel 18:15 — no quiere meter tarjeta — buscando host gratuito sin tarjeta, también en GitHub, agente lanzado 18:15/18:17; la liga queda en «próximamente» hasta tener servidor) Online BLOQUEADO 19:17: servidor listo y probado en local (commit 2e59aa9), despliegue parado por el token (403 + error 10097); falta que Daniel cree el token «Edit Cloudflare Workers» en el panel.",
     "Luxury Watch Dealer (rediseño total v2 — opción A «Tycoon Pop» en marcha; lista deduplicada TERMINADA: 181 relojes, fusión en marcha) Órdenes Daniel 19:10 pasadas al agente: online + clasificaciones, inventario con duplicados, vender vs coleccionar.",
     "Sand Jam! ELEGIDO por Daniel (versión A arena como base; B caramelos y C puerto pirata como skins comprables) — en cola tras relojes y fútbol; Laser Maze! ELEGIDO por Daniel 18:12 (variante B templo antiguo como base; A laboratorio y C estación espacial como capítulos) — en cola tras Crowd Clash; Car Wash Chaos! ELEGIDO por Daniel 18:18 (variante B baño de mascotas + modo C limpiar casas, dos modos en el mismo juego) — en cola tras Laser Maze; Crowd Clash! variante B elegida, en cola tras Sneak Out; tanda 3 ELEGIDA ENTERA por Daniel 18:21 («quiero todos para la lista, cada variante A, B y C son capítulos»): Diggy Dash!, Garden Dash!, Marble Rush!, Slingshot Smash! y Pet Vet! — en cola tras Car Wash Chaos, en ese orden; tanda 2 restante (Fish Frenzy!, Hoop Flick!, Find It!) y tanda 1 (Draw Rescue!, Grow Dash!) pendientes de elección; tanda 4: 8 de 10 aceptadas por Daniel 19:05 (22 Ghost Hunt y 25 Potion Pop descartadas por Daniel): Rocket Rescue!, Monster Merge!, Coin Castle!, Burger Boss!, Snowball Fight!, Train Rush!, Dance Dash! y Treasure Dive! — cada una con sus 3 variantes como capítulos — en cola tras Pet Vet, en ese orden Tanda 5 en marcha 19:07 (ideas 27–36, temas virales del momento): 28/30 previews listas a las 19:17, faltan las 2 variantes de Pet Hatch! (idea 30)."
@@ -23,6 +28,27 @@
       "slug": "luxury-watch-dealer-redesign-v2",
       "status": "EN MARCHA — rediseño total v2 (Tycoon Pop). Ahora mismo: fusionando los 181 relojes (convirtiendo el arte a WebP), sin commitear aún (agente activo ~2 h). Queda: terminar la fusión y el rediseño, y que lo pruebes. Bloqueado: no. Nuevas órdenes de Daniel 19:10 pasadas al agente: online + clasificaciones (por valor de inventario y por patrimonio), inventario con duplicados, y separar relojes para vender de relojes para coleccionar. | Daniel eligió la OPCIÓN A «Tycoon Pop» (17:19) — rediseño total v2 en marcha en rama niky/relojes-redesign-a-1611 (estilo A en todas las pantallas + zona de cajas + zona de reparación); lista deduplicada TERMINADA 17:51 (verificada): 151 relojes únicos nuevos + 30 actuales = 181 en total (Rolex 34, AP 24, Patek 20, RM 23, Cartier 38, Jacob 16, Vacheron 26 — marca nueva), valor ≈$41.633.935, estados full_set 72 / naked 63 / papers_only 46; 55 duplicados descartados, 19 sin identificar; fusión de los 181 en el rediseño v2 EN MARCHA (agente activo ~1 h 27 min, convirtiendo el arte a WebP y sustituyendo el arte tycoon viejo, sin commit aún a las 18:47); reglas de monetización 18:25/18:32 y 20 skins mínimo por sección 18:39 pasadas al agente, pendientes de su entrega; Daniel cerró la recogida de fotos en 130 archivos",
       "title": "Luxury Watch Dealer — rediseño total v2"
+    },
+    {
+      "commit": null,
+      "covers": "assets generados (pack 32/32), covers pendientes",
+      "slug": "grid-defender",
+      "status": "EN MARCHA — mockup aprobado 16/11 16:01; assets 32/32; Daniel eligió la variante B (arcade bold) 16/11 19:20; construcción empezada 19:20 en rama anita/grid-defender-b, con clasificaciones + modo online-ready + anuncios con recompensa para monedas",
+      "title": "Grid Defender"
+    },
+    {
+      "commit": null,
+      "covers": "assets generados (pack 23/23), covers pendientes",
+      "slug": "slice-and-serve",
+      "status": "EN MARCHA — mockup aprobado 16/11 16:01 (v3, chef Pixar); assets 23/23 completados; variantes de diseño pendientes",
+      "title": "Slice & Serve"
+    },
+    {
+      "commit": null,
+      "covers": "assets generados (pack 16/16), covers pendientes",
+      "slug": "cyber-runner",
+      "status": "EN MARCHA — mockup aprobado 16/11 16:01; assets 16/16 completados y presentados a Daniel 16/11 ~18:00, a la espera de su aprobación; 3 variantes de diseño en marcha desde las 19:23",
+      "title": "Cyber Runner"
     }
   ],
   "published": [
@@ -52,6 +78,11 @@
       "reason": "Línea de rework visual cerrada el 16/11 — el juego se queda en su v1",
       "slug": "sky-stack",
       "title": "Sky Stack"
+    },
+    {
+      "reason": "Mockup aprobado 16/11 14:51 y assets 37/37 completados, pero CANCELADO por Daniel 16/11 16:01 — no se construye, no se presenta más",
+      "slug": "shadow-match",
+      "title": "Shadow Match"
     }
   ],
   "to_test": [],
@@ -181,72 +212,9 @@
       "slug": "treasure-dive",
       "status": "Aceptado por Daniel 19:05 — en cola, tras Dance Dash",
       "title": "Treasure Dive!"
-    },
-    {
-      "design": "A (calle italiana), B (selva) y C (espacio) son capítulos del juego. Multijugador en vivo (batallas) + clasificación. Mínimo 20 skins por sección.",
-      "mockup": "idea-27-variant-a.png",
-      "slug": "brainrot-battle",
-      "status": "Aceptado por Daniel 19:36 — en cola, tras Treasure Dive",
-      "title": "Brainrot Battle!"
-    },
-    {
-      "design": "A (ciudad neón), B (desierto) y C (nieve) son capítulos. Multijugador en vivo (carreras) + clasificación diaria. Mínimo 20 skins por sección.",
-      "mockup": "idea-28-variant-a.png",
-      "slug": "blocky-race",
-      "status": "Aceptado por Daniel 19:36 — en cola, tras Brainrot Battle",
-      "title": "Blocky Race!"
-    },
-    {
-      "design": "A (huevos dino), B (dragón) y C (alien) son capítulos. Clasificación + batallas de mascotas. Mínimo 20 skins por sección.",
-      "mockup": "idea-30-variant-a.png",
-      "slug": "pet-hatch",
-      "status": "Aceptado por Daniel 19:36 — en cola, tras Blocky Race",
-      "title": "Pet Hatch!"
-    },
-    {
-      "design": "A (mazmorra), B (estación espacial) y C (dulces) son capítulos. Multijugador (carrera por resolver antes) + clasificación. Mínimo 20 skins por sección.",
-      "mockup": "idea-31-variant-a.png",
-      "slug": "arrow-maze",
-      "status": "Aceptado por Daniel 19:36 — en cola, tras Pet Hatch",
-      "title": "Arrow Maze!"
-    },
-    {
-      "design": "A (ciudad superhéroes), B (dulces) y C (fábrica de robots) son capítulos. Multijugador en vivo (carreras) + clasificación. Mínimo 20 skins por sección.",
-      "mockup": "idea-32-variant-a.png",
-      "slug": "gate-dash",
-      "status": "Aceptado por Daniel 19:36 — en cola, tras Arrow Maze",
-      "title": "Gate Dash!"
-    },
-    {
-      "design": "A (gimnasio), B (correr en nieve) y C (baño de hielo) son capítulos. Retos contra amigos + clasificación. Mínimo 20 skins por sección.",
-      "mockup": "idea-33-variant-a.png",
-      "slug": "winter-arc",
-      "status": "Aceptado por Daniel 19:36 — en cola, tras Gate Dash",
-      "title": "Winter Arc!"
-    },
-    {
-      "design": "A (pop star), B (real) y C (ciber) son capítulos. Multijugador (duelo de peinados) + clasificación. Mínimo 20 skins por sección.",
-      "mockup": "idea-34-variant-a.png",
-      "slug": "salon-star",
-      "status": "Aceptado por Daniel 19:36 — en cola, tras Winter Arc",
-      "title": "Salon Star!"
-    },
-    {
-      "design": "A (torre de dulces), B (lava) y C (nubes) son capítulos. Multijugador en vivo (carrera de obstáculos) + clasificación. Mínimo 20 skins por sección.",
-      "mockup": "idea-35-variant-a.png",
-      "slug": "obby-dash",
-      "status": "Aceptado por Daniel 19:36 — en cola, tras Salon Star",
-      "title": "Obby Dash!"
-    },
-    {
-      "design": "A (mudanza), B (estación espacial) y C (barco pirata) son capítulos. Multijugador cooperativo en vivo + clasificación. Mínimo 20 skins por sección.",
-      "mockup": "idea-36-variant-a.png",
-      "slug": "wobbly-crew",
-      "status": "Aceptado por Daniel 19:36 — en cola, tras Obby Dash",
-      "title": "Wobbly Crew!"
     }
   ],
-  "updated_at": "2026-11-16T19:37:30+01:00",
-  "updated_by": "Dani (cron 30 min)",
-  "resumen": "Actualización 19:37 — Tanda 5: Daniel acepta 9 de 10 (fuera Santa Sprint). Los 9 entran en cola con sus 3 capítulos, 20 skins mínimo, clasificación donde se pueda y multijugador donde encaje. Fútbol Street y relojes v2 siguen en marcha, sin commit aún. Online: token guardado y servidor desplegado en Cloudflare (v1 al 100 %); falta activar la URL pública (panel de Cloudflare, en marcha)."
+  "updated_at": "2026-11-16T19:32:00+01:00",
+  "updated_by": "anita",
+  "resumen": "Actualización 19:32 — Anita: nombres de los 3 juegos (Grid Defender, Slice & Serve, Cyber Runner); Grid Defender en construcción (variante B elegida por Daniel 19:20); variantes de Cyber Runner en marcha. Fútbol Street y relojes v2 siguen en marcha sin commit aún (~2 h). Online: servidor desplegado en Cloudflare (v1 al 100 %); falta activar la URL pública."
 }
