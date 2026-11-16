@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-15T02:56:00+01:00",
-  "analisis": "Punto de partida (15/11/2026, YouTube Studio): 2.734 suscriptores heredados de Customs GT, 216 visualizaciones y 0,6 h vistas en 28 días. Aún sin Shorts de Dana Games.",
+  "actualizado": "2026-11-16T11:33:00+01:00",
+  "analisis": "Punto de partida (15/11/2026, YouTube Studio): 2.734 suscriptores heredados de Customs GT, 216 visualizaciones y 0,6 h vistas en 28 días. Aún sin Shorts de Dana Games. 16/11/2026 11:00: YouTube Studio NO accesible — la cuenta danielsanchezverdasco@gmail.com solo muestra los canales CaughtOnCameraTV y 'el rey del flow', no el canal Dana Games; cifras de Studio sin actualizar hoy (se mantienen las del 15/11). La página pública @danagamesoficial muestra el nombre 'Garden cars' con 2,73 mil suscriptores (dato público, no de Studio, pendiente de aclarar). Playgama 16/11: 0 juegos en catálogo; Metro Nightmare en Sandbox con 0 partidas; Moving Mayhem en Sandbox con 2 partidas, 5:11 de media y 1,00 anuncios por partida (2 de 3 objetivos de Sandbox cumplidos). Ingresos Playgama: 0,00 $.",
   "canal": {
     "nombre": "Canal Dana Games (antes Customs GT)",
     "suscriptores": 2734,
@@ -29,9 +29,10 @@
     "reels": null
   },
   "playgama": {
-    "partidas": null,
+    "partidas": 2,
     "jugadores": null,
-    "ingresos": null
+    "ingresos": 0,
+    "nota": "Partidas totales del panel developer 16/11 (Metro 0 + Moving Mayhem 2). Jugadores distintos: el panel no los muestra. Ingresos: 0,00 $."
   },
   "canales": [
     {
