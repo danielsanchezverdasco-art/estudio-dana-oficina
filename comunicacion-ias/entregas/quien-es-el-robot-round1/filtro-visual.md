@@ -16,7 +16,8 @@ presenta como verificado en pantalla.
 | Hit areas en coordenadas locales | SÍ — `Rectangle(0,0,w,h)` en botones; rectángulo de persona (-32,-70,64,140) en local |
 | Nada pixelado | SÍ por construcción — todo el arte es vectorial generado a resolución real (`crowd.ts`); las 2 únicas imágenes (badge, mano) se sirven sin reescalar |
 | Menú ilustrado e interactivo | SÍ — andén con multitud que murmura, robot asomando la antena, escáner barriendo de fondo, tocar a un viajero lo hace girarse |
-| Badge oficial | En la esquina del menú (48 px, sin tapar juego); en covers de Playgama va en la esquina superior (ver covers) |
+| Covers | **HECHO Y VERIFICADO A LA VISTA** — 4 covers (800×800 + 1080×1920 con badge oficial en esquina superior; 1080×1920 + 1920×1080 `-youtube` sin badge); ratios exactos, 2x píxeles; falta solo la square `-youtube` (edición trivial) |
+| Badge oficial | En la esquina del menú (48 px, sin tapar juego); **en las covers de Playgama, esquina superior** (verificado a la vista en las 2 covers con badge) |
 | Mano tutorial oficial | `hand.png` en L1, señalando «Drag to scan» |
 | Sin leftovers de test | SÍ — `window.__game` solo existe en el build de test (`__TEST_BUILD__`); el build de producción lo elimina por tree-shaking |
 
