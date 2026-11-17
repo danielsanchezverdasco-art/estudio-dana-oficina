@@ -136,7 +136,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Pet Vet: rebuild en marcha — el constructor mete ahora mismo los assets nuevos (Milo, Luna) y trabaja la lógica de resultados. Burger Boss: LIMPIO, listo para que Daniel lo pruebe (enlace ya entregado). Monster Merge, Dance Dash, Island Tribe y Sand Jam: en arreglo, con trabajo en curso sin commitear en la última media hora. Fútbol, Rocket Rescue, Garden Dash y Snowball: defectos pendientes del coordinador (ahora con Monster Merge). Sin commits nuevos en remoto desde las 22:47 (verificado 23:17).",
+  "resumen": "Dance Dash: 12 defectos arreglados, zip verificado, subida + playtest en vivo en marcha. Pet Vet: rebuild en marcha con los assets aprobados. Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Monster Merge: 13 defectos (3 graves), en arreglo. Rocket Rescue: 1 defecto en vertical + victoria sin verificar, en arreglo. Island Tribe: en arreglo.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -222,7 +222,7 @@
       "design": "A (Discoteca), B (K-pop) y C (Rave robot) son capítulos del juego",
       "mockup": "idea-24-variant-a.png",
       "slug": "dance-dash",
-      "status": "EN MARCHA — mi playtest en vivo (33 min, vertical): menú y selección limpios, silencio total, PERO 12 DEFECTOS — CRÍTICO: ninguna canción se puede jugar (al elegirla sale un anuncio y al cerrarlo va directo a FIN DEL JUEGO con 0 puntos, 6 intentos; en local sí funcionaba: el reloj de la canción probablemente corre durante el anuncio). Además: píldoras de clasificación solapadas, resaltado de pestañas de tienda que no se mueve, flecha atrás que deja de funcionar tras desplazar, icono de moneda roto, diario sin pantalla propia, ajustes que abren «PAUSA». De vuelta al constructor a arreglar. NO se enseña. Verificado 21:57: agente de arreglo en marcha ~56 min (activo, 18 ficheros cambiados sin commitear en wt-dance-dash), sin commit nuevo aún. Verificado 22:22: agente de arreglo en marcha ~85 min (activo), 23 ficheros cambiados sin commitear en wt-dance-dash, sin commit nuevo aún. Verificado 22:47: agente de arreglo en marcha y editando ahora mismo (Game.ts + scripts de prueba tocados en la última hora); sin commit nuevo aún (último 1f93723, 19:11). Queda ~arreglar los 12 defectos (crítico: ninguna canción se puede jugar) + verificar + subir a Sandbox. Verificado 23:17: agente de arreglo en marcha ~2 h 25 min (activo hace ~2 min), editando SongSelect.ts, Shop.ts, Leaderboard.ts, Daily.ts y ui.ts en la última media hora; 27 ficheros sin commitear; sin commit nuevo aún (ls-remote OK).",
+      "status": "EN MARCHA — ARREGLADO: los 12 defectos corregidos (commit 14cc998, zip 554.734 B verificado por Dani: game_ready + noAudio, silencio total). Subiendo el build nuevo a la app existente en Sandbox + playtest en vivo a 390 px en marcha. Si sale limpio, enlace para Daniel; si no, vuelta al constructor. El rediseño Tycoon/Roblox viene después (cola tras Pet Vet).",
       "title": "Dance Dash!",
       "paso": "v1.0 EN VIVO en Sandbox desde 20:19 (build 553 KB); mi playtest en vivo TERMINADO 20:52 (33 min, 12 defectos, NO limpio) — CRÍTICO: ninguna canción se puede jugar (anuncio → FIN DEL JUEGO con 0 pts); agente de arreglo lanzado (1b2fb820). Verificado 20:55. Verificado 21:57: agente de arreglo en marcha ~56 min, activo (última actividad hace ~10 s), 18 ficheros cambiados sin commitear en wt-dance-dash, sin commit nuevo aún. Verificado 22:22: agente de arreglo en marcha ~85 min (activo), 23 ficheros cambiados sin commitear en wt-dance-dash, sin commit nuevo aún.",
       "queda": "~arreglo de 12 defectos (crítico primero) + re-verificación + prueba de Daniel"
@@ -771,6 +771,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 23:17",
+  "updated_at": "2026-11-17 23:43",
   "updated_by": "Dani (cron 30 min)"
 }
