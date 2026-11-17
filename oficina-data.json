@@ -110,7 +110,7 @@
    "title_es": "El Marchante de Relojes"
   }
  ],
- "resumen": "Actualización 13:20 — Slice EN VIVO en Sandbox (https://playgama.ai/play/frbjpxf7yerlup), Daniel lo está probando. Cofre: SUBIENDO a Sandbox ahora (agente en marcha desde 13:17, fix game_ready 7227c4d, zip 2.028.985 B verificado). Fútbol: carga intermitente en blanco en primera carga — recargar lo resuelve (verificado 13:05–13:09; 10 partidas, ~7 min de media). Marble: se deja así (jugabilidad fatal). Esculpe: siguiente tras Cofre.",
+ "resumen": "Actualización 13:20 — STOP: Daniel probó Slice y dice que está mal hecho; paramos todo y pensamos. Cofre: subida cortada, queda en Draft. Fútbol: enlace con carga intermitente en blanco — recargar lo resuelve. Marble: se deja así.",
  "stats": {
   "general": {
    "anuncios_vistos_totales": 0,
@@ -171,14 +171,14 @@
   {
    "slug": "doubloon-rush",
    "title": "Cofre del Doblón (Doubloon Rush)",
-   "status": "SUBIENDO a Sandbox AHORA — Ronda 1 ENTREGADA (01759ca, PR #92 en el repo público; ZIP doubloon-rush-round1-fixed.zip 2.028.985 B). La subida de las 13:12 FALLÓ (Playgama: la build no enviaba game_ready); fix aplicado (rama niky/cofre-game-ready-fix, 7227c4d) y agente subiendo la build nueva desde las 13:17. El enlace de prueba llega cuando esté subido.",
+   "status": "PARADO por orden de Daniel 13:20 — la subida del fix game_ready (7227c4d) se cortó a mitad; el juego sigue en Draft con la build r1 sin publicar. NO subir nada hasta que Daniel diga. (Si la publicación llegó a completarse antes del corte, se confirmará.)",
    "commit": "7227c4d",
    "covers": "covers 800x800 / 1080x1920 / 1920x1080 (+ versiones YouTube) + GIF del Short"
   },
   {
    "slug": "slice-and-serve",
    "title": "Slice & Serve (Master Chef Speed)",
-   "status": "EN VIVO en Sandbox 13:17 — https://playgama.ai/play/frbjpxf7yerlup — Ronda 1 de Anita (498528f) + fix game_ready de Dani (rama niky/slice-game-ready-fix, commit 0254532): Playgama bloqueaba la subida porque el juego llamaba a bridge.game.gameReady(), que no existe; ahora envía platform.sendMessage('game_ready'). Menú verificado en vivo (SLICE & SERVE — Master Chef Speed, SHOP / LEVELS / PLAY). Daniel lo está probando.",
+   "status": "Probado por Daniel 13:20: MAL HECHO («Otro juego mal echo»). Enlace: https://playgama.ai/play/frbjpxf7yerlup — Ronda 1 de Anita (498528f) + fix game_ready de Dani (0254532). Daniel ordenó PARAR todo y pensar.",
    "commit": "0254532",
    "covers": "covers 800x800 / 1080x1920 / 1920x1080 (+ versiones YouTube) + GIF 9,58 s que acaba en victoria"
   }
