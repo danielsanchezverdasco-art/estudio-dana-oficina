@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16T09:58:18+01:00",
+  "updatedAt": "2026-11-17T11:00:00+01:00",
   "kpis": {
     "facturacionTotal": null,
     "facturacionMes": null,
-    "partidas": null,
+    "partidas": 11,
     "ingresosPorMilPartidas": null,
-    "publicados": 1,
+    "publicados": 0,
     "publicadosMeta": 200,
     "shortsPublicados": 0,
     "vistas": null,
@@ -17,7 +17,7 @@
     {
       "id": "metro-nightmare",
       "titulo": "Metro Nightmare",
-      "estado": "publicado",
+      "estado": "desarrollo",
       "portada": "cover.metro",
       "facturacion": null,
       "partidas": null,
@@ -30,6 +30,24 @@
       "portada": "cover.mudanza",
       "facturacion": null,
       "partidas": null,
+      "vistas": null
+    },
+    {
+      "id": "luxury-watch-dealer",
+      "titulo": "Luxury Watch Dealer (Relojes de lujo)",
+      "estado": "desarrollo",
+      "portada": "cover.luxury-watch-dealer",
+      "facturacion": 0,
+      "partidas": 3,
+      "vistas": null
+    },
+    {
+      "id": "scribble-striker",
+      "titulo": "Scribble Striker (Fútbol de papel)",
+      "estado": "desarrollo",
+      "portada": "cover.scribble-striker",
+      "facturacion": 0,
+      "partidas": 8,
       "vistas": null
     },
     {
@@ -832,13 +850,13 @@
   "actividad": [
     {
       "equipo": "Metro Nightmare",
-      "tarea": "Publicado en el Sandbox de Playgama (https://playgama.ai/play/vw3o2dpywoejvy). La ronda 11 está en revisión de Arte para sustituir esa versión.",
+      "tarea": "Ya no aparece en el panel developer de Playgama el 17/11 (la lista muestra solo 2 juegos en total). El 16/11 estaba en Sandbox Draft, 0 of 30 días, con 8 lanzamientos y 0 partidas. La ronda 11 está en revisión de Arte para sustituir esa versión.",
       "estado": "en curso",
       "desde": null
     },
     {
       "equipo": "Mudanza Extrema",
-      "tarea": "Subido como borrador en Playgama (ficha en inglés, zip y 3 portadas). En la prueba de calidad de Playgama antes de moderación.",
+      "tarea": "Ya no aparece en el panel developer de Playgama el 17/11 (la lista muestra solo 2 juegos en total). El 16/11 estaba en Sandbox Live, 1 of 30 días, con 5 lanzamientos, 2 partidas, 5:11 de media y 1,00 anuncios por partida (2 de 3 objetivos de Sandbox cumplidos).",
       "estado": "esperando",
       "desde": null
     },
@@ -868,7 +886,13 @@
     },
     {
       "equipo": "Fútbol de papel",
-      "tarea": "En desarrollo, ronda 1.",
+      "tarea": "En Sandbox de Playgama (Draft, Sandbox Live, 0 of 30 días). 17/11: 15 lanzamientos, 8 partidas, 0/100 partidas cualificadas; media en tiempo real 6m 4s; sin anuncios aún (objetivo 0,30); 0 de 3 objetivos de Sandbox cumplidos. Ingresos 0,00 $. Panel: https://developer.playgama.com/applications/game/cmwjolg5v00s0jy0izncjeyol",
+      "estado": "en curso",
+      "desde": null
+    },
+    {
+      "equipo": "Relojes de lujo",
+      "tarea": "En Sandbox de Playgama (Draft, Sandbox Live, 0 of 30 días). 17/11: 9 lanzamientos, 3 partidas, 2/100 partidas cualificadas; 0:58 de media en Sandbox (objetivo 6:00) y 4m 6s en tiempo real; 2,00 anuncios por partida (objetivo 0,30 cumplido); 1 de 3 objetivos de Sandbox cumplidos. Ingresos 0,00 $. Panel: https://developer.playgama.com/applications/game/cmwjctzf502v2n00hyo8nysnj",
       "estado": "en curso",
       "desde": null
     },
