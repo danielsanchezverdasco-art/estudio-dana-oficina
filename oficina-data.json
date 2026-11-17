@@ -131,13 +131,6 @@
       "slug": "train-rush",
       "status": "BLOQUEADO — Nada construido: 4.º juego bloqueado por cuota de disco (EDQUOT desde ~13:37; subvolumen btrfs de /home/hatch agotado). Constructor parado por orden expresa. | Paso: parado antes de construir nada | Queda: ~liberar cuota de disco + construir prototipo + prueba de Daniel + juego completo; sin estimación (depende de la cuota). Verificado 15:23: sin rama en remoto (ls-remote: solo burger-boss 191edc4, esculpe cb063ce); cuota de disco liberada ~15:16, los constructores parados pueden retomar. Verificado 15:50: sin commits en remoto (ramas sin crear); cuota liberada ~15:16, pendientes de retomar. Verificado 16:17: coordinador de relanzamiento LANZADO ~16:16; disco 81G usados / 69G libres (55%); sin commits nuevos aún (acaba de arrancar).",
       "title": "Train Rush!"
-    },
-    {
-      "paso": "Zip de Playgama VERIFICADO (6adf595, 545.038 B; sendMessage 2×, game_ready 1×, sin configFilePath); SUBIENDO a Sandbox desde ~16:15 (tarea de navegador en marcha)",
-      "queda": "Enlace de Sandbox + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación del constructor",
-      "slug": "dance-dash",
-      "status": "EN MARCHA — Prototipo ENTREGADO y PUSHEADO 15:30 (15d8d8d, rama niky/dance-dash-1711 en remoto): prototipo del verbo. Daniel juega el prototipo antes del juego completo. | Paso: prototipo en remoto; falta el zip de Playgama | Queda: ~zip de Playgama + prueba de Daniel + juego completo; sin estimación del constructor. Verificado 15:50. Verificado 16:17: zip verificado; SUBIENDO a Sandbox (tarea de navegador en marcha desde ~16:15).",
-      "title": "Dance Dash!"
     }
   ],
   "published": [
@@ -202,7 +195,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Actualización 16:17 — Fútbol: MENÚS NUEVOS ENTREGADOS 16:14 (3b7edae, 312 ficheros, en remoto). 4 prototipos SUBIENDO a Sandbox (Garden, Dance, Monster, Sneak Out). Sand Jam, Burger Boss y Rocket Rescue con el juego completo en marcha. Relanzamiento de los 8 bloqueados por cuota + Diggy Dash arrancado 16:16. Limpieza disco lote 3 TERMINADA (92/92, 31,81 GB; disco 69 GB libres).",
+  "resumen": "Actualización 16:22 — Dance Dash PROTOTIPO EN SANDBOX: https://playgama.ai/play/morggaiqrsm5xh — listo para probar. Garden, Monster y Sneak Out subiendo. Rocket Rescue en Sandbox, Sand Jam y Burger Boss con el diseño final en marcha. Limpieza disco lote 3 TERMINADA (92 borradas, 69 GB libres) y los 8 juegos bloqueados por cuota relanzados. Fútbol: menús nuevos entregados, enlace de prueba aparte pendiente.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -282,6 +275,13 @@
       "slug": "rocket-rescue",
       "status": "PROTOTIPO EN SANDBOX — https://playgama.ai/play/eq3htmnbq4gxz2 — Pruébalo: aterriza el cohete en las plataformas, rescata astronautas, 60 s por ronda. Matiz: el menú sale en español («¡RESCATE COHETE!», «JUGAR») pero el HUD en inglés. Pendiente tu feedback. Verificado 16:17: juego completo recién arrancado (constructor activo, sin commits nuevos aún).",
       "title": "Rocket Rescue!"
+    },
+    {
+      "design": "A (Discoteca), B (K-pop) y C (Rave robot) son capítulos del juego",
+      "mockup": "idea-24-variant-a.png",
+      "slug": "dance-dash",
+      "status": "PROTOTIPO EN SANDBOX — https://playgama.ai/play/morggaiqrsm5xh — Pruébalo: ritmo con flechas, canción NEON NIGHTS · 112 BPM, combos y puntos. Pendiente tu feedback.",
+      "title": "Dance Dash!"
     }
   ],
   "upcoming": [
@@ -382,13 +382,6 @@
       "slug": "train-rush",
       "status": "Aceptado por Daniel 19:05 — en cola, tras Snowball Fight",
       "title": "Train Rush!"
-    },
-    {
-      "design": "A (Discoteca), B (K-pop) y C (Rave robot) son capítulos del juego",
-      "mockup": "idea-24-variant-a.png",
-      "slug": "dance-dash",
-      "status": "Aceptado por Daniel 19:05 — en cola, tras Train Rush",
-      "title": "Dance Dash!"
     },
     {
       "design": "A (Arrecife), B (Barco pirata) y C (Cueva de hielo) son capítulos del juego",
@@ -771,6 +764,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 16:08",
+  "updated_at": "2026-11-17 16:22",
   "updated_by": "Dani (cron 30 min)"
 }
