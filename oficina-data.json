@@ -25,7 +25,7 @@
       "design": "Variante A «Island Tribe!» como base (campamento tropical al atardecer, los 10 alrededor de la hoguera); B «Castaway Council!» (consejo nocturno) y C «Tribe Survival!» (vista cenital de la isla) como capítulos",
       "mockup": "survival-variant-a.png",
       "slug": "island-tribe",
-      "status": "EN MARCHA — mi playtest en vivo: día 1 COMPLETO (récord 189 pts, silencio total, el verbo funciona), pero 14 DEFECTOS (JUGAR no responde tras terminar el día sin recargar, selección de miembros imprecisa, registro de historia que recorta texto, píldora de refugio cortada, diseño estirado en ventana ancha, mezcla de idiomas). De vuelta al constructor a arreglar. NO se enseña. Verificado 20:47: agente de arreglo en marcha ~10 min, sin entrega aún. Verificado 21:57: agente de arreglo en marcha ~69 min (activo, 34 ficheros cambiados sin commitear en wt-island-tribe), sin commit nuevo aún. Verificado 22:22: agente de arreglo en marcha ~98 min (activo), 34 ficheros cambiados sin commitear en wt-island-tribe, sin commit nuevo aún. Verificado 22:47: agente en marcha y editando ahora mismo (Menu.ts, Game.ts + scripts de playtest tocados en la última hora); sin commit nuevo aún (último f1c0910, 18:49). Queda ~arreglar los 14 defectos + verificar + subir a Sandbox. Verificado 23:17: agente de arreglo en marcha ~2 h 40 min (activo hace ~1 min); verificación visual en marcha (capturas fix-01 a fix-04 generadas en la última media hora); 34 ficheros sin commitear; sin commit nuevo aún (ls-remote OK).",
+      "status": "EN MARCHA — ARREGLADO: los 14 defectos corregidos (commit c50c9f0, zip 553.916 B verificado por Dani: game_ready + noAudio, silencio total). Subiendo el build nuevo a la app existente en Sandbox + playtest en vivo a 390 px en marcha (día 1 completo, 2.ª partida sin recargar y RESTART → 3.ª). Si sale limpio, enlace para Daniel; si no, vuelta al constructor.",
       "title": "Island Tribe!",
       "paso": "Prototipo ENTREGADO (f1c0910) y EN VIVO en Sandbox; arreglo de los 14 defectos del playtest en marcha (agente 5851f5a9, ~69 min, última actividad hace ~2 min), 34 ficheros cambiados sin commitear en wt-island-tribe, sin commit nuevo aún. Verificado 21:57. Verificado 22:22: agente de arreglo en marcha ~98 min (activo), 34 ficheros cambiados sin commitear en wt-island-tribe, sin commit nuevo aún.",
       "queda": "~mi playtest en vivo + prueba de Daniel + juego completo"
@@ -136,7 +136,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Dance Dash: 12 defectos arreglados, zip verificado, subida + playtest en vivo en marcha. Pet Vet: rebuild en marcha con los assets aprobados. Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Monster Merge: 13 defectos (3 graves), en arreglo. Rocket Rescue: 1 defecto en vertical + victoria sin verificar, en arreglo. Island Tribe: en arreglo.",
+  "resumen": "Island Tribe: 14 defectos arreglados, zip verificado, subida + playtest en vivo en marcha. Dance Dash: 12 defectos arreglados, subida + playtest en marcha. Pet Vet: rebuild en marcha con los assets aprobados. Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Monster Merge: 13 defectos (3 graves), en arreglo. Rocket Rescue: 1 defecto en vertical + victoria sin verificar, en arreglo.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -771,6 +771,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 23:43",
+  "updated_at": "2026-11-17 23:54",
   "updated_by": "Dani (cron 30 min)"
 }
