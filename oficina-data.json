@@ -117,9 +117,14 @@
    "status": "ELIMINADO de Playgama por orden de Daniel 11:19 («no lo quiero como juego», peor que antes); BORRADO COMPLETADO y verificado 11:47: ya no aparece en «My Games» (solo queda Scribble Striker) y https://playgama.ai/play/rswbvm34ovfkfo muestra «No such game».",
    "title": "Luxury Watch Dealer",
    "title_es": "El Marchante de Relojes"
+  },
+  {
+   "slug": "esculpe-la-figura",
+   "title": "Esculpe la Figura (Sculpt & Reveal)",
+   "reason": "Rechazado por Daniel 13:58 (Rechazado no se publica) - playtest de Dani 13:58: no es divertido asi (DIARIO roto, pestanas de tienda sin responder, piedra y figura indistinguibles, revelacion solo un cambio de color). Sin arreglos ni envio a revision; se queda en Sandbox."
   }
  ],
- "resumen": "Actualización 13:47 — Sand Jam: prototipo del verbo EN MARCHA (constructor único, método nuevo; sin commit aún). Esculpe: publicado en Sandbox 13:36, Niky lo está jugando entero antes que Daniel. Cofre: EN VIVO en Sandbox + impulso +50 ACTIVO (termina 18 nov); revisión bloqueada hasta 100 partidas. Fútbol: su impulso gratis YA estaba activo, no se reclamó otro; queda 1 gratis para otros juegos. Slice: no se toca. Marble: se deja así.",
+ "resumen": "Actualizacion 13:59 - Esculpe RECHAZADO por Daniel 13:58: no se publica, sin arreglos. Playtest de Dani: no es divertido asi (diario roto, tienda sin responder, piedra/figura indistinguibles). Futbol: revisando los marcadores en vivo a 390px (Daniel: se ven peor que antes). Sand Jam: prototipo del verbo EN MARCHA con el metodo nuevo. Cofre: impulso +50 ACTIVO (termina 18 nov).",
  "stats": {
   "general": {
    "anuncios_vistos_totales": 0,
@@ -169,13 +174,6 @@
    "slug": "marble-rush",
    "status": "LISTO PARA PROBAR — Ronda 1 ENTREGADA (commit 7fa1fe5 en niky/marble-rush-1611, ZIP 2,34 MB verificado en disco, QA GO con reserva de audio sintetizado). PUBLICADO en Sandbox 12:53: https://playgama.ai/play/vrv3vdflwi4f44 — pantalla inicial verificada en vivo («¡MARBLE RUSH!», pista de madera, botón JUGAR). Pendiente: prueba de Daniel.",
    "title": "Marble Rush"
-  },
-  {
-   "commit": "cb063ce",
-   "covers": "covers 800x800 / 1080x1920 / 1920x1080 con sello Dana Games + GIF 8,57 s que acaba en victoria 3 estrellas",
-   "slug": "esculpe-la-figura",
-   "status": "EN VIVO en Sandbox 13:36 — https://playgama.ai/play/n7oqzkli52rhgy — Título verificado en vivo (SCULPT & REVEAL!, JUGAR / GALERÍA / TIENDA / DIARIO; el primer cliente pide UN GATO). Niky lo está jugando entero antes de pasárselo a Daniel (método nuevo, paso 5). Playtest de Dani en marcha (tarea de navegador 13:37), sin resultado aún.",
-   "title": "Esculpe la Figura (Sculpt & Reveal)"
   },
   {
    "commit": "7227c4d",
@@ -453,6 +451,6 @@
    "title": "Glow Grab!"
   }
  ],
- "updated_at": "2026-11-17T13:47:00+01:00",
+ "updated_at": "2026-11-17T13:59:00+01:00",
  "updated_by": "Dani"
 }
