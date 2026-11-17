@@ -108,14 +108,9 @@
    "status": "ELIMINADO de Playgama por orden de Daniel 11:19 («no lo quiero como juego», peor que antes); BORRADO COMPLETADO y verificado 11:47: ya no aparece en «My Games» (solo queda Scribble Striker) y https://playgama.ai/play/rswbvm34ovfkfo muestra «No such game».",
    "title": "Luxury Watch Dealer",
    "title_es": "El Marchante de Relojes"
-  },
-  {
-   "slug": "slice-and-serve",
-   "title": "Slice & Serve (Master Chef Speed)",
-   "status": "RECHAZADO por Daniel 13:04 («No lo subas, está mal hecho», «No quiero ese juego») — ronda 1 de Anita (498528f). No se sube ni se arregla. El fallo del Bridge (game_ready) ya no importa."
   }
  ],
- "resumen": "Actualización 13:05 — Slice & Serve: RECHAZADO por Daniel («no quiero ese juego»), no se sube. Marble Rush: publicado, jugabilidad fatal según Daniel — se deja así, no se arregla. Cofre del Doblón: subiendo a Sandbox ahora. Fútbol: listo para probar (republicado 12:46, c7a66d1). Esculpe: listo para probar, pendiente de subir. Relojes: borrado definitivo.",
+ "resumen": "Actualización 13:15 — Slice: Daniel QUIERE probarlo (revoca el rechazo de las 13:04); fix del game_ready hecho y zip nuevo verificado, se sube a Sandbox ahora. Cofre: subiendo a Sandbox. Fútbol: enlace con carga intermitente en blanco — recargar lo resuelve (menú con RANKING verificado). Marble: se deja así (jugabilidad fatal). Esculpe: listo para probar, pendiente de subir.",
  "stats": {
   "general": {
    "anuncios_vistos_totales": 0,
@@ -179,6 +174,13 @@
    "status": "LISTO PARA PROBAR — Ronda 1 ENTREGADA (commit 01759ca en anita/cofre-del-doblon, PR #92 en el repo público; ZIP doubloon-rush-round1.zip, 6 covers, GIF del Short). Revisada por Daniel mismo — subir a Sandbox sin revisión de Dani. Falta: subir a Sandbox (y mover el juego al repo privado); el enlace de prueba llega cuando esté subido.",
    "commit": "01759ca",
    "covers": "covers 800x800 / 1080x1920 / 1920x1080 (+ versiones YouTube) + GIF del Short"
+  },
+  {
+   "slug": "slice-and-serve",
+   "title": "Slice & Serve (Master Chef Speed)",
+   "status": "LISTO PARA PROBAR — Ronda 1 de Anita (498528f) + fix game_ready de Dani (rama niky/slice-game-ready-fix): Playgama bloqueaba la subida porque el juego llamaba a bridge.game.gameReady(), que no existe; ahora envía platform.sendMessage('game_ready'). Zip nuevo 3,36 MB verificado. Se sube a Sandbox para que Daniel lo pruebe; el enlace llega cuando esté subido.",
+   "commit": "498528f",
+   "covers": "covers 800x800 / 1080x1920 / 1920x1080 (+ versiones YouTube) + GIF 9,58 s que acaba en victoria"
   }
  ],
  "upcoming": [
@@ -442,6 +444,6 @@
    "title": "Glow Grab!"
   }
  ],
- "updated_at": "2026-11-17T13:05:00+01:00",
+ "updated_at": "2026-11-17T13:15:00+01:00",
  "updated_by": "Dani"
 }
