@@ -176,7 +176,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Burger Boss: tarjeta Orange Bandana arreglada y verificada a zoom por mí; build subiendo a Sandbox. Garden Dash v1.0 también subiendo. Dance Dash relanzado tras la caída; Island Tribe! y Dungeon Delve en prototipo tras el reinicio.",
+  "resumen": "Garden Dash v1.0 YA EN VIVO en Sandbox; lo estoy jugando yo ahora para verificarlo antes de pasarte el enlace. Burger Boss arreglado, subiendo. Dance Dash relanzado; Island Tribe! y Dungeon Delve en prototipo.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -271,7 +271,7 @@
       "design": "A (flores), B (huerto) y C (cactus) son capítulos del juego",
       "mockup": "idea-13-variant-a.png",
       "slug": "garden-dash",
-      "status": "LISTO PARA PROBAR — juego COMPLETO v1.0 ENTREGADO 18:16 (commit 9b964e4, zip 553.877 B verificado por mí: sendMessage 2×, game_ready 1×). 3 mundos, tienda 60 skins, reto diario, clasificación. Subiendo el build nuevo a la app Sandbox existente (75x2gbyp5eosbl); queda ~verificarlo yo en vivo pantalla a pantalla y pasarte el enlace. Pregunta abierta: ¿runner o regar? Verificado 18:17: subiendo el build a la app Sandbox existente (tarea cc003599); pendiente mi verificación en vivo antes de pasarte el enlace.",
+      "status": "LISTO PARA PROBAR — juego COMPLETO v1.0 EN VIVO en Sandbox (build nuevo 554 KB, «Live · 0 of 30 days», menú verificado: Garden Dash!, PLAY, SHOP, WORLDS, DAILY, RANKING). Queda ~mi playtest en vivo pantalla a pantalla y pasarte el enlace. Pregunta abierta: ¿runner o regar?",
       "title": "Garden Dash!",
       "paso": "Juego completo v1.0 entregado 18:16; subiendo el build a Sandbox",
       "queda": "~subida a Sandbox + mi verificación en vivo + prueba de Daniel"
@@ -769,6 +769,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 18:25",
+  "updated_at": "2026-11-17 18:27",
   "updated_by": "Dani (cron 30 min)"
 }
