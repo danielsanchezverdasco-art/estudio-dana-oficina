@@ -176,7 +176,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Garden Dash v1.0 ENTREGADO (9b964e4) y subiéndose a Sandbox ahora mismo; lo verifico yo en vivo antes de pasarte el enlace. Dance Dash relanzado 18:13 desde su trabajo guardado. Dungeon Delve e Island Tribe relanzados ~18:08 tras el reinicio del sistema. Fútbol: la app aparte «Menús nuevos» sigue creándose en Sandbox. 7 juegos completos en marcha, todos activos.",
+  "resumen": "Burger Boss: tarjeta Orange Bandana arreglada y verificada a zoom por mí; build subiendo a Sandbox. Garden Dash v1.0 también subiendo. Dance Dash relanzado tras la caída; Island Tribe! y Dungeon Delve en prototipo tras el reinicio.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -247,7 +247,7 @@
       "paso": "v1.0 entregada 16:13; arreglo puntual de la tarjeta Orange Bandana en marcha",
       "queda": "~arreglo de la tarjeta + re-verificación + subir a Sandbox + prueba de Daniel",
       "slug": "burger-boss",
-      "status": "EN MARCHA — JUEGO COMPLETO v1.0 ENTREGADO 16:13 (commit 01b0978 en niky/burger-boss-1711, pusheado): capítulos A/B/C, tienda 60 skins, reto diario, clasificación, continuar por vídeo. AHORA: arreglo puntual en marcha de la tarjeta «Orange Bandana» de la tienda (nombre solapado, verificado a zoom 3x); agente activo desde ~17:14, sin commit aún. Prototipo v0.3 en Sandbox: https://playgama.ai/play/b7hkobvbpa2ssu — Verificado 17:20: v1.0 entregada; queda ~arreglo + re-verificación + subir a Sandbox + prueba de Daniel. Verificado 17:50: arreglo en marcha, activo; 1 fichero nuevo desde 17:20 (src/meta.ts 17:31); sin commit aún. Verificado 18:17: arreglo en marcha, agente activo (77603777, ~1 h); sin commit nuevo aún.",
+      "status": "LISTO PARA PROBAR — juego COMPLETO v1.0 con el arreglo de la tienda ENTREGADO (commit d4cdc4d, zip 472.303 B verificado por mí: sendMessage 2×, game_ready 1×; tarjeta «Orange Bandana» vista por mí a zoom LIMPIA, las 60 tarjetas auditadas). Subiendo el build arreglado a la app Sandbox existente (b7hkobvbpa2ssu); queda ~verificarlo yo en vivo entero y pasarte el enlace.",
       "title": "Burger Boss!",
       "commit": "01b0978"
     },
@@ -769,6 +769,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 18:17",
+  "updated_at": "2026-11-17 18:25",
   "updated_by": "Dani (cron 30 min)"
 }
