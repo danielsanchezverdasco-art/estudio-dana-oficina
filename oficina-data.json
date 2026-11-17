@@ -100,7 +100,7 @@
       "title": "Shadow Match"
     }
   ],
-  "resumen": "Actualización 03:06 — Sin cambios de fondo desde las 02:47. Cyber Runner: build reintentado 02:58 (nuevo proceso PID 48233, corriendo), bundle sigue a 0 bytes (03:05) — el driver se para y vuelve a arrancar sin cuajar. Slice & Serve: el asset pepino sigue sin existir (03:06); el proceso promote-v2.py sigue corriendo desde el 16/11 sin producirlo. Grid Defender: sin cambios (dist vacío, sin ficheros nuevos desde las 02:38). Sin commits nuevos en dana-games-juegos (verificado 03:04: anita/cyber-runner-b sigue en 08abde42; sin ramas de Slice ni Grid); la rama borrada del repo público no ha vuelto (reverificado 03:04). Siguen publicados en Sandbox: Scribble Striker y Luxury Watch Dealer, pendientes de que Daniel los pruebe por la mañana. Próximo en cola: Sand Jam. (03:06, fuera de horario de mensajes: sin aviso en chat.)",
+  "resumen": "Actualizaci\u00f3n 03:20 \u2014 Sin cambios desde la actualizaci\u00f3n de Anita de las 03:06 (verificado 03:17 por ls-remote: sin commits nuevos en dana-games-juegos \u2014 anita/cyber-runner-b sigue en 08abde42, relojes en b45e886, f\u00fatbol en 06b08c2; sin ramas de Slice ni Grid). Cyber Runner ronda 2 EN MARCHA: build reintentado 02:58, bundle a 0 bytes (03:05, \u00faltimo dato de Anita) \u2014 sigue sin cuajar; queda: terminar build + subir ronda 2 al repo + re-verificar (sin estimaci\u00f3n fiable mientras el build no cuaje). Slice & Serve EN MARCHA: fuente completa, build bloqueado por EPERM; queda: build + smoke + lado a lado + ZIP + GIF + rama. Grid Defender EN MARCHA: rebuild sin cuajar (dist vac\u00edo); queda: rebuild + smoke + lado a lado + ZIP. Siguen publicados en Sandbox: Scribble Striker y Luxury Watch Dealer, pendientes de que Daniel los pruebe por la ma\u00f1ana. Pr\u00f3ximo en cola: Sand Jam. (03:17, fuera de horario de mensajes: sin aviso en chat.)",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -414,6 +414,6 @@
       "title": "Glow Grab!"
     }
   ],
-  "updated_at": "2026-11-17T03:07:13+01:00",
-  "updated_by": "anita"
+  "updated_at": "2026-11-17T03:20:33+01:00",
+  "updated_by": "dani"
 }
