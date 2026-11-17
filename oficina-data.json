@@ -225,7 +225,7 @@
    "title": "Cofre del Doblon (Doubloon Rush)"
   }
  ],
- "resumen": "Actualizacion 14:39 - 17 agentes en marcha (15 prototipos nuevos + futbol rebuild + Sand Jam). Flujo por agente (orden Daniel 14:26): prototipo -> Daniel lo juega y da feedback -> el mismo agente termina el juego entero -> siguiente de la lista. Sand Jam: build QA + capturas de auto-playtest (menu, nivel 1, victoria, nivel 2) 14:22-14:24; queda entrega del prototipo + prueba de Daniel. Futbol: menus nuevos desde cero en construccion (compilando ahora); revision RANKING hecha 14:14 y pasada al constructor. Nada listo para probar todavia; se avisa prototipo a prototipo (orden 14:23).",
+ "resumen": "Actualizacion 14:46 - 20 juegos de verdad nuevos en la lista (tanda 7): Dungeon Delve, Castle Empire, Deck Heroes, Last Stand Survivors, Harvest Valley, Turbo Drift Rivals, Tower Tactics, Star Fleet Command, Mystery Mansion, Dead City Survival, Creature Tamer, Airship Pirates, Gem Legends, Deep Sea Fishing, Railway Empire, Spell Academy, Mech Builder, Football Club Manager, Arena Clash, Chrono Quest. No tan casual: con progresion, habilidad y sistemas. 17 agentes en marcha con el pipeline completo.",
  "stats": {
   "general": {
    "anuncios_vistos_totales": 0,
@@ -543,8 +543,148 @@
    "slug": "glow-grab",
    "status": "Aceptado por Daniel 19:52 — en cola, tras Wind Wizard Duel",
    "title": "Glow Grab!"
+  },
+  {
+   "slug": "dungeon-delve",
+   "title": "Dungeon Delve!",
+   "design": "Juego de verdad (tanda 7, 17/11): Roguelike de mazmorras: explora salas, lucha, muere y vuelve con mejoras permanentes. - pendientes las 3 variantes para que Daniel elija",
+   "mockup": "",
+   "status": "Concepto nuevo - en la lista, tras la tanda 6; faltan las 3 variantes"
+  },
+  {
+   "slug": "castle-empire",
+   "title": "Castle Empire!",
+   "design": "Juego de verdad (tanda 7, 17/11): Construye tu reino, gestiona recursos y defiende oleadas de enemigos. - pendientes las 3 variantes para que Daniel elija",
+   "mockup": "",
+   "status": "Concepto nuevo - en la lista, tras la tanda 6; faltan las 3 variantes"
+  },
+  {
+   "slug": "deck-heroes",
+   "title": "Deck Heroes!",
+   "design": "Juego de verdad (tanda 7, 17/11): Roguelike de cartas: construye tu mazo batalla a batalla, cada run es distinta. - pendientes las 3 variantes para que Daniel elija",
+   "mockup": "",
+   "status": "Concepto nuevo - en la lista, tras la tanda 6; faltan las 3 variantes"
+  },
+  {
+   "slug": "last-stand-survivors",
+   "title": "Last Stand Survivors!",
+   "design": "Juego de verdad (tanda 7, 17/11): Sobrevive a oleadas, elige mejoras que se combinan en builds rotos. - pendientes las 3 variantes para que Daniel elija",
+   "mockup": "",
+   "status": "Concepto nuevo - en la lista, tras la tanda 6; faltan las 3 variantes"
+  },
+  {
+   "slug": "harvest-valley",
+   "title": "Harvest Valley!",
+   "design": "Juego de verdad (tanda 7, 17/11): Granja de verdad: siembra, animales, estaciones, vende y expande. - pendientes las 3 variantes para que Daniel elija",
+   "mockup": "",
+   "status": "Concepto nuevo - en la lista, tras la tanda 6; faltan las 3 variantes"
+  },
+  {
+   "slug": "turbo-drift-rivals",
+   "title": "Turbo Drift Rivals!",
+   "design": "Juego de verdad (tanda 7, 17/11): Carreras con tuning: corre, gana y mejora el coche pieza a pieza. - pendientes las 3 variantes para que Daniel elija",
+   "mockup": "",
+   "status": "Concepto nuevo - en la lista, tras la tanda 6; faltan las 3 variantes"
+  },
+  {
+   "slug": "tower-tactics",
+   "title": "Tower Tactics!",
+   "design": "Juego de verdad (tanda 7, 17/11): Tower defense con estrategia: torres que se combinan, oleadas cada vez mas duras. - pendientes las 3 variantes para que Daniel elija",
+   "mockup": "",
+   "status": "Concepto nuevo - en la lista, tras la tanda 6; faltan las 3 variantes"
+  },
+  {
+   "slug": "star-fleet-command",
+   "title": "Star Fleet Command!",
+   "design": "Juego de verdad (tanda 7, 17/11): Comanda una flota: construye naves, explora y combate. - pendientes las 3 variantes para que Daniel elija",
+   "mockup": "",
+   "status": "Concepto nuevo - en la lista, tras la tanda 6; faltan las 3 variantes"
+  },
+  {
+   "slug": "mystery-mansion",
+   "title": "Mystery Mansion!",
+   "design": "Juego de verdad (tanda 7, 17/11): Detective: busca pistas, resuelve casos, deduce al culpable. - pendientes las 3 variantes para que Daniel elija",
+   "mockup": "",
+   "status": "Concepto nuevo - en la lista, tras la tanda 6; faltan las 3 variantes"
+  },
+  {
+   "slug": "dead-city-survival",
+   "title": "Dead City Survival!",
+   "design": "Juego de verdad (tanda 7, 17/11): Supervivencia: busca recursos de dia, defiende el refugio de noche. - pendientes las 3 variantes para que Daniel elija",
+   "mockup": "",
+   "status": "Concepto nuevo - en la lista, tras la tanda 6; faltan las 3 variantes"
+  },
+  {
+   "slug": "creature-tamer",
+   "title": "Creature Tamer!",
+   "design": "Juego de verdad (tanda 7, 17/11): Captura criaturas, entrenalas y batalla por turnos. - pendientes las 3 variantes para que Daniel elija",
+   "mockup": "",
+   "status": "Concepto nuevo - en la lista, tras la tanda 6; faltan las 3 variantes"
+  },
+  {
+   "slug": "airship-pirates",
+   "title": "Airship Pirates!",
+   "design": "Juego de verdad (tanda 7, 17/11): Pirata del cielo: pilota tu nave, aborda, mejora y saquea. - pendientes las 3 variantes para que Daniel elija",
+   "mockup": "",
+   "status": "Concepto nuevo - en la lista, tras la tanda 6; faltan las 3 variantes"
+  },
+  {
+   "slug": "gem-legends",
+   "title": "Gem Legends!",
+   "design": "Juego de verdad (tanda 7, 17/11): Match-3 RPG: combina gemas para atacar, sube de nivel a tu heroe. - pendientes las 3 variantes para que Daniel elija",
+   "mockup": "",
+   "status": "Concepto nuevo - en la lista, tras la tanda 6; faltan las 3 variantes"
+  },
+  {
+   "slug": "deep-sea-fishing",
+   "title": "Deep Sea Fishing!",
+   "design": "Juego de verdad (tanda 7, 17/11): Pesca con habilidad: especies raras, equipo, torneos. - pendientes las 3 variantes para que Daniel elija",
+   "mockup": "",
+   "status": "Concepto nuevo - en la lista, tras la tanda 6; faltan las 3 variantes"
+  },
+  {
+   "slug": "railway-empire",
+   "title": "Railway Empire!",
+   "design": "Juego de verdad (tanda 7, 17/11): Imperio ferroviario: pon vias, gestiona trenes y haz dinero. - pendientes las 3 variantes para que Daniel elija",
+   "mockup": "",
+   "status": "Concepto nuevo - en la lista, tras la tanda 6; faltan las 3 variantes"
+  },
+  {
+   "slug": "spell-academy",
+   "title": "Spell Academy!",
+   "design": "Juego de verdad (tanda 7, 17/11): Academia de magia: aprende hechizos, duelos y pociones. - pendientes las 3 variantes para que Daniel elija",
+   "mockup": "",
+   "status": "Concepto nuevo - en la lista, tras la tanda 6; faltan las 3 variantes"
+  },
+  {
+   "slug": "mech-builder",
+   "title": "Mech Builder!",
+   "design": "Juego de verdad (tanda 7, 17/11): Construye tu robot pieza a pieza y batalla en la arena. - pendientes las 3 variantes para que Daniel elija",
+   "mockup": "",
+   "status": "Concepto nuevo - en la lista, tras la tanda 6; faltan las 3 variantes"
+  },
+  {
+   "slug": "football-club-manager",
+   "title": "Football Club Manager!",
+   "design": "Juego de verdad (tanda 7, 17/11): Gestiona un club: tacticas, fichajes y sube de division. - pendientes las 3 variantes para que Daniel elija",
+   "mockup": "",
+   "status": "Concepto nuevo - en la lista, tras la tanda 6; faltan las 3 variantes"
+  },
+  {
+   "slug": "arena-clash",
+   "title": "Arena Clash!",
+   "design": "Juego de verdad (tanda 7, 17/11): Batalla campal: ultimo en pie, zona que se cierra, rangos. - pendientes las 3 variantes para que Daniel elija",
+   "mockup": "",
+   "status": "Concepto nuevo - en la lista, tras la tanda 6; faltan las 3 variantes"
+  },
+  {
+   "slug": "chrono-quest",
+   "title": "Chrono Quest!",
+   "design": "Juego de verdad (tanda 7, 17/11): Aventura por eras: explora, resuelve y cambia la historia. - pendientes las 3 variantes para que Daniel elija",
+   "mockup": "",
+   "status": "Concepto nuevo - en la lista, tras la tanda 6; faltan las 3 variantes"
   }
  ],
- "updated_at": "2026-11-17T14:39:00+01:00",
+ "updated_at": "2026-11-17T14:46:00+01:00",
  "updated_by": "Dani"
 }
