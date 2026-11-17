@@ -216,7 +216,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Actualización 15:24 — Sand Jam LISTO PARA PROBAR en Sandbox: https://playgama.ai/play/azpay45lww6lxr (prototipo del verbo SLIDE, 2 niveles). Daniel lo está probando; falta su veredicto (¿SLIDE o verter/clasificar?). Burger Boss v0.1 entregado, falta el zip para jugarlo. Limpieza lote 2 en marcha.",
+  "resumen": "Actualización 15:40 — Los 20 juegos de verdad ya están en la lista con sus 3 capítulos (A/B/C) cada uno. Sand Jam: diseño final en marcha (verbo SLIDE aprobado por Daniel). Burger Boss v0.3 con game_ready verificado, subiendo a Sandbox. Fútbol: rebuild de menús en marcha.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -547,144 +547,244 @@
     {
       "slug": "dungeon-delve",
       "title": "Dungeon Delve!",
-      "design": "Juego de verdad (tanda 7, 17/11): Roguelike de mazmorras: explora salas, lucha, muere y vuelve con mejoras permanentes. - pendientes las 3 variantes para que Daniel elija",
+      "design": "Juego de verdad (tanda 7, 17/11): Roguelike de mazmorras: explora salas, lucha, muere y vuelve con mejoras permanentes. Capítulos: A — cripta oscura · B — cueva de lava · C — templo de hielo.",
       "mockup": "idea-47-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — 3 variantes (A/B/C) GENERADAS y guardadas en ideas-nuevas-1611h/ (verificado 15:23, 60/60 en total) — pendientes de elección de Daniel, juego a juego"
+      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "chapters": [
+        "A — cripta oscura",
+        "B — cueva de lava",
+        "C — templo de hielo"
+      ]
     },
     {
       "slug": "castle-empire",
       "title": "Castle Empire!",
-      "design": "Juego de verdad (tanda 7, 17/11): Construye tu reino, gestiona recursos y defiende oleadas de enemigos. - pendientes las 3 variantes para que Daniel elija",
+      "design": "Juego de verdad (tanda 7, 17/11): Construye tu reino, gestiona recursos y defiende oleadas de enemigos. Capítulos: A — castillo medieval · B — reino desierto · C — reino nevado.",
       "mockup": "idea-48-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — 3 variantes (A/B/C) GENERADAS y guardadas en ideas-nuevas-1611h/ (verificado 15:23, 60/60 en total) — pendientes de elección de Daniel, juego a juego"
+      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "chapters": [
+        "A — castillo medieval",
+        "B — reino desierto",
+        "C — reino nevado"
+      ]
     },
     {
       "slug": "deck-heroes",
       "title": "Deck Heroes!",
-      "design": "Juego de verdad (tanda 7, 17/11): Roguelike de cartas: construye tu mazo batalla a batalla, cada run es distinta. - pendientes las 3 variantes para que Daniel elija",
+      "design": "Juego de verdad (tanda 7, 17/11): Roguelike de cartas: construye tu mazo batalla a batalla, cada run es distinta. Capítulos: A — taberna medieval · B — arena arcana · C — biblioteca encantada.",
       "mockup": "idea-49-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — 3 variantes (A/B/C) GENERADAS y guardadas en ideas-nuevas-1611h/ (verificado 15:23, 60/60 en total) — pendientes de elección de Daniel, juego a juego"
+      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "chapters": [
+        "A — taberna medieval",
+        "B — arena arcana",
+        "C — biblioteca encantada"
+      ]
     },
     {
       "slug": "last-stand-survivors",
       "title": "Last Stand Survivors!",
-      "design": "Juego de verdad (tanda 7, 17/11): Sobrevive a oleadas, elige mejoras que se combinan en builds rotos. - pendientes las 3 variantes para que Daniel elija",
+      "design": "Juego de verdad (tanda 7, 17/11): Sobrevive a oleadas, elige mejoras que se combinan en builds rotos. Capítulos: A — ciudad en ruinas · B — bosque nocturno · C — desierto postapocalíptico.",
       "mockup": "idea-50-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — 3 variantes (A/B/C) GENERADAS y guardadas en ideas-nuevas-1611h/ (verificado 15:23, 60/60 en total) — pendientes de elección de Daniel, juego a juego"
+      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "chapters": [
+        "A — ciudad en ruinas",
+        "B — bosque nocturno",
+        "C — desierto postapocalíptico"
+      ]
     },
     {
       "slug": "harvest-valley",
       "title": "Harvest Valley!",
-      "design": "Juego de verdad (tanda 7, 17/11): Granja de verdad: siembra, animales, estaciones, vende y expande. - pendientes las 3 variantes para que Daniel elija",
+      "design": "Juego de verdad (tanda 7, 17/11): Granja de verdad: siembra, animales, estaciones, vende y expande. Capítulos: A — valle primaveral · B — granja otoñal · C — invernadero tropical.",
       "mockup": "idea-51-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — 3 variantes (A/B/C) GENERADAS y guardadas en ideas-nuevas-1611h/ (verificado 15:23, 60/60 en total) — pendientes de elección de Daniel, juego a juego"
+      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "chapters": [
+        "A — valle primaveral",
+        "B — granja otoñal",
+        "C — invernadero tropical"
+      ]
     },
     {
       "slug": "turbo-drift-rivals",
       "title": "Turbo Drift Rivals!",
-      "design": "Juego de verdad (tanda 7, 17/11): Carreras con tuning: corre, gana y mejora el coche pieza a pieza. - pendientes las 3 variantes para que Daniel elija",
+      "design": "Juego de verdad (tanda 7, 17/11): Carreras con tuning: corre, gana y mejora el coche pieza a pieza. Capítulos: A — circuito urbano nocturno · B — circuito desierto · C — circuito nevado.",
       "mockup": "idea-52-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — 3 variantes (A/B/C) GENERADAS y guardadas en ideas-nuevas-1611h/ (verificado 15:23, 60/60 en total) — pendientes de elección de Daniel, juego a juego"
+      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "chapters": [
+        "A — circuito urbano nocturno",
+        "B — circuito desierto",
+        "C — circuito nevado"
+      ]
     },
     {
       "slug": "tower-tactics",
       "title": "Tower Tactics!",
-      "design": "Juego de verdad (tanda 7, 17/11): Tower defense con estrategia: torres que se combinan, oleadas cada vez mas duras. - pendientes las 3 variantes para que Daniel elija",
+      "design": "Juego de verdad (tanda 7, 17/11): Tower defense con estrategia: torres que se combinan, oleadas cada vez mas duras. Capítulos: A — castillo medieval · B — selva · C — base espacial.",
       "mockup": "idea-53-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — 3 variantes (A/B/C) GENERADAS y guardadas en ideas-nuevas-1611h/ (verificado 15:23, 60/60 en total) — pendientes de elección de Daniel, juego a juego"
+      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "chapters": [
+        "A — castillo medieval",
+        "B — selva",
+        "C — base espacial"
+      ]
     },
     {
       "slug": "star-fleet-command",
       "title": "Star Fleet Command!",
-      "design": "Juego de verdad (tanda 7, 17/11): Comanda una flota: construye naves, explora y combate. - pendientes las 3 variantes para que Daniel elija",
+      "design": "Juego de verdad (tanda 7, 17/11): Comanda una flota: construye naves, explora y combate. Capítulos: A — nebulosa púrpura · B — sistema helado · C — cinturón de asteroides.",
       "mockup": "idea-54-variant-a.png",
-      "status": "Concepto nuevo (tanda 7) — 3 variantes (A/B/C) GENERADAS y guardadas en ideas-nuevas-1611h/ (verificado 15:23, 60/60 en total) — pendientes de elección de Daniel, juego a juego"
+      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "chapters": [
+        "A — nebulosa púrpura",
+        "B — sistema helado",
+        "C — cinturón de asteroides"
+      ]
     },
     {
       "slug": "mystery-mansion",
       "title": "Mystery Mansion!",
-      "design": "Juego de verdad (tanda 7, 17/11): Detective: busca pistas, resuelve casos, deduce al culpable. - pendientes las 3 variantes para que Daniel elija",
+      "design": "Juego de verdad (tanda 7, 17/11): Detective: busca pistas, resuelve casos, deduce al culpable. Capítulos: A — mansión victoriana · B — hotel art déco · C — castillo gótico.",
       "mockup": "idea-55-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — 3 variantes (A/B/C) GENERADAS y guardadas en ideas-nuevas-1611h/ (verificado 15:23, 60/60 en total) — pendientes de elección de Daniel, juego a juego"
+      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "chapters": [
+        "A — mansión victoriana",
+        "B — hotel art déco",
+        "C — castillo gótico"
+      ]
     },
     {
       "slug": "dead-city-survival",
       "title": "Dead City Survival!",
-      "design": "Juego de verdad (tanda 7, 17/11): Supervivencia: busca recursos de dia, defiende el refugio de noche. - pendientes las 3 variantes para que Daniel elija",
+      "design": "Juego de verdad (tanda 7, 17/11): Supervivencia: busca recursos de dia, defiende el refugio de noche. Capítulos: A — ciudad en ruinas · B — suburbio nocturno · C — centro comercial abandonado.",
       "mockup": "idea-56-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — 3 variantes (A/B/C) GENERADAS y guardadas en ideas-nuevas-1611h/ (verificado 15:23, 60/60 en total) — pendientes de elección de Daniel, juego a juego"
+      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "chapters": [
+        "A — ciudad en ruinas",
+        "B — suburbio nocturno",
+        "C — centro comercial abandonado"
+      ]
     },
     {
       "slug": "creature-tamer",
       "title": "Creature Tamer!",
-      "design": "Juego de verdad (tanda 7, 17/11): Captura criaturas, entrenalas y batalla por turnos. - pendientes las 3 variantes para que Daniel elija",
+      "design": "Juego de verdad (tanda 7, 17/11): Captura criaturas, entrenalas y batalla por turnos. Capítulos: A — pradera · B — volcán · C — bosque encantado.",
       "mockup": "idea-57-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — 3 variantes (A/B/C) GENERADAS y guardadas en ideas-nuevas-1611h/ (verificado 15:23, 60/60 en total) — pendientes de elección de Daniel, juego a juego"
+      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "chapters": [
+        "A — pradera",
+        "B — volcán",
+        "C — bosque encantado"
+      ]
     },
     {
       "slug": "airship-pirates",
       "title": "Airship Pirates!",
-      "design": "Juego de verdad (tanda 7, 17/11): Pirata del cielo: pilota tu nave, aborda, mejora y saquea. - pendientes las 3 variantes para que Daniel elija",
+      "design": "Juego de verdad (tanda 7, 17/11): Pirata del cielo: pilota tu nave, aborda, mejora y saquea. Capítulos: A — cielos al atardecer · B — tormenta · C — aurora boreal.",
       "mockup": "idea-58-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — 3 variantes (A/B/C) GENERADAS y guardadas en ideas-nuevas-1611h/ (verificado 15:23, 60/60 en total) — pendientes de elección de Daniel, juego a juego"
+      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "chapters": [
+        "A — cielos al atardecer",
+        "B — tormenta",
+        "C — aurora boreal"
+      ]
     },
     {
       "slug": "gem-legends",
       "title": "Gem Legends!",
-      "design": "Juego de verdad (tanda 7, 17/11): Match-3 RPG: combina gemas para atacar, sube de nivel a tu heroe. - pendientes las 3 variantes para que Daniel elija",
+      "design": "Juego de verdad (tanda 7, 17/11): Match-3 RPG: combina gemas para atacar, sube de nivel a tu heroe. Capítulos: A — mina de cristal · B — templo maya · C — cueva submarina.",
       "mockup": "idea-59-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — 3 variantes (A/B/C) GENERADAS y guardadas en ideas-nuevas-1611h/ (verificado 15:23, 60/60 en total) — pendientes de elección de Daniel, juego a juego"
+      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "chapters": [
+        "A — mina de cristal",
+        "B — templo maya",
+        "C — cueva submarina"
+      ]
     },
     {
       "slug": "deep-sea-fishing",
       "title": "Deep Sea Fishing!",
-      "design": "Juego de verdad (tanda 7, 17/11): Pesca con habilidad: especies raras, equipo, torneos. - pendientes las 3 variantes para que Daniel elija",
+      "design": "Juego de verdad (tanda 7, 17/11): Pesca con habilidad: especies raras, equipo, torneos. Capítulos: A — mar tropical · B — fiordo nórdico · C — lago al amanecer.",
       "mockup": "idea-60-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — 3 variantes (A/B/C) GENERADAS y guardadas en ideas-nuevas-1611h/ (verificado 15:23, 60/60 en total) — pendientes de elección de Daniel, juego a juego"
+      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "chapters": [
+        "A — mar tropical",
+        "B — fiordo nórdico",
+        "C — lago al amanecer"
+      ]
     },
     {
       "slug": "railway-empire",
       "title": "Railway Empire!",
-      "design": "Juego de verdad (tanda 7, 17/11): Imperio ferroviario: pon vias, gestiona trenes y haz dinero. - pendientes las 3 variantes para que Daniel elija",
+      "design": "Juego de verdad (tanda 7, 17/11): Imperio ferroviario: pon vias, gestiona trenes y haz dinero. Capítulos: A — llanuras del oeste · B — montañas nevadas · C — selva.",
       "mockup": "idea-61-variant-a.png",
-      "status": "Concepto nuevo (tanda 7) — 3 variantes (A/B/C) GENERADAS y guardadas en ideas-nuevas-1611h/ (verificado 15:23, 60/60 en total) — pendientes de elección de Daniel, juego a juego"
+      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "chapters": [
+        "A — llanuras del oeste",
+        "B — montañas nevadas",
+        "C — selva"
+      ]
     },
     {
       "slug": "spell-academy",
       "title": "Spell Academy!",
-      "design": "Juego de verdad (tanda 7, 17/11): Academia de magia: aprende hechizos, duelos y pociones. - pendientes las 3 variantes para que Daniel elija",
+      "design": "Juego de verdad (tanda 7, 17/11): Academia de magia: aprende hechizos, duelos y pociones. Capítulos: A — castillo medieval · B — torre en las nubes · C — biblioteca mágica.",
       "mockup": "idea-62-variant-a.png",
-      "status": "Concepto nuevo (tanda 7) — 3 variantes (A/B/C) GENERADAS y guardadas en ideas-nuevas-1611h/ (verificado 15:23, 60/60 en total) — pendientes de elección de Daniel, juego a juego"
+      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "chapters": [
+        "A — castillo medieval",
+        "B — torre en las nubes",
+        "C — biblioteca mágica"
+      ]
     },
     {
       "slug": "mech-builder",
       "title": "Mech Builder!",
-      "design": "Juego de verdad (tanda 7, 17/11): Construye tu robot pieza a pieza y batalla en la arena. - pendientes las 3 variantes para que Daniel elija",
+      "design": "Juego de verdad (tanda 7, 17/11): Construye tu robot pieza a pieza y batalla en la arena. Capítulos: A — taller industrial · B — arena desierto · C — ciudad futurista.",
       "mockup": "idea-63-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — 3 variantes (A/B/C) GENERADAS y guardadas en ideas-nuevas-1611h/ (verificado 15:23, 60/60 en total) — pendientes de elección de Daniel, juego a juego"
+      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "chapters": [
+        "A — taller industrial",
+        "B — arena desierto",
+        "C — ciudad futurista"
+      ]
     },
     {
       "slug": "football-club-manager",
       "title": "Football Club Manager!",
-      "design": "Juego de verdad (tanda 7, 17/11): Gestiona un club: tacticas, fichajes y sube de division. - pendientes las 3 variantes para que Daniel elija",
+      "design": "Juego de verdad (tanda 7, 17/11): Gestiona un club: tacticas, fichajes y sube de division. Capítulos: A — estadio clásico · B — estadio nocturno · C — estadio futurista.",
       "mockup": "idea-64-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — 3 variantes (A/B/C) GENERADAS y guardadas en ideas-nuevas-1611h/ (verificado 15:23, 60/60 en total) — pendientes de elección de Daniel, juego a juego"
+      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "chapters": [
+        "A — estadio clásico",
+        "B — estadio nocturno",
+        "C — estadio futurista"
+      ]
     },
     {
       "slug": "arena-clash",
       "title": "Arena Clash!",
-      "design": "Juego de verdad (tanda 7, 17/11): Batalla campal: ultimo en pie, zona que se cierra, rangos. - pendientes las 3 variantes para que Daniel elija",
+      "design": "Juego de verdad (tanda 7, 17/11): Batalla campal: ultimo en pie, zona que se cierra, rangos. Capítulos: A — coliseo romano · B — arena futurista · C — isla tropical.",
       "mockup": "idea-65-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — 3 variantes (A/B/C) GENERADAS y guardadas en ideas-nuevas-1611h/ (verificado 15:23, 60/60 en total) — pendientes de elección de Daniel, juego a juego"
+      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "chapters": [
+        "A — coliseo romano",
+        "B — arena futurista",
+        "C — isla tropical"
+      ]
     },
     {
       "slug": "chrono-quest",
       "title": "Chrono Quest!",
-      "design": "Juego de verdad (tanda 7, 17/11): Aventura por eras: explora, resuelve y cambia la historia. - pendientes las 3 variantes para que Daniel elija",
+      "design": "Juego de verdad (tanda 7, 17/11): Aventura por eras: explora, resuelve y cambia la historia. Capítulos: A — era medieval · B — era futurista · C — era prehistórica.",
       "mockup": "idea-66-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — 3 variantes (A/B/C) GENERADAS y guardadas en ideas-nuevas-1611h/ (verificado 15:23, 60/60 en total) — pendientes de elección de Daniel, juego a juego"
+      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "chapters": [
+        "A — era medieval",
+        "B — era futurista",
+        "C — era prehistórica"
+      ]
     }
   ],
-  "updated_at": "2026-11-17 15:24",
+  "updated_at": "2026-11-17 15:40",
   "updated_by": "Dani"
 }
