@@ -56,6 +56,56 @@
    "slug": "sand-jam",
    "status": "EN MARCHA — Prototipo del verbo SOLO con el MÉTODO NUEVO (aprobado por Daniel 13:29): un solo constructor, menú + núcleo jugable + 1–2 niveles, SIN tienda, SIN skins, SIN capítulos. Constructor en marcha desde ~13:33 (rama niky/sand-jam-1711, worktree wt-sand-jam; código sin commitear, sin push aún). Daniel juega el prototipo antes de hacer el juego completo. | Paso: prototipo del verbo en construcción | Queda: ~prototipo jugable + prueba de Daniel + juego completo con el mismo agente.",
    "title": "Sand Jam!"
+  },
+  {
+   "slug": "sneak-out",
+   "title": "Sneak Out!",
+   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/sneak-out-1711): variante B (templo) base. Daniel juega el prototipo antes del juego completo."
+  },
+  {
+   "slug": "crowd-clash",
+   "title": "Crowd Clash!",
+   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/crowd-clash-1711): diseno B comic premium (dinosaurio maduro). Daniel juega el prototipo antes del juego completo."
+  },
+  {
+   "slug": "laser-maze",
+   "title": "Laser Maze!",
+   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/laser-maze-1711): variante B (templo) base. Daniel juega el prototipo antes del juego completo."
+  },
+  {
+   "slug": "car-wash-chaos",
+   "title": "Car Wash Chaos!",
+   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/car-wash-chaos-1711): variante B (bano de mascotas) modo principal. Daniel juega el prototipo antes del juego completo."
+  },
+  {
+   "slug": "diggy-dash",
+   "title": "Diggy Dash!",
+   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/diggy-dash-1711). Daniel juega el prototipo antes del juego completo."
+  },
+  {
+   "slug": "garden-dash",
+   "title": "Garden Dash!",
+   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/garden-dash-1711). Daniel juega el prototipo antes del juego completo."
+  },
+  {
+   "slug": "slingshot-smash",
+   "title": "Slingshot Smash!",
+   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/slingshot-smash-1711). Daniel juega el prototipo antes del juego completo."
+  },
+  {
+   "slug": "pet-vet",
+   "title": "Pet Vet!",
+   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/pet-vet-1711). Daniel juega el prototipo antes del juego completo."
+  },
+  {
+   "slug": "rocket-rescue",
+   "title": "Rocket Rescue!",
+   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/rocket-rescue-1711). Daniel juega el prototipo antes del juego completo."
+  },
+  {
+   "slug": "monster-merge",
+   "title": "Monster Merge!",
+   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/monster-merge-1711). Daniel juega el prototipo antes del juego completo."
   }
  ],
  "published": [
@@ -120,7 +170,7 @@
    "reason": "RECHAZADO por Daniel 13:58 (Rechazado no se publica). No va a revision ni al catalogo. El impulso +50 sigue corriendo hasta el 18 nov (no se puede parar). Pendiente: Daniel dira si se borra de Playgama como los relojes o se deja en Sandbox."
   }
  ],
- "resumen": "Actualizacion 14:03 - Cofre RECHAZADO por Daniel 13:58: no se publica (no va a revision). Esculpe tambien FUERA (Daniel 14:02, por los problemas del playtest). Siguiente: Sand Jam y rebuild del futbol, prototipos en marcha con el metodo nuevo. Futbol: revisando marcadores en vivo.",
+ "resumen": "Actualizacion 14:22 - 10 juegos siguientes en paralelo con el metodo nuevo (1 constructor por juego): Sneak Out, Crowd Clash, Laser Maze, Car Wash Chaos, Diggy Dash, Garden Dash, Slingshot Smash, Pet Vet, Rocket Rescue, Monster Merge. Prototipos primero; Daniel los juega antes del juego completo. Futbol: rebuild de menus en marcha. Sand Jam: prototipo en marcha. Cofre RECHAZADO, Esculpe FUERA.",
  "stats": {
   "general": {
    "anuncios_vistos_totales": 0,
@@ -440,6 +490,6 @@
    "title": "Glow Grab!"
   }
  ],
- "updated_at": "2026-11-17T14:03:00+01:00",
+ "updated_at": "2026-11-17T14:22:00+01:00",
  "updated_by": "Dani"
 }
