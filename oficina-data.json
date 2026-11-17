@@ -174,7 +174,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Actualización 16:24 — Los 4 prototipos YA EN SANDBOX: Garden Dash https://playgama.ai/play/75x2gbyp5eosbl · Dance Dash https://playgama.ai/play/morggaiqrsm5xh · Monster Merge https://playgama.ai/play/rfjxcyqvmsm2ux · Sneak Out https://playgama.ai/play/dtrgkll5zisava — listos para probar. Rocket Rescue también en Sandbox. Sand Jam y Burger Boss con el diseño final en marcha. Los 8 bloqueados por cuota relanzados. Fútbol: menús nuevos entregados, enlace de prueba aparte pendiente.",
+  "resumen": "Actualización 16:29 — Daniel ordenó el diseño de TODOS: Garden, Dance, Monster y Sneak Out pasan a juego completo (diseño final desde su variante base + capítulos). Sand Jam, Burger Boss y Rocket Rescue ya con el diseño en marcha. Los 4 prototipos siguen en Sandbox para probar. Fútbol: menús nuevos entregados, enlace de prueba aparte pendiente. Los 8 bloqueados por cuota relanzados.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -259,28 +259,28 @@
       "design": "A (Discoteca), B (K-pop) y C (Rave robot) son capítulos del juego",
       "mockup": "idea-24-variant-a.png",
       "slug": "dance-dash",
-      "status": "PROTOTIPO EN SANDBOX — https://playgama.ai/play/morggaiqrsm5xh — Pruébalo: ritmo con flechas, canción NEON NIGHTS · 112 BPM, combos y puntos. Pendiente tu feedback.",
+      "status": "JUEGO COMPLETO EN MARCHA (diseño final desde la variante A, discoteca; capítulos K-pop y rave robot) — prototipo en Sandbox: https://playgama.ai/play/morggaiqrsm5xh",
       "title": "Dance Dash!"
     },
     {
       "design": "A (flores), B (huerto) y C (cactus) son capítulos del juego",
       "mockup": "idea-13-variant-a.png",
       "slug": "garden-dash",
-      "status": "PROTOTIPO EN SANDBOX — https://playgama.ai/play/75x2gbyp5eosbl — Pruébalo: runner de 3 carriles por el jardín, monedas y flores, la velocidad sube. Matiz: la interfaz del prototipo está en español («JUGAR», «RÉCORD»). Pregunta: ¿runner o regar? Pendiente tu feedback.",
+      "status": "JUEGO COMPLETO EN MARCHA (diseño final desde la variante A, jardín de flores; capítulos huerto y cactus) — prototipo en Sandbox: https://playgama.ai/play/75x2gbyp5eosbl",
       "title": "Garden Dash!"
     },
     {
       "design": "A (Caramelo), B (Robots) y C (Marinas) son capítulos del juego",
       "mockup": "idea-18-variant-a.png",
       "slug": "monster-merge",
-      "status": "PROTOTIPO EN SANDBOX — https://playgama.ai/play/rfjxcyqvmsm2ux — Pruébalo: tablero 4×4, arrastra monstruos iguales para fusionar, combos, objetivo Lv 5. Pendiente tu feedback.",
+      "status": "JUEGO COMPLETO EN MARCHA (diseño final desde la variante A, monstruos de caramelo; capítulos taller de robots y criaturas marinas) — prototipo en Sandbox: https://playgama.ai/play/rfjxcyqvmsm2ux",
       "title": "Monster Merge!"
     },
     {
       "design": "Variante B (templo de la jungla) como base; A (museo de noche) y C (estáción espacial) como capítulos que se desbloquean",
       "mockup": "idea-4-variant-b.png",
       "slug": "sneak-out",
-      "status": "PROTOTIPO EN SANDBOX — https://playgama.ai/play/dtrgkll5zisava — Pruébalo: sigilo en el templo (3 niveles), evita los conos de visión, esconde tras pilares, llega al ídolo. Interfaz en español. Pendiente tu feedback.",
+      "status": "JUEGO COMPLETO EN MARCHA (diseño final desde la variante B, templo; capítulos museo y estación espacial) — prototipo en Sandbox: https://playgama.ai/play/dtrgkll5zisava",
       "title": "Sneak Out!"
     }
   ],
@@ -743,6 +743,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 16:24",
+  "updated_at": "2026-11-17 16:29",
   "updated_by": "Dani (cron 30 min)"
 }
