@@ -25,24 +25,24 @@
       "design": "Variante A «Island Tribe!» como base (campamento tropical al atardecer, los 10 alrededor de la hoguera); B «Castaway Council!» (consejo nocturno) y C «Tribe Survival!» (vista cenital de la isla) como capítulos",
       "mockup": "survival-variant-a.png",
       "slug": "island-tribe",
-      "status": "EN MARCHA — prototipo del verbo en marcha (reality de supervivencia: enseñar habilidades a 10 personajes IA, ciclo DÍA Y NOCHE, fuego/agua/cobijo/comida). Variante A elegida por Daniel 18:00, agente puesto a hacerlo ya mismo. Queda ~prototipo, luego lo pruebas tú y se hace el juego completo.",
+      "status": "EN MARCHA — prototipo del verbo en marcha (reality de supervivencia: enseñar habilidades a 10 personajes IA, ciclo DÍA Y NOCHE, fuego/agua/cobijo/comida). Variante A elegida por Daniel 18:00, agente puesto a hacerlo ya mismo. El constructor anterior murió ~18:07 por el reinicio del sistema (solo tenía el worktree creado); relanzado ~18:08 (4269e477) con el mismo encargo. Queda ~prototipo, luego lo pruebas tú y se hace el juego completo.",
       "title": "Island Tribe!",
-      "paso": "Prototipo del verbo: asignar + enseñar habilidades + sobrevivir al ciclo día/noche",
-      "queda": "~prototipo + prueba de Daniel + juego completo; sin estimación del constructor, lanzado 18:00"
+      "paso": "Prototipo del verbo: relanzado ~18:08 tras el reinicio (asignar + enseñar habilidades + ciclo día/noche)",
+      "queda": "~prototipo + prueba de Daniel + juego completo; sin estimación del constructor, relanzado ~18:08"
     },
     {
       "slug": "dungeon-delve",
       "title": "Dungeon Delve!",
       "design": "Juego de verdad (tanda 7, 17/11): Roguelike de mazmorras: explora salas, lucha, muere y vuelve con mejoras permanentes. Capítulos: A — cripta oscura · B — cueva de lava · C — templo de hielo.",
       "mockup": "idea-47-variant-a.webp",
-      "status": "EN MARCHA — prototipo del verbo en marcha (roguelike de mazmorras, capítulo base A cripta oscura). Diseño ACEPTADO por Daniel 17:37 junto con los otros 19 de la tanda 7. Constructor activo (~13 min); 329 ficheros nuevos desde 17:20, dist-playgama/index.html generado 17:50 — construyendo/verificando. Queda ~prototipo, luego lo pruebas tú y se hace el juego completo.",
+      "status": "EN MARCHA — prototipo del verbo en marcha (roguelike de mazmorras, capítulo base A cripta oscura). Diseño ACEPTADO por Daniel 17:37 junto con los otros 19 de la tanda 7. El constructor anterior murió ~18:07 por el reinicio del sistema; su trabajo estaba en disco sin commitear (dist-playgama verificado OK por mí: bridge primero en head, sendMessage 2×, game_ready 1×) y la continuación (24d2291e) se lanzó ~18:08 para terminar playtest + zip + push. Queda ~prototipo, luego lo pruebas tú y se hace el juego completo.",
       "chapters": [
         "A — cripta oscura",
         "B — cueva de lava",
         "C — templo de hielo"
       ],
-      "paso": "Prototipo del verbo: construyendo y verificando (dist-playgama/index.html generado 17:50)",
-      "queda": "~prototipo + prueba de Daniel + juego completo; sin estimación del constructor, lleva ~13 min"
+      "paso": "Prototipo del verbo: continuación relanzada ~18:08, terminando playtest + zip + push (sin rama en remoto aún)",
+      "queda": "~prototipo + prueba de Daniel + juego completo; sin estimación del constructor, relanzado ~18:08"
     },
     {
       "commit": null,
@@ -130,7 +130,7 @@
       "playgama_url": "https://playgama.ai/play/d7nbp5h2yci4vs",
       "published_date": "2026-11-16",
       "slug": "scribble-striker",
-      "status": "Sandbox — Live · build c7a66d1 republicado 12:46 (sin online: botón RANKING + clasificaciones locales; píldoras centradas 220@32 / 9@84; tienda 478 skins; foto del menú repintada sin «EN LÍNEA»). Menú en vivo verificado: RANKING visible. Pendiente: prueba de Daniel. Verificado 13:05–13:09: primera carga en blanco (marco vacío >50 s) — al recargar carga bien y el menú se mantiene estable. Panel: 19 lanzamientos, 10 partidas, ~7 min de media, 1 like. Impulso gratis +50: YA ESTABA ACTIVO (verificado 13:41) — no se reclamó otro; queda 1 impulso gratis para otros juegos. | REBUILD DESDE CERO con el metodo nuevo (orden Daniel 14:00, misma jugabilidad y normas): prototipo del verbo en construccion (constructor unico, rama niky/futbol-rebuild-metodo-nuevo-1711); Daniel juega el prototipo antes del juego completo. | REBUILD 14:00-ahora: constructor único en marcha (rama niky/futbol-rebuild-metodo-nuevo-1711); menús nuevos desde cero en construcción (live-ui.ts editado, compilando ahora; capturas de menús 14:20–14:21); prototipo del verbo archivado; sin entrega ni commit aún. Revisión RANKING en vivo COMPLETADA 14:14: título LEADERBOARDS cortado por la primera tarjeta, no hay clasificación real (solo 5 filas de stats propias en 0), >40% de pantalla vacía abajo; LIGA bien salvo solapes menores; hallazgos pasados al constructor. Build actual c7a66d1 intacto en vivo. Verificado 15:05: sin cambios (sigue c7a66d1, sin commits nuevos); rebuild de fútbol en marcha (agente de menús, ~1 h, sin commits aún); revisión RANKING 14:14: título LEADERBOARDS cortado por la tarjeta, sin clasificación real (5 filas de stats propias en 0), LIGA bien; métricas 13:20: 19 lanzamientos, 10 partidas, ~7 min de media, 1 like. Verificado 15:23: sin cambios (sigue c7a66d1, sin commits nuevos); rebuild desde cero EN MARCHA — constructor activo (actividad hace segundos), compilando (tsconfig.tsbuildinfo tocado; futbol-rebuild/ sin commitear en wt-futbol-rebuild), sin commits aún; revisión RANKING 14:14 (título LEADERBOARDS cortado, sin clasificación real) pendiente de aplicar en el rebuild. Verificado 15:50: sin cambios (sigue c7a66d1, sin commits nuevos); rebuild desde cero EN MARCHA — constructor activo (actividad hace ~2 min), sin ficheros nuevos en wt-futbol-rebuild desde las 15:30, sin commits aún. Verificado 16:17: MENÚS NUEVOS ENTREGADOS 16:14 — commit 3b7edae (312 ficheros, rama niky/futbol-rebuild-metodo-nuevo-1711 en remoto): tsc -b 0, vitest 88/88, build producción 0, sondas 14/14 + Mundial 3/3, 0 errores de consola; capturas 390px en shots-menus/. Los 10 fallos resueltos (6 de la foto de Daniel + 4 de la revisión en vivo). Pendiente: preparar enlace de prueba APARTE sin tocar el build en vivo c7a66d1. Build en vivo sigue c7a66d1. Verificado 17:50: FALLO MÍO — Daniel abrió el enlace 17:45 y vio el build VIEJO c7a66d1 (dos «!» en DIARIO, texto en alemán, píldoras 330/11 sobre la foto): el rebuild de menús 3b7edae (16:14) solo estaba en el repo, NUNCA se subió a Playgama. ARREGLO EN MARCHA: app NUEVA aparte «Scribble Striker — Menús nuevos» creándose SOLO en Sandbox (tarea de navegador en marcha desde ~17:48; zip scribble-menus-rebuild-playgama.zip 3.767.431 B, 59 ficheros, verificado en disco); cuando esté, verificación en vivo pantalla a pantalla y solo entonces se pasa el enlace nuevo a Daniel. El enlace viejo sigue sirviendo c7a66d1 — no abrirlo esperando los menús nuevos.",
+      "status": "Sandbox — Live · build c7a66d1 republicado 12:46 (sin online: botón RANKING + clasificaciones locales; píldoras centradas 220@32 / 9@84; tienda 478 skins; foto del menú repintada sin «EN LÍNEA»). Menú en vivo verificado: RANKING visible. Pendiente: prueba de Daniel. Verificado 13:05–13:09: primera carga en blanco (marco vacío >50 s) — al recargar carga bien y el menú se mantiene estable. Panel: 19 lanzamientos, 10 partidas, ~7 min de media, 1 like. Impulso gratis +50: YA ESTABA ACTIVO (verificado 13:41) — no se reclamó otro; queda 1 impulso gratis para otros juegos. | REBUILD DESDE CERO con el metodo nuevo (orden Daniel 14:00, misma jugabilidad y normas): prototipo del verbo en construccion (constructor unico, rama niky/futbol-rebuild-metodo-nuevo-1711); Daniel juega el prototipo antes del juego completo. | REBUILD 14:00-ahora: constructor único en marcha (rama niky/futbol-rebuild-metodo-nuevo-1711); menús nuevos desde cero en construcción (live-ui.ts editado, compilando ahora; capturas de menús 14:20–14:21); prototipo del verbo archivado; sin entrega ni commit aún. Revisión RANKING en vivo COMPLETADA 14:14: título LEADERBOARDS cortado por la primera tarjeta, no hay clasificación real (solo 5 filas de stats propias en 0), >40% de pantalla vacía abajo; LIGA bien salvo solapes menores; hallazgos pasados al constructor. Build actual c7a66d1 intacto en vivo. Verificado 15:05: sin cambios (sigue c7a66d1, sin commits nuevos); rebuild de fútbol en marcha (agente de menús, ~1 h, sin commits aún); revisión RANKING 14:14: título LEADERBOARDS cortado por la tarjeta, sin clasificación real (5 filas de stats propias en 0), LIGA bien; métricas 13:20: 19 lanzamientos, 10 partidas, ~7 min de media, 1 like. Verificado 15:23: sin cambios (sigue c7a66d1, sin commits nuevos); rebuild desde cero EN MARCHA — constructor activo (actividad hace segundos), compilando (tsconfig.tsbuildinfo tocado; futbol-rebuild/ sin commitear en wt-futbol-rebuild), sin commits aún; revisión RANKING 14:14 (título LEADERBOARDS cortado, sin clasificación real) pendiente de aplicar en el rebuild. Verificado 15:50: sin cambios (sigue c7a66d1, sin commits nuevos); rebuild desde cero EN MARCHA — constructor activo (actividad hace ~2 min), sin ficheros nuevos en wt-futbol-rebuild desde las 15:30, sin commits aún. Verificado 16:17: MENÚS NUEVOS ENTREGADOS 16:14 — commit 3b7edae (312 ficheros, rama niky/futbol-rebuild-metodo-nuevo-1711 en remoto): tsc -b 0, vitest 88/88, build producción 0, sondas 14/14 + Mundial 3/3, 0 errores de consola; capturas 390px en shots-menus/. Los 10 fallos resueltos (6 de la foto de Daniel + 4 de la revisión en vivo). Pendiente: preparar enlace de prueba APARTE sin tocar el build en vivo c7a66d1. Build en vivo sigue c7a66d1. Verificado 17:50: FALLO MÍO — Daniel abrió el enlace 17:45 y vio el build VIEJO c7a66d1 (dos «!» en DIARIO, texto en alemán, píldoras 330/11 sobre la foto): el rebuild de menús 3b7edae (16:14) solo estaba en el repo, NUNCA se subió a Playgama. ARREGLO EN MARCHA: app NUEVA aparte «Scribble Striker — Menús nuevos» creándose SOLO en Sandbox (tarea de navegador en marcha desde ~17:48; zip scribble-menus-rebuild-playgama.zip 3.767.431 B, 59 ficheros, verificado en disco); cuando esté, verificación en vivo pantalla a pantalla y solo entonces se pasa el enlace nuevo a Daniel. El enlace viejo sigue sirviendo c7a66d1 — no abrirlo esperando los menús nuevos. Verificado 18:17: la app aparte «Scribble Striker — Menús nuevos» sigue creándose solo en Sandbox (tarea 068c50cc, ~29 min en marcha); sin enlace nuevo verificado aún.",
       "title": "Scribble Striker",
       "title_es": "Scribble Striker"
     }
@@ -176,7 +176,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Garden Dash v1.0 ENTREGADO (9b964e4) y subiéndose a Sandbox. Dance Dash: constructor caído por error del sistema, relanzado desde su trabajo guardado. Fútbol: rebuild de menús subiendo a app aparte. Island Tribe! (supervivencia, día y noche) en prototipo tras el reinicio.",
+  "resumen": "Garden Dash v1.0 ENTREGADO (9b964e4) y subiéndose a Sandbox ahora mismo; lo verifico yo en vivo antes de pasarte el enlace. Dance Dash relanzado 18:13 desde su trabajo guardado. Dungeon Delve e Island Tribe relanzados ~18:08 tras el reinicio del sistema. Fútbol: la app aparte «Menús nuevos» sigue creándose en Sandbox. 7 juegos completos en marcha, todos activos.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -240,14 +240,14 @@
       "paso": "Diseño final del juego completo, generando niveles (en verificación)",
       "queda": "~juego completo (diseño + capítulos + tienda + clasificación + reto diario); sin estimación del constructor, lleva ~2 h 15 min",
       "slug": "sand-jam",
-      "status": "EN MARCHA — JUEGO COMPLETO en marcha: diseño final, generando niveles; constructor activo hace segundos (~1 h 45 min). Último fichero 16:20 (.gen-tmp/board.js); cambios sin commitear (config, i18n, board, save, main). Prototipo en Sandbox: https://playgama.ai/play/azpay45lww6lxr — Verificado 17:20: sin commits nuevos aún, en verificación. Verificado 17:50: en marcha, activo; 3 ficheros nuevos desde 17:20 (src/logic/levels.ts 17:50); sin commits nuevos.",
+      "status": "EN MARCHA — JUEGO COMPLETO en marcha: diseño final, generando niveles; constructor activo hace segundos (~1 h 45 min). Último fichero 16:20 (.gen-tmp/board.js); cambios sin commitear (config, i18n, board, save, main). Prototipo en Sandbox: https://playgama.ai/play/azpay45lww6lxr — Verificado 17:20: sin commits nuevos aún, en verificación. Verificado 17:50: en marcha, activo; 3 ficheros nuevos desde 17:20 (src/logic/levels.ts 17:50); sin commits nuevos. Verificado 18:17: constructor activo; sin commit nuevo aún.",
       "title": "Sand Jam!"
     },
     {
       "paso": "v1.0 entregada 16:13; arreglo puntual de la tarjeta Orange Bandana en marcha",
       "queda": "~arreglo de la tarjeta + re-verificación + subir a Sandbox + prueba de Daniel",
       "slug": "burger-boss",
-      "status": "EN MARCHA — JUEGO COMPLETO v1.0 ENTREGADO 16:13 (commit 01b0978 en niky/burger-boss-1711, pusheado): capítulos A/B/C, tienda 60 skins, reto diario, clasificación, continuar por vídeo. AHORA: arreglo puntual en marcha de la tarjeta «Orange Bandana» de la tienda (nombre solapado, verificado a zoom 3x); agente activo desde ~17:14, sin commit aún. Prototipo v0.3 en Sandbox: https://playgama.ai/play/b7hkobvbpa2ssu — Verificado 17:20: v1.0 entregada; queda ~arreglo + re-verificación + subir a Sandbox + prueba de Daniel. Verificado 17:50: arreglo en marcha, activo; 1 fichero nuevo desde 17:20 (src/meta.ts 17:31); sin commit aún.",
+      "status": "EN MARCHA — JUEGO COMPLETO v1.0 ENTREGADO 16:13 (commit 01b0978 en niky/burger-boss-1711, pusheado): capítulos A/B/C, tienda 60 skins, reto diario, clasificación, continuar por vídeo. AHORA: arreglo puntual en marcha de la tarjeta «Orange Bandana» de la tienda (nombre solapado, verificado a zoom 3x); agente activo desde ~17:14, sin commit aún. Prototipo v0.3 en Sandbox: https://playgama.ai/play/b7hkobvbpa2ssu — Verificado 17:20: v1.0 entregada; queda ~arreglo + re-verificación + subir a Sandbox + prueba de Daniel. Verificado 17:50: arreglo en marcha, activo; 1 fichero nuevo desde 17:20 (src/meta.ts 17:31); sin commit aún. Verificado 18:17: arreglo en marcha, agente activo (77603777, ~1 h); sin commit nuevo aún.",
       "title": "Burger Boss!",
       "commit": "01b0978"
     },
@@ -255,32 +255,32 @@
       "paso": "Diseño final del juego completo, en verificación",
       "queda": "~juego completo (diseño + capítulos + tienda + clasificación + reto diario); sin estimación del constructor, lleva ~1 h 35 min",
       "slug": "rocket-rescue",
-      "status": "EN MARCHA — JUEGO COMPLETO en marcha: diseño final, en verificación (dist-qa 16:19, diag-nav.py 16:20); constructor activo hace ~2 min (~1 h 5 min). Prototipo en Sandbox: https://playgama.ai/play/eq3htmnbq4gxz2 — Verificado 17:20: sin commits nuevos aún, en verificación. Verificado 17:50: en marcha, activo; 24 ficheros nuevos desde 17:20 (diag-flame.py 17:50); sin commits nuevos.",
+      "status": "EN MARCHA — JUEGO COMPLETO en marcha: diseño final, en verificación (dist-qa 16:19, diag-nav.py 16:20); constructor activo hace ~2 min (~1 h 5 min). Prototipo en Sandbox: https://playgama.ai/play/eq3htmnbq4gxz2 — Verificado 17:20: sin commits nuevos aún, en verificación. Verificado 17:50: en marcha, activo; 24 ficheros nuevos desde 17:20 (diag-flame.py 17:50); sin commits nuevos. Verificado 18:17: constructor activo; sin commit nuevo aún.",
       "title": "Rocket Rescue!"
     },
     {
       "design": "A (Discoteca), B (K-pop) y C (Rave robot) son capítulos del juego",
       "mockup": "idea-24-variant-a.png",
       "slug": "dance-dash",
-      "status": "EN MARCHA — JUEGO COMPLETO en marcha: diseño final desde la variante A (discoteca) + capítulos K-pop y rave robot; constructor activo hace segundos (~50 min). Últimos ficheros 16:18-16:20 (shots, playtest-full.py). Prototipo en Sandbox: https://playgama.ai/play/morggaiqrsm5xh — Verificado 17:20: sin commits nuevos aún, en verificación. Verificado 17:50: en marcha, activo; 12 ficheros nuevos desde 17:20 (shots/full-game-daily.png 17:48); sin commits nuevos.",
+      "status": "EN MARCHA — JUEGO COMPLETO en marcha: diseño final desde la variante A (discoteca) + capítulos K-pop y rave robot; constructor activo hace segundos (~50 min). Últimos ficheros 16:18-16:20 (shots, playtest-full.py). Prototipo en Sandbox: https://playgama.ai/play/morggaiqrsm5xh — Verificado 17:20: sin commits nuevos aún, en verificación. Verificado 17:50: en marcha, activo; 12 ficheros nuevos desde 17:20 (shots/full-game-daily.png 17:48); sin commits nuevos. Verificado 18:17: el constructor anterior cayó 18:13 por un error del sistema (sqlx pool timed out); relanzado 18:13 (24866429) desde su trabajo guardado en disco (README + 10 ficheros src/); sin commit nuevo aún.",
       "title": "Dance Dash!",
-      "paso": "Diseño final del juego completo (variante A + capítulos)",
-      "queda": "~juego completo (diseño + capítulos + tienda + clasificación + reto diario); sin estimación del constructor, lleva ~1 h 20 min"
+      "paso": "Juego completo: constructor relanzado 18:13, continuando desde su trabajo guardado (variante A + capítulos)",
+      "queda": "~juego completo (diseño + capítulos + tienda + clasificación + reto diario); sin estimación del constructor, relanzado 18:13"
     },
     {
       "design": "A (flores), B (huerto) y C (cactus) son capítulos del juego",
       "mockup": "idea-13-variant-a.png",
       "slug": "garden-dash",
-      "status": "LISTO PARA PROBAR — juego COMPLETO v1.0 ENTREGADO 18:16 (commit 9b964e4, zip 553.877 B verificado por mí: sendMessage 2×, game_ready 1×). 3 mundos, tienda 60 skins, reto diario, clasificación. Subiendo el build nuevo a la app Sandbox existente (75x2gbyp5eosbl); queda ~verificarlo yo en vivo pantalla a pantalla y pasarte el enlace. Pregunta abierta: ¿runner o regar?",
+      "status": "LISTO PARA PROBAR — juego COMPLETO v1.0 ENTREGADO 18:16 (commit 9b964e4, zip 553.877 B verificado por mí: sendMessage 2×, game_ready 1×). 3 mundos, tienda 60 skins, reto diario, clasificación. Subiendo el build nuevo a la app Sandbox existente (75x2gbyp5eosbl); queda ~verificarlo yo en vivo pantalla a pantalla y pasarte el enlace. Pregunta abierta: ¿runner o regar? Verificado 18:17: subiendo el build a la app Sandbox existente (tarea cc003599); pendiente mi verificación en vivo antes de pasarte el enlace.",
       "title": "Garden Dash!",
-      "paso": "Diseño final del juego completo (variante A + capítulos), en verificación",
-      "queda": "~juego completo (diseño + capítulos + tienda + clasificación + reto diario); sin estimación del constructor, lleva ~1 h 20 min"
+      "paso": "Juego completo v1.0 entregado 18:16; subiendo el build a Sandbox",
+      "queda": "~subida a Sandbox + mi verificación en vivo + prueba de Daniel"
     },
     {
       "design": "A (Caramelo), B (Robots) y C (Marinas) son capítulos del juego",
       "mockup": "idea-18-variant-a.png",
       "slug": "monster-merge",
-      "status": "EN MARCHA — JUEGO COMPLETO en marcha: diseño final desde la variante A (monstruos de caramelo) + capítulos taller de robots y criaturas marinas; constructor activo hace ~1 min (~50 min). Último fichero 16:06 (shots-fullgame). Prototipo en Sandbox: https://playgama.ai/play/rfjxcyqvmsm2ux — Verificado 17:20: sin commits nuevos aún, en verificación. Verificado 17:50: en marcha, activo; 1 fichero nuevo desde 17:20 (scripts/playtest-fullgame.py 17:47); sin commits nuevos.",
+      "status": "EN MARCHA — JUEGO COMPLETO en marcha: diseño final desde la variante A (monstruos de caramelo) + capítulos taller de robots y criaturas marinas; constructor activo hace ~1 min (~50 min). Último fichero 16:06 (shots-fullgame). Prototipo en Sandbox: https://playgama.ai/play/rfjxcyqvmsm2ux — Verificado 17:20: sin commits nuevos aún, en verificación. Verificado 17:50: en marcha, activo; 1 fichero nuevo desde 17:20 (scripts/playtest-fullgame.py 17:47); sin commits nuevos. Verificado 18:17: constructor activo; sin commit nuevo aún.",
       "title": "Monster Merge!",
       "paso": "Diseño final del juego completo (variante A + capítulos)",
       "queda": "~juego completo (diseño + capítulos + tienda + clasificación + reto diario); sin estimación del constructor, lleva ~1 h 20 min"
@@ -289,7 +289,7 @@
       "design": "Variante B (templo de la jungla) como base; A (museo de noche) y C (estáción espacial) como capítulos que se desbloquean",
       "mockup": "idea-4-variant-b.png",
       "slug": "sneak-out",
-      "status": "EN MARCHA — JUEGO COMPLETO en marcha: diseño final desde la variante B (templo) + capítulos museo y estación espacial; constructor activo hace ~3 min (~50 min). La sonda shots-full.py está CORRIENDO ahora (Chromium activo); último fichero 16:21. Prototipo en Sandbox: https://playgama.ai/play/dtrgkll5zisava — Verificado 17:20: sin commits nuevos aún, en verificación. Verificado 17:50: en marcha, activo; 22 ficheros nuevos desde 17:20 (scripts/shots-full.py 17:50); sin commits nuevos.",
+      "status": "EN MARCHA — JUEGO COMPLETO en marcha: diseño final desde la variante B (templo) + capítulos museo y estación espacial; constructor activo hace ~3 min (~50 min). La sonda shots-full.py está CORRIENDO ahora (Chromium activo); último fichero 16:21. Prototipo en Sandbox: https://playgama.ai/play/dtrgkll5zisava — Verificado 17:20: sin commits nuevos aún, en verificación. Verificado 17:50: en marcha, activo; 22 ficheros nuevos desde 17:20 (scripts/shots-full.py 17:50); sin commits nuevos. Verificado 18:17: constructor activo; sin commit nuevo aún.",
       "title": "Sneak Out!",
       "paso": "Diseño final del juego completo (variante B + capítulos), sonda de verificación corriendo",
       "queda": "~juego completo (diseño + capítulos + tienda + clasificación + reto diario); sin estimación del constructor, lleva ~1 h 20 min"
@@ -769,6 +769,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 18:16",
+  "updated_at": "2026-11-17 18:17",
   "updated_by": "Dani (cron 30 min)"
 }
