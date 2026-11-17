@@ -33,6 +33,6 @@ python3 scripts/precheck-zip.py # precheck del zip de producción
 - `src/rules/` — reglas puras (sin Phaser), con tests
 - `src/bridge/` — wrapper del Bridge de Playgama
 - `src/scenes/` — Boot, Menu, Map, Game, Results (+ `ui.ts`)
-- `src/i18n.ts`, `src/audio.ts` (SFX sintetizados), `src/save.ts`
+- `src/i18n.ts`, `src/haptics.ts` (solo vibración; sin audio), `src/save.ts`
 - `scripts/` — process-art, smoke-test, record-short, make-short, make-covers, precheck-zip, update-office-json
 - `tests/` — tests unitarios + capturas del smoke test

@@ -5,7 +5,6 @@
 
 import Phaser from 'phaser';
 import { t } from '../i18n';
-import { playSfx } from '../audio';
 import { showInterstitial, showRewarded, isRewardedSupported, isInterstitialSupported } from '../bridge/bridge';
 import { makeButton, shadowed, coverFit } from './ui';
 
@@ -64,9 +63,6 @@ export default class ResultsScene extends Phaser.Scene {
         duration: 350,
         delay: 350 + i * 350,
         ease: 'Back.easeOut',
-        onStart: () => {
-          if (i < d.stars) playSfx('star');
-        },
       });
     }
 
@@ -84,13 +80,11 @@ export default class ResultsScene extends Phaser.Scene {
     const btnY = H * 0.72;
     if (d.completed) {
       makeButton(this, W / 2, btnY, t('next'), () => {
-        playSfx('click');
         this.scene.start('Map');
       }, { w: 260, h: 88, fontSize: 30 });
       // Rewarded Luck x2 for the next round (opt-in only).
       if (isRewardedSupported()) {
         makeButton(this, W / 2, btnY + 104, `${t('luck')} — ${t('watchAd')} ▶`, () => {
-          playSfx('click');
           void showRewarded().then((rewarded) => {
             if (rewarded) {
               this.registry.set('luckUntil', Date.now() + 30000);
@@ -101,12 +95,10 @@ export default class ResultsScene extends Phaser.Scene {
       }
     } else {
       makeButton(this, W / 2, btnY, t('retry'), () => {
-        playSfx('click');
         this.scene.start('Game', { level: d.daily ? -1 : d.level });
       }, { w: 260, h: 88, fontSize: 30 });
     }
     makeButton(this, W / 2, H * 0.72 + (d.completed && isRewardedSupported() ? 196 : 104), t('menu'), () => {
-      playSfx('click');
       this.scene.start('Map');
     }, { w: 200, h: 60, fontSize: 22, bg: 0x616161, border: 0x424242 });
 

@@ -1,12 +1,13 @@
 // Doubloon Rush — BootScene: loads all assets, waits for the font,
-// initialises the Playgama Bridge, picks the language (EN default,
-// Spanish only for es/es-MX), then sends game_ready when the first
-// frame is playable and hands over to the menu.
+// then hands over to the menu. The Bridge is initialised in main.ts
+// BEFORE the engine starts; game_ready is sent here, on the first frame
+// (before the font wait), so Playgama's QA window never closes first.
+// (r1 sent it ~2.5-5.5 s after load, after the font race + bridge init
+// inside this scene — the QA tool had already failed the check by then.)
 
 import Phaser from 'phaser';
-import { initBridge, bridgeLanguage, sendGameReady, onBridgeEvent } from '../bridge/bridge';
+import { bridgeLanguage, sendGameReady, onBridgeEvent } from '../bridge/bridge';
 import { setLang } from '../i18n';
-import { setPlatformMuted } from '../audio';
 
 export default class BootScene extends Phaser.Scene {
   constructor() {
@@ -30,32 +31,30 @@ export default class BootScene extends Phaser.Scene {
   }
 
   create(): void {
+    // First frame is playable as soon as this scene renders: tell the
+    // platform NOW, before the font wait below. The Bridge is already
+    // initialised (main.ts awaited it before creating the game).
+    sendGameReady();
+
     const finish = () => {
-      void initBridge().then(() => {
-        setLang(bridgeLanguage());
-        // Platform pause / audio / visibility events.
-        onBridgeEvent('pause', (state) => {
-          const game = this.scene.get('Game') as unknown as {
-            autoPause?: () => void;
-            autoResume?: () => void;
-          };
-          const paused = state === 'true' || state === 'paused' || state === 'hidden';
-          if (paused) game.autoPause?.();
-          else game.autoResume?.();
-        });
-        onBridgeEvent('visibility', (state) => {
-          if (state === 'hidden' || state === 'false') {
-            const game = this.scene.get('Game') as unknown as { autoPause?: () => void };
-            game.autoPause?.();
-          }
-        });
-        onBridgeEvent('audio', (state) => {
-          setPlatformMuted(state === 'false' || state === 'muted' || state === 'off');
-        });
-        this.scene.start('Menu');
-        // First frame is playable as soon as the menu shows.
-        this.time.delayedCall(50, () => sendGameReady());
+      setLang(bridgeLanguage());
+      // Platform pause / visibility events.
+      onBridgeEvent('pause', (state) => {
+        const game = this.scene.get('Game') as unknown as {
+          autoPause?: () => void;
+          autoResume?: () => void;
+        };
+        const paused = state === 'true' || state === 'paused' || state === 'hidden';
+        if (paused) game.autoPause?.();
+        else game.autoResume?.();
       });
+      onBridgeEvent('visibility', (state) => {
+        if (state === 'hidden' || state === 'false') {
+          const game = this.scene.get('Game') as unknown as { autoPause?: () => void };
+          game.autoPause?.();
+        }
+      });
+      this.scene.start('Menu');
     };
 
     // Wait for the display font so the first frame never shows fallback text.

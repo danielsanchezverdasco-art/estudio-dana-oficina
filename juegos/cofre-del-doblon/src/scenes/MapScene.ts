@@ -14,7 +14,6 @@ import {
   TOTAL_LEVELS,
   type SaveData,
 } from '../save';
-import { playSfx } from '../audio';
 import { coverFit, makeButton, makeIconButton, shadowed } from './ui';
 
 export default class MapScene extends Phaser.Scene {
@@ -33,7 +32,6 @@ export default class MapScene extends Phaser.Scene {
 
     shadowed(this, W / 2, 46, t('map'), 40, '#ffd23e');
     makeIconButton(this, 40, 44, '‹', () => {
-      playSfx('click');
       this.scene.start('Menu');
     });
 
@@ -45,7 +43,6 @@ export default class MapScene extends Phaser.Scene {
 
     // Daily challenge button (bottom).
     makeButton(this, W / 2, H - 56, `${t('daily')} ★`, () => {
-      playSfx('click');
       this.scene.start('Game', { level: -1 }); // -1 = daily challenge
     }, { w: 280, h: 72, fontSize: 24, bg: 0x6a1b9a, border: 0x4a148c });
 
@@ -110,7 +107,6 @@ export default class MapScene extends Phaser.Scene {
           Phaser.Geom.Rectangle.Contains,
         );
         node.on('pointerup', () => {
-          playSfx('click');
           this.scene.start('Game', { level });
         });
       } else {

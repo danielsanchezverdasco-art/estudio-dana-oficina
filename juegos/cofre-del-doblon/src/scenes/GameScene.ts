@@ -21,7 +21,7 @@ import {
   type SpawnKind,
 } from '../rules/rules';
 import { loadSave, writeSave, isLevelUnlocked, TOTAL_LEVELS, type SaveData } from '../save';
-import { playSfx, vibrate, setMuted } from '../audio';
+import { vibrate } from '../haptics';
 import { showRewarded, isRewardedSupported } from '../bridge/bridge';
 import { makeButton, makeIconButton, makePanel, shadowed, coverFit, textStyle, CREAM } from './ui';
 import MapScene from './MapScene';
@@ -75,7 +75,6 @@ export default class GameScene extends Phaser.Scene {
   private luckText!: Phaser.GameObjects.Text;
   private levelText!: Phaser.GameObjects.Text;
   private pauseBtn: Phaser.GameObjects.Container | null = null;
-  private muteBtn: Phaser.GameObjects.Container | null = null;
   private startOverlay: Phaser.GameObjects.Container | null = null;
   private pauseOverlay: Phaser.GameObjects.Container | null = null;
 
@@ -102,7 +101,6 @@ export default class GameScene extends Phaser.Scene {
 
     void loadSave().then((save) => {
       this.save = save;
-      setMuted(!save.soundOn);
       const lvl = this.daily ? Math.max(1, save.unlockedLevel) : this.level;
       this.cfg = levelConfig(lvl);
       if (this.daily) {
@@ -191,12 +189,6 @@ export default class GameScene extends Phaser.Scene {
     this.luckText = shadowed(this, W / 2, 58, '', 18, '#7CFC00').setOrigin(0.5);
 
     this.pauseBtn = makeIconButton(this, W - 40, 108, 'II', () => this.togglePause(), 52);
-    this.muteBtn = makeIconButton(this, W - 100, 108, '♪', () => {
-      if (!this.save) return;
-      this.save.soundOn = !this.save.soundOn;
-      setMuted(!this.save.soundOn);
-      void writeSave(this.save);
-    }, 52);
     this.levelText = shadowed(this, 16, 108, this.daily ? t('daily') : `${t('level')} ${this.level}`, 22).setOrigin(0, 0.5);
   }
 
@@ -208,7 +200,6 @@ export default class GameScene extends Phaser.Scene {
     this.oddsText?.setX(W - 16);
     this.luckText?.setX(W / 2);
     this.pauseBtn?.setPosition(W - 40, 108);
-    this.muteBtn?.setPosition(W - 100, 108);
   }
 
   private luckMultiplier(): number {
@@ -246,7 +237,6 @@ export default class GameScene extends Phaser.Scene {
       Phaser.Geom.Rectangle.Contains,
     );
     dim.on('pointerdown', () => {
-      playSfx('click');
       overlay.destroy();
       this.startOverlay = null;
       this.startRound();
@@ -306,23 +296,19 @@ export default class GameScene extends Phaser.Scene {
       const title = shadowed(this, 0, -140, t('pause'), 36, '#ffd23e');
       const resume = makeButton(this, 0, -40, t('resume'), () => this.togglePause(), { w: 220, h: 72, fontSize: 26 });
       const restart = makeButton(this, 0, 50, t('restart'), () => {
-        playSfx('click');
         this.scene.restart({ level: this.daily ? -1 : this.level });
       }, { w: 220, h: 72, fontSize: 26, bg: 0x8a5a2b, border: 0x5d3a17 });
       const menu = makeButton(this, 0, 140, t('menu'), () => {
-        playSfx('click');
         this.scene.start('Map');
       }, { w: 220, h: 72, fontSize: 26, bg: 0x616161, border: 0x424242 });
       container.add([title, resume, restart, menu]);
       this.pauseOverlay = container;
-      playSfx('click');
     } else {
       this.pausedFlag = false;
       this.time.paused = false;
       this.tweens.paused = false;
       this.pauseOverlay?.destroy();
       this.pauseOverlay = null;
-      playSfx('click');
     }
   }
 
@@ -413,7 +399,6 @@ export default class GameScene extends Phaser.Scene {
     ) {
       this.showTutorialHand(cell, t('tutorialTap'));
     }
-    playSfx('pop');
   }
 
   private startCrabWalk(popup: Popup): void {
@@ -435,7 +420,6 @@ export default class GameScene extends Phaser.Scene {
         const victim = this.popups.get(target);
         if (victim && victim.state === 'up' && (victim.kind === 'wood' || victim.kind === 'silver' || victim.kind === 'gold')) {
           this.floatText(to.x, to.y - 30, t('crabStole'), '#ff6b6b');
-          playSfx('crab');
           this.sinkPopup(victim, true);
         }
         this.sinkPopup(popup, false);
@@ -513,7 +497,6 @@ export default class GameScene extends Phaser.Scene {
     this.combo += 1;
     const pts = pointsFor(kind, this.combo, this.luckMultiplier());
     this.score += pts;
-    playSfx(kind === 'gold' ? 'gold' : 'coin');
     vibrate(12);
     this.coinBurst(popup.container.x, popup.container.y - 20, 5);
     this.floatText(popup.container.x, popup.container.y - 60, `+${pts}`, '#ffd23e');
@@ -538,7 +521,6 @@ export default class GameScene extends Phaser.Scene {
     this.doubloonsFound += 1;
     const pts = pointsFor('doubloon', this.combo, this.luckMultiplier());
     this.score += pts;
-    playSfx('doubloon');
     vibrate(80);
     this.coinBurst(popup.container.x, popup.container.y - 40, 16);
     this.floatText(popup.container.x, popup.container.y - 90, t('doubloonFound'), '#ffd23e', 30);
@@ -558,7 +540,6 @@ export default class GameScene extends Phaser.Scene {
     this.combo += 1;
     const pts = pointsFor('crab', this.combo, this.luckMultiplier());
     this.score += pts;
-    playSfx('crab');
     vibrate(12);
     this.floatText(popup.container.x, popup.container.y - 60, `+${pts}`, '#7CFC00');
     this.updateHud();
@@ -587,7 +568,6 @@ export default class GameScene extends Phaser.Scene {
     const { livesLost } = bombPenalty();
     this.lives -= livesLost;
     this.combo = 0;
-    playSfx('bomb');
     vibrate([60, 40, 60]);
     this.floatText(popup.container.x, popup.container.y - 60, t('bombHit'), '#ff6b6b', 24);
     this.cameras.main.shake(180, 0.008);
@@ -624,7 +604,6 @@ export default class GameScene extends Phaser.Scene {
     const title = shadowed(this, 0, -130, t('levelFailed'), 32, '#ff6b6b');
     const desc = shadowed(this, 0, -70, t('continueDesc'), 20);
     const watch = makeButton(this, 0, 0, `${t('watchAd')} ▶`, () => {
-      playSfx('click');
       container.destroy();
       void showRewarded().then((rewarded) => {
         if (rewarded) {
@@ -639,7 +618,6 @@ export default class GameScene extends Phaser.Scene {
       });
     }, { w: 260, h: 72, fontSize: 24 });
     const no = makeButton(this, 0, 90, t('noThanks'), () => {
-      playSfx('click');
       container.destroy();
       void this.endRound(false);
     }, { w: 260, h: 72, fontSize: 24, bg: 0x616161, border: 0x424242 });
@@ -730,7 +708,6 @@ export default class GameScene extends Phaser.Scene {
       if (this.daily) await MapScene.markDailyPlayed(save);
       await writeSave(save);
     }
-    playSfx(completed && stars > 0 ? 'win' : 'lose');
     this.scene.start('Results', {
       level: this.level,
       daily: this.daily,

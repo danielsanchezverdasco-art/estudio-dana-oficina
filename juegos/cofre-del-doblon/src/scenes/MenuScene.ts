@@ -1,16 +1,14 @@
 // Doubloon Rush — MenuScene: illustrated beach menu (title in the calm sky
-// area, PLAY / HOW TO, sound toggle, Dana octopus mascot cameo).
-// Tapping the baked-in chest fires a coin fountain + parrot squawk.
+// area, PLAY / HOW TO, Dana octopus mascot cameo).
+// Tapping the baked-in chest fires a coin fountain.
 
 import Phaser from 'phaser';
 import { t } from '../i18n';
-import { loadSave, totalStars, writeSave } from '../save';
-import { playSfx, setMuted, isMuted, vibrate } from '../audio';
-import { coverFit, makeButton, makeIconButton, makePanel, shadowed, FONT, CREAM } from './ui';
+import { loadSave, totalStars } from '../save';
+import { vibrate } from '../haptics';
+import { coverFit, makeButton, makePanel, shadowed, FONT, CREAM } from './ui';
 
 export default class MenuScene extends Phaser.Scene {
-  private soundBtn: Phaser.GameObjects.Container | null = null;
-  private soundLabel: Phaser.GameObjects.Text | null = null;
   private octopus: Phaser.GameObjects.Image | null = null;
 
   constructor() {
@@ -64,14 +62,12 @@ export default class MenuScene extends Phaser.Scene {
       .setScale(0.09)
       .setInteractive(); // default hit area = the whole sprite
     this.octopus.on('pointerdown', () => {
-      playSfx('squawk');
       vibrate(15);
       this.tweens.add({ targets: this.octopus, scale: 0.12, duration: 120, yoyo: true });
     });
 
     // Buttons.
     const playBtn = makeButton(this, W / 2, H * 0.86, t('play'), () => {
-      playSfx('click');
       this.scene.start('Map');
     });
     playBtn.setScale(1);
@@ -83,27 +79,13 @@ export default class MenuScene extends Phaser.Scene {
       H * 0.86 + 100,
       t('howTo'),
       () => {
-        playSfx('click');
         this.showHowTo();
       },
       { w: 200, h: 56, fontSize: 22, bg: 0x8a5a2b, border: 0x5d3a17 },
     );
 
-    // Sound toggle (top-right).
-    this.soundBtn = makeIconButton(this, W - 44, 44, '♪', () => {
-      void loadSave().then((save) => {
-        save.soundOn = !save.soundOn;
-        setMuted(!save.soundOn);
-        this.soundLabel?.setText(save.soundOn ? '♪' : '✕');
-        void writeSave(save);
-      });
-    });
-    this.soundLabel = this.soundBtn.getAt(1) as Phaser.GameObjects.Text;
-
     // Best + stars line (top-left).
     void loadSave().then((save) => {
-      setMuted(!save.soundOn);
-      this.soundLabel?.setText(save.soundOn ? '♪' : '✕');
       const best = Math.max(0, ...Object.values(save.bestScores));
       shadowed(this, 16, 28, `★ ${totalStars(save)}/90   ${t('best')}: ${best}`, 20).setOrigin(0, 0.5);
     });
@@ -115,7 +97,6 @@ export default class MenuScene extends Phaser.Scene {
   }
 
   private coinBurst(x: number, y: number): void {
-    playSfx('coin');
     vibrate(10);
     for (let i = 0; i < 8; i++) {
       const coin = this.add
@@ -157,7 +138,6 @@ export default class MenuScene extends Phaser.Scene {
     });
 
     const close = makeButton(this, 0, 185, t('menu'), () => {
-      playSfx('click');
       panel.destroy();
     }, { w: 180, h: 56, fontSize: 22 });
     panel.add(close);

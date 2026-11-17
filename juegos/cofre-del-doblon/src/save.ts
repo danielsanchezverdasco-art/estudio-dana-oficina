@@ -23,8 +23,6 @@ export interface SaveData {
   lastDailyDate: string | null;
   /** Doubloons found in total. */
   doubloonsFound: number;
-  /** Sound on/off. */
-  soundOn: boolean;
   /** Tutorial seen. */
   tutorialSeen: boolean;
 }
@@ -39,7 +37,6 @@ export function defaultSave(): SaveData {
     streakDays: 0,
     lastDailyDate: null,
     doubloonsFound: 0,
-    soundOn: true,
     tutorialSeen: false,
   };
 }
