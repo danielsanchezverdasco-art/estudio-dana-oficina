@@ -105,13 +105,6 @@
       "title": "Pet Vet!"
     },
     {
-      "paso": "Prototipo ENTREGADO y pusheado 15:43 (498121c): menú + aterrizador (mantener para impulsar)",
-      "queda": "Zip de Playgama + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación del constructor",
-      "slug": "rocket-rescue",
-      "status": "EN MARCHA — Prototipo ENTREGADO y PUSHEADO 15:43 (498121c, rama niky/rocket-rescue-1711 en remoto): prototipo del verbo (menú + aterrizador, mantener para impulsar). Daniel juega el prototipo antes del juego completo. | Paso: prototipo en remoto; falta el zip de Playgama | Queda: ~zip de Playgama + prueba de Daniel + juego completo; sin estimación del constructor. Verificado 15:50.",
-      "title": "Rocket Rescue!"
-    },
-    {
       "paso": "Prototipo ENTREGADO y pusheado 15:33 (9ff3364): arrastrar monstruos iguales para fusionar",
       "queda": "Zip de Playgama + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación del constructor",
       "slug": "monster-merge",
@@ -209,7 +202,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Actualización 15:50 — Burger Boss v0.3 YA EN SANDBOX: https://playgama.ai/play/b7hkobvbpa2ssu — listo para probar. Sand Jam: prototipo ya commiteado y pusheado (d333f9a 15:48), diseño final en marcha. 4 prototipos nuevos entregados y pusheados tras liberar la cuota: Garden Dash (15:21), Dance Dash (15:30), Monster Merge (15:33) y Rocket Rescue (15:43). Fútbol: rebuild de menús en marcha, sin commits aún.",
+  "resumen": "Actualización 16:08 — Rocket Rescue PROTOTIPO EN SANDBOX: https://playgama.ai/play/eq3htmnbq4gxz2 — listo para probar. Sand Jam y Burger Boss con el diseño final en marcha. Limpieza disco lote 3 (borrar las 92) en marcha. Fútbol: rebuild de menús en marcha.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -282,6 +275,20 @@
       "slug": "burger-boss",
       "status": "PROTOTIPO EN SANDBOX (v0.3, Bridge arreglado) — https://playgama.ai/play/b7hkobvbpa2ssu — Pruébalo: monta hamburguesas por pedido contra el reloj (90 s, 3 tickets, combos). Bug de los mini-stacks arreglado en v0.2. Pendiente tu feedback.",
       "title": "Burger Boss!"
+    },
+    {
+      "paso": "Prototipo ENTREGADO y pusheado 15:43 (498121c): menú + aterrizador (mantener para impulsar)",
+      "queda": "Zip de Playgama + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación del constructor",
+      "slug": "rocket-rescue",
+      "status": "PROTOTIPO EN SANDBOX — https://playgama.ai/play/eq3htmnbq4gxz2 — Pruébalo: aterriza el cohete en las plataformas, rescata astronautas, 60 s por ronda. Matiz: el menú sale en español («¡RESCATE COHETE!», «JUGAR») pero el HUD en inglés. Pendiente tu feedback.",
+      "title": "Rocket Rescue!"
+    },
+    {
+      "design": "A (Base lunar), B (Cañón de Marte) y C (Plataforma oceánica) son capítulos del juego",
+      "mockup": "idea-17-variant-a.png",
+      "slug": "rocket-rescue",
+      "status": "PROTOTIPO EN SANDBOX — https://playgama.ai/play/eq3htmnbq4gxz2 — Pruébalo: aterriza el cohete en las plataformas, rescata astronautas, 60 s por ronda. Matiz: el menú sale en español («¡RESCATE COHETE!», «JUGAR») pero el HUD en inglés. Pendiente tu feedback.",
+      "title": "Rocket Rescue!"
     }
   ],
   "upcoming": [
@@ -354,13 +361,6 @@
       "slug": "pet-vet",
       "status": "Aceptado por Daniel 18:21 — en cola, tras Slingshot Smásh",
       "title": "Pet Vet!"
-    },
-    {
-      "design": "A (Base lunar), B (Cañón de Marte) y C (Plataforma oceánica) son capítulos del juego",
-      "mockup": "idea-17-variant-a.png",
-      "slug": "rocket-rescue",
-      "status": "Aceptado por Daniel 19:05 — en cola, tras Pet Vet",
-      "title": "Rocket Rescue!"
     },
     {
       "design": "A (Caramelo), B (Robots) y C (Marinas) son capítulos del juego",
@@ -778,6 +778,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 15:57",
+  "updated_at": "2026-11-17 16:08",
   "updated_by": "Dani (cron 30 min)"
 }
