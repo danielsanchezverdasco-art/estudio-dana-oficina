@@ -49,66 +49,66 @@
       "title": "Cyber Runner"
     },
     {
-      "paso": "Coordinador de relanzamiento LANZADO ~16:16 (8 juegos + Diggy Dash); retomando tras liberar la cuota (disco 81G usados / 69G libres, 55%)",
-      "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
+      "paso": "Constructor relanzado, en verificación del prototipo",
+      "queda": "~terminar verificación + push + Sandbox + prueba de Daniel; sin estimación del constructor, lleva ~35 min en marcha",
       "slug": "crowd-clash",
-      "status": "BLOQUEADO — Prototipo ESCRITO y probado en parte, pero parado por cuota de disco antes de terminar la verificación y el push (rama niky/crowd-clash-1711, sin commits nuevos). El constructor paró por orden expresa de su tarea. | Paso: código escrito, pendiente verificar + pushear + entregar | Queda: ~liberar cuota de disco + verificar + push + prueba de Daniel + juego completo; sin estimación (depende de la cuota). Verificado 15:23: sin rama en remoto (ls-remote: solo burger-boss 191edc4, esculpe cb063ce); cuota de disco liberada ~15:16, los constructores parados pueden retomar. Verificado 15:50: sin commits en remoto (ramas sin crear); cuota liberada ~15:16, pendientes de retomar. Verificado 16:17: coordinador de relanzamiento LANZADO ~16:16; disco 81G usados / 69G libres (55%); sin commits nuevos aún (acaba de arrancar).",
+      "status": "EN MARCHA — Constructor RELANZADO tras fallar el anterior por un error de infraestructura del runtime (restart drain); ficheros frescos (shots/longprobe-partial.json ~16:52), en verificación. Queda terminar verificación + push + Sandbox. Verificado 16:52: 20 ficheros nuevos desde 16:15.",
       "title": "Crowd Clash!"
     },
     {
-      "paso": "Coordinador de relanzamiento LANZADO ~16:16 (8 juegos + Diggy Dash); retomando tras liberar la cuota (disco 81G usados / 69G libres, 55%)",
-      "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
+      "paso": "Construyendo el prototipo",
+      "queda": "~terminar verificación + push + Sandbox + prueba de Daniel; sin estimación del constructor, lleva ~35 min en marcha",
       "slug": "laser-maze",
-      "status": "BLOQUEADO — Nada construido: parado por cuota de disco (EDQUOT desde ~13:37; ni un echo de prueba escribe). Constructor parado por orden expresa. | Paso: parado antes de construir nada | Queda: ~liberar cuota de disco + construir prototipo + prueba de Daniel + juego completo; sin estimación (depende de la cuota). Verificado 15:23: sin rama en remoto (ls-remote: solo burger-boss 191edc4, esculpe cb063ce); cuota de disco liberada ~15:16, los constructores parados pueden retomar. Verificado 15:50: sin commits en remoto (ramas sin crear); cuota liberada ~15:16, pendientes de retomar. Verificado 16:17: coordinador de relanzamiento LANZADO ~16:16; disco 81G usados / 69G libres (55%); sin commits nuevos aún (acaba de arrancar).",
+      "status": "EN MARCHA — Constructor en marcha, mucha actividad (343 ficheros nuevos desde 16:15, README ~16:50). Queda terminar verificación + push + Sandbox. Verificado 16:52: en plena construcción.",
       "title": "Laser Maze!"
     },
     {
-      "paso": "Coordinador de relanzamiento LANZADO ~16:16 (8 juegos + Diggy Dash); retomando tras liberar la cuota (disco 81G usados / 69G libres, 55%)",
-      "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
+      "paso": "Construyendo/verificando prototipo (build QA generado)",
+      "queda": "~terminar verificación + push + Sandbox + prueba de Daniel; sin estimación del constructor, lleva ~35 min en marcha",
       "slug": "car-wash-chaos",
-      "status": "BLOQUEADO — Nada construido: parado por cuota de disco (EDQUOT desde ~13:37, error 3 veces). Constructor parado por orden expresa. | Paso: parado antes de construir nada | Queda: ~liberar cuota de disco + construir prototipo + prueba de Daniel + juego completo; sin estimación (depende de la cuota). Verificado 15:23: sin rama en remoto (ls-remote: solo burger-boss 191edc4, esculpe cb063ce); cuota de disco liberada ~15:16, los constructores parados pueden retomar. Verificado 15:50: sin commits en remoto (ramas sin crear); cuota liberada ~15:16, pendientes de retomar. Verificado 16:17: coordinador de relanzamiento LANZADO ~16:16; disco 81G usados / 69G libres (55%); sin commits nuevos aún (acaba de arrancar).",
+      "status": "EN MARCHA — Constructor en marcha, ficheros frescos hace minutos (build QA generado, dist-qa, ~16:52). Queda terminar verificación + push + Sandbox. Verificado 16:52: 29 ficheros nuevos desde 16:15; último dist-qa/assets/index-sc8CtGfU.js.",
       "title": "Car Wash Chaos!"
     },
     {
-      "paso": "Coordinador de relanzamiento LANZADO ~16:16 (8 juegos + Diggy Dash); retomando tras liberar la cuota (disco 81G usados / 69G libres, 55%)",
-      "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
+      "paso": "Construyendo/verificando prototipo",
+      "queda": "~terminar verificación + push + Sandbox + prueba de Daniel; sin estimación del constructor, lleva ~35 min en marcha",
       "slug": "diggy-dash",
-      "status": "EN MARCHA — Prototipo con el metodo nuevo (constructor unico, rama niky/diggy-dash-1711). Daniel juega el prototipo antes del juego completo. | Paso: constructor en marcha (actividad hace segundos), sin commits ni ficheros nuevos desde las 14:00 — posible atasco por la cuota, sin confirmar | Queda: ~prototipo + prueba de Daniel + juego completo; sin estimación del constructor. Verificado 15:23: sin rama en remoto (ls-remote: solo burger-boss 191edc4, esculpe cb063ce); cuota de disco liberada ~15:16, los constructores parados pueden retomar. Verificado 15:50: sin commits en remoto (ramas sin crear); cuota liberada ~15:16, pendientes de retomar. Verificado 16:17: coordinador de relanzamiento LANZADO ~16:16; disco 81G usados / 69G libres (55%); sin commits nuevos aún (acaba de arrancar).",
+      "status": "EN MARCHA — Constructor en marcha, ficheros frescos (digtest3.log ~16:52). Queda terminar verificación + push + Sandbox. Verificado 16:52: 19 ficheros nuevos desde 16:15.",
       "title": "Diggy Dash!"
     },
     {
-      "paso": "Coordinador de relanzamiento LANZADO ~16:16 (8 juegos + Diggy Dash); retomando tras liberar la cuota (disco 81G usados / 69G libres, 55%)",
-      "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
+      "paso": "En pruebas del prototipo",
+      "queda": "~terminar verificación + push + Sandbox + prueba de Daniel; sin estimación del constructor, lleva ~35 min en marcha",
       "slug": "slingshot-smash",
-      "status": "EN MARCHA — Prototipo con el metodo nuevo (constructor unico, rama niky/slingshot-smash-1711). Daniel juega el prototipo antes del juego completo. | Paso: constructor en marcha (actividad hace segundos), sin commits ni ficheros nuevos desde las 14:00 — posible atasco por la cuota, sin confirmar | Queda: ~prototipo + prueba de Daniel + juego completo; sin estimación del constructor. Verificado 15:23: sin rama en remoto (ls-remote: solo burger-boss 191edc4, esculpe cb063ce); cuota de disco liberada ~15:16, los constructores parados pueden retomar. Verificado 15:50: sin commits en remoto (ramas sin crear); cuota liberada ~15:16, pendientes de retomar. Verificado 16:17: coordinador de relanzamiento LANZADO ~16:16; disco 81G usados / 69G libres (55%); sin commits nuevos aún (acaba de arrancar).",
+      "status": "EN MARCHA — Constructor en marcha, en pruebas (pruebas/probe-min.py ~16:52). Queda terminar verificación + push + Sandbox. Verificado 16:52: 13 ficheros nuevos desde 16:15.",
       "title": "Slingshot Smash!"
     },
     {
-      "paso": "Coordinador de relanzamiento LANZADO ~16:16 (8 juegos + Diggy Dash); retomando tras liberar la cuota (disco 81G usados / 69G libres, 55%)",
-      "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
+      "paso": "Build QA generado, verificando (sin ficheros nuevos desde ~16:31, agente activo)",
+      "queda": "~terminar verificación + push + Sandbox + prueba de Daniel; sin estimación del constructor, lleva ~35 min en marcha",
       "slug": "pet-vet",
-      "status": "BLOQUEADO — Prototipo A MEDIAS, no jugable todavía: parado por cuota de disco (EDQUOT desde ~13:37; falla hasta un echo de prueba). Constructor parado por orden expresa. | Paso: prototipo a medias, parado | Queda: ~liberar cuota de disco + terminar prototipo + prueba de Daniel + juego completo; sin estimación (depende de la cuota). Verificado 15:23: sin rama en remoto (ls-remote: solo burger-boss 191edc4, esculpe cb063ce); cuota de disco liberada ~15:16, los constructores parados pueden retomar. Verificado 15:50: sin commits en remoto (ramas sin crear); cuota liberada ~15:16, pendientes de retomar. Verificado 16:17: coordinador de relanzamiento LANZADO ~16:16; disco 81G usados / 69G libres (55%); sin commits nuevos aún (acaba de arrancar).",
+      "status": "EN MARCHA — Constructor en marcha, build QA generado (dist-qa); sin ficheros nuevos desde ~16:31 pero agente activo hace segundos, probablemente verificando. Queda terminar verificación + push + Sandbox. Verificado 16:52: 307 ficheros nuevos desde 16:15.",
       "title": "Pet Vet!"
     },
     {
-      "paso": "Coordinador de relanzamiento LANZADO ~16:16 (8 juegos + Diggy Dash); retomando tras liberar la cuota (disco 81G usados / 69G libres, 55%)",
-      "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
+      "paso": "Constructor caído ~16:32 (restart drain), pendiente de relanzar",
+      "queda": "~relanzar constructor + terminar prototipo + push + Sandbox + prueba de Daniel; sin estimación hasta que se relance",
       "slug": "coin-castle",
-      "status": "EN MARCHA — Prototipo con el metodo nuevo (constructor unico, rama niky/coin-castle-1711). Daniel juega el prototipo antes del juego completo. | Paso: constructor en marcha (actividad hace segundos), sin commits ni ficheros nuevos desde las 14:00 — posible atasco por la cuota, sin confirmar | Queda: ~prototipo + prueba de Daniel + juego completo; sin estimación del constructor. Verificado 15:23: sin rama en remoto (ls-remote: solo burger-boss 191edc4, esculpe cb063ce); cuota de disco liberada ~15:16, los constructores parados pueden retomar. Verificado 15:50: sin commits en remoto (ramas sin crear); cuota liberada ~15:16, pendientes de retomar. Verificado 16:17: coordinador de relanzamiento LANZADO ~16:16; disco 81G usados / 69G libres (55%); sin commits nuevos aún (acaba de arrancar).",
+      "status": "BLOQUEADO — Constructor FALLÓ ~16:32 por un error de infraestructura del runtime («restart drain in progress; rejecting new submission»); SIN RELANZAR aún. Trabajo local hasta ~16:31 (captura 04-game-auto-30s.png). Queda relanzar el constructor + terminar + push + Sandbox. Verificado 16:52: sin agente en marcha; el coordinador debe relanzarlo.",
       "title": "Coin Castle!"
     },
     {
-      "paso": "Coordinador de relanzamiento LANZADO ~16:16 (8 juegos + Diggy Dash); retomando tras liberar la cuota (disco 81G usados / 69G libres, 55%)",
-      "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
+      "paso": "En capturas/QA del prototipo",
+      "queda": "~terminar verificación + push + Sandbox + prueba de Daniel; sin estimación del constructor, lleva ~35 min en marcha",
       "slug": "snowball-fight",
-      "status": "BLOQUEADO — Nada construido: parado por cuota de disco (EDQUOT desde ~13:37, confirmado con 6 fallos). Constructor parado por orden expresa. | Paso: parado antes de construir nada | Queda: ~liberar cuota de disco + construir prototipo + prueba de Daniel + juego completo; sin estimación (depende de la cuota). Verificado 15:23: sin rama en remoto (ls-remote: solo burger-boss 191edc4, esculpe cb063ce); cuota de disco liberada ~15:16, los constructores parados pueden retomar. Verificado 15:50: sin commits en remoto (ramas sin crear); cuota liberada ~15:16, pendientes de retomar. Verificado 16:17: coordinador de relanzamiento LANZADO ~16:16; disco 81G usados / 69G libres (55%); sin commits nuevos aún (acaba de arrancar).",
+      "status": "EN MARCHA — Constructor en marcha, en fase de capturas/QA (captures/01-menu.png ~16:53). Queda terminar verificación + push + Sandbox. Verificado 16:52: 53 ficheros nuevos desde 16:15.",
       "title": "Snowball Fight!"
     },
     {
-      "paso": "Coordinador de relanzamiento LANZADO ~16:16 (8 juegos + Diggy Dash); retomando tras liberar la cuota (disco 81G usados / 69G libres, 55%)",
-      "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
+      "paso": "Sin actividad en ficheros desde ~16:29, a vigilar",
+      "queda": "~terminar prototipo + push + Sandbox + prueba de Daniel; sin estimación del constructor",
       "slug": "train-rush",
-      "status": "BLOQUEADO — Nada construido: 4.º juego bloqueado por cuota de disco (EDQUOT desde ~13:37; subvolumen btrfs de /home/hatch agotado). Constructor parado por orden expresa. | Paso: parado antes de construir nada | Queda: ~liberar cuota de disco + construir prototipo + prueba de Daniel + juego completo; sin estimación (depende de la cuota). Verificado 15:23: sin rama en remoto (ls-remote: solo burger-boss 191edc4, esculpe cb063ce); cuota de disco liberada ~15:16, los constructores parados pueden retomar. Verificado 15:50: sin commits en remoto (ramas sin crear); cuota liberada ~15:16, pendientes de retomar. Verificado 16:17: coordinador de relanzamiento LANZADO ~16:16; disco 81G usados / 69G libres (55%); sin commits nuevos aún (acaba de arrancar).",
+      "status": "EN MARCHA pero SIN ACTIVIDAD en ficheros desde ~16:29 (última captura 03-game-mid.png) y agente sin actividad ~15 min — A VIGILAR, puede haberse atascado. Queda terminar + push + Sandbox. Verificado 16:52: 19 ficheros nuevos desde 16:15, ninguno desde ~16:29.",
       "title": "Train Rush!"
     }
   ],
@@ -174,7 +174,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Actualización 16:29 — Daniel ordenó el diseño de TODOS: Garden, Dance, Monster y Sneak Out pasan a juego completo (diseño final desde su variante base + capítulos). Sand Jam, Burger Boss y Rocket Rescue ya con el diseño en marcha. Los 4 prototipos siguen en Sandbox para probar. Fútbol: menús nuevos entregados, enlace de prueba aparte pendiente. Los 8 bloqueados por cuota relanzados.",
+  "resumen": "Actualización 16:52 — Los 7 juegos completos en marcha (Sand Jam, Burger Boss, Rocket Rescue + Garden, Dance, Monster y Sneak Out desde 16:29): todos con el constructor activo y ficheros frescos, sin entregas aún. De los 9 prototipos relanzados tras la cuota: 8 en marcha (Car Wash con build QA, Snowball en capturas, Laser Maze construyendo a tope) y 1 CAÍDO: Coin Castle falló ~16:32 por un error del runtime (restart drain) y está sin relanzar. Train Rush sin actividad ~15 min, a vigilar. Los 4 prototipos siguen en Sandbox para probar.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -235,53 +235,61 @@
     {
       "commit": null,
       "covers": "variante A elegida por Daniel (arena) + 3 portadas: 1:1, 1080x1920 y 1920x1080",
-      "paso": "Prototipo en Sandbox 15:24 (https://playgama.ai/play/azpay45lww6lxr); prototipo pusheado 15:48 (d333f9a); diseño final (variante A arena; B caramelos y C puerto pirata como skins comprables) EN MARCHA desde ~15:40 (constructor activo, ~37 min)",
-      "queda": "Juego completo + prueba de Daniel; sin estimación del constructor",
+      "paso": "Diseño final del juego completo, generando niveles",
+      "queda": "~juego completo (diseño + capítulos + tienda + clasificación + reto diario); sin estimación del constructor, lleva ~1 h",
       "slug": "sand-jam",
-      "status": "LISTO PARA PROBAR — Prototipo del verbo SLIDE en Sandbox: https://playgama.ai/play/azpay45lww6lxr — Daniel lo está probando; queda su feedback y el juego entero (diseño, skins B caramelos y C puerto pirata comprables) Verificado 15:50: prototipo en remoto (d333f9a); diseño final en marcha (constructor activo, actividad hace segundos). Verificado 16:17: diseño final en marcha (constructor activo ~37 min, sin commits nuevos aún).",
+      "status": "JUEGO COMPLETO EN MARCHA — Diseño final en marcha (constructor activo, gen-levels.log ~16:48, generando niveles). Prototipo en Sandbox: https://playgama.ai/play/azpay45lww6lxr — Verificado 16:52: sin commits nuevos aún, lleva ~1 h de diseño.",
       "title": "Sand Jam!"
     },
     {
-      "paso": "Prototipo v0.3 EN SANDBOX 15:48 (https://playgama.ai/play/b7hkobvbpa2ssu, build 66196cb); juego completo EN MARCHA desde ~16:01 (constructor activo, ~16 min; variante A food truck, capítulos B/C)",
-      "queda": "Juego completo + prueba de Daniel; sin estimación del constructor",
+      "paso": "Diseño final del juego completo",
+      "queda": "~juego completo (diseño + capítulos + tienda + clasificación + reto diario); sin estimación del constructor, lleva ~45 min",
       "slug": "burger-boss",
-      "status": "PROTOTIPO EN SANDBOX (v0.3, Bridge arreglado) — https://playgama.ai/play/b7hkobvbpa2ssu — Pruébalo: monta hamburguesas por pedido contra el reloj (90 s, 3 tickets, combos). Bug de los mini-stacks arreglado en v0.2. Pendiente tu feedback. Verificado 16:17: juego completo en marcha (constructor activo ~16 min, sin commits nuevos aún).",
+      "status": "JUEGO COMPLETO EN MARCHA — Diseño final en marcha; agente activo hace segundos pero pocos ficheros nuevos desde 16:15 (3, último src/meta.ts ~16:20). Prototipo v0.3 en Sandbox: https://playgama.ai/play/b7hkobvbpa2ssu — Verificado 16:52: sin commits nuevos aún, lleva ~45 min de diseño.",
       "title": "Burger Boss!"
     },
     {
-      "paso": "Prototipo EN SANDBOX 16:08 (https://playgama.ai/play/eq3htmnbq4gxz2, build 498121c); juego completo LANZADO 16:15 (constructor activo; diseño final variante A base lunar, capítulos B Marte y C océano)",
-      "queda": "Juego completo + prueba de Daniel; sin estimación del constructor",
+      "paso": "Diseño final del juego completo, en QA de tienda",
+      "queda": "~juego completo (diseño + capítulos + tienda + clasificación + reto diario); sin estimación del constructor, lleva ~30 min",
       "slug": "rocket-rescue",
-      "status": "PROTOTIPO EN SANDBOX — https://playgama.ai/play/eq3htmnbq4gxz2 — Pruébalo: aterriza el cohete en las plataformas, rescata astronautas, 60 s por ronda. Matiz: el menú sale en español («¡RESCATE COHETE!», «JUGAR») pero el HUD en inglés. Pendiente tu feedback. Verificado 16:17: juego completo recién arrancado (constructor activo, sin commits nuevos aún).",
+      "status": "JUEGO COMPLETO EN MARCHA — Diseño final en marcha, en QA de tienda (shots-full/13d-shop-bought.png ~16:46). Prototipo en Sandbox: https://playgama.ai/play/eq3htmnbq4gxz2 — Verificado 16:52: 57 ficheros nuevos desde 16:15, lleva ~30 min de diseño.",
       "title": "Rocket Rescue!"
     },
     {
       "design": "A (Discoteca), B (K-pop) y C (Rave robot) son capítulos del juego",
       "mockup": "idea-24-variant-a.png",
       "slug": "dance-dash",
-      "status": "JUEGO COMPLETO EN MARCHA (diseño final desde la variante A, discoteca; capítulos K-pop y rave robot) — prototipo en Sandbox: https://playgama.ai/play/morggaiqrsm5xh",
-      "title": "Dance Dash!"
+      "status": "JUEGO COMPLETO EN MARCHA — Diseño final desde la variante A (discoteca) + capítulos K-pop y rave robot; constructor en marcha, ficheros frescos (src/scenes/Pause.ts ~16:49). Prototipo en Sandbox: https://playgama.ai/play/morggaiqrsm5xh — Verificado 16:52: sin commits nuevos aún, lleva ~20 min de diseño.",
+      "title": "Dance Dash!",
+      "paso": "Diseño final del juego completo (variante A + capítulos)",
+      "queda": "~juego completo (diseño + capítulos + tienda + clasificación + reto diario); sin estimación del constructor, lleva ~20 min"
     },
     {
       "design": "A (flores), B (huerto) y C (cactus) son capítulos del juego",
       "mockup": "idea-13-variant-a.png",
       "slug": "garden-dash",
-      "status": "JUEGO COMPLETO EN MARCHA (diseño final desde la variante A, jardín de flores; capítulos huerto y cactus) — prototipo en Sandbox: https://playgama.ai/play/75x2gbyp5eosbl",
-      "title": "Garden Dash!"
+      "status": "JUEGO COMPLETO EN MARCHA — Diseño final desde la variante A (jardín de flores) + capítulos huerto y cactus; constructor en marcha, ficheros frescos (shots-full/menu.png ~16:49). Prototipo en Sandbox: https://playgama.ai/play/75x2gbyp5eosbl — Verificado 16:52: sin commits nuevos aún, lleva ~20 min de diseño.",
+      "title": "Garden Dash!",
+      "paso": "Diseño final del juego completo (variante A + capítulos)",
+      "queda": "~juego completo (diseño + capítulos + tienda + clasificación + reto diario); sin estimación del constructor, lleva ~20 min"
     },
     {
       "design": "A (Caramelo), B (Robots) y C (Marinas) son capítulos del juego",
       "mockup": "idea-18-variant-a.png",
       "slug": "monster-merge",
-      "status": "JUEGO COMPLETO EN MARCHA (diseño final desde la variante A, monstruos de caramelo; capítulos taller de robots y criaturas marinas) — prototipo en Sandbox: https://playgama.ai/play/rfjxcyqvmsm2ux",
-      "title": "Monster Merge!"
+      "status": "JUEGO COMPLETO EN MARCHA — Diseño final desde la variante A (monstruos de caramelo) + capítulos taller de robots y criaturas marinas; constructor en marcha, ficheros frescos (src/i18n.ts ~16:52). Prototipo en Sandbox: https://playgama.ai/play/rfjxcyqvmsm2ux — Verificado 16:52: sin commits nuevos aún, lleva ~20 min de diseño.",
+      "title": "Monster Merge!",
+      "paso": "Diseño final del juego completo (variante A + capítulos)",
+      "queda": "~juego completo (diseño + capítulos + tienda + clasificación + reto diario); sin estimación del constructor, lleva ~20 min"
     },
     {
       "design": "Variante B (templo de la jungla) como base; A (museo de noche) y C (estáción espacial) como capítulos que se desbloquean",
       "mockup": "idea-4-variant-b.png",
       "slug": "sneak-out",
-      "status": "JUEGO COMPLETO EN MARCHA (diseño final desde la variante B, templo; capítulos museo y estación espacial) — prototipo en Sandbox: https://playgama.ai/play/dtrgkll5zisava",
-      "title": "Sneak Out!"
+      "status": "JUEGO COMPLETO EN MARCHA — Diseño final desde la variante B (templo) + capítulos museo y estación espacial; constructor en marcha, ficheros frescos (dist-qa ~16:52). Prototipo en Sandbox: https://playgama.ai/play/dtrgkll5zisava — Verificado 16:52: sin commits nuevos aún, lleva ~20 min de diseño.",
+      "title": "Sneak Out!",
+      "paso": "Diseño final del juego completo (variante B + capítulos)",
+      "queda": "~juego completo (diseño + capítulos + tienda + clasificación + reto diario); sin estimación del constructor, lleva ~20 min"
     }
   ],
   "upcoming": [
@@ -743,6 +751,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 16:29",
+  "updated_at": "2026-11-17 16:52",
   "updated_by": "Dani (cron 30 min)"
 }
