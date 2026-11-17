@@ -134,7 +134,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Rocket Rescue NO está listo: mi playtest encontró 5 defectos y el constructor los está arreglando. Sand Jam y Pet Vet en vivo (mis playtests en marcha), Snowball en vivo (mi playtest en marcha), Crowd Clash subiendo; Burger Boss y Garden Dash en vivo (mis playtests en marcha); fútbol rebuild en app aparte (mi playtest en marcha).",
+  "resumen": "ORDEN DE DANIEL 19:16: quitar el audio de TODOS los juegos (ni música ni efectos, silencio total). Operación en marcha: coordinador quitando el audio de todos los juegos en Sandbox/entregados + los 5 constructores en marcha avisados. Rocket Rescue en arreglo (5 defectos + sin audio). Snowball y Pet Vet con defectos del playtest, de vuelta a arreglar + sin audio. Sneak Out v1.0 entregado, pendiente quitar audio y subir. Crowd Clash en vivo, pendiente playtest tras quitar audio.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -247,7 +247,7 @@
       "design": "Variante B (templo de la jungla) como base; A (museo de noche) y C (estáción espacial) como capítulos que se desbloquean",
       "mockup": "idea-4-variant-b.png",
       "slug": "sneak-out",
-      "status": "EN MARCHA — JUEGO COMPLETO en marcha: diseño final desde la variante B (templo) + capítulos museo y estación espacial; constructor activo hace ~3 min (~50 min). La sonda shots-full.py está CORRIENDO ahora (Chromium activo); último fichero 16:21. Prototipo en Sandbox: https://playgama.ai/play/dtrgkll5zisava — Verificado 17:20: sin commits nuevos aún, en verificación. Verificado 17:50: en marcha, activo; 22 ficheros nuevos desde 17:20 (scripts/shots-full.py 17:50); sin commits nuevos. Verificado 18:17: constructor activo; sin commit nuevo aún. Verificado 18:49: constructor activo; último fichero 18:47 (run.log).",
+      "status": "EN MARCHA — juego COMPLETO v1.0 ENTREGADO (commit 6225e7e, zip 556.367 B, vitest 63/63, 9 niveles, tienda 60 skins, diario, ranking). PENDIENTE quitar el audio antes de subir a Sandbox (orden de Daniel 19:16); queda ~quitar audio + verificar zip yo + subir + jugarlo yo en vivo y pasarte el enlace.",
       "title": "Sneak Out!",
       "paso": "Diseño final del juego completo (variante B + capítulos), sonda de verificación corriendo",
       "queda": "~juego completo (diseño + capítulos + tienda + clasificación + reto diario); sin estimación del constructor, lleva ~1 h 20 min"
@@ -258,7 +258,7 @@
       "paso": "Prototipo del verbo entregado 16:08 y pusheado",
       "queda": "~subir a Sandbox + prueba de Daniel",
       "slug": "pet-vet",
-      "status": "LISTO PARA PROBAR — prototipo EN VIVO en Sandbox (https://playgama.ai/play/ij4uvfmh44jtm2, ID cmwkzqphf0mrvmw0h2hfyn186, «Live · 0 of 30 days», menú verificado: Pet Vet!, ¡Cura a cada mascota!, perro en la mesa, JUGAR). Queda ~mi playtest en vivo y pasarte el enlace.",
+      "status": "EN MARCHA — mi playtest en vivo encontró 13 DEFECTOS (menú oscuro, RÉCORD tapado, etiquetas cortadas, mascota flotando, vendaje flotante, interacción poco clara, anuncio que se abre solo, sin botón Siguiente nivel). De vuelta al constructor con los defectos + quitar el audio. NO se enseña.",
       "title": "Pet Vet!"
     },
     {
@@ -267,7 +267,7 @@
       "paso": "Prototipo del verbo entregado 16:05 y pusheado",
       "queda": "~subir a Sandbox + prueba de Daniel",
       "slug": "snowball-fight",
-      "status": "LISTO PARA PROBAR — prototipo EN VIVO en Sandbox (https://playgama.ai/play/4jtsbvr7knc3bj, ID cmwkzefrn0g4ik00hq1m8ghaq, «Live · 0 of 30 days», menú verificado: SNOWBALL FIGHT!, ¡Guerra de Bolas de Nieve!, RÉCORD: 0, JUGAR). Queda ~mi playtest en vivo y pasarte el enlace. Verificado 18:49: subida en marcha (browser task e65ceb89, ~7 min).",
+      "status": "EN MARCHA — mi playtest en vivo encontró 15 DEFECTOS (se congela, la pausa es una trampa sin salida, arrastrar no mueve al jugador, lanzamientos sin verificar, anuncios abriendo pestañas, temporizador corre durante los anuncios). De vuelta al constructor con los defectos + quitar el audio. NO se enseña.",
       "title": "Snowball Fight!"
     },
     {
@@ -276,7 +276,7 @@
       "paso": "Prototipo del verbo entregado 17:42 y pusheado",
       "queda": "~subir a Sandbox + prueba de Daniel",
       "slug": "crowd-clash",
-      "status": "EN MARCHA — prototipo ENTREGADO (commit d75feb2, zip 546.095 B verificado por mí: sendMessage 2×, game_ready 1×). Subiendo a Sandbox como juego nuevo ahora mismo; queda ~la subida + jugarlo yo en vivo y pasarte el enlace.",
+      "status": "EN MARCHA — prototipo EN VIVO en Sandbox (https://playgama.ai/play/gq7rwglv72t4k5, ID cmwl09tvr0nytmw0hekwdzbnr, «Live · 0 of 30 days», menú verificado: CROWD CLASH!, VS, JUGAR). PENDIENTE quitar el audio antes de mi playtest; queda ~quitar audio + jugarlo yo en vivo y pasarte el enlace.",
       "title": "Crowd Clash!"
     },
     {
@@ -769,6 +769,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 19:05",
+  "updated_at": "2026-11-17 19:17",
   "updated_by": "Dani (cron 30 min)"
 }
