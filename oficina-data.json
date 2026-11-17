@@ -31,24 +31,6 @@
             "covers": "mockup aprobado en PR #93 (preview 390x844)"
         },
         {
-            "slug": "marble-rush",
-            "title": "Marble Rush",
-            "status": "LISTO PARA PROBAR — Ronda 1 ENTREGADA ~09:41 (commit 7fa1fe5 en niky/marble-rush-1611, verificado en remoto): covers (800x800, 1920x1080, 1080x1920), preview GIF, listing.txt, 6 capturas y README en marble-rush/entrega/marble-rush-round1/. QA dio GO ~09:18 (informe final; reserva: audio sintetizado, riesgo en revisión Playgama, no bloquea Sandbox; fondo servido OK). Coordinador y agentes de portadas terminados ~09:41. ZIP SÍ EXISTE (corrección 10:11–10:21): marble-rush-playgama.zip, 2.459.014 B, 77 ficheros, index.html en raíz, en wt-qa-marble-rush/marble-rush/ (verificado en disco 10:21). | Paso: ronda 1 entregada, paquete completo + ZIP listo | Queda: ~revisión de Dani + subir el ZIP a Sandbox + prueba de Daniel.",
-            "paso": "Ronda 1 entregada ~09:41 (7fa1fe5: covers + GIF + listing + capturas); QA GO ~09:18; ZIP listo (2.459.014 B, verificado en disco 10:21)",
-            "queda": "Revisión de Dani + subir el ZIP a Sandbox + prueba de Daniel",
-            "commit": "7fa1fe5",
-            "covers": "imágenes de la idea 14 ya existentes (A madera, B nieve, C lava)"
-        },
-        {
-            "commit": "ea6a038",
-            "covers": "menú y tienda SON la foto (verificado foto contra foto 05:35)",
-            "paso": "RECHAZADO DE NUEVO por Daniel 06:02 a zoom; Dani arreglando EN PERSONA desde ~09:43 (cambios locales sin commitear en wt-relojes-redesign-a; última actividad ~09:59–10:05); pendiente rehacer inpaint de la burbuja",
-            "queda": "Rehacer inpaint burbuja + rebuild + sonda + verificación a zoom 2x–3x + OK de Daniel + ZIP + republicar (~1–2 h orientativo)",
-            "slug": "luxury-watch-dealer-rework",
-            "status": "BLOQUEADO — RECHAZADO DE NUEVO por Daniel 06:02 a zoom: diálogos uno encima de otro, reloj de la vitrina pequeño, píldora Market Value mal, fila superior del menú fuera de sitio («no quiero chapuzas»). Agente de arreglos lanzado 06:03 CANCELADO ~06:08 por orden de Daniel («Hazlo tú mismo, no dejes a nadie haciéndolo»): el arreglo lo hace Dani mismo, sin agentes. NOVEDAD 10:21: Dani está arreglando EN PERSONA en wt-relojes-redesign-a — cambios LOCALES sin commitear (photoLayout.ts, Menu.ts, Shop.ts, script de limpieza con inpaint; fotos de menú y tienda regeneradas; sonda nueva probe-fixes-1711.py + capturas en shots-fixes/, última actividad ~09:59–10:05). Causas raíz MEDIDAS, no supuestas (Market Value 10 px baja, burbuja amarilla, vitrina con 1.185 px dorados del reloj pintado). PENDIENTE: rehacer el inpaint de la burbuja (dejó una banda oscura arriba) + rebuild + sonda + verificación a zoom 2x–3x antes de enseñar nada. Sin commits nuevos (sigue ea6a038); sin republicar hasta el OK de Daniel. | Paso: arreglo en curso por Dani mismo (en persona) | Queda: ~rehacer inpaint burbuja + rebuild + verificación a zoom + OK de Daniel + ZIP + republicar (~1–2 h orientativo cuando Dani lo termine).",
-            "title": "Luxury Watch Dealer (rework como el fútbol)"
-        },
-        {
             "commit": null,
             "covers": "assets generados (pack 32/32), covers pendientes",
             "paso": "Rebuild sin cuajar (bundle 0 bytes 23:26, dist vacío, verificado 00:37); adaptador online RecurretumultaOnlineAdapter escrito y verificado contra wss://online.recurretumulta.online",
@@ -138,7 +120,7 @@
             "title": "Shadow Match"
         }
     ],
-    "resumen": "Actualización 10:21 — NOVEDAD: Esculpe la Figura AVANZA: el agente de código está ACTIVO (última actividad hace segundos) y ya hay ficheros en el worktree (src/, tests, scripts); sin commits ni rama en remoto aún. NOVEDAD: el ZIP de Marble Rush SÍ EXISTE (2.459.014 B, 77 ficheros, verificado en disco) — queda revisión de Dani + subir a Sandbox para que Daniel lo pruebe. NOVEDAD: Dani está arreglando los relojes EN PERSONA (cambios locales sin commitear en wt-relojes-redesign-a; causas raíz medidas; pendiente rehacer el inpaint de la burbuja + rebuild + verificación a zoom). NOVEDAD: Cofre del Doblón ronda 1 entregada por Anita (PR #92, título EN «Doubloon Rush»), pero en el repo PÚBLICO — pendiente trasladarla a dana-games-juegos. Fútbol: online sigue fallando (re-test 09:45). Slice (PR #12), Cyber y Grid sin cambios.",
+    "resumen": "Actualización 10:44 — Para probar (2): Relojes ARREGLADO (3418cca, ZIP 4,0 MB, subiendo a Sandbox, mismo enlace) y Marble Rush ronda 1 (ZIP verificado, falta revisión de Dani + subida a Sandbox). Fútbol: Daniel ordena QUITAR el modo online y dejar solo clasificaciones (combo más grande + otras) — en curso. Esculpe la Figura EN MARCHA (agente de código activo, ficheros en disco, sin commits). Slice & Serve r1 (PR #12) y Cofre del Doblón r1 (PR #92, repo público, pendiente traslado) esperan OK de Daniel.",
     "stats": {
         "general": {
             "anuncios_vistos_totales": 0,
@@ -190,7 +172,23 @@
         },
         "updated_at": "2026-11-17T00:19:00+01:00"
     },
-    "to_test": [],
+    "to_test": [
+        {
+            "slug": "luxury-watch-dealer",
+            "title": "Luxury Watch Dealer (Relojes)",
+            "status": "LISTO PARA PROBAR — Arreglos de Daniel 06:02 TERMINADOS y verificados a zoom por Dani (commit 3418cca, rama niky/relojes-rebuild-exacto-1611): burbuja sin banda, Market sin texto doble, vitrina sin oro, reloj grande, HUD legible. ZIP Playgama 4,0 MB construido 10:42; subiendo a Sandbox ahora. Mismo enlace de siempre.",
+            "commit": "3418cca",
+            "covers": "menú y tienda SON la foto; burbuja sin banda, Market limpio, vitrina sin oro, reloj grande, HUD legible",
+            "playgama_url": "https://playgama.ai/play/rswbvm34ovfkfo"
+        },
+        {
+            "slug": "marble-rush",
+            "title": "Marble Rush",
+            "status": "LISTO PARA PROBAR — Ronda 1 ENTREGADA (commit 7fa1fe5 en niky/marble-rush-1611, ZIP 2,34 MB verificado en disco, QA GO con reserva de audio sintetizado). Falta: revisión de Dani + subir a Sandbox; el enlace de prueba llega cuando esté subido.",
+            "commit": "7fa1fe5",
+            "covers": "covers 800x800 / 1080x1920 / 1920x1080 con sello + GIF 9,51 s que acaba en victoria"
+        }
+    ],
     "upcoming": [
         {
             "design": "Versión A (arena) como base; B (caramelos) y C (puerto pirata) como skins comprables",
@@ -452,6 +450,6 @@
             "title": "Glow Grab!"
         }
     ],
-    "updated_at": "2026-11-17T10:23:04+01:00",
+    "updated_at": "2026-11-17T10:45:05+01:00",
     "updated_by": "Dani"
 }
