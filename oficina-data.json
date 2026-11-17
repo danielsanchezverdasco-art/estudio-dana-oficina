@@ -126,13 +126,6 @@
       "title": "Coin Castle!"
     },
     {
-      "paso": "Prototipo v0.2 ENTREGADO y pusheado (191edc4, confirmado en remoto): visual fixes + README + playtest shots 390x844; zip de Playgama pendiente",
-      "queda": "Generar el zip de Playgama (coordinador en marcha) + que Daniel juegue el prototipo y dé feedback + juego completo",
-      "slug": "burger-boss",
-      "status": "LISTO PARA PROBAR (prototipo) — Prototipo v0.2 ENTREGADO y PUSHEADO (191edc4, confirmado en remoto 15:17; v0.1 0de881c 15:04, playtest shots 97f7fb3; core verb: montar hamburguesas por pedido contra el reloj, 90 s). Bug visual conocido (mini-stacks bajo los tickets tapando el hint) arreglado en v0.2. Daniel juega el prototipo antes del juego completo. | Paso: v0.2 en remoto; falta el zip de Playgama (coordinador en marcha generándolo) | Queda: ~zip + prueba de Daniel + juego completo.",
-      "title": "Burger Boss!"
-    },
-    {
       "paso": "Constructor recién lanzado (~14:22–14:25), empezando el prototipo del verbo (leyendo la skill del método nuevo)",
       "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
       "slug": "snowball-fight",
@@ -216,7 +209,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Actualización 15:40 — Los 20 juegos de verdad ya están en la lista con sus 3 capítulos (A/B/C) cada uno. Sand Jam: diseño final en marcha (verbo SLIDE aprobado por Daniel). Burger Boss v0.3 con game_ready verificado, subiendo a Sandbox. Fútbol: rebuild de menús en marcha.",
+  "resumen": "Actualización 15:48 — Burger Boss PROTOTIPO EN SANDBOX (v0.3): https://playgama.ai/play/b7hkobvbpa2ssu — listo para probar. Sand Jam: diseño final en marcha (verbo SLIDE aprobado). Los 20 juegos de verdad ya están en la lista con sus 3 capítulos. Fútbol: rebuild de menús en marcha.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -282,6 +275,20 @@
       "slug": "sand-jam",
       "status": "LISTO PARA PROBAR — Prototipo del verbo SLIDE en Sandbox: https://playgama.ai/play/azpay45lww6lxr — Daniel lo está probando; queda su feedback y el juego entero (diseño, skins B caramelos y C puerto pirata comprables)",
       "title": "Sand Jam!"
+    },
+    {
+      "paso": "Prototipo v0.2 ENTREGADO y pusheado (191edc4, confirmado en remoto): visual fixes + README + playtest shots 390x844; zip de Playgama pendiente",
+      "queda": "Generar el zip de Playgama (coordinador en marcha) + que Daniel juegue el prototipo y dé feedback + juego completo",
+      "slug": "burger-boss",
+      "status": "PROTOTIPO EN SANDBOX (v0.3, Bridge arreglado) — https://playgama.ai/play/b7hkobvbpa2ssu — Pruébalo: monta hamburguesas por pedido contra el reloj (90 s, 3 tickets, combos). Bug de los mini-stacks arreglado en v0.2. Pendiente tu feedback.",
+      "title": "Burger Boss!"
+    },
+    {
+      "design": "A (Food truck), B (Cocina real) y C (Espacial) son capítulos del juego",
+      "mockup": "idea-20-variant-a.png",
+      "slug": "burger-boss",
+      "status": "PROTOTIPO EN SANDBOX (v0.3, Bridge arreglado) — https://playgama.ai/play/b7hkobvbpa2ssu — Pruébalo: monta hamburguesas por pedido contra el reloj (90 s, 3 tickets, combos). Bug de los mini-stacks arreglado en v0.2. Pendiente tu feedback.",
+      "title": "Burger Boss!"
     }
   ],
   "upcoming": [
@@ -375,13 +382,6 @@
       "slug": "coin-castle",
       "status": "Aceptado por Daniel 19:05 — en cola, tras Monster Merge",
       "title": "Coin Castle!"
-    },
-    {
-      "design": "A (Food truck), B (Cocina real) y C (Espacial) son capítulos del juego",
-      "mockup": "idea-20-variant-a.png",
-      "slug": "burger-boss",
-      "status": "Aceptado por Daniel 19:05 — en cola, tras Coin Castle",
-      "title": "Burger Boss!"
     },
     {
       "design": "A (Pueblo nevado), B (Playa) y C (Espacio) son capítulos del juego",
@@ -785,6 +785,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 15:40",
+  "updated_at": "2026-11-17 15:48",
   "updated_by": "Dani"
 }
