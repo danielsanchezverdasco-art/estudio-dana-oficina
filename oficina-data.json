@@ -136,7 +136,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Island Tribe: 14 defectos arreglados, zip verificado, subida + playtest en vivo en marcha. Dance Dash: 12 defectos arreglados, subida + playtest en marcha. Pet Vet: rebuild en marcha con los assets aprobados. Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Monster Merge: 13 defectos (3 graves), en arreglo. Rocket Rescue: 1 defecto en vertical + victoria sin verificar, en arreglo.",
+  "resumen": "Pet Vet: rebuild terminado, 1 retoque visual (veterinaria cortada) en marcha; luego subida + playtest. Island Tribe: 14 defectos arreglados, subida + playtest en marcha. Dance Dash: 12 defectos arreglados, subida + playtest en marcha. Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Monster Merge: 13 defectos (3 graves), en arreglo. Rocket Rescue: 1 defecto en vertical + victoria sin verificar, en arreglo.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -260,7 +260,7 @@
       "paso": "Prototipo en Sandbox; mi playtest terminado 19:13 con 13 defectos. NOVEDAD 20:37 — arreglo entregado (d4348d6, pusheado): sin audio (borrado src/audio.ts, grep 0) + 13 defectos arreglados (menú, RÉCORD, bandeja, mascota, vendaje, pista, sin anuncio automático, botón SIGUIENTE NIVEL). Pendiente re-verificación + subir a Sandbox. Verificado 22:19: arreglo EN VIVO en Sandbox desde 21:36 (build 545 KB); mi playtest del arreglo VIEJO terminado (41 min, 8 defectos, NO limpio — 1 GRAVE: REINICIAR bloquea); el viejo se sustituye por el rediseño, los 8 defectos pasan al pliego del rebuild. Pendiente: que Daniel elija variante A/B/C.",
       "queda": "~elección de Daniel (variante A/B/C) + pack de assets + mockup + rebuild + prueba de Daniel",
       "slug": "pet-vet",
-      "status": "EN MARCHA — REBUILD: Daniel APROBÓ el mockup (22:38) y ordenó reconstruir con los assets a la misma calidad. Constructor en marcha (rama niky/pet-vet-rebuild-1711): pack tal cual, HUD vivo con exactamente 3 estrellas, 8 defectos del viejo verificados, sin audio. No se sube a Playgama hasta que Dani lo verifique y lo juegue. Verificado 22:47: constructor del rebuild en marcha desde ~22:38 (agente activo ahora mismo), trabajando en la lógica de resultados/récord del juego nuevo (defecto 7 del pliego); sin commit nuevo aún en niky/pet-vet-rebuild-1711 (último d4348d6, 19:37, del juego viejo). Queda ~reconstruir el juego completo con los assets nuevos + verificarlo jugando + subir a Sandbox. Verificado 23:17: constructor activo (última actividad hace segundos) metiendo los assets nuevos (milo-*.png, luna.png en la última media hora) + REBUILD-PLIEGO.md y asset-pipeline.py nuevos sin commitear; la rama aún no existe en remoto (sin push).",
+      "status": "EN MARCHA — REBUILD TERMINADO (commit 873cf82, zip verificado por Dani: game_ready + sin audio, 8 defectos corregidos). Queda 1 retoque visual: la veterinaria sale cortada por la mitad en el borde izquierdo (menú y juego) — agente de retoque en marcha. Después: subida a la app existente en Sandbox + playtest en vivo a 390 px, y solo entonces enlace para Daniel.",
       "title": "Pet Vet!"
     },
     {
@@ -771,6 +771,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 23:54",
+  "updated_at": "2026-11-17 23:56",
   "updated_by": "Dani (cron 30 min)"
 }
