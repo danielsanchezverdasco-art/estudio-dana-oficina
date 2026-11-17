@@ -106,6 +106,31 @@
    "slug": "monster-merge",
    "title": "Monster Merge!",
    "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/monster-merge-1711). Daniel juega el prototipo antes del juego completo."
+  },
+  {
+   "slug": "coin-castle",
+   "title": "Coin Castle!",
+   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/coin-castle-1711). Daniel juega el prototipo antes del juego completo."
+  },
+  {
+   "slug": "burger-boss",
+   "title": "Burger Boss!",
+   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/burger-boss-1711). Daniel juega el prototipo antes del juego completo."
+  },
+  {
+   "slug": "snowball-fight",
+   "title": "Snowball Fight!",
+   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/snowball-fight-1711). Daniel juega el prototipo antes del juego completo."
+  },
+  {
+   "slug": "train-rush",
+   "title": "Train Rush!",
+   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/train-rush-1711). Daniel juega el prototipo antes del juego completo."
+  },
+  {
+   "slug": "dance-dash",
+   "title": "Dance Dash!",
+   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/dance-dash-1711). Daniel juega el prototipo antes del juego completo."
   }
  ],
  "published": [
@@ -170,7 +195,7 @@
    "reason": "RECHAZADO por Daniel 13:58 (Rechazado no se publica). No va a revision ni al catalogo. El impulso +50 sigue corriendo hasta el 18 nov (no se puede parar). Pendiente: Daniel dira si se borra de Playgama como los relojes o se deja en Sandbox."
   }
  ],
- "resumen": "Actualizacion 14:22 - 10 juegos siguientes en paralelo con el metodo nuevo (1 constructor por juego): Sneak Out, Crowd Clash, Laser Maze, Car Wash Chaos, Diggy Dash, Garden Dash, Slingshot Smash, Pet Vet, Rocket Rescue, Monster Merge. Prototipos primero; Daniel los juega antes del juego completo. Futbol: rebuild de menus en marcha. Sand Jam: prototipo en marcha. Cofre RECHAZADO, Esculpe FUERA.",
+ "resumen": "Actualizacion 14:25 - 15 juegos en paralelo con el metodo nuevo (1 constructor por juego): Sneak Out, Crowd Clash, Laser Maze, Car Wash Chaos, Diggy Dash, Garden Dash, Slingshot Smash, Pet Vet, Rocket Rescue, Monster Merge, Coin Castle, Burger Boss, Snowball Fight, Train Rush, Dance Dash. Prototipos primero; Daniel los juega uno a uno antes del juego completo. Futbol: rebuild de menus en marcha. Sand Jam: prototipo en marcha. Cofre RECHAZADO, Esculpe FUERA.",
  "stats": {
   "general": {
    "anuncios_vistos_totales": 0,
@@ -490,6 +515,6 @@
    "title": "Glow Grab!"
   }
  ],
- "updated_at": "2026-11-17T14:22:00+01:00",
+ "updated_at": "2026-11-17T14:25:00+01:00",
  "updated_by": "Dani"
 }
