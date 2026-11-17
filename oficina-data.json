@@ -110,7 +110,7 @@
    "title_es": "El Marchante de Relojes"
   }
  ],
- "resumen": "Actualización 13:20 — STOP: Daniel probó Slice y dice que está mal hecho; paramos todo y pensamos. Cofre: subida cortada, queda en Draft. Fútbol: enlace con carga intermitente en blanco — recargar lo resuelve. Marble: se deja así.",
+ "resumen": "Actualización 13:22 — Cofre: subiendo de nuevo por orden de Daniel (el chef/Slice NO se toca). Slice probado por Daniel: mal hecho. Fútbol: recargar si sale en blanco. Marble: se deja así. Esculpe y el resto, parados.",
  "stats": {
   "general": {
    "anuncios_vistos_totales": 0,
@@ -171,14 +171,14 @@
   {
    "slug": "doubloon-rush",
    "title": "Cofre del Doblón (Doubloon Rush)",
-   "status": "PARADO por orden de Daniel 13:20 — la subida del fix game_ready (7227c4d) se cortó a mitad; el juego sigue en Draft con la build r1 sin publicar. NO subir nada hasta que Daniel diga. (Si la publicación llegó a completarse antes del corte, se confirmará.)",
+   "status": "EN MARCHA — subiendo de nuevo a Sandbox por orden de Daniel 13:22 (el STOP queda levantado solo para Cofre). Fix game_ready (7227c4d) verificado, zip 2.028.985 B. La subida anterior se cortó a mitad con la publicación empezada; esta vez se comprueba primero si ya está en vivo. Queda ~unos minutos para el enlace.",
    "commit": "7227c4d",
    "covers": "covers 800x800 / 1080x1920 / 1920x1080 (+ versiones YouTube) + GIF del Short"
   },
   {
    "slug": "slice-and-serve",
    "title": "Slice & Serve (Master Chef Speed)",
-   "status": "Probado por Daniel 13:20: MAL HECHO («Otro juego mal echo»). Enlace: https://playgama.ai/play/frbjpxf7yerlup — Ronda 1 de Anita (498528f) + fix game_ready de Dani (0254532). Daniel ordenó PARAR todo y pensar.",
+   "status": "Probado por Daniel 13:20: MAL HECHO («Otro juego mal echo»). Enlace: https://playgama.ai/play/frbjpxf7yerlup — NO TOCAR (orden de Daniel 13:22: «el chef no»).",
    "commit": "0254532",
    "covers": "covers 800x800 / 1080x1920 / 1920x1080 (+ versiones YouTube) + GIF 9,58 s que acaba en victoria"
   }
@@ -444,6 +444,6 @@
    "title": "Glow Grab!"
   }
  ],
- "updated_at": "2026-11-17T13:20:00+01:00",
+ "updated_at": "2026-11-17T13:22:00+01:00",
  "updated_by": "Dani"
 }
