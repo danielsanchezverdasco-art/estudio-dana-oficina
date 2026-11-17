@@ -18,7 +18,7 @@
   "Sand Jam! ELEGIDO por Daniel (versión A arena como base; B caramelos y C puerto pirata como skins comprables) — en cola tras relojes y fútbol; Laser Maze! ELEGIDO por Daniel 18:12 (variante B templo antiguo como base; A laboratorio y C estáción espacial como capítulos) — en cola tras Crowd Clash; Car Wash Chaos! ELEGIDO por Daniel 18:18 (variante B baño de máscotas + modo C limpiar casas, dos modos en el mismo juego) — en cola tras Laser Maze; Crowd Clash! variante B elegida, en cola tras Sneak Out; tanda 3 ELEGIDA ENTERA por Daniel 18:21 («quiero todos para la lista, cada variante A, B y C son capítulos»): Diggy Dash!, Garden Dash!, Marble Rush!, Slingshot Smásh! y Pet Vet! — en cola tras Car Wash Chaos, en ese orden; tanda 2 restánte (Fish Frenzy!, Hoop Flick!, Find It!) y tanda 1 (Draw Rescue!, Grow Dash!) pendientes de elección; tanda 4: 8 de 10 aceptadas por Daniel 19:05 (22 Ghost Hunt y 25 Potion Pop descartadas por Daniel): Rocket Rescue!, Monster Merge!, Coin Castle!, Burger Boss!, Snowball Fight!, Train Rush!, Dance Dash! y Treasure Dive! — cada una con sus 3 variantes como capítulos — en cola tras Pet Vet, en ese orden Tanda 5 COMPLETADA 19:24 (30/30 previews) y ACEPTADA 9/10 por Daniel 19:36 (fuera Santa Sprint, idea 29): Brainrot Battle!, Blocky Race!, Pet Hatch!, Arrow Maze!, Gate Dash!, Winter Arc!, Salon Star!, Obby Dash! y Wobbly Crew! — en cola tras Treasure Dive, cada una con sus 3 variantes como capítulos. Tanda 6 ENTREGADA 19:48 (ideas 37–46, multijugador novedoso, 30/30 previews verificadas en ideas-nuevas-1611g/) — pendiente elección de Daniel. Botones de la oficina en rediseño (orden Daniel 19:41–19:42, agente en marcha). Marble Rush salta la cola por orden de Daniel 07:19: capítulo A JUGABLE commiteado y pusheado ~08:09 (a886fe4, tests en verde); QA independiente en marcha (GO/NO-GO pendiente); Sand Jam queda detrás de Marble Rush. QA fixes aa953fc pusheados 08:31 (continue 1 vez por partida, first-run gate más ligero, nombre del zip); verificado 08:47 en remoto. QA da GO ~09:18 (informe final; reserva: audio sintetizado, riesgo en revisión Playgama, no bloquea Sandbox; fondo servido OK, no re-trazar); agente de portadas + GIF + listing arrancado ~09:19 y en marcha; coordinador sigue en marcha. Verificado 09:20: marble-rush sigue en aa953fc (sin commits nuevos aún). Verificado 09:47: Marble Rush ronda 1 ENTREGADA (7fa1fe5, covers+GIF+listing+capturas); Esculpe la Figura EN MARCHA (aprobado 09:42, coordinador + código en marcha desde ~09:44, sin commits aún). Verificado 10:21: el agente de código está ACTIVO (última actividad hace segundos) y ya hay ficheros en el worktree wt-esculpe-la-figura (src/, tests, scripts de verificación); sin commits ni rama en remoto aún. Corrección 10:11–10:21: SÍ hay ZIP — marble-rush-playgama.zip, 2.459.014 B, 77 ficheros, index.html en raíz, en wt-qa-marble-rush/marble-rush/ (verificado en disco). Queda revisión de Dani + subir a Sandbox para que Daniel lo pruebe. Verificado 10:51: Daniel ordenó 10:43 quitar el modo online del fútbol (solo clasificaciones); Dani quitándolo ahora en wt-ss-build-114cb2b; píldoras + tienda hechos sin commitear, falta flag OFF + quitar botón/lobby + repintar EN LÍNEA + build:qa + sonda + commit/push.",
   "3 conceptos NUEVOS de juego con historia (pedido Daniel 21:37, entregados en ideas-nuevas-1611h/MANIFIESTO.md): Globe Tales!, The Lost Lighthouse! y Spark Makers! (solitario + cooperativo, PEGI 3, vector animado) — RECHAZADOS por Daniel 22:00 («No quiero esas ideas»). No se vuelven a proponer.",
   "Esculpe la Figura (Sculpt & Reveal) — concepto+mockup aprobados por Daniel 09:42 («Me encanta, hazlo así», PR #93); código COMPLETO y VERIFICADO 09:58 (1f0c3eb + 2e90d36 en niky/esculpe-la-figura-1711, push confirmado en remoto; tsc 0, vitest 35/35, builds OK, precheck 0 FAIL, verify.py PASS, playtest a victoria 217 pts PERFECTO, ZIP 549.997 B); QA independiente en marcha desde las 10:00 (agente activo, verificado 11:19), veredicto GO/NO-GO pendiente; 2 puntos a dirimir (recompensas tapadas por NEXT CLIENT; silueta del gato no visible) + falta package-lock.json. Verificado 12:20: RONDA 1 ENTREGADA — QA GO (6 defectos abiertos O1–O6, ninguno bloquea en 9:16) + paquete cb063ce (10:58, confirmado en remoto): 3 portadas, GIF 8,57 s, 6 capturas, listing EN+ES PEGI 3; pasa a LISTO PARA PROBAR (falta revisión de Dani + subir a Sandbox).",
-  "Cofre del Doblón (Anita) — ronda 1 ENTREGADA (PR #92, rama anita/cofre-del-doblon @ 01759ca, título EN «Doubloon Rush» elegido por Daniel 08:44); FALLO: está en el repo PÚBLICO estudio-dana-oficina — Anita debe moverla a dana-games-juegos. Revisión de calidad pendiente del traslado. Verificado 10:21 (ls-remote). Verificado 13:20: subida 13:12 FALLIDA (game_ready); fix 7227c4d en niky/cofre-game-ready-fix (repo público), zip doubloon-rush-round1-fixed.zip 2.028.985 B verificado en disco; SUBIENDO a Sandbox ahora (agente en marcha desde 13:17)."
+  "Cofre del Doblón (Anita) — ronda 1 ENTREGADA (PR #92, rama anita/cofre-del-doblon @ 01759ca, título EN «Doubloon Rush» elegido por Daniel 08:44); FALLO: está en el repo PÚBLICO estudio-dana-oficina — Anita debe moverla a dana-games-juegos. Revisión de calidad pendiente del traslado. Verificado 10:21 (ls-remote). Verificado 13:20: subida 13:12 FALLIDA (game_ready); fix 7227c4d en niky/cofre-game-ready-fix (repo público), zip doubloon-rush-round1-fixed.zip 2.028.985 B verificado en disco; SUBIENDO a Sandbox ahora (agente en marcha desde 13:17). Verificado 13:47: EN VIVO en Sandbox 13:25 (https://playgama.ai/play/qzoqem2tychiz4); impulso +50 ACTIVO (Running, termina 18 nov); revisión BLOQUEADA por objetivos (100 partidas, 5:00, 0,30 anuncios). Fútbol: su impulso YA estaba activo (verificado 13:41), queda 1 gratis para otros juegos. Sand Jam: prototipo en marcha con el método nuevo (constructor único, rama niky/sand-jam-1711, sin commit aún). Esculpe: playtest de Dani en marcha (tarea de navegador), sin resultado aún."
  ],
  "in_progress": [
   {
@@ -49,13 +49,22 @@
    "title": "Cyber Runner"
   },
   {
-   "slug": "cofre-del-doblon",
-   "title": "Cofre del Doblón (Doubloon Rush)",
-   "status": "EN MARCHA — Ronda 1 ENTREGADA por Anita (PR #92, rama anita/cofre-del-doblon @ 01759ca; título EN «Doubloon Rush» elegido por Daniel 08:44). SUBIDA 13:12 FALLIDA: Playgama rechazó la build («never reported that the game was ready»; QA: «Game Ready signal check failed») — mismo fallo que Slice. FIX APLICADO (rama niky/cofre-game-ready-fix @ 7227c4d en el repo público: init en main.ts antes del motor, sin configFilePath, game_ready literal en el primer frame; build OK, precheck TODO OK, zip doubloon-rush-round1-fixed.zip 2.028.985 B verificado en disco). SUBIENDO a Sandbox AHORA (agente en marcha desde 13:17, juego cmwknbsad0e9aih0hv4hmpn36). | Paso: fix game_ready aplicado, subida a Sandbox en marcha | Queda: ~que la subida cuaje + enlace para probar + traslado al repo privado + OK de Daniel.",
-   "paso": "Fix game_ready aplicado (7227c4d); zip 2.028.985 B verificado; SUBIENDO a Sandbox ahora (agente en marcha desde 13:17)",
-   "queda": "Que la subida cuaje + enlace para probar + traslado a dana-games-juegos + OK de Daniel",
    "commit": "7227c4d",
-   "covers": "pendientes de revisión"
+   "covers": "pendientes de revisión",
+   "paso": "EN VIVO en Sandbox 13:25 (qzoqem2tychiz4); impulso +50 ACTIVO (Running, termina 18 nov); revisión BLOQUEADA por objetivos (100 partidas, 5:00, 0,30 anuncios)",
+   "queda": "Que el impulso genere ~50 partidas + tráfico orgánico hasta 100 cualificadas; traslado a dana-games-juegos; prueba de Daniel",
+   "slug": "cofre-del-doblon",
+   "status": "EN MARCHA — Ronda 1 ENTREGADA por Anita (PR #92, rama anita/cofre-del-doblon @ 01759ca; título EN «Doubloon Rush» elegido por Daniel 08:44). EN VIVO en Sandbox 13:25 — https://playgama.ai/play/qzoqem2tychiz4 (build con fix game_ready 7227c4d, título verificado en vivo). IMPULSO +50 ACTIVO (13:37, aprobado por Daniel 13:34): «Starter boost — 0 / ~50 gameplays — Running — Ends 18 Nov», entra en vigor en ~2 h; queda 1 impulso gratis para otros juegos (+ otro el 17 dic). REVISIÓN BLOQUEADA (13:34): sin botón «Send for Review» hasta cumplir 100 partidas cualificadas, 5:00 de media y 0,30 anuncios por partida (ahora: 3 lanzamientos, 1 partida, 7m 49s, 0 €). | Paso: en vivo + impulso en marcha | Queda: ~que el impulso genere partidas + tráfico orgánico hasta 100 cualificadas + traslado a dana-games-juegos.",
+   "title": "Cofre del Doblón (Doubloon Rush)"
+  },
+  {
+   "commit": null,
+   "covers": "mockup variante A elegido por Daniel (arena como base)",
+   "paso": "Prototipo del verbo en construcción (constructor único, desde ~13:33; código sin commitear, sin push aún)",
+   "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente",
+   "slug": "sand-jam",
+   "status": "EN MARCHA — Prototipo del verbo SOLO con el MÉTODO NUEVO (aprobado por Daniel 13:29): un solo constructor, menú + núcleo jugable + 1–2 niveles, SIN tienda, SIN skins, SIN capítulos. Constructor en marcha desde ~13:33 (rama niky/sand-jam-1711, worktree wt-sand-jam; código sin commitear, sin push aún). Daniel juega el prototipo antes de hacer el juego completo. | Paso: prototipo del verbo en construcción | Queda: ~prototipo jugable + prueba de Daniel + juego completo con el mismo agente.",
+   "title": "Sand Jam!"
   }
  ],
  "published": [
@@ -74,7 +83,7 @@
    "playgama_url": "https://playgama.ai/play/d7nbp5h2yci4vs",
    "published_date": "2026-11-16",
    "slug": "scribble-striker",
-   "status": "Sandbox — Live · build c7a66d1 republicado 12:46 (sin online: botón RANKING + clasificaciones locales; píldoras centradas 220@32 / 9@84; tienda 478 skins; foto del menú repintada sin «EN LÍNEA»). Menú en vivo verificado: RANKING visible. Pendiente: prueba de Daniel. Verificado 13:05–13:09: primera carga en blanco (marco vacío >50 s) — al recargar carga bien y el menú se mantiene estable. Panel: 19 lanzamientos, 10 partidas, ~7 min de media, 1 like.",
+   "status": "Sandbox — Live · build c7a66d1 republicado 12:46 (sin online: botón RANKING + clasificaciones locales; píldoras centradas 220@32 / 9@84; tienda 478 skins; foto del menú repintada sin «EN LÍNEA»). Menú en vivo verificado: RANKING visible. Pendiente: prueba de Daniel. Verificado 13:05–13:09: primera carga en blanco (marco vacío >50 s) — al recargar carga bien y el menú se mantiene estable. Panel: 19 lanzamientos, 10 partidas, ~7 min de media, 1 like. Impulso gratis +50: YA ESTABA ACTIVO (verificado 13:41) — no se reclamó otro; queda 1 impulso gratis para otros juegos.",
    "title": "Scribble Striker",
    "title_es": "Scribble Striker"
   }
@@ -110,7 +119,7 @@
    "title_es": "El Marchante de Relojes"
   }
  ],
- "resumen": "Actualización 13:36 — Esculpe EN VIVO en Sandbox (https://playgama.ai/play/n7oqzkli52rhgy); Niky lo juega antes que Daniel. Cofre: revisión bloqueada hasta 100 partidas; impulso +50 activándose. Sand Jam: prototipo en marcha con el método nuevo. Slice: mal hecho, no se toca. Fútbol: recargar si sale en blanco. Marble: se deja así.",
+ "resumen": "Actualización 13:47 — Sand Jam: prototipo del verbo EN MARCHA (constructor único, método nuevo; sin commit aún). Esculpe: publicado en Sandbox 13:36, Niky lo está jugando entero antes que Daniel. Cofre: EN VIVO en Sandbox + impulso +50 ACTIVO (termina 18 nov); revisión bloqueada hasta 100 partidas. Fútbol: su impulso gratis YA estaba activo, no se reclamó otro; queda 1 gratis para otros juegos. Slice: no se toca. Marble: se deja así.",
  "stats": {
   "general": {
    "anuncios_vistos_totales": 0,
@@ -155,32 +164,32 @@
  },
  "to_test": [
   {
-   "slug": "marble-rush",
-   "title": "Marble Rush",
-   "status": "LISTO PARA PROBAR — Ronda 1 ENTREGADA (commit 7fa1fe5 en niky/marble-rush-1611, ZIP 2,34 MB verificado en disco, QA GO con reserva de audio sintetizado). PUBLICADO en Sandbox 12:53: https://playgama.ai/play/vrv3vdflwi4f44 — pantalla inicial verificada en vivo («¡MARBLE RUSH!», pista de madera, botón JUGAR). Pendiente: prueba de Daniel.",
    "commit": "7fa1fe5",
-   "covers": "covers 800x800 / 1080x1920 / 1920x1080 con sello + GIF 9,51 s que acaba en victoria"
+   "covers": "covers 800x800 / 1080x1920 / 1920x1080 con sello + GIF 9,51 s que acaba en victoria",
+   "slug": "marble-rush",
+   "status": "LISTO PARA PROBAR — Ronda 1 ENTREGADA (commit 7fa1fe5 en niky/marble-rush-1611, ZIP 2,34 MB verificado en disco, QA GO con reserva de audio sintetizado). PUBLICADO en Sandbox 12:53: https://playgama.ai/play/vrv3vdflwi4f44 — pantalla inicial verificada en vivo («¡MARBLE RUSH!», pista de madera, botón JUGAR). Pendiente: prueba de Daniel.",
+   "title": "Marble Rush"
   },
   {
-   "slug": "esculpe-la-figura",
-   "title": "Esculpe la Figura (Sculpt & Reveal)",
-   "status": "EN VIVO en Sandbox 13:36 — https://playgama.ai/play/n7oqzkli52rhgy — Título verificado en vivo (SCULPT & REVEAL!, JUGAR / GALERÍA / TIENDA / DIARIO; el primer cliente pide UN GATO). Niky lo está jugando entero antes de pasárselo a Daniel (método nuevo, paso 5).",
    "commit": "cb063ce",
-   "covers": "covers 800x800 / 1080x1920 / 1920x1080 con sello Dana Games + GIF 8,57 s que acaba en victoria 3 estrellas"
+   "covers": "covers 800x800 / 1080x1920 / 1920x1080 con sello Dana Games + GIF 8,57 s que acaba en victoria 3 estrellas",
+   "slug": "esculpe-la-figura",
+   "status": "EN VIVO en Sandbox 13:36 — https://playgama.ai/play/n7oqzkli52rhgy — Título verificado en vivo (SCULPT & REVEAL!, JUGAR / GALERÍA / TIENDA / DIARIO; el primer cliente pide UN GATO). Niky lo está jugando entero antes de pasárselo a Daniel (método nuevo, paso 5). Playtest de Dani en marcha (tarea de navegador 13:37), sin resultado aún.",
+   "title": "Esculpe la Figura (Sculpt & Reveal)"
   },
   {
-   "slug": "doubloon-rush",
-   "title": "Cofre del Doblón (Doubloon Rush)",
-   "status": "EN VIVO en Sandbox 13:25 — https://playgama.ai/play/qzoqem2tychiz4 — La publicación cortada a las 13:20 SÍ se completó: la build con el fix game_ready (7227c4d) quedó Live on Sandbox. Título verificado en vivo (DOUBLOON RUSH, JUGAR / CÓMO SE JUEGA, 0/90 RÉCORD: 0). Daniel puede probarlo.",
    "commit": "7227c4d",
-   "covers": "covers 800x800 / 1080x1920 / 1920x1080 (+ versiones YouTube) + GIF del Short"
+   "covers": "covers 800x800 / 1080x1920 / 1920x1080 (+ versiones YouTube) + GIF del Short",
+   "slug": "doubloon-rush",
+   "status": "EN VIVO en Sandbox 13:25 — https://playgama.ai/play/qzoqem2tychiz4 — La publicación cortada a las 13:20 SÍ se completó: la build con el fix game_ready (7227c4d) quedó Live on Sandbox. Título verificado en vivo (DOUBLOON RUSH, JUGAR / CÓMO SE JUEGA, 0/90 RÉCORD: 0). Daniel puede probarlo.",
+   "title": "Cofre del Doblón (Doubloon Rush)"
   },
   {
-   "slug": "slice-and-serve",
-   "title": "Slice & Serve (Master Chef Speed)",
-   "status": "Probado por Daniel 13:20: MAL HECHO («Otro juego mal echo»). Enlace: https://playgama.ai/play/frbjpxf7yerlup — NO TOCAR (orden de Daniel 13:22: «el chef no»).",
    "commit": "0254532",
-   "covers": "covers 800x800 / 1080x1920 / 1920x1080 (+ versiones YouTube) + GIF 9,58 s que acaba en victoria"
+   "covers": "covers 800x800 / 1080x1920 / 1920x1080 (+ versiones YouTube) + GIF 9,58 s que acaba en victoria",
+   "slug": "slice-and-serve",
+   "status": "Probado por Daniel 13:20: MAL HECHO («Otro juego mal echo»). Enlace: https://playgama.ai/play/frbjpxf7yerlup — NO TOCAR (orden de Daniel 13:22: «el chef no»).",
+   "title": "Slice & Serve (Master Chef Speed)"
   }
  ],
  "upcoming": [
@@ -188,7 +197,7 @@
    "design": "Versión A (arena) como base; B (caramelos) y C (puerto pirata) como skins comprables",
    "mockup": "idea-5-variant-a.png",
    "slug": "sand-jam",
-   "status": "Aceptado por Daniel — en cola, primero tras relojes y fútbol",
+   "status": "Aceptado por Daniel — EN MARCHA: prototipo del verbo en construcción con el método nuevo (constructor único desde 13:33, sin commit aún)",
    "title": "Sand Jam!"
   },
   {
@@ -444,6 +453,6 @@
    "title": "Glow Grab!"
   }
  ],
- "updated_at": "2026-11-17T13:36:00+01:00",
+ "updated_at": "2026-11-17T13:47:00+01:00",
  "updated_by": "Dani"
 }
