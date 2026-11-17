@@ -21,6 +21,15 @@
   "in_progress": [
     {
       "commit": null,
+      "covers": "pendientes (se rehace como el fútbol: menú desde la foto)",
+      "paso": "Agente arrancado 04:14 por orden de Daniel (04:14); aún sin commits ni rama nueva (verificado 04:17: niky/relojes-redesign-a-1611 sigue en b45e886)",
+      "queda": "Rehacer los relojes como se hizo el fútbol (menú desde la foto, sin redibujar); estimación pendiente del avance del agente (~ sin estimar aún)",
+      "slug": "luxury-watch-dealer-rework",
+      "status": "EN MARCHA - Orden de Daniel 04:14: «el juego del fútbol has conseguido replicarlo bien, ahora hazlo con los relojes». El fútbol ES el modelo: el menú del fútbol NO se redibujó, se hizo desde la foto. Rework de Luxury Watch Dealer con ese mismo método. Agente en marcha desde las 04:14; sin commits ni rama nueva todavía (verificado 04:17). La versión publicada en Sandbox (b45e886) sigue en vivo mientras tanto. | Paso: agente arrancado 04:14 | Queda: ~ sin estimar aún, pendiente del avance",
+      "title": "Luxury Watch Dealer (rework como el fútbol)"
+    },
+    {
+      "commit": null,
       "covers": "assets generados (pack 32/32), covers pendientes",
       "paso": "Rebuild sin cuajar (bundle 0 bytes 23:26, dist vacío, verificado 00:37); adaptador online RecurretumultaOnlineAdapter escrito y verificado contra wss://online.recurretumulta.online",
       "queda": "Terminar rebuild + smoke + lado a lado + ZIP; crear rama anita/grid-defender-b en dana-games-juegos y subir a probar",
@@ -100,7 +109,7 @@
       "title": "Shadow Match"
     }
   ],
-  "resumen": "Actualización 03:52 — Sin cambios desde la actualización de Anita de las 03:35 (verificado 03:47 por ls-remote: sin commits nuevos en dana-games-juegos — anita/cyber-runner-b sigue en 08abde42, relojes en b45e886, fútbol en 06b08c2; sin ramas de Slice ni Grid). Cyber Runner ronda 2 EN MARCHA: build reintentado 03:30 (proceso PID 51263), bundle a 0 bytes (03:35, último dato de Anita) — sigue sin cuajar; queda: terminar build + subir ronda 2 al repo + re-verificar (sin estimación fiable mientras el build no cuaje). Slice & Serve EN MARCHA: fuente completa, build bloqueado por EPERM; pepino sigue sin existir (03:35); queda: build + smoke + lado a lado + ZIP + GIF + rama. Grid Defender EN MARCHA: rebuild sin cuajar (dist vacío); queda: rebuild + smoke + lado a lado + ZIP. Siguen publicados en Sandbox: Scribble Striker y Luxury Watch Dealer, pendientes de que Daniel los pruebe por la mañana. Próximo en cola: Sand Jam. (03:52, fuera de horario de mensajes: sin aviso en chat.)",
+  "resumen": "Actualización 04:17 — NOVEDAD: Daniel ordenó a las 04:14 rehacer los relojes como el fútbol («el juego del fútbol has conseguido replicarlo bien, ahora hazlo con los relojes»); agente en marcha desde las 04:14, sin commits nuevos aún (verificado 04:17: relojes sigue en b45e886, fútbol en 06b08c2, cyber-runner-b en 08abde42). Anita: sin cambios desde 03:35 (Cyber build reintentado 03:30, bundle a 0 bytes; Slice sin pepino; Grid sin rebuild). Siguen publicados en Sandbox: Scribble Striker y Luxury Watch Dealer, pendientes de que Daniel los pruebe por la mañana. Próximo en cola: Sand Jam. (04:17, fuera de horario de mensajes: sin aviso en chat.)",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -414,6 +423,6 @@
       "title": "Glow Grab!"
     }
   ],
-  "updated_at": "2026-11-17T03:52:03+01:00",
-  "updated_by": "dani"
+  "updated_at": "2026-11-17T04:19:39+01:00",
+  "updated_by": "Dani (cron 30 min)"
 }
