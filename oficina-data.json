@@ -49,15 +49,6 @@
    "title": "Cyber Runner"
   },
   {
-   "commit": "7227c4d",
-   "covers": "pendientes de revisión",
-   "paso": "EN VIVO en Sandbox 13:25 (qzoqem2tychiz4); impulso +50 ACTIVO (Running, termina 18 nov); revisión BLOQUEADA por objetivos (100 partidas, 5:00, 0,30 anuncios)",
-   "queda": "Que el impulso genere ~50 partidas + tráfico orgánico hasta 100 cualificadas; traslado a dana-games-juegos; prueba de Daniel",
-   "slug": "cofre-del-doblon",
-   "status": "EN MARCHA — Ronda 1 ENTREGADA por Anita (PR #92, rama anita/cofre-del-doblon @ 01759ca; título EN «Doubloon Rush» elegido por Daniel 08:44). EN VIVO en Sandbox 13:25 — https://playgama.ai/play/qzoqem2tychiz4 (build con fix game_ready 7227c4d, título verificado en vivo). IMPULSO +50 ACTIVO (13:37, aprobado por Daniel 13:34): «Starter boost — 0 / ~50 gameplays — Running — Ends 18 Nov», entra en vigor en ~2 h; queda 1 impulso gratis para otros juegos (+ otro el 17 dic). REVISIÓN BLOQUEADA (13:34): sin botón «Send for Review» hasta cumplir 100 partidas cualificadas, 5:00 de media y 0,30 anuncios por partida (ahora: 3 lanzamientos, 1 partida, 7m 49s, 0 €). | Paso: en vivo + impulso en marcha | Queda: ~que el impulso genere partidas + tráfico orgánico hasta 100 cualificadas + traslado a dana-games-juegos.",
-   "title": "Cofre del Doblón (Doubloon Rush)"
-  },
-  {
    "commit": null,
    "covers": "mockup variante A elegido por Daniel (arena como base)",
    "paso": "Prototipo del verbo en construcción (constructor único, desde ~13:33; código sin commitear, sin push aún)",
@@ -121,10 +112,15 @@
   {
    "slug": "esculpe-la-figura",
    "title": "Esculpe la Figura (Sculpt & Reveal)",
-   "reason": "Rechazado por Daniel 13:58 (Rechazado no se publica) - playtest de Dani 13:58: no es divertido asi (DIARIO roto, pestanas de tienda sin responder, piedra y figura indistinguibles, revelacion solo un cambio de color). Sin arreglos ni envio a revision; se queda en Sandbox."
+   "reason": "Fuera por decision de Daniel 14:02: no lo ha probado el, pero con tantos problemas del playtest de Dani (DIARIO roto, pestanas de tienda sin responder, piedra y figura indistinguibles, revelacion solo un cambio de color) se va fuera. Sin arreglos ni envio a revision; se queda en Sandbox."
+  },
+  {
+   "slug": "doubloon-rush",
+   "title": "Cofre del Doblon (Doubloon Rush)",
+   "reason": "RECHAZADO por Daniel 13:58 (Rechazado no se publica). No va a revision ni al catalogo. El impulso +50 sigue corriendo hasta el 18 nov (no se puede parar). Pendiente: Daniel dira si se borra de Playgama como los relojes o se deja en Sandbox."
   }
  ],
- "resumen": "Actualizacion 13:59 - Esculpe RECHAZADO por Daniel 13:58: no se publica, sin arreglos. Playtest de Dani: no es divertido asi (diario roto, tienda sin responder, piedra/figura indistinguibles). Futbol: revisando los marcadores en vivo a 390px (Daniel: se ven peor que antes). Sand Jam: prototipo del verbo EN MARCHA con el metodo nuevo. Cofre: impulso +50 ACTIVO (termina 18 nov). Futbol: REBUILD desde cero con el metodo nuevo (misma jugabilidad/normas; prototipo en marcha).",
+ "resumen": "Actualizacion 14:03 - Cofre RECHAZADO por Daniel 13:58: no se publica (no va a revision). Esculpe tambien FUERA (Daniel 14:02, por los problemas del playtest). Siguiente: Sand Jam y rebuild del futbol, prototipos en marcha con el metodo nuevo. Futbol: revisando marcadores en vivo.",
  "stats": {
   "general": {
    "anuncios_vistos_totales": 0,
@@ -174,13 +170,6 @@
    "slug": "marble-rush",
    "status": "LISTO PARA PROBAR — Ronda 1 ENTREGADA (commit 7fa1fe5 en niky/marble-rush-1611, ZIP 2,34 MB verificado en disco, QA GO con reserva de audio sintetizado). PUBLICADO en Sandbox 12:53: https://playgama.ai/play/vrv3vdflwi4f44 — pantalla inicial verificada en vivo («¡MARBLE RUSH!», pista de madera, botón JUGAR). Pendiente: prueba de Daniel.",
    "title": "Marble Rush"
-  },
-  {
-   "commit": "7227c4d",
-   "covers": "covers 800x800 / 1080x1920 / 1920x1080 (+ versiones YouTube) + GIF del Short",
-   "slug": "doubloon-rush",
-   "status": "EN VIVO en Sandbox 13:25 — https://playgama.ai/play/qzoqem2tychiz4 — La publicación cortada a las 13:20 SÍ se completó: la build con el fix game_ready (7227c4d) quedó Live on Sandbox. Título verificado en vivo (DOUBLOON RUSH, JUGAR / CÓMO SE JUEGA, 0/90 RÉCORD: 0). Daniel puede probarlo.",
-   "title": "Cofre del Doblón (Doubloon Rush)"
   },
   {
    "commit": "0254532",
@@ -451,6 +440,6 @@
    "title": "Glow Grab!"
   }
  ],
- "updated_at": "2026-11-17T14:00:00+01:00",
+ "updated_at": "2026-11-17T14:03:00+01:00",
  "updated_by": "Dani"
 }
