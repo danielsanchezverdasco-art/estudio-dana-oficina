@@ -176,7 +176,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Rocket Rescue v1.0 YA EN VIVO en Sandbox; lo estoy jugando yo ahora. Burger Boss en vivo (mi playtest en marcha), Garden Dash en vivo (mi playtest en marcha), fútbol rebuild en app aparte (mi playtest en marcha), Snowball subiendo.",
+  "resumen": "Snowball Fight YA EN VIVO en Sandbox (primero de los 9 prototipos); lo estoy jugando yo ahora. Pet Vet subiendo. Rocket Rescue, Burger Boss y Garden Dash en vivo (mis playtests en marcha); fútbol rebuild en app aparte (mi playtest en marcha).",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -300,7 +300,7 @@
       "paso": "Prototipo del verbo entregado 16:08 y pusheado",
       "queda": "~subir a Sandbox + prueba de Daniel",
       "slug": "pet-vet",
-      "status": "LISTO PARA PROBAR — Prototipo del verbo ENTREGADO 16:08 (commit 4001dc2 en niky/pet-vet-1711, en remoto; variante base A: clínica). Constructor terminado. Pendiente: subir a Sandbox + prueba de Daniel. Verificado 17:20: en remoto, sin Sandbox aún.",
+      "status": "EN MARCHA — prototipo ENTREGADO (commit 4001dc2, zip 546.314 B verificado por mí: sendMessage 2×, game_ready 1×). Subiendo a Sandbox como juego nuevo ahora mismo; queda ~la subida + jugarlo yo en vivo y pasarte el enlace.",
       "title": "Pet Vet!"
     },
     {
@@ -309,7 +309,7 @@
       "paso": "Prototipo del verbo entregado 16:05 y pusheado",
       "queda": "~subir a Sandbox + prueba de Daniel",
       "slug": "snowball-fight",
-      "status": "EN MARCHA — prototipo ENTREGADO (commit c64c24b, zip 545.621 B verificado por mí: sendMessage 2×, game_ready 1×). Subiendo a Sandbox como juego nuevo ahora mismo; queda ~la subida + jugarlo yo en vivo y pasarte el enlace.",
+      "status": "LISTO PARA PROBAR — prototipo EN VIVO en Sandbox (https://playgama.ai/play/4jtsbvr7knc3bj, ID cmwkzefrn0g4ik00hq1m8ghaq, «Live · 0 of 30 days», menú verificado: SNOWBALL FIGHT!, ¡Guerra de Bolas de Nieve!, RÉCORD: 0, JUGAR). Queda ~mi playtest en vivo y pasarte el enlace.",
       "title": "Snowball Fight!"
     },
     {
@@ -769,6 +769,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 18:47",
+  "updated_at": "2026-11-17 18:50",
   "updated_by": "Dani (cron 30 min)"
 }
