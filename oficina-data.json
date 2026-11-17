@@ -136,7 +136,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "20:47 — 4 playtests en vivo en marcha (Monster Merge ~9 min, Rocket Rescue ~15 min, Dungeon Delve ~26 min, Dance Dash ~28 min), sin resultados aún. Island Tribe: arreglo de los 14 defectos en marcha (~10 min, sin entrega aún). Coordinador de sin audio y defectos activo de nuevo (última actividad hace ~4 min). Sand Jam: constructor sin actividad ~26 min. Sin commits nuevos; Anita sin cambios.",
+  "resumen": "Dance Dash: NO limpio — ninguna canción se puede jugar en vivo (anuncio → fin con 0 pts), 12 defectos, de vuelta a arreglar. Island Tribe: 14 defectos, de vuelta a arreglar. Monster Merge v1.0 EN VIVO en Sandbox; mi playtest en marcha. Rocket Rescue arreglo en vivo; mi playtest entero en marcha. Dungeon Delve en vivo; mi playtest en marcha. Fútbol rebuild con 15 defectos, de vuelta a arreglar + sin audio. Sand Jam, Garden Dash y Burger Boss con defectos del playtest, de vuelta a arreglar + sin audio.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -222,7 +222,7 @@
       "design": "A (Discoteca), B (K-pop) y C (Rave robot) son capítulos del juego",
       "mockup": "idea-24-variant-a.png",
       "slug": "dance-dash",
-      "status": "EN MARCHA — JUEGO COMPLETO v1.0 EN VIVO en Sandbox (https://playgama.ai/play/morggaiqrsm5xh, Live · 0 of 30 days; build nueva 553 KB activa, prototipo 545 KB retirado): menú verificado (DANCE DASH!, bola de discoteca, NEON NIGHTS · 112 BPM, JUGAR, TIENDA, PERSONALIZAR, AJUSTES, DIARIO, CLASIFICACIÓN). Mi playtest en vivo en marcha; solo entonces pasarte el enlace.",
+      "status": "EN MARCHA — mi playtest en vivo (33 min, vertical): menú y selección limpios, silencio total, PERO 12 DEFECTOS — CRÍTICO: ninguna canción se puede jugar (al elegirla sale un anuncio y al cerrarlo va directo a FIN DEL JUEGO con 0 puntos, 6 intentos; en local sí funcionaba: el reloj de la canción probablemente corre durante el anuncio). Además: píldoras de clasificación solapadas, resaltado de pestañas de tienda que no se mueve, flecha atrás que deja de funcionar tras desplazar, icono de moneda roto, diario sin pantalla propia, ajustes que abren «PAUSA». De vuelta al constructor a arreglar. NO se enseña.",
       "title": "Dance Dash!",
       "paso": "v1.0 EN VIVO en Sandbox desde 20:19 (build 553 KB, prototipo 545 KB retirado); mi playtest en vivo en marcha (browser task a546a39a) Verificado 20:47: playtest en marcha ~28 min, sin resultado aún.",
       "queda": "~mi playtest en vivo + prueba de Daniel"
@@ -771,6 +771,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 20:47",
+  "updated_at": "2026-11-17 20:53",
   "updated_by": "Dani (cron 30 min)"
 }
