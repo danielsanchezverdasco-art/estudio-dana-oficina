@@ -224,8 +224,8 @@
       "slug": "dance-dash",
       "status": "EN MARCHA — mi playtest en vivo (33 min, vertical): menú y selección limpios, silencio total, PERO 12 DEFECTOS — CRÍTICO: ninguna canción se puede jugar (al elegirla sale un anuncio y al cerrarlo va directo a FIN DEL JUEGO con 0 puntos, 6 intentos; en local sí funcionaba: el reloj de la canción probablemente corre durante el anuncio). Además: píldoras de clasificación solapadas, resaltado de pestañas de tienda que no se mueve, flecha atrás que deja de funcionar tras desplazar, icono de moneda roto, diario sin pantalla propia, ajustes que abren «PAUSA». De vuelta al constructor a arreglar. NO se enseña.",
       "title": "Dance Dash!",
-      "paso": "v1.0 EN VIVO en Sandbox desde 20:19 (build 553 KB, prototipo 545 KB retirado); mi playtest en vivo en marcha (browser task a546a39a) Verificado 20:47: playtest en marcha ~28 min, sin resultado aún.",
-      "queda": "~mi playtest en vivo + prueba de Daniel"
+      "paso": "v1.0 EN VIVO en Sandbox desde 20:19 (build 553 KB); mi playtest en vivo TERMINADO 20:52 (33 min, 12 defectos, NO limpio) — CRÍTICO: ninguna canción se puede jugar (anuncio → FIN DEL JUEGO con 0 pts); agente de arreglo lanzado (1b2fb820). Verificado 20:55.",
+      "queda": "~arreglo de 12 defectos (crítico primero) + re-verificación + prueba de Daniel"
     },
     {
       "design": "A (flores), B (huerto) y C (cactus) son capítulos del juego",
@@ -771,6 +771,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 20:53",
+  "updated_at": "2026-11-17 20:55",
   "updated_by": "Dani (cron 30 min)"
 }
