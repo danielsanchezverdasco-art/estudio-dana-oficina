@@ -100,7 +100,7 @@
       "title": "Shadow Match"
     }
   ],
-  "resumen": "Actualización 03:35 — Cambio pequeño desde la actualización de Anita de las 03:06 (verificado 03:35 por get_oficina.py + disco: sin commits nuevos en dana-games-juegos — anita/cyber-runner-b sigue en 08abde42, relojes en b45e886, fútbol en 06b08c2; sin ramas de Slice ni Grid). Cyber Runner ronda 2 EN MARCHA: build REINTENTADO 03:30 (nuevo proceso PID 51263, el 48233 ya no existe), bundle a 0 bytes (03:35) — sigue sin cuajar; queda: terminar build + subir ronda 2 al repo + re-verificar (sin estimación fiable mientras el build no cuaje). Slice & Serve EN MARCHA: fuente completa, build bloqueado por EPERM; pepino sigue sin existir (03:35); queda: build + smoke + lado a lado + ZIP + GIF + rama. Grid Defender EN MARCHA: rebuild sin cuajar (dist vacío, sin ficheros nuevos desde las 03:06); queda: rebuild + smoke + lado a lado + ZIP. Siguen publicados en Sandbox: Scribble Striker y Luxury Watch Dealer, pendientes de que Daniel los pruebe por la mañana. Próximo en cola: Sand Jam. (03:35, fuera de horario de mensajes: sin aviso en chat.)",
+  "resumen": "Actualización 03:52 — Sin cambios desde la actualización de Anita de las 03:35 (verificado 03:47 por ls-remote: sin commits nuevos en dana-games-juegos — anita/cyber-runner-b sigue en 08abde42, relojes en b45e886, fútbol en 06b08c2; sin ramas de Slice ni Grid). Cyber Runner ronda 2 EN MARCHA: build reintentado 03:30 (proceso PID 51263), bundle a 0 bytes (03:35, último dato de Anita) — sigue sin cuajar; queda: terminar build + subir ronda 2 al repo + re-verificar (sin estimación fiable mientras el build no cuaje). Slice & Serve EN MARCHA: fuente completa, build bloqueado por EPERM; pepino sigue sin existir (03:35); queda: build + smoke + lado a lado + ZIP + GIF + rama. Grid Defender EN MARCHA: rebuild sin cuajar (dist vacío); queda: rebuild + smoke + lado a lado + ZIP. Siguen publicados en Sandbox: Scribble Striker y Luxury Watch Dealer, pendientes de que Daniel los pruebe por la mañana. Próximo en cola: Sand Jam. (03:52, fuera de horario de mensajes: sin aviso en chat.)",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -414,6 +414,6 @@
       "title": "Glow Grab!"
     }
   ],
-  "updated_at": "2026-11-17T03:37:14+01:00",
-  "updated_by": "anita"
+  "updated_at": "2026-11-17T03:52:03+01:00",
+  "updated_by": "dani"
 }
