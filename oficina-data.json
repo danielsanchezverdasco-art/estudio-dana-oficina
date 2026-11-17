@@ -25,7 +25,7 @@
       "design": "Variante A «Island Tribe!» como base (campamento tropical al atardecer, los 10 alrededor de la hoguera); B «Castaway Council!» (consejo nocturno) y C «Tribe Survival!» (vista cenital de la isla) como capítulos",
       "mockup": "survival-variant-a.png",
       "slug": "island-tribe",
-      "status": "LISTO PARA PROBAR — 14 defectos ARREGLADOS y verificados en vivo (playtest 18/11 00:06: 3 partidas sin recargar, bloqueante JUGAR/REINICIAR arreglado, silencio total). Los 2 defectos menores YA están arreglados EN CÓDIGO (2d54699, en remoto — registro en español + Result visible desde el primer fotograma); falta regenerar el zip + resubir a Sandbox + verificar en vivo. Enlace Sandbox (build actual, aún con los 2 menores): https://playgama.ai/play/d6j2wnoekweljr Verificado 00:47: corrección del apunte de las 00:23 — 2d54699 SÍ está en remoto (el apunte anterior decía que seguía c50c9f0); sin zip nuevo aún.",
+      "status": "EN MARCHA — 2 defectos menores ARREGLADOS (commit 2d54699 en remoto, zip verificado por Dani: game_ready + sin audio, registro ya en español). Subida a la app existente + playtest en vivo EN MARCHA (centrado en los 2 defectos + regresión del día 1); si sale limpio queda listo del todo.",
       "title": "Island Tribe!",
       "paso": "Arreglo de los 14 defectos ENTREGADO (c50c9f0) y EN VIVO en Sandbox; verificado en vivo 00:06 (3 partidas sin recargar, bloqueante JUGAR/REINICIAR arreglado, silencio total). Ronda corta de los 2 defectos menores ENTREGADA en código (2d54699, 23:30, en remoto). Verificado 00:47: sin zip nuevo aún; pendiente regenerar zip + resubir + verificar en vivo.",
       "queda": "~regenerar zip + resubir a Sandbox + verificar en vivo + prueba de Daniel"
@@ -136,7 +136,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Pet Vet: 10 defectos nuevos en arreglo (agente en marcha desde ~00:35, sin commit aún). Dance Dash: el arreglo crítico FALLA en vivo, coordinador con nueva ronda en marcha. Island Tribe: los 2 defectos menores YA están arreglados en código (2d54699, en remoto) — falta zip + resubida. Sand Jam: sin cambios, 2 defectos en arreglo. Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Fútbol: arreglo de 15 defectos commiteado (231b585), pendiente verificación + resubida.",
+  "resumen": "Island Tribe: 2 menores arreglados, subida + playtest en vivo en marcha. Pet Vet: rebuild subido y jugado en vivo — 8 defectos viejos arreglados, 10 nuevos en arreglo. Dance Dash: el arreglo crítico FALLA en vivo (canción no se juega tras el anuncio), de vuelta a arreglar. Sand Jam: zip verificado pero 2 defectos vivos en arreglo. Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Monster Merge: 13 defectos (3 graves), en arreglo. Rocket Rescue: 1 defecto en vertical + victoria sin verificar, en arreglo.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -771,6 +771,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-18 00:47",
+  "updated_at": "2026-11-18 00:56",
   "updated_by": "Dani (cron 30 min)"
 }
