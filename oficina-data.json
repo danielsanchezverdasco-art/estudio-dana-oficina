@@ -134,7 +134,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Dungeon Delve prototipo ENTREGADO y subiendo a Sandbox (sin audio). Island Tribe en vivo, mi playtest en marcha. Sand Jam, Garden Dash y Burger Boss con defectos del playtest, de vuelta a arreglar + sin audio. Operación sin audio en marcha en todos los juegos. Sneak Out v1.0 entregado, pendiente quitar audio y subir.",
+  "resumen": "Dance Dash v1.0 COMPLETO entregado y subiendo a Sandbox (sin audio). Dungeon Delve prototipo subiendo a Sandbox. Island Tribe en vivo, mi playtest en marcha. Sand Jam, Garden Dash y Burger Boss con defectos del playtest, de vuelta a arreglar + sin audio. Operación sin audio en marcha en todos los juegos. Sneak Out v1.0 entregado, pendiente quitar audio y subir.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -220,7 +220,7 @@
       "design": "A (Discoteca), B (K-pop) y C (Rave robot) son capítulos del juego",
       "mockup": "idea-24-variant-a.png",
       "slug": "dance-dash",
-      "status": "EN MARCHA — JUEGO COMPLETO en marcha: diseño final desde la variante A (discoteca) + capítulos K-pop y rave robot; constructor activo hace segundos (~50 min). Últimos ficheros 16:18-16:20 (shots, playtest-full.py). Prototipo en Sandbox: https://playgama.ai/play/morggaiqrsm5xh — Verificado 17:20: sin commits nuevos aún, en verificación. Verificado 17:50: en marcha, activo; 12 ficheros nuevos desde 17:20 (shots/full-game-daily.png 17:48); sin commits nuevos. Verificado 18:17: el constructor anterior cayó 18:13 por un error del sistema (sqlx pool timed out); relanzado 18:13 (24866429) desde su trabajo guardado en disco (README + 10 ficheros src/); sin commit nuevo aún. Verificado 18:49: constructor activo; último fichero 18:45 (playtest-full.json). Verificado 19:23: constructor activo (24866429, ~1 h 10 min); su entrega saldrá ya sin audio (orden 19:16); sin commit nuevo aún. Verificado 19:56: constructor activo (24866429, ~1 h 45 min); sin commit nuevo aún.",
+      "status": "EN MARCHA — JUEGO COMPLETO v1.0 ENTREGADO (commit 1f93723, zip 553.188 B, vitest 58/58, playtest 49 checks PASS, SIN AUDIO, bug del reloj de la canción en pausa arreglado, texto «IPADO» de la tienda arreglado). Subiendo la build nueva a la app existente en Sandbox (https://playgama.ai/play/morggaiqrsm5xh); queda ~verificar menú en vivo + jugarlo yo + pasarte el enlace.",
       "title": "Dance Dash!",
       "paso": "Juego completo: constructor relanzado 18:13, continuando desde su trabajo guardado (variante A + capítulos)",
       "queda": "~juego completo (diseño + capítulos + tienda + clasificación + reto diario); sin estimación del constructor, relanzado 18:13"
@@ -769,6 +769,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 20:11",
+  "updated_at": "2026-11-17 20:13",
   "updated_by": "Dani (cron 30 min)"
 }
