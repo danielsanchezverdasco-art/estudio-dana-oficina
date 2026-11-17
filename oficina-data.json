@@ -22,19 +22,19 @@
     {
       "commit": null,
       "covers": "menú Street (la foto)",
-      "paso": "Agente arrancado 04:26 por orden de Daniel (04:26): online, monedas, banderas, skins con scroll, quitar PUZZLE, idioma inglés + selector. Cartel «¡TOCA PARA CHUTAR!» ya achicado por Dani (burst 150→62) y online activado (ONLINE_ENABLED=true, servidor verificado en vivo).",
-      "queda": "Los 6 arreglos del agente + verificación (tsc, qa, vitest, sondas) + republicar en Sandbox con el mismo enlace.",
+      "paso": "Agente en marcha desde las 04:26 por orden de Daniel (04:26): online, monedas, banderas, skins con scroll, quitar PUZZLE, idioma inglés + selector. Verificado 04:52: agente ACTIVO (última actividad hace segundos), sin commit nuevo aún (HEAD sigue en 06b08c2); cambios sin commitear en el worktree (menu-photo.webp, covers, capturas de sonda). Cartel «¡TOCA PARA CHUTAR!» ya achicado por Dani (burst 150→62) y online activado (ONLINE_ENABLED=true, servidor verificado en vivo).",
+      "queda": "Terminar los 6 arreglos + verificación (tsc, qa, vitest, sondas) + republicar en Sandbox con el mismo enlace. Sin ETA del agente aún.",
       "slug": "scribble-striker-fixes",
-      "status": "EN MARCHA - Orden de Daniel 04:26: todos los cambios del fútbol (online, monedas, banderas, skins, quitar puzzles, idioma). Daniel: «con eso el juego estaría de 10». Agente en marcha desde las 04:26. | Paso: agente arrancado 04:26 | Queda: 6 arreglos + verificar + republicar",
+      "status": "EN MARCHA — Paquete de 6 arreglos del fútbol (online, monedas, banderas, skins con scroll, quitar PUZZLE, idioma inglés + selector). Agente en marcha desde las 04:26, activo a las 04:52, sin commit nuevo aún. | Paso: aplicando los 6 arreglos | Queda: terminar los 6 + verificar + republicar (sin ETA del agente aún)",
       "title": "Scribble Striker (paquete de arreglos)"
     },
     {
       "commit": null,
       "covers": "pendientes (se rehace como el fútbol: menú desde la foto)",
-      "paso": "Rechazado por Daniel 04:10 («está muy mal, no se parece en nada»); agente de rehacer arrancado 04:12, rama niky/relojes-rebuild-exacto-1611 (desde b45e886, se conserva la mecánica, solo se reconstruyen los visuales desde la foto)",
-      "queda": "Rehacer menú y tienda como el fútbol (la foto a sangre completa + solo lo vivo encima); luego prueba de Daniel y republicar en Sandbox",
+      "paso": "Rechazado por Daniel 04:10 («está muy mal, no se parece en nada»); agente de rehacer en marcha desde las 04:12, rama niky/relojes-rebuild-exacto-1611 (desde b45e886, se conserva la mecánica, solo se reconstruyen los visuales desde la foto). Verificado 04:52: agente ACTIVO (última actividad hace segundos), sin commit nuevo aún (HEAD sigue en b45e886); cambios sin commitear en el worktree: Menu.ts, Preloader.ts, Shop.ts, ui.ts + menu-photo.webp y shop-photo.webp.",
+      "queda": "Rehacer menú y tienda como el fútbol (la foto a sangre completa + solo lo vivo encima); luego prueba de Daniel y republicar en Sandbox. Sin ETA del agente aún.",
       "slug": "luxury-watch-dealer-rework",
-      "status": "EN MARCHA - RECHAZADO por Daniel 04:10: rehacer total fiel a la foto, al milímetro, nada de inventos. Modelo: el fútbol. Agente en marcha desde las 04:12. | Paso: agente arrancado 04:12 | Queda: rehacer visuales + prueba de Daniel",
+      "status": "EN MARCHA — RECHAZADO por Daniel 04:10: rehacer total fiel a la foto, al milímetro, nada de inventos. Modelo: el fútbol. Agente en marcha desde las 04:12, activo a las 04:52, sin commit nuevo aún; visuales en curso (Menu/Shop/Preloader/ui.ts + fotos de menú y tienda). | Paso: rehaciendo visuales desde la foto | Queda: terminar visuales + prueba de Daniel + republicar (sin ETA del agente aún)",
       "title": "Luxury Watch Dealer (rework como el fútbol)"
     },
     {
@@ -96,7 +96,7 @@
       "playgama_url": "https://playgama.ai/play/d7nbp5h2yci4vs",
       "published_date": "2026-11-16",
       "slug": "scribble-striker",
-      "status": "Sandbox — Live · paquete de 7 arreglos en marcha (online, monedas, banderas, skins, puzzle, idioma)",
+      "status": "Sandbox — Live · paquete de 6 arreglos en marcha (online, monedas, banderas, skins, puzzle, idioma)",
       "title": "Scribble Striker",
       "title_es": "Scribble Striker"
     }
@@ -118,7 +118,7 @@
       "title": "Shadow Match"
     }
   ],
-  "resumen": "Actualización 04:37 — Slice & Serve: el asset pepino YA EXISTE (1.040.626 B, 04:09; assets públicos regenerados 04:09–04:10; cadena promote-v2b en marcha 04:31); build aún pendiente. Cyber: el proceso de build PID 51263 ya no corre (04:36), bundle sigue a 0 bytes; rama sigue en 08abde42. Grid: sin cambios, dist vacío.",
+  "resumen": "Actualización 04:52 — Fútbol: paquete de 6 arreglos EN MARCHA (agente activo desde las 04:26, sin commit nuevo aún; cartel ya achicado y online ya activado por Dani). Relojes: rehacer total EN MARCHA (agente activo desde las 04:12, sin commit nuevo aún; Menu/Shop/Preloader/ui.ts + fotos de menú y tienda en curso). Anita sin cambios desde su verificación 04:37 (Cyber: build sin cuajar, bundle a 0 bytes; Slice: pepino existe, build pendiente; Grid: dist vacío). Sin commits nuevos en dana-games-juegos desde las 04:30. Sin mensaje a Daniel: son las 04:52, fuera de la ventana 08:00–23:00.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -432,6 +432,6 @@
       "title": "Glow Grab!"
     }
   ],
-  "updated_at": "2026-11-17T04:37:27+01:00",
-  "updated_by": "anita"
+  "updated_at": "2026-11-17T04:52:57+01:00",
+  "updated_by": "dani"
 }
