@@ -176,7 +176,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "18:02 — Island Tribe! elegida por ti (variante A) y ya en prototipo, con día y noche. Fútbol: fallo mío, el enlace que te pasé sirve el build viejo; app nueva aparte en Sandbox en marcha, te paso el enlace nuevo cuando lo verifique en vivo. Crowd Clash prototipo entregado 17:42. Dungeon Delve en prototipo. 7 juegos completos y 7 prototipos en marcha, todos activos.",
+  "resumen": "Garden Dash v1.0 ENTREGADO (9b964e4) y subiéndose a Sandbox. Dance Dash: constructor caído por error del sistema, relanzado desde su trabajo guardado. Fútbol: rebuild de menús subiendo a app aparte. Island Tribe! (supervivencia, día y noche) en prototipo tras el reinicio.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -271,7 +271,7 @@
       "design": "A (flores), B (huerto) y C (cactus) son capítulos del juego",
       "mockup": "idea-13-variant-a.png",
       "slug": "garden-dash",
-      "status": "EN MARCHA — JUEGO COMPLETO en marcha: diseño final desde la variante A (flores) + capítulos huerto y cactus; constructor activo (~1 h 20 min). La pausa de ~10 min de las 17:20 se resolvió: 26 ficheros nuevos desde 17:20 (scripts/verify.py 17:50). Prototipo en Sandbox: https://playgama.ai/play/75x2gbyp5eosbl — Verificado 17:50: activo, en verificación.",
+      "status": "LISTO PARA PROBAR — juego COMPLETO v1.0 ENTREGADO 18:16 (commit 9b964e4, zip 553.877 B verificado por mí: sendMessage 2×, game_ready 1×). 3 mundos, tienda 60 skins, reto diario, clasificación. Subiendo el build nuevo a la app Sandbox existente (75x2gbyp5eosbl); queda ~verificarlo yo en vivo pantalla a pantalla y pasarte el enlace. Pregunta abierta: ¿runner o regar?",
       "title": "Garden Dash!",
       "paso": "Diseño final del juego completo (variante A + capítulos), en verificación",
       "queda": "~juego completo (diseño + capítulos + tienda + clasificación + reto diario); sin estimación del constructor, lleva ~1 h 20 min"
@@ -769,6 +769,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 18:02",
+  "updated_at": "2026-11-17 18:16",
   "updated_by": "Dani (cron 30 min)"
 }
