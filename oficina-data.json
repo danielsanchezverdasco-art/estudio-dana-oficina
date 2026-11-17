@@ -110,7 +110,7 @@
    "title_es": "El Marchante de Relojes"
   }
  ],
- "resumen": "Actualización 13:25 — Cofre EN VIVO en Sandbox (https://playgama.ai/play/qzoqem2tychiz4), la publicación cortada sí se completó. Slice probado por Daniel: mal hecho, no se toca. Fútbol: recargar si sale en blanco. Marble: se deja así. Esculpe y el resto, parados. Investigación en marcha: por qué los juegos de IA de otros salen bien y los nuestros no.",
+ "resumen": "Actualización 13:36 — Esculpe EN VIVO en Sandbox (https://playgama.ai/play/n7oqzkli52rhgy); Niky lo juega antes que Daniel. Cofre: revisión bloqueada hasta 100 partidas; impulso +50 activándose. Sand Jam: prototipo en marcha con el método nuevo. Slice: mal hecho, no se toca. Fútbol: recargar si sale en blanco. Marble: se deja así.",
  "stats": {
   "general": {
    "anuncios_vistos_totales": 0,
@@ -164,7 +164,7 @@
   {
    "slug": "esculpe-la-figura",
    "title": "Esculpe la Figura (Sculpt & Reveal)",
-   "status": "LISTO PARA PROBAR — Ronda 1 ENTREGADA y VERIFICADA (QA GO; commit cb063ce en niky/esculpe-la-figura-1711, 10:58: 3 portadas image-to-image desde el mockup aprobado, GIF 8,57 s de gameplay real hasta victoria 3 estrellas, 6 capturas 390x844, listing EN+ES PEGI 3; 6 defectos abiertos O1–O6 documentados, ninguno bloquea en 9:16). Falta: revisión de Dani + subir a Sandbox; el enlace de prueba llega cuando esté subido.",
+   "status": "EN VIVO en Sandbox 13:36 — https://playgama.ai/play/n7oqzkli52rhgy — Título verificado en vivo (SCULPT & REVEAL!, JUGAR / GALERÍA / TIENDA / DIARIO; el primer cliente pide UN GATO). Niky lo está jugando entero antes de pasárselo a Daniel (método nuevo, paso 5).",
    "commit": "cb063ce",
    "covers": "covers 800x800 / 1080x1920 / 1920x1080 con sello Dana Games + GIF 8,57 s que acaba en victoria 3 estrellas"
   },
@@ -444,6 +444,6 @@
    "title": "Glow Grab!"
   }
  ],
- "updated_at": "2026-11-17T13:25:00+01:00",
+ "updated_at": "2026-11-17T13:36:00+01:00",
  "updated_by": "Dani"
 }
