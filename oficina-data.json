@@ -130,7 +130,7 @@
       "playgama_url": "https://playgama.ai/play/d7nbp5h2yci4vs",
       "published_date": "2026-11-16",
       "slug": "scribble-striker",
-      "status": "Sandbox — Live · build c7a66d1 republicado 12:46 (sin online: botón RANKING + clasificaciones locales; píldoras centradas 220@32 / 9@84; tienda 478 skins; foto del menú repintada sin «EN LÍNEA»). Menú en vivo verificado: RANKING visible. Pendiente: prueba de Daniel. Verificado 13:05–13:09: primera carga en blanco (marco vacío >50 s) — al recargar carga bien y el menú se mantiene estable. Panel: 19 lanzamientos, 10 partidas, ~7 min de media, 1 like. Impulso gratis +50: YA ESTABA ACTIVO (verificado 13:41) — no se reclamó otro; queda 1 impulso gratis para otros juegos. | REBUILD DESDE CERO con el metodo nuevo (orden Daniel 14:00, misma jugabilidad y normas): prototipo del verbo en construccion (constructor unico, rama niky/futbol-rebuild-metodo-nuevo-1711); Daniel juega el prototipo antes del juego completo. | REBUILD 14:00-ahora: constructor único en marcha (rama niky/futbol-rebuild-metodo-nuevo-1711); menús nuevos desde cero en construcción (live-ui.ts editado, compilando ahora; capturas de menús 14:20–14:21); prototipo del verbo archivado; sin entrega ni commit aún. Revisión RANKING en vivo COMPLETADA 14:14: título LEADERBOARDS cortado por la primera tarjeta, no hay clasificación real (solo 5 filas de stats propias en 0), >40% de pantalla vacía abajo; LIGA bien salvo solapes menores; hallazgos pasados al constructor. Build actual c7a66d1 intacto en vivo. Verificado 15:05: sin cambios (sigue c7a66d1, sin commits nuevos); rebuild de fútbol en marcha (agente de menús, ~1 h, sin commits aún); revisión RANKING 14:14: título LEADERBOARDS cortado por la tarjeta, sin clasificación real (5 filas de stats propias en 0), LIGA bien; métricas 13:20: 19 lanzamientos, 10 partidas, ~7 min de media, 1 like. Verificado 15:23: sin cambios (sigue c7a66d1, sin commits nuevos); rebuild desde cero EN MARCHA — constructor activo (actividad hace segundos), compilando (tsconfig.tsbuildinfo tocado; futbol-rebuild/ sin commitear en wt-futbol-rebuild), sin commits aún; revisión RANKING 14:14 (título LEADERBOARDS cortado, sin clasificación real) pendiente de aplicar en el rebuild. Verificado 15:50: sin cambios (sigue c7a66d1, sin commits nuevos); rebuild desde cero EN MARCHA — constructor activo (actividad hace ~2 min), sin ficheros nuevos en wt-futbol-rebuild desde las 15:30, sin commits aún. Verificado 16:17: MENÚS NUEVOS ENTREGADOS 16:14 — commit 3b7edae (312 ficheros, rama niky/futbol-rebuild-metodo-nuevo-1711 en remoto): tsc -b 0, vitest 88/88, build producción 0, sondas 14/14 + Mundial 3/3, 0 errores de consola; capturas 390px en shots-menus/. Los 10 fallos resueltos (6 de la foto de Daniel + 4 de la revisión en vivo). Pendiente: preparar enlace de prueba APARTE sin tocar el build en vivo c7a66d1. Build en vivo sigue c7a66d1. Verificado 17:50: FALLO MÍO — Daniel abrió el enlace 17:45 y vio el build VIEJO c7a66d1 (dos «!» en DIARIO, texto en alemán, píldoras 330/11 sobre la foto): el rebuild de menús 3b7edae (16:14) solo estaba en el repo, NUNCA se subió a Playgama. ARREGLO EN MARCHA: app NUEVA aparte «Scribble Striker — Menús nuevos» creándose SOLO en Sandbox (tarea de navegador en marcha desde ~17:48; zip scribble-menus-rebuild-playgama.zip 3.767.431 B, 59 ficheros, verificado en disco); cuando esté, verificación en vivo pantalla a pantalla y solo entonces se pasa el enlace nuevo a Daniel. El enlace viejo sigue sirviendo c7a66d1 — no abrirlo esperando los menús nuevos. Verificado 18:17: la app aparte «Scribble Striker — Menús nuevos» sigue creándose solo en Sandbox (tarea 068c50cc, ~29 min en marcha); sin enlace nuevo verificado aún.",
+      "status": "EN MARCHA — rebuild de menús YA EN SANDBOX en app aparte «Scribble Striker — Menús nuevos» (https://playgama.ai/play/4k5sxsadh5eynw, ID cmwkxhf490cvgk00hv4dtgm33, solo Sandbox, sin tocar el vivo c7a66d1). Menú cargado y completo en la verificación. Queda ~mi playtest en vivo pantalla a pantalla a zoom (menú, liga, tienda, partida, resultados) y pasarte el enlace nuevo. NO abras el enlace viejo esperando los menús.",
       "title": "Scribble Striker",
       "title_es": "Scribble Striker"
     }
@@ -176,7 +176,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Garden Dash v1.0 YA EN VIVO en Sandbox; lo estoy jugando yo ahora para verificarlo antes de pasarte el enlace. Burger Boss arreglado, subiendo. Dance Dash relanzado; Island Tribe! y Dungeon Delve en prototipo.",
+  "resumen": "FÚTBOL: rebuild de menús YA EN SANDBOX en app aparte; lo estoy jugando yo pantalla a pantalla antes de pasarte el enlace. Garden Dash v1.0 en vivo, mi playtest en marcha. Burger Boss arreglado, subiendo.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -769,6 +769,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 18:27",
+  "updated_at": "2026-11-17 18:31",
   "updated_by": "Dani (cron 30 min)"
 }
