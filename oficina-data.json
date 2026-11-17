@@ -25,7 +25,7 @@
       "design": "Variante A «Island Tribe!» como base (campamento tropical al atardecer, los 10 alrededor de la hoguera); B «Castaway Council!» (consejo nocturno) y C «Tribe Survival!» (vista cenital de la isla) como capítulos",
       "mockup": "survival-variant-a.png",
       "slug": "island-tribe",
-      "status": "EN MARCHA — prototipo del verbo en marcha (reality de supervivencia: enseñar habilidades a 10 personajes IA, ciclo DÍA Y NOCHE, fuego/agua/cobijo/comida). Variante A elegida por Daniel 18:00, agente puesto a hacerlo ya mismo. El constructor anterior murió ~18:07 por el reinicio del sistema (solo tenía el worktree creado); relanzado ~18:08 (4269e477) con el mismo encargo. Queda ~prototipo, luego lo pruebas tú y se hace el juego completo. Verificado 18:49: constructor activo; último fichero 18:48 (03-assigned.png). Verificado 19:23: constructor activo (4269e477, ~1 h 15 min); su entrega saldrá ya sin audio (orden 19:16); sin commit nuevo aún.",
+      "status": "EN MARCHA — prototipo ENTREGADO (commit f1c0910, zip 549.648 B, vitest 38/38, día 1 entero jugado sin errores, ciclo DÍA Y NOCHE como pediste, SIN AUDIO verificado). Subiendo a Sandbox ahora; queda ~verificar menú en vivo + jugarlo yo + pasarte el enlace para que lo pruebes y des feedback.",
       "title": "Island Tribe!",
       "paso": "Prototipo del verbo: constructor activo (4269e477, relanzado ~18:08 tras el reinicio; entrega sin audio)",
       "queda": "~prototipo + prueba de Daniel + juego completo; sin estimación del constructor, relanzado ~18:08"
@@ -134,7 +134,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Garden Dash casi limpio pero con 8 defectos menores, de vuelta a arreglar + sin audio. Sand Jam igual (8 defectos). Burger Boss (3 defectos). Operación sin audio en marcha en todos los juegos. Sneak Out v1.0 entregado, pendiente quitar audio y subir. Crowd Clash en vivo, pendiente playtest tras quitar audio.",
+  "resumen": "Island Tribe prototipo ENTREGADO y subiendo a Sandbox (con día y noche, sin audio). Sand Jam, Garden Dash y Burger Boss con defectos del playtest, de vuelta a arreglar + sin audio. Operación sin audio en marcha en todos los juegos. Sneak Out v1.0 entregado, pendiente quitar audio y subir. Crowd Clash en vivo, pendiente playtest tras quitar audio.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -769,6 +769,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 19:39",
+  "updated_at": "2026-11-17 19:52",
   "updated_by": "Dani (cron 30 min)"
 }
