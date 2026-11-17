@@ -57,7 +57,13 @@ let initPromise: Promise<boolean> | null = null;
 
 /** Initialise the Bridge once, before the engine starts. Returns true when live.
  * Never blocks the game: if the platform takes >3 s, we start without it
- * (storage falls back to localStorage, ads report unsupported). */
+ * (storage falls back to localStorage, ads report unsupported).
+ * NOTE (17/11, fix game_ready): initialize() is called WITHOUT a config file
+ * path — the r1 build passed { configFilePath: 'playgama-bridge-config.json' }
+ * and Playgama's QA tool failed with "Game Ready signal check failed": the
+ * config fetch can reject in the Playgama iframe, which nulled the bridge
+ * and game_ready was never sent. Scribble Striker and Marble Rush initialise
+ * with no arguments and publish fine. */
 export function initBridge(): Promise<boolean> {
   if (initPromise) return initPromise;
   initPromise = (async () => {
@@ -68,7 +74,7 @@ export function initBridge(): Promise<boolean> {
       const timeout = new Promise<never>((_, reject) =>
         setTimeout(() => reject(new Error('bridge init timeout')), 3000),
       );
-      await Promise.race([b.initialize({ configFilePath: 'playgama-bridge-config.json' }), timeout]);
+      await Promise.race([b.initialize(), timeout]);
       return true;
     } catch {
       bridge = null;
@@ -91,10 +97,12 @@ export function bridgeLanguage(): string {
   }
 }
 
-/** Tell the platform the first frame is playable. Call once, from BootScene. */
+/** Tell the platform the first frame is playable. Call once, from BootScene.
+ * Uses the literal 'game_ready' (the SDK's PLATFORM_MESSAGE.GAME_READY has
+ * exactly this value) — the same call Scribble Striker and Marble Rush use. */
 export function sendGameReady(): void {
   try {
-    void bridge?.platform.sendMessage(bridge.PLATFORM_MESSAGE.GAME_READY);
+    void bridge?.platform.sendMessage('game_ready');
   } catch {
     /* not on a platform — ignore */
   }
