@@ -136,7 +136,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Island Tribe: LISTO PARA PROBAR — 14 defectos arreglados y verificados en vivo 00:06, enlace entregado a Daniel en esta actualización. Fútbol: arreglo de los 15 defectos commiteado 23:58, pendiente mi verificación. Pet Vet y Dance Dash: subida + playtest en vivo en marcha ahora mismo. Sand Jam y Monster Merge: arreglo en marcha por el coordinador (activo ahora). Burger Boss: LIMPIO, ya entregado a Daniel.",
+  "resumen": "Island Tribe: LISTO PARA PROBAR — 14 defectos arreglados y verificados en vivo 00:06, enlace entregado a Daniel 00:25. Dance Dash: el arreglo crítico FALLA en vivo (canción no se juega tras el anuncio, 5 intentos a 0), de vuelta a arreglar. Pet Vet: rebuild con la veterinaria ya entera, subida + playtest en vivo en marcha. Fútbol: arreglo de los 15 defectos commiteado 22:58, pendiente mi verificación. Sand Jam: zip verificado pero 2 defectos vivos en arreglo. Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Monster Merge: 13 defectos (3 graves), en arreglo. Rocket Rescue: 1 defecto en vertical + victoria sin verificar, en arreglo.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -771,6 +771,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-18 00:23",
+  "updated_at": "2026-11-18 00:27",
   "updated_by": "Dani (cron 30 min)"
 }
