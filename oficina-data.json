@@ -134,7 +134,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Sand Jam TAMPOCO está limpio: mi playtest (nivel 1 ganado, el verbo funciona) encontró 8 defectos, el peor en la tienda y el diario. De vuelta a arreglar + sin audio. Burger Boss igual (3 defectos). Operación sin audio en marcha en todos los juegos. Sneak Out v1.0 entregado, pendiente quitar audio y subir. Crowd Clash en vivo, pendiente playtest tras quitar audio.",
+  "resumen": "Garden Dash casi limpio pero con 8 defectos menores, de vuelta a arreglar + sin audio. Sand Jam igual (8 defectos). Burger Boss (3 defectos). Operación sin audio en marcha en todos los juegos. Sneak Out v1.0 entregado, pendiente quitar audio y subir. Crowd Clash en vivo, pendiente playtest tras quitar audio.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -229,7 +229,7 @@
       "design": "A (flores), B (huerto) y C (cactus) son capítulos del juego",
       "mockup": "idea-13-variant-a.png",
       "slug": "garden-dash",
-      "status": "LISTO PARA PROBAR — juego COMPLETO v1.0 EN VIVO en Sandbox (build nuevo 554 KB, «Live · 0 of 30 days», menú verificado: Garden Dash!, PLAY, SHOP, WORLDS, DAILY, RANKING). Queda ~mi playtest en vivo pantalla a pantalla y pasarte el enlace. Pregunta abierta: ¿runner o regar? Verificado 19:23: mi playtest en marcha (browser task 1a71a038, ~52 min corriendo, sin resultado aún). Pendiente quitar el audio (operación SIN AUDIO en marcha).",
+      "status": "EN MARCHA — mi playtest en vivo (1 h 11 min, 15+ partidas, récord 199): casi todo limpio, pero 8 defectos menores (botón DOUBLE ×2 fuera del panel de resultados, franja azul sobre el panel, pausa tapa el sol, margarita cortada, flores sobre monedas, ranking online vacío, panel de resultados con entrada en fases, primer obstáculo muy rápido). Menú de pausa sin verificar por mí. De vuelta al constructor con los defectos + quitar el audio. NO se enseña.",
       "title": "Garden Dash!",
       "paso": "v1.0 entregada 18:14 (commit 9b964e4); en Sandbox desde ~18:30; mi playtest en marcha",
       "queda": "~mi playtest en vivo + quitar el audio + prueba de Daniel"
@@ -769,6 +769,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 19:38",
+  "updated_at": "2026-11-17 19:39",
   "updated_by": "Dani (cron 30 min)"
 }
