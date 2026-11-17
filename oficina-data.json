@@ -134,7 +134,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "ORDEN DE DANIEL 19:16: quitar el audio de TODOS los juegos (ni música ni efectos, silencio total). Operación en marcha: coordinador quitando el audio de todos los juegos en Sandbox/entregados + los 5 constructores en marcha avisados. Rocket Rescue en arreglo (5 defectos + sin audio). Snowball y Pet Vet con defectos del playtest, de vuelta a arreglar + sin audio. Sneak Out v1.0 entregado, pendiente quitar audio y subir. Crowd Clash en vivo, pendiente playtest tras quitar audio. Playtests en marcha: Sand Jam, Burger Boss, Garden Dash y fútbol (menús nuevos). Constructores activos: Dance Dash, Monster Merge, Island Tribe, Dungeon Delve.",
+  "resumen": "Burger Boss TAMPOCO está limpio: mi playtest encontró el precio recortado en todas las tarjetas de la tienda, botones fuera del panel de resultados y las píldoras tapando el título. De vuelta a arreglar + sin audio. Operación sin audio en marcha en todos los juegos. Sneak Out v1.0 entregado, pendiente quitar audio y subir. Crowd Clash en vivo, pendiente playtest tras quitar audio.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -205,7 +205,7 @@
       "paso": "v1.0 entregada 16:13; arreglo de la tarjeta Orange Bandana (commit d4cdc4d, 18:24) subido a Sandbox 18:40; mi playtest en marcha",
       "queda": "~mi playtest en vivo + quitar el audio + prueba de Daniel",
       "slug": "burger-boss",
-      "status": "LISTO PARA PROBAR — juego COMPLETO v1.0 con el arreglo de la tienda EN VIVO en Sandbox (build 472 KB, «Live · 0 of 30 days», menú verificado: BURGER BOSS!, PLAY, SHOP, WORLDS, DAILY, RANKS). Queda ~mi playtest en vivo entero a zoom y pasarte el enlace. Verificado 19:23: mi playtest en marcha (browser task 7b3c6d72, ~42 min corriendo, sin resultado aún). Pendiente quitar el audio (operación SIN AUDIO en marcha).",
+      "status": "EN MARCHA — mi playtest en vivo encontró 3 defectos (tienda: precio recortado en TODAS las tarjetas; resultados: botones fuera del panel; menú: las píldoras tapan el título) + zonas vacías en RANKS/WORLDS/DAILY. De vuelta al constructor con los defectos + quitar el audio. NO se enseña.",
       "title": "Burger Boss!",
       "commit": "01b0978"
     },
@@ -769,6 +769,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 19:23",
+  "updated_at": "2026-11-17 19:37",
   "updated_by": "Dani (cron 30 min)"
 }
