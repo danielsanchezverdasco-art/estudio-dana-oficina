@@ -1,14 +1,121 @@
 {
-  "actualizado": null,
+  "actualizado": "2026-11-17T11:00:00+01:00",
   "meta": {
     "objetivoMensualEUR": 2500,
     "mesActual": "2026-11",
     "ingresosMesEUR": null,
     "fuentes": {
-      "playgama": null,
+      "playgama": 0,
       "youtube": null
-    }
+    },
+    "nota": "Playgama: 0,00 $ ganados (panel developer, 17/11 ~11:00). YouTube: sin datos, Studio no accesible hoy; total del mes sin cerrar."
   },
-  "juegos": [],
-  "videos": []
+  "juegos": [
+    {
+      "id": "luxury-watch-dealer",
+      "titulo": "Luxury Watch Dealer (Relojes de lujo)",
+      "estado": "sandbox",
+      "panel": "https://developer.playgama.com/applications/game/cmwjctzf502v2n00hyo8nysnj",
+      "sandboxDias": "0 of 30",
+      "objetivosSandbox": {
+        "partidasCualificadas": "2/100",
+        "tiempoMedio": "0:58",
+        "tiempoMedioObjetivo": "6:00",
+        "anunciosPorPartida": 2.0,
+        "anunciosPorPartidaObjetivo": 0.3,
+        "objetivosPendientes": 2
+      },
+      "lanzamientos": 9,
+      "partidas": 3,
+      "tiempoMedioJuegoSeg": 246,
+      "notaTiempoMedio": "El panel muestra 0:58 en Sandbox (sobre las 2 últimas partidas cualificadas) y 4m 6s de media en tiempo real (todas las partidas); se registra 246 s.",
+      "retencionDia1": null,
+      "retencionDia7": null,
+      "anunciosPorPartida": 2.0,
+      "anunciosMostrados": null,
+      "likes": 1,
+      "dislikes": 0,
+      "ingresosUSD": 0
+    },
+    {
+      "id": "scribble-striker",
+      "titulo": "Scribble Striker (Fútbol de papel)",
+      "estado": "sandbox",
+      "panel": "https://developer.playgama.com/applications/game/cmwjolg5v00s0jy0izncjeyol",
+      "sandboxDias": "0 of 30",
+      "objetivosSandbox": {
+        "partidasCualificadas": "0/100",
+        "tiempoMedio": null,
+        "tiempoMedioObjetivo": "5:00",
+        "anunciosPorPartida": null,
+        "anunciosPorPartidaObjetivo": 0.3,
+        "objetivosPendientes": 3
+      },
+      "lanzamientos": 15,
+      "partidas": 8,
+      "tiempoMedioJuegoSeg": 364,
+      "notaTiempoMedio": "Sin dato de tiempo medio en Sandbox (0 partidas cualificadas); media en tiempo real (todas las partidas): 6m 4s; se registra 364 s.",
+      "retencionDia1": null,
+      "retencionDia7": null,
+      "anunciosPorPartida": null,
+      "anunciosMostrados": null,
+      "likes": 1,
+      "dislikes": 0,
+      "ingresosUSD": 0
+    },
+    {
+      "id": "metro-nightmare",
+      "titulo": "Metro Nightmare: Rush Hour Rescue",
+      "estado": "no aparece en el panel",
+      "panel": "https://developer.playgama.com/applications/game/cmwgp5hl01nxqlz0h1m3f7hi4",
+      "nota": "No aparece en el panel developer el 17/11: la lista 'My Games' muestra 2 juegos en total (Luxury Watch Dealer y Scribble Striker). El 16/11 estaba en Sandbox Draft, 0 of 30 días, con 8 lanzamientos y 0 partidas.",
+      "sandboxDias": null,
+      "objetivosSandbox": {
+        "partidasCualificadas": null,
+        "tiempoMedio": null,
+        "tiempoMedioObjetivo": null,
+        "anunciosPorPartida": null,
+        "anunciosPorPartidaObjetivo": null,
+        "objetivosPendientes": null
+      },
+      "lanzamientos": null,
+      "partidas": null,
+      "tiempoMedioJuegoSeg": null,
+      "retencionDia1": null,
+      "retencionDia7": null,
+      "anunciosPorPartida": null,
+      "anunciosMostrados": null,
+      "likes": null,
+      "dislikes": null,
+      "ingresosUSD": null
+    },
+    {
+      "id": "mudanza-extrema",
+      "titulo": "Moving Mayhem: One-Tap Moving Puzzle (Mudanza Extrema)",
+      "estado": "no aparece en el panel",
+      "panel": "https://developer.playgama.com/applications/game/cmwhnaw542mdxlz0h2h64rpd5",
+      "nota": "No aparece en el panel developer el 17/11: la lista 'My Games' muestra 2 juegos en total (Luxury Watch Dealer y Scribble Striker). El 16/11 estaba en Sandbox Live, 1 of 30 días, con 5 lanzamientos, 2 partidas y 5:11 de media.",
+      "sandboxDias": null,
+      "objetivosSandbox": {
+        "partidasCualificadas": null,
+        "tiempoMedio": null,
+        "tiempoMedioObjetivo": null,
+        "anunciosPorPartida": null,
+        "anunciosPorPartidaObjetivo": null,
+        "objetivosPendientes": null
+      },
+      "lanzamientos": null,
+      "partidas": null,
+      "tiempoMedioJuegoSeg": null,
+      "retencionDia1": null,
+      "retencionDia7": null,
+      "anunciosPorPartida": null,
+      "anunciosMostrados": null,
+      "likes": null,
+      "dislikes": null,
+      "ingresosUSD": null
+    }
+  ],
+  "videos": [],
+  "notaYoutube": "YouTube Studio no accesible el 17/11: la cuenta danielsanchezverdasco@gmail.com solo tiene los canales CaughtOnCameraTV y 'el rey del flow'; no aparece el canal Dana Games. Sin cifras de Studio hoy. La página pública @danagamesoficial muestra el nombre 'Garden cars' con 2,73 mil suscriptores (dato público, no de Studio, pendiente de aclarar)."
 }
