@@ -1,1 +1,419 @@
-{"_readme":"Fichero en vivo de la oficina Dana Games. Lo actualizan Dani y Anita (sus agentes) con CADA cambio: publicar, rechazar, empezar, terminar. La oficina lo lee y las listas se refrescan solas, sin reconstruir la página. No inventar nombres ni datos: solo lo verificado. Cuando Daniel diga los nombres de los 3 juegos nuevos de Anita, se ponen en anita.names y names_pending pasa a false.","anita":{"names":["Grid Defender","Slice & Serve","Cyber Runner"],"names_pending":false,"paso":"Cyber Runner ronda 2: 9 arreglos en código local (informe 23:08), build reintentado 01:02, 01:34, 02:27 y 02:37 (proceso corriendo desde las 02:37, bundle a 0 bytes 02:38), evidencia pendiente (repo, GIF, smoke, rebuild). Slice: fuente completa + informe ronda 1 (23:15, tsc 0); build bloqueado por EPERM; intento de regenerar el asset pepino 02:36–02:38 sin resultado. Grid: rebuild sin cuajar (bundle 0 bytes 23:26), dist vacío.","queda":"Cyber: terminar build + subir ronda 2 al repo privado (assets+dist+zip+covers+GIF) + re-verificar. Slice: build (EPERM) + smoke + fidelidad lado a lado + ZIP + GIF + rama. Grid: terminar rebuild + smoke + lado a lado + ZIP + rama.","status":"Cyber Runner ronda 2 EN MARCHA: informe-ronda2.md escrito 23:08 — los 9 arreglos aplicados en código LOCAL (bug franja TOP 3, HUD medido de la variante B, covers letterbox, métodos de test inertes en producción, nits); PENDIENTE DE EVIDENCIA: subida al repo privado (rama anita/cyber-runner-b sigue en 08abde42, sin commit nuevo), re-captura del GIF, re-ejecución del smoke y rebuild de producción. Build REINTENTADO 01:02, 01:34, 02:27 y 02:37 (el proceso bundle-memory.mjs se para y vuelve a arrancar; corriendo desde las 02:37 en cyber-runner/work; bundle a 0 bytes 02:38 — sigue sin cuajar). El builder de la ronda 2 terminó con informe parcial (bloqueado por EPERM; driver persistente en marcha). Cover 800×800 rehecha según el informe pero a 0 bytes en disco (23:06) — pendiente de re-generar. Ronda 1 sigue NO APTA (verificación de Anita 22:29, FAIL). La rama reaparecida en el repo público se borró de nuevo 22:45 (verificado 22:48) y no ha vuelto (reverificado 02:37). Slice & Serve: FUENTE COMPLETA — informe-ronda1.md escrito 23:15 (tsc 0 errores); build PENDIENTE bloqueado por EPERM (bundle index-Cf3ET0lz.js a 0 bytes 23:10); intento de regenerar el asset pepino 02:36–02:38 (ingredient-cucumber.png.tmp.png a 0 bytes, eliminado sin dejar asset nuevo); sin ZIP, sin GIF, sin smoke, sin fidelidad lado a lado ni rama anita/slice-and-serve-b aún. Variante B elegida por Daniel 22:03 (clon exacto). Grid Defender: rebuild SIN CUAJAR — dist/ vacío, bundle index--2Ko5-NT.js a 0 bytes (23:26), sin index.html; informe-ronda1.md actualizado 23:32; adaptador online RecurretumultaOnlineAdapter escrito y verificado contra wss://online.recurretumulta.online; sin rama en GitHub aún. Verificado 02:37: sin commits nuevos en dana-games-juegos (rama anita/cyber-runner-b sigue en 08abde42); build Cyber con proceso en marcha desde las 02:37 y bundle a 0 bytes en disco local."},"factory":["Anita: Cyber Runner ronda 2 EN MARCHA — informe-ronda2.md 23:08: los 9 arreglos de la verificación NO APTO (22:29) aplicados en código LOCAL (bug franja TOP 3, HUD medido de la variante B, covers letterbox, métodos de test inertes en producción, nits); PENDIENTE DE EVIDENCIA: subida al repo privado (rama anita/cyber-runner-b sigue en 08abde42, sin commit nuevo), re-captura del GIF, re-ejecución del smoke y rebuild de producción. Build REINTENTADO 01:02, 01:34, 02:27 y 02:37 (el proceso bundle-memory.mjs se para y vuelve a arrancar; corriendo desde las 02:37 en cyber-runner/work; bundle a 0 bytes 02:38). El builder de la ronda 2 terminó con informe parcial (bloqueado por EPERM; driver persistente en marcha). Cover 800×800 rehecha pero a 0 bytes en disco (23:06). La rama reaparecida en el repo público se borró de nuevo 22:45 (verificado 22:48) y no ha vuelto. Slice & Serve: FUENTE COMPLETA, informe-ronda1.md 23:15 (tsc 0 errores); build PENDIENTE bloqueado por EPERM (bundle a 0 bytes 23:10); intento de regenerar el asset pepino 02:36–02:38 (tmp a 0 bytes, eliminado, sin asset nuevo); sin ZIP, GIF, smoke, fidelidad ni rama aún; variante B elegida por Daniel 22:03 (clon exacto). Grid Defender: rebuild sin cuajar (dist/ vacío, bundle a 0 bytes 23:26, sin index.html); informe-ronda1.md actualizado 23:32; adaptador online RecurretumultaOnlineAdapter escrito y verificado contra wss://online.recurretumulta.online; ZIP pendiente; smoke bloqueado por Chromium. Verificado 02:37: sin commits nuevos en dana-games-juegos (rama anita/cyber-runner-b sigue en 08abde42); build Cyber con proceso en marcha desde las 02:37 y bundle a 0 bytes en disco local. Normas 20:27-20:34 (clasificación mundial POR METROS; top 3 con nombre y skins visibles en el menú principal) valen para TODOS los juegos.","Scribble Striker (rediseño Street Variante B) PUBLICADO en Sandbox 22:41 — https://playgama.ai/play/d7nbp5h2yci4vs (build 06b08c2, 4.129.199 B; Sandbox Live 0 de 30 días; categoría Puzzle). Verificado cargando: menú Street (GARABATO GOLEADOR, pizarra con celo) + campo con porterías normales de marco y red; online en «próximamente» hasta que Daniel pruebe la Street. Campo revertido a 62ee7b7 por orden de Daniel 22:18 (sin paredes duplicadas); menú ES la foto (44ab6d7). Portada vertical 1080×1920 creada 22:36 desde el arte del menú — Daniel aún no la ha visto, enseñársela por la mañana.","Luxury Watch Dealer (rediseño total v2 — opción A «Tycoon Pop») ENTREGADO y VERIFICADO 22:47: commits 6bb266b + b45e886 en niky/relojes-redesign-a-1611 (rama en GitHub, ls-remote OK); 180 relojes únicos fusionados (la lista decía 181; duplicado RM 052 Skull foto 41), valor ~$40.511.055; 8 sistemas, skins 60, clasificaciones inventario + patrimonio; tsc 0, vitest 111/111, build:qa 0, sonda 50/50; ZIP 3.609.229 B. PUBLICADO en Sandbox ~22:52 — https://playgama.ai/play/rswbvm34ovfkfo (build 3.609.229 B sustituyendo la 7cd2073, verificada cargando en Sandbox; orden Daniel 22:18, sin preguntar). HONESTO: menú y tienda son la opción A en composición, pero fondos y marchante solo parecidos y el título es fuente, no recorte de la foto — avisar a Daniel por la mañana.","Sand Jam! ELEGIDO por Daniel (versión A arena como base; B caramelos y C puerto pirata como skins comprables) — en cola tras relojes y fútbol; Laser Maze! ELEGIDO por Daniel 18:12 (variante B templo antiguo como base; A laboratorio y C estáción espacial como capítulos) — en cola tras Crowd Clash; Car Wash Chaos! ELEGIDO por Daniel 18:18 (variante B baño de máscotas + modo C limpiar casas, dos modos en el mismo juego) — en cola tras Laser Maze; Crowd Clash! variante B elegida, en cola tras Sneak Out; tanda 3 ELEGIDA ENTERA por Daniel 18:21 («quiero todos para la lista, cada variante A, B y C son capítulos»): Diggy Dash!, Garden Dash!, Marble Rush!, Slingshot Smásh! y Pet Vet! — en cola tras Car Wash Chaos, en ese orden; tanda 2 restánte (Fish Frenzy!, Hoop Flick!, Find It!) y tanda 1 (Draw Rescue!, Grow Dash!) pendientes de elección; tanda 4: 8 de 10 aceptadas por Daniel 19:05 (22 Ghost Hunt y 25 Potion Pop descartadas por Daniel): Rocket Rescue!, Monster Merge!, Coin Castle!, Burger Boss!, Snowball Fight!, Train Rush!, Dance Dash! y Treasure Dive! — cada una con sus 3 variantes como capítulos — en cola tras Pet Vet, en ese orden Tanda 5 COMPLETADA 19:24 (30/30 previews) y ACEPTADA 9/10 por Daniel 19:36 (fuera Santa Sprint, idea 29): Brainrot Battle!, Blocky Race!, Pet Hatch!, Arrow Maze!, Gate Dash!, Winter Arc!, Salon Star!, Obby Dash! y Wobbly Crew! — en cola tras Treasure Dive, cada una con sus 3 variantes como capítulos. Tanda 6 ENTREGADA 19:48 (ideas 37–46, multijugador novedoso, 30/30 previews verificadas en ideas-nuevas-1611g/) — pendiente elección de Daniel. Botones de la oficina en rediseño (orden Daniel 19:41–19:42, agente en marcha).","3 conceptos NUEVOS de juego con historia (pedido Daniel 21:37, entregados en ideas-nuevas-1611h/MANIFIESTO.md): Globe Tales!, The Lost Lighthouse! y Spark Makers! (solitario + cooperativo, PEGI 3, vector animado) — RECHAZADOS por Daniel 22:00 («No quiero esas ideas»). No se vuelven a proponer."],"in_progress":[{"commit":null,"covers":"assets generados (pack 32/32), covers pendientes","paso":"Rebuild sin cuajar (bundle 0 bytes 23:26, dist vacío, verificado 00:37); adaptador online RecurretumultaOnlineAdapter escrito y verificado contra wss://online.recurretumulta.online","queda":"Terminar rebuild + smoke + lado a lado + ZIP; crear rama anita/grid-defender-b en dana-games-juegos y subir a probar","slug":"grid-defender","status":"EN MARCHA - mockup aprobado 16/11 16:01; assets 32/32; Daniel eligió la variante B (arcade bold) 16/11 19:20; BUILD 21:59 COMPLETO pero REBUILD SIN CUAJAR: dist/ vacío, bundle index--2Ko5-NT.js a 0 bytes (23:26), sin index.html (verificado 00:37); informe-ronda1.md actualizado 23:32: juego completo y jugable (Phaser 3 + TS + Vite), tsc 0 errores, replay Node 30/30 oleadas con 88/90 estrellas; adaptador online RecurretumultaOnlineAdapter ESCRITO y verificado contra el servidor real (wss://online.recurretumulta.online, /health ok, WS conecta); pendientes: terminar rebuild, replay en navegador 30/30, smoke Playwright (bloqueado: Chromium SIGTRAP), comparación visual lado a lado vs variante B y ZIP (≤5 MB); sin commit ni rama en GitHub aún (anita/grid-defender-b no existe). | Paso: Rebuild sin cuajar (bundle 0 bytes); adaptador online verificado | Queda: Rebuild, smoke, lado a lado, ZIP y subir a probar","title":"Grid Defender"},{"commit":null,"covers":"assets generados (pack 23/23), covers pendientes","paso":"Fuente completa + informe ronda 1 (23:15, tsc 0); build bloqueado por EPERM (bundle 0 bytes 23:10); intento de regenerar el asset pepino 02:36–02:38 sin resultado; sin ZIP/GIF/smoke/rama aún","queda":"Build (EPERM) + smoke + fidelidad lado a lado vs variante B + ZIP (≤5 MB) + GIF + rama anita/slice-and-serve-b en dana-games-juegos","slug":"slice-and-serve","status":"EN MARCHA — mockup aprobado 16/11 16:01 (v3, chef Pixar); assets 23/23 completados; 3 variantes COMPLETADAS y verificadas por Anita 16/11 ~22:00 y PRESENTADAS a Daniel (A cálida premium, B arcade bold, C limpia minimal); Daniel ELIGIÓ la variante B 16/11 22:03 y ordenó VERSIÓN EXACTA tal cual está en las fotos (clon exacto); FUENTE COMPLETA — informe-ronda1.md escrito 23:15 en entrega/ (listing, teardown, filtros, skills-usadas), tsc 0 errores; build PENDIENTE bloqueado por EPERM (bundle index-Cf3ET0lz.js a 0 bytes 23:10); intento de regenerar el asset pepino 02:36–02:38 (ingredient-cucumber.png.tmp.png a 0 bytes, eliminado sin dejar asset nuevo); sin ZIP, sin GIF, sin smoke, sin fidelidad lado a lado ni rama anita/slice-and-serve-b en GitHub aún. La barra azul vacía del menú B aloja la franja WORLD TOP 3 (imagen a tamaño completo, nada escalado); las guías de corte siguen las fotos (pepino rejilla, limón anillo), aunque difieran de concepto.md — mandan las fotos","title":"Slice & Serve"},{"commit":"08abde42","covers":"assets generados (pack 16/16), covers pendientes","paso":"Ronda 2: 9 arreglos en código local (informe 23:08); build reintentado 01:02, 01:34, 02:27 y 02:37 (proceso corriendo desde las 02:37, bundle a 0 bytes 02:38); evidencia pendiente (repo, GIF, smoke, rebuild)","queda":"Terminar build + subir ronda 2 al repo privado (assets+dist+zip+covers+GIF) + re-verificar por Anita antes de presentar a Daniel","slug":"cyber-runner","status":"EN MARCHA — mockup aprobado 16/11 16:01; assets 16/16; Daniel ELIGIÓ la variante B 16/11 20:16 y ordenó CLON EXACTO; ronda 1 en dana-games-juegos, rama anita/cyber-runner-b @ 08abde42 (36 ficheros: solo fuente + docs). VERIFICACIÓN DE ANITA 22:29: NO APTO (FAIL) — faltan en el repo assets, build, zip, covers y GIF; 1 bug funcional (franja TOP 3 visible en el juego tras visitar SKINS/RANKING), 4 desviaciones de HUD, GIF inválido, cover 800×800 defectuosa; 9 arreglos para la ronda 2 (informe en verificacion-ronda1/). RONDA 2 EN MARCHA: informe-ronda2.md escrito 23:08 — los 9 arreglos aplicados en código LOCAL (bug TOP 3, HUD medido de la variante B, covers letterbox, métodos de test inertes en producción, nits); PENDIENTE DE EVIDENCIA: subida al repo privado (rama sigue en 08abde42), re-captura del GIF, re-ejecución del smoke y rebuild de producción. Build REINTENTADO 01:02, 01:34, 02:27 y 02:37: el proceso bundle-memory.mjs se para y vuelve a arrancar (PID 46286 corriendo desde las 02:37 en cyber-runner/work); bundle index-0563e9a6.js sigue a 0 bytes (02:38). El builder de la ronda 2 terminó con informe parcial (bloqueado por EPERM; driver persistente en marcha). Cover 800×800 rehecha pero a 0 bytes en disco (23:06). La rama reapareció en el repo de la oficina @ 243f36b8 (push del builder 22:24) y fue BORRADA DE NUEVO 22:45 (verificado 404); no ha vuelto. El juego en sí (mecánica, arte, menú) está muy cerca del contrato. Verificado 02:37: sin commits nuevos en el repo (rama sigue en 08abde42); build con proceso en marcha desde las 02:37 y bundle a 0 bytes en disco local.","title":"Cyber Runner"}],"published":[{"commit":"b45e886","covers":"icono v2 y banner v2 aprobados por Daniel","objectives":{"ads_per_play":"0/0,30","avg_time":"0:00/6:00","plays":"0/100"},"playgama_url":"https://playgama.ai/play/rswbvm34ovfkfo","published_date":"2026-11-16","slug":"luxury-watch-dealer","status":"Sandbox — Live (0 de 30 días)","title":"Luxury Watch Dealer","title_es":"El Marchante de Relojes"},{"commit":"06b08c2","covers":{"banner":"cover_1920x1080.png","icon":"cover_800x800.png","portrait":"cover_1080x1920.png"},"objectives":{"ads_per_play":"0/0,30","avg_time":"0:00/6:00","plays":"0/100"},"playgama_url":"https://playgama.ai/play/d7nbp5h2yci4vs","published_date":"2026-11-16","slug":"scribble-striker","status":"Sandbox — Live (0 de 30 días)","title":"Scribble Striker","title_es":"Scribble Striker"}],"rejected":[{"reason":"Rechazado por Daniel el 16/11","slug":"traffic-chaos-ny","title":"Traffic Chaos NY"},{"reason":"Línea de rework visual cerrada el 16/11 — el juego se queda en su v1","slug":"sky-stack","title":"Sky Stack"},{"reason":"Mockup aprobado 16/11 14:51 y assets 37/37 completados, pero CANCELADO por Daniel 16/11 16:01 — no se construye, no se presenta más","slug":"shadow-match","title":"Shadow Match"}],"resumen":"Actualización 02:47 — Sin cambios desde la actualización de Anita de las 02:38. Ningún agente de Dana Games en marcha (los activos en subagent.list son de RecurreTuMulta, inactivos desde hace días). Sin commits nuevos en dana-games-juegos (verificado 02:47 con ls-remote: anita/cyber-runner-b sigue en 08abde42, relojes b45e886, fútbol 06b08c2; sin ramas de Slice ni Grid). Build Cyber sin verificación nueva desde esta VM (sin proceso bundle-memory ni carpeta cyber-runner/work aquí; último dato: proceso en marcha desde las 02:37, bundle a 0 bytes 02:38). Siguen publicados en Sandbox: Scribble Striker y Luxury Watch Dealer, pendientes de que Daniel los pruebe por la mañana (portada vertical de Scribble aún sin enseñar + aviso honesto de Relojes). Próximo en cola: Sand Jam. (02:47, fuera de horario de mensajes: sin aviso en chat.)","stats":{"general":{"anuncios_vistos_totales":0,"dinero_ganado_total_usd":0,"juegos_publicados":2,"partidas_totales":0,"suscriptores_youtube":2734},"nota":"Solo juegos con datos reales de Playgama, ordenados por visitas (más visitas primero; en empate, el más nuevo primero). Los juegos aún no publicados no aparecen aquí. Moving Mayhem y Metro Nightmare ya no están en la cuenta de Playgama (verificado 22:08): solo quedan Scribble Striker y Luxury Watch Dealer.","por_juego":[{"anuncios_por_partida":0,"dinero_usd":0,"estado":"Sandbox (publicado hoy ~16:16)","partidas":0,"slug":"luxury-watch-dealer","tiempo_medio":"—","title":"Luxury Watch Dealer"},{"anuncios_por_partida":0,"dinero_usd":0,"estado":"Sandbox (publicado hoy 22:41)","partidas":0,"slug":"scribble-striker","tiempo_medio":"—","title":"Scribble Striker"}],"source":"Sandbox verificado 22:41 (fútbol) y ~22:52 (relojes v2) por las tareas de publicación: ambos Live, 0 partidas","tarifas_estimadas":{"nota":"ESTIMADO — cifras oficiales publicadas de Playgama 2026, no medidas nuestras ni ganancias reales","reparto_playgama":{"playgama_com":"50%","webs_asociadas":"70% hasta $1.000/mes, 80% hasta $3.000, 90% por encima","youtube_playables":"75% para nosotros"},"rewarded_por_1000_bruto":{"eeuu":"$15–28","europa":"$8–15","tier3":"$1–3"},"umbral_cobro_usd":100,"valor_1000_anuncios_tras_reparto":{"eeuu":"$7–21","europa":"$4–11","tier3":"$0,50–2"}},"updated_at":"2026-11-17T00:19:00+01:00"},"to_test":[],"upcoming":[{"design":"Versión A (arena) como base; B (caramelos) y C (puerto pirata) como skins comprables","mockup":"idea-5-variant-a.png","slug":"sand-jam","status":"Aceptado por Daniel — en cola, primero tras relojes y fútbol","title":"Sand Jam!"},{"design":"Variante B (templo de la jungla) como base; A (museo de noche) y C (estáción espacial) como capítulos que se desbloquean","mockup":"idea-4-variant-b.png","slug":"sneak-out","status":"Aceptado por Daniel — en cola, tras Sand Jam","title":"Sneak Out!"},{"design":"Variante B cómic premium (dinosaurios maduros)","mockup":"idea-2-variant-dino-epic-b.png","slug":"crowd-clash","status":"Aceptado por Daniel — diseño elegido, en cola tras Sneak Out","title":"Crowd Clash!"},{"design":"Variante B (templo antiguo) como base; A (laboratorio) y C (estáción espacial) como capítulos que se desbloquean","mockup":"idea-11-variant-b.png","slug":"laser-maze","status":"Aceptado por Daniel 18:12 — en cola, tras Crowd Clash","title":"Laser Maze!"},{"design":"Variante B (baño de máscotas) como base + modo C (limpiar casas): dos modos en el mismo juego","mockup":"idea-7-variant-b.png","slug":"car-wash-chaos","status":"Aceptado por Daniel 18:18 — en cola, tras Laser Maze","title":"Car Wash Chaos!"},{"design":"A (mina de oro), B (dinosaurios) y C (Luna) son capítulos del juego","mockup":"idea-12-variant-a.png","slug":"diggy-dash","status":"Aceptado por Daniel 18:21 — en cola, tras Car Wash Chaos","title":"Diggy Dash!"},{"design":"A (flores), B (huerto) y C (cactus) son capítulos del juego","mockup":"idea-13-variant-a.png","slug":"garden-dash","status":"Aceptado por Daniel 18:21 — en cola, tras Diggy Dash","title":"Garden Dash!"},{"design":"A (pista de madera), B (bola de nieve) y C (lava) son capítulos del juego","mockup":"idea-14-variant-a.png","slug":"marble-rush","status":"Aceptado por Daniel 18:21 — en cola, tras Garden Dash","title":"Marble Rush!"},{"design":"A (castillo), B (bolas de nieve) y C (espacio) son capítulos del juego","mockup":"idea-15-variant-a.png","slug":"slingshot-smásh","status":"Aceptado por Daniel 18:21 — en cola, tras Marble Rush","title":"Slingshot Smásh!"},{"design":"A (clínica), B (refugio) y C (zoo) son capítulos del juego","mockup":"idea-16-variant-a.png","slug":"pet-vet","status":"Aceptado por Daniel 18:21 — en cola, tras Slingshot Smásh","title":"Pet Vet!"},{"design":"A (Base lunar), B (Cañón de Marte) y C (Plataforma oceánica) son capítulos del juego","mockup":"idea-17-variant-a.png","slug":"rocket-rescue","status":"Aceptado por Daniel 19:05 — en cola, tras Pet Vet","title":"Rocket Rescue!"},{"design":"A (Caramelo), B (Robots) y C (Marinas) son capítulos del juego","mockup":"idea-18-variant-a.png","slug":"monster-merge","status":"Aceptado por Daniel 19:05 — en cola, tras Rocket Rescue","title":"Monster Merge!"},{"design":"A (Pirata), B (Neón) y C (Dulces) son capítulos del juego","mockup":"idea-19-variant-a.png","slug":"coin-castle","status":"Aceptado por Daniel 19:05 — en cola, tras Monster Merge","title":"Coin Castle!"},{"design":"A (Food truck), B (Cocina real) y C (Espacial) son capítulos del juego","mockup":"idea-20-variant-a.png","slug":"burger-boss","status":"Aceptado por Daniel 19:05 — en cola, tras Coin Castle","title":"Burger Boss!"},{"design":"A (Pueblo nevado), B (Playa) y C (Espacio) son capítulos del juego","mockup":"idea-21-variant-a.png","slug":"snowball-fight","status":"Aceptado por Daniel 19:05 — en cola, tras Burger Boss","title":"Snowball Fight!"},{"design":"A (Oeste), B (Metro futurista) y C (Juguete de madera) son capítulos del juego","mockup":"idea-23-variant-a.png","slug":"train-rush","status":"Aceptado por Daniel 19:05 — en cola, tras Snowball Fight","title":"Train Rush!"},{"design":"A (Discoteca), B (K-pop) y C (Rave robot) son capítulos del juego","mockup":"idea-24-variant-a.png","slug":"dance-dash","status":"Aceptado por Daniel 19:05 — en cola, tras Train Rush","title":"Dance Dash!"},{"design":"A (Arrecife), B (Barco pirata) y C (Cueva de hielo) son capítulos del juego","mockup":"idea-26-variant-a.png","slug":"treasure-dive","status":"Aceptado por Daniel 19:05 — en cola, tras Dance Dash","title":"Treasure Dive!"},{"design":"A (calle italiana), B (selva) y C (espacio) son capítulos del juego. Multijugador en vivo (batallas) + clasificación. Mínimo 20 skins por sección.","mockup":"idea-27-variant-a.png","slug":"brainrot-battle","status":"Aceptado por Daniel 19:36 — en cola, tras Treasure Dive","title":"Brainrot Battle!"},{"design":"A (ciudad neón), B (desierto) y C (nieve) son capítulos. Multijugador en vivo (carreras) + clasificación diaria. Mínimo 20 skins por sección.","mockup":"idea-28-variant-a.png","slug":"blocky-race","status":"Aceptado por Daniel 19:36 — en cola, tras Brainrot Battle","title":"Blocky Race!"},{"design":"A (huevos dino), B (dragón) y C (alien) son capítulos. Clasificación + batallas de máscotas. Mínimo 20 skins por sección.","mockup":"idea-30-variant-a.png","slug":"pet-hatch","status":"Aceptado por Daniel 19:36 — en cola, tras Blocky Race","title":"Pet Hatch!"},{"design":"A (mazmorra), B (estáción espacial) y C (dulces) son capítulos. Multijugador (carrera por resolver antes) + clasificación. Mínimo 20 skins por sección.","mockup":"idea-31-variant-a.png","slug":"arrow-maze","status":"Aceptado por Daniel 19:36 — en cola, tras Pet Hatch","title":"Arrow Maze!"},{"design":"A (ciudad superhéroes), B (dulces) y C (fábrica de robots) son capítulos. Multijugador en vivo (carreras) + clasificación. Mínimo 20 skins por sección.","mockup":"idea-32-variant-a.png","slug":"gate-dash","status":"Aceptado por Daniel 19:36 — en cola, tras Arrow Maze","title":"Gate Dash!"},{"design":"A (gimnasio), B (correr en nieve) y C (baño de hielo) son capítulos. Retos contra amigos + clasificación. Mínimo 20 skins por sección.","mockup":"idea-33-variant-a.png","slug":"winter-arc","status":"Aceptado por Daniel 19:36 — en cola, tras Gate Dash","title":"Winter Arc!"},{"design":"A (pop star), B (real) y C (ciber) son capítulos. Multijugador (duelo de peinados) + clasificación. Mínimo 20 skins por sección.","mockup":"idea-34-variant-a.png","slug":"salon-star","status":"Aceptado por Daniel 19:36 — en cola, tras Winter Arc","title":"Salon Star!"},{"design":"A (torre de dulces), B (lava) y C (nubes) son capítulos. Multijugador en vivo (carrera de obstáculos) + clasificación. Mínimo 20 skins por sección.","mockup":"idea-35-variant-a.png","slug":"obby-dash","status":"Aceptado por Daniel 19:36 — en cola, tras Salon Star","title":"Obby Dash!"},{"design":"A (mudanza), B (estáción espacial) y C (barco pirata) son capítulos. Multijugador cooperativo en vivo + clasificación. Mínimo 20 skins por sección.","mockup":"idea-36-variant-a.png","slug":"wobbly-crew","status":"Aceptado por Daniel 19:36 — en cola, tras Obby Dash","title":"Wobbly Crew!"},{"design":"A (azotea al atardecer), B (calle neón) y C (faro embrujado) son capítulos (mapas). Multijugador en vivo 4J todos contra todos + clasificación. Mínimo 20 skins por sección.","mockup":"idea-37-variant-a.png","slug":"shadow-stomp","status":"Aceptado por Daniel 19:52 — en cola, tras Wobbly Crew","title":"Shadow Stomp!"},{"design":"A (playa), B (montañas nevadas) y C (azoteas al atardecer) son capítulos (mapas). Multijugador en vivo 4J PvP + clasificación. Mínimo 20 skins por sección.","mockup":"idea-38-variant-a.png","slug":"kite-clash","status":"Aceptado por Daniel 19:52 — en cola, tras Shadow Stomp","title":"Kite Clash!"},{"design":"A (patio escolar), B (playa) y C (estáción espacial sin gravedad) son capítulos (arenas). Multijugador en vivo 1v1 con torneo + clasificación. Mínimo 20 skins por sección.","mockup":"idea-39-variant-a.png","slug":"tether-clash","status":"Aceptado por Daniel 19:52 — en cola, tras Kite Clash","title":"Tether Clash!"},{"design":"A (patio), B (arcade neón) y C (selva) son capítulos (canchas). Multijugador en vivo 4J por eliminación + clasificación. Mínimo 20 skins por sección.","mockup":"idea-40-variant-a.png","slug":"four-square-frenzy","status":"Aceptado por Daniel 19:52 — en cola, tras Tether Clash","title":"Four Square Frenzy!"},{"design":"A (cuarto de juguetes), B (escalera de caramelo) y C (espacio) son capítulos (pistas). Multijugador en vivo, carrera 4J + clasificación. Mínimo 20 skins por sección.","mockup":"idea-41-variant-a.png","slug":"slinky-sprint","status":"Aceptado por Daniel 19:52 — en cola, tras Four Square Frenzy","title":"Slinky Sprint!"},{"design":"A (circo), B (calle) y C (discoteca neón) son capítulos (escenarios). Multijugador en vivo 4J supervivencia + clasificación. Mínimo 20 skins por sección.","mockup":"idea-42-variant-a.png","slug":"juggle-clash","status":"Aceptado por Daniel 19:52 — en cola, tras Slinky Sprint","title":"Juggle Clash!"},{"design":"A (circo), B (cañón al atardecer) y C (rascacielos) son capítulos (cuerdas). Multijugador en vivo 1v1 con torneo + clasificación. Mínimo 20 skins por sección.","mockup":"idea-43-variant-a.png","slug":"tightrope-duel","status":"Aceptado por Daniel 19:52 — en cola, tras Juggle Clash","title":"Tightrope Duel!"},{"design":"A (calle lluviosa), B (monzón en la selva) y C (lluvia de caramelo) son capítulos (mapas). Multijugador en vivo 4J 60 s + clasificación. Mínimo 20 skins por sección.","mockup":"idea-44-variant-a.png","slug":"puddle-splash","status":"Aceptado por Daniel 19:52 — en cola, tras Tightrope Duel","title":"Puddle Splash!"},{"design":"A (islas flotantes), B (nubes de tormenta) y C (dunas) son capítulos (arenas). Multijugador en vivo 4J, último en la isla gana + clasificación. Mínimo 20 skins por sección.","mockup":"idea-45-variant-a.png","slug":"wind-wizard-duel","status":"Aceptado por Daniel 19:52 — en cola, tras Puddle Splash","title":"Wind Wizard Duel!"},{"design":"A (bosque nocturno), B (mar profundo) y C (jardín neón) son capítulos (mapas). Multijugador en vivo 4J 60 s + clasificación. Mínimo 20 skins por sección.","mockup":"idea-46-variant-a.png","slug":"glow-grab","status":"Aceptado por Daniel 19:52 — en cola, tras Wind Wizard Duel","title":"Glow Grab!"}],"updated_at":"2026-11-17T02:47:00+01:00","updated_by":"dani"}
+{
+  "_readme": "Fichero en vivo de la oficina Dana Games. Lo actualizan Dani y Anita (sus agentes) con CADA cambio: publicar, rechazar, empezar, terminar. La oficina lo lee y las listas se refrescan solas, sin reconstruir la página. No inventar nombres ni datos: solo lo verificado. Cuando Daniel diga los nombres de los 3 juegos nuevos de Anita, se ponen en anita.names y names_pending pasa a false.",
+  "anita": {
+    "names": [
+      "Grid Defender",
+      "Slice & Serve",
+      "Cyber Runner"
+    ],
+    "names_pending": false,
+    "paso": "Cyber Runner ronda 2: 9 arreglos en código local (informe 23:08), build reintentado 02:58 (proceso PID 48233 corriendo desde las 02:58, bundle a 0 bytes 03:05), evidencia pendiente (repo, GIF, smoke, rebuild). Slice: fuente completa + informe ronda 1 (23:15, tsc 0); build bloqueado por EPERM; asset pepino sigue sin existir (03:06), proceso promote-v2.py sigue corriendo sin resultado. Grid: rebuild sin cuajar (bundle 0 bytes 23:26), dist vacío.",
+    "queda": "Cyber: terminar build + subir ronda 2 al repo privado (assets+dist+zip+covers+GIF) + re-verificar. Slice: build (EPERM) + smoke + fidelidad lado a lado + ZIP + GIF + rama. Grid: terminar rebuild + smoke + lado a lado + ZIP + rama.",
+    "status": "Cyber Runner ronda 2 EN MARCHA: informe-ronda2.md escrito 23:08 — los 9 arreglos aplicados en código LOCAL (bug franja TOP 3, HUD medido de la variante B, covers letterbox, métodos de test inertes en producción, nits); PENDIENTE DE EVIDENCIA: subida al repo privado (rama anita/cyber-runner-b sigue en 08abde42, sin commit nuevo), re-captura del GIF, re-ejecución del smoke y rebuild de producción. Build REINTENTADO 01:02, 01:34, 02:27, 02:37 y 02:58 (el proceso bundle-memory.mjs se para y vuelve a arrancar; nuevo proceso PID 48233 corriendo desde las 02:58 en cyber-runner/work; bundle index-0563e9a6.js sigue a 0 bytes 03:05 — sigue sin cuajar). El builder de la ronda 2 terminó con informe parcial (bloqueado por EPERM; driver persistente en marcha). Cover 800×800 rehecha según el informe pero a 0 bytes en disco (23:06) — pendiente de re-generar. Ronda 1 sigue NO APTA (verificación de Anita 22:29, FAIL). La rama reaparecida en el repo público se borró de nuevo 22:45 (verificado 22:48) y no ha vuelto (reverificado 03:04). Slice & Serve: FUENTE COMPLETA — informe-ronda1.md escrito 23:15 (tsc 0 errores); build PENDIENTE bloqueado por EPERM (bundle index-Cf3ET0lz.js a 0 bytes 23:10); intento de regenerar el asset pepino 02:36–02:38 sin resultado (tmp a 0 bytes, eliminado); el proceso promote-v2.py sigue corriendo desde el 16/11 (37 min CPU) sin producir el asset — ingredient-cucumber.png sigue sin existir (verificado 03:06); sin ZIP, sin GIF, sin smoke, sin fidelidad lado a lado ni rama anita/slice-and-serve-b aún. Variante B elegida por Daniel 22:03 (clon exacto). Grid Defender: rebuild SIN CUAJAR — dist/ vacío, bundle index--2Ko5-NT.js a 0 bytes (23:26), sin index.html; informe-ronda1.md actualizado 23:32; adaptador online RecurretumultaOnlineAdapter escrito y verificado contra wss://online.recurretumulta.online; sin rama en GitHub aún. Verificado 03:04: sin commits nuevos en dana-games-juegos (rama anita/cyber-runner-b sigue en 08abde42); sin ramas nuevas de Slice ni Grid; build Cyber con proceso en marcha desde las 02:58 y bundle a 0 bytes en disco local (03:05)."
+  },
+  "factory": [
+    "Anita: Cyber Runner ronda 2 EN MARCHA — informe-ronda2.md 23:08: los 9 arreglos de la verificación NO APTO (22:29) aplicados en código LOCAL (bug franja TOP 3, HUD medido de la variante B, covers letterbox, métodos de test inertes en producción, nits); PENDIENTE DE EVIDENCIA: subida al repo privado (rama anita/cyber-runner-b sigue en 08abde42, sin commit nuevo), re-captura del GIF, re-ejecución del smoke y rebuild de producción. Build REINTENTADO 01:02, 01:34, 02:27, 02:37 y 02:58 (el proceso bundle-memory.mjs se para y vuelve a arrancar; nuevo proceso PID 48233 corriendo desde las 02:58 en cyber-runner/work; bundle a 0 bytes 03:05). El builder de la ronda 2 terminó con informe parcial (bloqueado por EPERM; driver persistente en marcha). Cover 800×800 rehecha pero a 0 bytes en disco (23:06). La rama reaparecida en el repo público se borró de nuevo 22:45 (verificado 22:48) y no ha vuelto. Slice & Serve: FUENTE COMPLETA, informe-ronda1.md 23:15 (tsc 0 errores); build PENDIENTE bloqueado por EPERM (bundle a 0 bytes 23:10); intento de regenerar el asset pepino 02:36–02:38 sin resultado (tmp a 0 bytes, eliminado); el proceso promote-v2.py sigue corriendo desde el 16/11 sin producir el asset — ingredient-cucumber.png sigue sin existir (03:06); sin ZIP, GIF, smoke, fidelidad ni rama aún; variante B elegida por Daniel 22:03 (clon exacto). Grid Defender: rebuild sin cuajar (dist/ vacío, bundle a 0 bytes 23:26, sin index.html); informe-ronda1.md actualizado 23:32; adaptador online RecurretumultaOnlineAdapter escrito y verificado contra wss://online.recurretumulta.online; ZIP pendiente; smoke bloqueado por Chromium. Verificado 03:04: sin commits nuevos en dana-games-juegos (rama anita/cyber-runner-b sigue en 08abde42); sin ramas nuevas de Slice ni Grid; build Cyber con proceso en marcha desde las 02:58 y bundle a 0 bytes en disco local (03:05). Normas 20:27-20:34 (clasificación mundial POR METROS; top 3 con nombre y skins visibles en el menú principal) valen para TODOS los juegos.",
+    "Scribble Striker (rediseño Street Variante B) PUBLICADO en Sandbox 22:41 — https://playgama.ai/play/d7nbp5h2yci4vs (build 06b08c2, 4.129.199 B; Sandbox Live 0 de 30 días; categoría Puzzle). Verificado cargando: menú Street (GARABATO GOLEADOR, pizarra con celo) + campo con porterías normales de marco y red; online en «próximamente» hasta que Daniel pruebe la Street. Campo revertido a 62ee7b7 por orden de Daniel 22:18 (sin paredes duplicadas); menú ES la foto (44ab6d7). Portada vertical 1080×1920 creada 22:36 desde el arte del menú — Daniel aún no la ha visto, enseñársela por la mañana.",
+    "Luxury Watch Dealer (rediseño total v2 — opción A «Tycoon Pop») ENTREGADO y VERIFICADO 22:47: commits 6bb266b + b45e886 en niky/relojes-redesign-a-1611 (rama en GitHub, ls-remote OK); 180 relojes únicos fusionados (la lista decía 181; duplicado RM 052 Skull foto 41), valor ~$40.511.055; 8 sistemas, skins 60, clasificaciones inventario + patrimonio; tsc 0, vitest 111/111, build:qa 0, sonda 50/50; ZIP 3.609.229 B. PUBLICADO en Sandbox ~22:52 — https://playgama.ai/play/rswbvm34ovfkfo (build 3.609.229 B sustituyendo la 7cd2073, verificada cargando en Sandbox; orden Daniel 22:18, sin preguntar). HONESTO: menú y tienda son la opción A en composición, pero fondos y marchante solo parecidos y el título es fuente, no recorte de la foto — avisar a Daniel por la mañana.",
+    "Sand Jam! ELEGIDO por Daniel (versión A arena como base; B caramelos y C puerto pirata como skins comprables) — en cola tras relojes y fútbol; Laser Maze! ELEGIDO por Daniel 18:12 (variante B templo antiguo como base; A laboratorio y C estáción espacial como capítulos) — en cola tras Crowd Clash; Car Wash Chaos! ELEGIDO por Daniel 18:18 (variante B baño de máscotas + modo C limpiar casas, dos modos en el mismo juego) — en cola tras Laser Maze; Crowd Clash! variante B elegida, en cola tras Sneak Out; tanda 3 ELEGIDA ENTERA por Daniel 18:21 («quiero todos para la lista, cada variante A, B y C son capítulos»): Diggy Dash!, Garden Dash!, Marble Rush!, Slingshot Smásh! y Pet Vet! — en cola tras Car Wash Chaos, en ese orden; tanda 2 restánte (Fish Frenzy!, Hoop Flick!, Find It!) y tanda 1 (Draw Rescue!, Grow Dash!) pendientes de elección; tanda 4: 8 de 10 aceptadas por Daniel 19:05 (22 Ghost Hunt y 25 Potion Pop descartadas por Daniel): Rocket Rescue!, Monster Merge!, Coin Castle!, Burger Boss!, Snowball Fight!, Train Rush!, Dance Dash! y Treasure Dive! — cada una con sus 3 variantes como capítulos — en cola tras Pet Vet, en ese orden Tanda 5 COMPLETADA 19:24 (30/30 previews) y ACEPTADA 9/10 por Daniel 19:36 (fuera Santa Sprint, idea 29): Brainrot Battle!, Blocky Race!, Pet Hatch!, Arrow Maze!, Gate Dash!, Winter Arc!, Salon Star!, Obby Dash! y Wobbly Crew! — en cola tras Treasure Dive, cada una con sus 3 variantes como capítulos. Tanda 6 ENTREGADA 19:48 (ideas 37–46, multijugador novedoso, 30/30 previews verificadas en ideas-nuevas-1611g/) — pendiente elección de Daniel. Botones de la oficina en rediseño (orden Daniel 19:41–19:42, agente en marcha).",
+    "3 conceptos NUEVOS de juego con historia (pedido Daniel 21:37, entregados en ideas-nuevas-1611h/MANIFIESTO.md): Globe Tales!, The Lost Lighthouse! y Spark Makers! (solitario + cooperativo, PEGI 3, vector animado) — RECHAZADOS por Daniel 22:00 («No quiero esas ideas»). No se vuelven a proponer."
+  ],
+  "in_progress": [
+    {
+      "commit": null,
+      "covers": "assets generados (pack 32/32), covers pendientes",
+      "paso": "Rebuild sin cuajar (bundle 0 bytes 23:26, dist vacío, verificado 00:37); adaptador online RecurretumultaOnlineAdapter escrito y verificado contra wss://online.recurretumulta.online",
+      "queda": "Terminar rebuild + smoke + lado a lado + ZIP; crear rama anita/grid-defender-b en dana-games-juegos y subir a probar",
+      "slug": "grid-defender",
+      "status": "EN MARCHA - mockup aprobado 16/11 16:01; assets 32/32; Daniel eligió la variante B (arcade bold) 16/11 19:20; BUILD 21:59 COMPLETO pero REBUILD SIN CUAJAR: dist/ vacío, bundle index--2Ko5-NT.js a 0 bytes (23:26), sin index.html (sin cambios, verificado 03:05: sin ficheros nuevos desde las 02:38, dist sigue vacío); informe-ronda1.md actualizado 23:32: juego completo y jugable (Phaser 3 + TS + Vite), tsc 0 errores, replay Node 30/30 oleadas con 88/90 estrellas; adaptador online RecurretumultaOnlineAdapter ESCRITO y verificado contra el servidor real (wss://online.recurretumulta.online, /health ok, WS conecta); pendientes: terminar rebuild, replay en navegador 30/30, smoke Playwright (bloqueado: Chromium SIGTRAP), comparación visual lado a lado vs variante B y ZIP (≤5 MB); sin commit ni rama en GitHub aún (anita/grid-defender-b no existe). | Paso: Rebuild sin cuajar (bundle 0 bytes); adaptador online verificado | Queda: Rebuild, smoke, lado a lado, ZIP y subir a probar",
+      "title": "Grid Defender"
+    },
+    {
+      "commit": null,
+      "covers": "assets generados (pack 23/23), covers pendientes",
+      "paso": "Fuente completa + informe ronda 1 (23:15, tsc 0); build bloqueado por EPERM (bundle 0 bytes 23:10); asset pepino sigue sin existir (03:06), proceso promote-v2.py sigue corriendo sin resultado; sin ZIP/GIF/smoke/rama aún",
+      "queda": "Build (EPERM) + smoke + fidelidad lado a lado vs variante B + ZIP (≤5 MB) + GIF + rama anita/slice-and-serve-b en dana-games-juegos",
+      "slug": "slice-and-serve",
+      "status": "EN MARCHA — mockup aprobado 16/11 16:01 (v3, chef Pixar); assets 23/23 completados; 3 variantes COMPLETADAS y verificadas por Anita 16/11 ~22:00 y PRESENTADAS a Daniel (A cálida premium, B arcade bold, C limpia minimal); Daniel ELIGIÓ la variante B 16/11 22:03 y ordenó VERSIÓN EXACTA tal cual está en las fotos (clon exacto); FUENTE COMPLETA — informe-ronda1.md escrito 23:15 en entrega/ (listing, teardown, filtros, skills-usadas), tsc 0 errores; build PENDIENTE bloqueado por EPERM (bundle index-Cf3ET0lz.js a 0 bytes 23:10); intento de regenerar el asset pepino 02:36–02:38 sin resultado (tmp a 0 bytes, eliminado); el proceso promote-v2.py sigue corriendo desde el 16/11 (37 min CPU) sin producir el asset — ingredient-cucumber.png sigue sin existir (verificado 03:06); sin ZIP, sin GIF, sin smoke, sin fidelidad lado a lado ni rama anita/slice-and-serve-b en GitHub aún. La barra azul vacía del menú B aloja la franja WORLD TOP 3 (imagen a tamaño completo, nada escalado); las guías de corte siguen las fotos (pepino rejilla, limón anillo), aunque difieran de concepto.md — mandan las fotos",
+      "title": "Slice & Serve"
+    },
+    {
+      "commit": "08abde42",
+      "covers": "assets generados (pack 16/16), covers pendientes",
+      "paso": "Ronda 2: 9 arreglos en código local (informe 23:08); build reintentado 02:58 (proceso PID 48233 corriendo desde las 02:58, bundle a 0 bytes 03:05); evidencia pendiente (repo, GIF, smoke, rebuild)",
+      "queda": "Terminar build + subir ronda 2 al repo privado (assets+dist+zip+covers+GIF) + re-verificar por Anita antes de presentar a Daniel",
+      "slug": "cyber-runner",
+      "status": "EN MARCHA — mockup aprobado 16/11 16:01; assets 16/16; Daniel ELIGIÓ la variante B 16/11 20:16 y ordenó CLON EXACTO; ronda 1 en dana-games-juegos, rama anita/cyber-runner-b @ 08abde42 (36 ficheros: solo fuente + docs). VERIFICACIÓN DE ANITA 22:29: NO APTO (FAIL) — faltan en el repo assets, build, zip, covers y GIF; 1 bug funcional (franja TOP 3 visible en el juego tras visitar SKINS/RANKING), 4 desviaciones de HUD, GIF inválido, cover 800×800 defectuosa; 9 arreglos para la ronda 2 (informe en verificacion-ronda1/). RONDA 2 EN MARCHA: informe-ronda2.md escrito 23:08 — los 9 arreglos aplicados en código LOCAL (bug TOP 3, HUD medido de la variante B, covers letterbox, métodos de test inertes en producción, nits); PENDIENTE DE EVIDENCIA: subida al repo privado (rama sigue en 08abde42), re-captura del GIF, re-ejecución del smoke y rebuild de producción. Build REINTENTADO 01:02, 01:34, 02:27, 02:37 y 02:58: el proceso bundle-memory.mjs se para y vuelve a arrancar (PID 48233 corriendo desde las 02:58 en cyber-runner/work); bundle index-0563e9a6.js sigue a 0 bytes (03:05). El builder de la ronda 2 terminó con informe parcial (bloqueado por EPERM; driver persistente en marcha). Cover 800×800 rehecha pero a 0 bytes en disco (23:06). La rama reapareció en el repo de la oficina @ 243f36b8 (push del builder 22:24) y fue BORRADA DE NUEVO 22:45 (verificado 404); no ha vuelto. El juego en sí (mecánica, arte, menú) está muy cerca del contrato. Verificado 03:04: sin commits nuevos en el repo (rama sigue en 08abde42); build con proceso en marcha desde las 02:58 y bundle a 0 bytes en disco local (03:05).",
+      "title": "Cyber Runner"
+    }
+  ],
+  "published": [
+    {
+      "commit": "b45e886",
+      "covers": "icono v2 y banner v2 aprobados por Daniel",
+      "objectives": {
+        "ads_per_play": "0/0,30",
+        "avg_time": "0:00/6:00",
+        "plays": "0/100"
+      },
+      "playgama_url": "https://playgama.ai/play/rswbvm34ovfkfo",
+      "published_date": "2026-11-16",
+      "slug": "luxury-watch-dealer",
+      "status": "Sandbox — Live (0 de 30 días)",
+      "title": "Luxury Watch Dealer",
+      "title_es": "El Marchante de Relojes"
+    },
+    {
+      "commit": "06b08c2",
+      "covers": {
+        "banner": "cover_1920x1080.png",
+        "icon": "cover_800x800.png",
+        "portrait": "cover_1080x1920.png"
+      },
+      "objectives": {
+        "ads_per_play": "0/0,30",
+        "avg_time": "0:00/6:00",
+        "plays": "0/100"
+      },
+      "playgama_url": "https://playgama.ai/play/d7nbp5h2yci4vs",
+      "published_date": "2026-11-16",
+      "slug": "scribble-striker",
+      "status": "Sandbox — Live (0 de 30 días)",
+      "title": "Scribble Striker",
+      "title_es": "Scribble Striker"
+    }
+  ],
+  "rejected": [
+    {
+      "reason": "Rechazado por Daniel el 16/11",
+      "slug": "traffic-chaos-ny",
+      "title": "Traffic Chaos NY"
+    },
+    {
+      "reason": "Línea de rework visual cerrada el 16/11 — el juego se queda en su v1",
+      "slug": "sky-stack",
+      "title": "Sky Stack"
+    },
+    {
+      "reason": "Mockup aprobado 16/11 14:51 y assets 37/37 completados, pero CANCELADO por Daniel 16/11 16:01 — no se construye, no se presenta más",
+      "slug": "shadow-match",
+      "title": "Shadow Match"
+    }
+  ],
+  "resumen": "Actualización 03:06 — Sin cambios de fondo desde las 02:47. Cyber Runner: build reintentado 02:58 (nuevo proceso PID 48233, corriendo), bundle sigue a 0 bytes (03:05) — el driver se para y vuelve a arrancar sin cuajar. Slice & Serve: el asset pepino sigue sin existir (03:06); el proceso promote-v2.py sigue corriendo desde el 16/11 sin producirlo. Grid Defender: sin cambios (dist vacío, sin ficheros nuevos desde las 02:38). Sin commits nuevos en dana-games-juegos (verificado 03:04: anita/cyber-runner-b sigue en 08abde42; sin ramas de Slice ni Grid); la rama borrada del repo público no ha vuelto (reverificado 03:04). Siguen publicados en Sandbox: Scribble Striker y Luxury Watch Dealer, pendientes de que Daniel los pruebe por la mañana. Próximo en cola: Sand Jam. (03:06, fuera de horario de mensajes: sin aviso en chat.)",
+  "stats": {
+    "general": {
+      "anuncios_vistos_totales": 0,
+      "dinero_ganado_total_usd": 0,
+      "juegos_publicados": 2,
+      "partidas_totales": 0,
+      "suscriptores_youtube": 2734
+    },
+    "nota": "Solo juegos con datos reales de Playgama, ordenados por visitas (más visitas primero; en empate, el más nuevo primero). Los juegos aún no publicados no aparecen aquí. Moving Mayhem y Metro Nightmare ya no están en la cuenta de Playgama (verificado 22:08): solo quedan Scribble Striker y Luxury Watch Dealer.",
+    "por_juego": [
+      {
+        "anuncios_por_partida": 0,
+        "dinero_usd": 0,
+        "estado": "Sandbox (publicado hoy ~16:16)",
+        "partidas": 0,
+        "slug": "luxury-watch-dealer",
+        "tiempo_medio": "—",
+        "title": "Luxury Watch Dealer"
+      },
+      {
+        "anuncios_por_partida": 0,
+        "dinero_usd": 0,
+        "estado": "Sandbox (publicado hoy 22:41)",
+        "partidas": 0,
+        "slug": "scribble-striker",
+        "tiempo_medio": "—",
+        "title": "Scribble Striker"
+      }
+    ],
+    "source": "Sandbox verificado 22:41 (fútbol) y ~22:52 (relojes v2) por las tareas de publicación: ambos Live, 0 partidas",
+    "tarifas_estimadas": {
+      "nota": "ESTIMADO — cifras oficiales publicadas de Playgama 2026, no medidas nuestras ni ganancias reales",
+      "reparto_playgama": {
+        "playgama_com": "50%",
+        "webs_asociadas": "70% hasta $1.000/mes, 80% hasta $3.000, 90% por encima",
+        "youtube_playables": "75% para nosotros"
+      },
+      "rewarded_por_1000_bruto": {
+        "eeuu": "$15–28",
+        "europa": "$8–15",
+        "tier3": "$1–3"
+      },
+      "umbral_cobro_usd": 100,
+      "valor_1000_anuncios_tras_reparto": {
+        "eeuu": "$7–21",
+        "europa": "$4–11",
+        "tier3": "$0,50–2"
+      }
+    },
+    "updated_at": "2026-11-17T00:19:00+01:00"
+  },
+  "to_test": [],
+  "upcoming": [
+    {
+      "design": "Versión A (arena) como base; B (caramelos) y C (puerto pirata) como skins comprables",
+      "mockup": "idea-5-variant-a.png",
+      "slug": "sand-jam",
+      "status": "Aceptado por Daniel — en cola, primero tras relojes y fútbol",
+      "title": "Sand Jam!"
+    },
+    {
+      "design": "Variante B (templo de la jungla) como base; A (museo de noche) y C (estáción espacial) como capítulos que se desbloquean",
+      "mockup": "idea-4-variant-b.png",
+      "slug": "sneak-out",
+      "status": "Aceptado por Daniel — en cola, tras Sand Jam",
+      "title": "Sneak Out!"
+    },
+    {
+      "design": "Variante B cómic premium (dinosaurios maduros)",
+      "mockup": "idea-2-variant-dino-epic-b.png",
+      "slug": "crowd-clash",
+      "status": "Aceptado por Daniel — diseño elegido, en cola tras Sneak Out",
+      "title": "Crowd Clash!"
+    },
+    {
+      "design": "Variante B (templo antiguo) como base; A (laboratorio) y C (estáción espacial) como capítulos que se desbloquean",
+      "mockup": "idea-11-variant-b.png",
+      "slug": "laser-maze",
+      "status": "Aceptado por Daniel 18:12 — en cola, tras Crowd Clash",
+      "title": "Laser Maze!"
+    },
+    {
+      "design": "Variante B (baño de máscotas) como base + modo C (limpiar casas): dos modos en el mismo juego",
+      "mockup": "idea-7-variant-b.png",
+      "slug": "car-wash-chaos",
+      "status": "Aceptado por Daniel 18:18 — en cola, tras Laser Maze",
+      "title": "Car Wash Chaos!"
+    },
+    {
+      "design": "A (mina de oro), B (dinosaurios) y C (Luna) son capítulos del juego",
+      "mockup": "idea-12-variant-a.png",
+      "slug": "diggy-dash",
+      "status": "Aceptado por Daniel 18:21 — en cola, tras Car Wash Chaos",
+      "title": "Diggy Dash!"
+    },
+    {
+      "design": "A (flores), B (huerto) y C (cactus) son capítulos del juego",
+      "mockup": "idea-13-variant-a.png",
+      "slug": "garden-dash",
+      "status": "Aceptado por Daniel 18:21 — en cola, tras Diggy Dash",
+      "title": "Garden Dash!"
+    },
+    {
+      "design": "A (pista de madera), B (bola de nieve) y C (lava) son capítulos del juego",
+      "mockup": "idea-14-variant-a.png",
+      "slug": "marble-rush",
+      "status": "Aceptado por Daniel 18:21 — en cola, tras Garden Dash",
+      "title": "Marble Rush!"
+    },
+    {
+      "design": "A (castillo), B (bolas de nieve) y C (espacio) son capítulos del juego",
+      "mockup": "idea-15-variant-a.png",
+      "slug": "slingshot-smásh",
+      "status": "Aceptado por Daniel 18:21 — en cola, tras Marble Rush",
+      "title": "Slingshot Smásh!"
+    },
+    {
+      "design": "A (clínica), B (refugio) y C (zoo) son capítulos del juego",
+      "mockup": "idea-16-variant-a.png",
+      "slug": "pet-vet",
+      "status": "Aceptado por Daniel 18:21 — en cola, tras Slingshot Smásh",
+      "title": "Pet Vet!"
+    },
+    {
+      "design": "A (Base lunar), B (Cañón de Marte) y C (Plataforma oceánica) son capítulos del juego",
+      "mockup": "idea-17-variant-a.png",
+      "slug": "rocket-rescue",
+      "status": "Aceptado por Daniel 19:05 — en cola, tras Pet Vet",
+      "title": "Rocket Rescue!"
+    },
+    {
+      "design": "A (Caramelo), B (Robots) y C (Marinas) son capítulos del juego",
+      "mockup": "idea-18-variant-a.png",
+      "slug": "monster-merge",
+      "status": "Aceptado por Daniel 19:05 — en cola, tras Rocket Rescue",
+      "title": "Monster Merge!"
+    },
+    {
+      "design": "A (Pirata), B (Neón) y C (Dulces) son capítulos del juego",
+      "mockup": "idea-19-variant-a.png",
+      "slug": "coin-castle",
+      "status": "Aceptado por Daniel 19:05 — en cola, tras Monster Merge",
+      "title": "Coin Castle!"
+    },
+    {
+      "design": "A (Food truck), B (Cocina real) y C (Espacial) son capítulos del juego",
+      "mockup": "idea-20-variant-a.png",
+      "slug": "burger-boss",
+      "status": "Aceptado por Daniel 19:05 — en cola, tras Coin Castle",
+      "title": "Burger Boss!"
+    },
+    {
+      "design": "A (Pueblo nevado), B (Playa) y C (Espacio) son capítulos del juego",
+      "mockup": "idea-21-variant-a.png",
+      "slug": "snowball-fight",
+      "status": "Aceptado por Daniel 19:05 — en cola, tras Burger Boss",
+      "title": "Snowball Fight!"
+    },
+    {
+      "design": "A (Oeste), B (Metro futurista) y C (Juguete de madera) son capítulos del juego",
+      "mockup": "idea-23-variant-a.png",
+      "slug": "train-rush",
+      "status": "Aceptado por Daniel 19:05 — en cola, tras Snowball Fight",
+      "title": "Train Rush!"
+    },
+    {
+      "design": "A (Discoteca), B (K-pop) y C (Rave robot) son capítulos del juego",
+      "mockup": "idea-24-variant-a.png",
+      "slug": "dance-dash",
+      "status": "Aceptado por Daniel 19:05 — en cola, tras Train Rush",
+      "title": "Dance Dash!"
+    },
+    {
+      "design": "A (Arrecife), B (Barco pirata) y C (Cueva de hielo) son capítulos del juego",
+      "mockup": "idea-26-variant-a.png",
+      "slug": "treasure-dive",
+      "status": "Aceptado por Daniel 19:05 — en cola, tras Dance Dash",
+      "title": "Treasure Dive!"
+    },
+    {
+      "design": "A (calle italiana), B (selva) y C (espacio) son capítulos del juego. Multijugador en vivo (batallas) + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-27-variant-a.png",
+      "slug": "brainrot-battle",
+      "status": "Aceptado por Daniel 19:36 — en cola, tras Treasure Dive",
+      "title": "Brainrot Battle!"
+    },
+    {
+      "design": "A (ciudad neón), B (desierto) y C (nieve) son capítulos. Multijugador en vivo (carreras) + clasificación diaria. Mínimo 20 skins por sección.",
+      "mockup": "idea-28-variant-a.png",
+      "slug": "blocky-race",
+      "status": "Aceptado por Daniel 19:36 — en cola, tras Brainrot Battle",
+      "title": "Blocky Race!"
+    },
+    {
+      "design": "A (huevos dino), B (dragón) y C (alien) son capítulos. Clasificación + batallas de máscotas. Mínimo 20 skins por sección.",
+      "mockup": "idea-30-variant-a.png",
+      "slug": "pet-hatch",
+      "status": "Aceptado por Daniel 19:36 — en cola, tras Blocky Race",
+      "title": "Pet Hatch!"
+    },
+    {
+      "design": "A (mazmorra), B (estáción espacial) y C (dulces) son capítulos. Multijugador (carrera por resolver antes) + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-31-variant-a.png",
+      "slug": "arrow-maze",
+      "status": "Aceptado por Daniel 19:36 — en cola, tras Pet Hatch",
+      "title": "Arrow Maze!"
+    },
+    {
+      "design": "A (ciudad superhéroes), B (dulces) y C (fábrica de robots) son capítulos. Multijugador en vivo (carreras) + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-32-variant-a.png",
+      "slug": "gate-dash",
+      "status": "Aceptado por Daniel 19:36 — en cola, tras Arrow Maze",
+      "title": "Gate Dash!"
+    },
+    {
+      "design": "A (gimnasio), B (correr en nieve) y C (baño de hielo) son capítulos. Retos contra amigos + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-33-variant-a.png",
+      "slug": "winter-arc",
+      "status": "Aceptado por Daniel 19:36 — en cola, tras Gate Dash",
+      "title": "Winter Arc!"
+    },
+    {
+      "design": "A (pop star), B (real) y C (ciber) son capítulos. Multijugador (duelo de peinados) + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-34-variant-a.png",
+      "slug": "salon-star",
+      "status": "Aceptado por Daniel 19:36 — en cola, tras Winter Arc",
+      "title": "Salon Star!"
+    },
+    {
+      "design": "A (torre de dulces), B (lava) y C (nubes) son capítulos. Multijugador en vivo (carrera de obstáculos) + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-35-variant-a.png",
+      "slug": "obby-dash",
+      "status": "Aceptado por Daniel 19:36 — en cola, tras Salon Star",
+      "title": "Obby Dash!"
+    },
+    {
+      "design": "A (mudanza), B (estáción espacial) y C (barco pirata) son capítulos. Multijugador cooperativo en vivo + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-36-variant-a.png",
+      "slug": "wobbly-crew",
+      "status": "Aceptado por Daniel 19:36 — en cola, tras Obby Dash",
+      "title": "Wobbly Crew!"
+    },
+    {
+      "design": "A (azotea al atardecer), B (calle neón) y C (faro embrujado) son capítulos (mapas). Multijugador en vivo 4J todos contra todos + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-37-variant-a.png",
+      "slug": "shadow-stomp",
+      "status": "Aceptado por Daniel 19:52 — en cola, tras Wobbly Crew",
+      "title": "Shadow Stomp!"
+    },
+    {
+      "design": "A (playa), B (montañas nevadas) y C (azoteas al atardecer) son capítulos (mapas). Multijugador en vivo 4J PvP + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-38-variant-a.png",
+      "slug": "kite-clash",
+      "status": "Aceptado por Daniel 19:52 — en cola, tras Shadow Stomp",
+      "title": "Kite Clash!"
+    },
+    {
+      "design": "A (patio escolar), B (playa) y C (estáción espacial sin gravedad) son capítulos (arenas). Multijugador en vivo 1v1 con torneo + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-39-variant-a.png",
+      "slug": "tether-clash",
+      "status": "Aceptado por Daniel 19:52 — en cola, tras Kite Clash",
+      "title": "Tether Clash!"
+    },
+    {
+      "design": "A (patio), B (arcade neón) y C (selva) son capítulos (canchas). Multijugador en vivo 4J por eliminación + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-40-variant-a.png",
+      "slug": "four-square-frenzy",
+      "status": "Aceptado por Daniel 19:52 — en cola, tras Tether Clash",
+      "title": "Four Square Frenzy!"
+    },
+    {
+      "design": "A (cuarto de juguetes), B (escalera de caramelo) y C (espacio) son capítulos (pistas). Multijugador en vivo, carrera 4J + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-41-variant-a.png",
+      "slug": "slinky-sprint",
+      "status": "Aceptado por Daniel 19:52 — en cola, tras Four Square Frenzy",
+      "title": "Slinky Sprint!"
+    },
+    {
+      "design": "A (circo), B (calle) y C (discoteca neón) son capítulos (escenarios). Multijugador en vivo 4J supervivencia + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-42-variant-a.png",
+      "slug": "juggle-clash",
+      "status": "Aceptado por Daniel 19:52 — en cola, tras Slinky Sprint",
+      "title": "Juggle Clash!"
+    },
+    {
+      "design": "A (circo), B (cañón al atardecer) y C (rascacielos) son capítulos (cuerdas). Multijugador en vivo 1v1 con torneo + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-43-variant-a.png",
+      "slug": "tightrope-duel",
+      "status": "Aceptado por Daniel 19:52 — en cola, tras Juggle Clash",
+      "title": "Tightrope Duel!"
+    },
+    {
+      "design": "A (calle lluviosa), B (monzón en la selva) y C (lluvia de caramelo) son capítulos (mapas). Multijugador en vivo 4J 60 s + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-44-variant-a.png",
+      "slug": "puddle-splash",
+      "status": "Aceptado por Daniel 19:52 — en cola, tras Tightrope Duel",
+      "title": "Puddle Splash!"
+    },
+    {
+      "design": "A (islas flotantes), B (nubes de tormenta) y C (dunas) son capítulos (arenas). Multijugador en vivo 4J, último en la isla gana + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-45-variant-a.png",
+      "slug": "wind-wizard-duel",
+      "status": "Aceptado por Daniel 19:52 — en cola, tras Puddle Splash",
+      "title": "Wind Wizard Duel!"
+    },
+    {
+      "design": "A (bosque nocturno), B (mar profundo) y C (jardín neón) son capítulos (mapas). Multijugador en vivo 4J 60 s + clasificación. Mínimo 20 skins por sección.",
+      "mockup": "idea-46-variant-a.png",
+      "slug": "glow-grab",
+      "status": "Aceptado por Daniel 19:52 — en cola, tras Wind Wizard Duel",
+      "title": "Glow Grab!"
+    }
+  ],
+  "updated_at": "2026-11-17T03:07:13+01:00",
+  "updated_by": "anita"
+}
