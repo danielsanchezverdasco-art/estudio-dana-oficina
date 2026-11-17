@@ -51,86 +51,116 @@
   {
    "commit": null,
    "covers": "mockup variante A elegido por Daniel (arena como base)",
-   "paso": "Prototipo del verbo en construcción (constructor único, desde ~13:33; código sin commitear, sin push aún)",
-   "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente",
+   "paso": "Prototipo jugable construido (dist-qa) y en auto-playtest: capturas de menu, nivel 1, victoria y nivel 2 (14:22-14:24); Game.ts editado 14:21; sin commit ni push aun",
+   "queda": "Ajuste del feel + entrega del prototipo para que Daniel lo pruebe (sin estimacion del constructor)",
    "slug": "sand-jam",
-   "status": "EN MARCHA — Prototipo del verbo SOLO con el MÉTODO NUEVO (aprobado por Daniel 13:29): un solo constructor, menú + núcleo jugable + 1–2 niveles, SIN tienda, SIN skins, SIN capítulos. Constructor en marcha desde ~13:33 (rama niky/sand-jam-1711, worktree wt-sand-jam; código sin commitear, sin push aún). Daniel juega el prototipo antes de hacer el juego completo. | Paso: prototipo del verbo en construcción | Queda: ~prototipo jugable + prueba de Daniel + juego completo con el mismo agente.",
+   "status": "EN MARCHA — Prototipo del verbo SOLO con el MÉTODO NUEVO (aprobado por Daniel 13:29): un solo constructor, menú + núcleo jugable + 1–2 niveles, SIN tienda, SIN skins, SIN capítulos. Constructor en marcha desde ~13:33 (rama niky/sand-jam-1711, worktree wt-sand-jam; código sin commitear, sin push aún). Daniel juega el prototipo antes de hacer el juego completo. | Paso: prototipo construido (dist-qa) + auto-playtest con capturas (menú, nivel 1, victoria, nivel 2) 14:22–14:24 | Queda: ~ajuste del feel + entrega del prototipo para que Daniel lo pruebe; sin estimación del constructor.",
    "title": "Sand Jam!"
   },
   {
+   "paso": "Constructor recién lanzado (~14:22–14:25), empezando el prototipo del verbo (leyendo la skill del método nuevo)",
+   "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
    "slug": "sneak-out",
-   "title": "Sneak Out!",
-   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/sneak-out-1711): variante B (templo) base. Daniel juega el prototipo antes del juego completo."
+   "status": "EN MARCHA — Prototipo con el metodo nuevo (constructor unico, rama niky/sneak-out-1711): variante B (templo) base. Daniel juega el prototipo antes del juego completo. | Paso: constructor recién lanzado, empezando el prototipo del verbo | Queda: ~prototipo + prueba de Daniel + juego completo; sin estimación aún.",
+   "title": "Sneak Out!"
   },
   {
+   "paso": "Constructor recién lanzado (~14:22–14:25), empezando el prototipo del verbo (leyendo la skill del método nuevo)",
+   "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
    "slug": "crowd-clash",
-   "title": "Crowd Clash!",
-   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/crowd-clash-1711): diseno B comic premium (dinosaurio maduro). Daniel juega el prototipo antes del juego completo."
+   "status": "EN MARCHA — Prototipo con el metodo nuevo (constructor unico, rama niky/crowd-clash-1711): diseno B comic premium (dinosaurio maduro). Daniel juega el prototipo antes del juego completo. | Paso: constructor recién lanzado, empezando el prototipo del verbo | Queda: ~prototipo + prueba de Daniel + juego completo; sin estimación aún.",
+   "title": "Crowd Clash!"
   },
   {
+   "paso": "Constructor recién lanzado (~14:22–14:25), empezando el prototipo del verbo (leyendo la skill del método nuevo)",
+   "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
    "slug": "laser-maze",
-   "title": "Laser Maze!",
-   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/laser-maze-1711): variante B (templo) base. Daniel juega el prototipo antes del juego completo."
+   "status": "EN MARCHA — Prototipo con el metodo nuevo (constructor unico, rama niky/laser-maze-1711): variante B (templo) base. Daniel juega el prototipo antes del juego completo. | Paso: constructor recién lanzado, empezando el prototipo del verbo | Queda: ~prototipo + prueba de Daniel + juego completo; sin estimación aún.",
+   "title": "Laser Maze!"
   },
   {
+   "paso": "Constructor recién lanzado (~14:22–14:25), empezando el prototipo del verbo (leyendo la skill del método nuevo)",
+   "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
    "slug": "car-wash-chaos",
-   "title": "Car Wash Chaos!",
-   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/car-wash-chaos-1711): variante B (bano de mascotas) modo principal. Daniel juega el prototipo antes del juego completo."
+   "status": "EN MARCHA — Prototipo con el metodo nuevo (constructor unico, rama niky/car-wash-chaos-1711): variante B (bano de mascotas) modo principal. Daniel juega el prototipo antes del juego completo. | Paso: constructor recién lanzado, empezando el prototipo del verbo | Queda: ~prototipo + prueba de Daniel + juego completo; sin estimación aún.",
+   "title": "Car Wash Chaos!"
   },
   {
+   "paso": "Constructor recién lanzado (~14:22–14:25), empezando el prototipo del verbo (leyendo la skill del método nuevo)",
+   "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
    "slug": "diggy-dash",
-   "title": "Diggy Dash!",
-   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/diggy-dash-1711). Daniel juega el prototipo antes del juego completo."
+   "status": "EN MARCHA — Prototipo con el metodo nuevo (constructor unico, rama niky/diggy-dash-1711). Daniel juega el prototipo antes del juego completo. | Paso: constructor recién lanzado, empezando el prototipo del verbo | Queda: ~prototipo + prueba de Daniel + juego completo; sin estimación aún.",
+   "title": "Diggy Dash!"
   },
   {
+   "paso": "Constructor recién lanzado (~14:22–14:25), empezando el prototipo del verbo (leyendo la skill del método nuevo)",
+   "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
    "slug": "garden-dash",
-   "title": "Garden Dash!",
-   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/garden-dash-1711). Daniel juega el prototipo antes del juego completo."
+   "status": "EN MARCHA — Prototipo con el metodo nuevo (constructor unico, rama niky/garden-dash-1711). Daniel juega el prototipo antes del juego completo. | Paso: constructor recién lanzado, empezando el prototipo del verbo | Queda: ~prototipo + prueba de Daniel + juego completo; sin estimación aún.",
+   "title": "Garden Dash!"
   },
   {
+   "paso": "Constructor recién lanzado (~14:22–14:25), empezando el prototipo del verbo (leyendo la skill del método nuevo)",
+   "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
    "slug": "slingshot-smash",
-   "title": "Slingshot Smash!",
-   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/slingshot-smash-1711). Daniel juega el prototipo antes del juego completo."
+   "status": "EN MARCHA — Prototipo con el metodo nuevo (constructor unico, rama niky/slingshot-smash-1711). Daniel juega el prototipo antes del juego completo. | Paso: constructor recién lanzado, empezando el prototipo del verbo | Queda: ~prototipo + prueba de Daniel + juego completo; sin estimación aún.",
+   "title": "Slingshot Smash!"
   },
   {
+   "paso": "Constructor recién lanzado (~14:22–14:25), empezando el prototipo del verbo (leyendo la skill del método nuevo)",
+   "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
    "slug": "pet-vet",
-   "title": "Pet Vet!",
-   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/pet-vet-1711). Daniel juega el prototipo antes del juego completo."
+   "status": "EN MARCHA — Prototipo con el metodo nuevo (constructor unico, rama niky/pet-vet-1711). Daniel juega el prototipo antes del juego completo. | Paso: constructor recién lanzado, empezando el prototipo del verbo | Queda: ~prototipo + prueba de Daniel + juego completo; sin estimación aún.",
+   "title": "Pet Vet!"
   },
   {
+   "paso": "Constructor recién lanzado (~14:22–14:25), empezando el prototipo del verbo (leyendo la skill del método nuevo)",
+   "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
    "slug": "rocket-rescue",
-   "title": "Rocket Rescue!",
-   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/rocket-rescue-1711). Daniel juega el prototipo antes del juego completo."
+   "status": "EN MARCHA — Prototipo con el metodo nuevo (constructor unico, rama niky/rocket-rescue-1711). Daniel juega el prototipo antes del juego completo. | Paso: constructor recién lanzado, empezando el prototipo del verbo | Queda: ~prototipo + prueba de Daniel + juego completo; sin estimación aún.",
+   "title": "Rocket Rescue!"
   },
   {
+   "paso": "Constructor recién lanzado (~14:22–14:25), empezando el prototipo del verbo (leyendo la skill del método nuevo)",
+   "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
    "slug": "monster-merge",
-   "title": "Monster Merge!",
-   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/monster-merge-1711). Daniel juega el prototipo antes del juego completo."
+   "status": "EN MARCHA — Prototipo con el metodo nuevo (constructor unico, rama niky/monster-merge-1711). Daniel juega el prototipo antes del juego completo. | Paso: constructor recién lanzado, empezando el prototipo del verbo | Queda: ~prototipo + prueba de Daniel + juego completo; sin estimación aún.",
+   "title": "Monster Merge!"
   },
   {
+   "paso": "Constructor recién lanzado (~14:22–14:25), empezando el prototipo del verbo (leyendo la skill del método nuevo)",
+   "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
    "slug": "coin-castle",
-   "title": "Coin Castle!",
-   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/coin-castle-1711). Daniel juega el prototipo antes del juego completo."
+   "status": "EN MARCHA — Prototipo con el metodo nuevo (constructor unico, rama niky/coin-castle-1711). Daniel juega el prototipo antes del juego completo. | Paso: constructor recién lanzado, empezando el prototipo del verbo | Queda: ~prototipo + prueba de Daniel + juego completo; sin estimación aún.",
+   "title": "Coin Castle!"
   },
   {
+   "paso": "Constructor recién lanzado (~14:22–14:25), empezando el prototipo del verbo (leyendo la skill del método nuevo)",
+   "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
    "slug": "burger-boss",
-   "title": "Burger Boss!",
-   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/burger-boss-1711). Daniel juega el prototipo antes del juego completo."
+   "status": "EN MARCHA — Prototipo con el metodo nuevo (constructor unico, rama niky/burger-boss-1711). Daniel juega el prototipo antes del juego completo. | Paso: constructor recién lanzado, empezando el prototipo del verbo | Queda: ~prototipo + prueba de Daniel + juego completo; sin estimación aún.",
+   "title": "Burger Boss!"
   },
   {
+   "paso": "Constructor recién lanzado (~14:22–14:25), empezando el prototipo del verbo (leyendo la skill del método nuevo)",
+   "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
    "slug": "snowball-fight",
-   "title": "Snowball Fight!",
-   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/snowball-fight-1711). Daniel juega el prototipo antes del juego completo."
+   "status": "EN MARCHA — Prototipo con el metodo nuevo (constructor unico, rama niky/snowball-fight-1711). Daniel juega el prototipo antes del juego completo. | Paso: constructor recién lanzado, empezando el prototipo del verbo | Queda: ~prototipo + prueba de Daniel + juego completo; sin estimación aún.",
+   "title": "Snowball Fight!"
   },
   {
+   "paso": "Constructor recién lanzado (~14:22–14:25), empezando el prototipo del verbo (leyendo la skill del método nuevo)",
+   "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
    "slug": "train-rush",
-   "title": "Train Rush!",
-   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/train-rush-1711). Daniel juega el prototipo antes del juego completo."
+   "status": "EN MARCHA — Prototipo con el metodo nuevo (constructor unico, rama niky/train-rush-1711). Daniel juega el prototipo antes del juego completo. | Paso: constructor recién lanzado, empezando el prototipo del verbo | Queda: ~prototipo + prueba de Daniel + juego completo; sin estimación aún.",
+   "title": "Train Rush!"
   },
   {
+   "paso": "Constructor recién lanzado (~14:22–14:25), empezando el prototipo del verbo (leyendo la skill del método nuevo)",
+   "queda": "Prototipo jugable + prueba de Daniel + juego completo con el mismo agente (flujo 14:26); sin estimación aún, acaban de arrancar",
    "slug": "dance-dash",
-   "title": "Dance Dash!",
-   "status": "Prototipo con el metodo nuevo (constructor unico, rama niky/dance-dash-1711). Daniel juega el prototipo antes del juego completo."
+   "status": "EN MARCHA — Prototipo con el metodo nuevo (constructor unico, rama niky/dance-dash-1711). Daniel juega el prototipo antes del juego completo. | Paso: constructor recién lanzado, empezando el prototipo del verbo | Queda: ~prototipo + prueba de Daniel + juego completo; sin estimación aún.",
+   "title": "Dance Dash!"
   }
  ],
  "published": [
@@ -149,7 +179,7 @@
    "playgama_url": "https://playgama.ai/play/d7nbp5h2yci4vs",
    "published_date": "2026-11-16",
    "slug": "scribble-striker",
-   "status": "Sandbox — Live · build c7a66d1 republicado 12:46 (sin online: botón RANKING + clasificaciones locales; píldoras centradas 220@32 / 9@84; tienda 478 skins; foto del menú repintada sin «EN LÍNEA»). Menú en vivo verificado: RANKING visible. Pendiente: prueba de Daniel. Verificado 13:05–13:09: primera carga en blanco (marco vacío >50 s) — al recargar carga bien y el menú se mantiene estable. Panel: 19 lanzamientos, 10 partidas, ~7 min de media, 1 like. Impulso gratis +50: YA ESTABA ACTIVO (verificado 13:41) — no se reclamó otro; queda 1 impulso gratis para otros juegos. | REBUILD DESDE CERO con el metodo nuevo (orden Daniel 14:00, misma jugabilidad y normas): prototipo del verbo en construccion (constructor unico, rama niky/futbol-rebuild-metodo-nuevo-1711); Daniel juega el prototipo antes del juego completo.",
+   "status": "Sandbox — Live · build c7a66d1 republicado 12:46 (sin online: botón RANKING + clasificaciones locales; píldoras centradas 220@32 / 9@84; tienda 478 skins; foto del menú repintada sin «EN LÍNEA»). Menú en vivo verificado: RANKING visible. Pendiente: prueba de Daniel. Verificado 13:05–13:09: primera carga en blanco (marco vacío >50 s) — al recargar carga bien y el menú se mantiene estable. Panel: 19 lanzamientos, 10 partidas, ~7 min de media, 1 like. Impulso gratis +50: YA ESTABA ACTIVO (verificado 13:41) — no se reclamó otro; queda 1 impulso gratis para otros juegos. | REBUILD DESDE CERO con el metodo nuevo (orden Daniel 14:00, misma jugabilidad y normas): prototipo del verbo en construccion (constructor unico, rama niky/futbol-rebuild-metodo-nuevo-1711); Daniel juega el prototipo antes del juego completo. | REBUILD 14:00-ahora: constructor único en marcha (rama niky/futbol-rebuild-metodo-nuevo-1711); menús nuevos desde cero en construcción (live-ui.ts editado, compilando ahora; capturas de menús 14:20–14:21); prototipo del verbo archivado; sin entrega ni commit aún. Revisión RANKING en vivo COMPLETADA 14:14: título LEADERBOARDS cortado por la primera tarjeta, no hay clasificación real (solo 5 filas de stats propias en 0), >40% de pantalla vacía abajo; LIGA bien salvo solapes menores; hallazgos pasados al constructor. Build actual c7a66d1 intacto en vivo.",
    "title": "Scribble Striker",
    "title_es": "Scribble Striker"
   }
@@ -185,17 +215,17 @@
    "title_es": "El Marchante de Relojes"
   },
   {
+   "reason": "Fuera por decision de Daniel 14:02: no lo ha probado el, pero con tantos problemas del playtest de Dani (DIARIO roto, pestanas de tienda sin responder, piedra y figura indistinguibles, revelacion solo un cambio de color) se va fuera. Sin arreglos ni envio a revision; se queda en Sandbox.",
    "slug": "esculpe-la-figura",
-   "title": "Esculpe la Figura (Sculpt & Reveal)",
-   "reason": "Fuera por decision de Daniel 14:02: no lo ha probado el, pero con tantos problemas del playtest de Dani (DIARIO roto, pestanas de tienda sin responder, piedra y figura indistinguibles, revelacion solo un cambio de color) se va fuera. Sin arreglos ni envio a revision; se queda en Sandbox."
+   "title": "Esculpe la Figura (Sculpt & Reveal)"
   },
   {
+   "reason": "RECHAZADO por Daniel 13:58 (Rechazado no se publica). No va a revision ni al catalogo. El impulso +50 sigue corriendo hasta el 18 nov (no se puede parar). Pendiente: Daniel dira si se borra de Playgama como los relojes o se deja en Sandbox.",
    "slug": "doubloon-rush",
-   "title": "Cofre del Doblon (Doubloon Rush)",
-   "reason": "RECHAZADO por Daniel 13:58 (Rechazado no se publica). No va a revision ni al catalogo. El impulso +50 sigue corriendo hasta el 18 nov (no se puede parar). Pendiente: Daniel dira si se borra de Playgama como los relojes o se deja en Sandbox."
+   "title": "Cofre del Doblon (Doubloon Rush)"
   }
  ],
- "resumen": "Actualizacion 14:25 - 15 juegos en paralelo con el metodo nuevo (1 constructor por juego): Sneak Out, Crowd Clash, Laser Maze, Car Wash Chaos, Diggy Dash, Garden Dash, Slingshot Smash, Pet Vet, Rocket Rescue, Monster Merge, Coin Castle, Burger Boss, Snowball Fight, Train Rush, Dance Dash. Prototipos primero; Daniel los juega uno a uno antes del juego completo. Futbol: rebuild de menus en marcha. Sand Jam: prototipo en marcha. Cofre RECHAZADO, Esculpe FUERA.",
+ "resumen": "Actualizacion 14:39 - 17 agentes en marcha (15 prototipos nuevos + futbol rebuild + Sand Jam). Flujo por agente (orden Daniel 14:26): prototipo -> Daniel lo juega y da feedback -> el mismo agente termina el juego entero -> siguiente de la lista. Sand Jam: build QA + capturas de auto-playtest (menu, nivel 1, victoria, nivel 2) 14:22-14:24; queda entrega del prototipo + prueba de Daniel. Futbol: menus nuevos desde cero en construccion (compilando ahora); revision RANKING hecha 14:14 y pasada al constructor. Nada listo para probar todavia; se avisa prototipo a prototipo (orden 14:23).",
  "stats": {
   "general": {
    "anuncios_vistos_totales": 0,
@@ -515,6 +545,6 @@
    "title": "Glow Grab!"
   }
  ],
- "updated_at": "2026-11-17T14:25:00+01:00",
+ "updated_at": "2026-11-17T14:39:00+01:00",
  "updated_by": "Dani"
 }
