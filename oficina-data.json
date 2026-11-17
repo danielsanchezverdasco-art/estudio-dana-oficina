@@ -26,7 +26,9 @@
       "mockup": "survival-variant-a.png",
       "slug": "island-tribe",
       "status": "EN MARCHA — prototipo del verbo en marcha (reality de supervivencia: enseñar habilidades a 10 personajes IA, ciclo DÍA Y NOCHE, fuego/agua/cobijo/comida). Variante A elegida por Daniel 18:00, agente puesto a hacerlo ya mismo. Queda ~prototipo, luego lo pruebas tú y se hace el juego completo.",
-      "title": "Island Tribe!"
+      "title": "Island Tribe!",
+      "paso": "Prototipo del verbo: asignar + enseñar habilidades + sobrevivir al ciclo día/noche",
+      "queda": "~prototipo + prueba de Daniel + juego completo; sin estimación del constructor, lanzado 18:00"
     },
     {
       "slug": "dungeon-delve",
@@ -174,7 +176,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Island Tribe! (supervivencia con IA, día y noche) ya en prototipo, variante A elegida por Daniel. Fútbol: rebuild de menús subiéndose a app de prueba aparte. Burger Boss v1.0 entregada, arreglando la tarjeta Orange Bandana.",
+  "resumen": "18:02 — Island Tribe! elegida por ti (variante A) y ya en prototipo, con día y noche. Fútbol: fallo mío, el enlace que te pasé sirve el build viejo; app nueva aparte en Sandbox en marcha, te paso el enlace nuevo cuando lo verifique en vivo. Crowd Clash prototipo entregado 17:42. Dungeon Delve en prototipo. 7 juegos completos y 7 prototipos en marcha, todos activos.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -215,7 +217,7 @@
         "tier3": "$0,50–2"
       }
     },
-    "updated_at": "2026-11-17T17:50:00+01:00"
+    "updated_at": "2026-11-17T18:02:00+01:00"
   },
   "to_test": [
     {
@@ -321,13 +323,6 @@
     }
   ],
   "upcoming": [
-    {
-      "slug": "island-tribe-survival",
-      "title": "¡Supervivencia en la isla! (nombre pendiente)",
-      "design": "Idea de Daniel 17:44: reality de supervivencia en isla (Supervivientes/Lost in Blue) + mentoría IA: 10 personajes con especialidades y puntos débiles; el jugador les ENSEÑA habilidades; ciclo día/noche, fuego/agua/cobijo/comida, consejo tribal con votaciones. Variantes: A «Island Tribe!» (atardecer tropical, hoguera) · B «Castaway Council!» (consejo nocturno, estrellas) · C «Tribe Survival!» (vista cenital de la isla con huerto, muelle, laguna).",
-      "mockup": "survival-variant-a.png",
-      "status": "3 VARIANTES LISTAS 17:49 en ideas-nuevas-1611i/ (verificadas: título correcto, vectorial, sin HUD pintado) — pendiente el PICK de Daniel para construir el prototipo."
-    },
     {
       "design": "Versión A (arena) como base; B (caramelos) y C (puerto pirata) como skins comprables",
       "mockup": "idea-5-variant-a.png",
@@ -774,6 +769,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 18:00",
+  "updated_at": "2026-11-17 18:02",
   "updated_by": "Dani (cron 30 min)"
 }
