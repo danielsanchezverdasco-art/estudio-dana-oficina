@@ -22,6 +22,13 @@
   ],
   "in_progress": [
     {
+      "design": "Variante A «Island Tribe!» como base (campamento tropical al atardecer, los 10 alrededor de la hoguera); B «Castaway Council!» (consejo nocturno) y C «Tribe Survival!» (vista cenital de la isla) como capítulos",
+      "mockup": "survival-variant-a.png",
+      "slug": "island-tribe",
+      "status": "EN MARCHA — prototipo del verbo en marcha (reality de supervivencia: enseñar habilidades a 10 personajes IA, ciclo DÍA Y NOCHE, fuego/agua/cobijo/comida). Variante A elegida por Daniel 18:00, agente puesto a hacerlo ya mismo. Queda ~prototipo, luego lo pruebas tú y se hace el juego completo.",
+      "title": "Island Tribe!"
+    },
+    {
       "slug": "dungeon-delve",
       "title": "Dungeon Delve!",
       "design": "Juego de verdad (tanda 7, 17/11): Roguelike de mazmorras: explora salas, lucha, muere y vuelve con mejoras permanentes. Capítulos: A — cripta oscura · B — cueva de lava · C — templo de hielo.",
@@ -167,7 +174,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "17:50 — FÚTBOL: fallo mío, el enlace que te pasé sirve el build viejo (los menús nuevos nunca se subieron a Playgama); app nueva aparte en Sandbox en marcha, te paso el enlace nuevo cuando lo verifique en vivo. Crowd Clash prototipo ENTREGADO 17:42. Supervivencia: las 3 variantes listas, falta tu pick. Dungeon Delve en prototipo. 7 juegos completos y 7 prototipos en marcha, todos activos.",
+  "resumen": "Island Tribe! (supervivencia con IA, día y noche) ya en prototipo, variante A elegida por Daniel. Fútbol: rebuild de menús subiéndose a app de prueba aparte. Burger Boss v1.0 entregada, arreglando la tarjeta Orange Bandana.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -767,6 +774,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 17:50",
+  "updated_at": "2026-11-17 18:00",
   "updated_by": "Dani (cron 30 min)"
 }
