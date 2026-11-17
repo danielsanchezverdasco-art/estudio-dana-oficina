@@ -22,6 +22,18 @@
   ],
   "in_progress": [
     {
+      "slug": "dungeon-delve",
+      "title": "Dungeon Delve!",
+      "design": "Juego de verdad (tanda 7, 17/11): Roguelike de mazmorras: explora salas, lucha, muere y vuelve con mejoras permanentes. Capítulos: A — cripta oscura · B — cueva de lava · C — templo de hielo.",
+      "mockup": "idea-47-variant-a.webp",
+      "status": "EN MARCHA — prototipo del verbo en marcha (roguelike de mazmorras, capítulo base A cripta oscura). Diseño ACEPTADO por Daniel 17:37 junto con los otros 19 de la tanda 7. Queda ~prototipo, luego lo pruebas tú y se hace el juego completo.",
+      "chapters": [
+        "A — cripta oscura",
+        "B — cueva de lava",
+        "C — templo de hielo"
+      ]
+    },
+    {
       "commit": null,
       "covers": "assets generados (pack 32/32), covers pendientes",
       "paso": "Rebuild sin cuajar (bundle 0 bytes 23:26, dist vacío, verificado 00:37); adaptador online RecurretumultaOnlineAdapter escrito y verificado contra wss://online.recurretumulta.online",
@@ -160,7 +172,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Actualización 17:20 — Burger Boss v1.0 ENTREGADO y pusheado (01b0978, 16:13); se está arreglando un defecto de la tienda (tarjeta Orange Bandana) y luego se sube a Sandbox. Pet Vet y Snowball Fight: prototipos ENTREGADOS y pusheados (16:08 y 16:05). Coin Castle, Train Rush y Laser Maze RELANZADOS ~17:03 y activos. Los 7 juegos completos siguen en marcha, en fase de verificación (sin ficheros nuevos desde ~16:20, sondas de juego corriendo). Garden Dash sin actividad ~10 min, a vigilar. Los 4 prototipos siguen en Sandbox para probar.",
+  "resumen": "Daniel aceptó los 20 diseños de la tanda 7 (17:37): capítulo base A en todos. Dungeon Delve ya en prototipo. Burger Boss v1.0 entregada, arreglando la tarjeta Orange Bandana de la tienda. 7 juegos completos y 9 prototipos en marcha.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -516,23 +528,11 @@
       "title": "Glow Grab!"
     },
     {
-      "slug": "dungeon-delve",
-      "title": "Dungeon Delve!",
-      "design": "Juego de verdad (tanda 7, 17/11): Roguelike de mazmorras: explora salas, lucha, muere y vuelve con mejoras permanentes. Capítulos: A — cripta oscura · B — cueva de lava · C — templo de hielo.",
-      "mockup": "idea-47-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
-      "chapters": [
-        "A — cripta oscura",
-        "B — cueva de lava",
-        "C — templo de hielo"
-      ]
-    },
-    {
       "slug": "castle-empire",
       "title": "Castle Empire!",
       "design": "Juego de verdad (tanda 7, 17/11): Construye tu reino, gestiona recursos y defiende oleadas de enemigos. Capítulos: A — castillo medieval · B — reino desierto · C — reino nevado.",
       "mockup": "idea-48-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "status": "✅ DISEÑO ACEPTADO por Daniel 17:37 — capítulo base A. En cola para prototipo, en orden (48 Castle Empire, 49 Deck Heroes, 50 Last Stand, 51 Harvest Valley, 52 Turbo Drift, 53 Tower Tactics, 54 Star Fleet, 55 Mystery Mansion, 56 Dead City, 57 Creature Tamer, 58 Airship Pirates, 59 Gem Legends, 60 Deep Sea Fishing, 61 Railway Empire, 62 Spell Academy, 63 Mech Builder, 64 Football Club Manager, 65 Arena Clash, 66 Chrono Quest).",
       "chapters": [
         "A — castillo medieval",
         "B — reino desierto",
@@ -544,7 +544,7 @@
       "title": "Deck Heroes!",
       "design": "Juego de verdad (tanda 7, 17/11): Roguelike de cartas: construye tu mazo batalla a batalla, cada run es distinta. Capítulos: A — taberna medieval · B — arena arcana · C — biblioteca encantada.",
       "mockup": "idea-49-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "status": "✅ DISEÑO ACEPTADO por Daniel 17:37 — capítulo base A. En cola para prototipo, en orden (48 Castle Empire, 49 Deck Heroes, 50 Last Stand, 51 Harvest Valley, 52 Turbo Drift, 53 Tower Tactics, 54 Star Fleet, 55 Mystery Mansion, 56 Dead City, 57 Creature Tamer, 58 Airship Pirates, 59 Gem Legends, 60 Deep Sea Fishing, 61 Railway Empire, 62 Spell Academy, 63 Mech Builder, 64 Football Club Manager, 65 Arena Clash, 66 Chrono Quest).",
       "chapters": [
         "A — taberna medieval",
         "B — arena arcana",
@@ -556,7 +556,7 @@
       "title": "Last Stand Survivors!",
       "design": "Juego de verdad (tanda 7, 17/11): Sobrevive a oleadas, elige mejoras que se combinan en builds rotos. Capítulos: A — ciudad en ruinas · B — bosque nocturno · C — desierto postapocalíptico.",
       "mockup": "idea-50-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "status": "✅ DISEÑO ACEPTADO por Daniel 17:37 — capítulo base A. En cola para prototipo, en orden (48 Castle Empire, 49 Deck Heroes, 50 Last Stand, 51 Harvest Valley, 52 Turbo Drift, 53 Tower Tactics, 54 Star Fleet, 55 Mystery Mansion, 56 Dead City, 57 Creature Tamer, 58 Airship Pirates, 59 Gem Legends, 60 Deep Sea Fishing, 61 Railway Empire, 62 Spell Academy, 63 Mech Builder, 64 Football Club Manager, 65 Arena Clash, 66 Chrono Quest).",
       "chapters": [
         "A — ciudad en ruinas",
         "B — bosque nocturno",
@@ -568,7 +568,7 @@
       "title": "Harvest Valley!",
       "design": "Juego de verdad (tanda 7, 17/11): Granja de verdad: siembra, animales, estaciones, vende y expande. Capítulos: A — valle primaveral · B — granja otoñal · C — invernadero tropical.",
       "mockup": "idea-51-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "status": "✅ DISEÑO ACEPTADO por Daniel 17:37 — capítulo base A. En cola para prototipo, en orden (48 Castle Empire, 49 Deck Heroes, 50 Last Stand, 51 Harvest Valley, 52 Turbo Drift, 53 Tower Tactics, 54 Star Fleet, 55 Mystery Mansion, 56 Dead City, 57 Creature Tamer, 58 Airship Pirates, 59 Gem Legends, 60 Deep Sea Fishing, 61 Railway Empire, 62 Spell Academy, 63 Mech Builder, 64 Football Club Manager, 65 Arena Clash, 66 Chrono Quest).",
       "chapters": [
         "A — valle primaveral",
         "B — granja otoñal",
@@ -580,7 +580,7 @@
       "title": "Turbo Drift Rivals!",
       "design": "Juego de verdad (tanda 7, 17/11): Carreras con tuning: corre, gana y mejora el coche pieza a pieza. Capítulos: A — circuito urbano nocturno · B — circuito desierto · C — circuito nevado.",
       "mockup": "idea-52-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "status": "✅ DISEÑO ACEPTADO por Daniel 17:37 — capítulo base A. En cola para prototipo, en orden (48 Castle Empire, 49 Deck Heroes, 50 Last Stand, 51 Harvest Valley, 52 Turbo Drift, 53 Tower Tactics, 54 Star Fleet, 55 Mystery Mansion, 56 Dead City, 57 Creature Tamer, 58 Airship Pirates, 59 Gem Legends, 60 Deep Sea Fishing, 61 Railway Empire, 62 Spell Academy, 63 Mech Builder, 64 Football Club Manager, 65 Arena Clash, 66 Chrono Quest).",
       "chapters": [
         "A — circuito urbano nocturno",
         "B — circuito desierto",
@@ -592,7 +592,7 @@
       "title": "Tower Tactics!",
       "design": "Juego de verdad (tanda 7, 17/11): Tower defense con estrategia: torres que se combinan, oleadas cada vez mas duras. Capítulos: A — castillo medieval · B — selva · C — base espacial.",
       "mockup": "idea-53-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "status": "✅ DISEÑO ACEPTADO por Daniel 17:37 — capítulo base A. En cola para prototipo, en orden (48 Castle Empire, 49 Deck Heroes, 50 Last Stand, 51 Harvest Valley, 52 Turbo Drift, 53 Tower Tactics, 54 Star Fleet, 55 Mystery Mansion, 56 Dead City, 57 Creature Tamer, 58 Airship Pirates, 59 Gem Legends, 60 Deep Sea Fishing, 61 Railway Empire, 62 Spell Academy, 63 Mech Builder, 64 Football Club Manager, 65 Arena Clash, 66 Chrono Quest).",
       "chapters": [
         "A — castillo medieval",
         "B — selva",
@@ -604,7 +604,7 @@
       "title": "Star Fleet Command!",
       "design": "Juego de verdad (tanda 7, 17/11): Comanda una flota: construye naves, explora y combate. Capítulos: A — nebulosa púrpura · B — sistema helado · C — cinturón de asteroides.",
       "mockup": "idea-54-variant-a.png",
-      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "status": "✅ DISEÑO ACEPTADO por Daniel 17:37 — capítulo base A. En cola para prototipo, en orden (48 Castle Empire, 49 Deck Heroes, 50 Last Stand, 51 Harvest Valley, 52 Turbo Drift, 53 Tower Tactics, 54 Star Fleet, 55 Mystery Mansion, 56 Dead City, 57 Creature Tamer, 58 Airship Pirates, 59 Gem Legends, 60 Deep Sea Fishing, 61 Railway Empire, 62 Spell Academy, 63 Mech Builder, 64 Football Club Manager, 65 Arena Clash, 66 Chrono Quest).",
       "chapters": [
         "A — nebulosa púrpura",
         "B — sistema helado",
@@ -616,7 +616,7 @@
       "title": "Mystery Mansion!",
       "design": "Juego de verdad (tanda 7, 17/11): Detective: busca pistas, resuelve casos, deduce al culpable. Capítulos: A — mansión victoriana · B — hotel art déco · C — castillo gótico.",
       "mockup": "idea-55-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "status": "✅ DISEÑO ACEPTADO por Daniel 17:37 — capítulo base A. En cola para prototipo, en orden (48 Castle Empire, 49 Deck Heroes, 50 Last Stand, 51 Harvest Valley, 52 Turbo Drift, 53 Tower Tactics, 54 Star Fleet, 55 Mystery Mansion, 56 Dead City, 57 Creature Tamer, 58 Airship Pirates, 59 Gem Legends, 60 Deep Sea Fishing, 61 Railway Empire, 62 Spell Academy, 63 Mech Builder, 64 Football Club Manager, 65 Arena Clash, 66 Chrono Quest).",
       "chapters": [
         "A — mansión victoriana",
         "B — hotel art déco",
@@ -628,7 +628,7 @@
       "title": "Dead City Survival!",
       "design": "Juego de verdad (tanda 7, 17/11): Supervivencia: busca recursos de dia, defiende el refugio de noche. Capítulos: A — ciudad en ruinas · B — suburbio nocturno · C — centro comercial abandonado.",
       "mockup": "idea-56-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "status": "✅ DISEÑO ACEPTADO por Daniel 17:37 — capítulo base A. En cola para prototipo, en orden (48 Castle Empire, 49 Deck Heroes, 50 Last Stand, 51 Harvest Valley, 52 Turbo Drift, 53 Tower Tactics, 54 Star Fleet, 55 Mystery Mansion, 56 Dead City, 57 Creature Tamer, 58 Airship Pirates, 59 Gem Legends, 60 Deep Sea Fishing, 61 Railway Empire, 62 Spell Academy, 63 Mech Builder, 64 Football Club Manager, 65 Arena Clash, 66 Chrono Quest).",
       "chapters": [
         "A — ciudad en ruinas",
         "B — suburbio nocturno",
@@ -640,7 +640,7 @@
       "title": "Creature Tamer!",
       "design": "Juego de verdad (tanda 7, 17/11): Captura criaturas, entrenalas y batalla por turnos. Capítulos: A — pradera · B — volcán · C — bosque encantado.",
       "mockup": "idea-57-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "status": "✅ DISEÑO ACEPTADO por Daniel 17:37 — capítulo base A. En cola para prototipo, en orden (48 Castle Empire, 49 Deck Heroes, 50 Last Stand, 51 Harvest Valley, 52 Turbo Drift, 53 Tower Tactics, 54 Star Fleet, 55 Mystery Mansion, 56 Dead City, 57 Creature Tamer, 58 Airship Pirates, 59 Gem Legends, 60 Deep Sea Fishing, 61 Railway Empire, 62 Spell Academy, 63 Mech Builder, 64 Football Club Manager, 65 Arena Clash, 66 Chrono Quest).",
       "chapters": [
         "A — pradera",
         "B — volcán",
@@ -652,7 +652,7 @@
       "title": "Airship Pirates!",
       "design": "Juego de verdad (tanda 7, 17/11): Pirata del cielo: pilota tu nave, aborda, mejora y saquea. Capítulos: A — cielos al atardecer · B — tormenta · C — aurora boreal.",
       "mockup": "idea-58-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "status": "✅ DISEÑO ACEPTADO por Daniel 17:37 — capítulo base A. En cola para prototipo, en orden (48 Castle Empire, 49 Deck Heroes, 50 Last Stand, 51 Harvest Valley, 52 Turbo Drift, 53 Tower Tactics, 54 Star Fleet, 55 Mystery Mansion, 56 Dead City, 57 Creature Tamer, 58 Airship Pirates, 59 Gem Legends, 60 Deep Sea Fishing, 61 Railway Empire, 62 Spell Academy, 63 Mech Builder, 64 Football Club Manager, 65 Arena Clash, 66 Chrono Quest).",
       "chapters": [
         "A — cielos al atardecer",
         "B — tormenta",
@@ -664,7 +664,7 @@
       "title": "Gem Legends!",
       "design": "Juego de verdad (tanda 7, 17/11): Match-3 RPG: combina gemas para atacar, sube de nivel a tu heroe. Capítulos: A — mina de cristal · B — templo maya · C — cueva submarina.",
       "mockup": "idea-59-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "status": "✅ DISEÑO ACEPTADO por Daniel 17:37 — capítulo base A. En cola para prototipo, en orden (48 Castle Empire, 49 Deck Heroes, 50 Last Stand, 51 Harvest Valley, 52 Turbo Drift, 53 Tower Tactics, 54 Star Fleet, 55 Mystery Mansion, 56 Dead City, 57 Creature Tamer, 58 Airship Pirates, 59 Gem Legends, 60 Deep Sea Fishing, 61 Railway Empire, 62 Spell Academy, 63 Mech Builder, 64 Football Club Manager, 65 Arena Clash, 66 Chrono Quest).",
       "chapters": [
         "A — mina de cristal",
         "B — templo maya",
@@ -676,7 +676,7 @@
       "title": "Deep Sea Fishing!",
       "design": "Juego de verdad (tanda 7, 17/11): Pesca con habilidad: especies raras, equipo, torneos. Capítulos: A — mar tropical · B — fiordo nórdico · C — lago al amanecer.",
       "mockup": "idea-60-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "status": "✅ DISEÑO ACEPTADO por Daniel 17:37 — capítulo base A. En cola para prototipo, en orden (48 Castle Empire, 49 Deck Heroes, 50 Last Stand, 51 Harvest Valley, 52 Turbo Drift, 53 Tower Tactics, 54 Star Fleet, 55 Mystery Mansion, 56 Dead City, 57 Creature Tamer, 58 Airship Pirates, 59 Gem Legends, 60 Deep Sea Fishing, 61 Railway Empire, 62 Spell Academy, 63 Mech Builder, 64 Football Club Manager, 65 Arena Clash, 66 Chrono Quest).",
       "chapters": [
         "A — mar tropical",
         "B — fiordo nórdico",
@@ -688,7 +688,7 @@
       "title": "Railway Empire!",
       "design": "Juego de verdad (tanda 7, 17/11): Imperio ferroviario: pon vias, gestiona trenes y haz dinero. Capítulos: A — llanuras del oeste · B — montañas nevadas · C — selva.",
       "mockup": "idea-61-variant-a.png",
-      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "status": "✅ DISEÑO ACEPTADO por Daniel 17:37 — capítulo base A. En cola para prototipo, en orden (48 Castle Empire, 49 Deck Heroes, 50 Last Stand, 51 Harvest Valley, 52 Turbo Drift, 53 Tower Tactics, 54 Star Fleet, 55 Mystery Mansion, 56 Dead City, 57 Creature Tamer, 58 Airship Pirates, 59 Gem Legends, 60 Deep Sea Fishing, 61 Railway Empire, 62 Spell Academy, 63 Mech Builder, 64 Football Club Manager, 65 Arena Clash, 66 Chrono Quest).",
       "chapters": [
         "A — llanuras del oeste",
         "B — montañas nevadas",
@@ -700,7 +700,7 @@
       "title": "Spell Academy!",
       "design": "Juego de verdad (tanda 7, 17/11): Academia de magia: aprende hechizos, duelos y pociones. Capítulos: A — castillo medieval · B — torre en las nubes · C — biblioteca mágica.",
       "mockup": "idea-62-variant-a.png",
-      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "status": "✅ DISEÑO ACEPTADO por Daniel 17:37 — capítulo base A. En cola para prototipo, en orden (48 Castle Empire, 49 Deck Heroes, 50 Last Stand, 51 Harvest Valley, 52 Turbo Drift, 53 Tower Tactics, 54 Star Fleet, 55 Mystery Mansion, 56 Dead City, 57 Creature Tamer, 58 Airship Pirates, 59 Gem Legends, 60 Deep Sea Fishing, 61 Railway Empire, 62 Spell Academy, 63 Mech Builder, 64 Football Club Manager, 65 Arena Clash, 66 Chrono Quest).",
       "chapters": [
         "A — castillo medieval",
         "B — torre en las nubes",
@@ -712,7 +712,7 @@
       "title": "Mech Builder!",
       "design": "Juego de verdad (tanda 7, 17/11): Construye tu robot pieza a pieza y batalla en la arena. Capítulos: A — taller industrial · B — arena desierto · C — ciudad futurista.",
       "mockup": "idea-63-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "status": "✅ DISEÑO ACEPTADO por Daniel 17:37 — capítulo base A. En cola para prototipo, en orden (48 Castle Empire, 49 Deck Heroes, 50 Last Stand, 51 Harvest Valley, 52 Turbo Drift, 53 Tower Tactics, 54 Star Fleet, 55 Mystery Mansion, 56 Dead City, 57 Creature Tamer, 58 Airship Pirates, 59 Gem Legends, 60 Deep Sea Fishing, 61 Railway Empire, 62 Spell Academy, 63 Mech Builder, 64 Football Club Manager, 65 Arena Clash, 66 Chrono Quest).",
       "chapters": [
         "A — taller industrial",
         "B — arena desierto",
@@ -724,7 +724,7 @@
       "title": "Football Club Manager!",
       "design": "Juego de verdad (tanda 7, 17/11): Gestiona un club: tacticas, fichajes y sube de division. Capítulos: A — estadio clásico · B — estadio nocturno · C — estadio futurista.",
       "mockup": "idea-64-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "status": "✅ DISEÑO ACEPTADO por Daniel 17:37 — capítulo base A. En cola para prototipo, en orden (48 Castle Empire, 49 Deck Heroes, 50 Last Stand, 51 Harvest Valley, 52 Turbo Drift, 53 Tower Tactics, 54 Star Fleet, 55 Mystery Mansion, 56 Dead City, 57 Creature Tamer, 58 Airship Pirates, 59 Gem Legends, 60 Deep Sea Fishing, 61 Railway Empire, 62 Spell Academy, 63 Mech Builder, 64 Football Club Manager, 65 Arena Clash, 66 Chrono Quest).",
       "chapters": [
         "A — estadio clásico",
         "B — estadio nocturno",
@@ -736,7 +736,7 @@
       "title": "Arena Clash!",
       "design": "Juego de verdad (tanda 7, 17/11): Batalla campal: ultimo en pie, zona que se cierra, rangos. Capítulos: A — coliseo romano · B — arena futurista · C — isla tropical.",
       "mockup": "idea-65-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "status": "✅ DISEÑO ACEPTADO por Daniel 17:37 — capítulo base A. En cola para prototipo, en orden (48 Castle Empire, 49 Deck Heroes, 50 Last Stand, 51 Harvest Valley, 52 Turbo Drift, 53 Tower Tactics, 54 Star Fleet, 55 Mystery Mansion, 56 Dead City, 57 Creature Tamer, 58 Airship Pirates, 59 Gem Legends, 60 Deep Sea Fishing, 61 Railway Empire, 62 Spell Academy, 63 Mech Builder, 64 Football Club Manager, 65 Arena Clash, 66 Chrono Quest).",
       "chapters": [
         "A — coliseo romano",
         "B — arena futurista",
@@ -748,7 +748,7 @@
       "title": "Chrono Quest!",
       "design": "Juego de verdad (tanda 7, 17/11): Aventura por eras: explora, resuelve y cambia la historia. Capítulos: A — era medieval · B — era futurista · C — era prehistórica.",
       "mockup": "idea-66-variant-a.webp",
-      "status": "Concepto nuevo (tanda 7) — Capítulos A/B/C generados (ideas-nuevas-1611h/, 60/60) — elige Daniel el capítulo base, juego a juego",
+      "status": "✅ DISEÑO ACEPTADO por Daniel 17:37 — capítulo base A. En cola para prototipo, en orden (48 Castle Empire, 49 Deck Heroes, 50 Last Stand, 51 Harvest Valley, 52 Turbo Drift, 53 Tower Tactics, 54 Star Fleet, 55 Mystery Mansion, 56 Dead City, 57 Creature Tamer, 58 Airship Pirates, 59 Gem Legends, 60 Deep Sea Fishing, 61 Railway Empire, 62 Spell Academy, 63 Mech Builder, 64 Football Club Manager, 65 Arena Clash, 66 Chrono Quest).",
       "chapters": [
         "A — era medieval",
         "B — era futurista",
@@ -756,6 +756,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 17:20",
+  "updated_at": "2026-11-17 17:39",
   "updated_by": "Dani (cron 30 min)"
 }
