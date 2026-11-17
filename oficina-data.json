@@ -176,7 +176,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Rocket Rescue v1.0 ENTREGADO (438cce6) y subiéndose a Sandbox. Garden Dash en vivo (mi playtest en marcha), Burger Boss subiendo, fútbol rebuild en app aparte (mi playtest en marcha).",
+  "resumen": "Burger Boss v1.0 con el arreglo YA EN VIVO en Sandbox; lo estoy jugando yo ahora. Snowball Fight subiendo a Sandbox (primero de los 9 prototipos). Garden Dash y fútbol en mi playtest; Rocket Rescue subiendo.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -247,7 +247,7 @@
       "paso": "v1.0 entregada 16:13; arreglo puntual de la tarjeta Orange Bandana en marcha",
       "queda": "~arreglo de la tarjeta + re-verificación + subir a Sandbox + prueba de Daniel",
       "slug": "burger-boss",
-      "status": "LISTO PARA PROBAR — juego COMPLETO v1.0 con el arreglo de la tienda ENTREGADO (commit d4cdc4d, zip 472.303 B verificado por mí: sendMessage 2×, game_ready 1×; tarjeta «Orange Bandana» vista por mí a zoom LIMPIA, las 60 tarjetas auditadas). Subiendo el build arreglado a la app Sandbox existente (b7hkobvbpa2ssu); queda ~verificarlo yo en vivo entero y pasarte el enlace.",
+      "status": "LISTO PARA PROBAR — juego COMPLETO v1.0 con el arreglo de la tienda EN VIVO en Sandbox (build 472 KB, «Live · 0 of 30 days», menú verificado: BURGER BOSS!, PLAY, SHOP, WORLDS, DAILY, RANKS). Queda ~mi playtest en vivo entero a zoom y pasarte el enlace.",
       "title": "Burger Boss!",
       "commit": "01b0978"
     },
@@ -309,7 +309,7 @@
       "paso": "Prototipo del verbo entregado 16:05 y pusheado",
       "queda": "~subir a Sandbox + prueba de Daniel",
       "slug": "snowball-fight",
-      "status": "LISTO PARA PROBAR — Prototipo del verbo ENTREGADO 16:05 (commit c64c24b en niky/snowball-fight-1711, en remoto; variante base A: Pueblo nevado). Constructor terminado. Pendiente: subir a Sandbox + prueba de Daniel. Verificado 17:20: en remoto, sin Sandbox aún.",
+      "status": "EN MARCHA — prototipo ENTREGADO (commit c64c24b, zip 545.621 B verificado por mí: sendMessage 2×, game_ready 1×). Subiendo a Sandbox como juego nuevo ahora mismo; queda ~la subida + jugarlo yo en vivo y pasarte el enlace.",
       "title": "Snowball Fight!"
     },
     {
@@ -769,6 +769,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-17 18:38",
+  "updated_at": "2026-11-17 18:40",
   "updated_by": "Dani (cron 30 min)"
 }
