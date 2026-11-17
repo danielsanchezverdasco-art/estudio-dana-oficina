@@ -69,21 +69,6 @@
     ],
     "published": [
         {
-            "commit": "b45e886",
-            "covers": "icono v2 y banner v2 aprobados por Daniel",
-            "objectives": {
-                "ads_per_play": "0/0,30",
-                "avg_time": "0:00/6:00",
-                "plays": "0/100"
-            },
-            "playgama_url": "https://playgama.ai/play/rswbvm34ovfkfo",
-            "published_date": "2026-11-16",
-            "slug": "luxury-watch-dealer",
-            "status": "Sandbox — Live (v2 rechazada b45e886) · Rebuild exacto + 3 retoques (ea6a038, 05:42; tsc 0, vitest 111/111, sonda 50/50) · RECHAZADO DE NUEVO por Daniel 06:02 a zoom («está todo mal, una cosa encima de otra, datos fuera de las píldoras»; diálogos uno encima de otro, reloj de la vitrina pequeño, píldora Market Value mal, fila superior del menú fuera de sitio; «no quiero chapuzas») — NO se republica. Agente de arreglos lanzado 06:03 CANCELADO ~06:08 por orden de Daniel («Hazlo tú mismo»): el arreglo lo hace Dani mismo, sin agentes; sin commits nuevos (sigue ea6a038); sin agente en marcha; verificado 08:26 sin cambios | Paso: rechazado, arreglo pendiente (lo hace Dani mismo) | Queda: ~arreglo completo por Dani + OK de Daniel + ZIP + republicar Verificado 08:47: sin cambios (sigue ea6a038). Verificado 09:20: sin cambios (sigue ea6a038). Verificado 09:47: sin cambios (sigue ea6a038). Verificado 10:51: arreglos TERMINADOS (3418cca, 10:24–10:35) y build PUBLICADO EN SANDBOX 10:47 — Live on Sandbox · 4,1 MB, verificado cargando (menú, comerciante con reloj grande, HUD legible). LISTO PARA PROBAR en el mismo enlace: https://playgama.ai/play/rswbvm34ovfkfo — Daniel lo prueba ahora. Métricas 11:00 (Playgama): 3 partidas, 2/100 cualificadas, media 0:58/6:00, 2,00 anuncios por partida ✓ (1/3 objetivos), 0 €. Verificado 11:19: sigue LISTO PARA PROBAR, Daniel aún no lo ha probado.",
-            "title": "Luxury Watch Dealer",
-            "title_es": "El Marchante de Relojes"
-        },
-        {
             "commit": "a781ae6",
             "covers": {
                 "banner": "cover_1920x1080.png",
@@ -118,9 +103,24 @@
             "reason": "Mockup aprobado 16/11 14:51 y assets 37/37 completados, pero CANCELADO por Daniel 16/11 16:01 — no se construye, no se presenta más",
             "slug": "shadow-match",
             "title": "Shadow Match"
+        },
+        {
+            "commit": "b45e886",
+            "covers": "icono v2 y banner v2 aprobados por Daniel",
+            "objectives": {
+                "ads_per_play": "0/0,30",
+                "avg_time": "0:00/6:00",
+                "plays": "0/100"
+            },
+            "playgama_url": "https://playgama.ai/play/rswbvm34ovfkfo",
+            "published_date": "2026-11-16",
+            "slug": "luxury-watch-dealer",
+            "status": "ELIMINADO de Playgama por orden de Daniel 11:19 («no lo quiero como juego», peor que antes); borrado en curso",
+            "title": "Luxury Watch Dealer",
+            "title_es": "El Marchante de Relojes"
         }
     ],
-    "resumen": "Actualización 11:19 — Esculpe la Figura: código COMPLETO y verificado (1f0c3eb + 2e90d36, ZIP 540 KB, pusheado); QA independiente en marcha desde las 10:00, veredicto GO/NO-GO pendiente. Métricas 11:00: relojes 3 partidas (2/100, media 0:58, 2,00 anuncios por partida, eso sí cumple), fútbol 8 partidas (media 6:04), 0 €. Para probar (2): Relojes (Sandbox, build 3418cca) + Marble Rush r1 (ZIP verificado, falta revisión de Dani + subida a Sandbox). Fútbol: quitar online en curso, sin cambios desde las 10:30 (falta flag OFF + quitar botón/lobby + repintar + build:qa + commit/push). Slice r1 (PR #12) y Cofre r1 (PR #92, pendiente traslado) esperan OK de Daniel.",
+    "resumen": "Actualización 11:21 — RELOJES ELIMINADO por orden de Daniel («no lo quiero como juego», peor que antes): borrándose de Playgama y fuera de la oficina. Marble Rush: sin enlace aún — falta revisión de Dani + subida a Sandbox. Fútbol: Daniel cree que también estará igual o peor; los arreglos NO están entregados aún (online quitándose ahora) — nada se sube sin verificar el build en vivo en Sandbox.",
     "stats": {
         "general": {
             "anuncios_vistos_totales": 6,
@@ -173,14 +173,6 @@
         "updated_at": "2026-11-17T00:19:00+01:00"
     },
     "to_test": [
-        {
-            "slug": "luxury-watch-dealer",
-            "title": "Luxury Watch Dealer (Relojes)",
-            "status": "LISTO PARA PROBAR — Arreglos de Daniel 06:02 TERMINADOS y verificados a zoom por Dani (commit 3418cca, rama niky/relojes-rebuild-exacto-1611): burbuja sin banda, Market sin texto doble, vitrina sin oro, reloj grande, HUD legible. ZIP 4,1 MB PUBLICADO EN SANDBOX 10:47 (Live on Sandbox, verificado cargando: menú, comerciante, HUD legible). Pruébalo en el mismo enlace de siempre.",
-            "commit": "3418cca",
-            "covers": "menú y tienda SON la foto; burbuja sin banda, Market limpio, vitrina sin oro, reloj grande, HUD legible",
-            "playgama_url": "https://playgama.ai/play/rswbvm34ovfkfo"
-        },
         {
             "slug": "marble-rush",
             "title": "Marble Rush",
@@ -450,6 +442,6 @@
             "title": "Glow Grab!"
         }
     ],
-    "updated_at": "2026-11-17T11:19:00+01:00",
+    "updated_at": "2026-11-17T11:22:14+01:00",
     "updated_by": "Dani"
 }
