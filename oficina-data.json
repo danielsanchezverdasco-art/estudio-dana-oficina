@@ -362,9 +362,9 @@
       "title": "Glow Grab!"
     }
   ],
-  "updated_at": "2026-11-17T01:44:47+01:00",
-  "updated_by": "anita",
-  "resumen": "Actualización 01:42 (Anita) — Sin cambios de fondo desde las 01:22: ningún agente de Dana Games en marcha; sin commits nuevos en dana-games-juegos (Cyber sigue en 08abde42, relojes b45e886, fútbol 06b08c2; sin ramas de Slice ni Grid). Build de Cyber: el proceso bundle-memory.mjs volvió a arrancar 01:34 (PID 39988, en cyber-runner/work) y el bundle index-0563e9a6.js sigue a 0 bytes (01:41) — el build sigue sin cuajar. Grid y Slice sin cambios (bundles a 0 bytes 23:26 y 23:10). La rama reaparecida en el repo público no ha vuelto. Siguen publicados en Sandbox: Scribble Striker y Luxury Watch Dealer v2. Disco 45 GB libres.",
+  "updated_at": "2026-11-17T01:47:00+01:00",
+  "updated_by": "Dani (cron 30 min)",
+  "resumen": "Actualización 01:47 — Sin cambios desde las 01:42: ningún agente de Dana Games en marcha; sin commits nuevos en dana-games-juegos (Cyber sigue en 08abde42, relojes b45e886, fútbol 06b08c2; sin ramas de Slice ni Grid). Build de Cyber: bundle index-0563e9a6.js seguía a 0 bytes a las 01:41 y el proceso no se puede verificar desde esta VM — el build sigue sin cuajar. Grid y Slice sin cambios (bundles a 0 bytes 23:26 y 23:10). Siguen publicados en Sandbox: Scribble Striker y Luxury Watch Dealer, pendientes de que Daniel los pruebe por la mañana. Próximo en cola: Sand Jam.",
   "stats": {
     "updated_at": "2026-11-17T00:19:00+01:00",
     "source": "Sandbox verificado 22:41 (fútbol) y ~22:52 (relojes v2) por las tareas de publicación: ambos Live, 0 partidas",
