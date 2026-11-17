@@ -110,7 +110,7 @@
    "title_es": "El Marchante de Relojes"
   }
  ],
- "resumen": "Actualización 13:22 — Cofre: subiendo de nuevo por orden de Daniel (el chef/Slice NO se toca). Slice probado por Daniel: mal hecho. Fútbol: recargar si sale en blanco. Marble: se deja así. Esculpe y el resto, parados.",
+ "resumen": "Actualización 13:25 — Cofre EN VIVO en Sandbox (https://playgama.ai/play/qzoqem2tychiz4), la publicación cortada sí se completó. Slice probado por Daniel: mal hecho, no se toca. Fútbol: recargar si sale en blanco. Marble: se deja así. Esculpe y el resto, parados. Investigación en marcha: por qué los juegos de IA de otros salen bien y los nuestros no.",
  "stats": {
   "general": {
    "anuncios_vistos_totales": 0,
@@ -171,7 +171,7 @@
   {
    "slug": "doubloon-rush",
    "title": "Cofre del Doblón (Doubloon Rush)",
-   "status": "EN MARCHA — subiendo de nuevo a Sandbox por orden de Daniel 13:22 (el STOP queda levantado solo para Cofre). Fix game_ready (7227c4d) verificado, zip 2.028.985 B. La subida anterior se cortó a mitad con la publicación empezada; esta vez se comprueba primero si ya está en vivo. Queda ~unos minutos para el enlace.",
+   "status": "EN VIVO en Sandbox 13:25 — https://playgama.ai/play/qzoqem2tychiz4 — La publicación cortada a las 13:20 SÍ se completó: la build con el fix game_ready (7227c4d) quedó Live on Sandbox. Título verificado en vivo (DOUBLOON RUSH, JUGAR / CÓMO SE JUEGA, 0/90 RÉCORD: 0). Daniel puede probarlo.",
    "commit": "7227c4d",
    "covers": "covers 800x800 / 1080x1920 / 1920x1080 (+ versiones YouTube) + GIF del Short"
   },
@@ -444,6 +444,6 @@
    "title": "Glow Grab!"
   }
  ],
- "updated_at": "2026-11-17T13:22:00+01:00",
+ "updated_at": "2026-11-17T13:25:00+01:00",
  "updated_by": "Dani"
 }
