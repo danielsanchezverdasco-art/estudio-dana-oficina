@@ -110,7 +110,7 @@
    "title_es": "El Marchante de Relojes"
   }
  ],
- "resumen": "Actualización 12:50 — Fútbol: REPUBLICADO en Sandbox con el build nuevo (c7a66d1, 12:46): sin online, botón RANKING, píldoras centradas, tienda con 478 skins; el menú en vivo lo confirma. Ya se puede probar: https://playgama.ai/play/d7nbp5h2yci4vs. Marble Rush: subiendo a Sandbox ahora (tarea aceptada 12:48, sin resultado aún). Slice & Serve y Cofre del Doblón: LISTAS PARA PROBAR en la oficina — revisadas por Daniel mismo, se suben a Sandbox sin revisión de Dani; los enlaces llegan cuando estén subidas. Esculpe: LISTO PARA PROBAR, pendiente de subir. Relojes: BORRADO DEFINITIVO, no se restaura.",
+ "resumen": "Actualización 12:53 — Marble Rush: PUBLICADO en Sandbox: https://playgama.ai/play/vrv3vdflwi4f44 (pantalla inicial verificada en vivo). Fútbol: LISTO PARA PROBAR (republicado 12:46, c7a66d1, RANKING en vivo). Slice & Serve: subiendo a Sandbox ahora. Cofre: en cola tras Slice. Esculpe: listo para probar, pendiente de subir. Relojes: borrado definitivo, no se restaura.",
  "stats": {
   "general": {
    "anuncios_vistos_totales": 0,
@@ -157,7 +157,7 @@
   {
    "slug": "marble-rush",
    "title": "Marble Rush",
-   "status": "LISTO PARA PROBAR — Ronda 1 ENTREGADA (commit 7fa1fe5 en niky/marble-rush-1611, ZIP 2,34 MB verificado en disco, QA GO con reserva de audio sintetizado). Falta: revisión de Dani + subir a Sandbox; el enlace de prueba llega cuando esté subido. Subida a Sandbox EN MARCHA (orden Daniel 12:40; tarea de navegador aceptada 12:48, sin resultado aún).",
+   "status": "LISTO PARA PROBAR — Ronda 1 ENTREGADA (commit 7fa1fe5 en niky/marble-rush-1611, ZIP 2,34 MB verificado en disco, QA GO con reserva de audio sintetizado). PUBLICADO en Sandbox 12:53: https://playgama.ai/play/vrv3vdflwi4f44 — pantalla inicial verificada en vivo («¡MARBLE RUSH!», pista de madera, botón JUGAR). Pendiente: prueba de Daniel.",
    "commit": "7fa1fe5",
    "covers": "covers 800x800 / 1080x1920 / 1920x1080 con sello + GIF 9,51 s que acaba en victoria"
   },
@@ -444,6 +444,6 @@
    "title": "Glow Grab!"
   }
  ],
- "updated_at": "2026-11-17T12:50:00+01:00",
+ "updated_at": "2026-11-17T12:53:00+01:00",
  "updated_by": "Dani"
 }
