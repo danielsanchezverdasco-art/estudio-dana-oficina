@@ -24,7 +24,7 @@
         {
             "slug": "esculpe-la-figura",
             "title": "Esculpe la Figura (Sculpt & Reveal)",
-            "status": "EN MARCHA — Concepto + mockup APROBADOS por Daniel 17/11 09:42 («Me encanta, hazlo así», PR #93, título EN «Sculpt & Reveal»); código ENTREGADO y VERIFICADO 09:58 por el agente de código (commits 1f0c3eb + 2e90d36 en niky/esculpe-la-figura-1711, push confirmado en remoto; tsc 0, vitest 35/35, builds playgama/youtube/qa OK, precheck 0 FAIL, verify.py PASS, playtest nivel 1 a victoria 217 pts PERFECTO, ZIP sculpt-reveal-playgama.zip 549.997 B). QA INDEPENDIENTE en marcha desde las 10:00 (agente activo, última actividad hace segundos, verificado 11:19): tiene que dar el veredicto GO/NO-GO sobre el commit 2e90d36; el coordinador ya vio 2 cosas a dirimir (línea de recompensas tapada por el botón NEXT CLIENT; silueta del gato no visible en la captura) y falta package-lock.json en el repo. | Paso: QA independiente del juego completo (desde 10:00) | Queda: ~veredicto QA + arreglos si los hay + portadas/GIF/listing + entrega a Daniel para probar. Verificado 11:19: rama en remoto en 2e90d36; ZIP en disco.",
+            "status": "EN MARCHA — Concepto + mockup APROBADOS por Daniel 17/11 09:42 («Me encanta, hazlo así», PR #93, título EN «Sculpt & Reveal»); código ENTREGADO y VERIFICADO 09:58 por el agente de código (commits 1f0c3eb + 2e90d36 en niky/esculpe-la-figura-1711, push confirmado en remoto; tsc 0, vitest 35/35, builds playgama/youtube/qa OK, precheck 0 FAIL, verify.py PASS, playtest nivel 1 a victoria 217 pts PERFECTO, ZIP sculpt-reveal-playgama.zip 549.997 B). QA INDEPENDIENTE en marcha desde las 10:00 (agente activo, última actividad hace segundos, verificado 11:19): tiene que dar el veredicto GO/NO-GO sobre el commit 2e90d36; el coordinador ya vio 2 cosas a dirimir (línea de recompensas tapada por el botón NEXT CLIENT; silueta del gato no visible en la captura) y falta package-lock.json en el repo. | Paso: QA independiente del juego completo (desde 10:00) | Queda: ~veredicto final de QA sobre 22ab3e1 + portadas/GIF/listing + entrega a Daniel para probar. Verificado 11:19: rama en remoto en 2e90d36; ZIP en disco. Verificado 11:49: QA fixes commit 22ab3e1 (11:40, en remoto) — solape del resultado, silueta brillante, menú 1:1, package-lock (responden a las notas de QA de las 11:19); agente sigue activo (última actividad hace ~5 min) preparando la entrega (carpeta entrega/ creada 11:46, ZIP sculpt-reveal-playgama.zip en disco).",
             "paso": "QA independiente del juego completo en marcha desde las 10:00 (agente activo, verificado 11:19); código entregado 09:58 (1f0c3eb + 2e90d36, pusheado, ZIP 549.997 B)",
             "queda": "Veredicto QA GO/NO-GO + arreglos si los hay + portadas/GIF/listing + entrega a Daniel para probar (sin estimación del agente aún)",
             "commit": "2e90d36",
@@ -83,7 +83,7 @@
             "playgama_url": "https://playgama.ai/play/d7nbp5h2yci4vs",
             "published_date": "2026-11-16",
             "slug": "scribble-striker",
-            "status": "Sandbox — Live · build a781ae6 (7 arreglos) republicado 05:35 | BLOQUEADO — EL ONLINE FALLA: Daniel lo probó en su móvil («○ offline» bajo EN LÍNEA; al entrar le dice sin conexión, teniendo) y la prueba en navegador 05:42 lo confirma (FINDING RIVAL… 60 s → SERVER UNREACHABLE / Check your connection). Órdenes de Daniel: si no hay jugadores, decirlo así y NUNCA culpar a su conexión; monedas/estrellas fuera de la píldora en su móvil, dejarlas dentro. Diagnóstico avanzado 05:52–05:59: servidor sano desde navegador (health 200, WS 101, /online ok); el fallo está en el flujo del juego — EN LÍNEA abre una partida fantasma «2 PLAYERS» sin lobby (pista: Game.ts usa el modo local pvp); píldoras medidas al píxel (estrellas ~11 px altas, monedas ~2 px). Agente de arreglos (online + píldoras) lanzado 06:03 CANCELADO ~06:08 sin entregar nada; sin commits nuevos (sigue a781ae6); sin agente en marcha | Paso: arreglo pendiente (lo hace Dani mismo, orden Daniel ~06:08) | Queda: ~arreglo por Dani + republicar + prueba de Daniel. Verificado 08:26: sin cambios (sigue a781ae6; sin commits nuevos; sin agente en marcha) Verificado 08:47: sin cambios (sigue a781ae6; sin agente en marcha). Verificado 09:20: sin cambios (sigue a781ae6; sin agente en marcha). Re-test online 09:45 desde la página de Playgama (dentro del marco): menú muestra «○ offline» bajo EN LÍNEA y al pulsar no aparece lobby — el online sigue fallando también desde Playgama. Verificado 10:21: sin cambios (sigue a781ae6; sin agente en marcha; arreglo lo hace Dani mismo). Verificado 10:51: Daniel ordenó 10:43 QUITAR el modo online y dejar solo clasificaciones (combo más grande + otras). Dani quitándolo ahora en wt-ss-build-114cb2b (rama niky/futbol-arreglos-1711, sin rama en remoto aún): píldoras + tienda (10→20 bolis) hechos sin commitear; falta flag ONLINE_ENABLED=false, quitar botón/poller/lobby, League→clasificaciones locales, repintar 'EN LÍNEA' en la foto, build:qa+sonda, commit/push. No se entrega nada hasta estar perfecto a zoom. Verificado 11:19: sin commits nuevos (sigue a781ae6); últimos cambios en disco 10:30 (Menu/Shop/common: píldoras + tienda 10→20 bolis); falta flag ONLINE_ENABLED=false + quitar botón/poller/lobby + League→clasificaciones locales + repintar «EN LÍNEA» en la foto + build:qa + sonda + commit/push.",
+            "status": "Sandbox — Live · build a781ae6 (7 arreglos) republicado 05:35 | BLOQUEADO — EL ONLINE FALLA: Daniel lo probó en su móvil («○ offline» bajo EN LÍNEA; al entrar le dice sin conexión, teniendo) y la prueba en navegador 05:42 lo confirma (FINDING RIVAL… 60 s → SERVER UNREACHABLE / Check your connection). Órdenes de Daniel: si no hay jugadores, decirlo así y NUNCA culpar a su conexión; monedas/estrellas fuera de la píldora en su móvil, dejarlas dentro. Diagnóstico avanzado 05:52–05:59: servidor sano desde navegador (health 200, WS 101, /online ok); el fallo está en el flujo del juego — EN LÍNEA abre una partida fantasma «2 PLAYERS» sin lobby (pista: Game.ts usa el modo local pvp); píldoras medidas al píxel (estrellas ~11 px altas, monedas ~2 px). Agente de arreglos (online + píldoras) lanzado 06:03 CANCELADO ~06:08 sin entregar nada; sin commits nuevos (sigue a781ae6); sin agente en marcha | Paso: arreglo pendiente (lo hace Dani mismo, orden Daniel ~06:08) | Queda: ~arreglo por Dani + republicar + prueba de Daniel. Verificado 08:26: sin cambios (sigue a781ae6; sin commits nuevos; sin agente en marcha) Verificado 08:47: sin cambios (sigue a781ae6; sin agente en marcha). Verificado 09:20: sin cambios (sigue a781ae6; sin agente en marcha). Re-test online 09:45 desde la página de Playgama (dentro del marco): menú muestra «○ offline» bajo EN LÍNEA y al pulsar no aparece lobby — el online sigue fallando también desde Playgama. Verificado 10:21: sin cambios (sigue a781ae6; sin agente en marcha; arreglo lo hace Dani mismo). Verificado 10:51: Daniel ordenó 10:43 QUITAR el modo online y dejar solo clasificaciones (combo más grande + otras). Dani quitándolo ahora en wt-ss-build-114cb2b (rama niky/futbol-arreglos-1711, sin rama en remoto aún): píldoras + tienda (10→20 bolis) hechos sin commitear; falta flag ONLINE_ENABLED=false, quitar botón/poller/lobby, League→clasificaciones locales, repintar 'EN LÍNEA' en la foto, build:qa+sonda, commit/push. No se entrega nada hasta estar perfecto a zoom. Verificado 11:19: sin commits nuevos (sigue a781ae6); últimos cambios en disco 10:30 (Menu/Shop/common: píldoras + tienda 10→20 bolis); falta flag ONLINE_ENABLED=false + quitar botón/poller/lobby + League→clasificaciones locales + repintar «EN LÍNEA» en la foto + build:qa + sonda + commit/push. Verificado 11:49: sin cambios (sigue a781ae6; cambios en disco sin commitear desde 10:30; sin agente en marcha).",
             "title": "Scribble Striker",
             "title_es": "Scribble Striker"
         }
@@ -112,34 +112,24 @@
                 "avg_time": "0:00/6:00",
                 "plays": "0/100"
             },
-            "playgama_url": "https://playgama.ai/play/rswbvm34ovfkfo",
             "published_date": "2026-11-16",
             "slug": "luxury-watch-dealer",
-            "status": "ELIMINADO de Playgama por orden de Daniel 11:19 («no lo quiero como juego», peor que antes); borrado en curso",
+            "status": "ELIMINADO de Playgama por orden de Daniel 11:19 («no lo quiero como juego», peor que antes); BORRADO COMPLETADO y verificado 11:47: ya no aparece en «My Games» (solo queda Scribble Striker) y https://playgama.ai/play/rswbvm34ovfkfo muestra «No such game».",
             "title": "Luxury Watch Dealer",
             "title_es": "El Marchante de Relojes"
         }
     ],
-    "resumen": "Actualización 11:21 — RELOJES ELIMINADO por orden de Daniel («no lo quiero como juego», peor que antes): borrándose de Playgama y fuera de la oficina. Marble Rush: sin enlace aún — falta revisión de Dani + subida a Sandbox. Fútbol: Daniel cree que también estará igual o peor; los arreglos NO están entregados aún (online quitándose ahora) — nada se sube sin verificar el build en vivo en Sandbox.",
+    "resumen": "Actualización 11:49 — RELOJES BORRADO DEL TODO y verificado (11:47): ya no está en Playgama, el enlace da «No such game»; en la cuenta solo queda Scribble Striker. Esculpe la Figura: EN MARCHA — QA aplicando arreglos, commit 22ab3e1 (11:40) con el solape del resultado, la silueta brillante, el menú 1:1 y el package-lock; el agente sigue encima preparando la entrega; queda ~veredicto final de QA + portadas/GIF/listing + dártelo para probar. Fútbol: EN MARCHA (arreglos) — sin cambios desde las 10:30, cambios sin commitear y sin agente encima ahora mismo; el online sigue bloqueado y Daniel ordenó quitarlo. Marble Rush: LISTO PARA PROBAR — ronda 1 entregada, pendiente de tu revisión + subir a Sandbox.",
     "stats": {
         "general": {
-            "anuncios_vistos_totales": 6,
+            "anuncios_vistos_totales": 0,
             "dinero_ganado_total_usd": 0,
-            "juegos_publicados": 2,
-            "partidas_totales": 11,
+            "juegos_publicados": 1,
+            "partidas_totales": 8,
             "suscriptores_youtube": 2734
         },
-        "nota": "Solo juegos con datos reales de Playgama, ordenados por visitas (más visitas primero; en empate, el más nuevo primero). Los juegos aún no publicados no aparecen aquí. Moving Mayhem y Metro Nightmare ya no están en la cuenta de Playgama (verificado 22:08): solo quedan Scribble Striker y Luxury Watch Dealer.",
+        "nota": "Solo juegos con datos reales de Playgama, ordenados por visitas (más visitas primero; en empate, el más nuevo primero). Los juegos aún no publicados no aparecen aquí. Luxury Watch Dealer eliminado por orden de Daniel 11:47 (verificado: ya no aparece en la cuenta): solo queda Scribble Striker. Moving Mayhem y Metro Nightmare ya no están en la cuenta de Playgama (verificado 22:08).",
         "por_juego": [
-            {
-                "anuncios_por_partida": 2,
-                "dinero_usd": 0,
-                "estado": "Sandbox (build 3418cca en vivo desde 17/11 10:47)",
-                "partidas": 3,
-                "slug": "luxury-watch-dealer",
-                "tiempo_medio": "0:58",
-                "title": "Luxury Watch Dealer"
-            },
             {
                 "anuncios_por_partida": 0,
                 "dinero_usd": 0,
@@ -170,7 +160,7 @@
                 "tier3": "$0,50–2"
             }
         },
-        "updated_at": "2026-11-17T00:19:00+01:00"
+        "updated_at": "2026-11-17T11:49:19+01:00"
     },
     "to_test": [
         {
@@ -442,6 +432,6 @@
             "title": "Glow Grab!"
         }
     ],
-    "updated_at": "2026-11-17T11:22:14+01:00",
+    "updated_at": "2026-11-17T11:49:19+01:00",
     "updated_by": "Dani"
 }
