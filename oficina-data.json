@@ -136,7 +136,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Island Tribe: LISTO PARA PROBAR — 14 defectos arreglados y verificados en vivo 00:06, enlace entregado a Daniel 00:25. Dance Dash: el arreglo crítico FALLA en vivo (canción no se juega tras el anuncio, 5 intentos a 0), de vuelta a arreglar. Pet Vet: rebuild con la veterinaria ya entera, subida + playtest en vivo en marcha. Fútbol: arreglo de los 15 defectos commiteado 22:58, pendiente mi verificación. Sand Jam: zip verificado pero 2 defectos vivos en arreglo. Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Monster Merge: 13 defectos (3 graves), en arreglo. Rocket Rescue: 1 defecto en vertical + victoria sin verificar, en arreglo.",
+  "resumen": "Pet Vet: rebuild subido y jugado en vivo — 8 defectos viejos arreglados, 10 nuevos en arreglo. Dance Dash: el arreglo crítico FALLA en vivo (canción no se juega tras el anuncio), de vuelta a arreglar. Island Tribe: 14 defectos arreglados y verificados en vivo, quedan 2 menores en arreglo, enlace entregado a Daniel 00:25. Sand Jam: zip verificado pero 2 defectos vivos en arreglo. Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Monster Merge: 13 defectos (3 graves), en arreglo. Rocket Rescue: 1 defecto en vertical + victoria sin verificar, en arreglo.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -260,7 +260,7 @@
       "paso": "Prototipo en Sandbox; mi playtest terminado 19:13 con 13 defectos. NOVEDAD 20:37 — arreglo entregado (d4348d6, pusheado): sin audio (borrado src/audio.ts, grep 0) + 13 defectos arreglados (menú, RÉCORD, bandeja, mascota, vendaje, pista, sin anuncio automático, botón SIGUIENTE NIVEL). Pendiente re-verificación + subir a Sandbox. Verificado 22:19: arreglo EN VIVO en Sandbox desde 21:36 (build 545 KB); mi playtest del arreglo VIEJO terminado (41 min, 8 defectos, NO limpio — 1 GRAVE: REINICIAR bloquea); el viejo se sustituye por el rediseño, los 8 defectos pasan al pliego del rebuild. Pendiente: que Daniel elija variante A/B/C. Verificado 00:23: subida + playtest en vivo en marcha; sin veredicto aún.",
       "queda": "~elección de Daniel (variante A/B/C) + pack de assets + mockup + rebuild + prueba de Daniel",
       "slug": "pet-vet",
-      "status": "EN MARCHA — REBUILD TERMINADO (commit 949cdb0, zip verificado por Dani: game_ready + sin audio, veterinaria ya entera en menú y juego). Subida a la app existente + playtest en vivo de 8 puntos EN MARCHA (browser task); si sale limpio, enlace para Daniel. Verificado 00:23: subida a la app existente + playtest en vivo de 8 puntos sigue en marcha (tarea de navegador activa, ~15 min); sin veredicto aún.",
+      "status": "EN MARCHA — REBUILD SUBIDO y jugado en vivo (00:35): los 8 defectos viejos ARREGLADOS (REINICIAR, 3 estrellas, récord, silencio, vendaje). PERO 10 defectos NUEVOS en vivo (mancha marrón en la cara de la veterinaria, skins de mascotas en blanco en la tienda, botón ⚙ roto, piernas ocultas, rayos-X sin hueso...) en arreglo. Después: verificar zip, resubir y volver a jugarlo en vivo antes de enseñar a Daniel.",
       "title": "Pet Vet!"
     },
     {
@@ -771,6 +771,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-18 00:27",
+  "updated_at": "2026-11-18 00:35",
   "updated_by": "Dani (cron 30 min)"
 }
