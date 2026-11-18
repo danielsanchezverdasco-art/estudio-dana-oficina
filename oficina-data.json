@@ -25,7 +25,7 @@
       "design": "Variante A «Island Tribe!» como base (campamento tropical al atardecer, los 10 alrededor de la hoguera); B «Castaway Council!» (consejo nocturno) y C «Tribe Survival!» (vista cenital de la isla) como capítulos",
       "mockup": "survival-variant-a.png",
       "slug": "island-tribe",
-      "status": "EN MARCHA — 2 defectos menores ARREGLADOS (commit 2d54699 en remoto, zip verificado por Dani: game_ready + sin audio, registro ya en español). Subida a la app existente + playtest en vivo EN MARCHA (centrado en los 2 defectos + regresión del día 1); si sale limpio queda listo del todo.",
+      "status": "LISTO PARA PROBAR — DEFINITIVAMENTE LISTO (01:13): los 2 defectos menores ARREGLADOS y VERIFICADOS EN VIVO (registro en español, resultado inmediato), día 1 completo con 3 partidas sin recargar, silencio total, cero defectos. Enlace: https://playgama.ai/play/d6j2wnoekweljr — recordárselo a Daniel por la mañana.",
       "title": "Island Tribe!",
       "paso": "Arreglo de los 14 defectos ENTREGADO (c50c9f0) y EN VIVO en Sandbox; verificado en vivo 00:06 (3 partidas sin recargar, bloqueante JUGAR/REINICIAR arreglado, silencio total). Ronda corta de los 2 defectos menores ENTREGADA en código (2d54699, 23:30, en remoto). Verificado 00:47: sin zip nuevo aún; pendiente regenerar zip + resubir + verificar en vivo.",
       "queda": "~regenerar zip + resubir a Sandbox + verificar en vivo + prueba de Daniel"
@@ -136,7 +136,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Pet Vet: LIMPIO en vivo (11 defectos + regresión pasan); quedan 2 menores en arreglo, enlace para Daniel por la mañana. Island Tribe: 2 menores arreglados, subida + playtest en vivo en marcha. Dance Dash: el arreglo crítico FALLA en vivo (canción no se juega tras el anuncio), de vuelta a arreglar. Sand Jam: zip verificado pero 2 defectos vivos en arreglo. Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Monster Merge: 13 defectos (3 graves), en arreglo. Rocket Rescue: 1 defecto en vertical + victoria sin verificar, en arreglo.",
+  "resumen": "Island Tribe: DEFINITIVAMENTE LISTO, limpio en vivo, enlace para Daniel por la mañana. Pet Vet: LIMPIO en vivo (11 defectos + regresión pasan); quedan 2 menores en arreglo. Dance Dash: el arreglo crítico FALLA en vivo (canción no se juega tras el anuncio), de vuelta a arreglar. Sand Jam: zip verificado pero 2 defectos vivos en arreglo. Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Monster Merge: 13 defectos (3 graves), en arreglo. Rocket Rescue: 1 defecto en vertical + victoria sin verificar, en arreglo.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -771,6 +771,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-18 01:11",
+  "updated_at": "2026-11-18 01:13",
   "updated_by": "Dani (cron 30 min)"
 }
