@@ -35,7 +35,7 @@
       "title": "Dungeon Delve!",
       "design": "Juego de verdad (tanda 7, 17/11): Roguelike de mazmorras: explora salas, lucha, muere y vuelve con mejoras permanentes. Capítulos: A — cripta oscura · B — cueva de lava · C — templo de hielo.",
       "mockup": "idea-47-variant-a.webp",
-      "status": "EN MARCHA — Ronda 2 ENTREGADA (commit c65e7e9, zip verificado por Dani: game_ready + noAudio). Causa raíz del RESTART en blanco: updateHud() antes de reconstruir el HUD, setText() sobre Text destruido. Subida a la app existente + playtest en vivo EN MARCHA; si sale limpio, enlace para Daniel. Verificado 05:17: sin commit nuevo en dana-games-juegos; subida + playtest en vivo SIGUEN EN MARCHA (browser task 9b809553, ~54 min, activa hace segundos); sin resultado aún.",
+      "status": "EN MARCHA — Ronda 2 jugada en vivo (05:46): CASI LIMPIA. RESTART arreglado en los 3 casos, NEW BEST! y banner de oro correctos, silencio. Queda 1 parcial (aviso de poción con HP llena no aparece) y 2 sin verificar (TAP TO START y RESUME, el navegador se bloqueó). Ronda 3 enviada al coordinador (en cola tras fútbol, Monster r3 y Garden r5). https://playgama.ai/play/qaj4ftl7rucy2i",
       "chapters": [
         "A — cripta oscura",
         "B — cueva de lava",
@@ -136,7 +136,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Dance Dash: mockup de la C APROBADO — pack + rebuild en marcha, ampliado con 3 capítulos y 3 diseños elegibles (orden de Daniel). FÚTBOL: ¡PRIORIDAD MÁXIMA! Ronda corta acelerada; al salir limpio, el rebuild va a la app principal. Garden Dash: ronda 4 NO limpia (ronda 5 en marcha). Monster Merge: ronda 2 NO limpia (ronda 3 en marcha). Dungeon Delve: ronda 2 en playtest en vivo. Sand Jam, Pet Vet, Island Tribe y Dance Dash (build actual): limpios y jugables.",
+  "resumen": "Dungeon Delve: ronda 2 CASI LIMPIA en vivo (RESTART arreglado; queda el aviso de poción con HP llena); ronda 3 en cola. Dance Dash: mockup de la C APROBADO — pack + rebuild con 3 capítulos y 3 diseños. FÚTBOL: ¡PRIORIDAD MÁXIMA! Ronda corta acelerada; al salir limpio, el rebuild va a la app principal. Garden Dash: ronda 4 NO limpia (ronda 5 en marcha). Monster Merge: ronda 2 NO limpia (ronda 3 en marcha). Sand Jam, Pet Vet, Island Tribe y Dance Dash (build actual): limpios y jugables.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -771,6 +771,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-18 05:43",
+  "updated_at": "2026-11-18 05:46",
   "updated_by": "Dani (cron 30 min)"
 }
