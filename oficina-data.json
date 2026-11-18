@@ -136,7 +136,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Dance Dash: DEFINITIVAMENTE LISTO, limpio en vivo (enlace entregado a Daniel). Monster Merge: ronda 2 entregada, subida + playtest en vivo en marcha (sesión limpia, nivel 1). Garden Dash: ronda 4 entregada, subida + playtest en vivo en marcha. Dungeon Delve: ronda 2 entregada, subida + playtest en vivo en marcha. Fútbol rebuild: arreglo de los 15 defectos, subida + playtest en vivo en marcha. Sand Jam: DEFINITIVAMENTE LISTO, limpio en vivo. Pet Vet: DEFINITIVAMENTE LISTO, limpio en vivo. Island Tribe: DEFINITIVAMENTE LISTO, limpio en vivo. Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Rocket Rescue: 1 defecto en vertical + victoria sin verificar, en arreglo. Daniel probó los listos y le encantan («Ahora sí están bonitos»).",
+  "resumen": "Fútbol rebuild: 13/15 en vivo, 2 fails pequeños en nueva ronda corta. Dance Dash: DEFINITIVAMENTE LISTO, limpio en vivo (enlace entregado a Daniel). Monster Merge: ronda 2 entregada, subida + playtest en vivo en marcha (sesión limpia, nivel 1). Garden Dash: ronda 4 entregada, subida + playtest en vivo en marcha. Dungeon Delve: ronda 2 entregada, subida + playtest en vivo en marcha. Sand Jam: DEFINITIVAMENTE LISTO, limpio en vivo. Pet Vet: DEFINITIVAMENTE LISTO, limpio en vivo. Island Tribe: DEFINITIVAMENTE LISTO, limpio en vivo. Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Rocket Rescue: 1 defecto en vertical + victoria sin verificar, en arreglo. Daniel probó los listos y le encantan («Ahora sí están bonitos»).",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -771,6 +771,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-18 04:39",
+  "updated_at": "2026-11-18 04:47",
   "updated_by": "Dani (cron 30 min)"
 }
