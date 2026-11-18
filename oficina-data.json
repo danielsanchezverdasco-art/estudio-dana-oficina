@@ -1,6 +1,6 @@
 {
   "_readme": "Fichero en vivo de la oficina Dana Games. Lo actualizan Dani y Anita (sus agentes) con CADA cambio: publicar, rechazar, empezar, terminar. La oficina lo lee y las listas se refrescan solas, sin reconstruir la página. No inventar nombres ni datos: solo lo verificado. Cuando Daniel diga los nombres de los 3 juegos nuevos de Anita, se ponen en anita.names y names_pending pasa a false.",
-  "updated_at": "2026-11-18 23:17",
+  "updated_at": "2026-11-18 23:47",
   "anita": {
     "names": [
       "Grid Defender",
@@ -86,7 +86,7 @@
   ],
   "published": [
     {
-      "commit": "8c01c2b",
+      "commit": "2f56e49",
       "covers": {
         "banner": "cover_1920x1080.png",
         "icon": "cover_800x800.png",
@@ -100,11 +100,11 @@
       "playgama_url": "https://playgama.ai/play/d7nbp5h2yci4vs",
       "published_date": "2026-11-16",
       "slug": "scribble-striker",
-      "status": "EN MARCHA — FIX 3 DEL MENÚ TERMINADO 22:08 (2f56e49, en remoto, 3 ficheros: Menu.ts + probe + captura): JUGAR azul 406x120 a la izquierda y RANKING morado 218x120 a la derecha, misma altura, lado a lado como tu captura. Zip update3 VERIFICADO (4.909.445 B, 22:07; bundle index-BSpW3sfr.js con sha256 idéntico al dist del worktree — incluye ronda 2 + FIX 3). La versión de Sandbox sigue siendo la anterior (build 3a8d816, en vivo desde 21:01). Ningún agente en marcha ahora mismo; queda ~resubir el zip a Sandbox + mi playtest en vivo + publicar en la principal (~30 min orientativo).",
+      "status": "LISTO PARA PROBAR — BUILD UPDATE3 LIVE EN SANDBOX 23:29 (verificado en vivo: el menú ya muestra JUGAR azul a la izquierda y RANKING morado a la derecha, como tu captura; la build anterior 3a8d816 ya no es Live). FIX 3 DEL MENÚ TERMINADO 22:08 (2f56e49, en remoto, 3 ficheros: Menu.ts + probe + captura): JUGAR azul 406x120 a la izquierda y RANKING morado 218x120 a la derecha, misma altura, lado a lado como tu captura. Zip update3 VERIFICADO (4.909.445 B, 22:07; bundle index-BSpW3sfr.js con sha256 idéntico al dist del worktree — incluye ronda 2 + FIX 3). Ningún agente en marcha ahora mismo; queda ~mi playtest en vivo + publicar en la principal (~20 min orientativo). Enlace jugable: https://playgama.ai/play/d7nbp5h2yci4vs",
       "title": "Scribble Striker",
       "title_es": "Scribble Striker",
-      "paso": "Actualización SUBIDA A SANDBOX Y ACTIVA 21:01 (build scribble-update-playgama.zip 4.908.701 B, commit 3a8d816 en niky/futbol-rebuild-metodo-nuevo-1711, verificado en remoto con ls-remote; tsc -b 0, npm test 94/94, 0 errores de consola, 0 audio; etiqueta «Live on Sandbox», 0/30 días). Daniel la probó y encontró 6 cosas: grafitis en laterales (iban edificios), 10 entornos no visibles en tienda ni en 2P, las primeras partidas son demasiado fáciles (la IA se deja ganar), JUGAR y RANKING uno encima del otro, los fondos de tienda y configuración son azules, y quedan el botón «FREE Haiti» y las estelas rojas. RONDA 2 TERMINADA 22:39: el agente único entregó el arreglo (commit ba46ad1 en niky/futbol-rebuild-metodo-nuevo-1711, verificado en remoto con ls-remote 22:48; 21 ficheros, 403 inserciones; worktree wt-futbol-rebuild en ba46ad1). Verificado 22:52: sin zip nuevo de la ronda 2 todavía; ningún agente en marcha. Verificado 23:17: FIX 3 menú TERMINADO (commit 2f56e49 en niky/futbol-rebuild-metodo-nuevo-1711, 22:08, verificado en remoto con ls-remote + flags del almacén; 3 ficheros: Menu.ts + probe-fix3.py + captura; worktree wt-futbol-rebuild en 2f56e49). Zip update3 VERIFICADO (scribble-update3-playgama.zip, 4.909.445 B, 22:07; bundle index-BSpW3sfr.js con sha256 idéntico al dist del worktree — es el build de ronda 2 + FIX 3; el update2 de la ronda 2 queda sustituido). Corrección: los zips update2 (21:37) y update3 (22:07) ya existían en el worktree en la verificación de las 22:52 y no se vieron entonces; verificados ahora. Sandbox sigue con el build 3a8d816 (en vivo desde 21:01); ningún agente en marcha.",
-      "queda": "~resubir el zip update3 a Sandbox + mi playtest en vivo + publicar en la principal (~30 min orientativo); después te paso el enlace jugable para que la pruebes. OJO: tu guardado tiene el idioma en alemán — el menú se verá en alemán hasta que elijas Español."
+      "paso": "Build update3 (2f56e49, ronda 2 + FIX 3) SUBIDA Y LIVE EN SANDBOX 23:29, verificada en vivo (menú JUGAR/RANKING como tu captura)",
+      "queda": "Mi playtest en vivo + publicar en la principal (~20 min orientativo)"
     }
   ],
   "rejected": [
@@ -148,7 +148,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "FÚTBOL — FIX 3 DEL MENÚ TERMINADO 22:08 (commit 2f56e49 en remoto: JUGAR azul 406x120 a la izquierda y RANKING morado 218x120 a la derecha, misma altura, lado a lado como tu captura). Zip update3 VERIFICADO (4.909.445 B; incluye ronda 2 + FIX 3). Ahora mismo ningún agente en marcha. Queda ~resubir el zip a Sandbox + mi playtest en vivo + publicar en la principal (~30 min orientativo); después te paso el enlace jugable. El resto sigue igual: Burger Boss, Dance Dash, Monster Merge y Sneak Out bloqueados por la cuota de Playgama (sin reintento todavía); Anita sin cambios ni agentes en marcha.",
+  "resumen": "FÚTBOL — BUILD UPDATE3 LIVE EN SANDBOX 23:29, LISTO PARA PROBAR: https://playgama.ai/play/d7nbp5h2yci4vs — verificado en vivo, el menú ya muestra JUGAR azul a la izquierda y RANKING morado a la derecha, como tu captura (ronda 2 + FIX 3, commit 2f56e49). Ningún agente en marcha. Queda ~mi playtest en vivo + publicar en la principal (~20 min orientativo). El resto sigue igual: Burger Boss, Dance Dash, Monster Merge y Sneak Out bloqueados por la cuota de Playgama (sin reintento todavía); Anita sin cambios ni agentes en marcha.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -162,14 +162,14 @@
       {
         "anuncios_por_partida": 0,
         "dinero_usd": 0,
-        "estado": "Sandbox (build 3a8d816, en vivo desde 18/11 21:01)",
+        "estado": "Sandbox (build update3 / 2f56e49, en vivo desde 18/11 23:29)",
         "partidas": 10,
         "slug": "scribble-striker",
         "tiempo_medio": "7:02",
         "title": "Scribble Striker"
       }
     ],
-    "source": "Sandbox verificado 22:41 (fútbol) y ~22:52 (relojes v2) por las tareas de publicación: ambos Live, 0 partidas",
+    "source": "Sandbox verificado 22:41 (fútbol) y ~22:52 (relojes v2) por las tareas de publicación: ambos Live, 0 partidas; fútbol build update3 verificado Live 23:29",
     "tarifas_estimadas": {
       "nota": "ESTIMADO — cifras oficiales publicadas de Playgama 2026, no medidas nuestras ni ganancias reales",
       "reparto_playgama": {
@@ -189,7 +189,7 @@
         "tier3": "$0,50–2"
       }
     },
-    "updated_at": "2026-11-18T21:47:00+01:00"
+    "updated_at": "2026-11-18T23:47:00+01:00"
   },
   "to_test": [
     {
