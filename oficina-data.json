@@ -136,7 +136,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Sand Jam: ronda 2 completa, subida + playtest en vivo en marcha. Dance Dash: arreglo del ciclo real entregado, subida + playtest en vivo en marcha. Garden Dash: 8 defectos arreglados en vivo, 3 nuevos en arreglo. Pet Vet: DEFINITIVAMENTE LISTO, limpio en vivo. Island Tribe: DEFINITIVAMENTE LISTO, limpio en vivo. Monster Merge y Dungeon Delve: subida + playtest en vivo en marcha. Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Rocket Rescue: 1 defecto en vertical + victoria sin verificar, en arreglo.",
+  "resumen": "Monster Merge: arreglo NO limpio en vivo (2 fails + tablero que muta solo), nueva ronda en marcha. Sand Jam: ronda 2 completa, subida + playtest en vivo en marcha. Dance Dash: arreglo del ciclo real entregado, subida + playtest en vivo en marcha. Garden Dash: 8 defectos arreglados en vivo, 3 nuevos en arreglo. Pet Vet: DEFINITIVAMENTE LISTO, limpio en vivo. Island Tribe: DEFINITIVAMENTE LISTO, limpio en vivo. Dungeon Delve: subida + playtest en vivo en marcha. Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Rocket Rescue: 1 defecto en vertical + victoria sin verificar, en arreglo.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -240,7 +240,7 @@
       "design": "A (Caramelo), B (Robots) y C (Marinas) son capítulos del juego",
       "mockup": "idea-18-variant-a.png",
       "slug": "monster-merge",
-      "status": "EN MARCHA — Arreglo de los 13 defectos ENTREGADO (commit 1d581d5, zip verificado por Dani: game_ready + noAudio). Subida a la app existente + playtest en vivo EN MARCHA (13 defectos + regresión); si sale limpio, enlace para Daniel. Verificado 01:49: subida + playtest en vivo EN MARCHA (~21 min, browser task activa); sin resultado aún; sin commit nuevo (sigue 1d581d5 en remoto). Verificado 02:20: subida + playtest en vivo EN MARCHA (~50 min, browser task activa); sin resultado aún.",
+      "status": "EN MARCHA — Arreglo NO LIMPIO en vivo (02:24): pasan 10/13 + regresión, pero 2 FAILS (COMBO apagado, comprar sin monedas sin respuesta), jugabilidad parcial (puntos con 5–6 s de retraso) y 9 NUEVOS (GRAVE: el tablero muta solo). Nueva ronda vía coordinador. Pendiente verificar nivel 1 + vertical contra el próximo build.",
       "title": "Monster Merge!",
       "paso": "v1.0 EN VIVO en Sandbox desde 20:38 (build 554 KB); mi playtest en vivo en marcha (~70 min, sin resultado aún). Verificado 21:57. Verificado 22:16: playtest TERMINADO (1 h 37 min, 13 defectos, NO limpio); arreglo en marcha por el coordinador (56705cba, activo). Verificado 00:23: coordinador verificando el arreglo ahora mismo; sin commit nuevo aún. Verificado 01:17: arreglo de los 13 defectos commiteado y pusheado (1d581d5); pendiente verificación + zip + resubida. Verificado 01:49: subida + playtest en vivo EN MARCHA (~21 min, browser task activa); sin resultado aún. Verificado 02:20: subida + playtest en vivo EN MARCHA (~50 min, browser task activa); sin resultado aún.",
       "queda": "~playtest en vivo en marcha + prueba de Daniel"
@@ -771,6 +771,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-18 02:23",
+  "updated_at": "2026-11-18 02:24",
   "updated_by": "Dani (cron 30 min)"
 }
