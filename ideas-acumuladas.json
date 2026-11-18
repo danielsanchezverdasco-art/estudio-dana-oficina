@@ -67,7 +67,19 @@
     "https://playgama.com/search?q=tennis",
     "https://playgama.com/search?q=runner",
     "https://playgama.com/search?q=clean",
-    "https://playgama.com/search?q=dig"
+    "https://playgama.com/search?q=dig",
+    "https://playgama.com/search?q=duel",
+    "https://playgama.com/search?q=fight",
+    "https://playgama.com/search?q=slice",
+    "https://playgama.com/search?q=sudoku",
+    "https://playgama.com/search?q=parking",
+    "https://playgama.com/search?q=maze",
+    "https://playgama.com/search?q=train",
+    "https://playgama.com/search?q=hidden",
+    "https://www.appbrain.com/stats/google-play-rankings/top_free/puzzle/us",
+    "https://www.appbrain.com/stats/google-play-rankings/top_new_free/puzzle/us",
+    "https://m-s-y.com/en/app/ranking/top-grossing-casual/",
+    "https://www.glacierplay.top/detail/14091.html"
   ],
   "aptas": [
     {
@@ -932,7 +944,7 @@
       "id": "esculpe-la-figura",
       "motivo": "APTA: género nuevo para el estudio (simulación ASMR), líder probado en Playables con 59 M de partidas y CERO competencia en Playgama. Mecánica de un toque, muy visual, sin clon directo.",
       "nombre": "Esculpe la Figura",
-      "nueva": true,
+      "nueva": false,
       "origen": "Investigación diaria 17/11/2026 08:00",
       "porQueFunciona": "Esculpir es el ASMR de moda en Playables (Sculpt People, 59 M de partidas) y en Playgama no hay NINGÚN juego de esculpir: hueco vacío en el género que más crece en casual.",
       "potencialViral": 4,
@@ -992,7 +1004,7 @@
       "id": "tenis-relampago",
       "motivo": "APTA pero no prioritaria: género nuevo para el estudio (deporte de timing), se entiende al primer toque y aprovecha la final ATP sin usar marcas; el pico deportivo es corto, así que no urge.",
       "nombre": "Tenis Relámpago",
-      "nueva": true,
+      "nueva": false,
       "origen": "Investigación diaria 17/11/2026 08:00",
       "porQueFunciona": "El timing de un toque es el reflejo más puro (como KO Relámpago, pero en deporte); la final ATP con Alcaraz es lo más buscado en España esta semana y el tenis de reflejos funciona todo el año.",
       "potencialViral": 3,
@@ -1010,6 +1022,200 @@
       "temaViral": "ATP Finals 2026 (Alcaraz arrasa a Tiafoe, 16/11)",
       "titulo": "Tenis Relámpago",
       "tituloEN": "Lightning Tennis: Tap Rally",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "Rivales cada vez más rápidos, rachas de duelos ganados y el mejor tiempo de reacción; el duelo perfecto pide revancha inmediata.",
+        "competencia": "Nula en el subgénero: Playgama «duel» da 0 resultados. «Fight» tiene peleas ragdoll (Ragdoll Duel: Sword Fight, Epic Sword Battle) pero ningún duelo de timing con barra. El tema western lo separa de Casual Blade (robots) y de las espadas.",
+        "fuenteNormas": "https://developers.google.com/youtube/gaming/playables/certification/requirements_trustsafety",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals"
+        ],
+        "hypercasualQueFunciona": "Los duelos de reflejos son el lanzamiento fuerte de la semana (Casual Blade, 1,3 M en 4 días); el timing de un toque es el reflejo más puro.",
+        "monetizacion": "Anuncio entre duelos. Anuncio con recompensa: segunda oportunidad en el duelo perdido o ralentizar la barra un duelo.",
+        "potencialViral": "Alto: el «¡DESENFUNDA!» y el KO en el último milisegundo se graban solos; el duelo perfecto es un clip.",
+        "se_entiende_3s_sin_texto": "Sí: la barra sube y baja, la zona verde marca cuándo disparar; tocas y el sheriff dispara.",
+        "tendencias": "Casual Blade: Robot PvP Duel, 1,3 M de instalaciones en 4 días (13-17/11), lanzamiento fuerte de la semana. Epic Sword Battle: 28 M de partidas en Playables. TikTok, X y Shorts: sin datos de recuento propio.",
+        "viabilidad": "Muy alta en un día: dos personajes, barra de timing con zona verde, 3 rondas al mejor de 3, efectos de disparo y partículas. Riesgo: que el timing se sienta injusto. Mitigación: zona verde generosa al principio y el rival avisa antes de desenfundar."
+      },
+      "competenciaNivel": "baja",
+      "conclusion": "APTA: género nuevo para el estudio (duelo de timing), breakout probado en móvil con 1,3 M en 4 días y CERO competencia en Playgama. Mecánica de un toque, muy visual, sin clon directo.",
+      "datos": [
+        {
+          "dato": "Casual Blade: Robot PvP Duel: 1,3 M de instalaciones en 4 días (lanzado 13/11/2026), entre los lanzamientos fuertes de la semana",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Playgama «duel»: 0 resultados; «fight» solo tiene peleas ragdoll y de espadas, ningún duelo de timing",
+          "fuente": "https://playgama.com/search?q=duel"
+        },
+        {
+          "dato": "Epic Sword Battle! Fight in the Ragdoll Arena!: 28 M de partidas en YouTube Playables",
+          "fuente": "https://playables.games/best/"
+        }
+      ],
+      "duracionSesion": "Duelos de 15-30 s al mejor de 3, encadenados; rivales y racha. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "apta",
+      "fecha": "2026-11-18",
+      "gancho": "El marcador sube y baja: toca en verde para desenfundar antes que el forajido. Un toque decide el duelo.",
+      "genero": "Duelo de reflejos / timing (western)",
+      "hacibleEnUnDia": true,
+      "id": "desenfunda-y-dispara",
+      "motivo": "APTA: género nuevo para el estudio (duelo de timing), breakout probado en móvil con 1,3 M en 4 días y CERO competencia en Playgama. Mecánica de un toque, muy visual, sin clon directo.",
+      "nombre": "Desenfunda y Dispara",
+      "nueva": true,
+      "origen": "Investigación diaria 18/11/2026 08:00",
+      "porQueFunciona": "El duelo de timing es el reflejo más puro en formato duelo: Casual Blade, 1,3 M de instalaciones en 4 días, y en Playgama no hay NINGÚN juego de duelo de timing (búsqueda «duel»: 0 resultados).",
+      "potencialViral": 4,
+      "puntuacion": {
+        "adiccion": 4,
+        "competencia": 4,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 4,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 5,
+        "tendencia": 5,
+        "total": 31,
+        "viabilidad1Dia": 5
+      },
+      "temaViral": "Casual Blade: 1,3 M de instalaciones en 4 días (13-17/11)",
+      "titulo": "Desenfunda y Dispara",
+      "tituloEN": "Lightning Duel: Quick Draw",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "Combos x2, x3, x10, rachas sin fallar y la fiebre de sushi que multiplica puntos.",
+        "competencia": "Media: 6 juegos de cortar en Playgama, pero ninguno con tema sushi y ninguno es el Fruit Ninja clásico en 2D vertical; el corte con swipe es el mismo verbo, el tema y los niveles lo diferencian. «Slice Frenzy» ya existe como juego de navegador: no se usa ese título.",
+        "fuenteNormas": "https://developers.google.com/youtube/gaming/playables/certification/requirements_trustsafety",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals"
+        ],
+        "hypercasualQueFunciona": "El corte es ola constante: Slice It All! 26 M en Playables, Sword Play 28 M, y Slice Collector 3D es lanzamiento nuevo de esta semana.",
+        "monetizacion": "Anuncio entre rondas. Anuncio con recompensa: escudo anti-bomba una ronda o doble puntos.",
+        "potencialViral": "Alto: el combo x10 y el corte perfecto con el sushi volando son clips naturales.",
+        "se_entiende_3s_sin_texto": "Sí: desliza el dedo y todo lo que toca la estela se corta; la bomba se esquiva sola con verla.",
+        "tendencias": "Slice It All! 26 M y Sword Play 28 M en Playables; Slice Collector 3D, nuevo el 13/11. Sin pico de tendencia esta semana: es ola constante, no moda de días.",
+        "viabilidad": "Muy alta en un día: objetos con física de lanzamiento, estela de corte, bombas a evitar y contador de combos. Riesgo: que el corte se sienta impreciso. Mitigación: hitbox generosa en la estela y partículas en cada corte."
+      },
+      "competenciaNivel": "media",
+      "conclusion": "APTA: arcade de un gesto, archiprobado (26-28 M en Playables) y con tema propio (sushi) que lo separa de los 6 juegos de cortar de Playgama. Muy visual, muy hacible en un día.",
+      "datos": [
+        {
+          "dato": "Slice It All!: 26 M de partidas en YouTube Playables",
+          "fuente": "https://playables.games/best/"
+        },
+        {
+          "dato": "Sword Play: 28 M de partidas en YouTube Playables",
+          "fuente": "https://playables.games/best/"
+        },
+        {
+          "dato": "Slice Collector 3D: nuevo lanzamiento del 13/11/2026",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Playgama «slice»: 6 juegos de cortar (Cake Slice Sort 3D, Slice & Soar, Sword Play! Ninja Slice Runner, Sword Master, Knife Slice 3D, Slice & Merge Bakery); ninguno de sushi",
+          "fuente": "https://playgama.com/search?q=slice"
+        },
+        {
+          "dato": "«Slice Frenzy» ya existe (juego de navegador de cuchillos); «Sushi Slice» no es título de ningún juego conocido",
+          "fuente": "https://www.glacierplay.top/detail/14091.html"
+        }
+      ],
+      "duracionSesion": "Rondas de 60-90 s con 3 vidas; combos y récord. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "apta",
+      "fecha": "2026-11-18",
+      "gancho": "El sushi vuela por la pantalla: desliza el dedo y córtalo todo antes de que caiga. Ni se te ocurra tocar la bomba.",
+      "genero": "Arcade de cortar (slice)",
+      "hacibleEnUnDia": true,
+      "id": "corta-el-sushi",
+      "motivo": "APTA: arcade de un gesto, archiprobado (26-28 M en Playables) y con tema propio (sushi) que lo separa de los 6 juegos de cortar de Playgama. Muy visual, muy hacible en un día.",
+      "nombre": "Corta el Sushi",
+      "nueva": true,
+      "origen": "Investigación diaria 18/11/2026 08:00",
+      "porQueFunciona": "Cortar es el arcade más satisfactorio y visual que existe (Slice It All!, 26 M de partidas en Playables); el tema sushi lo diferencia de los 6 juegos de cortar de Playgama y enlaza con Cinta de Sushi Glotona.",
+      "potencialViral": 4,
+      "puntuacion": {
+        "adiccion": 4,
+        "competencia": 3,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 4,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 5,
+        "tendencia": 4,
+        "total": 29,
+        "viabilidad1Dia": 5
+      },
+      "titulo": "Corta el Sushi",
+      "tituloEN": "Sushi Slice",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "Escenas que se completan, palabras cada vez mejor escondidas y la racha de escenas sin pistas.",
+        "competencia": "Baja en el subgénero: solo 2 juegos de palabras escondidas en imagen en Playgama. El objeto escondido genérico tiene 40+, pero buscar PALABRAS es otra mecánica (leer + observar) y otro público.",
+        "fuenteNormas": "https://developers.google.com/youtube/gaming/playables/certification/requirements_trustsafety",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals"
+        ],
+        "hypercasualQueFunciona": "La ola «hidden» es la más fuerte de noviembre en web (4 en el top 20 de Playgama) y el breakout de la semana es justo de palabras en imágenes.",
+        "monetizacion": "Anuncio entre escenas. Anuncio con recompensa: una pista que ilumina una palabra.",
+        "potencialViral": "Medio: el «¡estaba delante de mis narices!» se comparte, pero es menos espectacular que un KO o un combo.",
+        "se_entiende_3s_sin_texto": "A medias: ves la lista de palabras y tocas donde se esconden; exige leer la lista, pero no hay tutorial que leer.",
+        "tendencias": "Hidden Fest: Words in Pictures, breakout +313.000/semana (2,9×). 4 objetos escondidos en el top 20 de Playgama. La Navidad empuja el tema (Hidden Christmas, top 5 de nuevos).",
+        "viabilidad": "Media: cada nivel exige una ilustración rica con las palabras camufladas; arte generado + integración manual de cada palabra. 10-15 escenas en un día es justo; el riesgo es que las palabras se vean demasiado o no se vean nada."
+      },
+      "competenciaNivel": "baja",
+      "conclusion": "APTA pero no prioritaria: breakout real esta semana y subgénero casi vacío en Playgama, pero exige leer y el arte por escena es costoso; el ritmo es más lento que un arcade.",
+      "datos": [
+        {
+          "dato": "Hidden Fest: Words in Pictures: +313.000 instalaciones/semana (2,9×), 1,6 M en total; breakout de la semana",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "4 juegos de objetos escondidos en el top 20 de tendencias de Playgama (noviembre 2026)",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        },
+        {
+          "dato": "Playgama «hidden»: 40+ juegos de objetos escondidos; pero solo 2 de palabras escondidas en imagen (Hidden Words: Find in Pictures, Word Search Hidden Words)",
+          "fuente": "https://playgama.com/search?q=hidden"
+        },
+        {
+          "dato": "Hidden Christmas: Find Objects: n.º 5 en top nuevos gratuitos de puzle EE. UU. (5,0★)",
+          "fuente": "https://www.appbrain.com/stats/google-play-rankings/top_new_free/puzzle/us"
+        }
+      ],
+      "duracionSesion": "Escenas de 60-120 s con 6-8 palabras. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "apta",
+      "fecha": "2026-11-18",
+      "gancho": "La foto esconde 8 palabras: encuéntralas todas antes de que se acabe el tiempo. Estaban delante de tus narices.",
+      "genero": "Palabras escondidas en la imagen",
+      "hacibleEnUnDia": true,
+      "id": "palabras-escondidas",
+      "motivo": "APTA pero no prioritaria: breakout real esta semana y subgénero casi vacío en Playgama, pero exige leer y el arte por escena es costoso; el ritmo es más lento que un arcade.",
+      "nombre": "Palabras Escondidas",
+      "nueva": true,
+      "origen": "Investigación diaria 18/11/2026 08:00",
+      "porQueFunciona": "Hidden Fest: Words in Pictures es breakout esta semana (+313.000/semana, 2,9×) y en Playgama solo hay 2 juegos de palabras escondidas en imagen, frente a 40+ de objetos escondidos: el subgénero está casi vacío.",
+      "potencialViral": 3,
+      "puntuacion": {
+        "adiccion": 3,
+        "competencia": 4,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 3,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 4,
+        "tendencia": 5,
+        "total": 25,
+        "viabilidad1Dia": 3
+      },
+      "temaViral": "Hidden Fest: Words in Pictures, breakout +313.000/semana (18/11)",
+      "titulo": "Palabras Escondidas",
+      "tituloEN": "Picture Word Hunt",
       "viralUrgente": false
     }
   ],
@@ -1972,7 +2178,7 @@
       "motivo": "NO APTA: saturado en Playgama, al menos 6 juegos de bus jam cubren la misma mecánica.",
       "motivoRechazo": "Saturado en Playgama: al menos 6 juegos de bus jam cubren la misma mecánica; sin hueco.",
       "nombre": "Fiebre del Bus",
-      "nueva": true,
+      "nueva": false,
       "origen": "Investigación diaria 17/11/2026 08:00",
       "porQueFunciona": "Bus Fever Party! es n.º 2 en casual EE. UU. con 24 M de instalaciones, pero el hueco web no existe.",
       "potencialViral": 3,
@@ -2028,7 +2234,7 @@
       "motivo": "NO APTA: híbrido de dos mecánicas; el runner está saturado en Playgama y el vestir con votación ya lo cubre Desfile Exprés.",
       "motivoRechazo": "Híbrido de dos mecánicas: el runner está saturado en Playgama (40+ juegos) y el vestir con votación ya lo cubre Desfile Exprés; para hacerlo premium necesita más de un día.",
       "nombre": "Moda Parkour",
-      "nueva": true,
+      "nueva": false,
       "origen": "Investigación diaria 17/11/2026 08:00",
       "porQueFunciona": "Fashion Parkour: Party Run es breakout de la semana en móvil, pero cada mitad del híbrido ya está cubierta en web.",
       "potencialViral": 4,
@@ -2084,7 +2290,7 @@
       "motivo": "NO APTA: competencia media-alta en Playgama (6 juegos de excavar) y el género «comer y crecer» ya lo cubre Agujero Tragón.",
       "motivoRechazo": "Competencia media-alta en Playgama (6 juegos de excavar, casi todos 3D/obby) y el género «comer y crecer» ya lo cubre Agujero Tragón; el hueco 2D es pequeño.",
       "nombre": "Excava y Hazte Rico",
-      "nueva": true,
+      "nueva": false,
       "origen": "Investigación diaria 17/11/2026 08:00",
       "porQueFunciona": "Dig Deep tiene 28 M de partidas en Playables; excavar es satisfactorio y visual.",
       "potencialViral": 3,
@@ -2144,7 +2350,7 @@
       "motivo": "NO APTA: el género ordenar ya lo cubre Colada Caótica y el sort está saturado.",
       "motivoRechazo": "El género ordenar ya lo cubre Colada Caótica en nuestra cola y el sort está saturado (16 apps en puzzle EE. UU.); sin giro nuevo.",
       "nombre": "Ordena la Habitación",
-      "nueva": true,
+      "nueva": false,
       "origen": "Investigación diaria 17/11/2026 08:00",
       "porQueFunciona": "Room Sort subió 19 puestos en una semana en puzzle EE. UU., pero es el mismo género que Colada Caótica.",
       "potencialViral": 2,
@@ -2204,7 +2410,7 @@
       "motivo": "NO APTA: la ola de limpieza es real en móvil, pero Playgama ya está lleno de juegos de limpiar y comparte técnica con Esculpe la Figura.",
       "motivoRechazo": "La ola de limpieza es real en móvil, pero Playgama ya está lleno de juegos de limpiar (al menos 6) y comparte la técnica de «borrar para revelar» con Esculpe la Figura, que tiene hueco vacío.",
       "nombre": "Limpieza Total ASMR",
-      "nueva": true,
+      "nueva": false,
       "origen": "Investigación diaria 17/11/2026 08:00",
       "porQueFunciona": "Clean Perfect OCD cruza 1 M de instalaciones esta semana; la limpieza ASMR es ola real en móvil.",
       "potencialViral": 3,
@@ -2222,7 +2428,287 @@
       "titulo": "Limpieza Total ASMR",
       "tituloEN": "Deep Clean ASMR",
       "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "Sudokus cada vez más difíciles y racha diaria; poco más.",
+        "competencia": "Alta en Playgama: 11 sudokus, incluidos Cat Sudoku: Brain Meowdoku y Catdoku; el giro del gato ya está cogido en web.",
+        "fuentesHypercasual": [
+          "https://www.appbrain.com/stats/google-play-rankings/top_free/puzzle/us"
+        ],
+        "hypercasualQueFunciona": "Meowdoku es n.º 1 en puzle EE. UU. con 35 M de instalaciones, pero el giro felino ya existe en Playgama.",
+        "monetizacion": "Anuncio entre sudokus. Anuncio con recompensa: una pista o deshacer.",
+        "potencialViral": "Bajo: resolver un sudoku no se graba como un momento.",
+        "se_entiende_3s_sin_texto": "A medias: quien sabe jugar al sudoku lo entiende al instante; quien no, necesita reglas.",
+        "tendencias": "Meowdoku: n.º 1 en puzle gratis EE. UU. (17/11), 35 M de instalaciones, 9,2 M recientes.",
+        "viabilidad": "Alta: generador de sudokus con 3 dificultades y gatos coleccionables."
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: el giro del gato ya está cogido en Playgama (Cat Sudoku: Brain Meowdoku y Catdoku) y el público del sudoku es estrecho.",
+      "datos": [
+        {
+          "dato": "Meowdoku: n.º 1 en puzle gratis EE. UU. (17/11/2026), 35 M de instalaciones, 9,2 M recientes",
+          "fuente": "https://www.appbrain.com/stats/google-play-rankings/top_free/puzzle/us"
+        },
+        {
+          "dato": "Playgama «sudoku»: 11 juegos, incluidos Cat Sudoku: Brain Meowdoku y Catdoku",
+          "fuente": "https://playgama.com/search?q=sudoku"
+        }
+      ],
+      "duracionSesion": "Sudokus de 3-10 min. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-18",
+      "gancho": "El sudoku de siempre, pero con gatos: completa la cuadrícula y colecciona michis.",
+      "genero": "Puzle de números (sudoku)",
+      "hacibleEnUnDia": true,
+      "id": "sudoku-gatos",
+      "motivo": "NO APTA: el giro del gato ya está cogido en Playgama (Cat Sudoku: Brain Meowdoku y Catdoku) y el público del sudoku es estrecho.",
+      "motivoRechazo": "El giro del gato ya está cogido en Playgama (Cat Sudoku: Brain Meowdoku y Catdoku); 11 sudokus en total y público estrecho.",
+      "nombre": "Sudoku con Gatos",
+      "nueva": true,
+      "origen": "Investigación diaria 18/11/2026 08:00",
+      "porQueFunciona": "Meowdoku es n.º 1 en puzle EE. UU. con 35 M de instalaciones, pero el giro felino ya existe en Playgama.",
+      "potencialViral": 2,
+      "puntuacion": {
+        "adiccion": 3,
+        "competencia": 1,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 3,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 3,
+        "tendencia": 5,
+        "total": 21,
+        "viabilidad1Dia": 4
+      },
+      "titulo": "Sudoku con Gatos",
+      "tituloEN": "Sudoku Cats",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "Coches que salen del atasco en el orden justo; poco más.",
+        "competencia": "Saturado en Playgama: 15+ juegos de parking (Parking Jam: World Tour, Parking Jam: Car Puzzle, Parking Boom, Bus Parking Out, Parking Master...).",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals"
+        ],
+        "hypercasualQueFunciona": "Parking Loop entra en top free en Brasil (11/11), pero en web el atasco de coches ya lo cubren todos.",
+        "monetizacion": "Anuncio entre niveles. Anuncio con recompensa: deshacer un movimiento.",
+        "potencialViral": "Bajo: sacar coches de un atasco no se graba como un momento.",
+        "se_entiende_3s_sin_texto": "Sí: tocas el coche y sale si tiene hueco.",
+        "tendencias": "Parking Loop entra en top free en Brasil el 11/11; sin pico en EE. UU. ni Europa.",
+        "viabilidad": "Alta: rejilla de coches, orden de salida y niveles generados."
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: saturado en Playgama, 15+ juegos de parking cubren la misma mecánica.",
+      "datos": [
+        {
+          "dato": "Parking Loop entra en top free en Brasil (11/11/2026)",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Playgama «parking»: 15+ juegos (Parking Jam: World Tour, Parking Jam: Car Puzzle, Parking Boom, Bus Parking Out, Parking Master y más)",
+          "fuente": "https://playgama.com/search?q=parking"
+        }
+      ],
+      "duracionSesion": "Niveles de 30-60 s. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-18",
+      "gancho": "El parking es un atasco: saca los coches en el orden justo sin chocar.",
+      "genero": "Puzle de atasco (parking jam)",
+      "hacibleEnUnDia": true,
+      "id": "parking-jam",
+      "motivo": "NO APTA: saturado en Playgama, 15+ juegos de parking cubren la misma mecánica.",
+      "motivoRechazo": "Saturado en Playgama: 15+ juegos de parking cubren la misma mecánica; la señal móvil (Parking Loop en Brasil) no abre hueco en web.",
+      "nombre": "Aparca el Caos",
+      "nueva": true,
+      "origen": "Investigación diaria 18/11/2026 08:00",
+      "porQueFunciona": "Parking Loop entra en top free en Brasil, pero en web el atasco de coches ya lo cubren todos.",
+      "potencialViral": 2,
+      "puntuacion": {
+        "adiccion": 3,
+        "competencia": 1,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 3,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 4,
+        "tendencia": 3,
+        "total": 20,
+        "viabilidad1Dia": 4
+      },
+      "titulo": "Aparca el Caos",
+      "tituloEN": "Parking Jam Chaos",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "Un minijuego distinto cada 30 segundos; la variedad misma.",
+        "competencia": "Media: Playgama tiene Obby: Mini-Games, pero ninguna colección grande de minijuegos propia.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals"
+        ],
+        "hypercasualQueFunciona": "Las colecciones tiran: 1000+ Games in 1, +716.000/semana (10×+); Taptrix Challenges, 206.000 en 6 días.",
+        "monetizacion": "Anuncio entre minijuegos. Anuncio con recompensa: saltar un minijuego o una vida extra.",
+        "potencialViral": "Medio: cada minijuego da un clip distinto, pero la colección no tiene un momento propio.",
+        "se_entiende_3s_sin_texto": "A medias: cada minijuego se entiende solo, pero hay que aprender uno nuevo cada 30 segundos.",
+        "tendencias": "1000+ Games in 1: +716.000 instalaciones/semana (10×+), breakout. Taptrix Challenges: Mini Games: 206.000 en 6 días (lanzado 12/11).",
+        "viabilidad": "Muy baja en un día: una colección exige muchos juegos; con el nivel premium del estudio, un solo minijuego ya es un día entero."
+      },
+      "competenciaNivel": "media",
+      "conclusion": "NO APTA: una colección exige muchos juegos; no hacible en un día con el nivel premium del estudio.",
+      "datos": [
+        {
+          "dato": "1000+ Games in 1: +716.000 instalaciones/semana (10×+), breakout de la semana",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Taptrix Challenges: Mini Games: 206.000 instalaciones en 6 días (lanzado 12/11/2026)",
+          "fuente": "https://playstoreradar.com/signals"
+        }
+      ],
+      "duracionSesion": "Minijuegos de 20-30 s encadenados. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-18",
+      "gancho": "Mil juegos en uno: cada 30 segundos, un reto nuevo. ¿Cuántos aguantas?",
+      "genero": "Colección de minijuegos",
+      "hacibleEnUnDia": false,
+      "id": "minijuegos-en-1",
+      "motivo": "NO APTA: una colección exige muchos juegos; no hacible en un día con el nivel premium del estudio.",
+      "motivoRechazo": "Una colección exige muchos juegos: no hacible en un día con el nivel premium del estudio; el breakout es real pero el formato no cabe en la rutina.",
+      "nombre": "Mil Minijuegos en 1",
+      "nueva": true,
+      "origen": "Investigación diaria 18/11/2026 08:00",
+      "porQueFunciona": "1000+ Games in 1 es breakout con +716.000/semana, pero una colección no se fabrica en un día.",
+      "potencialViral": 3,
+      "puntuacion": {
+        "adiccion": 3,
+        "competencia": 2,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 3,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 3,
+        "tendencia": 5,
+        "total": 20,
+        "viabilidad1Dia": 1
+      },
+      "titulo": "Mil Minijuegos en 1",
+      "tituloEN": "Mini Games Marathon",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "Rutas que crecen, trenes nuevos y estaciones que mejorar.",
+        "competencia": "Media en Playgama: 6 juegos de trenes (Rail Master Idle Train Tycoon, Train Master, Idle Train Empire Tycoon, Train Race 3D, Night Train Conductor, Switch Master: Train Puzzle).",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals"
+        ],
+        "hypercasualQueFunciona": "Train Simulator Home es breakout (+314.000/semana, 4,0×), pero es un sim 3D, no un juego de un toque.",
+        "monetizacion": "Anuncio entre rutas. Anuncio con recompensa: un tren rápido o más vías.",
+        "potencialViral": "Bajo: conducir un tren no se graba como un momento.",
+        "se_entiende_3s_sin_texto": "A medias: conducir, cambiar vías y gestionar a la vez exige aprender.",
+        "tendencias": "Train Simulator Home: +314.000 instalaciones/semana (4,0×), breakout. Bus Simulator Home: +366.000/semana, también breakout.",
+        "viabilidad": "Baja en un día: un sim de trenes en 2D con nivel premium no cabe; el puzle de vías ya lo cubre Switch Master en Playgama."
+      },
+      "competenciaNivel": "media",
+      "conclusion": "NO APTA: sim 3D no hacible en un día en 2D con nivel premium; Playgama ya tiene 6 de trenes.",
+      "datos": [
+        {
+          "dato": "Train Simulator Home: +314.000 instalaciones/semana (4,0×), breakout de la semana",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Playgama «train»: 6 juegos (Rail Master Idle Train Tycoon, Train Master, Idle Train Empire Tycoon, Train Race 3D, Night Train Conductor, Switch Master: Train Puzzle)",
+          "fuente": "https://playgama.com/search?q=train"
+        }
+      ],
+      "duracionSesion": "Rutas de 2-5 min. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-18",
+      "gancho": "Conduce tu tren, cambia las vías y lleva a todos a su estación a tiempo.",
+      "genero": "Simulador de trenes",
+      "hacibleEnUnDia": false,
+      "id": "simulador-tren",
+      "motivo": "NO APTA: sim 3D no hacible en un día en 2D con nivel premium; Playgama ya tiene 6 de trenes.",
+      "motivoRechazo": "Sim 3D no hacible en un día en 2D con nivel premium; Playgama ya tiene 6 de trenes y el puzle de vías lo cubre Switch Master.",
+      "nombre": "Simulador de Tren",
+      "nueva": true,
+      "origen": "Investigación diaria 18/11/2026 08:00",
+      "porQueFunciona": "Train Simulator Home es breakout con +314.000/semana, pero es un sim 3D, no un juego de un toque.",
+      "potencialViral": 2,
+      "puntuacion": {
+        "adiccion": 3,
+        "competencia": 2,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 3,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 3,
+        "tendencia": 4,
+        "total": 19,
+        "viabilidad1Dia": 2
+      },
+      "titulo": "Simulador de Tren",
+      "tituloEN": "Train Driver Simulator",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "Laberintos cada vez más enrevesados y el cronómetro; poco más.",
+        "competencia": "Media en Playgama: unos 10 laberintos (Amaze!, Neon Maze, Maze Escape Challenge, Maze Mice, 3D Mega Maze y más).",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals"
+        ],
+        "hypercasualQueFunciona": "Maze Out! – Tap Puzzle está en el top de casual de pago en EE. UU., pero el laberinto clásico no tiene giro nuevo.",
+        "monetizacion": "Anuncio entre laberintos. Anuncio con recompensa: ver el camino o más tiempo.",
+        "potencialViral": "Bajo: resolver un laberinto no se graba como un momento.",
+        "se_entiende_3s_sin_texto": "Sí: guía el punto hasta la salida sin tocar las paredes.",
+        "tendencias": "Maze Out! – Tap Puzzle, en el top 100 de casual de pago en EE. UU. (18/11). Sin pico de tendencia esta semana.",
+        "viabilidad": "Muy alta: laberintos generados por código, un dedo y cronómetro."
+      },
+      "competenciaNivel": "media",
+      "conclusion": "NO APTA: unos 10 laberintos en Playgama y sin giro nuevo; laberinto clásico con el mismo verbo que todos.",
+      "datos": [
+        {
+          "dato": "Maze Out! – Tap Puzzle, en el top 100 de casual de pago en EE. UU. (18/11/2026)",
+          "fuente": "https://m-s-y.com/en/app/ranking/top-grossing-casual/"
+        },
+        {
+          "dato": "Playgama «maze»: unos 10 juegos (Amaze!, Neon Maze, Maze Escape Challenge, Maze Mice, 3D Mega Maze y más)",
+          "fuente": "https://playgama.com/search?q=maze"
+        }
+      ],
+      "duracionSesion": "Laberintos de 20-60 s. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-18",
+      "gancho": "Guía el punto hasta la salida sin tocar las paredes. Cada laberinto, más enrevesado.",
+      "genero": "Puzle de laberinto",
+      "hacibleEnUnDia": true,
+      "id": "laberinto",
+      "motivo": "NO APTA: unos 10 laberintos en Playgama y sin giro nuevo; laberinto clásico con el mismo verbo que todos.",
+      "motivoRechazo": "Unos 10 laberintos en Playgama y sin giro nuevo: laberinto clásico con el mismo verbo que todos.",
+      "nombre": "Laberinto Exprés",
+      "nueva": true,
+      "origen": "Investigación diaria 18/11/2026 08:00",
+      "porQueFunciona": "Maze Out! está en el top de casual de pago en EE. UU., pero el laberinto clásico no tiene giro nuevo.",
+      "potencialViral": 2,
+      "puntuacion": {
+        "adiccion": 2,
+        "competencia": 2,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 3,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 5,
+        "tendencia": 3,
+        "total": 22,
+        "viabilidad1Dia": 5
+      },
+      "titulo": "Laberinto Exprés",
+      "tituloEN": "Maze Rush",
+      "viralUrgente": false
     }
   ],
-  "actualizadoEn": "2026-11-17T08:15:00+01:00"
+  "actualizadoEn": "2026-11-18T08:25:00+01:00"
 }
