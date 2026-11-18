@@ -1,6 +1,6 @@
 {
   "_readme": "Fichero en vivo de la oficina Dana Games. Lo actualizan Dani y Anita (sus agentes) con CADA cambio: publicar, rechazar, empezar, terminar. La oficina lo lee y las listas se refrescan solas, sin reconstruir la página. No inventar nombres ni datos: solo lo verificado. Cuando Daniel diga los nombres de los 3 juegos nuevos de Anita, se ponen en anita.names y names_pending pasa a false.",
-  "updated_at": "2026-11-18 08:47",
+  "updated_at": "2026-11-18 08:57",
   "anita": {
     "names": [
       "Grid Defender",
@@ -89,7 +89,7 @@
       "playgama_url": "https://playgama.ai/play/d7nbp5h2yci4vs",
       "published_date": "2026-11-16",
       "slug": "scribble-striker",
-      "status": "EN MARCHA — ¡PRIORIDAD MÁXIMA! RONDA CORTA 2 ENTREGADA y verificada por Dani (commit 8c01c2b, 08:20; zip 3.764.605 B verificado: sendMessage 2, game_ready 1, noAudio 9, 0 audio; chip WORLD CUP FR/DE cabe de verdad, alto medido). Playtest anterior (7eac7e2): PAPER 11, partido ganado, regresión y silencio PASS — solo fallaba el botón francés, ya corregido en esta ronda. Pendiente subir a Sandbox + jugar en vivo. NO se publica en la app principal hasta que salga limpio.",
+      "status": "EN MARCHA — ¡PRIORIDAD MÁXIMA! Ronda corta 2 (8c01c2b): el chip «COUPE DU MONDE» / «WELTMEISTERSCHAFT» ya cabe (alto medido). Subida + playtest en vivo EN MARCHA en la app aparte. Daniel 08:24: Dani lo publica en la app principal con SU visto bueno cuando salga limpio, sin esperar su OK. Queda ~playtest + publicación.",
       "title": "Scribble Striker",
       "title_es": "Scribble Striker",
       "paso": "Ronda corta 2 ENTREGADA y verificada 08:20 (8c01c2b); zip 3.764.605 B verificado por Dani; pendiente subida + playtest",
@@ -137,7 +137,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "FÚTBOL: ronda corta 2 ENTREGADA y verificada por Dani (commit 8c01c2b, zip 3,76 MB, sin audio) — el chip WORLD CUP FR/DE ya cabe; pendiente subir a Sandbox y jugarlo en vivo. Dance Dash: subido y jugado — 1 FAIL: las estrellas se ponen a cero al cargar (las monedas sí se conservan, 266→1.015); hace falta ronda de arreglo. Monster Merge r3: jugado — 3 FAIL + 1 PARCIAL (aparece un monstruo extra al fusionar; no salen los avisos de fusión no válida ni tablero lleno; sin icono de moneda en DIARIO); hace falta ronda 4. Burger Boss: mockup de la A esperando tu OK. Garden r5 y Dungeon r3: zips verificados, pendientes de subir.",
+  "resumen": "FÚTBOL: ronda 2 subida + playtest en marcha; Daniel autorizó a Dani a publicarlo con su visto bueno. Monster Merge: ronda 4 en marcha (monstruo extra al fusionar). Dance Dash: arreglo en marcha (estrellas a cero al cargar). Burger Boss: mockup de la A esperando el OK de Daniel. Garden r5 y Dungeon r3: zips verificados, pendientes de subir.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -223,7 +223,7 @@
       "design": "A (Discoteca), B (K-pop) y C (Rave robot) son capítulos del juego",
       "mockup": "idea-24-variant-a.png",
       "slug": "dance-dash",
-      "status": "EN MARCHA — Rediseño variante C «Street Battle»: corrección entregada y verificada por Dani (deb5d06: 9 canciones, diaria solo en niveles desbloqueados). SUBIDA a Sandbox y PLAYTEST TERMINADOS ~08:30: 9 canciones PASS, diaria PASS (NEON NIGHTS, capítulo desbloqueado), silencio PASS — PERO 1 FAIL: las estrellas se ponen a CERO al cargar (monedas sí se conservan, 266→1.015); capítulos 2 y 3 sin poder probar (bloqueados por estrellas). Observación: bonus diario +60 no abonado (sin confirmar). Hace falta ronda de arreglo. https://playgama.ai/play/morggaiqrsm5xh Verificado 08:47: playtest terminado, 1 fail (estrellas).",
+      "status": "EN MARCHA — Rebuild corregido (deb5d06): 9 canciones, diaria y silencio PASS, pero 1 FAIL: las estrellas se ponen a cero al cargar (las monedas sí se guardan). Arreglo en marcha con coordinador nuevo. Queda ~arreglo + resubida + playtest. El build actual sigue LIMPIO en vivo y jugable. https://playgama.ai/play/morggaiqrsm5xh",
       "title": "Dance Dash!",
       "paso": "Corrección entregada y verificada (deb5d06); SUBIDA a Sandbox ~08:02 + PLAYTEST TERMINADO 08:30: 9 canciones PASS, diaria PASS, silencio PASS; FAIL: estrellas a cero al cargar",
       "queda": "~ronda de arreglo del bug de estrellas + resubida + re-playtest + prueba de Daniel"
@@ -241,7 +241,7 @@
       "design": "A (Caramelo), B (Robots) y C (Marinas) son capítulos del juego",
       "mockup": "idea-18-variant-a.png",
       "slug": "monster-merge",
-      "status": "EN MARCHA — Ronda 3 SUBIDA a Sandbox y confirmada Live (bde1038, 556 KB). PLAYTEST TERMINADO ~07:58 (nivel 1, 0 monedas): compra sin monedas PASS (aviso + sacudida), fusión rápida PASS pero recuento FAIL (aparece un monstruo extra tras cada fusión/movimiento), ranking PASS, nivel 1 ganado (560 pts, meta 500); regresión: avisos de fusión no válida y tablero lleno NO aparecen (FAIL, aunque no consumen movimiento), icono de moneda en DIARIO FAIL, resto PASS, silencio PASS. Hace falta ronda 4 de arreglo. https://playgama.ai/play/rfjxcyqvmsm2ux Verificado 08:47: playtest terminado, 3 FAIL + 1 PARCIAL.",
+      "status": "EN MARCHA — Ronda 3 jugada: nivel 1 ganado y aviso sin monedas PASS, pero 3 FAIL + 1 parcial (monstruo extra al fusionar, sin avisos de fusión no válida ni tablero lleno, sin icono en DIARIO). Ronda 4 en marcha con coordinador nuevo. Queda ~arreglo + resubida + playtest. https://playgama.ai/play/rfjxcyqvmsm2ux",
       "title": "Monster Merge!",
       "paso": "Ronda 3 entregada en código 06:14 (bde1038); SUBIDA A SANDBOX COMPLETADA ~07:34 (Live on Sandbox); PLAYTEST TERMINADO ~07:58: 3 FAIL + 1 PARCIAL",
       "queda": "~ronda 4 de arreglo (monstruo extra, avisos, icono DIARIO) + resubida + re-playtest + prueba de Daniel"
