@@ -136,7 +136,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "ORDEN NUEVA de Daniel (05:22): rediseñar TODOS los juegos aprobados que aún no estén con su diseño, con assets como Pet Vet. Dance Dash primero (3 variantes, él elige), luego Burger Boss, Sneak Out, Sand Jam, Island Tribe, Rocket, Monster Merge, Garden Dash, Dungeon Delve y prototipos. Monster Merge: ronda 2 NO limpia (ronda 3 en marcha). Fútbol rebuild: 13/15, ronda corta en marcha. Garden Dash y Dungeon Delve: playtests en vivo en marcha. Sand Jam, Pet Vet, Island Tribe y Dance Dash (build actual): limpios y jugables.",
+  "resumen": "Dance Dash: Daniel eligió la variante C «Street Battle» — mockup en marcha. Garden Dash: ronda 4 NO limpia en vivo (DAILY sin panel, monedas en hileras de flores, SHOP lento); ronda 5 en marcha. Monster Merge: ronda 2 NO limpia (ronda 3 en marcha). Fútbol rebuild: 13/15, ronda corta en marcha. Dungeon Delve: ronda 2 en playtest en vivo. Sand Jam, Pet Vet, Island Tribe y Dance Dash (build actual): limpios y jugables. Rediseño de todos los juegos en marcha (Dance Dash primero).",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -222,7 +222,7 @@
       "design": "A (Discoteca), B (K-pop) y C (Rave robot) son capítulos del juego",
       "mockup": "idea-24-variant-a.png",
       "slug": "dance-dash",
-      "status": "EN MARCHA — Rediseño con assets estilo Pet Vet (orden de Daniel 05:22). El build actual sigue LIMPIO en vivo y jugable. Primero 3 variantes (menú + principal), Daniel elige, luego rebuild con assets. https://playgama.ai/play/morggaiqrsm5xh",
+      "status": "EN MARCHA — Rediseño con assets: Daniel eligió la variante C «Street Battle» (05:37). Mockup de la C en marcha (corrige «SCORE»→«PUNTOS», flecha alargada, bailarina que tapa carriles); tras su aprobación, pack + rebuild. El build actual sigue LIMPIO en vivo y jugable. https://playgama.ai/play/morggaiqrsm5xh",
       "title": "Dance Dash!",
       "paso": "v1.0 EN VIVO en Sandbox desde 20:19 (build 553 KB); mi playtest en vivo TERMINADO 20:52 (33 min, 12 defectos, NO limpio) — CRÍTICO: ninguna canción se puede jugar (anuncio → FIN DEL JUEGO con 0 pts); agente de arreglo lanzado (1b2fb820). Verificado 20:55. Verificado 21:57: agente de arreglo en marcha ~56 min, activo (última actividad hace ~10 s), 18 ficheros cambiados sin commitear en wt-dance-dash, sin commit nuevo aún. Verificado 22:22: agente de arreglo en marcha ~85 min (activo), 23 ficheros cambiados sin commitear en wt-dance-dash, sin commit nuevo aún. Verificado 00:47: playtest terminado 00:20 — arreglo crítico FALLA en vivo; coordinador con la nueva ronda en marcha; sin commit nuevo (sigue 14cc998 en remoto). Verificado 01:17: sin commit nuevo (sigue 14cc998); coordinador con última actividad hace ~20 min. Verificado 01:49: arreglo del ciclo del intersticial COMMITEADO y PUSHEADO (ddeb8e4, en remoto, ls-remote OK); pendiente verificación + zip + resubida + playtest en vivo. Verificado 02:20: subida + playtest en vivo EN MARCHA (~20 min, browser task activa); sin resultado aún. Verificado 02:47: ronda de arreglo de los 2 mayores EN MARCHA (coordinador 56705cba, última actividad hace ~13 min); sin commit nuevo (sigue ddeb8e4 en remoto). Verificado 03:22: sin commit nuevo (sigue ddeb8e4); coordinador con la ronda de los 2 mayores, sin actividad ~25 min. Verificado 03:47: arreglo de los 2 mayores COMMITEADO y PUSHEADO (d065e54, 02:29, en remoto, ls-remote OK); zip nuevo en el worktree (554.969 B, 02:28), pendiente verificación + resubida + playtest en vivo. Verificado 04:17: subida + playtest en vivo EN MARCHA (~25 min, browser task 4224791c); sin resultado aún; sin commit nuevo (sigue d065e54, ls-remote OK). Verificado 04:50: playtest TERMINADO 04:39 — DEFINITIVAMENTE LISTO, limpio en vivo (6 partidas, 0 defectos); enlace entregado a Daniel 04:39; sin commit nuevo (sigue d065e54, ls-remote OK).",
       "queda": "~prueba de Daniel"
@@ -231,7 +231,7 @@
       "design": "A (flores), B (huerto) y C (cactus) son capítulos del juego",
       "mockup": "idea-13-variant-a.png",
       "slug": "garden-dash",
-      "status": "EN MARCHA — Ronda 4 ENTREGADA (commit 03212e8, zip verificado por Dani: game_ready + noAudio). Panel de GAME OVER adaptativo (DOUBLE y MENU dentro siempre), objetos recortados al horizonte (nada en el cielo), obstáculos ya no caen sobre monedas. Subida + playtest en vivo EN MARCHA (tarjeta, cielo, retrato); si sale limpio, enlace para Daniel + pregunta ¿runner o regar? Verificado 05:17: sin commit nuevo en dana-games-juegos; subida + playtest en vivo SIGUEN EN MARCHA (browser task f2d3402c, ~48 min, activa hace ~2 min); sin resultado aún.",
+      "status": "EN MARCHA — Ronda 4 jugada en vivo (05:37): NO LIMPIA. 6/8 pasan (tarjeta con botones dentro, nada en el cielo, estrellas, silencio). 3 defectos: DAILY no abre panel (arranca partida con el «!» puesto), monedas dentro de hileras de flores, SHOP tarda ~5 s en pintarse. Ronda 5 enviada al coordinador. Pendiente: ¿runner o regar?",
       "title": "Garden Dash!",
       "paso": "Subida + playtest en vivo de la ronda 4 en marcha (~48 min)",
       "queda": "~playtest en vivo en marcha + prueba de Daniel"
@@ -771,6 +771,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-18 05:22",
+  "updated_at": "2026-11-18 05:37",
   "updated_by": "Dani (cron 30 min)"
 }
