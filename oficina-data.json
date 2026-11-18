@@ -136,7 +136,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Sand Jam: NOVEDAD — ronda 2 completa pusheada (6364329, 01:55): verify-defects PASS 0 failures, zip nuevo (560.260 B) incluido; queda ~resubir a Sandbox + playtest en vivo + prueba de Daniel.  Dance Dash, Monster Merge y Dungeon Delve: subida + playtest en vivo en marcha (Dance ~20 min, MM/DD ~50 min). Garden Dash: ronda corta de los 3 defectos nuevos en marcha vía coordinador (sin commit aún). Pet Vet e Island Tribe: DEFINITIVAMENTE LISTOS, limpios en vivo, enlaces para Daniel por la mañana. Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Fútbol: arreglo de los 15 defectos en 231b585, pendiente verificación + resubida.",
+  "resumen": "Sand Jam: ronda 2 completa, subida + playtest en vivo en marcha. Dance Dash: arreglo del ciclo real entregado, subida + playtest en vivo en marcha. Garden Dash: 8 defectos arreglados en vivo, 3 nuevos en arreglo. Pet Vet: DEFINITIVAMENTE LISTO, limpio en vivo. Island Tribe: DEFINITIVAMENTE LISTO, limpio en vivo. Monster Merge y Dungeon Delve: subida + playtest en vivo en marcha. Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Rocket Rescue: 1 defecto en vertical + victoria sin verificar, en arreglo.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -200,7 +200,7 @@
       "paso": "v1.0 en Sandbox desde 19:02 (build 552 KB); fix monedas doble pago (f00b5e2, 20:21, zip 552.092 B, precheck 0 FAIL) NOVEDAD ~22:03 — Daniel JUGÓ el prototipo y lo aprobó («Perfecto, ya puedes empezar con el diseño»); constructor (7a3de619) con el diseño en marcha. Arreglos ronda 2 (0c21d02, 20:46, en remoto): Niveles, Tienda y Clasificación. Verificado 00:47: sin commit nuevo (sigue 36343da en remoto); último diag-run3.log 23:45, sin actividad nueva desde entonces. Verificado 01:17: sin commit nuevo (sigue 36343da). Verificado 01:49: sin commit nuevo (sigue 36343da); agente de arreglo activo con cambio sin commitear en Game.ts. Verificado 02:20: ronda 2 COMPLETA commiteada y PUSHEADA (6364329, 01:55, en remoto): verify-defects PASS 0 failures; zip nuevo (560.260 B) incluido en el commit.",
       "queda": "~resubir el zip nuevo a Sandbox + playtest en vivo + prueba de Daniel",
       "slug": "sand-jam",
-      "status": "EN MARCHA — Zip nuevo (36343da) verificado por Dani: game_ready + sin audio. PERO quedan 2 defectos vivos de la ronda 2 («11 MOVIMIENTOS» toca el icono del pie en el diario; estrellas de victoria sin escala completa en nivel 5) en arreglo vía coordinador. Después: subida + playtest en vivo a 390 px. Verificado 00:47: sin commit nuevo (sigue 36343da en remoto); último diag-run3.log 23:45, sin actividad nueva desde entonces. Verificado 01:17: sin commit nuevo (sigue 36343da en remoto); sin actividad nueva; los 2 defectos vivos siguen en arreglo vía coordinador. Verificado 01:49: arreglo EN MARCHA (agente 7c48dcf7 activo, última actividad hace ~1 min; cambio sin commitear en src/scenes/Game.ts); sin commit nuevo (sigue 36343da en remoto). Verificado 02:20: NOVEDAD — ronda 2 COMPLETA commiteada y PUSHEADA (6364329, 01:55, en remoto): verify-defects PASS 0 failures (los 2 defectos vivos arreglados en Game.ts); zip nuevo incluido en el commit (sand-jam-playgama.zip 560.260 B) + 14 capturas y verify-defects.json. Queda ~resubir a Sandbox + playtest en vivo + prueba de Daniel.",
+      "status": "EN MARCHA — Ronda 2 COMPLETA (commit 6364329, verify-defects 0 failures, zip verificado por Dani: game_ready + noAudio; los 2 defectos eran artefactos de la sonda según el constructor). Subida a la app existente + playtest en vivo EN MARCHA (2 puntos + regresión de los 8); si sale limpio, enlace para Daniel.",
       "title": "Sand Jam!"
     },
     {
@@ -771,6 +771,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-18 02:20",
+  "updated_at": "2026-11-18 02:23",
   "updated_by": "Dani (cron 30 min)"
 }
