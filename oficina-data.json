@@ -136,7 +136,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Pet Vet: DEFINITIVAMENTE LISTO, limpio en vivo. Island Tribe: DEFINITIVAMENTE LISTO, limpio en vivo. Monster Merge, Dungeon Delve y Garden Dash: arreglos entregados, subida + playtest en vivo en marcha. Dance Dash: el arreglo crítico FALLA en vivo (canción no se juega tras el anuncio), de vuelta a arreglar. Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Rocket Rescue: 1 defecto en vertical + victoria sin verificar, en arreglo.",
+  "resumen": "Garden Dash: 8 defectos arreglados en vivo, 3 nuevos en arreglo. Pet Vet: DEFINITIVAMENTE LISTO, limpio en vivo. Island Tribe: DEFINITIVAMENTE LISTO, limpio en vivo. Monster Merge y Dungeon Delve: subida + playtest en vivo en marcha. Dance Dash: el arreglo crítico FALLA en vivo (canción no se juega tras el anuncio), de vuelta a arreglar. Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Rocket Rescue: 1 defecto en vertical + victoria sin verificar, en arreglo.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -231,7 +231,7 @@
       "design": "A (flores), B (huerto) y C (cactus) son capítulos del juego",
       "mockup": "idea-13-variant-a.png",
       "slug": "garden-dash",
-      "status": "EN MARCHA — Arreglo de los 8 defectos ENTREGADO (commit 2f96fcd, zip verificado por Dani: game_ready + noAudio). Subida a la app existente + playtest en vivo EN MARCHA (8 defectos + regresión); si sale limpio, enlace para Daniel + preguntar ¿runner o regar?",
+      "status": "EN MARCHA — 8 defectos ARREGLADOS y VERIFICADOS EN VIVO (01:41, BEST 240 supera el anterior 199). PERO 3 defectos NUEVOS (estrellas de GAME OVER siempre vacías, menú en blanco ~5 s al volver de RANKING, pinos sobre el sol) en ronda corta de arreglo vía coordinador. Después: verificar zip, resubir y jugarlo en vivo; entonces enlace para Daniel + preguntar ¿runner o regar?",
       "title": "Garden Dash!",
       "paso": "v1.0 entregada 18:14 (commit 9b964e4); en Sandbox desde ~18:30; audio quitado (9c05d2b); arreglo de 8 defectos menores en marcha (coordinador 56705cba, sin actividad ~37 min) Verificado 22:22: coordinador (56705cba) ahora con el arreglo de Monster Merge; sin commit nuevo aún; los 8 defectos siguen en arreglo. Verificado 00:23: sin commit nuevo aún; coordinador con Monster Merge + Sand Jam. Verificado 01:17: ronda 2 de los 8 defectos commiteada (2f96fcd); pendiente verificación + zip + resubida.",
       "queda": "~mi verificación del arreglo + regenerar zip + resubir a Sandbox + playtest en vivo + prueba de Daniel"
@@ -771,6 +771,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-18 01:32",
+  "updated_at": "2026-11-18 01:41",
   "updated_by": "Dani (cron 30 min)"
 }
