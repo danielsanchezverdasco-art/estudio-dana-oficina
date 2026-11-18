@@ -136,7 +136,7 @@
       "title": "Cofre del Doblon (Doubloon Rush)"
     }
   ],
-  "resumen": "Garden Dash: 8 defectos arreglados en vivo, 3 nuevos en ronda corta de arreglo (agente activo desde ~01:42, sin commit aún). Pet Vet e Island Tribe: DEFINITIVAMENTE LISTOS, limpios en vivo — enlaces para Daniel por la mañana. Monster Merge y Dungeon Delve: subida + playtest en vivo en marcha (~21 min, sin resultado aún). Dance Dash: NOVEDAD — arreglo del ciclo del intersticial COMMITEADO y PUSHEADO (ddeb8e4); pendiente verificar + zip + resubir + jugarlo en vivo. Sand Jam: arreglo de los 2 defectos vivos en marcha (agente activo, cambio sin commitear). Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Rocket Rescue: 1 defecto en vertical + victoria sin verificar, en arreglo.",
+  "resumen": "Dance Dash: arreglo del ciclo real entregado, subida + playtest en vivo en marcha (5 intentos con anuncio real). Garden Dash: 8 defectos arreglados en vivo, 3 nuevos en arreglo. Pet Vet: DEFINITIVAMENTE LISTO, limpio en vivo. Island Tribe: DEFINITIVAMENTE LISTO, limpio en vivo. Monster Merge y Dungeon Delve: subida + playtest en vivo en marcha. Burger Boss: LIMPIO, listo para que Daniel lo pruebe. Rocket Rescue: 1 defecto en vertical + victoria sin verificar, en arreglo.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
@@ -222,7 +222,7 @@
       "design": "A (Discoteca), B (K-pop) y C (Rave robot) son capítulos del juego",
       "mockup": "idea-24-variant-a.png",
       "slug": "dance-dash",
-      "status": "BLOQUEADO — El arreglo crítico FALLA EN VIVO (playtest 18/11 00:20): la canción nunca se juega tras cerrar el anuncio (5 intentos, siempre FIN con 0 puntos). La verificación local con bridge falso no reproduce el flujo real. De vuelta a arreglar vía coordinador (verificar contra el ciclo de anuncio REAL). Tienda, diario, clasificación, ajustes y silencio pasan. Verificado 00:47: playtest terminado 00:20 — arreglo crítico FALLA en vivo (canción no se juega tras el anuncio); coordinador (56705cba) con la nueva ronda en marcha (última actividad hace ~17 min); sin commit nuevo (sigue 14cc998 en remoto). Verificado 01:17: sin commit nuevo (sigue 14cc998 en remoto); coordinador (56705cba) con última actividad hace ~20 min; el arreglo crítico sigue fallando en vivo. Verificado 01:49: NOVEDAD — arreglo del ciclo real del intersticial COMMITEADO y PUSHEADO (ddeb8e4, en remoto, ls-remote OK): la canción ya no termina detrás del anuncio; pendiente mi verificación + regenerar zip + resubir + jugarlo en vivo.",
+      "status": "EN MARCHA — Arreglo del ciclo REAL ENTREGADO (commit ddeb8e4, causa raíz: reloj wall-clock + rAF estrangulado por el anuncio; fix con songNow + poll del intersticial; zip verificado por Dani). Subida a la app existente + playtest en vivo EN MARCHA (5 intentos con el anuncio REAL + reintentar + resto de defectos); si la canción se juega, queda listo.",
       "title": "Dance Dash!",
       "paso": "v1.0 EN VIVO en Sandbox desde 20:19 (build 553 KB); mi playtest en vivo TERMINADO 20:52 (33 min, 12 defectos, NO limpio) — CRÍTICO: ninguna canción se puede jugar (anuncio → FIN DEL JUEGO con 0 pts); agente de arreglo lanzado (1b2fb820). Verificado 20:55. Verificado 21:57: agente de arreglo en marcha ~56 min, activo (última actividad hace ~10 s), 18 ficheros cambiados sin commitear en wt-dance-dash, sin commit nuevo aún. Verificado 22:22: agente de arreglo en marcha ~85 min (activo), 23 ficheros cambiados sin commitear en wt-dance-dash, sin commit nuevo aún. Verificado 00:47: playtest terminado 00:20 — arreglo crítico FALLA en vivo; coordinador con la nueva ronda en marcha; sin commit nuevo (sigue 14cc998 en remoto). Verificado 01:17: sin commit nuevo (sigue 14cc998); coordinador con última actividad hace ~20 min. Verificado 01:49: arreglo del ciclo del intersticial COMMITEADO y PUSHEADO (ddeb8e4, en remoto, ls-remote OK); pendiente verificación + zip + resubida + playtest en vivo.",
       "queda": "~mi verificación del arreglo (ddeb8e4) + regenerar zip + resubir a Sandbox + playtest en vivo + prueba de Daniel"
@@ -771,6 +771,6 @@
       ]
     }
   ],
-  "updated_at": "2026-11-18 01:49",
+  "updated_at": "2026-11-18 01:57",
   "updated_by": "Dani (cron 30 min)"
 }
