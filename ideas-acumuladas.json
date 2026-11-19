@@ -79,7 +79,18 @@
     "https://www.appbrain.com/stats/google-play-rankings/top_free/puzzle/us",
     "https://www.appbrain.com/stats/google-play-rankings/top_new_free/puzzle/us",
     "https://m-s-y.com/en/app/ranking/top-grossing-casual/",
-    "https://www.glacierplay.top/detail/14091.html"
+    "https://www.glacierplay.top/detail/14091.html",
+    "https://playgama.com/search?q=flow",
+    "https://playgama.com/search?q=supermarket",
+    "https://playgama.com/search?q=cashier",
+    "https://playgama.com/search?q=arrow",
+    "https://playgama.com/search?q=voice",
+    "https://playgama.com/search?q=rings",
+    "https://playgama.com/search?q=swim",
+    "https://playgama.com/search?q=tape",
+    "https://playgama.com/search?q=jam",
+    "https://playgama.com/search?q=demolition",
+    "https://cyborgunicornau.itch.io/checkout"
   ],
   "aptas": [
     {
@@ -1065,7 +1076,7 @@
       "id": "desenfunda-y-dispara",
       "motivo": "APTA: género nuevo para el estudio (duelo de timing), breakout probado en móvil con 1,3 M en 4 días y CERO competencia en Playgama. Mecánica de un toque, muy visual, sin clon directo.",
       "nombre": "Desenfunda y Dispara",
-      "nueva": true,
+      "nueva": false,
       "origen": "Investigación diaria 18/11/2026 08:00",
       "porQueFunciona": "El duelo de timing es el reflejo más puro en formato duelo: Casual Blade, 1,3 M de instalaciones en 4 días, y en Playgama no hay NINGÚN juego de duelo de timing (búsqueda «duel»: 0 resultados).",
       "potencialViral": 4,
@@ -1134,7 +1145,7 @@
       "id": "corta-el-sushi",
       "motivo": "APTA: arcade de un gesto, archiprobado (26-28 M en Playables) y con tema propio (sushi) que lo separa de los 6 juegos de cortar de Playgama. Muy visual, muy hacible en un día.",
       "nombre": "Corta el Sushi",
-      "nueva": true,
+      "nueva": false,
       "origen": "Investigación diaria 18/11/2026 08:00",
       "porQueFunciona": "Cortar es el arcade más satisfactorio y visual que existe (Slice It All!, 26 M de partidas en Playables); el tema sushi lo diferencia de los 6 juegos de cortar de Playgama y enlaza con Cinta de Sushi Glotona.",
       "potencialViral": 4,
@@ -1198,7 +1209,7 @@
       "id": "palabras-escondidas",
       "motivo": "APTA pero no prioritaria: breakout real esta semana y subgénero casi vacío en Playgama, pero exige leer y el arte por escena es costoso; el ritmo es más lento que un arcade.",
       "nombre": "Palabras Escondidas",
-      "nueva": true,
+      "nueva": false,
       "origen": "Investigación diaria 18/11/2026 08:00",
       "porQueFunciona": "Hidden Fest: Words in Pictures es breakout esta semana (+313.000/semana, 2,9×) y en Playgama solo hay 2 juegos de palabras escondidas en imagen, frente a 40+ de objetos escondidos: el subgénero está casi vacío.",
       "potencialViral": 3,
@@ -1216,6 +1227,71 @@
       "temaViral": "Hidden Fest: Words in Pictures, breakout +313.000/semana (18/11)",
       "titulo": "Palabras Escondidas",
       "tituloEN": "Picture Word Hunt",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "La cinta cada vez más rápida, los combos por escanear sin fallar y la racha de turnos perfectos; el cliente enfadado que se va es el fallo que duele.",
+        "competencia": "Baja en el subgénero: 11 juegos de supermercado en Playgama, pero TODOS son sims/tycoons (Supermarket Simulator: Dream Store, My Supermarket: Idle Tycoon, Supermarket Empire...). El único de cajero es Shop Cashier Simulator 3D, un sim 3D. Ningún arcade 2D de escanear a toda velocidad.",
+        "fuenteNormas": "https://developers.google.com/youtube/gaming/playables/certification/requirements_trustsafety",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals"
+        ],
+        "hypercasualQueFunciona": "Los arcades de velocidad con un solo gesto tiran: el escaneo es tocar y listo, y el súper es el tema más reconocible que hay.",
+        "monetizacion": "Anuncio entre turnos. Anuncio con recompensa: ralentizar la cinta un turno o un cliente paciente extra.",
+        "potencialViral": "Medio-alto: la cinta desbocada y el cliente que explota son clips; el turno perfecto a toda velocidad se graba solo.",
+        "se_entiende_3s_sin_texto": "Sí: los productos bajan por la cinta, tocas para escanearlos y la cola no puede llegar al final.",
+        "tendencias": "Supermarket Game: +970.000 instalaciones/semana (5,5×), 141 M en total. Playgama: 11 juegos de supermercado, todos sims. TikTok, X y Shorts: sin datos de recuento propio.",
+        "viabilidad": "Muy alta en un día: cinta con productos, toque para escanear, combos y velocidad creciente. Riesgo: que el escaneo se sienta injusto cuando la cinta va muy rápida. Mitigación: la cinta acelera por tramos y el producto avisa antes de llegar al final."
+      },
+      "competenciaNivel": "baja",
+      "conclusion": "APTA: arcade de un toque con breakout móvil real (+970.000/semana) y CERO competencia en el subgénero en Playgama: los 11 juegos de súper son sims, ninguno es escanear a toda velocidad.",
+      "datos": [
+        {
+          "dato": "Supermarket Game: +970.000 instalaciones/semana (5,5×), 141 M en total",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Playgama «supermarket»: 11 juegos (Octo Market, Supermarket Simulator: Dream Store, Eat the Whole Supermarket, Supermarket Empire, My Supermarket: Idle Tycoon, Idle Supermarket Tycoon, Supermarket Brawl, Supermarket Manager, Supermarket Tycoon, Supermarket Guard, Happy Supermarket 3D Simulator); todos sims/tycoons",
+          "fuente": "https://playgama.com/search?q=supermarket"
+        },
+        {
+          "dato": "Playgama «cashier»: solo Shop Cashier Simulator 3D, un sim 3D; ningún arcade de caja en 2D",
+          "fuente": "https://playgama.com/search?q=cashier"
+        },
+        {
+          "dato": "«Checkout Rush» no es título de ningún juego conocido; «Checkout» existe como arcade retro en itch.io (ZX Spectrum), otra plataforma",
+          "fuente": "https://cyborgunicornau.itch.io/checkout"
+        }
+      ],
+      "duracionSesion": "Turnos de 60-90 s; la cinta acelera y la cola crece. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "apta",
+      "fecha": "2026-11-19",
+      "gancho": "La cinta no para: escanea cada producto antes de que llegue al final o la cola explota. ¿Cuántos turnos aguantas?",
+      "genero": "Arcade de velocidad (escanear en caja)",
+      "hacibleEnUnDia": true,
+      "id": "caja-expres",
+      "motivo": "APTA: arcade de un toque con breakout móvil real (+970.000/semana) y CERO competencia en el subgénero en Playgama: los 11 juegos de súper son sims, ninguno es escanear a toda velocidad.",
+      "nombre": "Caja Exprés",
+      "nueva": true,
+      "origen": "Investigación diaria 19/11/2026 08:00",
+      "porQueFunciona": "El súper es breakout en móvil (+970.000/semana, 5,5×) y en Playgama no hay NINGÚN arcade de escanear: los 11 juegos de supermercado son sims y el único de cajero es 3D.",
+      "potencialViral": 3,
+      "puntuacion": {
+        "adiccion": 4,
+        "competencia": 4,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 3,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 5,
+        "tendencia": 5,
+        "total": 29,
+        "viabilidad1Dia": 5
+      },
+      "temaViral": "Supermarket Game: +970.000/semana (5,5×) (19/11)",
+      "titulo": "Caja Exprés",
+      "tituloEN": "Checkout Rush",
       "viralUrgente": false
     }
   ],
@@ -2466,7 +2542,7 @@
       "motivo": "NO APTA: el giro del gato ya está cogido en Playgama (Cat Sudoku: Brain Meowdoku y Catdoku) y el público del sudoku es estrecho.",
       "motivoRechazo": "El giro del gato ya está cogido en Playgama (Cat Sudoku: Brain Meowdoku y Catdoku); 11 sudokus en total y público estrecho.",
       "nombre": "Sudoku con Gatos",
-      "nueva": true,
+      "nueva": false,
       "origen": "Investigación diaria 18/11/2026 08:00",
       "porQueFunciona": "Meowdoku es n.º 1 en puzle EE. UU. con 35 M de instalaciones, pero el giro felino ya existe en Playgama.",
       "potencialViral": 2,
@@ -2522,7 +2598,7 @@
       "motivo": "NO APTA: saturado en Playgama, 15+ juegos de parking cubren la misma mecánica.",
       "motivoRechazo": "Saturado en Playgama: 15+ juegos de parking cubren la misma mecánica; la señal móvil (Parking Loop en Brasil) no abre hueco en web.",
       "nombre": "Aparca el Caos",
-      "nueva": true,
+      "nueva": false,
       "origen": "Investigación diaria 18/11/2026 08:00",
       "porQueFunciona": "Parking Loop entra en top free en Brasil, pero en web el atasco de coches ya lo cubren todos.",
       "potencialViral": 2,
@@ -2578,7 +2654,7 @@
       "motivo": "NO APTA: una colección exige muchos juegos; no hacible en un día con el nivel premium del estudio.",
       "motivoRechazo": "Una colección exige muchos juegos: no hacible en un día con el nivel premium del estudio; el breakout es real pero el formato no cabe en la rutina.",
       "nombre": "Mil Minijuegos en 1",
-      "nueva": true,
+      "nueva": false,
       "origen": "Investigación diaria 18/11/2026 08:00",
       "porQueFunciona": "1000+ Games in 1 es breakout con +716.000/semana, pero una colección no se fabrica en un día.",
       "potencialViral": 3,
@@ -2634,7 +2710,7 @@
       "motivo": "NO APTA: sim 3D no hacible en un día en 2D con nivel premium; Playgama ya tiene 6 de trenes.",
       "motivoRechazo": "Sim 3D no hacible en un día en 2D con nivel premium; Playgama ya tiene 6 de trenes y el puzle de vías lo cubre Switch Master.",
       "nombre": "Simulador de Tren",
-      "nueva": true,
+      "nueva": false,
       "origen": "Investigación diaria 18/11/2026 08:00",
       "porQueFunciona": "Train Simulator Home es breakout con +314.000/semana, pero es un sim 3D, no un juego de un toque.",
       "potencialViral": 2,
@@ -2690,7 +2766,7 @@
       "motivo": "NO APTA: unos 10 laberintos en Playgama y sin giro nuevo; laberinto clásico con el mismo verbo que todos.",
       "motivoRechazo": "Unos 10 laberintos en Playgama y sin giro nuevo: laberinto clásico con el mismo verbo que todos.",
       "nombre": "Laberinto Exprés",
-      "nueva": true,
+      "nueva": false,
       "origen": "Investigación diaria 18/11/2026 08:00",
       "porQueFunciona": "Maze Out! está en el top de casual de pago en EE. UU., pero el laberinto clásico no tiene giro nuevo.",
       "potencialViral": 2,
@@ -2708,7 +2784,351 @@
       "titulo": "Laberinto Exprés",
       "tituloEN": "Maze Rush",
       "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "Tableros cada vez más grandes y el placer de completar el camino perfecto; poco más.",
+        "competencia": "Alta en Playgama: 6+ juegos de flujo (FLOW CONNECT, Flow Line Puzzle, Flow Line, Pixel Flow, Pixel Flow: Color Blast, Foody Flow, Fruit Flow, Water Flow).",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals"
+        ],
+        "hypercasualQueFunciona": "Pixelora Flow es breakout (+465.000/semana, 10×+), n.º 18 en puzle EE. UU. y n.º 2 en gratis Australia; y Pixel Flow! lleva 14 M en móvil. Pero el hueco en web ya está ocupado.",
+        "monetizacion": "Anuncio entre tableros. Anuncio con recompensa: una pista que muestra un tramo del camino.",
+        "potencialViral": "Bajo: completar un camino no se graba como un momento.",
+        "se_entiende_3s_sin_texto": "Sí: une los puntos del mismo color sin cruzar los caminos.",
+        "tendencias": "Pixelora Flow: +465.000 instalaciones/semana (10×+), 366 K en total; n.º 18 en puzle gratis EE. UU. (19/11), n.º 2 en gratis Australia (12/11). Pixel Flow!: 14 M de instalaciones.",
+        "viabilidad": "Muy alta: rejilla, caminos de colores y niveles generados."
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: el breakout es real pero la mecánica ya está en Playgama 6+ veces; no hay hueco.",
+      "datos": [
+        {
+          "dato": "Pixelora Flow: +465.000 instalaciones/semana (10×+), 366 K en total; entró en AU Top Free n.º 2 el 12/11 (+13 charts)",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Pixelora Flow: n.º 18 en puzle gratis EE. UU. (19/11); Pixel Flow!: 14 M de instalaciones",
+          "fuente": "https://www.appbrain.com/stats/google-play-rankings/top_free/puzzle/us"
+        },
+        {
+          "dato": "Playgama «flow»: 6+ juegos de flujo (FLOW CONNECT, Flow Line Puzzle, Flow Line, Pixel Flow, Pixel Flow: Color Blast, Foody Flow, Fruit Flow, Water Flow)",
+          "fuente": "https://playgama.com/search?q=flow"
+        }
+      ],
+      "duracionSesion": "Tableros de 30-90 s. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-19",
+      "gancho": "Une los puntos del mismo color sin cruzar los caminos. Cada tablero, más enrevesado.",
+      "genero": "Puzle de flujo (conectar colores)",
+      "hacibleEnUnDia": true,
+      "id": "pixel-flow",
+      "motivo": "NO APTA: el breakout es real pero la mecánica ya está en Playgama 6+ veces; no hay hueco.",
+      "motivoRechazo": "La mecánica ya está en Playgama 6+ veces (FLOW CONNECT, Flow Line Puzzle, Pixel Flow...); el breakout móvil no abre hueco en web.",
+      "nombre": "Flujo de Colores",
+      "nueva": true,
+      "origen": "Investigación diaria 19/11/2026 08:00",
+      "porQueFunciona": "Pixelora Flow es breakout con +465.000/semana, pero en Playgama el flujo ya lo cubren 6+ juegos.",
+      "potencialViral": 3,
+      "puntuacion": {
+        "adiccion": 3,
+        "competencia": 1,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 3,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 5,
+        "tendencia": 5,
+        "total": 25,
+        "viabilidad1Dia": 5
+      },
+      "titulo": "Flujo de Colores",
+      "tituloEN": "Pixel Flow",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "Tableros cada vez más enrevesados y el «¡era esa primero!»; poco más.",
+        "competencia": "Alta en Playgama: 7+ juegos de quitar flechas en orden (Arrow Puzzle n.º 2 en tendencias nov, Arrow Puzzle Galaxy, Arrow Out Puzzle Escape, Gummy Arrows, Neon Vector Jam, Arrows, Yarn to Art: Arrow Puzzle).",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals"
+        ],
+        "hypercasualQueFunciona": "Arrow Puzzle de Easybrain: 110 M de instalaciones, 9,7 M recientes, n.º 24 en puzle EE. UU. La mecánica está validada a lo grande en móvil, pero en web ya la cubren todos.",
+        "monetizacion": "Anuncio entre tableros. Anuncio con recompensa: una pista o un corazón extra.",
+        "potencialViral": "Bajo: resolver el orden correcto no se graba como un momento.",
+        "se_entiende_3s_sin_texto": "A medias: ves las flechas y tocas la libre, pero hay que entender que el orden importa; sin texto cuesta un poco más.",
+        "tendencias": "Arrow Puzzle (Playgama): n.º 2 en tendencias nov 2026, 4,6/1999 votos. Arrow Puzzle (Easybrain, móvil): 110 M de instalaciones, n.º 24 en puzle gratis EE. UU.",
+        "viabilidad": "Muy alta: rejilla de flechas, orden correcto y niveles generados."
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: la ola es real (n.º 2 en tendencias Playgama) pero 7+ juegos cubren la misma mecánica; sin hueco.",
+      "datos": [
+        {
+          "dato": "Arrow Puzzle: n.º 2 en tendencias Playgama nov 2026, 4,6/1999 votos",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        },
+        {
+          "dato": "Arrow Puzzle (Easybrain): 110 M de instalaciones, 9,7 M recientes; n.º 24 en puzle gratis EE. UU. (19/11)",
+          "fuente": "https://www.appbrain.com/stats/google-play-rankings/top_free/puzzle/us"
+        },
+        {
+          "dato": "Playgama «arrow»: 7+ juegos de quitar flechas en orden (Arrow Puzzle, Arrow Puzzle Galaxy, Arrow Out Puzzle Escape, Gummy Arrows, Neon Vector Jam, Arrows, Yarn to Art: Arrow Puzzle)",
+          "fuente": "https://playgama.com/search?q=arrow"
+        }
+      ],
+      "duracionSesion": "Tableros de 30-90 s. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-19",
+      "gancho": "Las flechas solo salen en el orden justo: toca la libre y vacía el tablero sin fallar.",
+      "genero": "Puzle de lógica (quitar flechas en orden)",
+      "hacibleEnUnDia": true,
+      "id": "flechas-en-orden",
+      "motivo": "NO APTA: la ola es real (n.º 2 en tendencias Playgama) pero 7+ juegos cubren la misma mecánica; sin hueco.",
+      "motivoRechazo": "7+ juegos de quitar flechas en orden en Playgama, incluido el Arrow Puzzle n.º 2 en tendencias; la ola no deja hueco.",
+      "nombre": "Flechas en Orden",
+      "nueva": true,
+      "origen": "Investigación diaria 19/11/2026 08:00",
+      "porQueFunciona": "Arrow Puzzle es n.º 2 en tendencias Playgama y 110 M en móvil, pero la mecánica ya la cubren 7+ juegos en web.",
+      "potencialViral": 2,
+      "puntuacion": {
+        "adiccion": 3,
+        "competencia": 1,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 3,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 4,
+        "tendencia": 5,
+        "total": 23,
+        "viabilidad1Dia": 5
+      },
+      "titulo": "Flechas en Orden",
+      "tituloEN": "Arrow Order",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "Voces cada vez más absurdas y la fiesta que se ríe; poco más en solitario.",
+        "competencia": "Baja en el subgénero: Playgama «voice» solo tiene Guess Monster Voice (adivinar la voz, sin grabar). Pero el formato no cabe en web.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals"
+        ],
+        "hypercasualQueFunciona": "Meme Voice: +1,9 M/semana (10×+), cruzó 1 M. El formato fiesta con voz es viral en móvil, pero depende del micrófono y del contenido del usuario.",
+        "monetizacion": "Anuncio entre rondas. Anuncio con recompensa: un efecto de voz nuevo.",
+        "potencialViral": "Alto: la voz con efectos es un clip. Pero el clip lo hace el jugador, no el juego.",
+        "se_entiende_3s_sin_texto": "A medias: grabar tu voz con efectos se entiende, pero exige permisos de micrófono y leer qué hacer.",
+        "tendencias": "Meme Voice: Record Party Game: +1,9 M instalaciones/semana (10×+), 1,4 M en total; cruzó 1 M esta semana.",
+        "viabilidad": "Baja: grabar voz en el navegador exige permisos, moderar contenido generado por el usuario y el formato fiesta necesita varios jugadores; no es un arcade de un toque y no cabe en un día con el nivel premium del estudio."
+      },
+      "competenciaNivel": "baja",
+      "conclusion": "NO APTA: breakout enorme, pero exige micrófono + contenido de usuario (riesgo de moderación en Playables) y no es un arcade de un toque.",
+      "datos": [
+        {
+          "dato": "Meme Voice: Record Party Game: +1,9 M instalaciones/semana (10×+), 1,4 M en total; cruzó 1 M esta semana",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Playgama «voice»: solo Guess Monster Voice (adivinar la voz, sin grabar); ningún juego de grabar voz con efectos",
+          "fuente": "https://playgama.com/search?q=voice"
+        }
+      ],
+      "duracionSesion": "Rondas de fiesta de 1-3 min. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-19",
+      "gancho": "Graba tu voz con efectos absurdos y que la fiesta adivine quién eres. La más ridícula gana.",
+      "genero": "Fiesta con voz (grabar + efectos)",
+      "hacibleEnUnDia": false,
+      "id": "voces-meme",
+      "motivo": "NO APTA: breakout enorme, pero exige micrófono + contenido de usuario (riesgo de moderación en Playables) y no es un arcade de un toque.",
+      "motivoRechazo": "Exige micrófono y contenido generado por el usuario (riesgo de moderación en Playables); el formato fiesta necesita varios jugadores y no es un arcade de un toque.",
+      "nombre": "Voces Meme",
+      "nueva": true,
+      "origen": "Investigación diaria 19/11/2026 08:00",
+      "porQueFunciona": "Meme Voice es breakout con +1,9 M/semana, pero en web el formato no cabe: micrófono, moderación y fiesta multijugador.",
+      "potencialViral": 4,
+      "puntuacion": {
+        "adiccion": 2,
+        "competencia": 4,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 3,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 3,
+        "tendencia": 5,
+        "total": 23,
+        "viabilidad1Dia": 2
+      },
+      "titulo": "Voces Meme",
+      "tituloEN": "Meme Voice Party",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "Anillos cada vez más enrevesados y el clic del encaje perfecto; poco más.",
+        "competencia": "Alta en Playgama: 6 juegos de anillos (Rotate Rings, Spin the Rings, Bubble Rings 3D, Rings Untie, Rings: Color Combos, Rings and Dot!), incluido el propio Rotate Rings.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals"
+        ],
+        "hypercasualQueFunciona": "Rotate Rings: n.º 6 en puzle gratis EE. UU., 16 M de instalaciones, 9,3 M recientes. Mecánica validada en móvil, pero el juego original ya está en Playgama.",
+        "monetizacion": "Anuncio entre niveles. Anuncio con recompensa: girar un anillo gratis.",
+        "potencialViral": "Bajo: encajar anillos no se graba como un momento.",
+        "se_entiende_3s_sin_texto": "Sí: toca el anillo y gira hasta que los colores encajen.",
+        "tendencias": "Rotate Rings: n.º 6 en puzle gratis EE. UU. (19/11), 16 M de instalaciones, 9,3 M recientes.",
+        "viabilidad": "Muy alta: anillos concéntricos, giro por toque y niveles generados."
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: el breakout es real pero el propio Rotate Rings ya está en Playgama, con 5 juegos más de anillos.",
+      "datos": [
+        {
+          "dato": "Rotate Rings: n.º 6 en puzle gratis EE. UU. (19/11), 16 M de instalaciones, 9,3 M recientes",
+          "fuente": "https://www.appbrain.com/stats/google-play-rankings/top_free/puzzle/us"
+        },
+        {
+          "dato": "Playgama «rings»: 6 juegos de anillos (Rotate Rings, Spin the Rings, Bubble Rings 3D, Rings Untie, Rings: Color Combos, Rings and Dot!)",
+          "fuente": "https://playgama.com/search?q=rings"
+        }
+      ],
+      "duracionSesion": "Niveles de 30-60 s. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-19",
+      "gancho": "Gira los anillos hasta que todos los colores encajen. Un toque, un giro, cero prisas.",
+      "genero": "Puzle de anillos giratorios",
+      "hacibleEnUnDia": true,
+      "id": "anillos-en-orden",
+      "motivo": "NO APTA: el breakout es real pero el propio Rotate Rings ya está en Playgama, con 5 juegos más de anillos.",
+      "motivoRechazo": "El propio Rotate Rings ya está en Playgama, con 5 juegos más de anillos; la mecánica está cubierta.",
+      "nombre": "Anillos en Orden",
+      "nueva": true,
+      "origen": "Investigación diaria 19/11/2026 08:00",
+      "porQueFunciona": "Rotate Rings es n.º 6 en puzle EE. UU. con 16 M, pero el juego original ya está en Playgama.",
+      "potencialViral": 2,
+      "puntuacion": {
+        "adiccion": 3,
+        "competencia": 1,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 3,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 5,
+        "tendencia": 4,
+        "total": 23,
+        "viabilidad1Dia": 5
+      },
+      "titulo": "Anillos en Orden",
+      "tituloEN": "Ring Spin",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "Piscinas cada vez más llenas y el orden perfecto de salida; poco más.",
+        "competencia": "Baja en el subgénero: Playgama «swim» no tiene ningún puzle de nadadores (solo piscinas, pesca y aquapark). Pero el ritmo es lento y el público, estrecho.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals"
+        ],
+        "hypercasualQueFunciona": "Swim Out entró en ID Top Paid n.º 24 (15/11). Un solo dato regional, sin breakout.",
+        "monetizacion": "Anuncio entre piscinas. Anuncio con recompensa: deshacer un movimiento.",
+        "potencialViral": "Bajo: ordenar nadadores por turnos no se graba como un momento.",
+        "se_entiende_3s_sin_texto": "A medias: los carriles y el orden de salida exigen aprender las reglas.",
+        "tendencias": "Swim Out: entró en ID Top Paid n.º 24 el 15/11. Sin pico en EE. UU. ni Europa.",
+        "viabilidad": "Media: rejilla de carriles, turnos y colisiones; el arte de la piscina es costoso para un día."
+      },
+      "competenciaNivel": "baja",
+      "conclusion": "NO APTA: sin competencia en Playgama pero puzle por turnos lento, poco viral y señal de tendencia débil (un solo mercado).",
+      "datos": [
+        {
+          "dato": "Swim Out: entró en ID Top Paid n.º 24 el 15/11",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Playgama «swim»: ningún puzle de nadadores (solo piscinas, pesca, aquapark y juegos de piscina de bolas)",
+          "fuente": "https://playgama.com/search?q=swim"
+        }
+      ],
+      "duracionSesion": "Piscinas de 60-120 s por turnos. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-19",
+      "gancho": "La piscina es un puzzle: mueve a cada nadador a su carril sin que choquen. Turno a turno.",
+      "genero": "Puzle por turnos (nadadores)",
+      "hacibleEnUnDia": true,
+      "id": "nada-en-la-piscina",
+      "motivo": "NO APTA: sin competencia en Playgama pero puzle por turnos lento, poco viral y señal de tendencia débil (un solo mercado).",
+      "motivoRechazo": "Puzle por turnos lento y poco viral; la señal es un solo mercado (ID Top Paid n.º 24) sin breakout.",
+      "nombre": "Nada en la Piscina",
+      "nueva": true,
+      "origen": "Investigación diaria 19/11/2026 08:00",
+      "porQueFunciona": "Swim Out entró en un top de pago regional, pero el ritmo por turnos no tiene momento viral ni hueco que valga.",
+      "potencialViral": 2,
+      "puntuacion": {
+        "adiccion": 2,
+        "competencia": 5,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 3,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 3,
+        "tendencia": 3,
+        "total": 22,
+        "viabilidad1Dia": 4
+      },
+      "titulo": "Nada en la Piscina",
+      "tituloEN": "Swim Out Puzzle",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "adictivo": "Cintas cada vez más largas y el placer de despegar sin romper; poco más.",
+        "competencia": "Baja: Playgama «tape» solo tiene Car VS Tape (la cinta como obstáculo, otro género). Ningún juego de despegar cinta.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals"
+        ],
+        "hypercasualQueFunciona": "Tape Pop! es un lanzamiento nuevo de publisher (17/11), sin cifras. Un ejemplo es una anécdota, no un patrón: no hay breakout que lo respalde.",
+        "monetizacion": "Anuncio entre cintas. Anuncio con recompensa: una cinta extra.",
+        "potencialViral": "Medio: el peeling ASMR se comparte, pero es lento y sin momento de clímax.",
+        "se_entiende_3s_sin_texto": "A medias: arrastrar para despegar se entiende, pero hay que aprender que tirar rápido rompe.",
+        "tendencias": "Tape Pop!: lanzamiento de publisher el 17/11, sin cifras de instalaciones. Sin breakout ni entrada en rankings.",
+        "viabilidad": "Muy alta: arrastre para despegar, rotura si tiras rápido y niveles generados."
+      },
+      "competenciaNivel": "baja",
+      "conclusion": "NO APTA: hueco real (0 juegos de despegar cinta) pero señal de tendencia demasiado débil y poca adicción; un lanzamiento sin cifras no es un patrón.",
+      "datos": [
+        {
+          "dato": "Tape Pop!: lanzamiento de publisher el 17/11, sin cifras de instalaciones",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Playgama «tape»: solo Car VS Tape (la cinta como obstáculo); ningún juego de despegar cinta",
+          "fuente": "https://playgama.com/search?q=tape"
+        }
+      ],
+      "duracionSesion": "Cintas de 20-60 s. Tiempo real: sin datos.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-19",
+      "gancho": "Despega la cinta sin romperla y descubre lo que hay debajo. Lento, o se rompe.",
+      "genero": "ASMR de despegar (peel)",
+      "hacibleEnUnDia": true,
+      "id": "despega-la-cinta",
+      "motivo": "NO APTA: hueco real (0 juegos de despegar cinta) pero señal de tendencia demasiado débil y poca adicción; un lanzamiento sin cifras no es un patrón.",
+      "motivoRechazo": "Señal de tendencia demasiado débil (un lanzamiento de publisher sin cifras) y poca adicción; el hueco existe pero no hay ola que lo empuje.",
+      "nombre": "Despega la Cinta",
+      "nueva": true,
+      "origen": "Investigación diaria 19/11/2026 08:00",
+      "porQueFunciona": "Tape Pop! es solo un lanzamiento sin cifras; despegar cinta no tiene breakout ni momento adictivo.",
+      "potencialViral": 3,
+      "puntuacion": {
+        "adiccion": 2,
+        "competencia": 5,
+        "escala": "cada criterio 1-5; total sobre 35",
+        "monetizacion": 3,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 4,
+        "tendencia": 2,
+        "total": 24,
+        "viabilidad1Dia": 5
+      },
+      "titulo": "Despega la Cinta",
+      "tituloEN": "Tape Peel",
+      "viralUrgente": false
     }
   ],
-  "actualizadoEn": "2026-11-18T08:25:00+01:00"
+  "actualizadoEn": "2026-11-19T08:15:00+01:00"
 }
