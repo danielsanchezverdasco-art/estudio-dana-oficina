@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16T09:58:18+01:00",
+  "updatedAt": "2026-11-19T11:00:00+01:00",
   "kpis": {
     "facturacionTotal": null,
     "facturacionMes": null,
-    "partidas": null,
+    "partidas": 70,
     "ingresosPorMilPartidas": null,
-    "publicados": 1,
+    "publicados": 0,
     "publicadosMeta": 200,
     "shortsPublicados": 0,
     "vistas": null,
-    "enDesarrollo": 6,
-    "enCola": 3
+    "enDesarrollo": 25,
+    "enCola": 2
   },
   "juegos": [
     {
       "id": "metro-nightmare",
       "titulo": "Metro Nightmare",
-      "estado": "publicado",
+      "estado": "desarrollo",
       "portada": "cover.metro",
       "facturacion": null,
       "partidas": null,
@@ -30,6 +30,177 @@
       "portada": "cover.mudanza",
       "facturacion": null,
       "partidas": null,
+      "vistas": null
+    },
+    {
+      "id": "luxury-watch-dealer",
+      "titulo": "Luxury Watch Dealer (Relojes de lujo)",
+      "estado": "desarrollo",
+      "portada": "cover.luxury-watch-dealer",
+      "facturacion": null,
+      "partidas": null,
+      "vistas": null
+    },
+    {
+      "id": "scribble-striker",
+      "titulo": "Scribble Striker (Fútbol de papel)",
+      "estado": "desarrollo",
+      "portada": "cover.scribble-striker",
+      "facturacion": 0.01,
+      "partidas": 21,
+      "vistas": null
+    },
+    {
+      "id": "sneak-out",
+      "titulo": "Sneak Out",
+      "estado": "desarrollo",
+      "portada": null,
+      "facturacion": 0,
+      "partidas": 2,
+      "vistas": null
+    },
+    {
+      "id": "monster-merge",
+      "titulo": "Monster Merge",
+      "estado": "desarrollo",
+      "portada": null,
+      "facturacion": 0.01,
+      "partidas": 2,
+      "vistas": null
+    },
+    {
+      "id": "dance-dash",
+      "titulo": "Dance Dash",
+      "estado": "desarrollo",
+      "portada": null,
+      "facturacion": 0.09,
+      "partidas": 4,
+      "vistas": null
+    },
+    {
+      "id": "scribble-striker-menus-nuevos",
+      "titulo": "Scribble Striker - Menus nuevos",
+      "estado": "desarrollo",
+      "portada": null,
+      "facturacion": 0,
+      "partidas": 10,
+      "vistas": null
+    },
+    {
+      "id": "garden-dash",
+      "titulo": "Garden Dash",
+      "estado": "desarrollo",
+      "portada": null,
+      "facturacion": 0.01,
+      "partidas": 3,
+      "vistas": null
+    },
+    {
+      "id": "dungeon-delve",
+      "titulo": "Dungeon Delve",
+      "estado": "desarrollo",
+      "portada": null,
+      "facturacion": 0,
+      "partidas": 4,
+      "vistas": null
+    },
+    {
+      "id": "sand-jam",
+      "titulo": "Sand Jam",
+      "estado": "desarrollo",
+      "portada": null,
+      "facturacion": 0,
+      "partidas": 2,
+      "vistas": null
+    },
+    {
+      "id": "pet-vet",
+      "titulo": "Pet Vet",
+      "estado": "desarrollo",
+      "portada": null,
+      "facturacion": 0.01,
+      "partidas": 3,
+      "vistas": null
+    },
+    {
+      "id": "island-tribe",
+      "titulo": "Island Tribe",
+      "estado": "desarrollo",
+      "portada": null,
+      "facturacion": 0.02,
+      "partidas": 1,
+      "vistas": null
+    },
+    {
+      "id": "burger-boss",
+      "titulo": "Burger Boss",
+      "estado": "desarrollo",
+      "portada": null,
+      "facturacion": 0.01,
+      "partidas": 6,
+      "vistas": null
+    },
+    {
+      "id": "rocket-rescue",
+      "titulo": "Rocket Rescue",
+      "estado": "desarrollo",
+      "portada": null,
+      "facturacion": 0.01,
+      "partidas": 3,
+      "vistas": null
+    },
+    {
+      "id": "crowd-clash",
+      "titulo": "Crowd Clash",
+      "estado": "desarrollo",
+      "portada": null,
+      "facturacion": 0,
+      "partidas": 1,
+      "vistas": null
+    },
+    {
+      "id": "snowball-fight",
+      "titulo": "Snowball Fight",
+      "estado": "desarrollo",
+      "portada": null,
+      "facturacion": 0.08,
+      "partidas": 0,
+      "vistas": null
+    },
+    {
+      "id": "sculpt-reveal",
+      "titulo": "Sculpt & Reveal (Esculpe la Figura)",
+      "estado": "desarrollo",
+      "portada": null,
+      "facturacion": 0,
+      "partidas": 3,
+      "vistas": null
+    },
+    {
+      "id": "doubloon-rush",
+      "titulo": "Doubloon Rush (Cofre del Doblon)",
+      "estado": "desarrollo",
+      "portada": null,
+      "facturacion": 0,
+      "partidas": 5,
+      "vistas": null
+    },
+    {
+      "id": "slice-serve",
+      "titulo": "Slice & Serve",
+      "estado": "desarrollo",
+      "portada": null,
+      "facturacion": 0,
+      "partidas": 0,
+      "vistas": null
+    },
+    {
+      "id": "marble-rush",
+      "titulo": "Marble Rush",
+      "estado": "desarrollo",
+      "portada": null,
+      "facturacion": 0,
+      "partidas": 0,
       "vistas": null
     },
     {
@@ -832,13 +1003,13 @@
   "actividad": [
     {
       "equipo": "Metro Nightmare",
-      "tarea": "Publicado en el Sandbox de Playgama (https://playgama.ai/play/vw3o2dpywoejvy). La ronda 11 está en revisión de Arte para sustituir esa versión.",
+      "tarea": "Ya no aparece en el panel developer de Playgama el 19/11 (la lista muestra 18 juegos en total). Ultimo dato 16/11: Sandbox Draft, 0 of 30 dias, 8 lanzamientos y 0 partidas.",
       "estado": "en curso",
       "desde": null
     },
     {
       "equipo": "Mudanza Extrema",
-      "tarea": "Subido como borrador en Playgama (ficha en inglés, zip y 3 portadas). En la prueba de calidad de Playgama antes de moderación.",
+      "tarea": "Ya no aparece en el panel developer de Playgama el 19/11 (la lista muestra 18 juegos en total). Ultimo dato 16/11: Sandbox Live, 1 of 30 dias, 5 lanzamientos, 2 partidas, 5:11 de media y 1,00 anuncios por partida (2 de 3 objetivos cumplidos).",
       "estado": "esperando",
       "desde": null
     },
@@ -868,8 +1039,14 @@
     },
     {
       "equipo": "Fútbol de papel",
-      "tarea": "En desarrollo, ronda 1.",
+      "tarea": "En Sandbox de Playgama (Draft, 30 dias restantes). 19/11: 63 lanzamientos, 21 partidas, 17/100 partidas cualificadas; 2:14 de media en Sandbox (objetivo 5:00) y 2m 2s en tiempo real; 0,94 anuncios por partida (objetivo 0,30 cumplido); 1 de 3 objetivos de Sandbox cumplidos. Ingresos (Daily Earned) 0,01 $. Panel: https://developer.playgama.com/applications/game/cmwjolg5v00s0jy0izncjeyol",
       "estado": "en curso",
+      "desde": null
+    },
+    {
+      "equipo": "Relojes de lujo",
+      "tarea": "Ya no aparece en el panel developer de Playgama el 19/11. Eliminado por orden de Daniel el 17/11. Ultimo dato 17/11: 9 lanzamientos, 3 partidas, 2/100 cualificadas, 0:58 de media y 2,00 anuncios por partida. Sin accion pendiente.",
+      "estado": "esperando",
       "desde": null
     },
     {
