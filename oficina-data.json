@@ -1,6 +1,6 @@
 {
   "_readme": "Fichero en vivo de la oficina Dana Games. Lo actualizan Dani y Anita (sus agentes) con CADA cambio: publicar, rechazar, empezar, terminar. La oficina lo lee y las listas se refrescan solas, sin reconstruir la página. No inventar nombres ni datos: solo lo verificado. Cuando Daniel diga los nombres de los 3 juegos nuevos de Anita, se ponen en anita.names y names_pending pasa a false.",
-  "updated_at": "2026-11-20 17:47",
+  "updated_at": "2026-11-20 17:57",
   "anita": {
     "names": [
       "Grid Defender",
@@ -48,16 +48,16 @@
     {
       "slug": "desenfunda-y-dispara",
       "title": "Desenfunda y Dispara",
-      "status": "EN MARCHA — RONDA 3 TERMINADA 17:25 (commit 7e1d50e, verificado en remoto): el gorro del forajido arreglado — gris con copa ensanchada y asiento profundo, crema sin torre (hat-cowboy-gray.png, hat-cowboy-cream.png, duelist.ts + scripts de prueba en probe-shots/hats/). ZIP NUEVO generado 17:25 (dana-template-playgama.zip, 2.476.869 B). Queda ~subir el zip a Sandbox + mi playtest en vivo + tu prueba en el móvil. | La ronda 2 sigue Live en Sandbox (https://playgama.ai/play/hieblcbwlaesap) y la revisión del catálogo ya está solicitada.",
-      "paso": "Ronda 3 en curso desde ~16:45: arreglo del gorro (hat-cowboy-cream.png, hat-cowboy-gray.png, duelist.ts modificados; probe-shots/hats/ + scripts fix-cream-hat.py, fix-gray-hat.py, probe-hats.py); sin commit aún, remoto en 1ffe0a0 (ls-remote OK 17:17). Ronda 2 Live en Sandbox desde ~14:26; revisión del catálogo solicitada.",
+      "status": "EN MARCHA — Ronda 3 terminada (commit 7e1d50e, zip 2,47 MB); pendiente mi verificación de los 3 sombreros en todos los estados antes de resubir. Queda ~mi verificación + subida a Sandbox + playtest en vivo + tu prueba en el móvil.",
+      "paso": "Ronda 3 (el gorro) terminada y pusheada (7e1d50e); zip nuevo 2,47 MB generado. Paso actual: verificación de Dani de las capturas de los 3 sombreros en todos los estados/rivales; sin resubir hasta verificar.",
       "queda": "~terminar ronda 3 + commit/push + resubir a Sandbox + re-playtest en vivo + tu prueba en el móvil"
     },
     {
       "slug": "vecinos",
       "title": "Vecinos («El Portero»)",
       "design": "Juego de la comunidad de vecinos: eres el portero; portero y vecinos como hojas de 4 frames animadas (idle/andar/trabajo), ascensor animado, fondos animados (ventanas día/noche, ropa tendida, gatos en el tejado). 100% vector animado, sin audio. Variante B «Torre Neón» (noche futurista, neón rosa/cian).",
-      "status": "LISTO PARA ELEGIR — ¡3 VERSIONES ENTREGADAS! Commit 0410d79 (20/11 16:10, verificado en remoto): A «Torre Tycoon 3D», B «Torre Pixel», C «Torre Clay» — menú + in-game de cada una (6 imágenes) + diseno.md + revisión de skills. PASO ACTUAL: versiones listas, esperando que Daniel elija. Queda ~tu elección + construir el juego completo idéntico a la elegida. La v1 antigua (7592245, Torre Neón) queda descartada por el reinicio desde cero (orden 20/11 16:50).",
-      "paso": "Estudio + 3 versiones entregadas (0410d79, 16:10, verificado en remoto 17:17 con ls-remote OK); agente terminado ~16:52. Verificado 17:17: 6 imágenes (variante-a/b/c menú+juego) + diseno.md + skills-revision-2011.md en el commit.",
+      "status": "EN MARCHA — Daniel aprobó la variante A (Torre Tycoon 3D) a las 17:30; agente construyendo el juego completo idéntico al mockup A. Queda ~construcción + mi verificación foto contra foto + subida a Sandbox.",
+      "paso": "Construcción del juego completo (variante A aprobada 17:30); agente en marcha desde ~17:55; el mockup A manda (menú + partida en vecinos-cero/variantes/).",
       "queda": "~tu elección + construir el juego completo idéntico a la elegida"
     },
     {
@@ -114,8 +114,8 @@
       "slug": "paper-soccer",
       "title": "Paper Soccer (fútbol, desde cero)",
       "design": "Paper soccer 10x16: dibujas con el dedo, rebote en puntos ya visitados, primer gol gana; IA rival, reto diario, misiones, liga por copas. Solo la idea y el gameplay de Scribble Striker (orden 20/11 16:50).",
-      "status": "LISTO PARA ELEGIR — ¡3 VERSIONES ENTREGADAS! Commit d9e9485 (20/11 16:14, verificado en remoto): A «Papel Clásico» (obligatoria), B «Neón Pizarra», C «Tycoon 3D» — menú + in-game de cada una (6 imágenes) + diseno.md + auditoría de 247 skills. PASO ACTUAL: versiones listas, esperando que Daniel elija. Queda ~tu elección + construir el juego completo idéntico a la elegida.",
-      "paso": "Estudio + 3 versiones entregadas (d9e9485, 16:14, verificado en remoto 17:17 con ls-remote OK); agente terminado ~16:56. Verificado 17:17: 6 imágenes (a-papel/b-neon/c-tycoon menú+juego) + diseno.md + skills-audit.md en el commit.",
+      "status": "EN MARCHA — Daniel rechazó el campo de las 3 versiones v1 (faltan líneas laterales blancas y línea del medio; diferenciar líneas de juego y de rebote); agente jugando al Scribble Striker en vivo para aprender el campo exacto y rehaciendo los 3 mockups (v2). Queda ~3 mockups v2 + tu elección + construir. Después: 10 skins de campo.",
+      "paso": "Rehacer los 3 mockups con el campo exacto del juego subido (d7nbp5h2yci4vs) y de la captura de Daniel; agente en marcha desde ~17:55; primero juega al juego en vivo y lee el código del campo.",
       "queda": "~tu elección + construir el juego completo idéntico a la elegida"
     }
   ],
@@ -236,7 +236,7 @@
       "reason": "Olvidado por orden de Daniel 20/11 16:50 — reinicio desde cero: solo Vecinos y fútbol (desde cero) + arreglo de Desenfunda en vivo. Juego completo construido y verificado, pero fuera del plan; no se presenta más."
     }
   ],
-  "resumen": "17:47 — ¡DESENFUNDA RONDA 3 TERMINADA! El gorro ya está arreglado (commit 7e1d50e, verificado en remoto): gris con copa ensanchada y asiento profundo, crema sin torre; zip nuevo generado (2,47 MB). Queda ~subir el zip a Sandbox + mi playtest en vivo + tu prueba en el móvil. Vecinos y Fútbol siguen esperando que elijas: 3 versiones de cada uno listas (Vecinos 0410d79: Tycoon 3D, Pixel, Clay; Fútbol d9e9485: Papel Clásico, Neón Pizarra, Tycoon 3D). Trueque/Rey/Carrera y los 5 amaz0n fuera del plan (orden 16:50). Anita sin cambios (Slice 4ea2167, Cyber 08abde42).",
+  "resumen": "17:57 — VECINOS A APROBADA por Daniel (Torre Tycoon 3D): agente construyendo el juego completo idéntico al mockup A. FÚTBOL: campo rechazado (faltan líneas laterales blancas y línea del medio; diferenciar líneas de juego y de rebote); agente jugando al Scribble en vivo para aprender el campo exacto y rehaciendo los 3 mockups (v2). DESENFUNDA RONDA 3 terminada (7e1d50e, zip 2,47 MB): pendiente mi verificación de los sombreros antes de resubir. Anita sin cambios.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
