@@ -21,6 +21,14 @@ Los agentes en la nube ven esta carpeta como `/cursor/stores/bot/juegos/skills-m
 | `ab-testing/` | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 60350 | Tests A/B de ganchos y portadas |
 | `virality/` | [Ootto-AI/claude-content-skills](https://github.com/Ootto-AI/claude-content-skills) | MIT | 463 | Guion y revisión de Reels/Shorts (datos reales de 262 posts de @jayantcreates.ai) |
 | `playgama-game-video/` | [Playgama/playgama-plugins](https://github.com/Playgama/playgama-plugins) (oficial de Playgama) | Apache-2.0 | 0 | Tráiler, Short o devlog del juego web con su propio estilo: graba el juego fotograma a fotograma (`film.mjs`) y monta el vídeo. Añadida 15/11/2026 |
+| `storyboard-artist/` | [aicodedecode/awesome-muse-skills](https://github.com/aicodedecode/awesome-muse-skills) | MIT | 69 | Storyboards para vídeos de marketing. Añadida 20/11/2026 |
+| `video-editor/` | [aicodedecode/awesome-muse-skills](https://github.com/aicodedecode/awesome-muse-skills) | MIT | 69 | Edición de vídeo: narrativa, gancho, ritmo. Añadida 20/11/2026 |
+| `ai-video-prompts/` | [aicodedecode/awesome-muse-skills](https://github.com/aicodedecode/awesome-muse-skills) | MIT | 69 | 545 prompts probados de vídeo con IA. Añadida 20/11/2026 |
+| `hyperframes/` | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | Apache-2.0 | 87165 | Vídeo MP4 determinista desde HTML/CSS. Añadida 20/11/2026 |
+| `hyperframes-cli/` | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | Apache-2.0 | 87165 | CLI de HyperFrames (lint, render). Añadida 20/11/2026 |
+| `hyperframes-registry/` | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | Apache-2.0 | 87165 | Catálogo de ~450 bloques/componentes de vídeo. Añadida 20/11/2026 |
+| `media-use/` | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | Apache-2.0 | 87165 | Medios para vídeo: música, SFX, voz, avatar. Añadida 20/11/2026 |
+| `story-animator/` | [deenukhan/story-animator](https://github.com/deenukhan/story-animator) | MIT | 34 | Historia narrada → MP4 2D dibujado en código. Añadida 20/11/2026 |
 
 Cada carpeta incluye `SKILL.md`, referencias o evals si las había, `LICENSE` y `SOURCE.md`.
 
@@ -30,3 +38,5 @@ Skills revisadas y no instaladas a propósito:
 - `charlie947/social-media-skills` (4709 estrellas, MIT): varias skills exigen Apify o Gemini de pago.
 - `remotion-dev/skills` (7118 estrellas): el repo no trae fichero LICENSE; las skills de Remotion ya están en el catálogo del agente (`remotion-captions`, `remotion-render`, `remotion-markup`) para montar el vídeo cuando haga falta.
 - `marcosmodly/marketing-skill` (139 estrellas, MIT, el repo pesa unos 113 MB): demasiado pesado para el disco; sus ideas de paquetes Shorts/Reels/TikTok están cubiertas por las skills de arriba.
+
+Ampliación 20/11/2026: +8 skills (ver `comunicacion-ias/informe-skills-nuevas-2026-11-20.md`). Estrellas de las filas nuevas leídas de la API de GitHub el 20/11/2026.

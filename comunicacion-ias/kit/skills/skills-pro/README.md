@@ -37,6 +37,27 @@ Cada carpeta incluye `SKILL.md`, referencias o guías si las había, `LICENSE` y
 | `playgama-metrics-snapshot/` | [Playgama/gamedev-skills](https://github.com/Playgama/gamedev-skills) (oficial de Playgama) | Apache-2.0 | 1 | Analítica real del juego en Playgama (jugadores, sesiones, retención, FPS) con instantánea verificable. Añadida 15/11/2026 |
 | `game-engagement-ideas/` | [Playgama/gamedev-skills](https://github.com/Playgama/gamedev-skills) (oficial de Playgama) | Apache-2.0 | 1 | Leer la analítica, ver dónde abandonan y escribir hipótesis de retención comprobables. Añadida 15/11/2026 |
 | `web-game-performance/` | [Playgama/gamedev-skills](https://github.com/Playgama/gamedev-skills) (oficial de Playgama) | Apache-2.0 | 1 | Rendimiento web medido (frame time, draw calls, 60 fps en móvil) con `perf.mjs`/`probe.js`. Complementa a `skills-arte/performance-optimization`. Añadida 15/11/2026 |
+| `prototype/` | [emilkowalski/skills](https://github.com/emilkowalski/skills) | MIT | 57145 | Prototipos rápidos para validar jugabilidad. Añadida 20/11/2026 |
+| `learn-taste/` | [emilkowalski/skills](https://github.com/emilkowalski/skills) | MIT | 57145 | Entrenar el gusto visual. Añadida 20/11/2026 |
+| `break-ui/` | [emilkowalski/skills](https://github.com/emilkowalski/skills) | MIT | 57145 | Romper la UI para encontrar debilidades. Añadida 20/11/2026 |
+| `develop-web-game/` | [aicodedecode/awesome-muse-skills](https://github.com/aicodedecode/awesome-muse-skills) | Apache-2.0 | 69 | Loop dev+test para juegos web con Playwright (autor: OpenAI; pensado para Codex, adaptar rutas). Añadida 20/11/2026 |
+| `ffmpeg-pro/` | [aicodedecode/awesome-muse-skills](https://github.com/aicodedecode/awesome-muse-skills) | MIT | 69 | Recetas FFmpeg. Añadida 20/11/2026 |
+| `e2e-testing-pro/` | [aicodedecode/awesome-muse-skills](https://github.com/aicodedecode/awesome-muse-skills) | MIT | 69 | E2E: journeys críticos, flakiness. Añadida 20/11/2026 |
+| `playwright-pro/` | [aicodedecode/awesome-muse-skills](https://github.com/aicodedecode/awesome-muse-skills) | MIT | 69 | Patrones Playwright. Añadida 20/11/2026 |
+| `playwright-cli/` | [microsoft/playwright-cli](https://github.com/microsoft/playwright-cli) | Apache-2.0 | 15324 | CLI oficial de Playwright. Añadida 20/11/2026 |
+| `qa-test-planner/` | [aicodedecode/awesome-muse-skills](https://github.com/aicodedecode/awesome-muse-skills) | MIT | 69 | Planificación de tests por riesgo. Añadida 20/11/2026 |
+| `tdd-pro/` | [aicodedecode/awesome-muse-skills](https://github.com/aicodedecode/awesome-muse-skills) | MIT | 69 | TDD red-green-refactor. Añadida 20/11/2026 |
+| `refactoring-pro/` | [aicodedecode/awesome-muse-skills](https://github.com/aicodedecode/awesome-muse-skills) | MIT | 69 | Refactoring seguro. Añadida 20/11/2026 |
+| `security-audit/` | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | MIT | 75976 | Auditoría de seguridad defensiva con sandbox. Añadida 20/11/2026 |
+| `ponytail/` | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | MIT | 195090 | Modo 'lazy senior dev', anti-bloat. Añadida 20/11/2026 |
+| `ponytail-review/` | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | MIT | 195090 | Revisión de un cambio. Añadida 20/11/2026 |
+| `ponytail-audit/` | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | MIT | 195090 | Auditoría de un repo entero. Añadida 20/11/2026 |
+| `ponytail-debt/` | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | MIT | 195090 | Ledger de atajos (`shortcut:`). Añadida 20/11/2026 |
+| `debugging-and-error-recovery/` | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | MIT | 119250 | Depuración sistemática (stop-the-line, bisect). Añadida 20/11/2026 |
+| `spec-driven-development/` | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | MIT | 119250 | Specs antes de código, con puertas de aprobación. Añadida 20/11/2026 |
+| `planning-and-task-breakdown/` | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | MIT | 119250 | Descomponer en tareas con aceptación y checkpoints. Añadida 20/11/2026 |
+| `incremental-implementation/` | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | MIT | 119250 | Rebanadas verticales finas y verificables. Añadida 20/11/2026 |
+| `shipping-and-launch/` | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | MIT | 119250 | Checklist pre-lanzamiento, flags, rollback. Añadida 20/11/2026 |
 
 Excepción a la regla de estrellas (15/11/2026): las skills de Playgama tienen 0–1 estrellas, pero vienen de la organización oficial de la plataforma donde publicamos (github.com/Playgama), con licencia Apache-2.0 y actividad de noviembre de 2026. Cada carpeta lleva LICENSE, NOTICE y SOURCE.md con el commit.
 
@@ -61,3 +82,5 @@ No se ha inventado ninguna skill. Estos huecos se buscaron en GitHub y no hay un
 - `Playgama/gamedev-skills/web-game-assets`: duplica `skills-arte/create-game-assets` y se centra en modelos 3D glTF.
 
 No se ha sustituido ninguna skill ya instalada (revisión 15/11/2026, 8:00): ninguna candidata era claramente mejor que las de `skills-arte`, `skills-competencia` o `skills-marketing`.
+
+Ampliación 20/11/2026: +21 skills (ver `comunicacion-ias/informe-skills-nuevas-2026-11-20.md`). Estrellas de las filas nuevas leídas de la API de GitHub el 20/11/2026 (Emil: 15/11/2026).
