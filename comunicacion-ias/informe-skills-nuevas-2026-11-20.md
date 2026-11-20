@@ -4,7 +4,7 @@ Segunda cosecha de skills de videojuegos desde GitHub, por orden de Daniel (20/1
 Solo skills. No se ha construido ningún juego ni se ha tocado el fútbol.
 
 - Rama: `niky/skills-nuevas-2011` (desde `origin/main`)
-- PR: (se añade tras crearla; ver pie)
+- PR: [#102](https://github.com/danielsanchezverdasco-art/estudio-dana-oficina/pull/102)
 - Base: `main` con 66 SKILL.md. **OJO: la PR #27 (147 skills del 15/11) sigue sin fusionarse**,
   así que la deduplicación se hizo contra 147 (móvil, rama `niky/skills-movil-1511`) + 13 (oficina,
   rama `niky/skills-oficina-1511`, PR #38) = 160 nombres únicos, no solo contra main.
@@ -198,4 +198,4 @@ Notas de instalación:
 ## PR
 
 - Rama: `niky/skills-nuevas-2011`
-- PR: (pendiente de crear tras el push)
+- PR: [#102](https://github.com/danielsanchezverdasco-art/estudio-dana-oficina/pull/102) — creada 20/11/2026
