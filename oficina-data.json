@@ -1,6 +1,6 @@
 {
   "_readme": "Fichero en vivo de la oficina Dana Games. Lo actualizan Dani y Anita (sus agentes) con CADA cambio: publicar, rechazar, empezar, terminar. La oficina lo lee y las listas se refrescan solas, sin reconstruir la página. No inventar nombres ni datos: solo lo verificado. Cuando Daniel diga los nombres de los 3 juegos nuevos de Anita, se ponen en anita.names y names_pending pasa a false.",
-  "updated_at": "2026-11-21 05:47",
+  "updated_at": "2026-11-21 06:17",
   "anita": {
     "names": [
       "Grid Defender",
@@ -245,7 +245,7 @@
       "reason": "Olvidado por orden de Daniel 20/11 16:50 — reinicio desde cero: solo Vecinos y fútbol (desde cero) + arreglo de Desenfunda en vivo. Juego completo construido y verificado, pero fuera del plan; no se presenta más."
     }
   ],
-  "resumen": "05:47 — Desenfunda r6 TERMINADA en código ~05:36 (710b8fc, zip 2,38 MB; gorra de perfil + gris/negro/crema con ojos visibles, anuncios revisados por el agente): pendiente subir a Sandbox + playtest en vivo. Paper Soccer A/B/C terminados en código, pendientes de verificación foto contra foto + subir a Playgama. Vecinos: arreglos terminados (fa52475), pendiente resubir a Sandbox + re-playtest. Anita sin cambios. Ningún agente de Dana Games en marcha. Sin mensaje a Daniel: son las 05:47, fuera de horario (08:00–23:00), y la r6 aún no tiene enlace jugable en Sandbox.",
+  "resumen": "06:17 — Sin cambios desde las 05:47 (verificado con ls-remote: remoto sin commits nuevos). Desenfunda r6 TERMINADA en código (710b8fc, zip 2,38 MB; gorra de perfil + gris/negro/crema con ojos visibles, anuncios revisados por el agente): pendiente subir a Sandbox + playtest en vivo. Paper Soccer A/B/C terminados en código, pendientes de verificación foto contra foto + subir a Playgama. Vecinos: arreglos terminados (fa52475), pendiente resubir a Sandbox + re-playtest. Anita sin cambios. Ningún agente de Dana Games en marcha. Sin mensaje a Daniel: son las 06:17, fuera de horario (08:00–23:00), y la r6 aún no tiene enlace jugable en Sandbox.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
