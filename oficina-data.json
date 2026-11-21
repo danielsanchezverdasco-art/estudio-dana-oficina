@@ -65,7 +65,7 @@
     {
       "slug": "difusion-paper-soccer-grok",
       "title": "Difusión Paper Soccer de Grok",
-      "status": "BLOQUEADO — Verificado 22:17: sin cambios desde 20:24: Facebook rechazó el inicio de sesión como Mozar Varistas (la sesión guardada está muerta y la contraseña guardada no la acepta). No se puede entrar en grupos ni preparar la difusión en Facebook hasta que Daniel arregle el login. La ventana del navegador YA NO está abierta (cerrada entre las 21:47 y las 22:17); para reintentarlo habría que abrir sesión de nuevo. Siguen faltando el link final del juego y la cuenta de Reddit (la crea él). Contacto ya decidido: su Gmail. 0 publicaciones hechas.",
+      "status": "BLOQUEADO — Verificado 22:17: sin cambios desde 20:24: Facebook rechazó el inicio de sesión como Mozar Varistas (la sesión guardada está muerta y la contraseña guardada no la acepta). No se puede entrar en grupos ni preparar la difusión en Facebook hasta que Daniel arregle el login. La ventana del navegador sigue abierta en la página de login de Facebook, esperando la contraseña corregida para retomar (verificado por mí 22:22). Siguen faltando el link final del juego y la cuenta de Reddit (la crea él). Contacto ya decidido: su Gmail. 0 publicaciones hechas.",
       "paso": "Verificado 22:17: sin cambios: plan listo 19:52; intento de entrar en grupos 20:23–20:24 FALLIDO (login rechazado por Facebook); la ventana del navegador ya NO está abierta (cerrada entre las 21:47 y las 22:17). 0 publicaciones — faltan link final + cuenta de Reddit + login de Facebook arreglado.",
       "queda": "~arreglar login de Facebook (Daniel) + link final + cuenta de Reddit, y entonces publicar"
     },
@@ -302,7 +302,7 @@
       "reason": "Olvidado por orden de Daniel 20/11 16:50 — reinicio desde cero: solo Vecinos y fútbol (desde cero) + arreglo de Desenfunda en vivo. Juego completo construido y verificado, pero fuera del plan; no se presenta más."
     }
   ],
-  "resumen": "22:17 — Sin cambios en 30 min, salvo una cosa: la ventana de Facebook ya no está abierta (se cerró entre las 21:47 y las 22:17). La difusión del Paper Soccer de Grok sigue BLOQUEADA (login de Mozar Varistas rechazado 20:24; 0 grupos unidos, 0 publicaciones). Faltan de Daniel: link final del juego, cuenta de Reddit y arreglar el login de Facebook (el contacto ya es su Gmail). Monster/Sushi/Spot pausados, sin cambios (tips e0d8a60 / 92eae16 / 3838cbd). Desenfunda r8 y Vecinos r3 pendientes.",
+  "resumen": "22:17 — Sin cambios en 30 min. La difusión del Paper Soccer de Grok sigue BLOQUEADA (login de Mozar Varistas rechazado 20:24; 0 grupos unidos, 0 publicaciones; la ventana del navegador sigue abierta en la página de login, esperando). Faltan de Daniel: link final del juego, cuenta de Reddit y arreglar el login de Facebook (el contacto ya es su Gmail). Monster/Sushi/Spot pausados, sin cambios (tips e0d8a60 / 92eae16 / 3838cbd). Desenfunda r8 y Vecinos r3 pendientes.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
