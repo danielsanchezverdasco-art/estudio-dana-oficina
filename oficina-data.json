@@ -1,6 +1,6 @@
 {
   "_readme": "Fichero en vivo de la oficina Dana Games. Lo actualizan Dani y Anita (sus agentes) con CADA cambio: publicar, rechazar, empezar, terminar. La oficina lo lee y las listas se refrescan solas, sin reconstruir la página. No inventar nombres ni datos: solo lo verificado. Cuando Daniel diga los nombres de los 3 juegos nuevos de Anita, se ponen en anita.names y names_pending pasa a false.",
-  "updated_at": "2026-11-21 14:17",
+  "updated_at": "2026-11-21 14:25",
   "anita": {
     "names": [
       "Grid Defender",
@@ -146,14 +146,14 @@
     {
       "slug": "monster-tavern",
       "title": "Monster Tavern",
-      "status": "Verificado 14:17: sin cambios (sigue 04d575f en GitHub, GDD pendiente de aprobación de Daniel; ningún agente en marcha). Verificado 13:47: sin cambios (sigue 04d575f en GitHub, GDD pendiente de aprobación de Daniel; ningún agente en marcha). Ya están los 4 GDDs de la tanda en GitHub (Sushi 890f551, Seagull f78a80a, Spot 09d1747). EN MARCHA — FASE 1 ENTREGADA y subida a GitHub en este run (commit 04d575f, rama niky/monster-tavern-2111): estudio de jugabilidad + GDD v1 borrador + biblia de arte + tabla de skills. El agente se quedó atascado al subirlo (su git fetch fue bloqueado por un aviso de riesgo) y lo he commiteado y pusheado yo, verificado con ls-remote. Paso actual: esperando que Daniel apruebe el GDD (N-21) — sin su OK no se genera ninguna imagen. Nada en marcha ahora mismo (sin agente). Queda ~: tras tu OK, 3 variantes de diseño + mockup acabado de la elegida + prototipo M1; sin estimación hasta aprobar el GDD.",
+      "status": "EN MARCHA — GDD APROBADO por Daniel 14:02 («Apruebo todo»). Fase 2 en marcha: biblia de arte + 3 variantes de diseño (menú + in-game); Daniel elige una antes del mockup. Queda ~: variantes para que Daniel elija. Verificado 14:17: sin cambios (sigue 04d575f en GitHub, GDD pendiente de aprobación de Daniel; ningún agente en marcha). Verificado 13:47: sin cambios (sigue 04d575f en GitHub, GDD pendiente de aprobación de Daniel; ningún agente en marcha). Ya están los 4 GDDs de la tanda en GitHub (Sushi 890f551, Seagull f78a80a, Spot 09d1747). EN MARCHA — FASE 1 ENTREGADA y subida a GitHub en este run (commit 04d575f, rama niky/monster-tavern-2111): estudio de jugabilidad + GDD v1 borrador + biblia de arte + tabla de skills. El agente se quedó atascado al subirlo (su git fetch fue bloqueado por un aviso de riesgo) y lo he commiteado y pusheado yo, verificado con ls-remote. Paso actual: esperando que Daniel apruebe el GDD (N-21) — sin su OK no se genera ninguna imagen. Nada en marcha ahora mismo (sin agente). Queda ~: tras tu OK, 3 variantes de diseño + mockup acabado de la elegida + prototipo M1; sin estimación hasta aprobar el GDD.",
       "paso": "Fase 1 entregada (04d575f); esperando aprobación del GDD por Daniel (N-21)",
       "queda": "~tras tu OK: 3 variantes + mockup + prototipo M1"
     },
     {
       "slug": "sushi-belt-frenzy",
       "title": "Sushi Belt Frenzy",
-      "status": "Verificado 14:17: sin cambios (sigue 890f551 en GitHub, GDD pendiente de aprobación de Daniel; ningún agente en marcha). EN MARCHA — FASE 1 ENTREGADA y subida a GitHub en este run (commit 890f551, rama niky/sushi-belt-2111): estudio de jugabilidad + GDD v1 + biblia de arte (esquema) + tabla de skills. El agente se quedó atascado al subirlo (aviso de riesgo) y lo he commiteado y pusheado yo, verificado con ls-remote. Paso actual: esperando que Daniel apruebe el GDD (N-21) — sin su OK no se genera ninguna imagen. Nada en marcha ahora mismo (sin agente). Queda ~: tras tu OK, 3 variantes de diseño + mockup acabado de la elegida + prototipo M1; sin estimación hasta aprobar el GDD.",
+      "status": "EN MARCHA — GDD APROBADO por Daniel 14:02 («Apruebo todo»). Fase 2 en marcha: biblia de arte + 3 variantes de diseño (menú + in-game); Daniel elige una antes del mockup. Queda ~: variantes para que Daniel elija. Verificado 14:17: sin cambios (sigue 890f551 en GitHub, GDD pendiente de aprobación de Daniel; ningún agente en marcha). EN MARCHA — FASE 1 ENTREGADA y subida a GitHub en este run (commit 890f551, rama niky/sushi-belt-2111): estudio de jugabilidad + GDD v1 + biblia de arte (esquema) + tabla de skills. El agente se quedó atascado al subirlo (aviso de riesgo) y lo he commiteado y pusheado yo, verificado con ls-remote. Paso actual: esperando que Daniel apruebe el GDD (N-21) — sin su OK no se genera ninguna imagen. Nada en marcha ahora mismo (sin agente). Queda ~: tras tu OK, 3 variantes de diseño + mockup acabado de la elegida + prototipo M1; sin estimación hasta aprobar el GDD.",
       "paso": "Fase 1 entregada (890f551); esperando aprobación del GDD por Daniel (N-21)",
       "queda": "~tras tu OK: 3 variantes + mockup + prototipo M1",
       "commit": "890f551"
@@ -161,7 +161,7 @@
     {
       "slug": "seagull-attack",
       "title": "Seagull Attack: Save the Sandwich",
-      "status": "Verificado 14:17: sin cambios (sigue f78a80a en GitHub, GDD pendiente de aprobación de Daniel; ningún agente en marcha). EN MARCHA — FASE 1 ENTREGADA y subida a GitHub en este run (commit f78a80a, rama niky/seagull-attack-2111): estudio de jugabilidad + GDD v1 + biblia de arte (esquema) + tabla de skills. El agente escribió los ficheros fuera del worktree y se quedó atascado al subir (aviso de riesgo); los he movido al worktree, commiteado y pusheado yo, verificado con ls-remote. Paso actual: esperando que Daniel apruebe el GDD (N-21) — sin su OK no se genera ninguna imagen. Nada en marcha ahora mismo (sin agente). Queda ~: tras tu OK, 3 variantes de diseño + mockup acabado de la elegida + prototipo M1; sin estimación hasta aprobar el GDD.",
+      "status": "EN MARCHA — GDD APROBADO por Daniel 14:02 («Apruebo todo»). Fase 2 en marcha: biblia de arte + 3 variantes de diseño (menú + in-game); Daniel elige una antes del mockup. Queda ~: variantes para que Daniel elija. Verificado 14:17: sin cambios (sigue f78a80a en GitHub, GDD pendiente de aprobación de Daniel; ningún agente en marcha). EN MARCHA — FASE 1 ENTREGADA y subida a GitHub en este run (commit f78a80a, rama niky/seagull-attack-2111): estudio de jugabilidad + GDD v1 + biblia de arte (esquema) + tabla de skills. El agente escribió los ficheros fuera del worktree y se quedó atascado al subir (aviso de riesgo); los he movido al worktree, commiteado y pusheado yo, verificado con ls-remote. Paso actual: esperando que Daniel apruebe el GDD (N-21) — sin su OK no se genera ninguna imagen. Nada en marcha ahora mismo (sin agente). Queda ~: tras tu OK, 3 variantes de diseño + mockup acabado de la elegida + prototipo M1; sin estimación hasta aprobar el GDD.",
       "paso": "Fase 1 entregada (f78a80a); esperando aprobación del GDD por Daniel (N-21)",
       "queda": "~tras tu OK: 3 variantes + mockup + prototipo M1",
       "commit": "f78a80a"
@@ -169,7 +169,7 @@
     {
       "slug": "spot-the-robot",
       "title": "Spot the Robot",
-      "status": "Verificado 14:17: sin cambios (sigue 09d1747 en GitHub, GDD pendiente de aprobación de Daniel; ningún agente en marcha). EN MARCHA — FASE 1 ENTREGADA y en GitHub (commit 09d1747, rama niky/spot-the-robot-2111): estudio de jugabilidad + GDD v1 + biblia de arte (esquema) + tabla de skills, verificado con ls-remote (el agente lo subió solo). Paso actual: esperando que Daniel apruebe el GDD (N-21) — sin su OK no se genera ninguna imagen. Nada en marcha ahora mismo (sin agente). Queda ~: tras tu OK, 3 variantes de diseño + mockup acabado de la elegida + prototipo M1; sin estimación hasta aprobar el GDD.",
+      "status": "EN MARCHA — GDD APROBADO por Daniel 14:02 («Apruebo todo»). Fase 2 en marcha: biblia de arte + 3 variantes de diseño (menú + in-game); Daniel elige una antes del mockup. Queda ~: variantes para que Daniel elija. Verificado 14:17: sin cambios (sigue 09d1747 en GitHub, GDD pendiente de aprobación de Daniel; ningún agente en marcha). EN MARCHA — FASE 1 ENTREGADA y en GitHub (commit 09d1747, rama niky/spot-the-robot-2111): estudio de jugabilidad + GDD v1 + biblia de arte (esquema) + tabla de skills, verificado con ls-remote (el agente lo subió solo). Paso actual: esperando que Daniel apruebe el GDD (N-21) — sin su OK no se genera ninguna imagen. Nada en marcha ahora mismo (sin agente). Queda ~: tras tu OK, 3 variantes de diseño + mockup acabado de la elegida + prototipo M1; sin estimación hasta aprobar el GDD.",
       "paso": "Fase 1 entregada (09d1747); esperando aprobación del GDD por Daniel (N-21)",
       "queda": "~tras tu OK: 3 variantes + mockup + prototipo M1",
       "commit": "09d1747"
@@ -292,7 +292,7 @@
       "reason": "Olvidado por orden de Daniel 20/11 16:50 — reinicio desde cero: solo Vecinos y fútbol (desde cero) + arreglo de Desenfunda en vivo. Juego completo construido y verificado, pero fuera del plan; no se presenta más."
     }
   ],
-  "resumen": "14:17 — SIN CAMBIOS desde las 13:47 (verificado en remoto, ls-remote OK; ningún agente de Dana Games en marcha). Los 4 GDDs siguen en GitHub esperando tu OK: Monster Tavern (04d575f), Sushi Belt Frenzy (890f551), Seagull Attack (f78a80a) y Spot the Robot (09d1747) — sin tu aprobación no hay imágenes. TYCOON 8×10: rediseño pendiente de arrancar. DESENFUNDA: falta ronda 8 (~2-3 h cuando arranque). VECINOS r3 en código, pendiente subir (~1 h). FÚTBOL A/B/C terminadas en código, pendientes de verificación + subir (~medio día). Anita sin cambios ni agentes en marcha.",
+  "resumen": "14:25 — Los 4 GDDs APROBADOS por Daniel 14:02 («Apruebo todo»). Fase 2 en marcha en los 4 juegos: 3 variantes de diseño por juego para que Daniel elija una antes del mockup. Resto sin cambios (Tycoon rediseño pendiente, Desenfunda r8, Vecinos r3, Fútbol A/B/C, Anita sin cambios).",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
