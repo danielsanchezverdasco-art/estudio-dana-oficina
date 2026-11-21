@@ -108,7 +108,25 @@
     "https://playgama.com/search?q=hide+and+seek",
     "https://playgama.com/search?q=fishing",
     "https://playgama.com/search?q=christmas",
-    "https://playgama.com/search?q=archery"
+    "https://playgama.com/search?q=archery",
+    "https://m-s-y.com/en/app/ranking/top-free-casual/",
+    "https://worldsapps.com/top/games/puzzle",
+    "https://Www.appbrain.com/stats/google-play-rankings/top_free/casual/us",
+    "https://Www.Appbrain.com/stats/google-play-rankings/top_new_free/casual/us",
+    "https://playgama.com/collections/top-puzzle-games",
+    "https://playgama.com/search?q=cooking",
+    "https://playgama.com/search?q=untangle",
+    "https://playgama.com/search?q=tangle",
+    "https://playgama.com/game/tangle-master-game",
+    "https://playgama.com/search?q=brain%20test",
+    "https://playgama.com/search?q=bulldozer",
+    "https://playgama.com/search?q=brick%20breaker",
+    "https://playgama.com/search?q=draw%20climber",
+    "https://playgama.com/search?q=draw%20legs",
+    "https://playgama.com/search?q=cat%20escape",
+    "https://www.Appbrain.Com/app/draw-climber/com.appadvisory.drawclimber",
+    "https://avbgames.com/game/draw-leg-3328.html",
+    "https://www.appbrain.com/appstore/draw-legs/ios-6812905680"
   ],
   "aptas": [
     {
@@ -1495,6 +1513,74 @@
       "temaViral": "Level Devil: n.º 5 histórico en Poki (4,32 M de votos) (20/11)",
       "titulo": "¡El Nivel Te Odia!",
       "tituloEN": "The Level Hates You"
+    },
+    {
+      "id": "dibuja-las-piernas",
+      "titulo": "Dibuja las Piernas",
+      "tituloEN": "Doodle Legs Dash",
+      "genero": "Dibujar con física (carrera de obstáculos)",
+      "gancho": "Dibuja las piernas de un cubo y míralo correr, tropezar y escalar: si te atascas, redibuja en marcha y sigue.",
+      "porQueFunciona": "Dibujar + física es la familia que más despega en Playables esta semana: Draw Crash Race hizo 968.000 partidas en 7 días y Draw Climber lleva 29 M. En Playgama no hay ningún juego de dibujar piernas.",
+      "viralUrgente": false,
+      "datos": [
+        {
+          "dato": "Draw Climber: 29 M de partidas en Playables (top 50, 20/11/2026)",
+          "fuente": "https://playables.games/best/"
+        },
+        {
+          "dato": "Draw Climber: 120 M de instalaciones en Google Play, 4,15★ (324.059 valoraciones); actualizado el 16/11/2026, ~4.700 instalaciones/día",
+          "fuente": "https://www.Appbrain.Com/app/draw-climber/com.appadvisory.drawclimber"
+        },
+        {
+          "dato": "Draw Crash Race: 968.000 partidas en 7 días en YouTube Playables",
+          "fuente": "https://playgama.com/blog/main/5-5m-plays-in-7-days-five-playgama-games-that-took-off-on-youtube-playables/"
+        },
+        {
+          "dato": "Playgama: con «draw climber» o «draw legs» no sale ningún juego de dibujar piernas; el vecino más cercano es Draw Crash Race (dibujar el coche, carrera)",
+          "fuente": "https://playgama.com/search?q=draw%20climber"
+        },
+        {
+          "dato": "«Draw Climber» (Voodoo), «Draw Leg» (BPTop, 2020) y «Draw Legs!» (iOS) están pillados: el título EN propio es «Doodle Legs Dash»",
+          "fuente": "https://avbgames.com/game/draw-leg-3328.html"
+        }
+      ],
+      "analisis": {
+        "tendencias": "Playables: Draw Climber 29 M (top 50, 20/11). Móvil: 120 M de instalaciones, ~4.700/día, actualizado 16/11/2026. La familia dibujar+física está caliente: Draw Crash Race 968.000 partidas en 7 días. TikTok/X/Shorts: sin datos. Google Trends ES: GTA 6 domina la semana (200.000+ búsquedas), sin hueco accionable para un juego de un día.",
+        "hypercasualQueFunciona": "Dibujar con física (Draw Crash Race) y los juegos de premio/probabilidad (Fast Cash Farkle n.º 5 en Casual EE. UU.) son lo que más sube esta semana.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://Www.appbrain.com/stats/google-play-rankings/top_free/casual/us"
+        ],
+        "competencia": "Baja en Playgama: 0 juegos de dibujar piernas (búsquedas «draw climber» y «draw legs»). Vecinos: Draw Crash Race (dibujar el coche y correr) y nuestro puente-del-repartidor (dibujar el puente). El líder del género (Draw Climber, Voodoo, 120 M) SÍ está en Playables: hay que diferenciarse con tema propio, niveles en solitario con estrellas y contrarreloj (no carrera contra rival), y personajes propios.",
+        "viabilidad": "Media: cubo + piernas que giran con Matter.js en Phaser 3; niveles por plantillas (llano, escaleras, huecos, pinchos, bolas). Riesgo: si la física se siente mal, el juego es malo; dedicar la mañana a ajustar el giro y el agarre, con 3 formas de ejemplo (rueda, patas largas, gancho).",
+        "potencialViral": "Alto: piernas absurdas y caídas se graban solas; «cualquier dibujo te hace correr» es el chiste del juego.",
+        "se_entiende_3s_sin_texto": "Sí: caja de dibujo con línea discontinua, dibujas y el cubo anda. La mano del tutorial lo enseña en el nivel 1.",
+        "adictivo": "60 niveles con estrellas, monedas y cubos/personajes desbloqueables; redibujar en marcha para superar cada obstáculo.",
+        "monetizacion": "Anuncio entre niveles. Anuncio con recompensa: redibujo extra o saltar un nivel."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 4,
+        "viabilidad1Dia": 3,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 4,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 25,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "baja",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles cortos de 20-60 s con estrellas y reintento. Tiempo real: sin dato.",
+      "conclusion": "APTA (al límite, 25/35): hueco real en Playgama y género probado con 120 M de instalaciones, pero la física hay que ajustarla bien en un día y el líder ya está en Playables.",
+      "nombre": "Dibuja las Piernas",
+      "fecha": "2026-11-21",
+      "nueva": true,
+      "estado": "apta",
+      "elegida": false,
+      "origen": "Investigación diaria 21/11/2026 08:00",
+      "motivo": "APTA: hueco real en Playgama (0 juegos de dibujar piernas) y género probado con 120 M de instalaciones; la física es el riesgo a gestionar."
     }
   ],
   "noAptas": [
@@ -3830,7 +3916,514 @@
       },
       "titulo": "Defensa del Jardín",
       "tituloEN": "Garden Defense TD"
+    },
+    {
+      "id": "cocina-caotica",
+      "titulo": "Cocina Caótica",
+      "tituloEN": "Kitchen Rush Chaos",
+      "genero": "Arcade de cocina (servir platos)",
+      "gancho": "Cocina platos contra el reloj y sírvelos antes de que los clientes se enfaden.",
+      "porQueFunciona": "La cocina está caliente en móvil esta semana: Royal Cooking es breakout (+639.000/semana) y We Are Cooking cruza los 10 M.",
+      "viralUrgente": false,
+      "datos": [
+        {
+          "dato": "Royal Cooking - Cooking Game: +639.000 instalaciones/semana frente a +43.000 (10×+)",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "We Are Cooking: Taste of Life cruza los 10 M de instalaciones (+788.000 esta semana)",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Cruise Chefs - Cooking Game: 232.000 instalaciones en su lanzamiento",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Playgama «cooking»: más de 15 juegos (Cooking City, Cooking Tasty, Cooking Marina, Cooking Utopia, Cake Maker, Cooking Shawarma Idle, Cook Soups, Cake Slice Sort 3D, Cat Cafe...) y colección Top 20 Cooking Games",
+          "fuente": "https://playgama.com/search?q=cooking"
+        }
+      ],
+      "analisis": {
+        "tendencias": "Móvil: Royal Cooking breakout; We Are Cooking 10 M. Playgama: la cocina ya está cubierta con más de 15 juegos.",
+        "competencia": "Muy alta: más de 15 juegos de cocina en Playgama, incluidos varios de restaurante y la colección Top 20 Cooking Games.",
+        "viabilidad": "Alta, pero sin hueco.",
+        "monetizacion": "Anuncio entre partidas."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 1,
+        "viabilidad1Dia": 4,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 5,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 23,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "muy alta",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles cortos.",
+      "motivoRechazo": "Saturado en Playgama: más de 15 juegos de cocina, incluidos varios de restaurante y la colección Top 20.",
+      "conclusion": "NO APTA: Saturado en Playgama: más de 15 juegos de cocina, incluidos varios de restaurante y la colección Top 20.",
+      "nombre": "Cocina Caótica",
+      "fecha": "2026-11-21",
+      "nueva": true,
+      "estado": "no apta",
+      "elegida": false,
+      "origen": "Investigación diaria 21/11/2026 08:00",
+      "motivo": "Saturado en Playgama: más de 15 juegos de cocina, incluidos varios de restaurante y la colección Top 20."
+    },
+    {
+      "id": "desenreda-el-cable",
+      "titulo": "Desenreda el Cable",
+      "tituloEN": "Cable Chaos Untangle",
+      "genero": "Puzle de desenredar",
+      "gancho": "Arrastra los nudos hasta que ningún cable se cruce.",
+      "porQueFunciona": "Line Tangle entra en el Top Free de Australia (+7 listas) esta semana.",
+      "viralUrgente": false,
+      "datos": [
+        {
+          "dato": "Line Tangle: Untangle Puzzle entra en AU Top Free el 18/11 (+7 listas más)",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Tangle Master Game (Playgama): desenredar cuerdas por orden; publicado 15/03/2026, actualizado 06/11/2026, 4,1★",
+          "fuente": "https://playgama.com/game/tangle-master-game"
+        },
+        {
+          "dato": "Playgama «untangle»: Untangle Threads y Yarn Fever! Unravel Puzzle también cubren el desenredo",
+          "fuente": "https://playgama.com/search?q=untangle"
+        }
+      ],
+      "analisis": {
+        "tendencias": "Móvil: Line Tangle entra en AU Top Free. Playgama: el desenredo ya está cubierto.",
+        "competencia": "Media-alta: Tangle Master Game + Untangle Threads + Yarn Fever cubren el desenredo en Playgama; Line Tangle es señal móvil, no hueco web.",
+        "viabilidad": "Muy alta (es trivial).",
+        "monetizacion": "Anuncio entre niveles."
+      },
+      "puntuacion": {
+        "tendencia": 3,
+        "competencia": 2,
+        "viabilidad1Dia": 5,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 5,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 24,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "alta",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles cortos.",
+      "motivoRechazo": "Cubierto en Playgama: Tangle Master Game, Untangle Threads y Yarn Fever ya hacen desenredar.",
+      "conclusion": "NO APTA: Cubierto en Playgama: Tangle Master Game, Untangle Threads y Yarn Fever ya hacen desenredar.",
+      "nombre": "Desenreda el Cable",
+      "fecha": "2026-11-21",
+      "nueva": true,
+      "estado": "no apta",
+      "elegida": false,
+      "origen": "Investigación diaria 21/11/2026 08:00",
+      "motivo": "Cubierto en Playgama: Tangle Master Game, Untangle Threads y Yarn Fever ya hacen desenredar."
+    },
+    {
+      "id": "prueba-de-listo",
+      "titulo": "Prueba de Listo",
+      "tituloEN": "Tricky Mind Test",
+      "genero": "Puzle de trampas mentales",
+      "gancho": "Cada nivel es una trampa: piensa fuera de la caja o pierde.",
+      "porQueFunciona": "Brainy Master 2: 890.000 instalaciones en 2 días.",
+      "viralUrgente": false,
+      "datos": [
+        {
+          "dato": "Brainy Master 2: Tricky Puzzle: lanzado 19/11/2026, ya 890.000 instalaciones",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Playgama «brain test»: Brain Test: IQ Challenge, Solve the Square: Find out your IQ y Knock Your Mind",
+          "fuente": "https://playgama.com/search?q=brain%20test"
+        }
+      ],
+      "analisis": {
+        "tendencias": "Móvil: Brainy Master 2 arranca con 890.000 instalaciones. Playgama: el género ya está.",
+        "competencia": "Alta: Brain Test: IQ Challenge y otros ya hacen trampas mentales en Playgama.",
+        "viabilidad": "Media: niveles hechos a mano, lentos para un día.",
+        "monetizacion": "Anuncio entre niveles."
+      },
+      "puntuacion": {
+        "tendencia": 3,
+        "competencia": 2,
+        "viabilidad1Dia": 3,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 3,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 20,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "alta",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles cortos.",
+      "motivoRechazo": "Cubierto en Playgama (Brain Test: IQ Challenge y otros) y niveles hechos a mano, lentos para un día.",
+      "conclusion": "NO APTA: Cubierto en Playgama (Brain Test: IQ Challenge y otros) y niveles hechos a mano, lentos para un día.",
+      "nombre": "Prueba de Listo",
+      "fecha": "2026-11-21",
+      "nueva": true,
+      "estado": "no apta",
+      "elegida": false,
+      "origen": "Investigación diaria 21/11/2026 08:00",
+      "motivo": "Cubierto en Playgama (Brain Test: IQ Challenge y otros) y niveles hechos a mano, lentos para un día."
+    },
+    {
+      "id": "demolicion-total",
+      "titulo": "Demolición Total",
+      "tituloEN": "Bulldozer Blitz",
+      "genero": "Arcade de demolición",
+      "gancho": "Conduce la excavadora y aplasta el edificio entero antes de que se acabe el tiempo.",
+      "porQueFunciona": "Bulldozer Master cruza los 10 M de instalaciones (+1 M esta semana).",
+      "viralUrgente": false,
+      "datos": [
+        {
+          "dato": "Bulldozer Master: Crush & Mine cruza los 10 M de instalaciones (+1 M esta semana)",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Playgama «demolition»: Block Demolition, Demolition Derpy Overdrive, Demolition Foreman, Car Crush, Car Destruction King, Demolition Derby, CrashNG, Voxplode y más (15+)",
+          "fuente": "https://playgama.com/search?q=demolition"
+        }
+      ],
+      "analisis": {
+        "tendencias": "Móvil: Bulldozer Master cruza 10 M. Playgama: la demolición está saturada.",
+        "competencia": "Muy alta: más de 15 juegos de demolición/destrucción en Playgama.",
+        "viabilidad": "Media: Bulldozer Master además es un sim 3D de móvil, no un arcade 2D.",
+        "monetizacion": "Anuncio entre partidas."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 1,
+        "viabilidad1Dia": 3,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 5,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 22,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "muy alta",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles cortos.",
+      "motivoRechazo": "Saturado en Playgama: más de 15 juegos de demolición/destrucción; Bulldozer Master además es un sim 3D.",
+      "conclusion": "NO APTA: Saturado en Playgama: más de 15 juegos de demolición/destrucción; Bulldozer Master además es un sim 3D.",
+      "nombre": "Demolición Total",
+      "fecha": "2026-11-21",
+      "nueva": true,
+      "estado": "no apta",
+      "elegida": false,
+      "origen": "Investigación diaria 21/11/2026 08:00",
+      "motivo": "Saturado en Playgama: más de 15 juegos de demolición/destrucción; Bulldozer Master además es un sim 3D."
+    },
+    {
+      "id": "rompebloques-expres",
+      "titulo": "Rompebloques Exprés",
+      "tituloEN": "Brick Breaker Rush",
+      "genero": "Arcade rompebloques",
+      "gancho": "Mueve la pala, rebota la bola y rompe todos los bloques con combos.",
+      "porQueFunciona": "Ace Breaker Rush: 975.000 instalaciones en 2 días.",
+      "viralUrgente": false,
+      "datos": [
+        {
+          "dato": "Ace Breaker Rush: lanzado 19/11/2026, ya 975.000 instalaciones",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Playgama «brick breaker»: Brick Breaker Chipi Chipi Chapa Chapa Cat, Bricks Balls Breaker y Mythic Ricochet: Orb Breaker",
+          "fuente": "https://playgama.com/search?q=brick%20breaker"
+        }
+      ],
+      "analisis": {
+        "tendencias": "Móvil: Ace Breaker Rush arranca con 975.000 instalaciones. Playgama: el hueco está cerrado.",
+        "competencia": "Alta: 3 rompebloques ya en Playgama.",
+        "viabilidad": "Muy alta (es trivial).",
+        "monetizacion": "Anuncio entre partidas."
+      },
+      "puntuacion": {
+        "tendencia": 3,
+        "competencia": 2,
+        "viabilidad1Dia": 5,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 5,
+        "adiccion": 2,
+        "monetizacion": 3,
+        "total": 22,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "alta",
+      "potencialViral": 2,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles cortos.",
+      "motivoRechazo": "Cubierto en Playgama: 3 rompebloques; género clásico sin tirón viral.",
+      "conclusion": "NO APTA: Cubierto en Playgama: 3 rompebloques; género clásico sin tirón viral.",
+      "nombre": "Rompebloques Exprés",
+      "fecha": "2026-11-21",
+      "nueva": true,
+      "estado": "no apta",
+      "elegida": false,
+      "origen": "Investigación diaria 21/11/2026 08:00",
+      "motivo": "Cubierto en Playgama: 3 rompebloques; género clásico sin tirón viral."
+    },
+    {
+      "id": "bajada-mortal",
+      "titulo": "Bajada Mortal",
+      "tituloEN": "Mountain Drop Drive",
+      "genero": "Conducción / descenso",
+      "gancho": "Baja la montaña esquivando rocas mientras el coche se va desarmando.",
+      "porQueFunciona": "Deadly Descent es n.º 8 en tendencias de Playgama.",
+      "viralUrgente": false,
+      "datos": [
+        {
+          "dato": "Deadly Descent: n.º 8 en tendencias de Playgama (noviembre de 2026), coches destructibles bajando la montaña",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        },
+        {
+          "dato": "Extreme Car Driving Simulator: n.º 14 en tendencias de Playgama",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        },
+        {
+          "dato": "Playgama «traffic»: más de 10 corredores de tráfico casi iguales",
+          "fuente": "https://playgama.com/search?q=traffic"
+        }
+      ],
+      "analisis": {
+        "tendencias": "Playgama: el descenso con destrucción ya es tendencia (Deadly Descent n.º 8).",
+        "competencia": "Muy alta: el propio referente vive en Playgama y la conducción está saturada.",
+        "viabilidad": "Media: la destrucción con física no se hace en un día al nivel premium.",
+        "monetizacion": "Anuncio entre partidas."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 1,
+        "viabilidad1Dia": 3,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 4,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 21,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "muy alta",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles cortos.",
+      "motivoRechazo": "El descenso con destrucción ya está en Playgama (Deadly Descent, n.º 8 en tendencias) y la conducción está saturada.",
+      "conclusion": "NO APTA: El descenso con destrucción ya está en Playgama (Deadly Descent, n.º 8 en tendencias) y la conducción está saturada.",
+      "nombre": "Bajada Mortal",
+      "fecha": "2026-11-21",
+      "nueva": true,
+      "estado": "no apta",
+      "elegida": false,
+      "origen": "Investigación diaria 21/11/2026 08:00",
+      "motivo": "El descenso con destrucción ya está en Playgama (Deadly Descent, n.º 8 en tendencias) y la conducción está saturada."
+    },
+    {
+      "id": "merge-y-hornea",
+      "titulo": "Merge y Hornea",
+      "tituloEN": "Merge & Bake Café",
+      "genero": "Merge / gestión de cafetería",
+      "gancho": "Fusiona ingredientes, desbloquea platos y restaura la cafetería de la abuela.",
+      "porQueFunciona": "Piece of Cake: Merge & Bake es n.º 1 en tendencias de Playgama.",
+      "viralUrgente": false,
+      "datos": [
+        {
+          "dato": "Piece of Cake: Merge & Bake: n.º 1 en tendencias de Playgama (noviembre de 2026), 6.000 partidas",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        },
+        {
+          "dato": "El merge domina el puzle en móvil: Gossip Harbor: Merge & Story, Tasty Travels: Merge Game, Travel Town - Merge Adventure, Hollywood Merge",
+          "fuente": "https://worldsapps.com/top/games/puzzle"
+        }
+      ],
+      "analisis": {
+        "tendencias": "Playgama: el n.º 1 de tendencias ya es un merge de cafetería.",
+        "competencia": "Muy alta: el hueco lo ocupa el líder de tendencias.",
+        "viabilidad": "Baja: un merge con meta (21 localizaciones, renovación) no se hace en un día al nivel premium.",
+        "monetizacion": "Anuncio entre partidas y rewarded."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 1,
+        "viabilidad1Dia": 2,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 4,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 22,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "muy alta",
+      "potencialViral": 3,
+      "hacibleEnUnDia": false,
+      "duracionSesion": "Niveles cortos.",
+      "motivoRechazo": "El n.º 1 de Playgama ya es un merge de cafetería; un merge con meta no se hace en un día al nivel premium.",
+      "conclusion": "NO APTA: El n.º 1 de Playgama ya es un merge de cafetería; un merge con meta no se hace en un día al nivel premium.",
+      "nombre": "Merge y Hornea",
+      "fecha": "2026-11-21",
+      "nueva": true,
+      "estado": "no apta",
+      "elegida": false,
+      "origen": "Investigación diaria 21/11/2026 08:00",
+      "motivo": "El n.º 1 de Playgama ya es un merge de cafetería; un merge con meta no se hace en un día al nivel premium."
+    },
+    {
+      "id": "planifica-el-look",
+      "titulo": "Planifica el Look",
+      "tituloEN": "Outfit Planner Studio",
+      "genero": "Vestir / planificar",
+      "gancho": "Arma el conjunto perfecto para cada ocasión y puntúa contra rivales.",
+      "porQueFunciona": "Outfit Planner: +652.000 instalaciones/semana (10×) en móvil.",
+      "viralUrgente": false,
+      "datos": [
+        {
+          "dato": "Outfit Planner: Fashion Games: +652.000 instalaciones/semana frente a +7.200 (10×+)",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "TB World: n.º 3 en tendencias de Playgama (18.000 partidas); Idol Livestream: Doll Dress Up n.º 13",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        }
+      ],
+      "analisis": {
+        "tendencias": "Móvil: Outfit Planner breakout. Playgama: la moda ya es tendencia.",
+        "competencia": "Alta: TB World e Idol Livestream dominan la moda en Playgama; Desfile Exprés ya cubre vestir en nuestra cola.",
+        "viabilidad": "Alta, pero sin hueco.",
+        "monetizacion": "Anuncio entre partidas."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 2,
+        "viabilidad1Dia": 4,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 4,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 23,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "alta",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles cortos.",
+      "motivoRechazo": "Moda/vestir saturada en Playgama (TB World, Idol Livestream) y ya cubierta en cola por Desfile Exprés.",
+      "conclusion": "NO APTA: Moda/vestir saturada en Playgama (TB World, Idol Livestream) y ya cubierta en cola por Desfile Exprés.",
+      "nombre": "Planifica el Look",
+      "fecha": "2026-11-21",
+      "nueva": true,
+      "estado": "no apta",
+      "elegida": false,
+      "origen": "Investigación diaria 21/11/2026 08:00",
+      "motivo": "Moda/vestir saturada en Playgama (TB World, Idol Livestream) y ya cubierta en cola por Desfile Exprés."
+    },
+    {
+      "id": "caos-en-la-ciudad-gta",
+      "titulo": "Caos en la Ciudad (estilo GTA)",
+      "tituloEN": "Grand City Chaos",
+      "genero": "Sandbox de acción / conducción",
+      "gancho": "Ciudad abierta, coches, persecuciones y caos total.",
+      "porQueFunciona": "GTA 6 es la historia de videojuegos de la semana en España (200.000+ búsquedas).",
+      "viralUrgente": false,
+      "datos": [
+        {
+          "dato": "«GTA 6»: 200.000+ búsquedas en Google España (pico 19/11/2026); «GTA»: 200.000+",
+          "fuente": "https://www.48hrstrends.com/Spain/this-week"
+        },
+        {
+          "dato": "«UK joins in GTA 6 frenzy as game becomes available worldwide» (BBC, vía 48HrsTrends)",
+          "fuente": "https://www.48hrstrends.com/Spain/this-week"
+        }
+      ],
+      "analisis": {
+        "tendencias": "España: GTA 6 es lo más buscado de la semana en videojuegos (200.000+).",
+        "competencia": "Muy alta: IP ajena (Rockstar) y mundo abierto 3D.",
+        "viabilidad": "Muy baja: imposible en un día en 2D.",
+        "riesgos": "Marca registrada: no se puede usar GTA ni su mundo.",
+        "monetizacion": "Sin datos."
+      },
+      "puntuacion": {
+        "tendencia": 5,
+        "competencia": 1,
+        "viabilidad1Dia": 1,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 4,
+        "adiccion": 4,
+        "monetizacion": 3,
+        "total": 22,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "muy alta",
+      "potencialViral": 4,
+      "hacibleEnUnDia": false,
+      "duracionSesion": "Niveles cortos.",
+      "motivoRechazo": "IP ajena + mundo abierto 3D: imposible en un día en 2D y riesgo de marca.",
+      "conclusion": "NO APTA: IP ajena + mundo abierto 3D: imposible en un día en 2D y riesgo de marca.",
+      "nombre": "Caos en la Ciudad (estilo GTA)",
+      "fecha": "2026-11-21",
+      "nueva": true,
+      "estado": "no apta",
+      "elegida": false,
+      "origen": "Investigación diaria 21/11/2026 08:00",
+      "motivo": "IP ajena + mundo abierto 3D: imposible en un día en 2D y riesgo de marca."
+    },
+    {
+      "id": "mahjong-clasico",
+      "titulo": "Mahjong Clásico",
+      "tituloEN": "Mahjong Classic Match",
+      "genero": "Mahjong solitario",
+      "gancho": "Empareja fichas iguales y limpia el tablero.",
+      "porQueFunciona": "Mahjong Classic es n.º 4 y Mahjong Lines n.º 12 en tendencias de Playgama.",
+      "viralUrgente": false,
+      "datos": [
+        {
+          "dato": "Mahjong Classic: n.º 4 en tendencias de Playgama; Mahjong Lines: n.º 12",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        },
+        {
+          "dato": "Mahjong Maris: n.º 3 en top nuevos gratis Casual EE. UU.; SoEasy Mahjong 2: Make Ten n.º 7",
+          "fuente": "https://Www.Appbrain.com/stats/google-play-rankings/top_new_free/casual/us"
+        }
+      ],
+      "analisis": {
+        "tendencias": "Playgama: dos mahjongs en el top 20 de tendencias. Móvil: el mahjong sigue entrando en tops de nuevos.",
+        "competencia": "Muy alta: el mahjong ya vive en Playgama, dos veces en tendencias.",
+        "viabilidad": "Muy alta (es trivial).",
+        "monetizacion": "Anuncio entre partidas."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 1,
+        "viabilidad1Dia": 5,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 5,
+        "adiccion": 2,
+        "monetizacion": 3,
+        "total": 22,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "muy alta",
+      "potencialViral": 2,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles cortos.",
+      "motivoRechazo": "Dos mahjongs ya en el top 20 de Playgama; clásico saturado sin diferenciación.",
+      "conclusion": "NO APTA: Dos mahjongs ya en el top 20 de Playgama; clásico saturado sin diferenciación.",
+      "nombre": "Mahjong Clásico",
+      "fecha": "2026-11-21",
+      "nueva": true,
+      "estado": "no apta",
+      "elegida": false,
+      "origen": "Investigación diaria 21/11/2026 08:00",
+      "motivo": "Dos mahjongs ya en el top 20 de Playgama; clásico saturado sin diferenciación."
     }
   ],
-  "actualizadoEn": "2026-11-20T08:15:00+01:00"
+  "actualizadoEn": "2026-11-21T08:11:46+01:00"
 }
