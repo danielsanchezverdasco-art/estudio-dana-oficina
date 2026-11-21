@@ -1,6 +1,6 @@
 {
   "_readme": "Fichero en vivo de la oficina Dana Games. Lo actualizan Dani y Anita (sus agentes) con CADA cambio: publicar, rechazar, empezar, terminar. La oficina lo lee y las listas se refrescan solas, sin reconstruir la página. No inventar nombres ni datos: solo lo verificado. Cuando Daniel diga los nombres de los 3 juegos nuevos de Anita, se ponen en anita.names y names_pending pasa a false.",
-  "updated_at": "2026-11-21 00:47",
+  "updated_at": "2026-11-21 01:17",
   "anita": {
     "names": [
       "Grid Defender",
@@ -45,7 +45,8 @@
     "Verificado 16:50: NOVEDAD — DESENFUNDA RONDA 3 EN CURSO (agente activo ~5 min, actividad hace segundos): Daniel lo está jugando en su móvil y el gorro del forajido se ve MAL — el agente arregla el gorro (wt-desenfunda-2011, HEAD 1ffe0a0, sin commit aún). Ronda 2 sigue Live en Sandbox; revisión del catálogo solicitada ~15:52. Sin cambios en el resto (Trueque a2190b6, Rey 943bc3e, Carrera d73199f, amaz0n 5 + Vecinos, fútbol 2f56e49, Anita sin cambios; ls-remote OK).",
     "Verificado 19:17: NOVEDAD — VECINOS JUEGO COMPLETO commiteado (5940bda, 19:04; zip Playgama 792K, precheck 0 FAIL, sonda 390x844 0 errores); FÚTBOL v2: 3 mockups commiteados (f0fc2c7, 19:02) — Daniel elige A/B/C; DESENFUNDA ronda 3 en Sandbox y playtest en vivo en curso (tarea de navegador activa ~18:56). Anita sin cambios (ls-remote OK: Slice 4ea2167, Cyber 08abde42, barista-r7 1a23f6a, estampida-r13 dde1b80).",
     "Verificado 20:17: DESENFUNDA ronda 4 EN MARCHA (agente activo desde ~19:51, 7 ficheros con cambios sin commitear; remoto sigue en 7e1d50e); VECINOS sin cambios (5940bda); FÚTBOL sin cambios (f0fc2c7, esperando elección); Anita sin cambios (Slice 4ea2167, Cyber 08abde42, barista-r7 1a23f6a, estampida-r13 dde1b80).",
-    "Verificado 00:17: sin cambios en nada (Desenfunda r5 e1116d1, Vecinos 5940bda, Fútbol f0fc2c7; Anita: Slice 4ea2167, Cyber 08abde42, barista-r7 1a23f6a, estampida-r13 dde1b80; Grid y Cofre sin rama). Ningún agente de Dana Games en marcha. Fuera de ventana: sin mensaje a Daniel."
+    "Verificado 00:17: sin cambios en nada (Desenfunda r5 e1116d1, Vecinos 5940bda, Fútbol f0fc2c7; Anita: Slice 4ea2167, Cyber 08abde42, barista-r7 1a23f6a, estampida-r13 dde1b80; Grid y Cofre sin rama). Ningún agente de Dana Games en marcha. Fuera de ventana: sin mensaje a Daniel.",
+    "Verificado 01:17: sin cambios en nada (Desenfunda r5 e1116d1, Vecinos 5940bda, Fútbol f0fc2c7; Anita: Slice 4ea2167, Cyber 08abde42, barista-r7 1a23f6a, estampida-r13 dde1b80); ningún agente de Dana Games en marcha; fuera de ventana (01:17), sin mensaje a Daniel."
   ],
   "in_progress": [
     {
@@ -239,7 +240,7 @@
       "reason": "Olvidado por orden de Daniel 20/11 16:50 — reinicio desde cero: solo Vecinos y fútbol (desde cero) + arreglo de Desenfunda en vivo. Juego completo construido y verificado, pero fuera del plan; no se presenta más."
     }
   ],
-  "resumen": "00:47 — Sin cambios desde las 23:47. DESENFUNDA ronda 5 TERMINADA y pusheada 23:38 (3bce071 + e1116d1, zip 2,44 MB): gorra sentada, anuncios ya no cortan el duelo, selector siempre visible + sonda del gris. Pendiente subir a Sandbox + nuevo playtest + tu aprobación visual. VECINOS: sin cambios (5940bda); queda subir a Sandbox + playtest + tu aprobación. FÚTBOL: sin cambios (f0fc2c7); esperando que elijas (A Papel / B Neón / C Tycoon). ANITA: sin cambios (verificado 00:47: Slice 4ea2167, Cyber 08abde42, barista-r7, estampida-r13; Grid y Cofre sin rama). Ningún agente de Dana Games en marcha. Fuera de ventana (00:47): sin mensaje a Daniel.",
+  "resumen": "01:17 — Sin cambios desde las 23:47. DESENFUNDA ronda 5 TERMINADA y pusheada 23:38 (3bce071 + e1116d1, zip 2,44 MB): gorra sentada, anuncios ya no cortan el duelo, selector siempre visible + sonda del gris. Pendiente subir a Sandbox + nuevo playtest + tu aprobación visual. VECINOS: sin cambios (5940bda, juego completo). FÚTBOL v2: sin cambios (f0fc2c7, 3 mockups con el campo exacto). ANITA: sin cambios (Slice 4ea2167, Cyber 08abde42). Ningún agente de Dana Games en marcha. Fuera de ventana (01:17), sin mensaje.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
