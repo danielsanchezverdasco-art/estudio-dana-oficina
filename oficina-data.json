@@ -1,6 +1,6 @@
 {
   "_readme": "Fichero en vivo de la oficina Dana Games. Lo actualizan Dani y Anita (sus agentes) con CADA cambio: publicar, rechazar, empezar, terminar. La oficina lo lee y las listas se refrescan solas, sin reconstruir la página. No inventar nombres ni datos: solo lo verificado. Cuando Daniel diga los nombres de los 3 juegos nuevos de Anita, se ponen en anita.names y names_pending pasa a false.",
-  "updated_at": "2026-11-22 07:47",
+  "updated_at": "2026-11-22 08:17",
   "anita": {
     "names": [
       "Grid Defender",
@@ -314,7 +314,7 @@
       "reason": "Olvidado por orden de Daniel 20/11 16:50 — reinicio desde cero: solo Vecinos y fútbol (desde cero) + arreglo de Desenfunda en vivo. Juego completo construido y verificado, pero fuera del plan; no se presenta más."
     }
   ],
-  "resumen": "07:47 — Sin cambios: ningún agente de Dana Games en marcha; nada nuevo en los repos (ls-remote OK con flags del almacén, tips iguales a las 06:47); Monster/Sushi/Spot siguen pausados (0 ficheros nuevos en sus worktrees desde las 06:47); la difusión del Paper Soccer de Grok sigue BLOQUEADA (login de Facebook rechazado 20:24; 0 grupos, 0 publicaciones). Faltan de Daniel: link final del juego, cuenta de Reddit y arreglar el login de Facebook. Desenfunda r8 y Vecinos r3 pendientes. Fuera de ventana (07:47): sin mensaje a Daniel.",
+  "resumen": "08:17 — Sin cambios en la noche: ningún agente de Dana Games en marcha; nada nuevo en los repos (ls-remote OK, tips iguales a ayer 22:47); Monster/Sushi/Spot siguen pausados (0 ficheros nuevos); la difusión del Paper Soccer de Grok sigue BLOQUEADA (login de Facebook rechazado 20:24; 0 grupos, 0 publicaciones; la ventana ya se cerró). Faltan de Daniel: link final del juego, cuenta de Reddit y arreglar el login de Facebook. Desenfunda r8 y Vecinos r3 pendientes. Ideas de hoy: 1 nueva apta, Quitanieves Monstruo (27/35), PR #107.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
