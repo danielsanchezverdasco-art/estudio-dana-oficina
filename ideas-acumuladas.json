@@ -126,7 +126,19 @@
     "https://playgama.com/search?q=cat%20escape",
     "https://www.Appbrain.Com/app/draw-climber/com.appadvisory.drawclimber",
     "https://avbgames.com/game/draw-leg-3328.html",
-    "https://www.appbrain.com/appstore/draw-legs/ios-6812905680"
+    "https://www.appbrain.com/appstore/draw-legs/ios-6812905680",
+    "https://www.crazygames.com/game/plowzilla",
+    "https://www.crazygames.com/game/slime-tower-heist",
+    "https://www.crazygames.com/game/cliff-crash",
+    "https://www.crazygames.com/game/act-casual-pfl",
+    "https://playgama.com/search?q=plow",
+    "https://playgama.com/search?q=slime",
+    "https://playgama.com/search?q=stealth",
+    "https://playgama.com/search?q=sniper",
+    "https://gamestats.appbrain.com/portals/crazygames",
+    "https://blog.playio.co/mobile-game-genres-list",
+    "https://gamestats.appbrain.com/insights",
+    "https://www.crankygames.com/blog/sniper-games-online"
   ],
   "aptas": [
     {
@@ -1581,6 +1593,74 @@
       "elegida": false,
       "origen": "Investigación diaria 21/11/2026 08:00",
       "motivo": "APTA: hueco real en Playgama (0 juegos de dibujar piernas) y género probado con 120 M de instalaciones; la física es el riesgo a gestionar."
+    },
+    {
+      "id": "quitanieves-monstruo",
+      "titulo": "Quitanieves Monstruo",
+      "tituloEN": "Monster Snowplow",
+      "genero": "Lanzamiento + aplastar + evolucionar (arcade de un toque)",
+      "gancho": "Mantén para cargar el lanzamiento, suelta y tu quitanieves sube la montaña aplastando muñecos de nieve, cabañas y barriles que explotan en cadena; con las monedas lo evolucionas hasta convertirlo en el Quitanieves Monstruo y romper el Muro de Hielo.",
+      "porQueFunciona": "El lanzamiento con carga es un verbo probado y viral (familia Learn to Fly); Plowzilla acaba de entrar nuevo en CrazyGames (n.º 6, 20/11) y la familia «+1 / evolución» está caliente en Playgama (Obby: +1 Speed n.º 13 en tendencias). En Playgama no hay ningún juego de quitanieves ni de bulldozer.",
+      "viralUrgente": false,
+      "datos": [
+        {
+          "dato": "Plowzilla: nuevo en CrazyGames el 20/11/2026 (n.º 6 en novedades), 96 likes y 15 dislikes (86 % positivos); bucle: cargar el lanzamiento, aplastar, monedas, 5 evoluciones y Muro de Hielo final",
+          "fuente": "https://www.crazygames.com/game/plowzilla"
+        },
+        {
+          "dato": "Playgama: con «plow» o «bulldozer» no sale ningún juego de quitanieves ni bulldozer; el vecino más cercano es Block Demolition",
+          "fuente": "https://playgama.com/search?q=plow"
+        },
+        {
+          "dato": "La familia «+1 / evolución» está caliente en Playgama: Obby: +1 Speed Keyboard Escape es n.º 13 en tendencias de noviembre; Epic Plane Evolution lleva 27 M de partidas en Playables",
+          "fuente": "https://playgama.com/collections/top-trending-now-games"
+        },
+        {
+          "dato": "Híbrido-casual: ingresos IAP +23 % en el 1.er semestre de 2026 (Sensor Tower); simulación e idle es el género que más terreno gana entre los lanzamientos web (+4,0 puntos)",
+          "fuente": "https://blog.playio.co/mobile-game-genres-list"
+        },
+        {
+          "dato": "«Plowzilla» está pillado (GKG, CrazyGames, 20/11/2026); el título EN propio «Monster Snowplow» no aparece como juego conocido",
+          "fuente": "https://www.crazygames.com/game/plowzilla"
+        }
+      ],
+      "analisis": {
+        "tendencias": "CrazyGames: Plowzilla nuevo n.º 6 (20/11), 86 % de likes. Playables: la evolución «+1» sigue caliente (Epic Plane Evolution 27 M; Obby: +1 Speed n.º 13 en Playgama). Invierno: empieza la temporada de nieve y el tema es de temporada, con diciembre a la vuelta de la esquina.",
+        "hypercasualQueFunciona": "Lanzar + aplastar + evolucionar: un solo toque, destrucción con físicas y meta de mejoras; la misma familia que Draw Crash Race (968.000 partidas en 7 días) y los «+1».",
+        "fuentesHypercasual": [
+          "https://gamestats.appbrain.com/portals/crazygames",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Baja en Playgama: 0 juegos de quitanieves o bulldozer (búsquedas «plow» y «bulldozer»). Vecinos: Block Demolition (demolición), Break The Noob Completely! (física de lanzamiento, n.º 20 en tendencias) y la estantería de destrucción (15+ juegos, según el rechazo de demolicion-total del 21/11). Diferencia: aquí el verbo es lanzar + aplastar + evolucionar la máquina, no demoler por demoler.",
+        "viabilidad": "Alta: vista lateral 2D, un botón (mantener para cargar, soltar para lanzar), físicas arcade de Phaser, obstáculos que se rompen, monedas y tienda de mejoras con 5 evoluciones. Sin 3D ni multijugador.",
+        "potencialViral": "Alto: el lanzamiento, los choques en cadena y el muñeco de nieve abominable que te persigue se graban solos; «de carrito con pala a monstruo» es el chiste del juego.",
+        "se_entiende_3s_sin_texto": "Sí: botón de lanzamiento con barra de carga, la máquina sube y aplasta todo. La mano del tutorial lo enseña en el nivel 1.",
+        "adictivo": "5 evoluciones, Muro de Hielo final, misiones, multiplicador de recompensa tras cada intento y Nueva Temporada con montaña nueva.",
+        "monetizacion": "Anuncio entre intentos. Anuncio con recompensa: doble de monedas o giro gratis del multiplicador."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 3,
+        "viabilidad1Dia": 4,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 5,
+        "adiccion": 4,
+        "monetizacion": 3,
+        "total": 27,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "media",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Intentos de 30-60 s encadenados con mejoras entre medias. Tiempo real: sin dato.",
+      "conclusion": "APTA (27/35): hueco real en Playgama (0 juegos de quitanieves/bulldozer), verbo de un toque probado y evolución «+1» caliente; la versión 2D es el juego original, no un recorte del 3D.",
+      "nombre": "Quitanieves Monstruo",
+      "fecha": "2026-11-22",
+      "nueva": true,
+      "estado": "apta",
+      "elegida": false,
+      "origen": "Investigación diaria 22/11/2026 08:00",
+      "motivo": "APTA: hueco real en Playgama (0 juegos de quitanieves/bulldozer) y lanzamiento + evolución, un verbo de un toque muy hacible en un día."
     }
   ],
   "noAptas": [
@@ -4423,7 +4503,351 @@
       "elegida": false,
       "origen": "Investigación diaria 21/11/2026 08:00",
       "motivo": "Dos mahjongs ya en el top 20 de Playgama; clásico saturado sin diferenciación."
+    },
+    {
+      "analisis": {
+        "tendencias": "El francotirador camuflado está caliente: 1,2 M de partidas en 7 días y Chameleon Sniper nuevo en CrazyGames.",
+        "hypercasualQueFunciona": "Buscar + disparar: legibilidad instantánea, el pitch cabe en tres palabras.",
+        "fuentesHypercasual": [
+          "https://playgama.com/blog/main/5-5m-plays-in-7-days-five-playgama-games-that-took-off-on-youtube-playables/"
+        ],
+        "competencia": "Muy alta en Playgama: Camo Sniper 3D, Hidden Sniper: Camo Hunter 3D y Chameleon Sniper hacen exactamente buscar-y-disparar; además hay 40+ juegos de francotirador en la búsqueda.",
+        "viabilidad": "Alta: escena 2D con señuelos, un objetivo y temporizador.",
+        "potencialViral": "Medio-alto: encontrar al escondido se graba bien, pero el tema ya lo explotan otros.",
+        "se_entiende_3s_sin_texto": "Sí: foto del objetivo, escena llena de iguales, toca para disparar.",
+        "adictivo": "Niveles con más señuelos y menos tiempo; rarezas de objetivo.",
+        "monetizacion": "Anuncio entre niveles. Anuncio con recompensa: pista o tiempo extra."
+      },
+      "competenciaNivel": "muy alta",
+      "conclusion": "NO APTA: hueco cerrado en Playgama: tres juegos cubren el francotirador camuflado (y 40+ de francotirador en total).",
+      "datos": [
+        {
+          "dato": "Camo Sniper 3D: Color Shooter: 1,2 M de partidas en 7 días en YouTube Playables",
+          "fuente": "https://playgama.com/blog/main/5-5m-plays-in-7-days-five-playgama-games-that-took-off-on-youtube-playables/"
+        },
+        {
+          "dato": "Playgama: Camo Sniper 3D: Color Shooter, Hidden Sniper: Camo Hunter 3D y Chameleon Sniper ya cubren el verbo buscar-y-disparar",
+          "fuente": "https://playgama.com/search?q=sniper"
+        },
+        {
+          "dato": "Chameleon Sniper: nuevo n.º 3 en CrazyGames (20/11/2026, Minty Lants)",
+          "fuente": "https://gamestats.appbrain.com/portals/crazygames"
+        }
+      ],
+      "duracionSesion": "Niveles de 20-40 s. Tiempo real: sin dato.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-22",
+      "gancho": "Encuentra al enemigo camuflado entre decenas de iguales y dispárale antes de que se acabe el tiempo.",
+      "genero": "Buscar + disparar (francotirador)",
+      "hacibleEnUnDia": true,
+      "id": "francotirador-camuflado",
+      "motivo": "NO APTA: hueco cerrado en Playgama: tres juegos cubren el francotirador camuflado (y 40+ de francotirador en total).",
+      "motivoRechazo": "hueco cerrado en Playgama: tres juegos cubren el francotirador camuflado (y 40+ de francotirador en total).",
+      "nombre": "Francotirador Camuflado",
+      "nueva": true,
+      "origen": "Investigación diaria 22/11/2026 08:00",
+      "porQueFunciona": "Camo Sniper 3D hizo 1,2 M de partidas en 7 días en Playables; el pitch cabe en tres palabras (find, aim, shoot).",
+      "potencialViral": 4,
+      "puntuacion": {
+        "tendencia": 5,
+        "competencia": 1,
+        "viabilidad1Dia": 4,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 5,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 25,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "titulo": "Francotirador Camuflado",
+      "tituloEN": "Camo Hunter Sniper",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "tendencias": "El choque con destrucción sube en web: Cliff Crash nuevo en CrazyGames y Deadly Descent n.º 8 en Playgama.",
+        "hypercasualQueFunciona": "Lanzar + volar + explotar: física espectacular y rejugable.",
+        "fuentesHypercasual": [
+          "https://gamestats.appbrain.com/portals/crazygames"
+        ],
+        "competencia": "Muy alta: el propio Cliff Crash ya está en Playgama (3/11/2026) y Deadly Descent cubre el descenso con destrucción.",
+        "viabilidad": "Baja: es 3D con físicas de vehículos, rampas y 5 mundos; no se hace en un día en 2D al nivel premium.",
+        "potencialViral": "Alto: los choques y las volteretas se graban solos.",
+        "se_entiende_3s_sin_texto": "Sí: rampa, coche, estrellarse; no necesita texto.",
+        "adictivo": "5 mundos, mejoras y distancia récord.",
+        "monetizacion": "Anuncio entre intentos. Anuncio con recompensa: doble de monedas."
+      },
+      "competenciaNivel": "muy alta",
+      "conclusion": "NO APTA: ya está en Playgama (3/11/2026) y es 3D con físicas de vehículos; el descenso con destrucción ya lo cubre Deadly Descent (n.º 8 en tendencias).",
+      "datos": [
+        {
+          "dato": "Cliff Crash: nuevo en CrazyGames el 20/11/2026 (n.º 5 en novedades), 356 likes / 36 dislikes; 5 mundos y mejoras de rampa, motor, blindaje, cohete y alas",
+          "fuente": "https://www.crazygames.com/game/cliff-crash"
+        },
+        {
+          "dato": "Cliff Crash ya está en Playgama (publicado 3/11/2026, 4,1/5)",
+          "fuente": "https://playgama.com/game/cliff-crash"
+        },
+        {
+          "dato": "Deadly Descent es n.º 8 en tendencias de Playgama (8k): el descenso con destrucción ya está cubierto",
+          "fuente": "https://playgama.com/collections/top-trending-now-games"
+        }
+      ],
+      "duracionSesion": "Intentos de 30-60 s. Tiempo real: sin dato.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-22",
+      "gancho": "Lánzate por la rampa, vuela, haz volteretas y estrella el coche contra casas, trenes y templos: cada choque suma.",
+      "genero": "Conducción de destrucción (rampa + saltos)",
+      "hacibleEnUnDia": true,
+      "id": "choque-en-el-acantilado",
+      "motivo": "NO APTA: ya está en Playgama (3/11/2026) y es 3D con físicas de vehículos; el descenso con destrucción ya lo cubre Deadly Descent (n.º 8 en tendencias).",
+      "motivoRechazo": "ya está en Playgama (3/11/2026) y es 3D con físicas de vehículos; el descenso con destrucción ya lo cubre Deadly Descent (n.º 8 en tendencias).",
+      "nombre": "Choque en el Acantilado",
+      "nueva": true,
+      "origen": "Investigación diaria 22/11/2026 08:00",
+      "porQueFunciona": "Física de destrucción + «¿qué pasa si lo estrello?»; 356 likes y 36 dislikes (91 %) en CrazyGames.",
+      "potencialViral": 4,
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 1,
+        "viabilidad1Dia": 2,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 4,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 21,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "titulo": "Choque en el Acantilado",
+      "tituloEN": "Cliff Smash Run",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "tendencias": "El slime sube en web: Slime Tower Heist nuevo n.º 2 en CrazyGames; 13 juegos de slime en Playgama.",
+        "hypercasualQueFunciona": "Romper + coger + huir cayendo: caída con riesgo y recompensa.",
+        "fuentesHypercasual": [
+          "https://gamestats.appbrain.com/portals/crazygames"
+        ],
+        "competencia": "Media: 13 juegos de slime en Playgama, pero 0 con el bucle atraco + caída; el hueco existe, es estrecho.",
+        "viabilidad": "Media: la caída con persecución y anillos se hace en 2D, pero el encanto del original es el 3D y la colección de 96 slimes, que no cabe en un día.",
+        "potencialViral": "Alto: slimes monos + huida por los pelos se graban bien.",
+        "se_entiende_3s_sin_texto": "Sí: rompe la caja, coge el slime, cae por el hueco.",
+        "adictivo": "Slimes raros por coleccionar y corral que da monedas (fuera del alcance de un día).",
+        "monetizacion": "Anuncio entre intentos. Anuncio con recompensa: vida extra."
+      },
+      "competenciaNivel": "media",
+      "conclusion": "NO APTA: 24/35, por debajo del corte: la estantería de slime en Playgama está llena (13 juegos) y la versión 2D de un día pierde el 3D y la colección de 96 slimes que venden el original.",
+      "datos": [
+        {
+          "dato": "Slime Tower Heist: nuevo n.º 2 en CrazyGames (20/11/2026, Fluffy Games), 284 likes / 27 dislikes; 96 slimes coleccionables, mutaciones y mejoras",
+          "fuente": "https://www.crazygames.com/game/slime-tower-heist"
+        },
+        {
+          "dato": "Playgama: 13 juegos de slime (Grow Slime, Slime Clicker, +1 Black Slime Evolution, Obby Slime RNG...) y ninguno es atraco a torre, pero la estantería de slime está llena",
+          "fuente": "https://playgama.com/search?q=slime"
+        },
+        {
+          "dato": "El original es 3D con joystick y cámara; la colección de 96 slimes con corral que da monedas no cabe en un día",
+          "fuente": "https://www.crazygames.com/game/slime-tower-heist"
+        }
+      ],
+      "duracionSesion": "Intentos de 30-60 s. Tiempo real: sin dato.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-22",
+      "gancho": "Rompe la caja de gelatina, coge el slime y huye cayendo por el hueco mientras el jefe te persigue; recoge anillos de oro por el camino.",
+      "genero": "Atraco + caída (arcade vertical)",
+      "hacibleEnUnDia": true,
+      "id": "atraco-torre-slime",
+      "motivo": "NO APTA: 24/35, por debajo del corte: la estantería de slime en Playgama está llena (13 juegos) y la versión 2D de un día pierde el 3D y la colección de 96 slimes que venden el original.",
+      "motivoRechazo": "24/35, por debajo del corte: la estantería de slime en Playgama está llena (13 juegos) y la versión 2D de un día pierde el 3D y la colección de 96 slimes que venden el original.",
+      "nombre": "Atraco a la Torre de Slime",
+      "nueva": true,
+      "origen": "Investigación diaria 22/11/2026 08:00",
+      "porQueFunciona": "Slime Tower Heist es nuevo n.º 2 en CrazyGames (20/11) con 284 likes y 27 dislikes (91 %); los slimes y la huida son clip-friendly.",
+      "potencialViral": 4,
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 3,
+        "viabilidad1Dia": 3,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 4,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 24,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "titulo": "Atraco a la Torre de Slime",
+      "tituloEN": "Slime Tower Dive",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "tendencias": "El sigilo es top en Playables: Stealth Master 101 M de partidas.",
+        "hypercasualQueFunciona": "Esperar el momento y pasar: tensión en cada paso.",
+        "fuentesHypercasual": [
+          "https://playables.games/best/"
+        ],
+        "competencia": "Alta en Playgama: Stealth Ninja y Stealth Silent Squid ya cubren el sigilo, y la familia de escapes cubre la huida; el verbo está cubierto.",
+        "viabilidad": "Alta: vista cenital, conos de visión y escondites se hacen en Phaser en un día.",
+        "potencialViral": "Medio: el sigilo se graba bien pero es de ritmo lento, menos «fail gracioso» instantáneo que un lanzamiento.",
+        "se_entiende_3s_sin_texto": "Sí, casi: no te vean, llega a la salida; el cono de visión necesita un segundo para leerse.",
+        "adictivo": "Niveles con estrellas, guardias más rápidos y rutas nuevas.",
+        "monetizacion": "Anuncio entre niveles. Anuncio con recompensa: pista de ruta."
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: 24/35, por debajo del corte: Stealth Ninja y Stealth Silent Squid ya cubren el sigilo en Playgama y la familia de escapes cubre la huida.",
+      "datos": [
+        {
+          "dato": "Stealth Master: 101 M de partidas en YouTube Playables (top 5, 20/11/2026)",
+          "fuente": "https://playables.games/best/"
+        },
+        {
+          "dato": "Playgama: Stealth Ninja y Stealth Silent Squid ya hacen sigilo, y la familia de escapes (Schoolboy Escape, +1 Speed: Escape Prison, Barry Prison) cubre la huida",
+          "fuente": "https://playgama.com/search?q=stealth"
+        }
+      ],
+      "duracionSesion": "Niveles de 30-90 s. Tiempo real: sin dato.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-22",
+      "gancho": "Cruza cada sala sin entrar en el cono de visión de los guardias: espera, escóndete y corre en el momento justo.",
+      "genero": "Sigilo top-down (pasar sin que te vean)",
+      "hacibleEnUnDia": true,
+      "id": "sigilo-maestro",
+      "motivo": "NO APTA: 24/35, por debajo del corte: Stealth Ninja y Stealth Silent Squid ya cubren el sigilo en Playgama y la familia de escapes cubre la huida.",
+      "motivoRechazo": "24/35, por debajo del corte: Stealth Ninja y Stealth Silent Squid ya cubren el sigilo en Playgama y la familia de escapes cubre la huida.",
+      "nombre": "Sigilo Maestro",
+      "nueva": true,
+      "origen": "Investigación diaria 22/11/2026 08:00",
+      "porQueFunciona": "Stealth Master lleva 101 M de partidas en YouTube Playables (n.º 5, 20/11/2026).",
+      "potencialViral": 3,
+      "puntuacion": {
+        "tendencia": 5,
+        "competencia": 2,
+        "viabilidad1Dia": 4,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 4,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 24,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "titulo": "Sigilo Maestro",
+      "tituloEN": "Shadow Sneak: Don't Get Seen",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "tendencias": "La fiesta multijugador aparece en CrazyGames, pero sin cifras de juego y fuera de Playables.",
+        "hypercasualQueFunciona": "Pelearse mientras finges ser normal: humor de situación.",
+        "fuentesHypercasual": [
+          "https://gamestats.appbrain.com/portals/crazygames"
+        ],
+        "competencia": "Alta: los brawlers multijugador no encajan en Playables; el género exige servidores y varios jugadores a la vez.",
+        "viabilidad": "Muy baja: 6-8 jugadores, Unity 6, solo escritorio; imposible en un día en Phaser 2D para móvil.",
+        "potencialViral": "Medio: las tortas entre alienígenas se graban, pero sin un jugador no hay Short que enseñar.",
+        "se_entiende_3s_sin_texto": "Regular: hacen falta varios jugadores para entender la gracia.",
+        "adictivo": "Partidas cortas de fiesta, sin meta de un jugador.",
+        "monetizacion": "Anuncio entre partidas; sin hueco claro para rewarded de un jugador."
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: multijugador de 6-8 jugadores en Unity 6 y solo escritorio: no se hace en un día ni encaja en Playables (móvil primero, un jugador).",
+      "datos": [
+        {
+          "dato": "Act Casual: nuevo en CrazyGames el 20/11/2026, brawler de fiesta de 6 jugadores (8 en Steam), Unity 6, solo escritorio",
+          "fuente": "https://www.crazygames.com/game/act-casual-pfl"
+        },
+        {
+          "dato": "Multijugador y solo escritorio: no encaja en YouTube Playables (móvil primero, un jugador) ni se hace en un día",
+          "fuente": "https://www.crazygames.com/game/act-casual-pfl"
+        }
+      ],
+      "duracionSesion": "Partidas de fiesta. Tiempo real: sin dato.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-22",
+      "gancho": "Unos alienígenas estrellados esperan el rescate en la Tierra... dándose de tortas entre ellos mientras fingen ser humanos.",
+      "genero": "Pelea de fiesta multijugador",
+      "hacibleEnUnDia": true,
+      "id": "fiesta-alienigena",
+      "motivo": "NO APTA: multijugador de 6-8 jugadores en Unity 6 y solo escritorio: no se hace en un día ni encaja en Playables (móvil primero, un jugador).",
+      "motivoRechazo": "multijugador de 6-8 jugadores en Unity 6 y solo escritorio: no se hace en un día ni encaja en Playables (móvil primero, un jugador).",
+      "nombre": "Fiesta Alienígena",
+      "nueva": true,
+      "origen": "Investigación diaria 22/11/2026 08:00",
+      "porQueFunciona": "Nuevo n.º 9 en CrazyGames (20/11/2026); el humor de «fingir ser humano» es el gancho.",
+      "potencialViral": 3,
+      "puntuacion": {
+        "tendencia": 3,
+        "competencia": 2,
+        "viabilidad1Dia": 1,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 3,
+        "adiccion": 3,
+        "monetizacion": 2,
+        "total": 17,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "titulo": "Fiesta Alienígena",
+      "tituloEN": "Aliens Behaving",
+      "viralUrgente": false
+    },
+    {
+      "analisis": {
+        "tendencias": "El fútbol callejero sube: Rogue Soccer nuevo n.º 1 en CrazyGames.",
+        "hypercasualQueFunciona": "Fútbol + mejoras roguelike: cada partido te hace más fuerte.",
+        "fuentesHypercasual": [
+          "https://gamestats.appbrain.com/portals/crazygames"
+        ],
+        "competencia": "Muy alta: duplica nuestro Scribble Striker (fútbol de papel), ya en producción; además es un roguelike 3D.",
+        "viabilidad": "Baja: roguelike 3D con mejoras, no hacible en un día en 2D al nivel premium.",
+        "potencialViral": "Medio: el fútbol callejero se graba, pero ya tenemos el fútbol del estudio.",
+        "se_entiende_3s_sin_texto": "Sí: fútbol, marca y mejora; no necesita texto.",
+        "adictivo": "Mejoras roguelike entre partidos.",
+        "monetizacion": "Anuncio entre partidos. Anuncio con recompensa: mejora extra."
+      },
+      "competenciaNivel": "muy alta",
+      "conclusion": "NO APTA: duplica nuestro Scribble Striker (fútbol de papel), ya en producción; además es un roguelike 3D, no hacible en un día en 2D.",
+      "datos": [
+        {
+          "dato": "Rogue Soccer: juego nuevo n.º 1 en CrazyGames (20/11/2026, Rogue Overlord)",
+          "fuente": "https://gamestats.appbrain.com/portals/crazygames"
+        }
+      ],
+      "duracionSesion": "Partidos cortos. Tiempo real: sin dato.",
+      "elegida": false,
+      "estado": "no apta",
+      "fecha": "2026-11-22",
+      "gancho": "Fútbol callejero con mejoras roguelike: cada partido te hace más canalla.",
+      "genero": "Fútbol roguelike",
+      "hacibleEnUnDia": true,
+      "id": "futbol-canalla",
+      "motivo": "NO APTA: duplica nuestro Scribble Striker (fútbol de papel), ya en producción; además es un roguelike 3D, no hacible en un día en 2D.",
+      "motivoRechazo": "duplica nuestro Scribble Striker (fútbol de papel), ya en producción; además es un roguelike 3D, no hacible en un día en 2D.",
+      "nombre": "Fútbol Canalla",
+      "nueva": true,
+      "origen": "Investigación diaria 22/11/2026 08:00",
+      "porQueFunciona": "Rogue Soccer es el juego nuevo n.º 1 de CrazyGames (20/11/2026).",
+      "potencialViral": 3,
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 1,
+        "viabilidad1Dia": 2,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 4,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 20,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "titulo": "Fútbol Canalla",
+      "tituloEN": "Rogue Street Soccer",
+      "viralUrgente": false
     }
   ],
-  "actualizadoEn": "2026-11-21T08:11:46+01:00"
+  "actualizadoEn": "2026-11-22T08:10:00+01:00"
 }
