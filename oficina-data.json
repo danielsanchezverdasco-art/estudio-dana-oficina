@@ -1,6 +1,6 @@
 {
   "_readme": "Fichero en vivo de la oficina Dana Games. Lo actualizan Dani y Anita (sus agentes) con CADA cambio: publicar, rechazar, empezar, terminar. La oficina lo lee y las listas se refrescan solas, sin reconstruir la página. No inventar nombres ni datos: solo lo verificado. Cuando Daniel diga los nombres de los 3 juegos nuevos de Anita, se ponen en anita.names y names_pending pasa a false.",
-  "updated_at": "2026-11-22 12:17",
+  "updated_at": "2026-11-22 12:47",
   "anita": {
     "names": [
       "Grid Defender",
@@ -8,7 +8,7 @@
       "Cyber Runner"
     ],
     "names_pending": false,
-    "paso": "Verificado 12:17: sin cambios (Slice 4ea2167, Cyber 08abde42, barista-r7 1a23f6a, estampida-r13 dde1b80; Grid y Cofre sin rama en dana-games-juegos; ls-remote OK con flags del almacén); ningún agente de Anita en marcha.",
+    "paso": "Verificado 12:17: sin cambios (Slice 4ea2167, Cyber 08abde42, barista-r7 1a23f6a, estampida-r13 dde1b80; Grid y Cofre sin rama en dana-games-juegos; ls-remote OK con flags del almacén); ningún agente de Anita en marcha. Verificado 12:47: verificación FRESCA (ls-remote OK con flags): sin cambios (Slice 4ea2167, Cyber 08abde42, barista-r7 1a23f6a, estampida-r13 dde1b80; Grid y Cofre sin rama en dana-games-juegos); ningún agente de Anita en marcha.",
     "queda": "Cyber: terminar build + subir ronda 2 al repo privado (assets+dist+zip+covers+GIF) + re-verificar. Slice: revisión de Dani + responder PREGUNTA-NIKY + OK de Daniel + publicar en Sandbox. Grid: terminar rebuild + smoke + lado a lado + ZIP + rama. Cofre: trasladar a dana-games-juegos + revisión de calidad.",
     "status": "Verificado 12:17: sin cambios (Slice 4ea2167, Cyber 08abde42, barista-r7 1a23f6a, estampida-r13 dde1b80; Grid y Cofre sin rama en dana-games-juegos; ls-remote OK con flags del almacén); ningún agente de Anita en marcha."
   },
@@ -74,28 +74,29 @@
     "Verificado 07:47: sin cambios en nada (Monster e0d8a60, Sushi 92eae16, Spot 3838cbd, Desenfunda 68d4134, Vecinos 8e3a722, Tycoon f52a9dd, Fútbol A/B/C sin cambios; Anita: Slice 4ea2167, Cyber 08abde42, barista-r7 1a23f6a, estampida-r13 dde1b80; Grid y Cofre sin rama). Difusión Paper Soccer sigue BLOQUEADA (login FB rechazado 20:24). Ningún agente de Dana Games en marcha. Fuera de ventana: sin mensaje a Daniel.",
     "Verificado 11:17: NOVEDAD — Quitanieves Monstruo fase 1 TERMINADA ~11:00: estudio + GDD v1 listos para aprobación de Daniel (GDD.md 34 KB + GAMEPLAY-ESTUDIO.md + skills-usadas.md + ESTADO.md en ~/workspace/quitanieves-monstruo-GDD/); BLOQUEO: no se pudo commitear/pushear — el worktree disparó aviso de riesgo de ejecución; los 4 ficheros siguen solo en disco, rama niky/quitanieves-monstruo-2111 sin aparecer en remoto (ls-remote OK); pendiente mover a quitanieves-monstruo/ + commit/push con flags del almacén (necesita OK de Daniel). NOVEDAD métricas 11:00 (PR #109, commit 5d65698): Playgama 25 juegos (23 Sandbox, 2 solo Draft, 0 catálogo), 305 lanzamientos, 92 partidas, 90 cualificadas, 0,49 $. Sin cambios en el resto (ls-remote OK: Monster e0d8a60, Sushi 92eae16, Spot 3838cbd, Tycoon f52a9dd, Desenfunda 68d4134, Vecinos 8e3a722, Slice 4ea2167, Cyber 08abde42, Burger 73f68a6, Pet Vet d4348d6, Dance d065e54, Monster Merge 271ffaf, Garden b495586, Dungeon 4d7c643, Sand 6364329, Marble 9689704, Crowd 12939dc, Snowball 06e02bf, Barista 1a23f6a, Estampida dde1b80; Grid y Cofre sin rama). Monster/Sushi/Spot siguen pausados en fase 4; difusión Paper Soccer sigue BLOQUEADA (login FB rechazado 20:24). Ningún agente de Dana Games en marcha.",
     "Verificado 11:47 (ls-remote OK con flags del almacén): NOVEDAD — Quitanieves Monstruo fase 1 YA EN REMOTO: GDD + estudio + skills (b37f656, rama niky/quitanieves-monstruo-2111, quitanieves-monstruo/); el push bloqueado de la mañana queda resuelto; GDD en BORRADOR, pendiente de que Daniel lo apruebe para seguir con las 3 variantes. Sin otros cambios (Monster e0d8a60, Sushi 92eae16, Spot 3838cbd pausados; Desenfunda 68d4134, Vecinos r3 8e3a722 sin subir, Tycoon f52a9dd, Fútbol A/B/C sin cambios; Anita sin cambios); ningún agente de Dana Games en marcha.",
-    "Verificado 12:17 (ls-remote OK con flags del almacén): NOVEDAD — Quitanieves Monstruo fase 2 TERMINADA (4ea0d9d, 10:58, en remoto): 3 variantes de diseño listas para que Daniel elija — A Clash Royale (la del GDD), B Tycoon 3D (diorama premium), C Cómic / cel shading; 6 imágenes (menú + in-game real con HUD) verificadas a tamaño real, VARIANTS.md con revisión de diseño; PARA hasta que Daniel elija variante (luego mockup). GDD aprobado por Daniel ~11:40 («Hazlo en quita leves»). Sin otros cambios (Monster e0d8a60, Sushi 92eae16, Spot 3838cbd pausados; Desenfunda 68d4134, Vecinos r3 8e3a722 sin subir, Tycoon f52a9dd, Fútbol A/B/C sin cambios; Anita sin cambios); ningún agente de Dana Games en marcha."
+    "Verificado 12:17 (ls-remote OK con flags del almacén): NOVEDAD — Quitanieves Monstruo fase 2 TERMINADA (4ea0d9d, 10:58, en remoto): 3 variantes de diseño listas para que Daniel elija — A Clash Royale (la del GDD), B Tycoon 3D (diorama premium), C Cómic / cel shading; 6 imágenes (menú + in-game real con HUD) verificadas a tamaño real, VARIANTS.md con revisión de diseño; PARA hasta que Daniel elija variante (luego mockup). GDD aprobado por Daniel ~11:40 («Hazlo en quita leves»). Sin otros cambios (Monster e0d8a60, Sushi 92eae16, Spot 3838cbd pausados; Desenfunda 68d4134, Vecinos r3 8e3a722 sin subir, Tycoon f52a9dd, Fútbol A/B/C sin cambios; Anita sin cambios); ningún agente de Dana Games en marcha.",
+    "Verificado 12:47: sin cambios en nada (ls-remote OK con flags del almacén: Quitanieves 4ea0d9d, Monster e0d8a60, Sushi 92eae16 (niky/sushi-belt-2111), Spot 3838cbd, Tycoon f52a9dd, Desenfunda 68d4134, Vecinos 8e3a722, Fútbol A/B/C sin cambios, Scribble Striker 2f56e49; Anita: Slice 4ea2167, Cyber 08abde42, barista-r7 1a23f6a, estampida-r13 dde1b80; Grid y Cofre sin rama). Difusión Paper Soccer sigue BLOQUEADA (login FB rechazado 20:24). Ningún agente de Dana Games en marcha."
   ],
   "in_progress": [
     {
       "slug": "difusion-paper-soccer-grok",
       "title": "Difusión Paper Soccer de Grok",
-      "status": "BLOQUEADO — Difusión del Paper Soccer de Grok: Facebook rechazó el login como Mozar Varistas (20:24); 0 grupos, 0 publicaciones. Verificado 11:17: sin cambios; faltan de Daniel: link final del juego, cuenta de Reddit y arreglar el login de Facebook.",
-      "paso": "Plan listo 19:52; intento de entrar en grupos 20:23–20:24 FALLIDO (login rechazado por Facebook). Verificado 11:17: sin cambios; ningún agente en marcha.",
+      "status": "BLOQUEADO — Difusión del Paper Soccer de Grok: Facebook rechazó el login como Mozar Varistas (20:24); 0 grupos, 0 publicaciones. Verificado 12:47: sin cambios; faltan de Daniel: link final del juego, cuenta de Reddit y arreglar el login de Facebook.",
+      "paso": "Plan listo 19:52; intento de entrar en grupos 20:23–20:24 FALLIDO (login rechazado por Facebook). Verificado 12:47: sin cambios; ningún agente en marcha.",
       "queda": "~arreglar login de Facebook (Daniel) + link final + cuenta de Reddit, y entonces publicar"
     },
     {
       "slug": "quitanieves-monstruo",
       "title": "Quitanieves Monstruo (Monster Snowplow)",
-      "status": "LISTO PARA PROBAR — Fase 2 TERMINADA: 3 variantes de diseño listas para que Daniel elija — A Clash Royale, B Tycoon 3D, C Cómic / cel shading (6 imágenes menú + in-game real con HUD, verificadas a tamaño real; 4ea0d9d, rama niky/quitanieves-monstruo-2111). GDD aprobado por Daniel ~11:40 («Hazlo en quita leves»). Verificado 12:17 con ls-remote.",
-      "paso": "Fase 2: 3 variantes y PARA hasta que Daniel elija una (luego mockup). Verificado 12:17: 4ea0d9d en remoto; ningún agente en marcha.",
+      "status": "LISTO PARA PROBAR — Verificado 12:47: sin cambios (sigue 4ea0d9d en remoto; esperando que Daniel elija variante; ningún agente en marcha). Fase 2 TERMINADA: 3 variantes de diseño listas para que Daniel elija — A Clash Royale, B Tycoon 3D, C Cómic / cel shading (6 imágenes menú + in-game real con HUD, verificadas a tamaño real; 4ea0d9d, rama niky/quitanieves-monstruo-2111). GDD aprobado por Daniel ~11:40 («Hazlo en quita leves»). Verificado 12:17 con ls-remote.",
+      "paso": "Verificado 12:47: sin cambios (sigue 4ea0d9d; esperando elección de Daniel; ningún agente en marcha). Fase 2: 3 variantes y PARA hasta que Daniel elija una (luego mockup). Verificado 12:17: 4ea0d9d en remoto; ningún agente en marcha.",
       "queda": "~elección de Daniel de la variante; luego fase 3 (mockup) + fase 4 (arte 3D + prototipo)"
     },
     {
       "slug": "desenfunda-y-dispara",
       "title": "Desenfunda y Dispara",
-      "status": "EN MARCHA — r7 en vivo en Sandbox; ronda 8 pendiente de arrancar. Verificado 11:17: sin cambios (sigue 68d4134 en remoto; ningún agente en marcha).",
-      "paso": "Ronda 8 pendiente de arrancar. Verificado 11:17: sin cambios (sigue 68d4134 en remoto; ningún agente en marcha).",
+      "status": "Verificado 12:47: sin cambios (sigue 68d4134 en vivo; ronda 8 pendiente de arrancar; ningún agente en marcha). EN MARCHA — r7 en vivo en Sandbox; ronda 8 pendiente de arrancar. Verificado 11:17: sin cambios (sigue 68d4134 en remoto; ningún agente en marcha).",
+      "paso": "Verificado 12:47: sin cambios (r7 sigue 68d4134 en vivo; ronda 8 pendiente de arrancar; ningún agente en marcha). Ronda 8 pendiente de arrancar. Verificado 11:17: sin cambios (sigue 68d4134 en remoto; ningún agente en marcha).",
       "queda": "~ronda 8 + resubida + re-playtest en vivo + prueba de Daniel",
       "commit": "68d4134"
     },
@@ -103,8 +104,8 @@
       "slug": "vecinos",
       "title": "Vecinos («El Portero»)",
       "design": "Juego de la comunidad de vecinos: eres el portero; portero y vecinos como hojas de 4 frames animadas (idle/andar/trabajo), ascensor animado, fondos animados (ventanas día/noche, ropa tendida, gatos en el tejado). 100% vector animado, sin audio. Variante B «Torre Neón» (noche futurista, neón rosa/cian).",
-      "status": "EN MARCHA — r3 en código (8e3a722), sin subir a Sandbox. Verificado 11:17: sin cambios; ningún agente en marcha.",
-      "paso": "Ronda 3 en código (8e3a722); pendiente subir a Sandbox + re-playtest. Verificado 11:17: sin cambios; ningún agente en marcha.",
+      "status": "Verificado 12:47: sin cambios (r3 sigue 8e3a722 en código, sin subir; ningún agente en marcha). EN MARCHA — r3 en código (8e3a722), sin subir a Sandbox. Verificado 11:17: sin cambios; ningún agente en marcha.",
+      "paso": "Verificado 12:47: sin cambios (r3 sigue 8e3a722; pendiente subir a Sandbox + re-playtest). Ronda 3 en código (8e3a722); pendiente subir a Sandbox + re-playtest. Verificado 11:17: sin cambios; ningún agente en marcha.",
       "queda": "~subida a Sandbox + re-playtest en vivo + prueba de Daniel",
       "commit": "bb497ed"
     },
@@ -162,15 +163,15 @@
       "slug": "paper-soccer",
       "title": "Paper Soccer (fútbol, desde cero)",
       "design": "Paper soccer 10x16: dibujas con el dedo, rebote en puntos ya visitados, primer gol gana; IA rival, reto diario, misiones, liga por copas. Solo la idea y el gameplay de Scribble Striker (orden 20/11 16:50).",
-      "status": "EN MARCHA — 3 versiones terminadas en código (A b09c9a7, B e9f6449, C 5aa2297). Verificado 11:17: sin cambios; ningún agente en marcha.",
-      "paso": "3 versiones en código; pendientes verificación foto contra foto + 3 apps en Playgama + playtests + elección de Daniel. Verificado 11:17: sin cambios; ningún agente en marcha.",
+      "status": "Verificado 12:47: sin cambios en A/B/C (b09c9a7, e9f6449, 5aa2297; ls-remote OK); ningún agente en marcha. EN MARCHA — 3 versiones terminadas en código (A b09c9a7, B e9f6449, C 5aa2297). Verificado 11:17: sin cambios; ningún agente en marcha.",
+      "paso": "Verificado 12:47: sin cambios (A/B/C b09c9a7, e9f6449, 5aa2297; ls-remote OK); pendientes verificación foto contra foto + apps Playgama + playtests. 3 versiones en código; pendientes verificación foto contra foto + 3 apps en Playgama + playtests + elección de Daniel. Verificado 11:17: sin cambios; ningún agente en marcha.",
       "queda": "~verificación foto contra foto + 3 apps en Playgama + playtests + elección de Daniel"
     },
     {
       "slug": "paper-soccer-tycoon-8x10",
       "title": "Paper Soccer Tycoon 8×10 (spec nueva de Daniel)",
-      "status": "EN MARCHA — hito 2 completo (f52a9dd); diseño rechazado por Daniel 21/11, rediseño pendiente de arrancar. Verificado 11:17: sin cambios; ningún agente en marcha.",
-      "paso": "Rediseño pendiente de arrancar (diseño rechazado por Daniel 21/11). Verificado 11:17: sin cambios; ningún agente en marcha.",
+      "status": "Verificado 12:47: sin cambios (sigue f52a9dd en vivo; rediseño pendiente de arrancar; ningún agente en marcha). EN MARCHA — hito 2 completo (f52a9dd); diseño rechazado por Daniel 21/11, rediseño pendiente de arrancar. Verificado 11:17: sin cambios; ningún agente en marcha.",
+      "paso": "Verificado 12:47: sin cambios (sigue f52a9dd; rediseño pendiente; ningún agente en marcha). Rediseño pendiente de arrancar (diseño rechazado por Daniel 21/11). Verificado 11:17: sin cambios; ningún agente en marcha.",
       "queda": "~rediseño del diseño + resubida + re-playtest en vivo + prueba de Daniel",
       "commit": "f52a9dd"
     },
@@ -215,7 +216,7 @@
       "playgama_url": "https://playgama.ai/play/d7nbp5h2yci4vs",
       "published_date": "2026-11-16",
       "slug": "scribble-striker",
-      "status": "LISTO PARA PROBAR — Scribble Striker 2f56e49 LIVE en Sandbox (https://playgama.ai/play/d7nbp5h2yci4vs). Verificado 11:47: sin cambios; ningún agente en marcha.",
+      "status": "Verificado 12:47: sin cambios; sigue 2f56e49 LIVE en Sandbox, LISTO PARA PROBAR; ningún agente en marcha. LISTO PARA PROBAR — Scribble Striker 2f56e49 LIVE en Sandbox (https://playgama.ai/play/d7nbp5h2yci4vs). Verificado 11:47: sin cambios; ningún agente en marcha.",
       "title": "Scribble Striker",
       "title_es": "Scribble Striker",
       "paso": "Publicado en Sandbox 16/11 (2f56e49); LISTO PARA PROBAR. Verificado 11:47: sin cambios; ningún agente en marcha.",
@@ -324,7 +325,7 @@
       "reason": "Olvidado por orden de Daniel 20/11 16:50 — reinicio desde cero: solo Vecinos y fútbol (desde cero) + arreglo de Desenfunda en vivo. Juego completo construido y verificado, pero fuera del plan; no se presenta más."
     }
   ],
-  "resumen": "12:17 — NOVEDAD: Quitanieves Monstruo fase 2 TERMINADA — 3 variantes listas para que Daniel elija: A Clash Royale, B Tycoon 3D y C Cómic / cel shading (6 imágenes menú + in-game real con HUD, verificadas a tamaño real; 4ea0d9d en remoto). GDD aprobado por Daniel ~11:40 («Hazlo en quita leves»). Sin cambios en el resto (ls-remote OK: Monster e0d8a60, Sushi 92eae16, Spot 3838cbd, Tycoon f52a9dd, Desenfunda 68d4134, Vecinos 8e3a722, Slice 4ea2167, Cyber 08abde42; Grid y Cofre sin rama). Monster/Sushi/Spot siguen pausados en fase 4; la difusión del Paper Soccer sigue BLOQUEADA (login de Facebook rechazado 20:24; 0 grupos, 0 publicaciones). Faltan de Daniel: elegir variante de Quitanieves, link final del Paper Soccer, cuenta de Reddit y arreglar el login de Facebook. Pendientes: Desenfunda r8 y Vecinos r3 (subir a Sandbox + playtest). Ningún agente de Dana Games en marcha.",
+  "resumen": "12:47 — Sin cambios desde las 12:17 (verificado en remoto, ls-remote OK): ningún agente de Dana Games en marcha. QUITANIEVES: fase 2 terminada, 3 variantes listas — A Clash Royale, B Tycoon 3D, C Cómic — esperando que Daniel elija una. DESENFUNDA r7 en vivo, falta RONDA 8. VECINOS r3 en código (8e3a722), pendiente subir a Sandbox + re-playtest. FÚTBOL A/B/C terminadas en código, pendientes de verificación + subir. Monster/Sushi/Spot siguen pausados en fase 4. La difusión del Paper Soccer sigue BLOQUEADA (login de Facebook rechazado 20:24; 0 grupos, 0 publicaciones). Faltan de Daniel: elegir variante de Quitanieves, link final del Paper Soccer, cuenta de Reddit y arreglar el login de Facebook. Anita sin cambios.",
   "stats": {
     "general": {
       "anuncios_vistos_totales": 0,
