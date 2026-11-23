@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-15T08:10:00+01:00",
+  "actualizado": "2026-11-23T08:00:00+01:00",
   "skills": [
     {
       "nombre": "phaser-core",
@@ -9,7 +9,8 @@
       "instalada": "2026-11-14",
       "usos": null,
       "usadaEn": [
-        "Estampida"
+        "Estampida",
+        "Scribble Striker"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -24,7 +25,11 @@
       "usadaEn": [
         "Barista",
         "Estampida",
-        "Metro Nightmare"
+        "Metro Nightmare",
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Sushi Belt Frenzy"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -39,7 +44,14 @@
       "usadaEn": [
         "Barista",
         "Estampida",
-        "Metro Nightmare"
+        "Metro Nightmare",
+        "Scribble Striker",
+        "Traffic Chaos",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Sushi Belt Frenzy",
+        "Spot the Robot",
+        "Quitanieves Tycoon"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -53,7 +65,9 @@
       "usos": null,
       "usadaEn": [
         "Estampida",
-        "Metro Nightmare"
+        "Metro Nightmare",
+        "Scribble Striker",
+        "Sushi Belt Frenzy"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -68,7 +82,11 @@
       "usadaEn": [
         "Barista",
         "Estampida",
-        "Metro Nightmare"
+        "Metro Nightmare",
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Sushi Belt Frenzy",
+        "Spot the Robot"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -81,7 +99,11 @@
       "instalada": "2026-11-14",
       "usos": null,
       "usadaEn": [
-        "Estampida"
+        "Estampida",
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Sushi Belt Frenzy"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -95,7 +117,11 @@
       "usos": null,
       "usadaEn": [
         "Estampida",
-        "Metro Nightmare"
+        "Metro Nightmare",
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Spot the Robot"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -108,7 +134,9 @@
       "instalada": "2026-11-14",
       "usos": null,
       "usadaEn": [
-        "Estampida"
+        "Estampida",
+        "Scribble Striker",
+        "Quitanieves Monstruo"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -121,7 +149,13 @@
       "instalada": "2026-11-14",
       "usos": null,
       "usadaEn": [
-        "Estampida"
+        "Estampida",
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Spot the Robot",
+        "Quitanieves Tycoon",
+        "Traffic Chaos"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -134,7 +168,8 @@
       "instalada": "2026-11-14",
       "usos": null,
       "usadaEn": [
-        "Estampida"
+        "Estampida",
+        "Scribble Striker"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -149,7 +184,13 @@
       "usadaEn": [
         "Barista",
         "Estampida",
-        "Metro Nightmare"
+        "Metro Nightmare",
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Sushi Belt Frenzy",
+        "Spot the Robot",
+        "Quitanieves Tycoon"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -162,6 +203,184 @@
       "instalada": "2026-11-14",
       "usos": null,
       "usadaEn": [],
+      "estado": "sustituida",
+      "sustituidaPor": [
+        "threejs-animation",
+        "threejs-asset-pipeline",
+        "threejs-fundamentals",
+        "threejs-geometry",
+        "threejs-interaction",
+        "threejs-lighting",
+        "threejs-loaders",
+        "threejs-materials",
+        "threejs-performance",
+        "threejs-postprocessing",
+        "threejs-react-three-fiber",
+        "threejs-shaders",
+        "threejs-textures"
+      ]
+    },
+    {
+      "nombre": "threejs-animation",
+      "repo": "https://github.com/CloudAI-X/threejs-skills",
+      "area": "arte",
+      "paraQue": "Animación keyframe, esquelética y morph-target, movimiento procedural y mezcla de clips en WebGL o WebGPU/TSL",
+      "instalada": "2026-11-14",
+      "usos": null,
+      "usadaEn": [],
+      "estado": "activa",
+      "sustituidaPor": null
+    },
+    {
+      "nombre": "threejs-asset-pipeline",
+      "repo": "https://github.com/CloudAI-X/threejs-skills",
+      "area": "arte",
+      "paraQue": "Optimizar assets glTF para three.js con gltf-transform: Draco, meshopt, KTX2, WebP/AVIF y gltfjsx",
+      "instalada": "2026-11-14",
+      "usos": null,
+      "usadaEn": [
+        "Monster Tavern",
+        "Sushi Belt Frenzy"
+      ],
+      "estado": "activa",
+      "sustituidaPor": null
+    },
+    {
+      "nombre": "threejs-fundamentals",
+      "repo": "https://github.com/CloudAI-X/threejs-skills",
+      "area": "arte",
+      "paraQue": "Escena three.js desde cero: escenas, cámaras, renderer, bucle de animación, jerarquías y limpieza",
+      "instalada": "2026-11-14",
+      "usos": null,
+      "usadaEn": [
+        "Monster Tavern",
+        "Sushi Belt Frenzy"
+      ],
+      "estado": "activa",
+      "sustituidaPor": null
+    },
+    {
+      "nombre": "threejs-geometry",
+      "repo": "https://github.com/CloudAI-X/threejs-skills",
+      "area": "arte",
+      "paraQue": "Crear geometría three.js: formas, texto 3D, buffers de vértices, instancing, batching y nubes de puntos",
+      "instalada": "2026-11-14",
+      "usos": null,
+      "usadaEn": [],
+      "estado": "activa",
+      "sustituidaPor": null
+    },
+    {
+      "nombre": "threejs-interaction",
+      "repo": "https://github.com/CloudAI-X/threejs-skills",
+      "area": "arte",
+      "paraQue": "Picking con raycasting, controles de cámara, gizmos, arrastre y selección en three.js",
+      "instalada": "2026-11-14",
+      "usos": null,
+      "usadaEn": [
+        "Monster Tavern"
+      ],
+      "estado": "activa",
+      "sustituidaPor": null
+    },
+    {
+      "nombre": "threejs-lighting",
+      "repo": "https://github.com/CloudAI-X/threejs-skills",
+      "area": "arte",
+      "paraQue": "Luces, unidades físicas, sombras, HDR y rendimiento de iluminación en three.js",
+      "instalada": "2026-11-14",
+      "usos": null,
+      "usadaEn": [
+        "Monster Tavern"
+      ],
+      "estado": "activa",
+      "sustituidaPor": null
+    },
+    {
+      "nombre": "threejs-loaders",
+      "repo": "https://github.com/CloudAI-X/threejs-skills",
+      "area": "arte",
+      "paraQue": "Cargar assets three.js: glTF con Draco/meshopt/KTX2, texturas, entornos HDR/EXR, progreso y caché",
+      "instalada": "2026-11-14",
+      "usos": null,
+      "usadaEn": [
+        "Sushi Belt Frenzy"
+      ],
+      "estado": "activa",
+      "sustituidaPor": null
+    },
+    {
+      "nombre": "threejs-materials",
+      "repo": "https://github.com/CloudAI-X/threejs-skills",
+      "area": "arte",
+      "paraQue": "Materiales three.js: unlit, difusos, PBR, toon, blending, entorno y equivalentes TSL en WebGPU",
+      "instalada": "2026-11-14",
+      "usos": null,
+      "usadaEn": [
+        "Monster Tavern"
+      ],
+      "estado": "activa",
+      "sustituidaPor": null
+    },
+    {
+      "nombre": "threejs-performance",
+      "repo": "https://github.com/CloudAI-X/threejs-skills",
+      "area": "arte",
+      "paraQue": "Medir y optimizar velocidad three.js: draw calls, memoria, LOD, sombras y GPU compute",
+      "instalada": "2026-11-14",
+      "usos": null,
+      "usadaEn": [
+        "Monster Tavern"
+      ],
+      "estado": "activa",
+      "sustituidaPor": null
+    },
+    {
+      "nombre": "threejs-postprocessing",
+      "repo": "https://github.com/CloudAI-X/threejs-skills",
+      "area": "arte",
+      "paraQue": "Post-procesado three.js: composer, bloom, profundidad de campo, oclusión y efectos de pantalla",
+      "instalada": "2026-11-14",
+      "usos": null,
+      "usadaEn": [
+        "Monster Tavern"
+      ],
+      "estado": "activa",
+      "sustituidaPor": null
+    },
+    {
+      "nombre": "threejs-react-three-fiber",
+      "repo": "https://github.com/CloudAI-X/threejs-skills",
+      "area": "arte",
+      "paraQue": "Escenas three.js desde React con React Three Fiber y drei",
+      "instalada": "2026-11-14",
+      "usos": null,
+      "usadaEn": [],
+      "estado": "activa",
+      "sustituidaPor": null
+    },
+    {
+      "nombre": "threejs-shaders",
+      "repo": "https://github.com/CloudAI-X/threejs-skills",
+      "area": "arte",
+      "paraQue": "Shaders GLSL propios en three.js: uniforms, chunks, materiales extendidos y TSL en WebGPU",
+      "instalada": "2026-11-14",
+      "usos": null,
+      "usadaEn": [],
+      "estado": "activa",
+      "sustituidaPor": null
+    },
+    {
+      "nombre": "threejs-textures",
+      "repo": "https://github.com/CloudAI-X/threejs-skills",
+      "area": "arte",
+      "paraQue": "Texturas three.js: carga, espacios de color, UV, cubemaps, render targets y memoria",
+      "instalada": "2026-11-14",
+      "usos": null,
+      "usadaEn": [
+        "Monster Tavern",
+        "Sushi Belt Frenzy"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -174,7 +393,10 @@
       "usos": null,
       "usadaEn": [
         "Metro Nightmare",
-        "Moving Mayhem (Mudanza)"
+        "Moving Mayhem (Mudanza)",
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -187,7 +409,10 @@
       "instalada": "2026-11-15",
       "usos": null,
       "usadaEn": [
-        "Moving Mayhem (Mudanza)"
+        "Moving Mayhem (Mudanza)",
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -200,7 +425,9 @@
       "instalada": "2026-11-15",
       "usos": null,
       "usadaEn": [
-        "Moving Mayhem (Mudanza)"
+        "Moving Mayhem (Mudanza)",
+        "Scribble Striker",
+        "Sushi Belt Frenzy"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -213,7 +440,11 @@
       "instalada": "2026-11-15",
       "usos": null,
       "usadaEn": [
-        "Moving Mayhem (Mudanza)"
+        "Moving Mayhem (Mudanza)",
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Sushi Belt Frenzy"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -226,7 +457,10 @@
       "instalada": "2026-11-15",
       "usos": null,
       "usadaEn": [
-        "Metro Nightmare"
+        "Metro Nightmare",
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -252,7 +486,11 @@
       "instalada": "2026-11-15",
       "usos": null,
       "usadaEn": [
-        "Moving Mayhem (Mudanza)"
+        "Moving Mayhem (Mudanza)",
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Quitanieves Tycoon"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -267,7 +505,8 @@
       "usadaEn": [
         "Estampida",
         "Metro Nightmare",
-        "Moving Mayhem (Mudanza)"
+        "Moving Mayhem (Mudanza)",
+        "Scribble Striker"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -281,7 +520,8 @@
       "usos": null,
       "usadaEn": [
         "Estampida",
-        "Moving Mayhem (Mudanza)"
+        "Moving Mayhem (Mudanza)",
+        "Scribble Striker"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -296,7 +536,8 @@
       "usadaEn": [
         "Estampida",
         "Metro Nightmare",
-        "Moving Mayhem (Mudanza)"
+        "Moving Mayhem (Mudanza)",
+        "Scribble Striker"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -311,7 +552,9 @@
       "usadaEn": [
         "Estampida",
         "Metro Nightmare",
-        "Moving Mayhem (Mudanza)"
+        "Moving Mayhem (Mudanza)",
+        "Scribble Striker",
+        "Spot the Robot"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -326,7 +569,9 @@
       "usadaEn": [
         "Estampida",
         "Metro Nightmare",
-        "Moving Mayhem (Mudanza)"
+        "Moving Mayhem (Mudanza)",
+        "Scribble Striker",
+        "Traffic Chaos"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -340,7 +585,8 @@
       "usos": null,
       "usadaEn": [
         "Estampida",
-        "Moving Mayhem (Mudanza)"
+        "Moving Mayhem (Mudanza)",
+        "Scribble Striker"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -380,7 +626,8 @@
       "usos": null,
       "usadaEn": [
         "Estampida",
-        "Moving Mayhem (Mudanza)"
+        "Moving Mayhem (Mudanza)",
+        "Scribble Striker"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -394,7 +641,8 @@
       "usos": null,
       "usadaEn": [
         "Estampida",
-        "Moving Mayhem (Mudanza)"
+        "Moving Mayhem (Mudanza)",
+        "Scribble Striker"
       ],
       "estado": "activa",
       "sustituidaPor": null
@@ -406,7 +654,9 @@
       "paraQue": "Física Arcade de Phaser: cuerpos, colisiones, grupos y pools de proyectiles",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Quitanieves Monstruo"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -417,7 +667,12 @@
       "paraQue": "Diseño de niveles: métricas, ritmo, puertas y curva de dificultad",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Spot the Robot"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -428,7 +683,13 @@
       "paraQue": "GDD de una página y notas por feature, alineadas con el código",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Spot the Robot",
+        "Quitanieves Tycoon"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -439,7 +700,13 @@
       "paraQue": "Guardado, slots, escrituras atómicas y migración de partidas",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Sushi Belt Frenzy",
+        "Quitanieves Tycoon"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -450,7 +717,12 @@
       "paraQue": "Acciones nombradas, buffer de toques, zonas muertas y reasignación",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Sushi Belt Frenzy"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -472,7 +744,9 @@
       "paraQue": "Cámaras 2D con deadzone, look-ahead y límites de nivel",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Scribble Striker"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -483,7 +757,9 @@
       "paraQue": "Timestep fijo, interpolación, CCD y capas de colisión",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Quitanieves Monstruo"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -494,7 +770,14 @@
       "paraQue": "Fundamentos de diseño: decisiones interesantes, flow y curvas de dificultad",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Sushi Belt Frenzy",
+        "Spot the Robot",
+        "Quitanieves Tycoon"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -505,7 +788,12 @@
       "paraQue": "Tutorial FTUE: enseñar haciendo, divulgación progresiva y embudo de retención",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Spot the Robot"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -516,7 +804,13 @@
       "paraQue": "Balanceo: curvas, DDA, estrategias dominantes y ayudas de accesibilidad",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Spot the Robot",
+        "Quitanieves Tycoon"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -527,7 +821,12 @@
       "paraQue": "Ritmo de sesión, bucles de enganche y retención",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Spot the Robot"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -538,7 +837,13 @@
       "paraQue": "Legibilidad visual: silueta, contraste y colores de señal",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Spot the Robot",
+        "Quitanieves Tycoon"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -549,7 +854,14 @@
       "paraQue": "Diseño de minijuegos compactos: reglas, controles, puntuación y dificultad",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Sushi Belt Frenzy",
+        "Spot the Robot",
+        "Quitanieves Tycoon"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -560,7 +872,11 @@
       "paraQue": "Pruebas Playwright de un build web: carga, errores de consola y crashes",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Scribble Striker",
+        "Traffic Chaos",
+        "Sushi Belt Frenzy"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -571,7 +887,10 @@
       "paraQue": "Sondeo automático de mecánicas en un juego de canvas",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Scribble Striker",
+        "Sushi Belt Frenzy"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -582,7 +901,10 @@
       "paraQue": "Auditoría de capturas: texto oculto, HUD débil y elementos solapados",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Scribble Striker",
+        "Traffic Chaos"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -593,7 +915,13 @@
       "paraQue": "Tipografía legible y con licencia para juegos web (HUD y textos)",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Spot the Robot",
+        "Quitanieves Tycoon"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -604,7 +932,13 @@
       "paraQue": "Dirección visual para que el estado de juego se lea sin texto",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Spot the Robot",
+        "Quitanieves Tycoon"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -615,7 +949,14 @@
       "paraQue": "Localización: extraer textos, tablas i18n, RTL y cobertura ES/EN",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Scribble Striker",
+        "Traffic Chaos",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Sushi Belt Frenzy",
+        "Quitanieves Tycoon"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -637,7 +978,13 @@
       "paraQue": "Integrar Playgama Bridge v2: game_ready, guardado en Storage, pausa/audio y anuncios",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern",
+        "Sushi Belt Frenzy",
+        "Quitanieves Tycoon"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -648,7 +995,11 @@
       "paraQue": "Revisar requisitos, empaquetar y subir el juego a Playgama",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Scribble Striker",
+        "Sushi Belt Frenzy",
+        "Traffic Chaos"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
@@ -681,7 +1032,11 @@
       "paraQue": "Medir y corregir caídas de fps en móvil (frame time, draw calls)",
       "instalada": "2026-11-15",
       "usos": null,
-      "usadaEn": [],
+      "usadaEn": [
+        "Scribble Striker",
+        "Quitanieves Monstruo",
+        "Monster Tavern"
+      ],
       "estado": "activa",
       "sustituidaPor": null
     },
