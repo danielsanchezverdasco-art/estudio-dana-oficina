@@ -138,7 +138,36 @@
     "https://gamestats.appbrain.com/portals/crazygames",
     "https://blog.playio.co/mobile-game-genres-list",
     "https://gamestats.appbrain.com/insights",
-    "https://www.crankygames.com/blog/sniper-games-online"
+    "https://www.crankygames.com/blog/sniper-games-online",
+    "https://www.crazygames.com/new",
+    "https://www.crazygames.com/game/tinytornado",
+    "https://playgama.com/game/tornado-67",
+    "https://www.crazygames.com/game/fossil-rush",
+    "https://www.crazygames.com/game/i-cloned-myself",
+    "https://www.crazygames.com/game/bullseye-brawl",
+    "https://playgama.com/game/galebow-stickman-archery",
+    "https://www.crazygames.com/game/wrecking-launch-tic",
+    "https://www.crazygames.com/game/coin-cracker",
+    "https://www.crazygames.com/game/creature-roll",
+    "https://www.crazygames.com/game/escape-chase",
+    "https://www.crazygames.com/game/hoard-sweeper",
+    "https://www.crazygames.com/game/traffic-town",
+    "https://www.crazygames.com/game/canyon-dozer",
+    "https://www.crazygames.com/game/winter-loop",
+    "https://www.crazygames.com/game/squishy---grow-your-240-toys",
+    "https://www.crazygames.com/game/hearthfrost-rcn",
+    "https://www.crazygames.com/game/eat-earth",
+    "https://www.crazygames.com/game/catdoku-meow-brain-puzzle",
+    "https://www.crazygames.com/game/appraiser",
+    "https://www.crazygames.com/game/shred-the-evidence",
+    "https://playgama.com/search?q=shred",
+    "https://playgama.com/search?q=antique",
+    "https://playgama.com/search?q=pawn",
+    "https://playgama.com/search?q=bullseye",
+    "https://playgama.com/search?q=clone",
+    "https://playgama.com/search?q=tornado",
+    "https://playgama.com/search?q=math",
+    "https://playgama.com/search?q=bow"
   ],
   "aptas": [
     {
@@ -1661,6 +1690,202 @@
       "elegida": false,
       "origen": "Investigación diaria 22/11/2026 08:00",
       "motivo": "APTA: hueco real en Playgama (0 juegos de quitanieves/bulldozer) y lanzamiento + evolución, un verbo de un toque muy hacible en un día."
+    },
+    {
+      "id": "tritura-las-pruebas",
+      "titulo": "Tritura las Pruebas",
+      "tituloEN": "Shred Shift",
+      "genero": "Arcade de arrastrar + empuja-tu-suerte (oficina)",
+      "gancho": "Turno de noche en la oficina: arrastra cada documento a la trituradora antes de que lleguen los auditores a las 6; empuja fuerte para ganar más, pero si el motor se calienta demasiado salta el fusible.",
+      "porQueFunciona": "Shred the Evidence es un éxito sostenido en CrazyGames (2.800 likes, 95 % positivos, 9,5/10) con un verbo nuevo y satisfactorio (triturar, ASMR) que en Playgama casi no existe: solo «Shred The Meme».",
+      "viralUrgente": false,
+      "datos": [
+        {
+          "dato": "Shred the Evidence: 2.800 likes y 149 dislikes (95 % positivos), 9,5/10 en CrazyGames; publicado 17/10/2026, actualizado 19/11/2026",
+          "fuente": "https://www.crazygames.com/game/shred-the-evidence"
+        },
+        {
+          "dato": "El original: turno de noche, los auditores llegan a las 6; 12 expedientes (de una nota adhesiva a un lingote de oro); motor con zonas ámbar x1,5 y roja x2, y fusible térmico si te pasas",
+          "fuente": "https://www.crazygames.com/game/shred-the-evidence"
+        },
+        {
+          "dato": "Playgama: con «shred» solo sale «Shred The Meme» (triturar memes); no hay ningún juego de triturar documentos de oficina",
+          "fuente": "https://playgama.com/search?q=shred"
+        },
+        {
+          "dato": "Satisfying Toys: Calm Games, +1,3 M de instalaciones/semana en móvil: lo satisfactorio/ASMR sigue tirando",
+          "fuente": "https://playstoreradar.com/signals"
+        }
+      ],
+      "analisis": {
+        "tendencias": "CrazyGames: Shred the Evidence con 2.800 likes (95 %) y actualización 19/11; lleva más de un mes en lo alto. Móvil: lo satisfactorio/ASMR tira (+1,3 M/semana Satisfying Toys). Playables top 50 (20/11): sin juegos de triturar. Google Trends ES: solo deporte esta semana (LaLiga, Alcaraz, Márquez), sin hueco accionable.",
+        "hypercasualQueFunciona": "Arrastrar + gestionar un riesgo (el calor del motor) con recompensa variable; la misma familia de «un toque, tensión y premio» que Draw Crash Race (968.000 partidas en 7 días).",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Casi vacía en Playgama: solo «Shred The Meme» (triturar memes, otro tema y otro verbo). Vecinos: juegos ASMR de limpiar/ordenar (Makeover Cleaning ASMR, Robovac Satisfaction en CrazyGames) y nuestro Muñeco Antiestrés (desahogo). Diferencia: aquí el verbo es triturar con gestión de calor y cuota por noche, no limpiar por limpiar.",
+        "viabilidad": "Alta: arrastrar el documento hacia abajo (un eje), medidor de calor con zonas ámbar/roja, partículas de tiras de papel y un fusible con enfriamiento. 12 expedientes como contenido de niveles (nota, disquete, móvil, portátil, lingote). Riesgo: que el arrastre se sienta lento; dedicar la mañana a la respuesta táctil y al sonido de triturado.",
+        "potencialViral": "Alto: triturar un lingote de oro y el «¡saltó el fusible!» con la pila de papel por el suelo se graban solos; el ASMR de la trituradora es el gancho del Short.",
+        "se_entiende_3s_sin_texto": "Sí: el papel entra por la ranura, lo arrastras hacia abajo y salen tiras. El medidor de calor se lee por color (verde-ámbar-rojo).",
+        "adictivo": "Noches con cuota y reloj (las 6:00), ascensos, 4-5 mejoras (cuchillas, ventilador, compactador, becario) y expedientes cada vez más valiosos.",
+        "monetizacion": "Anuncio entre noches. Anuncio con recompensa: enfriar el motor al instante o doble paga en la noche."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 4,
+        "viabilidad1Dia": 4,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 5,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 29,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "baja",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Noches de 60-90 s con cuota y reintento. Tiempo real: sin dato.",
+      "conclusion": "APTA (29/35): verbo nuevo y satisfactorio con datos fuertes (2.800 likes, 95 %) y hueco casi vacío en Playgama; el riesgo es solo ajustar el tacto del arrastre en un día.",
+      "nombre": "Tritura las Pruebas",
+      "fecha": "2026-11-23",
+      "nueva": true,
+      "estado": "apta",
+      "elegida": false,
+      "origen": "Investigación diaria 23/11/2026 08:00",
+      "motivo": "APTA: verbo nuevo y satisfactorio (triturar con gestión de calor) con 2.800 likes y 95 % en CrazyGames, y solo «Shred The Meme» en Playgama."
+    },
+    {
+      "id": "el-tasador",
+      "titulo": "El Tasador",
+      "tituloEN": "Fake or Fortune",
+      "genero": "Deducción + regateo (tienda de antigüedades)",
+      "gancho": "Un cliente trae un reloj «de su abuelo»: pésalo, míralo con la lupa, pásale la luz UV y descubre si es una falsificación antes de regatear el precio.",
+      "porQueFunciona": "Appraiser es un éxito sostenido (987 likes, 95 % positivos, 9,5/10, actualizado hoy 23/11) con un bucle de detective que no existe en Playgama: 0 juegos de tasación o empeño (búsquedas «antique» y «pawn» sin resultados del género).",
+      "viralUrgente": false,
+      "datos": [
+        {
+          "dato": "Appraiser: 987 likes y 53 dislikes (95 % positivos), 9,5/10 en CrazyGames; publicado 18/10/2026, actualizado 23/11/2026",
+          "fuente": "https://www.crazygames.com/game/appraiser"
+        },
+        {
+          "dato": "El original: pesar monedas, leer marcas con la lupa, luz UV que revela pegamento y firmas falsas, catálogo de referencia y regateo con deslizador; clientes con personalidad (nerviosos, avariciosos, coleccionistas)",
+          "fuente": "https://www.crazygames.com/game/appraiser"
+        },
+        {
+          "dato": "Playgama: con «antique» o «pawn» no sale ningún juego de tasación ni de empeño",
+          "fuente": "https://playgama.com/search?q=antique"
+        },
+        {
+          "dato": "Los juegos de deducción funcionan en Playables: Find the Alien 54 M de partidas; Thief Puzzle 96 M",
+          "fuente": "https://playables.games/best/"
+        }
+      ],
+      "analisis": {
+        "tendencias": "CrazyGames: Appraiser con 987 likes (95 %) y actualización hoy 23/11; lleva un mes con tracción. Playables: la deducción tira (Find the Alien 54 M, Thief Puzzle 96 M). Playgama: el hueco es total (0 juegos de tasación).",
+        "hypercasualQueFunciona": "Deducción con herramientas + regateo: decidir con pistas y jugársela con el precio; la misma tensión de «¿es real o falso?» que los virales de compraventa.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Vacía en Playgama: 0 juegos de tasación/empeño (búsquedas «antique» y «pawn»). Vecinos: objetos ocultos (4 de los 20 en tendencias, otro género: buscar, no deducir) y nuestro Trastero Secreto (buscar objetos). Diferencia: aquí el juego es examinar, deducir y regatear, no encontrar cosas escondidas.",
+        "viabilidad": "Media: 3 herramientas (balanza, lupa, UV) + deslizador de oferta + clientes con personalidad; el contenido son 12-15 objetos con variante real/falsa y pistas (peso, marca, firma, pegamento). Riesgo: que las pistas se sientan arbitrarias; cada falso lleva 2 pistas visibles y el catálogo las explica.",
+        "potencialViral": "Alto: el momento «¡ES FALSO!» con la UV revelando el pegamento, y el regateo que sale mal, se graban solos; «compré un Rolex falso por 500 €» es el chiste del Short.",
+        "se_entiende_3s_sin_texto": "Casi: las 3 herramientas tienen icono claro (balanza, lupa, luz) y el objeto se examina tocándolas; la mano del tutorial enseña el primer cliente en el nivel 1.",
+        "adictivo": "Días con cuota de beneficio, reputación, estantería con las falsificaciones que te colaron y mejoras de herramientas.",
+        "monetizacion": "Anuncio entre días. Anuncio con recompensa: una pista extra o una segunda opinión del catálogo."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 5,
+        "viabilidad1Dia": 3,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 4,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 28,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "baja",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Días de 60-90 s con 5-6 clientes y cuota de beneficio. Tiempo real: sin dato.",
+      "conclusion": "APTA (28/35): hueco total en Playgama (0 juegos de tasación) y datos fuertes y sostenidos (987 likes, 95 %, actualizado hoy); el riesgo es el contenido de pistas, que hay que diseñar con cuidado en un día.",
+      "nombre": "El Tasador",
+      "fecha": "2026-11-23",
+      "nueva": true,
+      "estado": "apta",
+      "elegida": false,
+      "origen": "Investigación diaria 23/11/2026 08:00",
+      "motivo": "APTA: hueco total en Playgama (0 juegos de tasación/empeño) y éxito sostenido con 987 likes y 95 % en CrazyGames; deducir + regatear es un bucle nuevo para el estudio."
+    },
+    {
+      "id": "duelo-de-arqueros",
+      "titulo": "Duelo de Arqueros",
+      "tituloEN": "Bullseye Duel",
+      "genero": "Duelo de tiro con arco (apuntar y soltar)",
+      "gancho": "Tira de la cuerda, apunta con el viento en contra y suelta: un tiro en la cabeza hace triple daño, un tiro certero lo clava en la pared o lo tira por el barranco.",
+      "porQueFunciona": "Bullseye Brawl es nuevo (22/11, 122 likes / 11 dislikes, 92 %, 9,2/10) con un duelo por turnos con campaña, 5 jefes y 12 luchadores; en Playgama el tiro con arco es solo oleadas (Galebow) o dianas, no duelos.",
+      "viralUrgente": false,
+      "datos": [
+        {
+          "dato": "Bullseye Brawl: 122 likes y 11 dislikes (92 % positivos), 9,2/10 en CrazyGames; publicado 22/11/2026, actualizado 23/11/2026",
+          "fuente": "https://www.crazygames.com/game/bullseye-brawl"
+        },
+        {
+          "dato": "El original: duelo por turnos con arco, viento, cajas, muros de hielo y trampas; campaña de 40 niveles en 5 campos, 5 jefes y 12 luchadores con habilidad propia; modos Supervivencia, Duelo Diario, Tiro a la Manzana y Diana",
+          "fuente": "https://www.crazygames.com/game/bullseye-brawl"
+        },
+        {
+          "dato": "Playgama: con «bullseye» no sale ningún duelo de tiro con arco (solo Bullseye Idle e Isle, otros géneros)",
+          "fuente": "https://playgama.com/search?q=bullseye"
+        },
+        {
+          "dato": "Galebow: Stickman Archery, en Playgama desde el 25/10/2026 (4,1/5): oleadas de arqueros con viento y flechas truco, no duelo 1 contra 1",
+          "fuente": "https://playgama.com/game/galebow-stickman-archery"
+        },
+        {
+          "dato": "«Bullseye Brawl» está pillado (CrazyGames, 22/11/2026); el título EN propio es «Bullseye Duel»",
+          "fuente": "https://www.crazygames.com/game/bullseye-brawl"
+        }
+      ],
+      "analisis": {
+        "tendencias": "CrazyGames: Bullseye Brawl nuevo 22/11, 92 % de likes, actualizado hoy. Playables: el tiro con arco y los duelos de puntería tienen tirón (Stealth Master 101 M es acción de puntería; Epic Sword Battle 28 M). Sin datos de TikTok/X para este tema.",
+        "hypercasualQueFunciona": "Apuntar con física (viento + trayectoria) y duelo por turnos: un verbo de un gesto con tensión en cada tiro; la misma familia que Draw Crash Race (968.000 partidas en 7 días).",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Media: hay tiro con arco en Playgama (Galebow, Dead Center: Archery & Darts, Archery Master, Bow Brawls, Archer: Trial by Fate), pero ninguno es un duelo 1 contra 1 por turnos con campaña y personajes. Diferencia: aquí el duelo con viento, trampas y habilidades, no oleadas ni dianas.",
+        "viabilidad": "Media: tirar-soltar con previsión de trayectoria + viento + caídas ragdoll; recorte para un día: 1 arquero, 10 niveles, 3 jefes y 2 habilidades. Riesgo: que la puntería se sienta injusta; el viento se muestra con flechas y la trayectoria se previsualiza.",
+        "potencialViral": "Alto: el tiro en la cabeza, el rival clavado en la pared y el tiro a la manzana se graban solos; «le di en la manzana y no en la cabeza» es el clip del Short.",
+        "se_entiende_3s_sin_texto": "Sí: tiras de la cuerda hacia atrás, la línea muestra a dónde va la flecha y sueltas. La mano del tutorial lo enseña en el nivel 1.",
+        "adictivo": "Campaña con estrellas, cofres cada 10 estrellas, trofeos, duelo diario y luchadores desbloqueables.",
+        "monetizacion": "Anuncio entre duelos. Anuncio con recompensa: monedas extra o abrir el cofre de estrellas."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 3,
+        "viabilidad1Dia": 3,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 5,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 27,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "media",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Duelos de 30-60 s encadenados. Tiempo real: sin dato.",
+      "conclusion": "APTA (27/35): duelo de tiro con arco nuevo (22/11, 92 %) y formato sin cubrir en Playgama (duelo 1 contra 1, no oleadas); el recorte a un día es el riesgo a gestionar.",
+      "nombre": "Duelo de Arqueros",
+      "fecha": "2026-11-23",
+      "nueva": true,
+      "estado": "apta",
+      "elegida": false,
+      "origen": "Investigación diaria 23/11/2026 08:00",
+      "motivo": "APTA: duelo de tiro con arco nuevo con 92 % en CrazyGames y formato de duelo 1 contra 1 sin cubrir en Playgama (Galebow es oleadas)."
     }
   ],
   "noAptas": [
@@ -4847,6 +5072,1074 @@
       "titulo": "Fútbol Canalla",
       "tituloEN": "Rogue Street Soccer",
       "viralUrgente": false
+    },
+    {
+      "id": "tornado-tragon",
+      "titulo": "Tornado Tragón",
+      "tituloEN": "Tiny Tornado Rampage",
+      "genero": "Comer y crecer (tornado)",
+      "gancho": "Controla un tornado pequeño que se traga árboles, coches y edificios hasta convertirse en una tormenta imparable; come tornados más pequeños y huye de los grandes.",
+      "porQueFunciona": "Tiny Tornado es nuevo en CrazyGames (18/11, 423 likes / 51 dislikes, 89 %, 8,9) y comer-y-crecer va al alza.",
+      "datos": [
+        {
+          "dato": "Tiny Tornado: 423 likes y 51 dislikes (89 % positivos), 8,9/10 en CrazyGames; publicado 18/11/2026, actualizado 20/11/2026",
+          "fuente": "https://www.crazygames.com/game/tinytornado"
+        },
+        {
+          "dato": "Tornado-67 ya está en Playgama desde el 4/6/2026 (4,1/5, 95 valoraciones): mismo bucle de absorber y crecer por 3 biomas",
+          "fuente": "https://playgama.com/game/tornado-67"
+        },
+        {
+          "dato": "Azur Games: subida de «Eat & Grow» en 2026",
+          "fuente": "https://azurgames.com/blog/hypercasual-and-hybrid-casual-in-2026-full-report/"
+        }
+      ],
+      "competencia": "alta: Tornado-67 ya hace lo mismo en Playgama, y nuestro Agujero Tragón cubre comer-y-crecer.",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles con objetivo de masa. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "24/35, por debajo del corte: Tornado-67 ya está en Playgama (4/6/2026) con el mismo bucle de comer-y-crecer, y nuestro Agujero Tragón cubre la familia; un tornado 2D no se diferencia bastante.",
+      "nombre": "Tornado Tragón",
+      "fecha": "2026-11-23",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 23/11/2026 08:00",
+      "analisis": {
+        "tendencias": "CrazyGames: Tiny Tornado nuevo 18/11, 89 % de likes. Móvil: comer-y-crecer al alza (Azur 2026; Hole Rush 386.000 instalaciones desde el 17/11).",
+        "hypercasualQueFunciona": "Comer y crecer con rivales: tragar, crecer y huir del más grande.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Alta: Tornado-67 (Playgama, 4/6/2026) hace el mismo bucle en 3D, y «Tornado: Fury of the elements» también está en Playgama. Nuestro Agujero Tragón cubre la familia.",
+        "viabilidad": "Alta en 2D: arrastrar, radio de absorción y crecimiento por umbrales. Pero el original es 3D con cámara y rivales.",
+        "potencialViral": "Alto: tragarse edificios y escapar por los pelos se graba bien.",
+        "se_entiende_3s_sin_texto": "Sí: arrastras el tornado y todo lo que toca desaparece dentro.",
+        "adictivo": "Objetivos de masa por nivel, mejoras y personalización del tornado.",
+        "monetizacion": "Anuncio entre niveles. Anuncio con recompensa: doble masa o seguir tras perder."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 1,
+        "viabilidad1Dia": 4,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 5,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 24,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: 24/35, por debajo del corte: Tornado-67 ya está en Playgama (4/6/2026) con el mismo bucle de comer-y-crecer, y nuestro Agujero Tragón cubre la familia; un tornado 2D no se diferencia bastante.",
+      "motivo": "NO APTA: 24/35, por debajo del corte: Tornado-67 ya está en Playgama (4/6/2026) con el mismo bucle de comer-y-crecer, y nuestro Agujero Tragón cubre la familia; un tornado 2D no se diferencia bastante."
+    },
+    {
+      "id": "fosiles-bajo-tierra",
+      "titulo": "Fósiles bajo Tierra",
+      "tituloEN": "Dino Dig Museum",
+      "genero": "Excavar + coleccionar (taladro)",
+      "gancho": "Baja con tu cápsula taladro por 4 eras, recoge minerales y fósiles, y vuelve antes de quedarte sin combustible; completa 9 esqueletos para tu museo.",
+      "porQueFunciona": "Fossil Rush es nuevo (21/11, 166 likes / 22 dislikes, 88 %, 8,8) y Dig Deep lleva 28 M de partidas en Playables.",
+      "datos": [
+        {
+          "dato": "Fossil Rush: 166 likes y 22 dislikes (88 % positivos), 8,8/10 en CrazyGames; publicado 21/11/2026",
+          "fuente": "https://www.crazygames.com/game/fossil-rush"
+        },
+        {
+          "dato": "Dig Deep: 28 M de partidas en Playables",
+          "fuente": "https://playables.games/best/"
+        },
+        {
+          "dato": "Playgama: 10+ juegos de excavar (Deep Dig Tycoon, Coin Digger, Ultimate Hole Digging Simulator, Dig & Flow, Dig In Dozer, Obby: Stronger Drill, Deeper Mine...)",
+          "fuente": "https://playgama.com/search?q=dig"
+        }
+      ],
+      "competencia": "alta: 10+ juegos de excavar en Playgama.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Inmersiones de 60-90 s con combustible. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "21/35, por debajo del corte: la estantería de excavar en Playgama está llena (10+ juegos: Deep Dig Tycoon, Coin Digger, Ultimate Hole Digging Simulator, Dig & Flow, varios obby de taladro); el museo de fósiles no compensa el bucle ya cubierto.",
+      "nombre": "Fósiles bajo Tierra",
+      "fecha": "2026-11-23",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 23/11/2026 08:00",
+      "analisis": {
+        "tendencias": "CrazyGames: Fossil Rush nuevo 21/11, 88 % de likes. Playables: Dig Deep 28 M. La excavación lleva años en web y móvil.",
+        "hypercasualQueFunciona": "Excavar, recoger y volver antes de quedarte sin combustible; colección de museo como meta.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Alta: 10+ juegos de excavar en Playgama (Deep Dig Tycoon, Coin Digger, Ultimate Hole Digging Simulator, Dig & Flow, Dig In Dozer, obbys de taladro).",
+        "viabilidad": "Media: el bucle excavar-volver se hace en 2D, pero el original es un juego profundo (4 eras, 9 esqueletos, museo con ingresos, misiones diarias) que no cabe en un día.",
+        "potencialViral": "Medio: encontrar un fósil raro se graba, pero excavar es lento para un Short.",
+        "se_entiende_3s_sin_texto": "Sí: la cápsula baja, recoge y sube; el combustible se lee en la barra.",
+        "adictivo": "9 esqueletos por completar, museo con visitantes y mejoras de la cápsula.",
+        "monetizacion": "Anuncio entre inmersiones. Anuncio con recompensa: depósito lleno o radar de huesos."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 1,
+        "viabilidad1Dia": 3,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 4,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 21,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: 21/35, por debajo del corte: la estantería de excavar en Playgama está llena (10+ juegos: Deep Dig Tycoon, Coin Digger, Ultimate Hole Digging Simulator, Dig & Flow, varios obby de taladro); el museo de fósiles no compensa el bucle ya cubierto.",
+      "motivo": "NO APTA: 21/35, por debajo del corte: la estantería de excavar en Playgama está llena (10+ juegos: Deep Dig Tycoon, Coin Digger, Ultimate Hole Digging Simulator, Dig & Flow, varios obby de taladro); el museo de fósiles no compensa el bucle ya cubierto."
+    },
+    {
+      "id": "clonate-y-construye",
+      "titulo": "Clónate y Construye",
+      "tituloEN": "Clone Crew Tower",
+      "genero": "Tycoon 3D (clones)",
+      "gancho": "Clónate para picar mineral, construir la torre piso a piso y defenderla de monstruos.",
+      "porQueFunciona": "I Cloned Myself es nuevo (21/11, 344 likes / 30 dislikes, 92 %, 9,2) y se actualizó hoy.",
+      "datos": [
+        {
+          "dato": "I Cloned Myself: 344 likes y 30 dislikes (92 % positivos), 9,2/10 en CrazyGames; publicado 21/11/2026, actualizado 23/11/2026",
+          "fuente": "https://www.crazygames.com/game/i-cloned-myself"
+        },
+        {
+          "dato": "El original es un tycoon 3D con WASD, cámara y zoom; mineros, constructores, recolectores y guardias por piso",
+          "fuente": "https://www.crazygames.com/game/i-cloned-myself"
+        },
+        {
+          "dato": "Ya está en Playgama (primer resultado de la búsqueda «clone»)",
+          "fuente": "https://playgama.com/search?q=clone"
+        }
+      ],
+      "competencia": "alta: ya está en Playgama.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": false,
+      "duracionSesion": "Sesiones largas de construcción. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "17/35: tycoon 3D con cámara y joystick: no se hace en un día ni encaja en vertical táctil; además ya está en Playgama.",
+      "nombre": "Clónate y Construye",
+      "fecha": "2026-11-23",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 23/11/2026 08:00",
+      "analisis": {
+        "tendencias": "CrazyGames: I Cloned Myself nuevo 21/11, 92 % de likes, actualizado hoy. Los tycoons con clones son novedad, no tendencia consolidada.",
+        "hypercasualQueFunciona": "Clonar trabajadores y ver cómo la torre crece sola; la fantasía de «estar en todas partes».",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Alta: el juego original ya está en Playgama (búsqueda «clone», primer resultado).",
+        "viabilidad": "Muy baja: 3D con cámara libre, 4 tipos de clones con IA y torre por pisos; imposible en un día y en vertical.",
+        "potencialViral": "Medio: ver a tus clones trabajar es satisfactorio, pero no es un momento de tensión.",
+        "se_entiende_3s_sin_texto": "No: WASD + cámara + zoom no se entiende sin leer los controles.",
+        "adictivo": "Torre por pisos, mejoras y guardias contra monstruos.",
+        "monetizacion": "Anuncio entre sesiones. Anuncio con recompensa: clon extra o materiales."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 1,
+        "viabilidad1Dia": 1,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 2,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 17,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: 17/35: tycoon 3D con cámara y joystick: no se hace en un día ni encaja en vertical táctil; además ya está en Playgama.",
+      "motivo": "NO APTA: 17/35: tycoon 3D con cámara y joystick: no se hace en un día ni encaja en vertical táctil; además ya está en Playgama."
+    },
+    {
+      "id": "bola-de-demolicion",
+      "titulo": "Bola de Demolición",
+      "tituloEN": "Wrecking Ball Launch",
+      "genero": "Lanzamiento + demoler (un toque)",
+      "gancho": "Balancea la bola de demolición, suéltala en el verde y rebota por los tejados demoliendo la ciudad.",
+      "porQueFunciona": "Wrecking Launch es nuevo (22/11, 90 likes / 15 dislikes, 86 %, 8,6, vertical) con lanzamiento de un toque y mejoras.",
+      "datos": [
+        {
+          "dato": "Wrecking Launch: 90 likes y 15 dislikes (86 % positivos), 8,6/10 en CrazyGames; publicado 22/11/2026, vertical",
+          "fuente": "https://www.crazygames.com/game/wrecking-launch-tic"
+        },
+        {
+          "dato": "Break The Noob Completely!: n.º 20 en tendencias de Playgama (lanzamiento con físicas)",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        }
+      ],
+      "competencia": "alta: duplica nuestro Quitanieves Monstruo (lanzar + destruir + evolucionar, aprobado 22/11).",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Intentos de 30-60 s. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "23/35, por debajo del corte: duplica nuestro Quitanieves Monstruo (lanzar + destruir + evolucionar, aprobado por Daniel 22/11) y el lanzamiento con físicas ya lo cubre Break The Noob en Playgama.",
+      "nombre": "Bola de Demolición",
+      "fecha": "2026-11-23",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 23/11/2026 08:00",
+      "analisis": {
+        "tendencias": "CrazyGames: Wrecking Launch nuevo 22/11, 86 % de likes. El lanzamiento de un toque está caliente (Draw Crash Race 968.000 partidas en 7 días).",
+        "hypercasualQueFunciona": "Lanzar en el momento justo + rebotar + demoler: un toque con premio inmediato.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Alta: duplica nuestro Quitanieves Monstruo (mismo bucle: lanzar, destruir, evolucionar, aprobado 22/11) y Break The Noob cubre el lanzamiento en Playgama.",
+        "viabilidad": "Alta en 2D: balanceo, suelta en zona verde y rebotes con físicas arcade.",
+        "potencialViral": "Alto: la demolición en cadena y el récord de distancia se graban solos.",
+        "se_entiende_3s_sin_texto": "Sí: un toque para soltar, otro para rematar en el aire.",
+        "adictivo": "4 mejoras, ciudad idle con alquiler y bolas desbloqueables por distancia.",
+        "monetizacion": "Anuncio entre intentos. Anuncio con recompensa: doble de monedas o giro gratis."
+      },
+      "puntuacion": {
+        "tendencia": 3,
+        "competencia": 1,
+        "viabilidad1Dia": 4,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 5,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 23,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: 23/35, por debajo del corte: duplica nuestro Quitanieves Monstruo (lanzar + destruir + evolucionar, aprobado por Daniel 22/11) y el lanzamiento con físicas ya lo cubre Break The Noob en Playgama.",
+      "motivo": "NO APTA: 23/35, por debajo del corte: duplica nuestro Quitanieves Monstruo (lanzar + destruir + evolucionar, aprobado por Daniel 22/11) y el lanzamiento con físicas ya lo cubre Break The Noob en Playgama."
+    },
+    {
+      "id": "rompe-monedas",
+      "titulo": "Rompe Monedas",
+      "tituloEN": "Coin Cracker Rush",
+      "genero": "Incremental (romper monedas)",
+      "gancho": "Apunta el anillo a las monedas que caen, rómpelas y cobra; acuña metales cada vez más valiosos.",
+      "porQueFunciona": "Coin Cracker es nuevo (19/11, 284 likes / 18 dislikes, 94 %, 9,4) con monedas que se agrietan de verdad.",
+      "datos": [
+        {
+          "dato": "Coin Cracker: 284 likes y 18 dislikes (94 % positivos), 9,4/10 en CrazyGames; publicado 19/11/2026",
+          "fuente": "https://www.crazygames.com/game/coin-cracker"
+        },
+        {
+          "dato": "El original: incremental 2D con 10 poderes (rayos, meteoros, láser...), prestigio con coronas y ganancias sin jugar",
+          "fuente": "https://www.crazygames.com/game/coin-cracker"
+        },
+        {
+          "dato": "Coin Digger y Coin Run ya están en Playgama/Playables",
+          "fuente": "https://playgama.com/search?q=dig"
+        }
+      ],
+      "competencia": "media: el tema moneda está cubierto (Coin Digger, Coin Run).",
+      "potencialViral": 3,
+      "hacibleEnUnDia": false,
+      "duracionSesion": "Sin final: sesiones de farmeo. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "19/35: incremental sin estado de fallo ni niveles (no encaja en anuncios entre niveles) y con demasiados sistemas para un día (10 poderes, prestigio, 5+ metales); el tema moneda ya lo cubren Coin Digger y Coin Run.",
+      "nombre": "Rompe Monedas",
+      "fecha": "2026-11-23",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 23/11/2026 08:00",
+      "analisis": {
+        "tendencias": "CrazyGames: Coin Cracker nuevo 19/11, 94 % de likes. Los incrementales tiran en móvil, pero no en Playables (sin niveles ni fallo).",
+        "hypercasualQueFunciona": "Romper monedas con un anillo: el crujido visual de la grieta es el gancho.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Media: Coin Digger y Coin Run cubren el tema moneda; el verbo «romper» es nuevo, pero el juego es un incremental.",
+        "viabilidad": "Baja: 10 poderes, prestigio, 5+ metales y auto-crackers; el recorte a un día deja solo el anillo.",
+        "potencialViral": "Medio: las grietas y la moneda alada se graban, pero no hay tensión.",
+        "se_entiende_3s_sin_texto": "Sí: mueves el anillo y las monedas se rompen solas.",
+        "adictivo": "Baja: sin fallo ni niveles, solo números que suben; el prestigio es el único meta.",
+        "monetizacion": "Sin niveles no hay pausa natural para el intersticial; solo rewarded de poderes."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 2,
+        "viabilidad1Dia": 2,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 4,
+        "adiccion": 2,
+        "monetizacion": 2,
+        "total": 19,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "media",
+      "conclusion": "NO APTA: 19/35: incremental sin estado de fallo ni niveles (no encaja en anuncios entre niveles) y con demasiados sistemas para un día (10 poderes, prestigio, 5+ metales); el tema moneda ya lo cubren Coin Digger y Coin Run.",
+      "motivo": "NO APTA: 19/35: incremental sin estado de fallo ni niveles (no encaja en anuncios entre niveles) y con demasiados sistemas para un día (10 poderes, prestigio, 5+ metales); el tema moneda ya lo cubren Coin Digger y Coin Run."
+    },
+    {
+      "id": "tira-el-dado-criaturas",
+      "titulo": "Tira el Dado, Crea Criaturas",
+      "tituloEN": "Creature Roll Merge",
+      "genero": "Colección idle (gacha)",
+      "gancho": "Tira el dado, descubre 353 criaturas en 7 reinos y colócalas en tu prado para ganar monedas.",
+      "porQueFunciona": "Creature Roll es nuevo (22/11, 118 likes / 15 dislikes, 89 %, 8,9) con revelados de rareza.",
+      "datos": [
+        {
+          "dato": "Creature Roll: 118 likes y 15 dislikes (89 % positivos), 8,9/10 en CrazyGames; publicado 22/11/2026",
+          "fuente": "https://www.crazygames.com/game/creature-roll"
+        },
+        {
+          "dato": "El original: 353 criaturas en 7 reinos, fusiones de 3 iguales, auto-tirada y monedas sin jugar",
+          "fuente": "https://www.crazygames.com/game/creature-roll"
+        },
+        {
+          "dato": "Steal an Egg!: n.º 18 en tendencias de Playgama (huevos que eclosionan en mascotas que generan monedas)",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        }
+      ],
+      "competencia": "media-alta: Steal an Egg! cubre mascotas que generan monedas.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": false,
+      "duracionSesion": "Sesiones largas de colección. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "16/35: coleccionista idle sin habilidad ni fallo (353 criaturas: montaña de contenido imposible en un día) y cerca de Steal an Egg! en Playgama.",
+      "nombre": "Tira el Dado, Crea Criaturas",
+      "fecha": "2026-11-23",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 23/11/2026 08:00",
+      "analisis": {
+        "tendencias": "CrazyGames: Creature Roll nuevo 22/11, 89 % de likes. Los revelados de rareza tiran en Shorts, pero el juego es una máquina de coleccionar.",
+        "hypercasualQueFunciona": "Tirar el dado y que salga algo raro: la emoción es la del sobre de cromos.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Media-alta: Steal an Egg! (n.º 18 en Playgama) ya hace mascotas que generan monedas; el dado no cambia el bucle.",
+        "viabilidad": "Muy baja: 353 criaturas en 7 reinos con mutaciones; imposible en un día.",
+        "potencialViral": "Medio: el revelado mítico se graba, pero el resto es esperar.",
+        "se_entiende_3s_sin_texto": "Sí: tocas TIRAR y sale una criatura.",
+        "adictivo": "Baja: sin habilidad ni fallo; solo colección y renacimientos.",
+        "monetizacion": "Sin niveles no hay pausa natural; solo rewarded de tiradas."
+      },
+      "puntuacion": {
+        "tendencia": 3,
+        "competencia": 2,
+        "viabilidad1Dia": 1,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 3,
+        "adiccion": 2,
+        "monetizacion": 2,
+        "total": 16,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "media",
+      "conclusion": "NO APTA: 16/35: coleccionista idle sin habilidad ni fallo (353 criaturas: montaña de contenido imposible en un día) y cerca de Steal an Egg! en Playgama.",
+      "motivo": "NO APTA: 16/35: coleccionista idle sin habilidad ni fallo (353 criaturas: montaña de contenido imposible en un día) y cerca de Steal an Egg! en Playgama."
+    },
+    {
+      "id": "persecucion-policial",
+      "titulo": "Persecución Policial",
+      "tituloEN": "Escape Chase: Wanted",
+      "genero": "Conducción / huida (top-down)",
+      "gancho": "Escapa de la policía por la ciudad, sube de 1 a 7 estrellas y desbloquea 77 vehículos.",
+      "porQueFunciona": "Escape Chase es nuevo (21/11, 421 likes / 48 dislikes, 90 %, 9,0) con sistema de estrellas buscado.",
+      "datos": [
+        {
+          "dato": "Escape Chase: 421 likes y 48 dislikes (90 % positivos), 9,0/10 en CrazyGames; publicado 21/11/2026, Unity 2022",
+          "fuente": "https://www.crazygames.com/game/escape-chase"
+        },
+        {
+          "dato": "El original: 77 vehículos, 4 niveles, tanques, helicópteros y cazas a 7 estrellas; modo local de 2 jugadores",
+          "fuente": "https://www.crazygames.com/game/escape-chase"
+        },
+        {
+          "dato": "Deadly Descent n.º 8 y Extreme Car Driving Simulator n.º 14 en tendencias de Playgama",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        }
+      ],
+      "competencia": "media: la conducción la cubren Deadly Descent y Extreme Car Driving.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": false,
+      "duracionSesion": "Huidas de 2-3 min. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "19/35: Unity 3D con ciudad grande y 77 vehículos: no se hace en un día; la conducción ya la cubren Deadly Descent (n.º 8) y Extreme Car Driving (n.º 14) en Playgama.",
+      "nombre": "Persecución Policial",
+      "fecha": "2026-11-23",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 23/11/2026 08:00",
+      "analisis": {
+        "tendencias": "CrazyGames: Escape Chase nuevo 21/11, 90 % de likes. Las huidas con estrellas buscado son un clásico, pero en 3D.",
+        "hypercasualQueFunciona": "Huir y subir estrellas: cada estrella trae enemigos peores.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Media: Deadly Descent (n.º 8) y Extreme Car Driving (n.º 14) cubren la conducción en Playgama.",
+        "viabilidad": "Muy baja: Unity 3D, ciudad grande, 77 vehículos con habilidades; imposible en un día.",
+        "potencialViral": "Medio: la huida con tanques se graba, pero pide 3D.",
+        "se_entiende_3s_sin_texto": "Regular: conducir con teclado o joystick virtual no es un toque.",
+        "adictivo": "77 vehículos, niveles y habilidades élite.",
+        "monetizacion": "Anuncio entre huidas. Anuncio con recompensa: vehículo élite una huida."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 2,
+        "viabilidad1Dia": 1,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 3,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 19,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "media",
+      "conclusion": "NO APTA: 19/35: Unity 3D con ciudad grande y 77 vehículos: no se hace en un día; la conducción ya la cubren Deadly Descent (n.º 8) y Extreme Car Driving (n.º 14) en Playgama.",
+      "motivo": "NO APTA: 19/35: Unity 3D con ciudad grande y 77 vehículos: no se hace en un día; la conducción ya la cubren Deadly Descent (n.º 8) y Extreme Car Driving (n.º 14) en Playgama."
+    },
+    {
+      "id": "aspira-el-tesoro",
+      "titulo": "Aspira el Tesoro del Dragón",
+      "tituloEN": "Hoard Vacuum",
+      "genero": "Aspirar + ordenar (3D)",
+      "gancho": "Aspira las 999.999 piezas del tesoro de un dragón y ordénalas en sus arcones.",
+      "porQueFunciona": "Hoard Sweeper es nuevo (16/11, 633 likes / 50 dislikes, 93 %, 9,3) con 6 plantas y 40+ mejoras.",
+      "datos": [
+        {
+          "dato": "Hoard Sweeper: 633 likes y 50 dislikes (93 % positivos), 9,3/10 en CrazyGames; publicado 16/11/2026, Unity 6, actualizado 23/11/2026",
+          "fuente": "https://www.crazygames.com/game/hoard-sweeper"
+        },
+        {
+          "dato": "El original: aspiradora en primera persona (WASD + ratón), 6 plantas, 40+ mejoras, 24 reliquias doradas y un dragón que mira",
+          "fuente": "https://www.crazygames.com/game/hoard-sweeper"
+        }
+      ],
+      "competencia": "media: ordenar lo cubre Colada Caótica, ya en cola.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": false,
+      "duracionSesion": "Sesiones largas de limpieza. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "18/35: Unity 6 en 3D con WASD y cámara: no se hace en un día ni encaja en vertical; ordenar ya lo cubre Colada Caótica en cola.",
+      "nombre": "Aspira el Tesoro del Dragón",
+      "fecha": "2026-11-23",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 23/11/2026 08:00",
+      "analisis": {
+        "tendencias": "CrazyGames: Hoard Sweeper nuevo 16/11, 93 % de likes, actualizado hoy. La limpieza con aspiradora es satisfactoria, pero en primera persona 3D.",
+        "hypercasualQueFunciona": "Aspirar un tesoro infinito: el contador de 999.999 piezas es el chiste.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Media: ordenar lo cubre Colada Caótica (en cola); la aspiradora en 3D no tiene equivalente, pero tampoco cabe.",
+        "viabilidad": "Muy baja: Unity 6, primera persona, 6 plantas y 40+ mejoras; imposible en un día.",
+        "potencialViral": "Medio: la pila de monedas cayendo se graba, pero pide 3D.",
+        "se_entiende_3s_sin_texto": "No: WASD + ratón + salto + botones no es un toque.",
+        "adictivo": "6 plantas, reliquias, museo y calendario diario.",
+        "monetizacion": "Anuncio entre plantas. Anuncio con recompensa: doble oro."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 2,
+        "viabilidad1Dia": 1,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 2,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 18,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "media",
+      "conclusion": "NO APTA: 18/35: Unity 6 en 3D con WASD y cámara: no se hace en un día ni encaja en vertical; ordenar ya lo cubre Colada Caótica en cola.",
+      "motivo": "NO APTA: 18/35: Unity 6 en 3D con WASD y cámara: no se hace en un día ni encaja en vertical; ordenar ya lo cubre Colada Caótica en cola."
+    },
+    {
+      "id": "ciudad-del-trafico",
+      "titulo": "Ciudad del Tráfico",
+      "tituloEN": "Traffic Town Builder",
+      "genero": "Constructor de ciudades + tráfico",
+      "gancho": "La ciudad crece sola: construye las carreteras, conecta casas y trabajos, y que no se colapse el tráfico.",
+      "porQueFunciona": "Traffic Town es nuevo (18/11, 475 likes / 59 dislikes, 89 %, 8,9) con reloj en vivo y atascos.",
+      "datos": [
+        {
+          "dato": "Traffic Town: 475 likes y 59 dislikes (89 % positivos), 8,9/10 en CrazyGames; publicado 18/11/2026, actualizado 23/11/2026",
+          "fuente": "https://www.crazygames.com/game/traffic-town"
+        },
+        {
+          "dato": "El original: la ciudad crece sola, reloj con horarios (oficinas 8-9, turnos 6/14/22), semáforos, rotondas, autobuses y pasos elevados; si el ánimo llega a cero, fin del juego",
+          "fuente": "https://www.crazygames.com/game/traffic-town"
+        }
+      ],
+      "competencia": "alta: duplica nuestro Traffic Chaos (tráfico, aprobado por Daniel).",
+      "potencialViral": 3,
+      "hacibleEnUnDia": false,
+      "duracionSesion": "Sesiones largas de gestión. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "17/35: duplica nuestro Traffic Chaos (tema tráfico, aprobado por Daniel) y es un constructor de ciudades con reloj y economía: no se hace en un día.",
+      "nombre": "Ciudad del Tráfico",
+      "fecha": "2026-11-23",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 23/11/2026 08:00",
+      "analisis": {
+        "tendencias": "CrazyGames: Traffic Town nuevo 18/11, 89 % de likes, actualizado hoy. Gestionar tráfico con reloj en vivo es fresco, pero es un constructor.",
+        "hypercasualQueFunciona": "Ver la ciudad crecer y desatascarla: el atasco en rojo es el enemigo.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Alta: duplica nuestro Traffic Chaos (tráfico, aprobado por Daniel); el constructor es otro género, no un hueco.",
+        "viabilidad": "Muy baja: ciudad que crece sola, reloj con horarios, economía y 10+ herramientas; imposible en un día.",
+        "potencialViral": "Bajo: gestionar atascos no es un momento de tensión para un Short.",
+        "se_entiende_3s_sin_texto": "Regular: construir carreteras con arrastre se entiende, pero la gestión pide menús.",
+        "adictivo": "Ciudad que crece, herramientas que se desbloquean y ánimo de los vecinos.",
+        "monetizacion": "Anuncio al perder. Anuncio con recompensa: dinero o quitar un atasco."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 1,
+        "viabilidad1Dia": 1,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 3,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 17,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: 17/35: duplica nuestro Traffic Chaos (tema tráfico, aprobado por Daniel) y es un constructor de ciudades con reloj y economía: no se hace en un día.",
+      "motivo": "NO APTA: 17/35: duplica nuestro Traffic Chaos (tema tráfico, aprobado por Daniel) y es un constructor de ciudades con reloj y economía: no se hace en un día."
+    },
+    {
+      "id": "bulldozer-del-canon",
+      "titulo": "Bulldozer del Cañón",
+      "tituloEN": "Canyon Dozer Rush",
+      "genero": "Conducción + excavar (3D)",
+      "gancho": "Conduce tu bulldozer, tritura rocas en grava, oro y gemas, y vende en la plataforma.",
+      "porQueFunciona": "Canyon Dozer es nuevo (4/11, 221 likes / 20 dislikes, 92 %, 9,2) y Bulldozer Master acaba de pasar los 10 M de instalaciones en móvil.",
+      "datos": [
+        {
+          "dato": "Canyon Dozer: 221 likes y 20 dislikes (92 % positivos), 9,2/10 en CrazyGames; publicado 4/11/2026",
+          "fuente": "https://www.crazygames.com/game/canyon-dozer"
+        },
+        {
+          "dato": "Bulldozer Master: 10 M de instalaciones, +1,2 M esta semana en móvil",
+          "fuente": "https://playstoreradar.com/signals"
+        }
+      ],
+      "competencia": "alta: el tema pala/bulldozer ya es nuestro con Quitanieves Monstruo.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": false,
+      "duracionSesion": "Sesiones de minería. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "17/35: 3D con conducción y mejoras: no se hace en un día; el tema pala/bulldozer ya es nuestro con Quitanieves Monstruo (aprobado 22/11).",
+      "nombre": "Bulldozer del Cañón",
+      "fecha": "2026-11-23",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 23/11/2026 08:00",
+      "analisis": {
+        "tendencias": "CrazyGames: Canyon Dozer nuevo 4/11, 92 % de likes. Móvil: Bulldozer Master pasa los 10 M con +1,2 M esta semana; la pala tira, pero en 3D.",
+        "hypercasualQueFunciona": "Triturar rocas con la pala y ver caer el oro: satisfactorio y con progreso.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Alta: el tema pala/bulldozer ya es nuestro con Quitanieves Monstruo (aprobado 22/11).",
+        "viabilidad": "Muy baja: 3D con conducción, zonas, TNT y ayudantes; imposible en un día.",
+        "potencialViral": "Medio: la roca gigante que se desmorona se graba, pero pide 3D.",
+        "se_entiende_3s_sin_texto": "No: conducir con joystick no es un toque.",
+        "adictivo": "Zonas, mejoras de pala y ayudantes.",
+        "monetizacion": "Anuncio entre sesiones. Anuncio con recompensa: turbo o pala grande."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 1,
+        "viabilidad1Dia": 1,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 2,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 17,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: 17/35: 3D con conducción y mejoras: no se hace en un día; el tema pala/bulldozer ya es nuestro con Quitanieves Monstruo (aprobado 22/11).",
+      "motivo": "NO APTA: 17/35: 3D con conducción y mejoras: no se hace en un día; el tema pala/bulldozer ya es nuestro con Quitanieves Monstruo (aprobado 22/11)."
+    },
+    {
+      "id": "bulevar-invernal",
+      "titulo": "Bulevar Invernal",
+      "tituloEN": "Winter Loop Tycoon",
+      "genero": "Tycoon de comida (invierno)",
+      "gancho": "Lleva un bulevar de comida invernal como chef pingüino: prepara, contrata y automatiza 5 puestos.",
+      "porQueFunciona": "Winter Loop es nuevo (17/11, 260 likes / 15 dislikes, 95 %, 9,5) con 5 líneas de comida y automatización.",
+      "datos": [
+        {
+          "dato": "Winter Loop: 260 likes y 15 dislikes (95 % positivos), 9,5/10 en CrazyGames; publicado 17/11/2026",
+          "fuente": "https://www.crazygames.com/game/winter-loop"
+        },
+        {
+          "dato": "El original: 5 puestos (patatas, chocolate, palomitas...), clientes animales, cintas, auto-cajas y torres de dinero",
+          "fuente": "https://www.crazygames.com/game/winter-loop"
+        }
+      ],
+      "competencia": "media: el idle de comida ya lo cubre Churrería Idle en cola.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": false,
+      "duracionSesion": "Sesiones largas de gestión. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "18/35: tycoon 3D con paseo, contratación y automatización: no se hace en un día; el idle de comida ya lo cubre Churrería Idle en cola.",
+      "nombre": "Bulevar Invernal",
+      "fecha": "2026-11-23",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 23/11/2026 08:00",
+      "analisis": {
+        "tendencias": "CrazyGames: Winter Loop nuevo 17/11, 95 % de likes. El tycoon invernal es de temporada, pero pide caminar y gestionar.",
+        "hypercasualQueFunciona": "Ver cómo el puesto se automatiza solo: la fantasía del negocio que funciona sin ti.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Media: el idle de comida ya lo cubre Churrería Idle (en cola); el pingüino no cambia el bucle.",
+        "viabilidad": "Muy baja: 3D con paseo, 5 puestos con máquinas, contratación y automatización; imposible en un día.",
+        "potencialViral": "Medio: la torre de dinero en la espalda es graciosa, pero no es tensión.",
+        "se_entiende_3s_sin_texto": "No: caminar con joystick y comprar en plataformas no es un toque.",
+        "adictivo": "5 puestos, mejoras de bronce a oro y vestuario.",
+        "monetizacion": "Anuncio entre sesiones. Anuncio con recompensa: dinero o cliente extra."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 2,
+        "viabilidad1Dia": 1,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 2,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 18,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "media",
+      "conclusion": "NO APTA: 18/35: tycoon 3D con paseo, contratación y automatización: no se hace en un día; el idle de comida ya lo cubre Churrería Idle en cola.",
+      "motivo": "NO APTA: 18/35: tycoon 3D con paseo, contratación y automatización: no se hace en un día; el idle de comida ya lo cubre Churrería Idle en cola."
+    },
+    {
+      "id": "fusiona-peluches",
+      "titulo": "Fusiona Peluches Blanditos",
+      "tituloEN": "Squishy Merge Toys",
+      "genero": "Fusión (merge)",
+      "gancho": "Abre la caja, saca un peluche blandito y fusiona los iguales hasta completar 240 juguetes.",
+      "porQueFunciona": "Squishy: Grow Your 240 Toys es nuevo (21/11, 244 likes / 43 dislikes, 85 %, 8,5) con 6 colecciones.",
+      "datos": [
+        {
+          "dato": "Squishy: Grow Your 240 Toys: 244 likes y 43 dislikes (85 % positivos), 8,5/10 en CrazyGames; publicado 21/11/2026, Unity 6",
+          "fuente": "https://www.crazygames.com/game/squishy---grow-your-240-toys"
+        },
+        {
+          "dato": "Piece of Cake: Merge & Bake, n.º 1 en tendencias de Playgama (merge de cafetería)",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        }
+      ],
+      "competencia": "alta: el merge está saturado (Piece of Cake n.º 1).",
+      "potencialViral": 3,
+      "hacibleEnUnDia": false,
+      "duracionSesion": "Sesiones de colección. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "18/35: merge saturado (Piece of Cake n.º 1 en Playgama) y 240 juguetes: montaña de contenido imposible en un día.",
+      "nombre": "Fusiona Peluches Blanditos",
+      "fecha": "2026-11-23",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 23/11/2026 08:00",
+      "analisis": {
+        "tendencias": "CrazyGames: Squishy nuevo 21/11, 85 % de likes. El merge con colección tira, pero la estantería está llena.",
+        "hypercasualQueFunciona": "Abrir la caja y que salga algo raro: la emoción es la del sobre de cromos.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Alta: el merge está saturado (Piece of Cake n.º 1 en Playgama; 40+ merges).",
+        "viabilidad": "Muy baja: 240 juguetes en 6 colecciones con 8 fases cada uno; imposible en un día.",
+        "potencialViral": "Medio: el peluche raro se graba, pero es otro merge.",
+        "se_entiende_3s_sin_texto": "Sí: tocas la caja y fusionas iguales.",
+        "adictivo": "6 colecciones, incubadora y renacimientos.",
+        "monetizacion": "Anuncio entre sesiones. Anuncio con recompensa: caja extra."
+      },
+      "puntuacion": {
+        "tendencia": 3,
+        "competencia": 1,
+        "viabilidad1Dia": 1,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 4,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 18,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: 18/35: merge saturado (Piece of Cake n.º 1 en Playgama) y 240 juguetes: montaña de contenido imposible en un día.",
+      "motivo": "NO APTA: 18/35: merge saturado (Piece of Cake n.º 1 en Playgama) y 240 juguetes: montaña de contenido imposible en un día."
+    },
+    {
+      "id": "campamento-invernal",
+      "titulo": "Campamento Invernal",
+      "tituloEN": "Hearthfrost Camp",
+      "genero": "Tycoon acogedor + defensa",
+      "gancho": "Corta leña, pesca en el hielo, vende a los aldeanos y defiende el campamento de los lobos.",
+      "porQueFunciona": "Hearthfrost es nuevo (20/11, 281 likes / 33 dislikes, 90 %, 8,9) con 20+ edificios y jefe final (Lobo Alfa).",
+      "datos": [
+        {
+          "dato": "Hearthfrost: 281 likes y 33 dislikes (90 % positivos), 8,9/10 en CrazyGames; publicado 20/11/2026",
+          "fuente": "https://www.crazygames.com/game/hearthfrost-rcn"
+        },
+        {
+          "dato": "El original: 20+ edificios y trabajadores, asaltos de lobos, torres de vigilancia y jefe final Lobo Alfa",
+          "fuente": "https://www.crazygames.com/game/hearthfrost-rcn"
+        }
+      ],
+      "competencia": "media: el tycoon invernal lo cubre Winter Loop, también nuevo.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": false,
+      "duracionSesion": "Sesiones largas. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "18/35: tycoon con 20+ edificios, trabajadores y defensa contra lobos: no se hace en un día.",
+      "nombre": "Campamento Invernal",
+      "fecha": "2026-11-23",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 23/11/2026 08:00",
+      "analisis": {
+        "tendencias": "CrazyGames: Hearthfrost nuevo 20/11, 90 % de likes. El tycoon acogedor con defensa es fresco, pero pide mucho.",
+        "hypercasualQueFunciona": "Ver el campamento crecer y defenderlo: gestión con sobresaltos.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Media: el tycoon invernal lo cubre Winter Loop (nuevo 17/11); el lobo no cambia el bucle.",
+        "viabilidad": "Muy baja: 20+ edificios, trabajadores, asaltos y jefe final; imposible en un día.",
+        "potencialViral": "Medio: el Lobo Alfa se graba, pero pide un juego entero detrás.",
+        "se_entiende_3s_sin_texto": "No: caminar, trabajar y luchar con el mismo gesto no es un toque.",
+        "adictivo": "Edificios, trabajadores y el faro final.",
+        "monetizacion": "Anuncio entre sesiones. Anuncio con recompensa: madera o leña extra."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 2,
+        "viabilidad1Dia": 1,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 2,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 18,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "media",
+      "conclusion": "NO APTA: 18/35: tycoon con 20+ edificios, trabajadores y defensa contra lobos: no se hace en un día.",
+      "motivo": "NO APTA: 18/35: tycoon con 20+ edificios, trabajadores y defensa contra lobos: no se hace en un día."
+    },
+    {
+      "id": "come-tierra",
+      "titulo": "Come Tierra",
+      "tituloEN": "Eat Earth Clicker",
+      "genero": "Clicker idle (comer)",
+      "gancho": "Toca para dar bocados a un mundo de píxeles destructible y contrata comedores que sigan por ti.",
+      "porQueFunciona": "Eat Earth es nuevo (13/11, 886 likes / 56 dislikes, 94 %, 9,4) con mundo destructible.",
+      "datos": [
+        {
+          "dato": "Eat Earth: 886 likes y 56 dislikes (94 % positivos), 9,4/10 en CrazyGames; publicado 13/11/2026",
+          "fuente": "https://www.crazygames.com/game/eat-earth"
+        },
+        {
+          "dato": "Hole Rush: Eat to Grow, 386.000 instalaciones desde el 17/11 en móvil",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Hole.io: 77 M de partidas en Playables",
+          "fuente": "https://playables.games/best/"
+        }
+      ],
+      "competencia": "media: comer-y-crecer lo cubre nuestro Agujero Tragón.",
+      "potencialViral": 2,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Sin final: sesiones de farmeo. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "17/35: clicker idle sin estado de fallo ni niveles; comer-y-crecer ya lo cubre nuestro Agujero Tragón en cola.",
+      "nombre": "Come Tierra",
+      "fecha": "2026-11-23",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 23/11/2026 08:00",
+      "analisis": {
+        "tendencias": "CrazyGames: Eat Earth nuevo 13/11, 94 % de likes. Móvil: Hole Rush 386.000 instalaciones desde el 17/11. Comer tira, pero sin tensión.",
+        "hypercasualQueFunciona": "Dar bocados a un planeta: destructible y con tesoros escondidos.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Media: comer-y-crecer lo cubre nuestro Agujero Tragón (en cola) y Hole.io lleva 77 M en Playables.",
+        "viabilidad": "Media: el mundo destructible en 2D se hace, pero el juego es un clicker sin niveles.",
+        "potencialViral": "Bajo: comer sin riesgo no es un momento para un Short.",
+        "se_entiende_3s_sin_texto": "Sí: tocas y el suelo desaparece.",
+        "adictivo": "Muy baja: sin fallo ni niveles, solo números que suben y comedores contratados.",
+        "monetizacion": "Sin niveles no hay pausa natural; solo rewarded de mejoras."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 1,
+        "viabilidad1Dia": 3,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 4,
+        "adiccion": 1,
+        "monetizacion": 2,
+        "total": 17,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "media",
+      "conclusion": "NO APTA: 17/35: clicker idle sin estado de fallo ni niveles; comer-y-crecer ya lo cubre nuestro Agujero Tragón en cola.",
+      "motivo": "NO APTA: 17/35: clicker idle sin estado de fallo ni niveles; comer-y-crecer ya lo cubre nuestro Agujero Tragón en cola."
+    },
+    {
+      "id": "gatos-logicos",
+      "titulo": "Gatos Lógicos",
+      "tituloEN": "Catdoku Logic",
+      "genero": "Puzle de lógica (gatos)",
+      "gancho": "Descubre dónde se esconden los gatos usando solo la lógica: marca dónde no puede haber uno y coloca el resto.",
+      "porQueFunciona": "Catdoku es nuevo (17/11, 193 likes / 31 dislikes, 86 %, 8,6, vertical) y también está en App Store y Google Play.",
+      "datos": [
+        {
+          "dato": "Catdoku: 193 likes y 31 dislikes (86 % positivos), 8,6/10 en CrazyGames; publicado 17/11/2026, vertical",
+          "fuente": "https://www.crazygames.com/game/catdoku-meow-brain-puzzle"
+        },
+        {
+          "dato": "Cat Sudoku: Brain Meowdoku ya está en Playgama",
+          "fuente": "https://playgama.com/search?q=math"
+        }
+      ],
+      "competencia": "alta: Cat Sudoku ya está en Playgama.",
+      "potencialViral": 2,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Tableros de lógica de 1-3 min. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "19/35, por debajo del corte: lógica tranquila y poco viral (nada de mates/lógica en el top 50 de Playables), y Cat Sudoku ya está en Playgama.",
+      "nombre": "Gatos Lógicos",
+      "fecha": "2026-11-23",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 23/11/2026 08:00",
+      "analisis": {
+        "tendencias": "CrazyGames: Catdoku nuevo 17/11, 86 % de likes, también en tiendas móviles. La lógica con gatos es mona, pero tranquila.",
+        "hypercasualQueFunciona": "Deducir dónde está el gato: la satisfacción es resolver, no el espectáculo.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Alta: Cat Sudoku ya está en Playgama (misma idea: gatos + lógica de casillas).",
+        "viabilidad": "Media: el generador de tableros lógicos con solución única hay que diseñarlo bien; no es un generador trivial.",
+        "potencialViral": "Bajo: resolver en silencio no es un momento para un Short.",
+        "se_entiende_3s_sin_texto": "Regular: «marca dónde NO hay gato» hay que explicarlo; no se ve en 3 s.",
+        "adictivo": "Tableros por dificultad y colección de gatos.",
+        "monetizacion": "Anuncio entre tableros. Anuncio con recompensa: una pista."
+      },
+      "puntuacion": {
+        "tendencia": 3,
+        "competencia": 2,
+        "viabilidad1Dia": 3,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 3,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 19,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: 19/35, por debajo del corte: lógica tranquila y poco viral (nada de mates/lógica en el top 50 de Playables), y Cat Sudoku ya está en Playgama.",
+      "motivo": "NO APTA: 19/35, por debajo del corte: lógica tranquila y poco viral (nada de mates/lógica en el top 50 de Playables), y Cat Sudoku ya está en Playgama."
+    },
+    {
+      "id": "crucigrama-de-mates",
+      "titulo": "Crucigrama de Mates",
+      "tituloEN": "Crossmath Puzzle",
+      "genero": "Puzle de mates (crucigrama)",
+      "gancho": "Rellena el crucigrama para que cada fila y columna sume bien.",
+      "porQueFunciona": "Crossmath es el breakout de la semana en móvil: +517.000 instalaciones/semana (antes 905), 54 M en total.",
+      "datos": [
+        {
+          "dato": "Crossmath: +517.000 instalaciones/semana (antes 905), 54 M en total; breakout 10×+ de la semana",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Math Crosswords ya está en Playgama",
+          "fuente": "https://playgama.com/search?q=math"
+        }
+      ],
+      "competencia": "alta: Math Crosswords ya está en Playgama.",
+      "potencialViral": 2,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Tableros de 1-3 min. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "21/35, por debajo del corte: Math Crosswords ya está en Playgama y las mates no son virales en Playables (ningún juego de mates en el top 50).",
+      "nombre": "Crucigrama de Mates",
+      "fecha": "2026-11-23",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 23/11/2026 08:00",
+      "analisis": {
+        "tendencias": "Móvil: Crossmath es el breakout de la semana (+517.000/semana, 10×+). Las mates tiran en móvil, pero no en Playables.",
+        "hypercasualQueFunciona": "Hacer que las cuentas cuadren: la satisfacción es el «¡cuadra!» final.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Alta: Math Crosswords ya está en Playgama (el mismo concepto).",
+        "viabilidad": "Alta: el generador de crucigramas de mates es sencillo y procedural.",
+        "potencialViral": "Bajo: hacer cuentas no es un momento para un Short.",
+        "se_entiende_3s_sin_texto": "Regular: hay que leer números y entender la regla; no se ve en 3 s sin texto.",
+        "adictivo": "Tableros infinitos por dificultad y rachas.",
+        "monetizacion": "Anuncio entre tableros. Anuncio con recompensa: una pista o revelar una casilla."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 2,
+        "viabilidad1Dia": 4,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 3,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 21,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: 21/35, por debajo del corte: Math Crosswords ya está en Playgama y las mates no son virales en Playables (ningún juego de mates en el top 50).",
+      "motivo": "NO APTA: 21/35, por debajo del corte: Math Crosswords ya está en Playgama y las mates no son virales en Playables (ningún juego de mates en el top 50)."
+    },
+    {
+      "id": "pizza-lista",
+      "titulo": "Pizza Lista",
+      "tituloEN": "Pizza Ready Rush",
+      "genero": "Cocina (gestión)",
+      "gancho": "Prepara pizzas a toda velocidad en tu pizzería y sirve a la cola antes de que se enfade.",
+      "porQueFunciona": "Pizza Ready! es el breakout de la semana: +3,6 M de instalaciones/semana, 411 M en total.",
+      "datos": [
+        {
+          "dato": "Pizza Ready!: +3,6 M de instalaciones/semana, 411 M en total; breakout nuevo de la semana",
+          "fuente": "https://playstoreradar.com/signals"
+        }
+      ],
+      "competencia": "alta: 15+ juegos de cocina en Playgama (rechazo Cocina Caótica 21/11).",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Turnos de 60-90 s. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "22/35, por debajo del corte: cocina saturada en Playgama (15+ juegos; rechazo de Cocina Caótica el 21/11): el breakout es de móvil, no un hueco en web.",
+      "nombre": "Pizza Lista",
+      "fecha": "2026-11-23",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 23/11/2026 08:00",
+      "analisis": {
+        "tendencias": "Móvil: Pizza Ready! es el breakout de la semana (+3,6 M/semana, 411 M). La cocina tira en móvil, pero la estantería web está llena.",
+        "hypercasualQueFunciona": "Servir pizzas a toda velocidad: el caos de la cocina es el juego.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Alta: 15+ juegos de cocina en Playgama (rechazo de Cocina Caótica el 21/11).",
+        "viabilidad": "Alta: turnos con pedidos y cola se hacen en 2D en un día.",
+        "potencialViral": "Medio: el caos de la cocina se graba, pero es el mismo caos de siempre.",
+        "se_entiende_3s_sin_texto": "Sí: tocas el pedido y lo sirves.",
+        "adictivo": "Turnos con propinas, mejoras de cocina y clientes impacientes.",
+        "monetizacion": "Anuncio entre turnos. Anuncio con recompensa: propina doble."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 1,
+        "viabilidad1Dia": 4,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 4,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 22,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: 22/35, por debajo del corte: cocina saturada en Playgama (15+ juegos; rechazo de Cocina Caótica el 21/11): el breakout es de móvil, no un hueco en web.",
+      "motivo": "NO APTA: 22/35, por debajo del corte: cocina saturada en Playgama (15+ juegos; rechazo de Cocina Caótica el 21/11): el breakout es de móvil, no un hueco en web."
+    },
+    {
+      "id": "agujero-come-todo",
+      "titulo": "Agujero Come Todo",
+      "tituloEN": "Hole Rush Grow",
+      "genero": "Comer y crecer (agujero)",
+      "gancho": "Tu agujero se traga la ciudad entera y crece con cada cosa que cae dentro.",
+      "porQueFunciona": "Hole Rush: Eat to Grow lleva 386.000 instalaciones desde el 17/11 en móvil.",
+      "datos": [
+        {
+          "dato": "Hole Rush: Eat to Grow, 386.000 instalaciones desde el 17/11 en móvil",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Hole.io: 77 M de partidas en Playables",
+          "fuente": "https://playables.games/best/"
+        }
+      ],
+      "competencia": "alta: nuestro Agujero Tragón en la Cocina ya cubre comer-y-crecer.",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Partidas de 60 s. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "24/35, por debajo del corte: duplica nuestro Agujero Tragón en la Cocina (comer-y-crecer, aprobado por Daniel 15/11); Hole.io ya tiene 77 M de partidas en Playables.",
+      "nombre": "Agujero Come Todo",
+      "fecha": "2026-11-23",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 23/11/2026 08:00",
+      "analisis": {
+        "tendencias": "Móvil: Hole Rush 386.000 instalaciones desde el 17/11. Playables: Hole.io 77 M. Comer-y-crecer es un éxito probado, pero ya es nuestro.",
+        "hypercasualQueFunciona": "Tragarse la ciudad: el agujero que crece es el chiste entero.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Alta: duplica nuestro Agujero Tragón en la Cocina (aprobado por Daniel 15/11).",
+        "viabilidad": "Alta en 2D: arrastrar el agujero y tragar por tamaño es sencillo.",
+        "potencialViral": "Alto: tragarse un edificio entero se graba solo.",
+        "se_entiende_3s_sin_texto": "Sí: mueves el agujero y todo cae dentro.",
+        "adictivo": "Niveles con objetivo de tamaño y mejoras del agujero.",
+        "monetizacion": "Anuncio entre partidas. Anuncio con recompensa: agujero grande 30 s."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 1,
+        "viabilidad1Dia": 4,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 5,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 24,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: 24/35, por debajo del corte: duplica nuestro Agujero Tragón en la Cocina (comer-y-crecer, aprobado por Daniel 15/11); Hole.io ya tiene 77 M de partidas en Playables.",
+      "motivo": "NO APTA: 24/35, por debajo del corte: duplica nuestro Agujero Tragón en la Cocina (comer-y-crecer, aprobado por Daniel 15/11); Hole.io ya tiene 77 M de partidas en Playables."
     }
   ],
   "actualizadoEn": "2026-11-22T08:10:00+01:00"
