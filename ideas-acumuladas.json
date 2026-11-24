@@ -167,7 +167,15 @@
     "https://playgama.com/search?q=clone",
     "https://playgama.com/search?q=tornado",
     "https://playgama.com/search?q=math",
-    "https://playgama.com/search?q=bow"
+    "https://playgama.com/search?q=bow",
+    "https://playgama.com/search?q=drag%20race",
+    "https://playgama.com/search?q=hill%20climb",
+    "https://playgama.com/search?q=coloring",
+    "https://playgama.com/search?q=plumber",
+    "https://playgama.com/search?q=mahjong",
+    "https://www.gamequarium.org/perfect-shift-for-pc/",
+    "https://www.appbrain.com/app/hill-climber-offroad-car-race/com.nevronus.hillclimb",
+    "https://www.appbrain.com/appstore/rv-camper-journey-to-the-top/ios-6755877370"
   ],
   "aptas": [
     {
@@ -1886,6 +1894,143 @@
       "elegida": false,
       "origen": "Investigación diaria 23/11/2026 08:00",
       "motivo": "APTA: duelo de tiro con arco nuevo con 92 % en CrazyGames y formato de duelo 1 contra 1 sin cubrir en Playgama (Galebow es oleadas)."
+    },
+    {
+      "id": "cambio-perfecto",
+      "titulo": "Cambio Perfecto",
+      "tituloEN": "Redline Shift",
+      "genero": "Carreras de timing (cambio de marchas)",
+      "gancho": "La aguja sube hacia la zona verde: toca para cambiar de marcha en el momento exacto y deja atrás a tu rival en una foto finish.",
+      "porQueFunciona": "El drag de motos está en breakout (Drag Bike 201m cruza 10 M con +7 M esta semana) y en España mandan los Márquez; en Playgama no hay ningún drag de timing.",
+      "viralUrgente": false,
+      "temaViral": "MotoGP / hermanos Márquez (tendencia en España, 100.000+ búsquedas, 23-24/11)",
+      "datos": [
+        {
+          "dato": "Drag Bike 201m Sunmori: cruza 10 M de instalaciones, +7 M solo esta semana",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Real Moto Driving Racing World: +1,3 M de instalaciones/semana (breakout)",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Álex Márquez y Marc Márquez: 100.000+ búsquedas en España (23-24/11/2026)",
+          "fuente": "https://www.48hrstrends.com/Spain/this-week"
+        },
+        {
+          "dato": "Playgama «drag race»: solo carreras genéricas (MR RACER, Moto X3M, stunts); ningún drag de cambio de marchas",
+          "fuente": "https://playgama.com/search?q=drag%20race"
+        },
+        {
+          "dato": "«Perfect Shift» (Lextre) existe en móvil con la misma mecánica (125.000 valoraciones, 4,36/5): el título EN está pillado, de ahí «Redline Shift»",
+          "fuente": "https://www.gamequarium.org/perfect-shift-for-pc/"
+        }
+      ],
+      "analisis": {
+        "tendencias": "Móvil: Drag Bike 201m cruza 10 M (+7 M/semana); Real Moto +1,3 M/semana. España: los Márquez en el top 10 de búsquedas (23-24/11). Playables: Hill Climb Racing Lite 29 M y MR RACER 19 M confirman el tirón de la conducción arcade.",
+        "hypercasualQueFunciona": "Timing de un toque con tensión creciente: la aguja, la zona verde y la foto finish.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Vacía en Playgama para la mecánica (búsqueda «drag race»: solo carreras genéricas 3D). En móvil existe «Perfect Shift» (Lextre) con la misma mecánica, pero es 3D y no está en Playgama/Playables; la nuestra es 2D vertical con tema moto y meta propia (escalera de rivales + mejoras).",
+        "viabilidad": "Alta en un día: una aguja, 4-5 marchas, rivales por niveles con tiempos objetivo, vibración y cámara lenta en la meta. Sin físicas de vehículos: solo timing.",
+        "potencialViral": "Alto: el «cambio perfecto» encadenado y la foto finish a cámara lenta se graban solos; el tema MotoGP tira en España.",
+        "se_entiende_3s_sin_texto": "Sí: la aguja sube, la zona verde brilla y tocas para cambiar. Fallar se ve al instante (el rival se escapa).",
+        "adictivo": "Escalera de rivales cada vez más rápidos, cambios perfectos encadenados (combo), motos y mejoras con monedas, récord de tiempo.",
+        "monetizacion": "Anuncio entre carreras. Anuncio con recompensa: revancha inmediata o moto mejorada una carrera."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 5,
+        "viabilidad1Dia": 4,
+        "potencialViral": 4,
+        "seEntiendeEn3s": 5,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 30,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "baja",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Carreras de 15-30 s encadenadas contra rivales. Tiempo real: sin dato.",
+      "conclusion": "APTA: drag de timing con hueco vacío en Playgama, señal móvil fuerte (Drag Bike 10 M) y tirón MotoGP en España; se entiende al primer toque y se hace en un día sin físicas de vehículos.",
+      "nombre": "Cambio Perfecto",
+      "fecha": "2026-11-24",
+      "nueva": true,
+      "estado": "apta",
+      "elegida": false,
+      "origen": "Investigación diaria 24/11/2026 08:00",
+      "motivo": "APTA: drag de timing con hueco vacío en Playgama, señal móvil fuerte (Drag Bike 10 M) y tirón MotoGP en España; se entiende al primer toque y se hace en un día sin físicas de vehículos."
+    },
+    {
+      "id": "camper-cuesta-arriba",
+      "titulo": "Camper Cuesta Arriba",
+      "tituloEN": "Camper Climb",
+      "genero": "Conducción con física (hill climb)",
+      "gancho": "Pisa el acelerador, no vuelques la camper y recoge gasolina y monedas cuesta arriba; si se te cae la vajilla, ríete y vuelve a intentarlo.",
+      "porQueFunciona": "Hill Climb Racing Lite tiene 29 M de partidas en Playables y los sims de conducción están en breakout; en Playgama no hay ningún hill climb y el tema camper es nicho propio de Daniel.",
+      "viralUrgente": false,
+      "datos": [
+        {
+          "dato": "Hill Climb Racing Lite: 29 M de partidas en YouTube Playables (top 50, 23/11/2026)",
+          "fuente": "https://playables.games/best/"
+        },
+        {
+          "dato": "RV Camper: Long Drive Simulator: 1,5 M de instalaciones desde el 19/11/2026",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Real Moto Driving Racing World y Real Driving: Vehicle & Park: +1,3 M de instalaciones/semana cada uno",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Playgama «hill climb»: ningún juego de subir cuestas con física; solo carreras y obby genéricos",
+          "fuente": "https://playgama.com/search?q=hill%20climb"
+        },
+        {
+          "dato": "«Camper Climb» libre como título: no lo usa ningún juego conocido («RV Camper Journey to the Top» es una aventura 3D distinta)",
+          "fuente": "https://www.appbrain.com/appstore/rv-camper-journey-to-the-top/ios-6755877370"
+        }
+      ],
+      "analisis": {
+        "tendencias": "Playables: Hill Climb Racing Lite 29 M. Móvil: RV Camper 1,5 M en 5 días; Real Moto y Real Driving en breakout (+1,3 M/semana). La conducción arcade está caliente en las tres tiendas.",
+        "hypercasualQueFunciona": "Dos pedales, física con vuelcos cómicos y meta de distancia con mejoras.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Vacía en Playgama (búsqueda «hill climb» sin resultados del género). En móvil hay clones del original (Hill Climber: Offroad Car Race, oct 2026, 480 instalaciones), pero ninguno en Playgama/Playables; el tema camper es nuestro y distinto.",
+        "viabilidad": "Media: dos ruedas con suspensión en Matter.js y terreno procedural; el riesgo es ajustar la física para que sea justa en un día (como Paraguas). Limitarlo a gas/freno y 2 pedales grandes.",
+        "potencialViral": "Medio: los vuelcos con la camper y la vajilla volando son graciosos, pero el género no es el más Shortable.",
+        "se_entiende_3s_sin_texto": "Sí: dos pedales grandes, gas a la derecha y freno a la izquierda; la cuesta y la gasolina se ven.",
+        "adictivo": "Récord de distancia, monedas para mejorar motor, ruedas y depósito, y mundos nuevos cada ~5 niveles.",
+        "monetizacion": "Anuncio entre intentos. Anuncio con recompensa: depósito lleno o seguir desde el mismo punto."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 5,
+        "viabilidad1Dia": 3,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 5,
+        "adiccion": 4,
+        "monetizacion": 4,
+        "total": 28,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "baja",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Intentos de 30-90 s con récord de distancia. Tiempo real: sin dato.",
+      "conclusion": "APTA pero con riesgo físico: hueco vacío en Playgama y conducción en breakout; la física hay que ajustarla bien en un día.",
+      "nombre": "Camper Cuesta Arriba",
+      "fecha": "2026-11-24",
+      "nueva": true,
+      "estado": "apta",
+      "elegida": false,
+      "origen": "Investigación diaria 24/11/2026 08:00",
+      "motivo": "APTA pero con riesgo físico: hueco vacío en Playgama y conducción en breakout; la física hay que ajustarla bien en un día."
     }
   ],
   "noAptas": [
@@ -6140,7 +6285,342 @@
       "competenciaNivel": "alta",
       "conclusion": "NO APTA: 24/35, por debajo del corte: duplica nuestro Agujero Tragón en la Cocina (comer-y-crecer, aprobado por Daniel 15/11); Hole.io ya tiene 77 M de partidas en Playables.",
       "motivo": "NO APTA: 24/35, por debajo del corte: duplica nuestro Agujero Tragón en la Cocina (comer-y-crecer, aprobado por Daniel 15/11); Hole.io ya tiene 77 M de partidas en Playables."
+    },
+    {
+      "id": "fontanero-expres",
+      "titulo": "Fontanero Exprés",
+      "tituloEN": "Plumber Rush",
+      "genero": "Puzle de tuberías",
+      "gancho": "Gira las tuberías para llevar el agua al grifo antes de que se vacíe el depósito.",
+      "porQueFunciona": "Plumber 4: Fix-It Town sale el 20/11 de un gran editor; el puzle de tuberías es un clásico.",
+      "datos": [
+        {
+          "dato": "Plumber 4: Fix-It Town: nuevo el 20/11/2026 de un editor con 331 M de instalaciones",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Playgama «plumber»: solo 3 juegos de tuberías (Cheerful Plumber, Plumber, Plumber vs. Princess)",
+          "fuente": "https://playgama.com/search?q=plumber"
+        }
+      ],
+      "competencia": "baja-media: solo 3 juegos de tuberías en Playgama, pero el género es un clásico lento.",
+      "potencialViral": 2,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles cortos por turnos. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "22/35, por debajo del corte: puzle clásico y lento, poco viral y sin tensión; el nicho es pequeño y no hay breakout.",
+      "nombre": "Fontanero Exprés",
+      "fecha": "2026-11-24",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 24/11/2026 08:00",
+      "analisis": {
+        "tendencias": "Móvil: un lanzamiento (Plumber 4) sin cifras de breakout. Sin señal en Playables ni en tendencias de Playgama.",
+        "hypercasualQueFunciona": "Puzles de conectar con límite de movimientos o tiempo.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals"
+        ],
+        "competencia": "Pequeña en Playgama (3 juegos), pero el género es un clásico con poca tracción: nadie lo graba ni lo comparte.",
+        "viabilidad": "Alta en un día: rejilla, rotar piezas y comprobar el camino del agua.",
+        "potencialViral": "Bajo: girar tuberías no da un momento grabable.",
+        "se_entiende_3s_sin_texto": "Casi: hay que entender que el agua debe llegar del depósito al grifo; el primer nivel lo enseña con la mano.",
+        "adictivo": "Niveles con estrellas por movimientos; poca tensión sin temporizador.",
+        "monetizacion": "Anuncio entre niveles. Anuncio con recompensa: pista o deshacer."
+      },
+      "puntuacion": {
+        "tendencia": 2,
+        "competencia": 4,
+        "viabilidad1Dia": 5,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 4,
+        "adiccion": 2,
+        "monetizacion": 3,
+        "total": 22,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "baja-media",
+      "conclusion": "NO APTA: 22/35, por debajo del corte: puzle clásico y lento, poco viral y sin tensión; el nicho es pequeño y no hay breakout.",
+      "motivo": "NO APTA: 22/35, por debajo del corte: puzle clásico y lento, poco viral y sin tensión; el nicho es pequeño y no hay breakout."
+    },
+    {
+      "id": "colorea-tu-coche",
+      "titulo": "Colorea tu Coche",
+      "tituloEN": "Color Your Ride",
+      "genero": "Colorear por números",
+      "gancho": "Colorea tu coche por números y míralo salir del taller rugiendo.",
+      "porQueFunciona": "Color Page ASMR tiene 63 M de partidas en Playables y Color by Number suma +1,2 M/semana en móvil.",
+      "datos": [
+        {
+          "dato": "Color Page ASMR: 63 M de partidas en YouTube Playables (n.º 16, 23/11/2026)",
+          "fuente": "https://playables.games/best/"
+        },
+        {
+          "dato": "Color by Number: Coloring Games: +1,2 M de instalaciones/semana (breakout)",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Playgama «coloring»: 30+ juegos de colorear (Coloring Book: Color By Number, Cozy Coloring, Pixel Number...)",
+          "fuente": "https://playgama.com/search?q=coloring"
+        }
+      ],
+      "competencia": "alta: 30+ juegos de colorear en Playgama.",
+      "potencialViral": 2,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Un dibujo por nivel, sesiones largas pero sin tensión. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "22/35: 30+ juegos de colorear en Playgama y sin estado de fallo (misma objeción que Explota Burbujas ASMR); el tema coche no compensa la estantería llena.",
+      "nombre": "Colorea tu Coche",
+      "fecha": "2026-11-24",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 24/11/2026 08:00",
+      "analisis": {
+        "tendencias": "Playables: Color Page ASMR 63 M. Móvil: Color by Number en breakout (+1,2 M/semana). La demanda existe, pero la oferta también.",
+        "hypercasualQueFunciona": "ASMR tranquilo: rellenar zonas con color y ver el dibujo terminado.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals",
+          "https://playables.games/best/"
+        ],
+        "competencia": "Alta: 30+ juegos de colorear en Playgama, incluidos 5+ de colorear por números. El líder (Color Page ASMR) ya está en Playables.",
+        "viabilidad": "Alta en un día: zonas por número, paleta y colección de coches terminados en el garaje.",
+        "potencialViral": "Bajo: colorear es relajante, no da un momento de tensión ni de sorpresa para un Short.",
+        "se_entiende_3s_sin_texto": "Sí: toca un color y toca la zona con ese número.",
+        "adictivo": "Colección de coches terminados; sin fallo, sin reto y sin curva.",
+        "monetizacion": "Anuncio entre dibujos. Anuncio con recompensa: desbloquear un dibujo. Poco sitio para anuncios si el dibujo dura minutos."
+      },
+      "puntuacion": {
+        "tendencia": 4,
+        "competencia": 1,
+        "viabilidad1Dia": 5,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 5,
+        "adiccion": 2,
+        "monetizacion": 3,
+        "total": 22,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: 22/35: 30+ juegos de colorear en Playgama y sin estado de fallo (misma objeción que Explota Burbujas ASMR); el tema coche no compensa la estantería llena.",
+      "motivo": "NO APTA: 22/35: 30+ juegos de colorear en Playgama y sin estado de fallo (misma objeción que Explota Burbujas ASMR); el tema coche no compensa la estantería llena."
+    },
+    {
+      "id": "empuja-el-tronco",
+      "titulo": "Empuja el Tronco",
+      "tituloEN": "Log Push",
+      "genero": "Puzle de empujar (sokoban)",
+      "gancho": "Empuja los troncos hasta su sitio sin quedarte atascado.",
+      "porQueFunciona": "Log Push sale el 20/11 de un editor de 322 M de instalaciones.",
+      "datos": [
+        {
+          "dato": "Log Push: nuevo el 20/11/2026 de un editor con 322 M de instalaciones en 15 títulos",
+          "fuente": "https://playstoreradar.com/signals"
+        }
+      ],
+      "competencia": "media: varios sokoban y puzles de empujar en Playgama.",
+      "potencialViral": 1,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles lentos por turnos. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "20/35, por debajo del corte: sokoban lento y nada viral; sin momento grabable ni tensión.",
+      "nombre": "Empuja el Tronco",
+      "fecha": "2026-11-24",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 24/11/2026 08:00",
+      "analisis": {
+        "tendencias": "Móvil: un lanzamiento sin cifras de breakout. Sin señal en Playables ni en Playgama.",
+        "hypercasualQueFunciona": "Puzles por turnos con deshacer.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals"
+        ],
+        "competencia": "Media: el sokoban es un clásico con varias versiones en web.",
+        "viabilidad": "Alta en un día: rejilla, empujar cajas y deshacer.",
+        "potencialViral": "Muy bajo: empujar troncos no se graba ni se comparte.",
+        "se_entiende_3s_sin_texto": "Casi: hay que entender que el tronco solo se empuja, no se tira.",
+        "adictivo": "Niveles con estrellas; ritmo lento y sin tensión.",
+        "monetizacion": "Anuncio entre niveles. Anuncio con recompensa: deshacer."
+      },
+      "puntuacion": {
+        "tendencia": 2,
+        "competencia": 3,
+        "viabilidad1Dia": 5,
+        "potencialViral": 1,
+        "seEntiendeEn3s": 4,
+        "adiccion": 2,
+        "monetizacion": 3,
+        "total": 20,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "media",
+      "conclusion": "NO APTA: 20/35, por debajo del corte: sokoban lento y nada viral; sin momento grabable ni tensión.",
+      "motivo": "NO APTA: 20/35, por debajo del corte: sokoban lento y nada viral; sin momento grabable ni tensión."
+    },
+    {
+      "id": "hexa-relampago",
+      "titulo": "Hexa Relámpago",
+      "tituloEN": "Hexa Rush",
+      "genero": "Match de hexágonos",
+      "gancho": "Junta hexágonos iguales antes de que el tablero se llene.",
+      "porQueFunciona": "Hexa Strike sale el 21/11 de un editor de 222 M de instalaciones.",
+      "datos": [
+        {
+          "dato": "Hexa Strike: nuevo el 21/11/2026 de un editor con 222 M de instalaciones en 18 títulos",
+          "fuente": "https://playstoreradar.com/signals"
+        }
+      ],
+      "competencia": "alta: familia bloques/match saturada (Block Blast).",
+      "potencialViral": 2,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Partidas cortas con tablero que se llena. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "21/35, por debajo del corte: familia bloques/match saturada (Block Blast); sin giro nuevo.",
+      "nombre": "Hexa Relámpago",
+      "fecha": "2026-11-24",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 24/11/2026 08:00",
+      "analisis": {
+        "tendencias": "Móvil: un lanzamiento sin cifras de breakout. Sin señal en Playables ni en Playgama.",
+        "hypercasualQueFunciona": "Match con tablero que se llena y combos.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals"
+        ],
+        "competencia": "Alta: Block Blast y decenas de match-3/hexa en todas las tiendas.",
+        "viabilidad": "Alta en un día: rejilla hexagonal y match de 3.",
+        "potencialViral": "Bajo: un match más no da un momento para un Short.",
+        "se_entiende_3s_sin_texto": "Casi: el match se entiende, pero la forma hexagonal añade un momento de lectura.",
+        "adictivo": "Combos y tablero que se llena; sin giro frente a Block Blast.",
+        "monetizacion": "Anuncio entre partidas. Anuncio con recompensa: limpiar el tablero."
+      },
+      "puntuacion": {
+        "tendencia": 3,
+        "competencia": 2,
+        "viabilidad1Dia": 4,
+        "potencialViral": 2,
+        "seEntiendeEn3s": 4,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 21,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "alta",
+      "conclusion": "NO APTA: 21/35, por debajo del corte: familia bloques/match saturada (Block Blast); sin giro nuevo.",
+      "motivo": "NO APTA: 21/35, por debajo del corte: familia bloques/match saturada (Block Blast); sin giro nuevo."
+    },
+    {
+      "id": "rompecabezas-relax",
+      "titulo": "Puzle de la Foto",
+      "tituloEN": "Photo Jigsaw",
+      "genero": "Rompecabezas",
+      "gancho": "Monta el puzle de la foto pieza a pieza, sin prisa.",
+      "porQueFunciona": "Boojigsaw: Halloween Puzzle sale el 20/11 de un editor de 121 M de instalaciones.",
+      "datos": [
+        {
+          "dato": "Boojigsaw: Halloween Puzzle: nuevo el 20/11/2026 de un editor con 121 M de instalaciones en 39 títulos",
+          "fuente": "https://playstoreradar.com/signals"
+        },
+        {
+          "dato": "Playgama tiene puzles de piezas (Cozy Jigsaw Puzzles) en los resultados de búsqueda",
+          "fuente": "https://playgama.com/search?q=plumber"
+        }
+      ],
+      "competencia": "media: hay rompecabezas en Playgama.",
+      "potencialViral": 1,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Un puzle por sesión, minutos sin tensión. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "19/35, por debajo del corte: sin fallo ni tensión, sesiones lentas y nada viral; no encaja en anuncios entre niveles.",
+      "nombre": "Puzle de la Foto",
+      "fecha": "2026-11-24",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 24/11/2026 08:00",
+      "analisis": {
+        "tendencias": "Móvil: un lanzamiento sin cifras de breakout. Sin señal en Playables ni en Playgama.",
+        "hypercasualQueFunciona": "Relajación sin fallo: encajar piezas.",
+        "fuentesHypercasual": [
+          "https://playstoreradar.com/signals"
+        ],
+        "competencia": "Media: rompecabezas clásicos en web y móvil.",
+        "viabilidad": "Alta en un día: piezas con encaje magnético y foto de fondo.",
+        "potencialViral": "Muy bajo: montar un puzle no se graba como un momento.",
+        "se_entiende_3s_sin_texto": "Sí: arrastras la pieza a su hueco.",
+        "adictivo": "Colección de fotos completadas; sin reto ni curva.",
+        "monetizacion": "Poco sitio: un puzle dura minutos y no hay pausa natural entre niveles."
+      },
+      "puntuacion": {
+        "tendencia": 2,
+        "competencia": 3,
+        "viabilidad1Dia": 5,
+        "potencialViral": 1,
+        "seEntiendeEn3s": 5,
+        "adiccion": 1,
+        "monetizacion": 2,
+        "total": 19,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "media",
+      "conclusion": "NO APTA: 19/35, por debajo del corte: sin fallo ni tensión, sesiones lentas y nada viral; no encaja en anuncios entre niveles.",
+      "motivo": "NO APTA: 19/35, por debajo del corte: sin fallo ni tensión, sesiones lentas y nada viral; no encaja en anuncios entre niveles."
+    },
+    {
+      "id": "rompe-el-planeta",
+      "titulo": "Rompe el Planeta",
+      "tituloEN": "Smash Planet",
+      "genero": "Sandbox de destrucción",
+      "gancho": "Lanza asteroides y rompe el planeta a tu manera, sin reglas.",
+      "porQueFunciona": "Solar Smash tiene 34 M de partidas en Playables.",
+      "datos": [
+        {
+          "dato": "Solar Smash: 34 M de partidas en YouTube Playables (n.º 29, 23/11/2026)",
+          "fuente": "https://playables.games/best/"
+        }
+      ],
+      "competencia": "media: Solar Smash domina el sandbox de destrucción.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Sesiones libres sin objetivo. Tiempo real: sin dato.",
+      "elegida": false,
+      "motivoRechazo": "20/35, por debajo del corte: sandbox sin niveles ni estado de fallo (misma objeción que Explota Burbujas ASMR); no llega a 5:00 por sesión ni deja sitio a anuncios.",
+      "nombre": "Rompe el Planeta",
+      "fecha": "2026-11-24",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 24/11/2026 08:00",
+      "analisis": {
+        "tendencias": "Playables: Solar Smash 34 M de partidas; el género existe pero es un solo líder.",
+        "hypercasualQueFunciona": "Destrucción libre con partículas.",
+        "fuentesHypercasual": [
+          "https://playables.games/best/"
+        ],
+        "competencia": "Media: Solar Smash es el referente y no hay hueco de niveles.",
+        "viabilidad": "Alta en un día: planeta, asteroides y partículas; sin niveles ni progresión.",
+        "potencialViral": "Medio: la explosión final se graba, pero no hay reto que compartir.",
+        "se_entiende_3s_sin_texto": "Casi: tocar para lanzar se entiende; que no hay objetivo que cumplir, también.",
+        "adictivo": "Sin niveles, sin fallo y sin progresión: se agota en minutos.",
+        "monetizacion": "Sin pausa natural entre niveles: no hay dónde poner el interstitial."
+      },
+      "puntuacion": {
+        "tendencia": 3,
+        "competencia": 3,
+        "viabilidad1Dia": 4,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 4,
+        "adiccion": 1,
+        "monetizacion": 2,
+        "total": 20,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "media",
+      "conclusion": "NO APTA: 20/35, por debajo del corte: sandbox sin niveles ni estado de fallo (misma objeción que Explota Burbujas ASMR); no llega a 5:00 por sesión ni deja sitio a anuncios.",
+      "motivo": "NO APTA: 20/35, por debajo del corte: sandbox sin niveles ni estado de fallo (misma objeción que Explota Burbujas ASMR); no llega a 5:00 por sesión ni deja sitio a anuncios."
     }
   ],
-  "actualizadoEn": "2026-11-22T08:10:00+01:00"
+  "actualizadoEn": "2026-11-24T08:10:00+01:00"
 }
