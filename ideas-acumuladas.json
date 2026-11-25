@@ -44,7 +44,22 @@
     "https://x.com/i/trending/2121280518641623237",
     "https://www.48hrstrends.com/Spain/this-week",
     "https://www.youtube.com/watch?v=bHDSVowwu5w",
-    "https://www.youtube.com/watch?v=w7kukBWIsCk"
+    "https://www.youtube.com/watch?v=w7kukBWIsCk",
+    "https://icartic.medium.com/review-of-rev-and-download-chart-3-games-and-1-genre-to-track-in-nov-f59325f711c9",
+    "https://gamedevreports.substack.com/p/appmagic-top-mobile-games-by-revenue-c29",
+    "https://www.appbrain.com/stats/google-play-rankings/top_new_free/puzzle/es",
+    "https://www.appbrain.com/stats/google-play-rankings/top_new_free/casual/es",
+    "https://appinsider.io/apps/sort-streak-color-puzzle-6812166638",
+    "https://www.cnn.com/2026/11/20/media/gta-vi-launch-sales-numbers?cid=external-feeds_iluminar_meta",
+    "https://www.appbrain.com/app/merge-garage/com.dolyplay.merge.truck",
+    "http://play.google.com/store/apps/details?id=com.orynex.ringtwist",
+    "https://www.appbrain.com/app/meowdoku-cat-sudoku/com.grove42.meowdoku",
+    "https://purrdoku-cat-sudoku-puzzle.en.softonic.com/android",
+    "https://www.appbrain.com/app/forgotten-found-merge-shop/com.forgottenandfound",
+    "https://playgama.com/search?q=sudoku",
+    "https://playgama.com/search?q=bus",
+    "https://playgama.com/search?q=police%20chase",
+    "https://playgama.com/search?q=ring"
   ],
   "aptas": [
     {
@@ -786,6 +801,134 @@
       "vistas": null,
       "enCola": true,
       "genero": "Gestión / tiempo"
+    },
+    {
+      "id": "sudoku-gatuno",
+      "titulo": "Sudoku Gatuno",
+      "tituloEN": "The Cats' Sudoku",
+      "genero": "Lógica / sudoku exprés",
+      "gancho": "El sudoku de siempre, pero con caras de gato en vez de números: completa la fila, la columna y la caja en tableros de 4x4 y 6x6 en menos de un minuto.",
+      "porQueFunciona": "El sudoku con gatos es el breakout de octubre: Meowdoku (Learnings) entró 4.º en descargas mundiales. En Playgama no hay NINGÚN sudoku: hueco total en nuestra plataforma.",
+      "datos": [
+        {
+          "dato": "Meowdoku: Brain Puzzle Games (Learnings): 17,2 M de instalaciones en octubre de 2026, +50 % intermensual, 4.º en descargas mundiales",
+          "fuente": "https://gamedevreports.substack.com/p/appmagic-top-mobile-games-by-revenue-c29"
+        },
+        {
+          "dato": "Nemu: Cat Sudoku Logic Puzzles: n.º 10 en nuevos puzles gratis de Google Play España (25/11/2026)",
+          "fuente": "https://www.appbrain.com/stats/google-play-rankings/top_new_free/puzzle/es"
+        },
+        {
+          "dato": "Playgama: la búsqueda de \"sudoku\" no devuelve ningún juego (25/11/2026)",
+          "fuente": "https://playgama.com/search?q=sudoku"
+        },
+        {
+          "dato": "Los clones pequeños del mismo tema (PurrDoKu, Catdoku, Meow Sudoku) confirman la demanda pero no despegan: el hueco está en hacerlo rápido y para Playables, no en otra app de 9x9",
+          "fuente": "https://purrdoku-cat-sudoku-puzzle.en.softonic.com/android"
+        }
+      ],
+      "analisis": {
+        "tendencias": "AppMagic octubre 2026: Meowdoku 4.º en descargas mundiales (17,2 M). En España, Nemu entra en el top 10 de puzles nuevos. El tema gatos + lógica está caliente; el sudoku clásico no.",
+        "hypercasualQueFunciona": "Puzles de lógica cortos y diarios; Sort Streak (100.000+ descargas/día, breakout noviembre) muestra que el público de puzles quiere rachas y sesiones cortas.",
+        "fuentesHypercasual": [
+          "https://appinsider.io/apps/sort-streak-color-puzzle-6812166638"
+        ],
+        "competencia": "Nula en Playgama (cero resultados para \"sudoku\"). En móvil hay muchos clones pequeños de sudoku con gatos, pero ninguno es el Meowdoku de Learnings; nuestro giro es el formato exprés 4x4/6x6 de 60 segundos con reto diario, no el 9x9 clásico.",
+        "viabilidad": "Alta: generador de sudoku 4x4/6x6 trivial frente al 9x9; gatos como fichas (sin números, menos intimidante); reto diario y colección de gatos. Riesgo: que el jugador que no conoce el sudoku no lo entienda en 3 s. Mitigación: primer tablero 4x4 casi resuelto con la mano oficial y gatos que maúllan al colocar bien.",
+        "potencialViral": "Medio: los gatos tiran en Shorts, pero el sudoku no es espectacular. El momento grabable es el \"¡lo resolví en 20 segundos!\" con el gato celebrando.",
+        "se_entiende_3s_sin_texto": "A medias: quien conoce el sudoku lo entiende al instante (gato en cada fila/columna/caja); quien no, necesita el tutorial del primer nivel.",
+        "adictivo": "Racha diaria, colección de gatos desbloqueables y tableros cada vez más grandes (4x4 → 6x6 → 9x9).",
+        "monetizacion": "Anuncio entre tableros. Anuncio con recompensa: una pista o un gato nuevo."
+      },
+      "puntuacion": {
+        "tendencia": 5,
+        "competencia": 5,
+        "viabilidad1Dia": 4,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 3,
+        "adiccion": 3,
+        "monetizacion": 3,
+        "total": 26,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "nula en Playgama",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Tableros de 30-90 s (4x4/6x6) con reto diario. Tiempo real: sin datos.",
+      "conclusion": "APTA: hueco total en Playgama y género en breakout mundial. El riesgo es la comprensión en 3 s; se mitiga con 4x4 y tutorial con mano.",
+      "nombre": "Sudoku Gatuno",
+      "fecha": "2026-11-25",
+      "nueva": true,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 25/11/2026 08:00",
+      "motivo": "APTA: hueco total en Playgama (cero sudokus) y Meowdoku 4.º en descargas mundiales con 17,2 M de instalaciones en octubre."
+    },
+    {
+      "id": "fusiona-la-libreria",
+      "titulo": "Fusiona la Librería",
+      "tituloEN": "Merge Bookshop: Restore & Read",
+      "genero": "Merge y restauración",
+      "gancho": "Fusiona libros, tazas y lámparas para servir pedidos de lectores y devolverle la vida a la librería de la abuela, estantería a estantería.",
+      "porQueFunciona": "El merge es el género n.º 1 de Playgama en noviembre (Piece of Cake) y Gossip Harbor factura 74 M$/mes. El tema librería no lo tiene nadie: el merge de taller está pillado por un juego llamado literalmente Merge Garage.",
+      "datos": [
+        {
+          "dato": "Piece of Cake: Merge & Bake: n.º 1 en tendencias de Playgama (noviembre de 2026)",
+          "fuente": "https://playgama.com/EN/collections/top-trending-now-games"
+        },
+        {
+          "dato": "Gossip Harbor: 74 M$ en octubre de 2026 (+6 % intermensual), 3.º en ingresos mundiales",
+          "fuente": "https://gamedevreports.substack.com/p/appmagic-top-mobile-games-by-revenue-c29"
+        },
+        {
+          "dato": "Tasty Travels: Merge Game: n.º 6 en ingresos de juegos casuales en Google Play EE. UU.",
+          "fuente": "https://www.appbrain.com/stats/google-play-rankings/top_grossing/casual/us"
+        },
+        {
+          "dato": "Snowpine Lane: Merge & Story: n.º 2 en nuevos juegos casuales gratis de Google Play España; Treasure Rush: Merge to Rich: n.º 9 en puzles nuevos España",
+          "fuente": "https://www.appbrain.com/stats/google-play-rankings/top_new_free/casual/es"
+        },
+        {
+          "dato": "No existe ningún juego \"Merge Bookshop\": lo más cercano es Forgotten & Found: Merge Shop (tienda de antigüedades, 54 instalaciones, nicho)",
+          "fuente": "https://www.appbrain.com/app/forgotten-found-merge-shop/com.forgottenandfound"
+        }
+      ],
+      "analisis": {
+        "tendencias": "El merge domina: n.º 1 en Playgama, top de ingresos en EE. UU. y top de novedades en España. El género no es una moda de una semana, es el formato que más factura en casual.",
+        "hypercasualQueFunciona": "Merge + meta de restauración (local que se arregla con las monedas) es la fórmula de Piece of Cake y Gossip Harbor.",
+        "fuentesHypercasual": [
+          "https://gamedevreports.substack.com/p/appmagic-top-mobile-games-by-revenue-c29"
+        ],
+        "competencia": "Media-alta en el género, baja en el tema: café, taller, granja, juguetes y viajes están pillados; librería no. El título en inglés está libre y no choca con ningún juego conocido.",
+        "viabilidad": "Media-alta: tablero de merge 7x9 con cadenas de libros/objetos, pedidos de clientes y restauración por fases. Más contenido que un arcade puro; en un día sale con cadenas procedurales y 1 librería, sin historia larga.",
+        "potencialViral": "Medio: el momento \"la estantería vuelve a la vida\" es satisfactorio pero poco espectacular en vídeo.",
+        "se_entiende_3s_sin_texto": "Sí: dos libros iguales se juntan y sale uno mejor; el pedido del cliente muestra lo que quiere.",
+        "adictivo": "Merge + restauración visible: cada pedido repara un rincón de la librería; colección de libros raros y clientes habituales.",
+        "monetizacion": "Anuncio entre pedidos. Anuncio con recompensa: energía extra o un objeto raro."
+      },
+      "puntuacion": {
+        "tendencia": 5,
+        "competencia": 4,
+        "viabilidad1Dia": 4,
+        "potencialViral": 3,
+        "seEntiendeEn3s": 4,
+        "adiccion": 5,
+        "monetizacion": 4,
+        "total": 29,
+        "escala": "cada criterio 1-5; total sobre 35"
+      },
+      "competenciaNivel": "media-alta en género, baja en tema",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Pedidos encadenados de 1-2 min; la restauración invita a sesiones largas. Tiempo real: sin datos.",
+      "conclusion": "APTA: el género que más factura, con un tema libre. Primera idea de merge de la lista; el taller se descartó porque ya existe un Merge Garage idéntico.",
+      "nombre": "Fusiona la Librería",
+      "fecha": "2026-11-25",
+      "nueva": true,
+      "estado": "apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 25/11/2026 08:00",
+      "motivo": "APTA: merge n.º 1 en Playgama y 74 M$/mes de Gossip Harbor, con tema librería libre (el taller está pillado)."
     }
   ],
   "noAptas": [
@@ -1257,6 +1400,134 @@
       "elegida": false,
       "origen": "Investigación diaria 15/11/2026 08:00",
       "motivo": "Mecánica de casino (riesgo con las normas), poco espectáculo visual y poco viral."
+    },
+    {
+      "id": "anillos-giratorios",
+      "titulo": "Anillos Giratorios",
+      "tituloEN": "Ring Twist (título pillado)",
+      "genero": "Puzle de anillos",
+      "gancho": "Gira anillos entrelazados hasta alinear sus huecos y liberarlos uno a uno.",
+      "porQueFunciona": "Rotate Rings fue el mayor escalador de octubre (12,6 M de instalaciones, del puesto 199 al 8).",
+      "datos": [
+        {
+          "dato": "Rotate Rings (Nebula Studio): 12,6 M de instalaciones en octubre de 2026, subió 191 puestos hasta el 8.º en descargas",
+          "fuente": "https://icartic.medium.com/review-of-rev-and-download-chart-3-games-and-1-genre-to-track-in-nov-f59325f711c9"
+        },
+        {
+          "dato": "En noviembre salieron 6+ clones del mismo mecanismo: Twist Rings, Ringotate: Twist & Drop, Twisted Turns, Ring Twist: Untangle Puzzle, Rotate Rings: Twist & Unlock",
+          "fuente": "http://play.google.com/store/apps/details?id=com.orynex.ringtwist"
+        },
+        {
+          "dato": "Playgama ya tiene \"Rotate Rings\" y \"Spin the Rings\" en su catálogo",
+          "fuente": "https://playgama.com/search?q=ring"
+        },
+        {
+          "dato": "Circle Release: Ring Puzzle: n.º 3 en puzles nuevos gratis de Google Play España (240.000 instalaciones)",
+          "fuente": "https://www.appbrain.com/stats/google-play-rankings/top_new_free/puzzle/es"
+        }
+      ],
+      "competencia": "alta: saturado en noviembre, con el original ya en Playgama.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles.",
+      "elegida": false,
+      "motivoRechazo": "Saturado en noviembre: el mecanismo (girar anillos para alinear huecos) tiene 6+ clones nuevos y el original ya está en Playgama; el título en inglés también está pillado. Sin giro nuevo, sería un clon más.",
+      "nombre": "Anillos Giratorios",
+      "fecha": "2026-11-25",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 25/11/2026 08:00"
+    },
+    {
+      "id": "atasco-de-buses",
+      "titulo": "Atasco de Buses",
+      "tituloEN": "Bus Jam (saturado en Playgama)",
+      "genero": "Puzle de ordenar / atasco",
+      "gancho": "Ordena a los pasajeros por color en su autobús y desatasca la parada.",
+      "porQueFunciona": "Bus Fever Party! es 6.º en descargas mundiales de octubre con 15,3 M de instalaciones.",
+      "datos": [
+        {
+          "dato": "Bus Fever Party!: 6.º en descargas mundiales en octubre de 2026, 15,3 M de instalaciones",
+          "fuente": "https://icartic.medium.com/review-of-rev-and-download-chart-3-games-and-1-genre-to-track-in-nov-f59325f711c9"
+        },
+        {
+          "dato": "Playgama ya lista: Bus Jam - Sort Escape, Bus Color Jam, Bus Jam Party, Bus Yard: Color Rush, All Aboard: Bus Puzzle y Bus Jam Game 3D",
+          "fuente": "https://playgama.com/search?q=bus"
+        }
+      ],
+      "competencia": "alta en Playgama: media docena de juegos de atasco de buses.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Niveles.",
+      "elegida": false,
+      "motivoRechazo": "Saturado en nuestra plataforma: aunque en móvil tira (15,3 M), Playgama ya tiene 6 juegos de atasco de buses. Sin hueco, no se añade.",
+      "nombre": "Atasco de Buses",
+      "fecha": "2026-11-25",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 25/11/2026 08:00"
+    },
+    {
+      "id": "fuga-en-la-ciudad",
+      "titulo": "Fuga en la Ciudad",
+      "tituloEN": "City Getaway Chase",
+      "genero": "Arcade de persecución",
+      "gancho": "Esquiva el tráfico y a la policía en una persecución vista desde arriba, con la ciudad de neón de fondo.",
+      "porQueFunciona": "GTA VI acaba de romper todos los récords: 3.790 M$ en el primer día, 32,5 M de copias en preventa.",
+      "datos": [
+        {
+          "dato": "GTA VI: 3.790 M$ en ventas el primer día (19/11/2026), 32,5 M de copias en preventa, 99 en Metacritic; el mayor lanzamiento de la historia del entretenimiento",
+          "fuente": "https://www.cnn.com/2026/11/20/media/gta-vi-launch-sales-numbers?cid=external-feeds_iluminar_meta"
+        },
+        {
+          "dato": "Playgama: la búsqueda de \"police chase\" devuelve unos 30 juegos (Police Chase Simulator, Car vs Cop, Extreme Police Chase, Crime and Vice City Police...)",
+          "fuente": "https://playgama.com/search?q=police%20chase"
+        }
+      ],
+      "competencia": "alta en Playgama: unos 30 juegos de persecución policial.",
+      "potencialViral": 4,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Persecuciones de 60-90 s.",
+      "elegida": false,
+      "motivoRechazo": "El tirón de GTA VI es real pero no es nuestro público (GTA es para mayores de 18) y Playgama ya tiene unos 30 juegos de persecución policial; además el tema de delincuencia es arriesgado para las normas de Playables. No se añade.",
+      "nombre": "Fuga en la Ciudad",
+      "fecha": "2026-11-25",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 25/11/2026 08:00"
+    },
+    {
+      "id": "fusiona-el-taller",
+      "titulo": "Fusiona el Taller",
+      "tituloEN": "Merge Garage (título y concepto pillados)",
+      "genero": "Merge y restauración",
+      "gancho": "Fusiona piezas para reparar coches destrozados y devolverle la vida al taller.",
+      "porQueFunciona": "El merge es el género n.º 1 de Playgama y el taller es el tema de Daniel (mecánico).",
+      "datos": [
+        {
+          "dato": "\"Merge Garage\" (Dolyplay Games) salió en noviembre de 2026 con el concepto exacto: fusionar piezas, restaurar coches destrozados y personalizarlos",
+          "fuente": "https://www.appbrain.com/app/merge-garage/com.dolyplay.merge.truck"
+        },
+        {
+          "dato": "Mechanic Town: Merge & Garage: fusionar herramientas oxidadas y restaurar coches clásicos; Merge Motors y Garage Merge Tycoon cubren lo mismo",
+          "fuente": "https://www.voyagehargame.com/"
+        }
+      ],
+      "competencia": "alta: el concepto exacto ya existe con el mismo título.",
+      "potencialViral": 3,
+      "hacibleEnUnDia": true,
+      "duracionSesion": "Pedidos.",
+      "elegida": false,
+      "motivoRechazo": "El concepto y el título ya existen tal cual (Merge Garage, noviembre 2026). El género merge sobrevive con otro tema: ver \"Fusiona la Librería\".",
+      "nombre": "Fusiona el Taller",
+      "fecha": "2026-11-25",
+      "nueva": true,
+      "estado": "no apta",
+      "viralUrgente": false,
+      "origen": "Investigación diaria 25/11/2026 08:00"
     }
   ],
   "actualizadoEn": "2026-11-15T08:10:00+01:00"
